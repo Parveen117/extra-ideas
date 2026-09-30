@@ -44,7 +44,7 @@
       "standalone_document": false
     }
   ],
-  "status": "R1: finite reciprocal scalar transport model, reference-independent returns, conservation criterion, and exact checks; no universal lambda selected.",
+  "status": "R2: Aghora return signs and projection-defect identity added to R1; unique sign and universal lambda remain unselected.",
   "repository": "Parveen117/extra-ideas",
   "visibility": "public",
   "developments": [
@@ -63,6 +63,36 @@
         "reciprocal edge reversal",
         "independent vertex reference changes"
       ],
+      "universal_lambda_selected": false,
+      "physical_validation": false
+    },
+    {
+      "id": "R2",
+      "date": "2026-09-30",
+      "title": "Aghora return law and the effect of a projection",
+      "proof": "03-lambda-reference/AGHORA_RETURN_R2.md",
+      "implementation": "04-operator-evolution/aghora_return.py",
+      "verification": "04-operator-evolution/R2_VERIFICATION.json",
+      "test_count": 15,
+      "validation_status": "PASS_EXACT_FINITE_CHECKS",
+      "source_relations": [
+        "A^2=I",
+        "A G A=-G",
+        "B^2=B"
+      ],
+      "model_choices": [
+        "finite-dimensional real or complex space",
+        "fixed generator G",
+        "flow exp(tG)",
+        "return A exp(tG)"
+      ],
+      "optional_metric_assumptions": [
+        "A is self-adjoint",
+        "G is skew-adjoint",
+        "B is orthogonal"
+      ],
+      "return_eigenvalue_constraint": "r^2=1",
+      "unique_return_sign_selected": false,
       "universal_lambda_selected": false,
       "physical_validation": false
     }

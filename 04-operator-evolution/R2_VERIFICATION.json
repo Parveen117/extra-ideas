@@ -1,0 +1,21 @@
+{
+  "status": "PASS_EXACT_FINITE_CHECKS",
+  "python": "3.12.14",
+  "arithmetic": "fractions.Fraction; exact rational matrices",
+  "tests_run": 15,
+  "failures": 0,
+  "errors": 0,
+  "scope": "Exact finite examples and hypothesis counterexamples. General exponential-flow and projection identities are proved in AGHORA_RETURN_R2.md. No numerical exponential approximation or physical experiment.",
+  "return_eigenvalue_constraint": "r^2=1",
+  "unique_return_sign_selected": false,
+  "universal_lambda_selected": false,
+  "example_inputs_are_chosen": true,
+  "orthogonal_example_compressed_coefficient": "4/5",
+  "orthogonal_example_squared_norm_defect": "9/25",
+  "sha256": {
+    "04-operator-evolution/aghora_return.py": "17e1bb9681f9d5e766c4f294765c1273ba6716a64e8d125196fd36f10fb06e7c",
+    "04-operator-evolution/test_aghora_return.py": "309e9f96914d1fe587f3689e156ec1127c43aee2ec037ca631daa4ada6d2b223",
+    "04-operator-evolution/verify_r2.py": "47c5ac2ef088bdc85542afb0b2747fae0aff3a85b59afc82531cb1e2f4a744a4",
+    "03-lambda-reference/AGHORA_RETURN_R2.md": "9f2bfec1f2c758c8e942660e17ace0e67804b5dff41f23261d4f83171f437ae1"
+  }
+}

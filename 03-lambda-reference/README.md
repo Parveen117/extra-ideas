@@ -34,3 +34,7 @@ Role in the four-route program: the main question about scale selection. Way-4 s
 ## R1 development
 
 [RETURN_INVARIANTS_R1.md](RETURN_INVARIANTS_R1.md) now constructs reference-independent quantities `Lambda_C` attached to specified return processes, classifies the finite scalar model, and proves a conservation criterion. These are computable return multipliers; a law selecting a universal `lambda_*` is still required.
+
+## R2 development
+
+[AGHORA_RETURN_R2.md](AGHORA_RETURN_R2.md) constructs a specified return family from the source Aghora relations. Its eigenvalues satisfy `r^2=1`, while a bond projection can produce a variable effective coefficient. The remaining selection question is to derive the native retained subspace and its relationship to the return, rather than choose one sign or projection by convention.

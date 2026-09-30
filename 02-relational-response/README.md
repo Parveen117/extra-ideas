@@ -29,3 +29,7 @@ Role in the four-route program: connect an algebraic or operator result to a qua
 ## R1 development
 
 [RESPONSE_RETURNS_R1.md](RESPONSE_RETURNS_R1.md) identifies closed-return products and equal-endpoint path ratios that are independent of local references. It also explains why ordinary derivatives along one common tangent give identity returns and why conservation is an additional condition.
+
+## R2 development
+
+[PROJECTED_RESPONSE_R2.md](PROJECTED_RESPONSE_R2.md) shows how a fixed full-return sign structure can coexist with a variable response after a bond projection. The exact defect is algebraic; a nonnegative norm interpretation requires the additional metric assumptions stated there.

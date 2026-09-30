@@ -27,3 +27,7 @@ Role in the four-route program: a clear representation of states and components.
 ## R1 development
 
 [COORDINATE_TRANSPORT_R1.md](COORDINATE_TRANSPORT_R1.md) supplies a finite labelled coordinate model whose edge operators reproduce response paths and closed returns. It uses a specified field; the source's valued-field construction remains a separate problem.
+
+## R2 development
+
+[AGHORA_MODES_R2.md](AGHORA_MODES_R2.md) derives the positive/negative sector split from the source involution. A nonzero Aghora-odd generator needs both sectors, giving a precise reason to extend the scalar model to multiple modes.

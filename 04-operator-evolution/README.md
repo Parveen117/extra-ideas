@@ -41,3 +41,13 @@ python3.12 -B 04-operator-evolution/verify_r1.py
 ```
 
 [test_response_transport.py](test_response_transport.py) checks return invariance, reconstruction, operator composition, multiple cycles, conservation rates, and counterexamples. [R1_VERIFICATION.json](R1_VERIFICATION.json) records the result. The general proofs and scope are in [RETURN_INVARIANTS_R1.md](../03-lambda-reference/RETURN_INVARIANTS_R1.md).
+
+## R2 development and reproduction
+
+[aghora_return.py](aghora_return.py) supplies exact rational matrices for the Aghora return and bond projection. It evaluates nilpotent exponentials and a separately identified rational reversible family. No approximate matrix exponential is used.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r2.py
+```
+
+The 15 [focused checks](test_aghora_return.py) cover the return identities, both sign sectors, projection defects, reference changes, and counterexamples when hypotheses are missing. [R2_VERIFICATION.json](R2_VERIFICATION.json) records the run. Read [the proof](../03-lambda-reference/AGHORA_RETURN_R2.md) for the distinction between algebraic identities, optional norm statements, and the unresolved native selection law.

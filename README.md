@@ -17,7 +17,26 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
-## Latest development: R1 return invariants
+## Latest development: R2 Aghora returns and projection
+
+[R2: Aghora return law and the effect of a projection](03-lambda-reference/AGHORA_RETURN_R2.md) uses the manuscript's `A^2=I`, `AGA=-G`, and bond projection. With the stated specialization `U_t=exp(tG)` and constructed protocol `R_t=A U_t`, it proves:
+
+- `R_t^2=I`; the return is similar to `A`, so its eigenvalues remain in `{+1,-1}`.
+- A nonzero odd generator requires both Aghora sectors and at least two modes.
+- A bond selects one sign only when its retained space lies in the corresponding return eigenspace.
+- The projected return satisfies the exact identity `B-(BR_tB)^2=BR_t(I-B)R_tB`.
+
+Under the additional orthogonality and adjoint assumptions stated in the proof, the last expression is a nonnegative squared-norm defect. A rational example has full-return signs `+1,-1`, a projected coefficient `4/5`, and omitted squared norm `9/25`. Those fractions are illustrative, not universal constants.
+
+Read the [mode construction](01-intrinsic-numbers/AGHORA_MODES_R2.md), [projected response](02-relational-response/PROJECTED_RESPONSE_R2.md), and [exact matrix implementation](04-operator-evolution/aghora_return.py). Reproduce its 15 focused checks with:
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r2.py
+```
+
+[R2_VERIFICATION.json](04-operator-evolution/R2_VERIFICATION.json) records the checked source hashes. R2 supplies a particular constrained return family; the native bond-selection law and a universal value of `lambda_*` remain unresolved. The constructed return is not yet identified with the source's full six-stage closure.
+
+## R1: reference-independent return invariants
 
 [R1: Reference-independent return multipliers](03-lambda-reference/RETURN_INVARIANTS_R1.md) constructs a finite scalar transport model joining the four routes. It proves:
 
@@ -50,7 +69,7 @@ The unrestricted four-way equivalence remains a proposal. R1 now supplies an exp
 
 ## Selection milestone
 
-R1 specifies a model, its reference changes, and its complete return invariants. Next derive a native return law that fixes a distinguished invariant across admissible systems. Give its existence and uniqueness proof and a response prediction that could distinguish it from competing choices. Invariance under reference changes alone does not imply a universal or conserved value.
+R1 specifies a scalar model, its reference changes, and its complete return invariants. R2 constructs an involutive operator-return family from the source relations and identifies how a bond can change its observed response. Next derive the bond or seam selection law: determine whether it selects a sign sector or fixes a specific noncommuting projection. Invariance, conservation, and universal value selection remain separate claims.
 
 The name `lambda` currently serves several roles. Use `lambda_*` for the fixed reference, `chi_XY` for a response derivative, `gamma` for a decay rate, and `epsilon` for observational resolution until a theorem relates them.
 
