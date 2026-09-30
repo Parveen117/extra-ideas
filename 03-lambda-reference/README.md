@@ -27,7 +27,7 @@ Do not identify these models without a map and its hypotheses. If coefficients a
 
 ## Next target
 
-Use [IDENTIFIABILITY.md](IDENTIFIABILITY.md) as the first proof obligation. Derive a native relation that selects a dimensionless invariant, establish its uniqueness, and connect it to a response observable. A spectral ratio or return invariant is a candidate class of objects to investigate, not a value already obtained by this draft.
+Complete the tensor foundation first. [R7](../02-relational-response/EMK_TENSOR_CALCULUS_R7.md) proves why metric return does not determine full carrier/sheet return and why the full two-mode R/K flow needs an explicit metric policy. Lambda selection remains governed by [IDENTIFIABILITY.md](IDENTIFIABILITY.md); no universal lambda follows from the tensor notation or rank-parity theorem.
 
 Role in the four-route program: the main question about scale selection. Way-4 supplies tools for addressing it and Way-2 supplies its response interpretation.
 

@@ -20,7 +20,7 @@ Construct the associated graded algebra through quotient spaces rather than decl
 
 ## Next target
 
-Define the native state algebra and its admissible morphisms. Identify a structure beyond ordinary coordinate bookkeeping that is preserved by the maps to Way-2 and Way-4.
+Use [R7's admitted carrier and scalar layer](../02-relational-response/EMK_TENSOR_CALCULUS_R7.md#2-admitted-scalar-and-carrier-layer) to keep intrinsic states, scalar coefficients and KIR operators distinct. Tensor slots are now explicitly typed; nonlinear/partial UGD or morphic states still require a representation theorem before they inherit multilinear operations. The next algebraic obligation is that representation and its admissible morphisms.
 
 Role in the four-route program: a clear representation of states and components. See [the shared assessment](../ASSESSMENT.md) for explicit counterexamples and repairs.
 

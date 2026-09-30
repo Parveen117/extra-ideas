@@ -44,7 +44,7 @@
       "standalone_document": false
     }
   ],
-  "status": "R6: supplied coefficient error intervals enclose recoverable positive depth products and native future response bounds; unresolved positivity and incompatible profiles are distinguished.",
+  "status": "R7: typed EMK tensor algebra and finite calculus; rank-parity closure diagnostics and the two-mode continuous R/K fixed-metric obstruction are proved and exactly checked. Physics follows a separately admitted direction and metric sector.",
   "repository": "Parveen117/extra-ideas",
   "visibility": "public",
   "developments": [
@@ -208,9 +208,46 @@
       "unseen_tail_retained_in_prediction": true,
       "universal_lambda_selected": false,
       "physical_validation": false
+    },
+    {
+      "id": "R7",
+      "date": "2026-09-30",
+      "title": "Typed EMK tensor foundation before physics",
+      "proof": "02-relational-response/EMK_TENSOR_CALCULUS_R7.md",
+      "source_audit": "02-relational-response/EMK_VAULT_SOURCE_AUDIT_R7.md",
+      "implementation": "04-operator-evolution/emk_tensor_calculus.py",
+      "verification": "04-operator-evolution/R7_VERIFICATION.json",
+      "source_pins": "04-operator-evolution/R7_SOURCE_PINS.json",
+      "test_count": 16,
+      "rank_variance_signature_count": 30,
+      "unchanged_upstream_source_count": 3,
+      "vault_retrieved_source_count": 143,
+      "vault_recovered_core_tex_count": 43,
+      "all_vault_sources_read_in_full": false,
+      "validation_status": "PASS_EXACT_TYPED_EMK_TENSOR_CHECKS",
+      "assumptions": [
+        "central characteristic-zero scalar field; exact Q implementation",
+        "admitted named finite-dimensional carriers and their duals",
+        "invertible ordered transport; projectors are separately typed maps",
+        "integer direct-product winding sector and preregistered lawful ledgers",
+        "optional smooth sector requires differentiable base and bundles"
+      ],
+      "results": [
+        "finite KIR tensor lift has rank-dependent central parity",
+        "full standard two-mode continuous R/K flow has no nonzero fixed symmetric metric",
+        "traceless native flow preserves an alternating area form",
+        "tensor return, carrier return and sheet closure are audited separately",
+        "finite curved derivative square and Bianchi cancellation are exact"
+      ],
+      "general_classical_tensor_calculus_newly_discovered": false,
+      "native_metric_policy_selected": false,
+      "smooth_analytic_existence_certified": false,
+      "universal_lambda_selected": false,
+      "physical_validation": false
     }
   ],
   "lineage_assessment": "CROSS_REPO_LINEAGE.md",
   "r5_lineage_addendum": "03-lambda-reference/PROFILE_RECOVERY_R5.md#7-lineage-and-what-is-added",
-  "r6_lineage_addendum": "03-lambda-reference/INTERVAL_PROFILE_RECOVERY_R6.md#implementation-evidence-and-lineage"
+  "r6_lineage_addendum": "03-lambda-reference/INTERVAL_PROFILE_RECOVERY_R6.md#implementation-evidence-and-lineage",
+  "r7_lineage_addendum": "02-relational-response/EMK_VAULT_SOURCE_AUDIT_R7.md"
 }

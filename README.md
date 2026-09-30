@@ -17,7 +17,25 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
-## Latest development: R6 recovery with coefficient error bars
+## Latest development: R7 EMK tensor foundation before physics
+
+[R7: A typed tensor foundation for EMK](02-relational-response/EMK_TENSOR_CALCULUS_R7.md) develops tensor algebra, transport, derivatives, seam blocks, finite integration, curvature and metric compatibility on the existing native KIR carrier. The [Vault source audit](02-relational-response/EMK_VAULT_SOURCE_AUDIT_R7.md) distinguishes existing work, corrected claims and remaining assumptions. It indexes 143 source files, including all 43 recovered EMK core LaTeX files, with explicit reading depth rather than claiming every file was read in full.
+
+Three load-bearing distinctions are now precise:
+
+- Even-rank tensors cannot distinguish carrier transport `I` from `-I`; a metric can return while a vector does not.
+- On the standard real two-mode carrier, both continuous R and K flows cannot preserve a nonzero fixed symmetric metric. Their shared traceless transport preserves an alternating area form; metric selection remains a separate task.
+- Tensor return, full carrier return and independent sheet winding are different closure checks.
+
+The [exact implementation](04-operator-evolution/emk_tensor_calculus.py) passes 16 focused tests, including all 30 rank/variance signatures at ranks 1–4. Three unchanged public EMK source modules are consumed directly. The verifier also preserves all recorded R1–R6 hashes:
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r7.py --publications-root ../Publications
+```
+
+See [source pins](04-operator-evolution/R7_SOURCE_PINS.json) and [verification evidence](04-operator-evolution/R7_VERIFICATION.json). Classical tensor/bundle calculus already has rotation and holonomy; R7 specifies the EMK representation and recognition/ledger policy rather than claiming those general operations are new. The next foundation step is native direction/soldering and metric policy before torsion/Ricci and physical applications.
+
+## R6 recovery with coefficient error bars
 
 [R6](03-lambda-reference/INTERVAL_PROFILE_RECOVERY_R6.md) encloses recovered depth couplings when the calibrated response coefficients come with supplied uncertainty intervals. It returns the certified prefix, stops at an undecided positive product, and distinguishes that situation from a coefficient box incompatible with any positive profile of the requested depth.
 

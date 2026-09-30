@@ -1,0 +1,1386 @@
+{
+  "schema_version": 1,
+  "development": "R7",
+  "date": "2026-09-30",
+  "scope": "Tensor, metric, transport and sheet foundations; no physical validation",
+  "vault": {
+    "repository": "Parveen117/EMK-UGD-Provisional-Vault",
+    "snapshots": [
+      {
+        "branch": "master",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd"
+      },
+      {
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478"
+      },
+      {
+        "branch": "agent/emk-theory-completion",
+        "ref": "55518c9f3f45ccfbdb7d885fff32abb4f5408686"
+      }
+    ],
+    "retrieved_file_count": 143,
+    "current_file_count": 74,
+    "recovered_core_tex_count": 43,
+    "read_depth_counts": {
+      "FULL_FOUNDATION_BODY": 18,
+      "TARGETED_BODY_AND_OUTLINE": 32,
+      "OUTLINE_AND_SELECTED_PASSAGES": 28,
+      "RETRIEVED_INDEXED": 65
+    },
+    "all_vault_files_or_branches_read_in_full": false,
+    "source_bodies_copied_into_public_repo": false,
+    "files": [
+      {
+        "path": "11_ARXIV_PUBLICATIONS/branch_cut_with_curvature_inclusive/main.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "feea307e1672d2905a8cd4223458f81ffe0c1e3c",
+        "sha256": "8c64d7cc19f6b3acd7fe4d989693f38d4e00dd7aff048e30621b896b75f15b63",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/branch_cut_with_curvature_inclusive/main_body.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "c6d93b0da1447ec9f7d407802cdeaee9ab1acff3",
+        "sha256": "5e7190d687ea37dec8ce4c0cb0fd643f59be23c2754a3909276d6c4f18708be7",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/branch_cut_with_curvature_inclusive/sections/SECTION_DISCRETE_SINE_CORRECTION.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "0c6738677e69038e9c5b27c6e856e7526f1ac28a",
+        "sha256": "c7d04890839a1ad78ad9059b2f186cef082a507f09a6b3756e87ddf829f0bb62",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/BUILD_TRIGGER.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "0c0ee5087709e95a32c2b9e7174bf71f7d050630",
+        "sha256": "39281038d24386e03f7448f29ac158287cae802396d97125e76bb0bc5f167963",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/README.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "d36c37e793750db166c0488974a1bf2b6e698fd7",
+        "sha256": "fb6107c3872fd3db609255476f8c58a445b0734a40ec563b2782bb30d0ad4ec0",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/STEP_2_STATUS.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "40a39ecfcef8228f99d54aa968fdfce3a3a9c48c",
+        "sha256": "5b22bcf41dc64674c4fa90546f2bb03ebe8a8c334264ab220e2d562493fa8c5a",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/STEP_3_STATUS.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "dd4b18cd20e88778b596559a53ddc9897cd96417",
+        "sha256": "9f5d5309a8fe568495837c9303220f921047b420dc2fb49030e13a1d84090e69",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/STEP_4_STATUS.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "e691ff7c32e1c0bfc41389f0ab7f19dab47ad672",
+        "sha256": "2b48137366a3baf2319e8a4e6ec9249af3908cddfa02154c1c4c66a0eb18d795",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/arxiv_main.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "afdcf5840680b650809e4cfc9fa68878f8fcbe1b",
+        "sha256": "72ef94d594474f2ade3e9f8a237444a4cc4a0704d9ada6f1427447ac1ee5761c",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/arxiv_main_v06.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "e104d9714bf4dc2f522badd25f158999a50c34ee",
+        "sha256": "388b2dc2fe995316a9fa74a907c8a82dba266af6fac4aaeb3cca66f3091c4ee3",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/arxiv_main_v07.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "8dcf6a9beecb2ee7ac1e4b28c0bb94e145db258e",
+        "sha256": "d9b611dac38b617ad05e8882fd451261e14ded6ac6a6eb1dbe1b3c595ab4c574",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/arxiv_main_v08.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "94417e29b306da07c1fd8507334c3dc928a27f16",
+        "sha256": "dc142fac76fa9884e516721ae09d6e78aa9d1b44b292199c908799b76e31290a",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/arxiv_main_v09.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "ae383a56135f15a78345164f707a0000e541c6bd",
+        "sha256": "222cf6cf5a7e967020cbf3d2810e5cae27909f39b222427c4e89a373a9c04050",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/main.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "8ce2127dab5761a2b96c90f8feda02998dcbc62a",
+        "sha256": "1e54ef2981d6dcc39c8ba1856b13fe2ee8bc866f32634fe9f4f8451214f4d9f7",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/sections/base_bundle_and_ledger.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "8bd17fe6fec8e620bac6fc45a2658b6ae60b527b",
+        "sha256": "8c32efffa2d84a51015fcf4ed0c0e726d3d8ccee1170425918f4fde43e9bc06f",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/sections/generalized_euler_phase_ratio_space.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "49550fd2ce666529a9b4d1ea02ef8ef7ffc22cfc",
+        "sha256": "979c3a4627364b0e3b94cf9eb66a7604982b1d9cf52c6cfda0a28e167e12698a",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/sections/global_quotient_holonomy.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "849cb0541cd9f1637860d2ec0ed55b0abed5ea87",
+        "sha256": "7ed56639536761d4fcc033e3559ace8dd7ecd35286f332086994d12baca2bf60",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/sections/helical_sheet_memory.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "e9a7191c2f1172c0afd22b38fdff39760ab15393",
+        "sha256": "195e26c25efe76db2138a839205d1c689a82d26427c2225d0d92a5376b4eb385",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/sections/lambda_thermodynamic_bridge.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "40580b2533fcdccccab1dedf005a512fcbd64439",
+        "sha256": "7546875100edfa3803dae252321ed448c11245ebef5d423db853da3f635657be",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/sections/off_diagonal_curvature_filter.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "e0d5c65883de55265f3034a390947cb3de6102d0",
+        "sha256": "0c97680d8761c22d65ae142ff2632a060e0786560221f9e15371480fe848ee20",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/sections/presentation_commuting_diagram.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "616b61b4307ff0de7765ca48d735efad43381de8",
+        "sha256": "c3fd6420491c4b8f0aae8aad7e1e93d55ed52258f5914aa6adf43e2cc9bf819d",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/sections/rotational_seam_metric.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "36d951a22efdc51dc5ff56e4b27bbd730ad6ab03",
+        "sha256": "9a2dd7b5d89afa97b46e9440e3fb5365211a4877fa3f44eed3482268963a2a2e",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/sections/thermodynamic_worked_cycle.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "50dd0a643d01d77ae6bcf9928e641dccbb5ac36a",
+        "sha256": "7fae6d601f29ba05124b4f9f736839773a3b0bc9bd194ab66edb04e9363459be",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/sections/ugd_phase_scale_seam_geometry.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "d02a0b415788c64142aa0502419b1a747cb9fff6",
+        "sha256": "6c514b26e8229e9a60c8f4223f4a84879c69fd5d8385fa8eea76a812ea42e3cc",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/sections/warped_metric_to_ugd.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "92996c909cad40a63b7f65ecac3b99c6371a80ee",
+        "sha256": "44d9b817a049830da1066e7570ad3f17c5cf2dd91c5cb14fb35c4f1cab856ea1",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_ugd_recognition_geometry/sections/worked_examples_and_status.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "30f2de2f4bf3c25224c1a89aa0f617a5d5428318",
+        "sha256": "73cd545c51b0c3bc610f8e61f8471240c8b31011f5369c7dd6d3f6d5a93509ef",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/CONTINUOUS_EXTENSION_SELECTION.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "9ae460c70f7a94ae8e409c0b5d3ae6f419e6f58d",
+        "sha256": "590fc8a4e15de9c089d52e212f6335f8abf6b41c2fee2586eb503a3224cc5f97",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/README_COMPILE.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "9315882703a3806eb358b436b983addb3d3c62a4",
+        "sha256": "d991ee5b44af05cd3feccb64b02e8764bc66f282ef99fcc2099f46229f0238fd",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/SOURCE_EXTRACTION_PLAN.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "25dbf73cfbe3de1276b5ed817dd642e704dc4d61",
+        "sha256": "e41ac2dad6292598a3f0d3303ad9d8b3b663db2572ad5460aa73f0ebf3405f35",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/SOURCE_INTEGRATION_LOG.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "389ef0912690280d489156ee700d0969cd599e59",
+        "sha256": "7254c9701a541200c97b4fc069c871876dfebe273a4d12e6aac059c8f5466ac1",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/appendices/APPENDIX_DISCRETE_HOLONOMY_FABRICS_AND_RECOGNITION_STOKES.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "f3b5e506da3b08b0714c7733cd33bf829be7aa39",
+        "sha256": "c4e91429a71dbf552a15ea9130c56da37eb50560d00f0c58ad341e8f07da608c",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/appendices/APPENDIX_EMK_ALGEBRAIC_CORE_DETERMINANT_SEAM_LADDER.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "9006cd8c94b28952c8defadd32dbf19385234d86",
+        "sha256": "f41f9e700118eff9eed6d3d5505971d6b2f431122ee2dc5b07157a8726ca72e7",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/appendices/APPENDIX_EMK_MASTER_TENSOR_AND_TIME.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "6d4a37ebda6b4a7a78cce4ff64b9eb63d25042e6",
+        "sha256": "0227e67b50318fc4dbb22e1e666cd777faf9280a41d976da55f155b34fd1a344",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/appendices/APPENDIX_EMK_TOPOLOGY_RIGOROUS.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "9b320dc110f5fa147eae7f18a597bc5f39616ecf",
+        "sha256": "bc97122abb42379d3faf824c0b11907aaeac4972fbb41998a43ac381876e050b",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/appendices/APPENDIX_GENERALIZED_EULER_INFORMATION_CURVATURE_DUALITY.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "eb4cc4676082d4c297c480a3c67f11c2c2c327d2",
+        "sha256": "250d9063095d56d39a67b78bea4f1a4f7e022ce1148d7973d2a7de9dc9bd22b6",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/appendices/APPENDIX_INPUTS_NEW_EXTENSIONS.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "f4a6f5e044848b6c8379d45778b09eb6ca588dd3",
+        "sha256": "333b2b4f7b1ff9c717586031697fa4a648f15f62f2f0bfa0ec816b8c42cfc0ed",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/appendices/APPENDIX_LAMBDA_SEAM_UPLIFTMENT_AND_PATH_INDEPENDENCE.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "1b5b0abb81f7ccf07f2e40b1d84c6bef41d6844a",
+        "sha256": "4e76e141928f204df6dfff99eb831da281fea9b0a42492e9cda39375db2db27b",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/appendices/APPENDIX_RECOGNITION_OR_RESIDUE_MASTER_THEOREM_AND_INVARIANT_TOWER.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "85ba0b4b1a95e55110cee0ffd292a98d18120728",
+        "sha256": "d048e2db2b4b8e040c3fa15b192b52b08f0616440cb5464d3732d92a5baa29d1",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/appendices/APPENDIX_SEAM_COMPENSATED_NORMAL_FORMS_AND_CONFLUENCE.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "7799376ecfd418fe07a92094beb9d55abdfe67fd",
+        "sha256": "200bb0fe00a3d41b0edcaf1808f98ded8e3f4819d33b348f3efed4f83e23b0bb",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/appendices/APPENDIX_UGD_ALGEBRAIC_OPERATORS_AND_BRANCH_SEAMS.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "3f4a96bc5f513f2fff55d68c81ca1829e0cdd54e",
+        "sha256": "4f19d5ba003ab72bf98fd376821124781b648ade443359a128ea3f72f3cea88b",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/appendices/APPENDIX_UGD_CONSTITUTIVE_LAWS_CALIBRATION_AND_SEAM_IMPLICIT_FUNCTIONS.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "eaf45c0d63dd318d13063a13b716117506d7002a",
+        "sha256": "1e0028d1051594376aeceaff296c4ebdfc405e20ef3be742011a093c3fbaaec0",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/appendices/APPENDIX_UGD_CORE_CUT_ZERO_OPERATOR_NUMERALS_AND_STRUCTURAL_LOGIC.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "3a7bb86f803c38ad9faf7e07cae57f10c63d1b14",
+        "sha256": "12787243d07fb8a31cc93b2da937d2f4ce0d2ba858ec6fc4d778017a6e2cef54",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/appendices/APPENDIX_UGD_K_CURVATURE_INDEX_AND_COHOMOLOGY.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "805de4a5d6ae27dd0e32430b5bcc2c35e24c9df8",
+        "sha256": "c39a71bc6c269d62b78e73125674783972bcd2bd7da994dbcf1f15efbf4cd254",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/appendices/APPENDIX_UGD_PHASE_SCALE_SEAM_ENGINE.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "5e4312c21558542f96e3bc3a7f28f7f13f064895",
+        "sha256": "5e50aaaf46d2ef2b084b476a787f5eac68b67eb22be91438b664a622e735cb9b",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/recognition_seam_calculus_master/main.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "d1f7050df5951f05afb53d13eb4c6158cafecc74",
+        "sha256": "b9eb49952857013898f468e87e6f41ee5395b6b4b3c5359b7c5b432a01292d5a",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/ARCHITECTURE_V0_5.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "4ce4a6742a4be368343a9316c942a4ecbcb7abb4",
+        "sha256": "70813682fe909e9bc071b4faaefba2d3c38541be0c56ffb8bafd578beef9d17a",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/HILBERT_DERIVATION_PLAN.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "3ba748cf09ebdaf2ca9a6097395f3b7fd103f214",
+        "sha256": "31fb34a43814e4865972733e85c489e98abe9ad9b5271dcdff3eec95f3f1f0ff",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/OUTLINE.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "5d08e6d528640c84824bdad3ca70fd8489d95a46",
+        "sha256": "0c69bca28a0d0a83bad9d45e3093d04a55fb72cb24d363b25da370b70c5ac359",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/README_ARXIV_SUBMISSION.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "f144ba5044ef1b971da00ad766daaee53c5a570d",
+        "sha256": "c43cd7d231d07aad15d63fad1c739e6bbb4fe988ecb89688b4cce67a6306edb0",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/README_DRAFT_SCOPE.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "040973647b59150cafcf9e8d35ecf57d4018baaf",
+        "sha256": "1ca4384afa9734309af62b235d2c4470ed5d3877b87cfa828d367662c43097e0",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/RIGOR_AUDIT_V0_1.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "c2609980e5855f0d10f79ac288035ef81154b91b",
+        "sha256": "7cba7b51043f97427d0d57e3d758fe7e8bb5f344534d29d04c35b5cbd89c5444",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/RIGOR_AUDIT_V0_2.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "b1648f688cea5a383f48d66fd1d6042efff5f5c9",
+        "sha256": "519866f5ddb4f3081aac61d25c67aa8a4506179eb840b437497c96ad29ccb914",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/RIGOR_AUDIT_V0_3.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "5bd167e40d880ecde66c02e85eb08f2f1b9c0c50",
+        "sha256": "3245f89915515b6ad911c703b6c0c48749dd938da75b7ef8c8fd390c883491b0",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/RIGOR_AUDIT_V0_4.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "043edfb50e404bb822e5a8d7e9c53accf86e5bef",
+        "sha256": "5579da5fa4d180bedebd9b49003f9df4189ff73f67bcab65660d9608ee6335e9",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/RIGOR_AUDIT_V0_5.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "fec40d502ba6ef8a319819f99a652569efff598c",
+        "sha256": "10889491903eeba9fc1ec2950b44c2d4e5c4d37fac3ae137baee32f44ca52f1d",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/RIGOR_AUDIT_V0_6.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "0e6dbead3a68788c0d860bce378c2dd63217754d",
+        "sha256": "b365ee7911383d7ac76a83f39487b7e9da2cd26bfc88ea01df27d3b0c73c5184",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/STATUS.md",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "1415b711f668d3e4669b425ff0ebc80c5e66cff6",
+        "sha256": "627d7b65e663e45381d927ccd0f4fa2ab07f7910e0957b7a14633fe42272d3f5",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/main.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "638acb52a68615ffbe8c1d191df508d32e4117ee",
+        "sha256": "d0ad3b35540ed224ed2d7ef5a3db5b2034fc5098e9239ab23538acdbcc7cd4a5",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/references.bib",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "12925a0e656fd77a47eb8b8f9562a2a13667987d",
+        "sha256": "a9be381c6f84f03468820fa6577715fd9eb1412cddc93f76cb2dbf23b5b7c0f5",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/references.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "a1c75a0f4e25da1f97926599fd7491cf96684d45",
+        "sha256": "8881555e740849dc847f1ca58f30bc17680f453fe75314caac74781c68f36067",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/sections/00_frontmatter.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "4b10a36d4f17e9c3df937e3f6d6273f49a1edec0",
+        "sha256": "09b4a1db1f76180e14108cf2d923bb2dee30ba091f6a64dc2e5d5047a0bbb92c",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/sections/01_foundations.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "191950388322e2590f311260f25443376ea6f0f9",
+        "sha256": "6cfad7a7aa7081fe33a56400c0230bd693e3a31c5127ab43fa011012ee6e2c3a",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/sections/01_related_work.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "681d4bf90e73bcd06af4d63c0067468ca890ebfe",
+        "sha256": "b4e4a6e85262a6aafaed5d2ff53b8c5605bce94f216ef4b6d9803be245cd4b5b",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/sections/02_composition_and_gauge.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "cf172df0125423d509a0775f2d07ed5ae4fbf2ca",
+        "sha256": "d7b28297d155e737f0010248e55472b7a989463a58e57d833a5080cc547b14b9",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/sections/03_clocks_and_blindness.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "1d17fcad390d9d3bc7f6b92e740617237f47536e",
+        "sha256": "ce02013cd18d97968cd4fd250ef064e94f2f547c9896e68f5541d62ef4e3aedb",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/sections/03_phase_seam_configuration.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "4608a6867e7150641b8601aa33eee1a55baee627",
+        "sha256": "da6c77e6d2e40dc827e61bc93753016b049d29ce0b32d5cbaed2b497b73f7056",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/sections/03_phase_seam_holonomy.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "b763ab4bf6986501d20016752be776985e1e31c3",
+        "sha256": "f455fcfa4a94e36ed52f76bd37d620b7fd71685ab44d3313879a320ff0936d64",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/sections/04_algebra_calculus.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "0fffb9372c1a923b8eac255a804ee07dafabecca",
+        "sha256": "74920b7d21208ee367e25c8ec85b0ea1a571a953edd07c1f6e91a80cc539b4da",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/sections/04_target_blind_transport.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "cf00d650b1cb06c6a2e6f657e2a31bd3972ed13e",
+        "sha256": "65ce17473f5d761fe57c778b8c4d409b812762f3870dc839590bc995add0a2ae",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/sections/05_boundaries_and_conclusion.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "da4caec9545202eb7e749faaf8610d5d108a4f6c",
+        "sha256": "3e4f0d67e3a1e2b89eb41f06d7e395ed177b86902a67ebf1097702f5fd6fe510",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/sections/05_completion_stability.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "6537833d9fabc193d328fea19bf2f0ca9f52fd96",
+        "sha256": "25c46362df29ef83f34ba43f6464ef5083d90aac0b5981e0103140f2e5e56298",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/sections/05_decoder_and_banach_repair.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "d123ddceb0675a2b0a8094831d18971d59a99712",
+        "sha256": "73fbc8460c1f32bfdbda1626eb2cc5d8cb521959e2f12a674756b1f715647d00",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/sections/06_examples_and_calibration.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "61f0e4b93ebaf8ea5f26e5aea031c83c4bd47582",
+        "sha256": "e8045a244db1fe4b16c83a3a5fcf8ae7f618e4e2efba8dd7c3ca56d5062cd1da",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/rsc_clock_free_differentiation/sections/06_precursor_embedding.tex",
+        "ref": "7e89daed803570ab93f68a2cb636d4f8091000cd",
+        "branch": "master",
+        "git_blob_sha": "93632d1caec10826f10acd1c4638bb01850833a5",
+        "sha256": "bc5a6ebba8094c8d8d60facf5e8d769d31d73da51f575f42115b73feab8209bb",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "master"
+      },
+      {
+        "path": "00_CANONICAL_GITHUB_READING_MAP.md",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "6ef8c0e570a9941dc5432e86ad175c45ec802ff4",
+        "sha256": "43aa628d8ec2bdee5733d79b0f9af55f66b8544d632c7ad286636a10c9a6de0e",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "archive"
+      },
+      {
+        "path": "00_INDEXES/UGD_EMK_Calculus_Idea_Index_2026_06_15.md",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "464876d3a92598b376a29f160cd1bb4963f21206",
+        "sha256": "87151be60264c5cba69189595e090d60554a431da4f81d95defce9dd264765a1",
+        "read_depth": "RETRIEVED_INDEXED",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/A New Class of Transcendental Functions.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "88a3d02da89b955e40997d8e8e1497cd353e55b6",
+        "sha256": "0ff0738e1da2e65af74a07d11058a63f222462a12eb159d887d34025098ef920",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/Additive identity decomposition.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "40977896f234ee371a7eeee532cbdafdcee20793",
+        "sha256": "715c5b0679f359340406957d6dfa72a2bfe16ff3813b9a93a8817e10f5f6faad",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/Analyticity as Path Independence Across All Angular Directions.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "8319fc71842c2d7c9cf504e8ef82c296fdab8c0f",
+        "sha256": "baeae8d73e39a8179f325e920f656522a8b2688418080e591e8a7f68a3e8ec53",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/CORRIOLISES FLUX.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "4e37998ec09d86e51dc1fec8f88fe8a62a861357",
+        "sha256": "484ddadb97d247b4f786610a30910640271d877c8392eafae14b5e6df8a4928e",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/Cut Self‑Adjointness of the Hilbert‑Pólya Operat.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "e7efb8aff07e9d7169a7ddd118baa99efa820cb6",
+        "sha256": "e64f5da823fa9c287f4ad6884543284750b077fc4b513942eba543f9b3a62a6b",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/EMK_1_Recursive_Seam_Tower_Additive_Determinant_Theorem.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "85749b3ced0822c5a1cf0a4032621f6e4d1c016a",
+        "sha256": "058ea9be7f552b5a44fb91c4ceec9ee446e6b94dc36e6c7828a411cd893c1b7e",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/EMK_Cross_Domain_Grammar_Blockchain_to_Device_Lessons_v3_Surya_MockTheta_Clarified.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "9a5727717c320ffa4f6a94411a230fc2582804f2",
+        "sha256": "33d6c1d4fc3402765f796a3f928bdbb9f9634f77dd806fbc8b34bf3edbb98308",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/EMK_Delta_Core_Patch.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "077f1b610b7ca1396b1ed679089da6a6398c6364",
+        "sha256": "9ed721011e2b806e436ffd0330dcbcae864310f395b158c86188f4a8e9fefdb1",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/EMK_Delta_Core_Patch_v2_DeleteSafe.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "f22042448951c173a72f6c88fa4cd40619e1059b",
+        "sha256": "68a16ba0002258164c47152f6c707fd005d75afe9e23e7bcdc9f87fdadacb3ac",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/EMK_Foundational_Core_Patch.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "fb84b5adbc9ab24adb2ebe20a933be0c16df2055",
+        "sha256": "8338df5eba8b94451fc16b7056358cb26f8f2533905a23043e8164b949d37fef",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/EMK_RH19_Geometric_Intuition_Seam_AntiSeam_Growth_RH_Journey.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "0e8a6694c7083bff7f317a2aaed8d0c6b507f2b5",
+        "sha256": "938a98cb3c30c563b196a227cf6e34299d239754c10aac4cf952db313c1ffc82",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/EMK_Recognition_Residue_Calculus.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "dc57e578c5409b6cb9fccce10a7887dcca6dbff8",
+        "sha256": "2d72b230a9c3d4671016f1c401204a25b8dc5894deaaffb966081d73aae71653",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/EMK_Recognition_Tensor_Calculus_Crown_v1.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "baec5b6998cb1f6e5d2b156d658390617a13c165",
+        "sha256": "0a0e4b56bd61cc9608a0514f2865547b46454d6db48794c5f1ff4df58094a2a8",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/EMK_Recursive_Lambda_Seam_Upliftment_Space.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "4eb4c0c2cb5b0491518ce9fd3c4887097ab5a5f2",
+        "sha256": "281201e5c95ebc45985b1f36f4827b3ae17e3ca3c87215976734e3adf3ca7b7a",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/EMK_Recursive_Seam_Tower_Determinant_Expansion_Examples.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "05398125eb53c7823f7bf84fabf2545736d64e4b",
+        "sha256": "a277e24fa12159543cbc0c780e0e881bb19da8b5da9a61096af80a719a19a0d7",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/EMK_Universal_Center_to_Boundary_Upliftment_Theorem.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "2f9ba1c3cd91f15bba4a7e70b0e3f2f54b461be2",
+        "sha256": "ea5a733cdbbed8e241a708b6bd4076714efec883b0c852d6d6984e74f18a8499",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/EMK_Universal_Lambda_Seam_Upliftment_Center_Closure_Theorem.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "4beceaa42401fb39637c660fccb04be0032c3b5c",
+        "sha256": "abe4658d48b5142633a52f907fe56198066eb2dec11bfcd796b726141659b095",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/LAWS.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "9ac100ac7d31910f0dceeaebe21386930c5aa383",
+        "sha256": "85e41354a6cbbef223b601d2b8e7f24be822ee049922acb7075abcb2d854d6fe",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/Lemda Qft.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "3496095639707ef0ff42ab695491cedc197edce3",
+        "sha256": "d7ad84cd4236f048463e5078342d5b450f8ae5061220510641c635f8c7772e96",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/Morphic algebra complete.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "494605ba14fd9373e9cce18cb45a9afb805dff2b",
+        "sha256": "e3061dc5a4ce7cf096f5d0572f6f4aed89be45faedb456176d2901a10c7f813a",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/Morphic calculus complete.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "4aaaa50436e59f082dc8cd3784e969c8a998ad11",
+        "sha256": "e35fa88a58aaf54280d0a8419baaf7bfbcf8e6b4be0132e3a6e9ab94a7fa03d0",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/Nyquist-Onsager duality..tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "4fb33b9e6445f9f589de696efde60233649808c1",
+        "sha256": "88c72be5f36a5b29c932e99b8ecb98daee8edb2c918d7e743f86322f7da15f81",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/ONSAGER GEOMETRIC (4).tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "ee35b999ecab2ad2a8ebc9a20d0fa978f3e1728d",
+        "sha256": "92e42c1da03a1e0f886b8b76540f8c666211d1ab91f152556c4d15a1032ecefd",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/SIN EXPO JACOBI.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "19691e7f88d771a615b37d60958f7a432204c90e",
+        "sha256": "5c6122eeb896462131f1141ffa3dad705053d325b43c548825485655ba60945d",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/Sine seam function.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "66074a7d6d8bce48098f2e05d98dab9cfe01a821",
+        "sha256": "35dfeaca50e5afa5946fd6d3eff27759741c8732a6fa141511bc651e64896bc0",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/Torus as operator computation.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "4caaec22ec25e5bc69bcb283cda5a72dc972c802",
+        "sha256": "870945eae466fc34c8d374d1b7259674164d606c0a68ad0a683a70b4b07c2a50",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/anti_seam_generator.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "d79ee1c99de0c64fe8a843cbc9f60f2e6b594611",
+        "sha256": "1ae87ec5480f9ca063442dfcb98062ead0c4440bb8bbf2a93a6fbef575e8dada",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/emk_exponential_helical_torus.....tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "40edebc278c25f8edff825f88bfd313908e487ac",
+        "sha256": "d892803243bb9bb9b98fc2c7aa6dadd832978d2ca8f0b29a70271984ac1ebea1",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/emk_geometry.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "aab2b1a8b9d488d0081135a6eb7923e9930b8732",
+        "sha256": "d45a2c4362c77d636db6a5f9d0b4e62125aed6800bfb43c0a9add3bb376c279f",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/emk_helical_torus_flow..tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "c46a81fac738b4a7bd1c46ceb7c30a9c0292627f",
+        "sha256": "8f40974ac3d411fbd02557f77444dcc06e305b17c0270671788e8450fb9f9024",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/emk_maths...tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "4c8764df278f1f1b0201ac76a0ae899183a91591",
+        "sha256": "15871b1aa13c35faeb1307276950f6b0b6c4b3c9dedb2629efa2c6ec0c9a4957",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/emk_state_flow_DE_hp_gernaltensor.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "091c4fe9e2fe14a9fc54df90c118e91365bfffc2",
+        "sha256": "ecac82307c127aec82b37165041cf384133a0674aa982286f9ddc94b33b46eaf",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/emk_tensor.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "adcab4325c6201bcab0d78a3020cf1a0090bc09e",
+        "sha256": "24e33be6fa1b50a4fdb33f6f7f9678fe78b7b396af98ac6652c0a1c55b37f57e",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/emk_tensor_jacobian.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "e377ec5ed9ad30ca944118268396c35668fce051",
+        "sha256": "0904ce752c5e016b6a81c6277e36cb730a7755ee7ad50fc91f4f4957dd42573d",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/emk_thermo_seed (1).tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "2da652f9cc8ea1ea29b59e6e6f3a80d58a310efc",
+        "sha256": "39b9ec0eb3e8415c0009241b3f2d3206be09611902b2701d4748c1b336993eb4",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/emk_topology.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "f6d6052c290a4be992976524d8c770a95bd86174",
+        "sha256": "b3e8ba6d6b60762de8ba6b3a52eaaaf1181c5d7e2d56447921f231c3ceda2f05",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/heart of all-diagram.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "cba69315ff0b879b77c4711665db9ac6d71fc8b6",
+        "sha256": "c57f997d32c2f26e4e894808723259719b64d7b55c1078f538b7c7110a7e30ac",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/info-cur duality.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "7b70228e16fef24d83570c617532d8a55e6cf96f",
+        "sha256": "ecbd9e2e5970729ad576d78b1210911dfd04078a5f0185c98e80f7c856ad09d2",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/nON-ABELIAN CURVATURE.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "5891737f45edf3b2184ec9f216a79b065972c231",
+        "sha256": "a602299d6cfe0b88935850994ac0ce963e69a264276a4d5826146edaa481b622",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/operator based prime calculation.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "1257c403f199126115b95231ab4fa4de8f4b331a",
+        "sha256": "e90482c5e2e5c1729c47e694ab1ffe4ef72eb2ed993b67f408ff90b1a4add098",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/prime algorithum.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "94ac85e8c753a3c2d9bfddbf8728f3cf77212358",
+        "sha256": "bcb718e26a7a302a7231bfceab2862ab7749e0d9c3ec802a220e11923a9376b1",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/prime generator.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "da611035003cc65ca599cf1ea05b8d6850df904b",
+        "sha256": "91a71988d159120dcc46297499ec17b35a43ff11732476d3a90e34457360fe0d",
+        "read_depth": "OUTLINE_AND_SELECTED_PASSAGES",
+        "layer": "archive"
+      },
+      {
+        "path": "04_EMK_CORE/representation theory.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "7e3c0eed2b639308396cba986681b838a49b7069",
+        "sha256": "782c6b61c65b18de7e960fbe9f5ba3172e437c7b34530b3fd2704c86dfa09eed",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "05_UGD_ENGINE/EMK_Seam_Tensor_Represented_Over_UGD.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "677bdd71762398170c486fdb17f94fb7bf1afb1f",
+        "sha256": "50603b27a988e387caff5208f69b8991ba078e076d31c30669b66e3f947c77ea",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "05_UGD_ENGINE/EMK_UGD_RMG_Unified_Mathematical_Framework.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "516063a438ce40047804c853838532f4b4af32e9",
+        "sha256": "6331d0c4ffb3da9a3c1f6694d8ca08ac66e825c25016a9428146c71a76398b0a",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "05_UGD_ENGINE/UGD_Admissible_Seam_Module_Theorem.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "d06bb2fb4f3d6bc0f35f54558aabff312d3e3539",
+        "sha256": "95fd7b49b7508bc34a1aade15b4bc045cd33b5ca364cabb890f339fc575b06a0",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "05_UGD_ENGINE/UGD_BCH_Formula_Phase_Scale_Seam_Algebra.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "f93cc8b272b354a27b0e98f787a85c6f7bb14e79",
+        "sha256": "c13ee2cde8f43afcdc66357c09b5b7803f9e70d1af26ab7817b5fc96ecbe05c8",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "05_UGD_ENGINE/UGD_Differential_Geometry_EMK_Foundation.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "410588907f735617b045091bf36306e94da45a46",
+        "sha256": "065591a2b3c77abff6e13de962cf9ff821fc503244e6fe4cae8c706edee02b93",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "05_UGD_ENGINE/UGD_Explicit_K_Curvature_Omega_From_EMK_VRG.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "0fc4b855145e37765821e547d91537b57825f4bc",
+        "sha256": "f15e5e0c43008f097e013daa947a355b6d562809be264037d8f677b693c60df7",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "05_UGD_ENGINE/UGD_Exterior_Algebra_Seam_Cohomology.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "db6bd3596b4350a84f38ef50237c108a152179fc",
+        "sha256": "a80aeba1682dc45f2ce7fc79f3411a97b205981bae953a3b7126c51727c9755e",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "05_UGD_ENGINE/UGD_K_Connection_Phase_Scale_Seam_Form.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "066b81450109c0484c90354d5b26fbd1a79dcdae",
+        "sha256": "783846d37c9462ed8ebf984056690657f2155a2af030edaebc390e23b66bd18d",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "05_UGD_ENGINE/UGD_Lie_Algebra_Phase_Scale_Seam_Generators.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "61bd18a90bb2979fe74bb02f088f237074e2118a",
+        "sha256": "6a60e70e594c150aafad2d8977fac0f7cb136faa9195a2d80fc65ffb68f557a2",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "05_UGD_ENGINE/UGD_Master_Connection_Area_Rotation_Theorem_Route.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "b1701e5d48aaba491d92095545ef50d15da273b4",
+        "sha256": "742c216656c7c3185874334ecd34e542139d100d329ef678ed1f50f09ead10ae",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "05_UGD_ENGINE/UGD_RMG_Net_Rotation_Flux_Geometry.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "9f48216c0425b6710867141b8408fa1b0e3bc584",
+        "sha256": "e51a9deedd890c87529966b344e2b0472a52c9f14fcbcf8d82b91e5288bb6d23",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "05_UGD_ENGINE/UGD_Seam_Residue_Rotational_Basis.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "0cb92539f3e4d21280a034671740ecfcc8de55ec",
+        "sha256": "30e9034bd43f92da4d1066883e9664a8dd4c452da500b656d0ca25d8fb8655fd",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "05_UGD_ENGINE/UGD_Tensor_Calculus_Algebraic_Integration_Theorem.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "0d35809a2b17951026681b8de1cadb6ce2a1194e",
+        "sha256": "f2464fa8d755e59ce1d91351faaf2a2de2cb05f08ec5265d4fad358c4feaf605",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "06_RECOGNITION_SEAM_CALCULUS/Chapter_02_Rules_of_the_Recognition_Seam_Derivative.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "1d01c8be7ac4c0450e8f35bdcf005fa24b3862b3",
+        "sha256": "73c73aba02752e20c87747097303719bc125cc21736878c0082fea59cacd2bc4",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "06_RECOGNITION_SEAM_CALCULUS/Chapter_03_Seam_Geometry_and_Cut_Tensor_Calculus.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "1442c2df46f734e6ac7003453110d85a24b50e5d",
+        "sha256": "a5c83fe5fa17c26585e500bbd0fe8f129e3acfb874ef1954001bcb837c94bae3",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "06_RECOGNITION_SEAM_CALCULUS/Chapter_04_UGD_Phase_Scale_Seam_Differential_Calculus.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "c808608379b4df4c7b17dfc361ab7cbe0777e52a",
+        "sha256": "c2276b0aeedca04e89895d00f28358eeb81fb7021a7916a83489cdffb7f28e8f",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "06_RECOGNITION_SEAM_CALCULUS/Chapter_10_RSC_Operator_Algebra_Projection_Closure_and_Leakage_Theorem.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "162319d93caef13059e39aaaa275f1a35bc4dd75",
+        "sha256": "e64d8e01e231201861e2aacdd5317942eb35e968170fa58d3a03726a3a7a7532",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "06_RECOGNITION_SEAM_CALCULUS/Chapter_11_Crown_Recognition_Tensor_Calculus_and_Unified_Connection.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "d71db24d3c6f3d5839a91c87150e7b5bcc0e4fcc",
+        "sha256": "06b451a63efec00f4d0d03d4df8000402f62f91a4be4202145e96e077e14ad20",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "06_RECOGNITION_SEAM_CALCULUS/Chapter_14_Circular_Hyperbolic_Operator_Algebra_and_Phase_Seam_Composition.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "cc295bdfb00d423593dcdfe85a7f44c64783efa1",
+        "sha256": "558e436f60081589696d74519a599adfaf9236bde34ffa058c98b24a70accf78",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "06_RECOGNITION_SEAM_CALCULUS/Chapter_20_Gauge_Recognition_Curvature_and_Seam_Residue.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "754f0083cf9112485ad25697fcb920e28b3d41d8",
+        "sha256": "4585e1c88ce2518101f18f92aeacb015623e42067e44bd70e3535aa4bbce924e",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "06_RECOGNITION_SEAM_CALCULUS/Chapter_21_Recognition_Topology_Cohomology_and_Seam_Charge.tex",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "601ba7de6d4c30def31afd523bc0db1a3674d221",
+        "sha256": "ae889d7457d4361cd84661edc5fa8d2ec63b886a57d139f5e7f8194daa896fd8",
+        "read_depth": "FULL_FOUNDATION_BODY",
+        "layer": "archive"
+      },
+      {
+        "path": "06_RECOGNITION_SEAM_CALCULUS/INDEX_RECOGNITION_SEAM_CALCULUS.md",
+        "ref": "55294a55e9bad98c3c8e4a6b9ec86be3d6c5b478",
+        "branch": "recovery/recognition-seam-calculus-2026-07-03",
+        "git_blob_sha": "d5f32960b7ec92167320adf1a1237f2fc03fbbc8",
+        "sha256": "80113b613f1db39f8e194cfbeef2cf3292890e648ae702e8862294ca66b1ffc8",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_recognition_tensor_calculus_master/README.md",
+        "ref": "55518c9f3f45ccfbdb7d885fff32abb4f5408686",
+        "branch": "agent/emk-theory-completion",
+        "git_blob_sha": "10c7c0fbb18728cf384e44e9acc992fe0e7ad778",
+        "sha256": "1b24ed57b4a4819d9183fe9575c4ddf51ecd69887b276f3676cb67365090a6fd",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      },
+      {
+        "path": "11_ARXIV_PUBLICATIONS/emk_recognition_tensor_calculus_master/main.tex",
+        "ref": "55518c9f3f45ccfbdb7d885fff32abb4f5408686",
+        "branch": "agent/emk-theory-completion",
+        "git_blob_sha": "9b13c1032334cc3e6cea32da8dd3fe18da96d15f",
+        "sha256": "be8189874995cc4a14b537690ac72b1eb91e629499943dd41252b37e978f1892",
+        "read_depth": "TARGETED_BODY_AND_OUTLINE",
+        "layer": "archive"
+      }
+    ]
+  },
+  "publications": {
+    "repository": "Parveen117/Publications",
+    "commit": "e1dc4e3773f063f14e56cf30222c8e8a504519cd",
+    "runtime_required_count": 3,
+    "files": [
+      {
+        "path": "papers/emk-recognition-geometry/README.md",
+        "git_blob_sha": "5aa32e20b1b8c74cccff7aab2b07cb682b7eb8fd",
+        "sha256": "bb7559a21a236b6d6bb00e69740453078c88eef73dc184d6b882a9f205cfcfae",
+        "runtime_required": false,
+        "read_depth": "TARGETED_BODY_AND_OUTLINE"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/LINEAGE.md",
+        "git_blob_sha": "005c8df7dcfc6d5136dd1dd479cf13ee3409878d",
+        "sha256": "3f54d440d683cc91584410ad54900317e4d699a944914d248f81876386aaf497",
+        "runtime_required": false,
+        "read_depth": "TARGETED_BODY_AND_OUTLINE"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/README.md",
+        "git_blob_sha": "63b2530cf1fe5eaa6f2a84aa9b8f78ea04b90e1c",
+        "sha256": "f3328f4a8a76aedc3bf1c50c17288f634d7c16b021712e0a9494519e89f1cbba",
+        "runtime_required": false,
+        "read_depth": "FULL_FOUNDATION_BODY"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/certificates/emk2_native_carrier.py",
+        "git_blob_sha": "eaf3c3f65476f37165c75031fcd6cfb2cb66f710",
+        "sha256": "49d8548e7e3ccc2ce77bdc0f5a317b737f3bd37dc4d9e1f90c9f87852c37d1c0",
+        "runtime_required": true,
+        "read_depth": "FULL_FOUNDATION_BODY"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/certificates/emkt1_master_tensor_and_time.py",
+        "git_blob_sha": "612786f2c91de005a62bfaca87f778a79060ce0a",
+        "sha256": "c32b977f25cb00edbfcb338e6028a6b0f3a1f0beae4f4f2737663c574c7a1dce",
+        "runtime_required": true,
+        "read_depth": "TARGETED_BODY_AND_OUTLINE"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/certificates/emkt2_time_ordered_transport.py",
+        "git_blob_sha": "850abf516c44bb296b3cf43fcb7ba93434837bf5",
+        "sha256": "2dc28deb6bfa898568c9c2cb949ae76932d0995106aa28bf9f01a8fae29fd993",
+        "runtime_required": true,
+        "read_depth": "FULL_FOUNDATION_BODY"
+      }
+    ]
+  },
+  "rkf_lineage": {
+    "repository": "Parveen117/Recognition-Kernel-Framework",
+    "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+    "runtime_used_by_r7": false,
+    "prior_assessment": "CROSS_REPO_LINEAGE.md"
+  },
+  "preserve_prior_revisions": [
+    "R1",
+    "R2",
+    "R3",
+    "R4",
+    "R5",
+    "R6"
+  ]
+}

@@ -26,7 +26,7 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Construct one native operator family and determine which spectral or return quantities survive admissible reference changes. Use those quantities to investigate Way-3's selection problem, then derive a Way-2 response. The [lambda note](../03-lambda-reference/IDENTIFIABILITY.md) shows why an adjustable ladder spacing by itself does not determine a fundamental constant.
+Extend the [R7 tensor foundation](../02-relational-response/EMK_TENSOR_CALCULUS_R7.md) with a native direction/soldering rule, a metric policy and higher exterior operations before physical applications. KIR transport is already lifted to explicit tensor types; its finite group action and infinitesimal Lie action must remain distinct. The [lambda note](../03-lambda-reference/IDENTIFIABILITY.md) retains the separate selection obligation.
 
 Role in the four-route program: the main calculation and proof tool. See [the shared assessment](../ASSESSMENT.md) for the other operator corrections.
 
@@ -94,3 +94,13 @@ python3.12 -B 04-operator-evolution/verify_r6.py --rkf-root ../rkf-r4
 ```
 
 The 10 [focused checks](test_interval_profile_recovery.py) include eight prediction extrema replayed through the unchanged native solver, error-aware source discrimination and refusal cases. See the [proof](../03-lambda-reference/INTERVAL_PROFILE_RECOVERY_R6.md) and [verification record](R6_VERIFICATION.json). Use Python 3.11 or 3.12 and the pinned R4 upstream runtime.
+
+## R7 tensor foundation and reproduction
+
+[emk_tensor_calculus.py](emk_tensor_calculus.py) implements exact typed tensors, slot transport, generator derivatives, contraction, symmetry/wedge, metric conversion, seam blocks through projectors, finite increments, ordered integration, curvature, invariant symmetric forms and carrier/sheet return audits. Its scalar field is Q; the KIR operators and integer winding register are separately typed.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r7.py --publications-root ../Publications
+```
+
+Use Python 3.11 or 3.12 with a separate Publications checkout at the commit in [R7_SOURCE_PINS.json](R7_SOURCE_PINS.json). [verify_r7.py](verify_r7.py) rejects modified EMK2/EMKT1/EMKT2 source bytes before importing them. The 16 [focused tests](test_emk_tensor_calculus.py) include 30 rank/variance signatures, metric blindness, the fixed-metric obstruction, curved D², finite Bianchi and independent sheet closure. [R7_VERIFICATION.json](R7_VERIFICATION.json) records the result and all earlier recorded hashes. The [proof](../02-relational-response/EMK_TENSOR_CALCULUS_R7.md) separates the executable finite layer from optional smooth and physical structures.

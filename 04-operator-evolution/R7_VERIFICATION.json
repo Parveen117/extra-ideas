@@ -1,0 +1,282 @@
+{
+  "status": "PASS_EXACT_TYPED_EMK_TENSOR_CHECKS",
+  "development": "R7",
+  "date": "2026-09-30",
+  "python": "3.12.14",
+  "arithmetic": "exact rational matrices and tensor components",
+  "tests_run": 16,
+  "failures": 0,
+  "errors": 0,
+  "rank_variance_signatures_checked": 30,
+  "upstream_repository": "Parveen117/Publications",
+  "upstream_commit": "e1dc4e3773f063f14e56cf30222c8e8a504519cd",
+  "upstream_runtime_reused_unchanged": true,
+  "upstream_source_count": 3,
+  "upstream_runtime_sha256": {
+    "papers/emk-ugd-algebra/certificates/emk2_native_carrier.py": "49d8548e7e3ccc2ce77bdc0f5a317b737f3bd37dc4d9e1f90c9f87852c37d1c0",
+    "papers/emk-ugd-algebra/certificates/emkt1_master_tensor_and_time.py": "c32b977f25cb00edbfcb338e6028a6b0f3a1f0beae4f4f2737663c574c7a1dce",
+    "papers/emk-ugd-algebra/certificates/emkt2_time_ordered_transport.py": "2dc28deb6bfa898568c9c2cb949ae76932d0995106aa28bf9f01a8fae29fd993"
+  },
+  "central_order_loop": {
+    "carrier": [
+      [
+        "-1",
+        "0"
+      ],
+      [
+        "0",
+        "-1"
+      ]
+    ],
+    "signature_order": [
+      "metric (0,2)",
+      "endomorphism (1,1)",
+      "vector (1,0)"
+    ],
+    "audit": {
+      "tensor_type_returns": [
+        true,
+        true,
+        false
+      ],
+      "full_carrier_return": false,
+      "sheet_residue": 0,
+      "full_unledgered_return": false,
+      "full_return_after_sheet_ledger": false
+    }
+  },
+  "independent_sheet_loop": {
+    "carrier": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "winding": 2,
+    "unledgered_audit": {
+      "tensor_type_returns": [
+        true,
+        true,
+        true
+      ],
+      "full_carrier_return": true,
+      "sheet_residue": 2,
+      "full_unledgered_return": false,
+      "full_return_after_sheet_ledger": false
+    },
+    "preregistered_ledger_2_audit": {
+      "tensor_type_returns": [
+        true,
+        true,
+        true
+      ],
+      "full_carrier_return": true,
+      "sheet_residue": 0,
+      "full_unledgered_return": false,
+      "full_return_after_sheet_ledger": true
+    }
+  },
+  "fixed_symmetric_metric_spaces": {
+    "R_generator_basis": [
+      [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ]
+    ],
+    "K_generator_basis": [
+      [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ]
+    ],
+    "both_generator_basis": []
+  },
+  "boost_metric_witness": {
+    "transport": [
+      [
+        "5/4",
+        "3/4"
+      ],
+      [
+        "3/4",
+        "5/4"
+      ]
+    ],
+    "symmetric_I_defect": [
+      [
+        "9/8",
+        "15/8"
+      ],
+      [
+        "15/8",
+        "9/8"
+      ]
+    ],
+    "alternating_form_preserved": true
+  },
+  "nonflat_bianchi_witness": {
+    "edges": {
+      "01": [
+        [
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "12": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "23": [
+        [
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "02": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "13": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "03": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ]
+    },
+    "triangle_012": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "2"
+      ]
+    ],
+    "tetrahedron_residual": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "source_coverage": {
+    "retrieved_file_count": 143,
+    "current_file_count": 74,
+    "recovered_core_tex_count": 43,
+    "read_depth_counts": {
+      "FULL_FOUNDATION_BODY": 18,
+      "TARGETED_BODY_AND_OUTLINE": 32,
+      "OUTLINE_AND_SELECTED_PASSAGES": 28,
+      "RETRIEVED_INDEXED": 65
+    }
+  },
+  "all_vault_files_read_in_full": false,
+  "smooth_analytic_existence_certified": false,
+  "native_metric_policy_selected": false,
+  "sheet_equals_raw_curvature_flux_asserted": false,
+  "universal_lambda_selected": false,
+  "physical_experiment_performed": false,
+  "earlier_verification_integrity": {
+    "R1": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "files_checked": 4,
+      "all_recorded_hashes_match": true
+    },
+    "R2": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "files_checked": 4,
+      "all_recorded_hashes_match": true
+    },
+    "R3": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "files_checked": 8,
+      "all_recorded_hashes_match": true
+    },
+    "R4": {
+      "recorded_status": "PASS_EXACT_SOURCE_BRIDGE_CHECKS",
+      "files_checked": 10,
+      "all_recorded_hashes_match": true
+    },
+    "R5": {
+      "recorded_status": "PASS_EXACT_PROFILE_RECOVERY_CHECKS",
+      "files_checked": 15,
+      "all_recorded_hashes_match": true
+    },
+    "R6": {
+      "recorded_status": "PASS_CERTIFIED_INTERVAL_PROFILE_CHECKS",
+      "files_checked": 15,
+      "all_recorded_hashes_match": true
+    }
+  },
+  "sha256": {
+    "4ways.tex": "ace9e45fedf6154f2d872ae762c47a1d852ff93a373f6e30d99c33031cdf8234",
+    "02-relational-response/EMK_TENSOR_CALCULUS_R7.md": "17a4b63150760bb17435a36421d4dad42d0a6b437aee32fce9f63533509f706e",
+    "02-relational-response/EMK_VAULT_SOURCE_AUDIT_R7.md": "dcf3b83ee15420cffa0da1f52dc24df5df7104dd9f1a6ca64da7bbc68d3825c1",
+    "04-operator-evolution/emk_tensor_calculus.py": "04d0e4d3754c165a0c54a2c40b837530d56780048732b168c95dfe1cca07887e",
+    "04-operator-evolution/test_emk_tensor_calculus.py": "dde3c351857cdffd3835d8492dc1f676dc11ec33ee8489b99b6cd7c515827434",
+    "04-operator-evolution/verify_r7.py": "79eccc082445e02db69b5d41abffa4773691dff57a8697a3e4cf03b95f7630d6",
+    "04-operator-evolution/R7_SOURCE_PINS.json": "3551fdba7076f81cb87636b8a0bdd2bad4fe7478a4135e5bc7d1697bbb406abe",
+    "04-operator-evolution/aghora_return.py": "17e1bb9681f9d5e766c4f294765c1273ba6716a64e8d125196fd36f10fb06e7c",
+    "04-operator-evolution/R1_VERIFICATION.json": "c1b24ba12cb54af5d33ce443af0691165ccab8d40e345f3c2afc84669e9cea34",
+    "04-operator-evolution/R2_VERIFICATION.json": "f6051c6baec50f124ec5ac3ab7adc6e82dbba47f77571b590a72927de60d83e5",
+    "04-operator-evolution/R3_VERIFICATION.json": "0b48e868e53dd429100fdf15b81240d1b9cddf12e10b856d05f8f319a72ca2dd",
+    "04-operator-evolution/R4_VERIFICATION.json": "1b646bf98c396af0404381f5c23564f94d05b80b0c5d1fb19332a4848fbb6dbb",
+    "04-operator-evolution/R5_VERIFICATION.json": "525ebbf96054046177617f82fa84162fff51d8116251344770c01df5f376cf63",
+    "04-operator-evolution/R6_VERIFICATION.json": "ec53dfbd8d7c2fab225c3d5f5d2f2cdb73435d0bb3f74420f5baa9ed16a2f53d"
+  }
+}
