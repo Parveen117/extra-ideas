@@ -37,3 +37,7 @@ Role in the four-route program: connect an algebraic or operator result to a qua
 ## R3 development
 
 [TYPED_SEAM_R3.md](TYPED_SEAM_R3.md) separates the scalar constraint from a state operator, then fixes the projection by an explicit rule for its removed subspace. It gives the compatible return response and explains why scalar closure alone can hide leakage.
+
+## R4 source connection
+
+[R4](../03-lambda-reference/NATIVE_BOND_BRIDGE_R4.md) consumes the existing paired-depth response and carries its raw amplitude and finite-tail enclosure through the bond test. It demonstrates with actual source responses why normalization and one finite closed aperture cannot certify completed closure.

@@ -42,3 +42,7 @@ Role in the four-route program: the main question about scale selection. Way-4 s
 ## R3 development
 
 [SEAM_BOND_COMPLEX_STRUCTURE_R3.md](SEAM_BOND_COMPLEX_STRUCTURE_R3.md) selects a bond under the added seam-exchange rule, proves `[A,B]^2=-I`, and derives a relative metric and the generator form `G=omega[A,B]` under separate compatibility conditions. The rate, phase, sign choice, and universal reference remain unselected. The next question is whether the original operations force these added conditions.
+
+## R4 source connection
+
+[NATIVE_BOND_BRIDGE_R4.md](NATIVE_BOND_BRIDGE_R4.md) realizes the bond rule using the existing native exact-cut response. The removed space follows within that source family. Source selection, the coupling profile, and dynamical calibration remain open; the earlier iota and cut-synthesis results are explicitly credited.

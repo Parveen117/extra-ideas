@@ -1,0 +1,271 @@
+{
+  "status": "PASS_EXACT_SOURCE_BRIDGE_CHECKS",
+  "python": "3.12.14",
+  "node": "v24.19.0",
+  "tests_run": 12,
+  "failures": 0,
+  "errors": 0,
+  "arithmetic": "fractions.Fraction and unchanged native exact cut arithmetic",
+  "upstream_runtime_sha256": {
+    "operator_foundation/core/native_operator.cjs": "304963cccf4320d76dd36147e5c15ad579e9d0496c86fb1f942543bc692e06a3",
+    "operator_foundation/core/paninian_operator.cjs": "9a30c72f4e89d0a15697c99095ed8e0f015bb8c64fda4ded9897394945886fd8",
+    "research/recognition_return/return_solver.cjs": "adfe2a69d04c387adf3a4809de0f9f57583843c249a87ba3ce7b9988d161009f",
+    "research/recognition_return/r2/variable_return.cjs": "5f09ab7be28bf2ed24ddf525bc23d18aae8a19f2179c60d4ff8fd30f57c9fe73"
+  },
+  "native_presentation_sha256": "c6b66ca7e247c93f4812de6901c8042c3fde4218c921f92f6401b1e8e588a196",
+  "native_polynomial_replay_count": 16,
+  "native_polynomial_replays": [
+    {
+      "x": "0",
+      "proofs": {
+        "complementary_exchange": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 1,
+          "certificate_sha256": "2ae93d462f034689e2630c503a3c971736456ee096f2ece95ba11405441e3c3a"
+        },
+        "raw_commutator": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 0,
+          "certificate_sha256": "69ea9d4684c657d8d6f682280a4d5c4e99b096a7e000cef2442f0717dd3646c7"
+        },
+        "bond_defect": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 0,
+          "certificate_sha256": "69ea9d4684c657d8d6f682280a4d5c4e99b096a7e000cef2442f0717dd3646c7"
+        },
+        "coupled_defects": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 0,
+          "certificate_sha256": "69ea9d4684c657d8d6f682280a4d5c4e99b096a7e000cef2442f0717dd3646c7"
+        }
+      }
+    },
+    {
+      "x": "1",
+      "proofs": {
+        "complementary_exchange": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 3,
+          "certificate_sha256": "3162dfab3e14f92e6dceb085689d574145702cf9d5d1900b213d865036088435"
+        },
+        "raw_commutator": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 2,
+          "certificate_sha256": "80fe892f0f283395ff2299fb23bfb5afdb0edf45e3d9ef86dffaf03a64714976"
+        },
+        "bond_defect": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 3,
+          "certificate_sha256": "b7b99ae96a8a0da4bb234146b58dc68f32f0af5a6800da67ed1c09fa8e5d5a9f"
+        },
+        "coupled_defects": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 11,
+          "certificate_sha256": "889ad64818f77fbdf4a6eb0a75ec3065884373cc2daf68f3b83c773b2ba420e6"
+        }
+      }
+    },
+    {
+      "x": "6/5",
+      "proofs": {
+        "complementary_exchange": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 3,
+          "certificate_sha256": "e28c6348d7a5f850f9a3a44c4b8e0bc4b8b0c2c16b3b2e9e80e4653ae214b315"
+        },
+        "raw_commutator": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 2,
+          "certificate_sha256": "170dc7326ff5fdef83deac104c8ca3f9fcc0e727525d8fe3d9cdbe5b3d59e018"
+        },
+        "bond_defect": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 3,
+          "certificate_sha256": "c6357a572750b65a9f9430f561002e5b3a594eb0fe3df58e08ed7b0c01ac3f4e"
+        },
+        "coupled_defects": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 11,
+          "certificate_sha256": "50e7882f470e44ca150bde96e016c69527a50dd77ed4523fb29a4ba625e5feb1"
+        }
+      }
+    },
+    {
+      "x": "3/7",
+      "proofs": {
+        "complementary_exchange": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 3,
+          "certificate_sha256": "c38c299a3fa4f8c75d60cb62cdc6e3561507204e3d749fbc6f92733189d08a81"
+        },
+        "raw_commutator": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 2,
+          "certificate_sha256": "1971f2d39a032e7a2212e468ba620b04c11afd5fbbe2e3a197798e696525251b"
+        },
+        "bond_defect": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 3,
+          "certificate_sha256": "22c94f0b3eacfe62c2585e9d0b64aa15531aea9d1f29cd4130d0ce3b7a43f09a"
+        },
+        "coupled_defects": {
+          "replayed": true,
+          "normal_terms": 0,
+          "steps": 11,
+          "certificate_sha256": "e38e3a87b5005a06254c27f7bfc2752799351aab2818eca33586ff698b385508"
+        }
+      }
+    }
+  ],
+  "source_schur_proofs_replayed": [
+    "schur",
+    "leftInverse",
+    "rightInverse",
+    "response"
+  ],
+  "finite_budgets": {
+    "cut_32_short": {
+      "cells": 6,
+      "source_interval": [
+        "399/463",
+        "165/133"
+      ],
+      "actual_zero_tail": "399/463",
+      "bond_defect_interval": [
+        "-13792/214369",
+        "2384/17689"
+      ],
+      "complex_defect_interval": [
+        "-9536/17689",
+        "55168/214369"
+      ],
+      "distance_to_cut_bound": "16/133",
+      "excludes_exact_cut": false
+    },
+    "cut_32_long": {
+      "cells": 12,
+      "source_interval": [
+        "316407/320503",
+        "107517/105469"
+      ],
+      "actual_zero_tail": "316407/320503",
+      "bond_defect_interval": [
+        "-652195840/102722173009",
+        "109048832/11123709961"
+      ],
+      "complex_defect_interval": [
+        "-436195328/11123709961",
+        "2608783360/102722173009"
+      ],
+      "distance_to_cut_bound": "1024/105469",
+      "excludes_exact_cut": false
+    },
+    "noncut_30_20": {
+      "cells": 12,
+      "source_interval": [
+        "14133243268980030/48298050160206601",
+        "2391347102562030/471108108966001"
+      ],
+      "actual_zero_tail": "14133243268980030/48298050160206601",
+      "bond_defect_interval": [
+        "-2132953083977663551897418465172301/9330806597111331506089020015892804",
+        "5496598114598294555984623788899/887771401334085887221495728004"
+      ],
+      "complex_defect_interval": [
+        "-5496598114598294555984623788899/221942850333521471805373932001",
+        "2132953083977663551897418465172301/2332701649277832876522255003973201"
+      ],
+      "distance_to_cut_bound": "1920238993596029/942216217932002",
+      "excludes_exact_cut": false
+    },
+    "accidental_finite_cut": {
+      "cells": 1,
+      "source_interval": [
+        "0",
+        "1"
+      ],
+      "actual_zero_tail": "1",
+      "bond_defect_interval": [
+        "-1/4",
+        "0"
+      ],
+      "complex_defect_interval": [
+        "0",
+        "1"
+      ],
+      "distance_to_cut_bound": "1/2",
+      "excludes_exact_cut": false
+    },
+    "reopened_same_profile": {
+      "cells": 3,
+      "source_interval": [
+        "1/2",
+        "2/3"
+      ],
+      "actual_zero_tail": "2/3",
+      "bond_defect_interval": [
+        "-3/16",
+        "-5/36"
+      ],
+      "complex_defect_interval": [
+        "5/9",
+        "3/4"
+      ],
+      "distance_to_cut_bound": "1/4",
+      "excludes_exact_cut": true
+    }
+  },
+  "bridge_scope": "The supplied positive paired-depth source, A=K, and its normalized boundary response; exact completed cut under the existing source criterion a=b+1.",
+  "mirror_complement_follows_in_this_source_realization": true,
+  "native_iota_newly_derived": false,
+  "normalization_certifies_raw_response_closure": false,
+  "finite_exact_cut_certifies_completed_cut": false,
+  "universal_source_family_selected": false,
+  "universal_lambda_selected": false,
+  "dynamical_return_sign_selected": false,
+  "physical_validation": false,
+  "earlier_verification_integrity": {
+    "R1": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "files_checked": 4,
+      "all_recorded_hashes_match": true
+    },
+    "R2": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "files_checked": 4,
+      "all_recorded_hashes_match": true
+    },
+    "R3": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "files_checked": 8,
+      "all_recorded_hashes_match": true
+    }
+  },
+  "sha256": {
+    "4ways.tex": "ace9e45fedf6154f2d872ae762c47a1d852ff93a373f6e30d99c33031cdf8234",
+    "CROSS_REPO_LINEAGE.md": "d747edf79668448859121eba793cc44e87bbdf9fb7206f53e107584d219ff8cc",
+    "03-lambda-reference/NATIVE_BOND_BRIDGE_R4.md": "6ec394c508e5077aa430961536ad7209f03410b5a51e2555bb74fe8e325e2597",
+    "04-operator-evolution/aghora_return.py": "17e1bb9681f9d5e766c4f294765c1273ba6716a64e8d125196fd36f10fb06e7c",
+    "04-operator-evolution/seam_bond.py": "4b0870ef718b8f89003f480a5a5146e5624f917dc30466a976177b1dfcb498c0",
+    "04-operator-evolution/native_bond_bridge.py": "f2069247fbeadd47f37dab37da453ad75e9586e76115c1261d851d7540528986",
+    "04-operator-evolution/native_bond_probe.cjs": "04a4431b4247d368b35df44687924df24190fa909cbe3c391df0dcbce723d3b4",
+    "04-operator-evolution/test_native_bond_bridge.py": "3802df1f0bcb4e35670013e228012af23e37696bd3dc52068ee78b1fc30a0da7",
+    "04-operator-evolution/verify_r4.py": "acf1b845d41a4e23e25276457e1e85e18e533d25ac3c109b4f3a48e318c35a7a",
+    "04-operator-evolution/R4_SOURCE_PINS.json": "88fd2864427593241d905e65af70494c9c7c5289afb8e519ce854d4dfb2fef49"
+  }
+}

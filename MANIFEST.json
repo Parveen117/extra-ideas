@@ -44,7 +44,7 @@
       "standalone_document": false
     }
   ],
-  "status": "R3: typed seam, conditional unique bond, complex structure, and compatible relative metric; rate, sign selection, and universal lambda remain open.",
+  "status": "R4: R3 bond realized by the existing native exact-cut response; raw closure defects and finite-aperture error checked. Universal source selection and lambda remain open.",
   "repository": "Parveen117/extra-ideas",
   "visibility": "public",
   "developments": [
@@ -122,6 +122,39 @@
       "universal_lambda_selected": false,
       "source_full_closure_identified": false,
       "physical_validation": false
+    },
+    {
+      "id": "R4",
+      "date": "2026-09-30",
+      "title": "Native bond bridge and raw closure diagnostics",
+      "proof": "03-lambda-reference/NATIVE_BOND_BRIDGE_R4.md",
+      "implementation": "04-operator-evolution/native_bond_bridge.py",
+      "native_adapter": "04-operator-evolution/native_bond_probe.cjs",
+      "verification": "04-operator-evolution/R4_VERIFICATION.json",
+      "source_pins": "04-operator-evolution/R4_SOURCE_PINS.json",
+      "test_count": 12,
+      "native_polynomial_replay_count": 16,
+      "validation_status": "PASS_EXACT_SOURCE_BRIDGE_CHECKS",
+      "source_runtime_reused_unchanged": true,
+      "model_connections": [
+        "existing positive paired-depth native source",
+        "Aghora A identified with existing K grading",
+        "bond is the existing normalized boundary response F/2"
+      ],
+      "source_exact_cut_condition": "positive two-cell period with a=b+1",
+      "derived_bridge": [
+        "A B A=I-B",
+        "[A,B]=R",
+        "R3 coordinates and relative metric intertwined"
+      ],
+      "raw_shared_defect": "J_x^2+I=-4(B_x^2-B_x)",
+      "mirror_complement_follows_in_this_source_realization": true,
+      "native_iota_newly_derived": false,
+      "universal_source_family_selected": false,
+      "universal_lambda_selected": false,
+      "dynamical_return_sign_selected": false,
+      "physical_validation": false
     }
-  ]
+  ],
+  "lineage_assessment": "CROSS_REPO_LINEAGE.md"
 }

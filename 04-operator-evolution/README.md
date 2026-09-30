@@ -61,3 +61,15 @@ python3.12 -B 04-operator-evolution/verify_r3.py
 ```
 
 The 18 [focused checks](test_seam_bond.py) cover the derived operators, changes of coordinates, complex multiplication, the response and norm balance, both return signs, and counterexamples without the added hypotheses. [R3_VERIFICATION.json](R3_VERIFICATION.json) hashes R3 and its imported R2 implementation, and checks the preserved earlier verification hashes. The [proof](../03-lambda-reference/SEAM_BOND_COMPLEX_STRUCTURE_R3.md) distinguishes the algebraic construction from optional metric and dynamical requirements. No floating-point approximation is used.
+
+## R4 source bridge and reproduction
+
+[native_bond_bridge.py](native_bond_bridge.py) connects the raw response to bond/commutator defects and finite error budgets. [native_bond_probe.cjs](native_bond_probe.cjs) calls the unchanged native solver and proof replayer in a separate RKF checkout. The verifier refuses altered upstream bytes before execution.
+
+Use Python 3.11 or 3.12 and Node.js, with RKF at the commit pinned in [R4_SOURCE_PINS.json](R4_SOURCE_PINS.json):
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r4.py --rkf-root ../rkf-r4
+```
+
+The 12 [integration tests](test_native_bond_bridge.py) include 16 native polynomial replays, the actual Schur witness, the R3 coordinate/metric map, finite enclosures, and false-positive closure controls. [R4_VERIFICATION.json](R4_VERIFICATION.json) records the source hashes, results and preserved R1/R2/R3 evidence. Read the [proof](../03-lambda-reference/NATIVE_BOND_BRIDGE_R4.md) and [lineage assessment](../CROSS_REPO_LINEAGE.md) for what is inherited and what the bridge adds.

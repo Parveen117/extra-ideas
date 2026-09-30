@@ -1,0 +1,97 @@
+{
+  "purpose": "R4 consumes the existing native solver unchanged; these sources are dependencies, not new results.",
+  "runtime_repository": "Parveen117/Recognition-Kernel-Framework",
+  "runtime_ref": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "files": [
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "ref": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "path": "operator_foundation/core/native_operator.cjs",
+      "role": "runtime",
+      "git_blob_sha": "7b188defee82aa0edafc586eb3091baf0ceb6900",
+      "sha256": "304963cccf4320d76dd36147e5c15ad579e9d0496c86fb1f942543bc692e06a3",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/3cc5a33b05c16d59c90994ddda69dedc0d392424/operator_foundation/core/native_operator.cjs"
+    },
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "ref": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "path": "operator_foundation/core/paninian_operator.cjs",
+      "role": "runtime",
+      "git_blob_sha": "39d0cc2d2c0b42db319b02f4cd29c045910edbbc",
+      "sha256": "9a30c72f4e89d0a15697c99095ed8e0f015bb8c64fda4ded9897394945886fd8",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/3cc5a33b05c16d59c90994ddda69dedc0d392424/operator_foundation/core/paninian_operator.cjs"
+    },
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "ref": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "path": "research/recognition_return/return_solver.cjs",
+      "role": "runtime",
+      "git_blob_sha": "92a2c4329759252051d840d75e16b941f9b31674",
+      "sha256": "adfe2a69d04c387adf3a4809de0f9f57583843c249a87ba3ce7b9988d161009f",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/3cc5a33b05c16d59c90994ddda69dedc0d392424/research/recognition_return/return_solver.cjs"
+    },
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "ref": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "path": "research/recognition_return/r2/variable_return.cjs",
+      "role": "runtime",
+      "git_blob_sha": "aa0d9416b01b90ded4825c61727c2ab695d603fe",
+      "sha256": "5f09ab7be28bf2ed24ddf525bc23d18aae8a19f2179c60d4ff8fd30f57c9fe73",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/3cc5a33b05c16d59c90994ddda69dedc0d392424/research/recognition_return/r2/variable_return.cjs"
+    },
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "ref": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "path": "research/recognition_return/r2/THEOREM.md",
+      "role": "source theorem",
+      "git_blob_sha": "fa5999eec9d2cf3e7547df8e92cc758385bd1964",
+      "sha256": "a37d51e38cf88fb65a7bc2239982a270bc59bdc4c6d4b6e10a6c369358d24bcc",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/3cc5a33b05c16d59c90994ddda69dedc0d392424/research/recognition_return/r2/THEOREM.md"
+    },
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "ref": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "path": "theorum/55_generalized_euler_emk_dock_theorem.md",
+      "role": "existing grading",
+      "git_blob_sha": "526e59f29e05dd265808be4bedcbe0f776a8ef12",
+      "sha256": "821039faf3c1edb692accd350c611a729560a2c000d014c486f47df2f3cb46ef",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/3cc5a33b05c16d59c90994ddda69dedc0d392424/theorum/55_generalized_euler_emk_dock_theorem.md"
+    },
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "ref": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+      "role": "earlier algebra and duplication comparison",
+      "git_blob_sha": "86366ede2f152f19cbdf0d1dbf06b2e4c0971dad",
+      "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/3cc5a33b05c16d59c90994ddda69dedc0d392424/operator_foundation/theory/01_NATIVE_ALGEBRA.md"
+    },
+    {
+      "repository": "Parveen117/Publications",
+      "ref": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+      "path": "papers/uncut-cut-measurement/NATIVE_IOTA_HELICAL_RESPONSE.md",
+      "role": "existing faithful scalar representation",
+      "git_blob_sha": "eeab6b70e61d4cb21219afc64e83e87a95930aaf",
+      "sha256": "1e0823daac754c44bad137de9515d0e0ee3adfdaa0de9435edc7b36e8a46b71f",
+      "url": "https://github.com/Parveen117/Publications/blob/f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56/papers/uncut-cut-measurement/NATIVE_IOTA_HELICAL_RESPONSE.md"
+    },
+    {
+      "repository": "Parveen117/Publications",
+      "ref": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+      "path": "papers/native-alpha-selection/THEOREM.md",
+      "role": "existing non-selection result",
+      "git_blob_sha": "d8780e3931c4dad9a4f621fd4979628f889da070",
+      "sha256": "54152003202564b83b90dfa875731905bda242458b9e8d7887c3fdfbf4dce54c",
+      "url": "https://github.com/Parveen117/Publications/blob/f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56/papers/native-alpha-selection/THEOREM.md"
+    },
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "ref": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "path": "theorum/41_cut_graded_universal_generator_theorem.md",
+      "role": "earlier return identity; derived Hilbert layer",
+      "git_blob_sha": "2fd898a5ffa26f0a5fbbed4ca1223dad3c230266",
+      "sha256": "2af3f302b1a4d5ba6365d126d3d7e3dabbd2401290efd0b3f0a781a14adbe99e",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/3cc5a33b05c16d59c90994ddda69dedc0d392424/theorum/41_cut_graded_universal_generator_theorem.md"
+    }
+  ]
+}

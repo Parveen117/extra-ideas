@@ -17,7 +17,23 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
-## Latest development: R3 seam-selected bond and complex structure
+## Latest development: R4 native source bridge and closure checks
+
+[R4: The native source of R3's bond](03-lambda-reference/NATIVE_BOND_BRIDGE_R4.md) connects R3 to the existing RKF paired-depth response. At the source's exact cut, `F=I+KR` and `B=F/2`. With the existing grading `A=K`, the removed-space rule follows: `ABA=I-B`, and `[A,B]=R` recovers the existing quarter-turn. A coordinate map identifies the full R3 bond and relative metric with this source realization.
+
+This resolves R3's separate complement choice **within the supplied exact-cut source family**. It does not select that family, its aperture, or its remaining coupling universally. The quarter-turn and native cut synthesis are earlier results, not new R4 discoveries.
+
+R4 adds a linked raw-defect check, `J_x^2+I=-4(B_x^2-B_x)`, and transfers the native solver's finite-aperture enclosures to both defects. Actual source examples show why normalizing a commutator or observing one exactly closed finite aperture can give a misleading closure verdict.
+
+The 12 focused integration tests pass, including 16 native polynomial proof replays. Reproduce with a separate checkout of RKF commit `3cc5a33b05c16d59c90994ddda69dedc0d392424`:
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r4.py --rkf-root ../rkf-r4
+```
+
+The verifier checks the four upstream runtime hashes before executing the unchanged solver. See the [source pins](04-operator-evolution/R4_SOURCE_PINS.json), [verification record](04-operator-evolution/R4_VERIFICATION.json), and [cross-repository lineage assessment](CROSS_REPO_LINEAGE.md). The assessment identifies R2's compression identity as an existing theorem's special case and distinguishes R3's representation from earlier iota derivations.
+
+## R3: seam-selected bond and complex structure
 
 [R3: A typed seam, its bond, and a linear complex structure](03-lambda-reference/SEAM_BOND_COMPLEX_STRUCTURE_R3.md) supplies a conditional selection rule for R2's bond: retain the seam `L` and remove its Aghora image `A L`, when they are complementary. This **added rule** uniquely determines `B` and proves:
 
@@ -53,7 +69,7 @@ Read the [mode construction](01-intrinsic-numbers/AGHORA_MODES_R2.md), [projecte
 python3.12 -B 04-operator-evolution/verify_r2.py
 ```
 
-[R2_VERIFICATION.json](04-operator-evolution/R2_VERIFICATION.json) records the checked source hashes. R2 supplies a particular constrained return family. R3 adds an explicit conditional bond rule; deriving that rule from the source and selecting a universal value of `lambda_*` remain unresolved. The constructed return is not yet identified with the source's full six-stage closure.
+[R2_VERIFICATION.json](04-operator-evolution/R2_VERIFICATION.json) records the checked source hashes. R2 supplies a particular constrained return family. R3 adds an explicit conditional bond rule, and R4 realizes that rule through an existing native exact-cut response. Universal source selection and a value of `lambda_*` remain unresolved. The constructed return is not yet identified with the source's full six-stage closure.
 
 ## R1: reference-independent return invariants
 
@@ -88,10 +104,10 @@ The unrestricted four-way equivalence remains a proposal. R1 now supplies an exp
 
 ## Selection milestone
 
-R1 specifies a scalar model, its reference changes, and its complete return invariants. R2 constructs an involutive operator-return family and identifies the effect of a bond. R3 fixes that bond under a seam-exchange rule, constructs a complex structure, and identifies the remaining metric and dynamical requirements. Next determine whether the source's other operations force those added requirements and select a rate or phase. Invariance, conservation, and universal value selection remain separate claims.
+R1 specifies a scalar model, its reference changes, and its complete return invariants. R2 instantiates the existing cut-graded return and compression calculus. R3 supplies an explicit conditional seam/bond realization. R4 connects it to an existing native exact-cut response and checks closure without discarding its amplitude or aperture dependence. Next supply a source-selection or dynamical law that distinguishes the remaining profiles, apertures, rates or phases. Invariance, conservation, and universal value selection remain separate claims.
 
 The name `lambda` currently serves several roles. Use `lambda_*` for the fixed reference, `chi_XY` for a response derivative, `gamma` for a decay rate, and `epsilon` for observational resolution until a theorem relates them.
 
 ## Provenance
 
-[MANIFEST.json](MANIFEST.json) records the original source checksum and the line ranges of the excerpts. No external repository material has been imported.
+[MANIFEST.json](MANIFEST.json) records the original source checksum and the line ranges of the excerpts. R4 executes a pinned upstream implementation from a separate checkout; its source files are referenced rather than duplicated here. [CROSS_REPO_LINEAGE.md](CROSS_REPO_LINEAGE.md) records inherited results and the limited contribution of each development.

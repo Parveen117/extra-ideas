@@ -35,3 +35,7 @@ Role in the four-route program: a clear representation of states and components.
 ## R3 development
 
 [SEAM_COMPLEX_COORDINATES_R3.md](SEAM_COMPLEX_COORDINATES_R3.md) constructs a complex action on two real seam coordinates under an explicit bond rule. It distinguishes the resulting operator algebra from the source's componentwise product, and states the conditions needed for the relative metric and rotation flow.
+
+## R4 source connection
+
+[R4](../03-lambda-reference/NATIVE_BOND_BRIDGE_R4.md) gives the exact coordinate map from the existing native EMK pair to R3's seam coordinates, including the relative metric. It distinguishes the represented quarter-turn from the central cut-complex scalar in the full native matrix algebra.
