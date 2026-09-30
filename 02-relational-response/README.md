@@ -25,3 +25,7 @@ For a proposed Jacobian, check the compatibility conditions needed for it to ari
 Choose a concrete observable pair and derive its response from the Way-4 generator. Then determine whether the fixed reference of Way-3 constrains the response through an invariant dimensionless relation.
 
 Role in the four-route program: connect an algebraic or operator result to a quantity that can be compared across states or measured. See [the shared assessment](../ASSESSMENT.md).
+
+## R1 development
+
+[RESPONSE_RETURNS_R1.md](RESPONSE_RETURNS_R1.md) identifies closed-return products and equal-endpoint path ratios that are independent of local references. It also explains why ordinary derivatives along one common tangent give identity returns and why conservation is an additional condition.

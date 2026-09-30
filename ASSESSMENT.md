@@ -2,6 +2,8 @@
 
 Scope: the supplied `4ways.tex` only. This assessment is not an audit of other RKF manuscripts or repositories. Judgments about promise below are research judgments, not claims of established novelty.
 
+Development update: [R1](03-lambda-reference/RETURN_INVARIANTS_R1.md) adds a separate, precisely defined finite transport model with a constructive four-way correspondence, return invariants, and exact checks. The assessment below continues to describe the preserved original manuscript; it does not incorporate the added model's assumptions into that original text.
+
 ## Which route is strongest?
 
 | Route | Strength in this draft | Main limitation | Suggested role |

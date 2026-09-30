@@ -23,3 +23,7 @@ Construct the associated graded algebra through quotient spaces rather than decl
 Define the native state algebra and its admissible morphisms. Identify a structure beyond ordinary coordinate bookkeeping that is preserved by the maps to Way-2 and Way-4.
 
 Role in the four-route program: a clear representation of states and components. See [the shared assessment](../ASSESSMENT.md) for explicit counterexamples and repairs.
+
+## R1 development
+
+[COORDINATE_TRANSPORT_R1.md](COORDINATE_TRANSPORT_R1.md) supplies a finite labelled coordinate model whose edge operators reproduce response paths and closed returns. It uses a specified field; the source's valued-field construction remains a separate problem.

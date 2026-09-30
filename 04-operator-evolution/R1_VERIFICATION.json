@@ -1,0 +1,20 @@
+{
+  "status": "PASS_EXACT_FINITE_CHECKS",
+  "python": "3.12.14",
+  "arithmetic": "fractions.Fraction; exact rational operations",
+  "tests_run": 13,
+  "failures": 0,
+  "errors": 0,
+  "scope": "Finite reproducible examples and counterexamples. General claims are proved in RETURN_INVARIANTS_R1.md; this run is not a formal proof assistant or physical validation.",
+  "example_inputs_are_chosen": true,
+  "triangle_return": "6/7",
+  "rescaled_triangle_return": "6/7",
+  "triangle_cycle_rank": 1,
+  "universal_lambda_selected": false,
+  "sha256": {
+    "04-operator-evolution/response_transport.py": "f5da144d3f5138fee00bf452ec3bb2f535851facbb232584223167744c76fa56",
+    "04-operator-evolution/test_response_transport.py": "83cc123584c669895f7f39a66fb47896f916ea89e49e15ccab4ff537aa839c6a",
+    "04-operator-evolution/verify_r1.py": "7bd754859e91231924386af145d24f8e5267129dbf462d7bed9af0869e83fe83",
+    "03-lambda-reference/RETURN_INVARIANTS_R1.md": "ba40a1f9a341700460d68991c83bfe0581becbebc7d5236b7c586d28ce34a975"
+  }
+}

@@ -44,7 +44,27 @@
       "standalone_document": false
     }
   ],
-  "status": "Initial four-route research organization; original manuscript preserved; see ASSESSMENT.md for claim status.",
+  "status": "R1: finite reciprocal scalar transport model, reference-independent returns, conservation criterion, and exact checks; no universal lambda selected.",
   "repository": "Parveen117/extra-ideas",
-  "visibility": "public"
+  "visibility": "public",
+  "developments": [
+    {
+      "id": "R1",
+      "date": "2026-09-30",
+      "title": "Reference-independent return multipliers",
+      "proof": "03-lambda-reference/RETURN_INVARIANTS_R1.md",
+      "implementation": "04-operator-evolution/response_transport.py",
+      "verification": "04-operator-evolution/R1_VERIFICATION.json",
+      "test_count": 13,
+      "validation_status": "PASS_EXACT_FINITE_CHECKS",
+      "assumptions": [
+        "finite connected labelled simple graph",
+        "nonzero scalar transport",
+        "reciprocal edge reversal",
+        "independent vertex reference changes"
+      ],
+      "universal_lambda_selected": false,
+      "physical_validation": false
+    }
+  ]
 }

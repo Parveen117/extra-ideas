@@ -30,3 +30,7 @@ Do not identify these models without a map and its hypotheses. If coefficients a
 Use [IDENTIFIABILITY.md](IDENTIFIABILITY.md) as the first proof obligation. Derive a native relation that selects a dimensionless invariant, establish its uniqueness, and connect it to a response observable. A spectral ratio or return invariant is a candidate class of objects to investigate, not a value already obtained by this draft.
 
 Role in the four-route program: the main question about scale selection. Way-4 supplies tools for addressing it and Way-2 supplies its response interpretation.
+
+## R1 development
+
+[RETURN_INVARIANTS_R1.md](RETURN_INVARIANTS_R1.md) now constructs reference-independent quantities `Lambda_C` attached to specified return processes, classifies the finite scalar model, and proves a conservation criterion. These are computable return multipliers; a law selecting a universal `lambda_*` is still required.
