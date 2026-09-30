@@ -17,7 +17,24 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
-## Latest development: R4 native source bridge and closure checks
+## Latest development: R5 recovery of an unknown depth prefix
+
+[R5: What a boundary response determines about its depth profile](03-lambda-reference/PROFILE_RECOVERY_R5.md) adds an exact inverse procedure without assuming a two-cell period. With a calibrated common product multiplier `z`, the first `m` odd coefficients of the response at `z=0` determine precisely the first `m` positive cell products. For example, `[3,-18,216]` recovers `[3,2,3]`; deeper cells remain unknown.
+
+R5 also proves the limitation at every finite depth: the same weak-response coefficients **and the same exact closed bond** can come from different completed profiles. The explicit sources `(3,2,3,2,...)` and `(3,2,2,1,2,1,...)` both close at `z=1` and share coefficients `3,-18`, but differ at the next coefficient and at a held-out native probe. An additional bound on the unseen tail gives a certified prediction interval.
+
+This applies classical continued-fraction inversion to the existing native source. It extends the inspected fixed-period identification packets by treating arbitrary depth dependence, with a different calibration contract; it does not claim a new general inversion method or a selected physical constant. The [proof's lineage comparison](03-lambda-reference/PROFILE_RECOVERY_R5.md#7-lineage-and-what-is-added) credits the existing RKF and Publications results.
+
+The 14 focused checks pass, including nine comparisons with the unchanged native finite-inverse solver and four source proof replays. Reproduce with Python 3.11 or 3.12 and the same pinned RKF runtime used by R4:
+
+```bash
+python3.12 -B 04-operator-evolution/profile_recovery.py '[3, -18, 216]'
+python3.12 -B 04-operator-evolution/verify_r5.py --rkf-root ../rkf-r4
+```
+
+See the [implementation](04-operator-evolution/profile_recovery.py), [source pins](04-operator-evolution/R5_SOURCE_PINS.json) and [verification record](04-operator-evolution/R5_VERIFICATION.json). Exact coefficients are inputs; recovery from noisy experimental readings is not yet certified.
+
+## R4 native source bridge and closure checks
 
 [R4: The native source of R3's bond](03-lambda-reference/NATIVE_BOND_BRIDGE_R4.md) connects R3 to the existing RKF paired-depth response. At the source's exact cut, `F=I+KR` and `B=F/2`. With the existing grading `A=K`, the removed-space rule follows: `ABA=I-B`, and `[A,B]=R` recovers the existing quarter-turn. A coordinate map identifies the full R3 bond and relative metric with this source realization.
 
@@ -104,10 +121,10 @@ The unrestricted four-way equivalence remains a proposal. R1 now supplies an exp
 
 ## Selection milestone
 
-R1 specifies a scalar model, its reference changes, and its complete return invariants. R2 instantiates the existing cut-graded return and compression calculus. R3 supplies an explicit conditional seam/bond realization. R4 connects it to an existing native exact-cut response and checks closure without discarding its amplitude or aperture dependence. Next supply a source-selection or dynamical law that distinguishes the remaining profiles, apertures, rates or phases. Invariance, conservation, and universal value selection remain separate claims.
+R1 specifies a scalar model, its reference changes, and its complete return invariants. R2 instantiates the existing cut-graded return and compression calculus. R3 supplies an explicit conditional seam/bond realization. R4 connects it to an existing native exact-cut response and checks closure without discarding its amplitude or aperture dependence. R5 determines the recoverable depth prefix from calibrated response coefficients and proves that a finite jet plus exact closure still leaves deeper source freedom. Next supply an independent source law, or an observation protocol with warranted calibration and error bounds. Invariance, identification from data, and universal value selection remain separate claims.
 
 The name `lambda` currently serves several roles. Use `lambda_*` for the fixed reference, `chi_XY` for a response derivative, `gamma` for a decay rate, and `epsilon` for observational resolution until a theorem relates them.
 
 ## Provenance
 
-[MANIFEST.json](MANIFEST.json) records the original source checksum and the line ranges of the excerpts. R4 executes a pinned upstream implementation from a separate checkout; its source files are referenced rather than duplicated here. [CROSS_REPO_LINEAGE.md](CROSS_REPO_LINEAGE.md) records inherited results and the limited contribution of each development.
+[MANIFEST.json](MANIFEST.json) records the original source checksum and the line ranges of the excerpts. R4 and R5 execute a pinned upstream implementation from a separate checkout; its source files are referenced rather than duplicated here. [CROSS_REPO_LINEAGE.md](CROSS_REPO_LINEAGE.md) records the R1–R4 assessment; the R5 proof adds its own scoped comparison without changing that earlier evidence.

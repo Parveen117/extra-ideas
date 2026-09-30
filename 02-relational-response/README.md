@@ -41,3 +41,7 @@ Role in the four-route program: connect an algebraic or operator result to a qua
 ## R4 source connection
 
 [R4](../03-lambda-reference/NATIVE_BOND_BRIDGE_R4.md) consumes the existing paired-depth response and carries its raw amplitude and finite-tail enclosure through the bond test. It demonstrates with actual source responses why normalization and one finite closed aperture cannot certify completed closure.
+
+## R5 inverse response and remaining uncertainty
+
+[R5](../03-lambda-reference/PROFILE_RECOVERY_R5.md) reconstructs the first `m` positive cell products from `m` calibrated odd weak-response coefficients. It proves the first order at which a deeper change becomes visible and uses the unchanged source's transfer map to enclose future responses with the unknown tail retained. Unknown input and output gains have an explicit effect on the recovered products; noisy coefficient recovery remains a separate task.

@@ -1,0 +1,47 @@
+{
+  "purpose": "R5 uses the original native solver and distinguishes prefix recovery from the already existing fixed-period identification and critical-response results.",
+  "runtime_pins": "R4_SOURCE_PINS.json",
+  "runtime_repository": "Parveen117/Recognition-Kernel-Framework",
+  "runtime_ref": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "files": [
+    {
+      "repository": "Parveen117/Publications",
+      "ref": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+      "path": "papers/native-return-identification/THEOREM.md",
+      "git_blob_sha": "8f88fae98506cef2a62f765a740a7fa5a1801047",
+      "url": "https://github.com/Parveen117/Publications/blob/f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56/papers/native-return-identification/THEOREM.md",
+      "sha256": "5f960f4434d9203a56a8d43518d021fcf60b59785dace8ecebdf2dc19a9a2a35",
+      "role": "compared source theorem; inherited results credited in R5"
+    },
+    {
+      "repository": "Parveen117/Publications",
+      "ref": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+      "path": "papers/native-critical-response/THEOREM.md",
+      "git_blob_sha": "6706d6c8a9eb67199c38253a0e804e91f0f8cd27",
+      "url": "https://github.com/Parveen117/Publications/blob/f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56/papers/native-critical-response/THEOREM.md",
+      "sha256": "2e7a00e6ef00cc3383802c17b834014a43f0a9da1e515d558c976df55c7ff353",
+      "role": "compared source theorem; inherited results credited in R5"
+    },
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "ref": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "path": "research/recognition_return/r2/THEOREM.md",
+      "git_blob_sha": "fa5999eec9d2cf3e7547df8e92cc758385bd1964",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/3cc5a33b05c16d59c90994ddda69dedc0d392424/research/recognition_return/r2/THEOREM.md",
+      "sha256": "a37d51e38cf88fb65a7bc2239982a270bc59bdc4c6d4b6e10a6c369358d24bcc",
+      "role": "compared source theorem; inherited results credited in R5"
+    }
+  ],
+  "classical_references": [
+    {
+      "url": "https://dlmf.nist.gov/3.10.ii",
+      "description": "Stieltjes fractions and recovery from power-series coefficients",
+      "accessed_date": "2026-09-30"
+    },
+    {
+      "url": "https://arxiv.org/abs/2206.15434v2",
+      "description": "Alan D. Sokal, A simple algorithm for expanding a power series as a continued fraction; established algorithmic lineage",
+      "accessed_date": "2026-09-30"
+    }
+  ]
+}

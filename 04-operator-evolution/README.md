@@ -73,3 +73,14 @@ python3.12 -B 04-operator-evolution/verify_r4.py --rkf-root ../rkf-r4
 ```
 
 The 12 [integration tests](test_native_bond_bridge.py) include 16 native polynomial replays, the actual Schur witness, the R3 coordinate/metric map, finite enclosures, and false-positive closure controls. [R4_VERIFICATION.json](R4_VERIFICATION.json) records the source hashes, results and preserved R1/R2/R3 evidence. Read the [proof](../03-lambda-reference/NATIVE_BOND_BRIDGE_R4.md) and [lineage assessment](../CROSS_REPO_LINEAGE.md) for what is inherited and what the bridge adds.
+
+## R5 profile recovery and reproduction
+
+[profile_recovery.py](profile_recovery.py) recovers a positive depth prefix by reciprocal-series stripping and reports that its tail remains unknown. Inputs are exact coefficients of `z, z^3, ...` for a calibrated common multiplier of paired products. A finite rational-polynomial companion is checked against the original source, while [native_profile_probe.cjs](native_profile_probe.cjs) reuses its forward responses, synthesis and interval routines unchanged.
+
+```bash
+python3.12 -B 04-operator-evolution/profile_recovery.py '[3, -18, 216]'
+python3.12 -B 04-operator-evolution/verify_r5.py --rkf-root ../rkf-r4
+```
+
+The CLI returns `[3,2,3]` and explicitly leaves infinite periodicity unproved. The 14 [focused tests](test_profile_recovery.py) include heterogeneous reconstruction, native forward checks, the equal-cut ambiguity witness, disjoint held-out response intervals, gain ambiguity, and finite tail budgets. [R5_VERIFICATION.json](R5_VERIFICATION.json) records the results and preserved R1–R4 evidence. See the [proof](../03-lambda-reference/PROFILE_RECOVERY_R5.md) and [source pins](R5_SOURCE_PINS.json) for assumptions and classical lineage. No upstream runtime is copied into this repository.

@@ -46,3 +46,7 @@ Role in the four-route program: the main question about scale selection. Way-4 s
 ## R4 source connection
 
 [NATIVE_BOND_BRIDGE_R4.md](NATIVE_BOND_BRIDGE_R4.md) realizes the bond rule using the existing native exact-cut response. The removed space follows within that source family. Source selection, the coupling profile, and dynamical calibration remain open; the earlier iota and cut-synthesis results are explicitly credited.
+
+## R5 identification and source-selection limit
+
+[PROFILE_RECOVERY_R5.md](PROFILE_RECOVERY_R5.md) gives a constructive inverse problem for arbitrary positive depth dependence. Finite calibrated response data determine a precise prefix. It also constructs, for every finite prefix length, distinct bounded positive sources with identical available coefficients and the same exact closed bond. A selected bond and a successful finite fit therefore do not select the full source in this observation protocol. The additional probe and tail error budget make that distinction testable within the native model; a universal `lambda_*` remains unselected.

@@ -39,3 +39,7 @@ Role in the four-route program: a clear representation of states and components.
 ## R4 source connection
 
 [R4](../03-lambda-reference/NATIVE_BOND_BRIDGE_R4.md) gives the exact coordinate map from the existing native EMK pair to R3's seam coordinates, including the relative metric. It distinguishes the represented quarter-turn from the central cut-complex scalar in the full native matrix algebra.
+
+## R5 observable depth coordinates
+
+[R5](../03-lambda-reference/PROFILE_RECOVERY_R5.md) identifies the finite list of positive depth products encoded by a calibrated boundary response jet. Its coordinate data are the odd coefficients at zero coupling. Exactly one additional coefficient resolves one additional cell; no change to the native state algebra or the source manuscript's unresolved field construction is claimed.

@@ -44,7 +44,7 @@
       "standalone_document": false
     }
   ],
-  "status": "R4: R3 bond realized by the existing native exact-cut response; raw closure defects and finite-aperture error checked. Universal source selection and lambda remain open.",
+  "status": "R5: exact depth-prefix recovery from calibrated weak-response coefficients, same-cut finite-jet ambiguity, and native tail prediction intervals. Universal source selection and lambda remain open.",
   "repository": "Parveen117/extra-ideas",
   "visibility": "public",
   "developments": [
@@ -154,7 +154,40 @@
       "universal_lambda_selected": false,
       "dynamical_return_sign_selected": false,
       "physical_validation": false
+    },
+    {
+      "id": "R5",
+      "date": "2026-09-30",
+      "title": "Recoverable depth prefixes and equal-cut source ambiguity",
+      "proof": "03-lambda-reference/PROFILE_RECOVERY_R5.md",
+      "implementation": "04-operator-evolution/profile_recovery.py",
+      "native_adapter": "04-operator-evolution/native_profile_probe.cjs",
+      "verification": "04-operator-evolution/R5_VERIFICATION.json",
+      "source_pins": "04-operator-evolution/R5_SOURCE_PINS.json",
+      "test_count": 14,
+      "native_finite_polynomial_comparison_count": 9,
+      "native_schur_proof_replay_count": 4,
+      "validation_status": "PASS_EXACT_PROFILE_RECOVERY_CHECKS",
+      "source_runtime_reused_unchanged": true,
+      "model_contract": [
+        "positive paired depth products and a fixed boundary aperture",
+        "known common multiplier z of every product",
+        "calibrated odd response coefficients at z=0",
+        "bounded positive profiles for completed Taylor responses",
+        "an additional bound on the unseen first cell for the finite tail budget"
+      ],
+      "constructive_inverse": "a_j=h_j(0); h_(j+1)=(1/h_j-1/a_j)/t, with t=z^2",
+      "recoverable_prefix": "m odd coefficients through z^(2m-1) determine m products",
+      "first_differing_depth_m_visible_power": "2m+1",
+      "finite_jet_and_exact_cut_select_whole_profile": false,
+      "classical_inversion_newly_discovered": false,
+      "unknown_probe_and_readout_gain_removed": false,
+      "noisy_observation_recovery_certified": false,
+      "individual_directional_amplitudes_recovered": false,
+      "universal_lambda_selected": false,
+      "physical_validation": false
     }
   ],
-  "lineage_assessment": "CROSS_REPO_LINEAGE.md"
+  "lineage_assessment": "CROSS_REPO_LINEAGE.md",
+  "r5_lineage_addendum": "03-lambda-reference/PROFILE_RECOVERY_R5.md#7-lineage-and-what-is-added"
 }
