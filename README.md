@@ -17,7 +17,26 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
-## Latest development: R2 Aghora returns and projection
+## Latest development: R3 seam-selected bond and complex structure
+
+[R3: A typed seam, its bond, and a linear complex structure](03-lambda-reference/SEAM_BOND_COMPLEX_STRUCTURE_R3.md) supplies a conditional selection rule for R2's bond: retain the seam `L` and remove its Aghora image `A L`, when they are complementary. This **added rule** uniquely determines `B` and proves:
+
+- `ABA=I-B` and `K_Gamma=[A,B]` satisfies `K_Gamma^2=-I`.
+- In a real two-mode realization, requiring `A` to be an isometry and `B` orthogonal fixes a positive relative metric up to overall scale.
+- Requiring the Aghora-odd generator to preserve that metric gives `G=omega K_Gamma`, with `omega` still free.
+- The exponential return compresses to `BR_tB=sin(omega t)B`; no-leakage returns allow either sign.
+
+These conditions construct a standard linear complex structure from the specified seam and involution. They are not implied by the source ratio alone. The metric is on a two-mode state space; no physical metric, absolute rate, or universal `lambda_*` has been selected.
+
+Read the [complex-coordinate action](01-intrinsic-numbers/SEAM_COMPLEX_COORDINATES_R3.md), [typed response](02-relational-response/TYPED_SEAM_R3.md), and [exact implementation](04-operator-evolution/seam_bond.py). Reproduce the 18 focused checks with:
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r3.py
+```
+
+[R3_VERIFICATION.json](04-operator-evolution/R3_VERIFICATION.json) records exact examples and counterexamples, hashes the implementation and proof, and checks the preserved R1/R2 evidence. Its chosen rational example has compressed coefficient `3/5` and removed squared-norm fraction `16/25`. A counterexample demonstrates that zero scalar defect can hide leakage if the generator lacks metric compatibility.
+
+## R2: Aghora returns and projection
 
 [R2: Aghora return law and the effect of a projection](03-lambda-reference/AGHORA_RETURN_R2.md) uses the manuscript's `A^2=I`, `AGA=-G`, and bond projection. With the stated specialization `U_t=exp(tG)` and constructed protocol `R_t=A U_t`, it proves:
 
@@ -34,7 +53,7 @@ Read the [mode construction](01-intrinsic-numbers/AGHORA_MODES_R2.md), [projecte
 python3.12 -B 04-operator-evolution/verify_r2.py
 ```
 
-[R2_VERIFICATION.json](04-operator-evolution/R2_VERIFICATION.json) records the checked source hashes. R2 supplies a particular constrained return family; the native bond-selection law and a universal value of `lambda_*` remain unresolved. The constructed return is not yet identified with the source's full six-stage closure.
+[R2_VERIFICATION.json](04-operator-evolution/R2_VERIFICATION.json) records the checked source hashes. R2 supplies a particular constrained return family. R3 adds an explicit conditional bond rule; deriving that rule from the source and selecting a universal value of `lambda_*` remain unresolved. The constructed return is not yet identified with the source's full six-stage closure.
 
 ## R1: reference-independent return invariants
 
@@ -51,7 +70,7 @@ The [coordinate model](01-intrinsic-numbers/COORDINATE_TRANSPORT_R1.md), [respon
 python3.12 -B 04-operator-evolution/verify_r1.py
 ```
 
-See [R1_VERIFICATION.json](04-operator-evolution/R1_VERIFICATION.json) for the recorded result and source hashes. The model assumes reciprocal scalar transport and independently changeable local references. Its return values are computable from edge data; a universal value of `lambda_*` remains unselected. The native return operation and a law selecting its value are the next research target. The proof document acknowledges the established gain-graph mathematics underlying this construction.
+See [R1_VERIFICATION.json](04-operator-evolution/R1_VERIFICATION.json) for the recorded result and source hashes. The model assumes reciprocal scalar transport and independently changeable local references. Its return values are computable from edge data; a universal value of `lambda_*` remains unselected. R2 and R3 investigate additional operator and seam structure. The proof document acknowledges the established gain-graph mathematics underlying this construction.
 
 ## Research judgment
 
@@ -69,7 +88,7 @@ The unrestricted four-way equivalence remains a proposal. R1 now supplies an exp
 
 ## Selection milestone
 
-R1 specifies a scalar model, its reference changes, and its complete return invariants. R2 constructs an involutive operator-return family from the source relations and identifies how a bond can change its observed response. Next derive the bond or seam selection law: determine whether it selects a sign sector or fixes a specific noncommuting projection. Invariance, conservation, and universal value selection remain separate claims.
+R1 specifies a scalar model, its reference changes, and its complete return invariants. R2 constructs an involutive operator-return family and identifies the effect of a bond. R3 fixes that bond under a seam-exchange rule, constructs a complex structure, and identifies the remaining metric and dynamical requirements. Next determine whether the source's other operations force those added requirements and select a rate or phase. Invariance, conservation, and universal value selection remain separate claims.
 
 The name `lambda` currently serves several roles. Use `lambda_*` for the fixed reference, `chi_XY` for a response derivative, `gamma` for a decay rate, and `epsilon` for observational resolution until a theorem relates them.
 

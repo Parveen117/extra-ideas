@@ -31,3 +31,7 @@ Role in the four-route program: a clear representation of states and components.
 ## R2 development
 
 [AGHORA_MODES_R2.md](AGHORA_MODES_R2.md) derives the positive/negative sector split from the source involution. A nonzero Aghora-odd generator needs both sectors, giving a precise reason to extend the scalar model to multiple modes.
+
+## R3 development
+
+[SEAM_COMPLEX_COORDINATES_R3.md](SEAM_COMPLEX_COORDINATES_R3.md) constructs a complex action on two real seam coordinates under an explicit bond rule. It distinguishes the resulting operator algebra from the source's componentwise product, and states the conditions needed for the relative metric and rotation flow.

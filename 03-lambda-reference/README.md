@@ -38,3 +38,7 @@ Role in the four-route program: the main question about scale selection. Way-4 s
 ## R2 development
 
 [AGHORA_RETURN_R2.md](AGHORA_RETURN_R2.md) constructs a specified return family from the source Aghora relations. Its eigenvalues satisfy `r^2=1`, while a bond projection can produce a variable effective coefficient. The remaining selection question is to derive the native retained subspace and its relationship to the return, rather than choose one sign or projection by convention.
+
+## R3 development
+
+[SEAM_BOND_COMPLEX_STRUCTURE_R3.md](SEAM_BOND_COMPLEX_STRUCTURE_R3.md) selects a bond under the added seam-exchange rule, proves `[A,B]^2=-I`, and derives a relative metric and the generator form `G=omega[A,B]` under separate compatibility conditions. The rate, phase, sign choice, and universal reference remain unselected. The next question is whether the original operations force these added conditions.

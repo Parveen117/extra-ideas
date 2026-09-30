@@ -44,7 +44,7 @@
       "standalone_document": false
     }
   ],
-  "status": "R2: Aghora return signs and projection-defect identity added to R1; unique sign and universal lambda remain unselected.",
+  "status": "R3: typed seam, conditional unique bond, complex structure, and compatible relative metric; rate, sign selection, and universal lambda remain open.",
   "repository": "Parveen117/extra-ideas",
   "visibility": "public",
   "developments": [
@@ -94,6 +94,33 @@
       "return_eigenvalue_constraint": "r^2=1",
       "unique_return_sign_selected": false,
       "universal_lambda_selected": false,
+      "physical_validation": false
+    },
+    {
+      "id": "R3",
+      "date": "2026-09-30",
+      "title": "A typed seam, its bond, and a linear complex structure",
+      "proof": "03-lambda-reference/SEAM_BOND_COMPLEX_STRUCTURE_R3.md",
+      "implementation": "04-operator-evolution/seam_bond.py",
+      "verification": "04-operator-evolution/R3_VERIFICATION.json",
+      "test_count": 18,
+      "validation_status": "PASS_EXACT_FINITE_CHECKS",
+      "model_choices": [
+        "real two-dimensional space with both Aghora sectors",
+        "linear seam x-Gamma*y=0 with finite real nonzero Gamma",
+        "range(B)=L and kernel(B)=A L"
+      ],
+      "added_metric_conditions": [
+        "A is an isometry",
+        "B is self-adjoint"
+      ],
+      "added_dynamical_condition": "G is skew-adjoint in the compatible metric",
+      "complex_structure_identity": "[A,B]^2=-I",
+      "relative_metric_unique_up_to_scale_under_added_conditions": true,
+      "remaining_generator_freedom": "G=omega[A,B] with free real omega",
+      "unique_return_sign_selected": false,
+      "universal_lambda_selected": false,
+      "source_full_closure_identified": false,
       "physical_validation": false
     }
   ]

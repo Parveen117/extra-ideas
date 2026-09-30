@@ -1,0 +1,49 @@
+{
+  "status": "PASS_EXACT_FINITE_CHECKS",
+  "python": "3.12.14",
+  "arithmetic": "fractions.Fraction; exact rational matrices",
+  "tests_run": 18,
+  "failures": 0,
+  "errors": 0,
+  "scope": "Exact two-mode examples, coordinate covariance, and hypothesis counterexamples. General identities are proved in SEAM_BOND_COMPLEX_STRUCTURE_R3.md. No approximate exponential or physical experiment.",
+  "added_bond_rule": "range(B)=L and kernel(B)=A L, with V=L direct-sum A L",
+  "bond_unique_under_added_rule": true,
+  "complex_structure_identity": "[A,B]^2=-I",
+  "relative_metric_unique_up_to_scale_under_added_conditions": true,
+  "compatible_generator": "G=omega[A,B]; omega remains free",
+  "unique_return_sign_selected": false,
+  "universal_lambda_selected": false,
+  "source_full_closure_identified": false,
+  "physical_validation": false,
+  "example": {
+    "inputs_are_chosen": true,
+    "gamma": "2",
+    "omega": "3",
+    "cayley_parameter": "1/9",
+    "compressed_coefficient": "3/5",
+    "retained_squared_norm_fraction": "9/25",
+    "removed_squared_norm_fraction": "16/25"
+  },
+  "earlier_verification_integrity": {
+    "R1": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "files_checked": 4,
+      "all_recorded_hashes_match": true
+    },
+    "R2": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "files_checked": 4,
+      "all_recorded_hashes_match": true
+    }
+  },
+  "sha256": {
+    "4ways.tex": "ace9e45fedf6154f2d872ae762c47a1d852ff93a373f6e30d99c33031cdf8234",
+    "01-intrinsic-numbers/SEAM_COMPLEX_COORDINATES_R3.md": "919b3b7c8156feb3cde6d751cbebe97e5dd02a6d4cdaf3d1c7f637d0dddb4adb",
+    "02-relational-response/TYPED_SEAM_R3.md": "fe7c6a3ef19910389ed60d176e27191cab86a88c17180de23dbd50dd2fcb4266",
+    "03-lambda-reference/SEAM_BOND_COMPLEX_STRUCTURE_R3.md": "8b1f53a5ed82c5e4dd164899d1b3fe241c8b7d521badd3d4568456a043d9ab0f",
+    "04-operator-evolution/aghora_return.py": "17e1bb9681f9d5e766c4f294765c1273ba6716a64e8d125196fd36f10fb06e7c",
+    "04-operator-evolution/seam_bond.py": "4b0870ef718b8f89003f480a5a5146e5624f917dc30466a976177b1dfcb498c0",
+    "04-operator-evolution/test_seam_bond.py": "7bce40c74c34daccf8bf7b3a082f27483e718e6aecf0ca0a5a63414ecaff063e",
+    "04-operator-evolution/verify_r3.py": "c6694f54b8a2eb352c101d02b1ee9f21d144deabdbe6b56ac169d04de5105185"
+  }
+}

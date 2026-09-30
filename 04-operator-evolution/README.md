@@ -51,3 +51,13 @@ python3.12 -B 04-operator-evolution/verify_r2.py
 ```
 
 The 15 [focused checks](test_aghora_return.py) cover the return identities, both sign sectors, projection defects, reference changes, and counterexamples when hypotheses are missing. [R2_VERIFICATION.json](R2_VERIFICATION.json) records the run. Read [the proof](../03-lambda-reference/AGHORA_RETURN_R2.md) for the distinction between algebraic identities, optional norm statements, and the unresolved native selection law.
+
+## R3 development and reproduction
+
+[seam_bond.py](seam_bond.py) constructs the projection onto a two-mode seam along its Aghora image, the resulting complex structure, a compatible relative metric, and exact rational returns. The rule for the removed subspace and the metric conditions are explicit additions to the source.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r3.py
+```
+
+The 18 [focused checks](test_seam_bond.py) cover the derived operators, changes of coordinates, complex multiplication, the response and norm balance, both return signs, and counterexamples without the added hypotheses. [R3_VERIFICATION.json](R3_VERIFICATION.json) hashes R3 and its imported R2 implementation, and checks the preserved earlier verification hashes. The [proof](../03-lambda-reference/SEAM_BOND_COMPLEX_STRUCTURE_R3.md) distinguishes the algebraic construction from optional metric and dynamical requirements. No floating-point approximation is used.

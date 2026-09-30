@@ -33,3 +33,7 @@ Role in the four-route program: connect an algebraic or operator result to a qua
 ## R2 development
 
 [PROJECTED_RESPONSE_R2.md](PROJECTED_RESPONSE_R2.md) shows how a fixed full-return sign structure can coexist with a variable response after a bond projection. The exact defect is algebraic; a nonnegative norm interpretation requires the additional metric assumptions stated there.
+
+## R3 development
+
+[TYPED_SEAM_R3.md](TYPED_SEAM_R3.md) separates the scalar constraint from a state operator, then fixes the projection by an explicit rule for its removed subspace. It gives the compatible return response and explains why scalar closure alone can hide leakage.
