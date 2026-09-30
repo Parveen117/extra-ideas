@@ -44,7 +44,7 @@
       "standalone_document": false
     }
   ],
-  "status": "R5: exact depth-prefix recovery from calibrated weak-response coefficients, same-cut finite-jet ambiguity, and native tail prediction intervals. Universal source selection and lambda remain open.",
+  "status": "R6: supplied coefficient error intervals enclose recoverable positive depth products and native future response bounds; unresolved positivity and incompatible profiles are distinguished.",
   "repository": "Parveen117/extra-ideas",
   "visibility": "public",
   "developments": [
@@ -186,8 +186,31 @@
       "individual_directional_amplitudes_recovered": false,
       "universal_lambda_selected": false,
       "physical_validation": false
+    },
+    {
+      "id": "R6",
+      "date": "2026-09-30",
+      "title": "Interval-certified depth recovery and uncertain-source predictions",
+      "proof": "03-lambda-reference/INTERVAL_PROFILE_RECOVERY_R6.md",
+      "implementation": "04-operator-evolution/interval_profile_recovery.py",
+      "verification": "04-operator-evolution/R6_VERIFICATION.json",
+      "runtime_source_pins": "04-operator-evolution/R4_SOURCE_PINS.json",
+      "compared_source_pins": "04-operator-evolution/R5_SOURCE_PINS.json",
+      "test_count": 10,
+      "native_prediction_corner_comparison_count": 8,
+      "validation_status": "PASS_CERTIFIED_INTERVAL_PROFILE_CHECKS",
+      "source_runtime_reused_unchanged": true,
+      "coefficient_error_bounds_supplied": true,
+      "coefficient_error_bounds_experimentally_established": false,
+      "unknown_calibration_gains_removed": false,
+      "uncertain_coupling_prefix_recovery_certified": true,
+      "coupling_correlations_preserved_exactly": false,
+      "unseen_tail_retained_in_prediction": true,
+      "universal_lambda_selected": false,
+      "physical_validation": false
     }
   ],
   "lineage_assessment": "CROSS_REPO_LINEAGE.md",
-  "r5_lineage_addendum": "03-lambda-reference/PROFILE_RECOVERY_R5.md#7-lineage-and-what-is-added"
+  "r5_lineage_addendum": "03-lambda-reference/PROFILE_RECOVERY_R5.md#7-lineage-and-what-is-added",
+  "r6_lineage_addendum": "03-lambda-reference/INTERVAL_PROFILE_RECOVERY_R6.md#implementation-evidence-and-lineage"
 }

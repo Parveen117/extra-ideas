@@ -84,3 +84,13 @@ python3.12 -B 04-operator-evolution/verify_r5.py --rkf-root ../rkf-r4
 ```
 
 The CLI returns `[3,2,3]` and explicitly leaves infinite periodicity unproved. The 14 [focused tests](test_profile_recovery.py) include heterogeneous reconstruction, native forward checks, the equal-cut ambiguity witness, disjoint held-out response intervals, gain ambiguity, and finite tail budgets. [R5_VERIFICATION.json](R5_VERIFICATION.json) records the results and preserved R1–R4 evidence. See the [proof](../03-lambda-reference/PROFILE_RECOVERY_R5.md) and [source pins](R5_SOURCE_PINS.json) for assumptions and classical lineage. No upstream runtime is copied into this repository.
+
+## R6 interval recovery and reproduction
+
+[interval_profile_recovery.py](interval_profile_recovery.py) propagates supplied rational coefficient intervals through R5's inverse, returns certified coupling ranges and a stopping status, and predicts a response with both prefix error and the remaining tail. R5's native adapter and all earlier proof/code files stay byte-identical.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r6.py --rkf-root ../rkf-r4
+```
+
+The 10 [focused checks](test_interval_profile_recovery.py) include eight prediction extrema replayed through the unchanged native solver, error-aware source discrimination and refusal cases. See the [proof](../03-lambda-reference/INTERVAL_PROFILE_RECOVERY_R6.md) and [verification record](R6_VERIFICATION.json). Use Python 3.11 or 3.12 and the pinned R4 upstream runtime.

@@ -43,3 +43,7 @@ Role in the four-route program: a clear representation of states and components.
 ## R5 observable depth coordinates
 
 [R5](../03-lambda-reference/PROFILE_RECOVERY_R5.md) identifies the finite list of positive depth products encoded by a calibrated boundary response jet. Its coordinate data are the odd coefficients at zero coupling. Exactly one additional coefficient resolves one additional cell; no change to the native state algebra or the source manuscript's unresolved field construction is claimed.
+
+## R6 uncertain depth coordinates
+
+[R6](../03-lambda-reference/INTERVAL_PROFILE_RECOVERY_R6.md) replaces exact coefficient coordinates by rational enclosures and records which positive product coordinates remain identifiable at the supplied precision. No additional primitive state algebra is introduced.

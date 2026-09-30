@@ -45,3 +45,7 @@ Role in the four-route program: connect an algebraic or operator result to a qua
 ## R5 inverse response and remaining uncertainty
 
 [R5](../03-lambda-reference/PROFILE_RECOVERY_R5.md) reconstructs the first `m` positive cell products from `m` calibrated odd weak-response coefficients. It proves the first order at which a deeper change becomes visible and uses the unchanged source's transfer map to enclose future responses with the unknown tail retained. Unknown input and output gains have an explicit effect on the recovered products; noisy coefficient recovery remains a separate task.
+
+## R6 response error propagation
+
+[R6](../03-lambda-reference/INTERVAL_PROFILE_RECOVERY_R6.md) carries supplied coefficient error bars into depth-coupling intervals and a future response interval. It retains the unobserved tail and uses the native solver to check both prediction extrema. Calibration and observation-error validity remain part of the input contract.

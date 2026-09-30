@@ -17,7 +17,19 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
-## Latest development: R5 recovery of an unknown depth prefix
+## Latest development: R6 recovery with coefficient error bars
+
+[R6](03-lambda-reference/INTERVAL_PROFILE_RECOVERY_R6.md) encloses recovered depth couplings when the calibrated response coefficients come with supplied uncertainty intervals. It returns the certified prefix, stops at an undecided positive product, and distinguishes that situation from a coefficient box incompatible with any positive profile of the requested depth.
+
+With absolute coefficient errors of `1/100`, R5's original and changed sources still yield disjoint third-cell ranges. Future response bounds now retain both coupling uncertainty and the unknown tail. Their extrema are checked at eight corners using the unchanged native solver.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r6.py --rkf-root ../rkf-r4
+```
+
+The 10 focused checks and preserved R1–R5 hashes are recorded in [R6_VERIFICATION.json](04-operator-evolution/R6_VERIFICATION.json). The [implementation](04-operator-evolution/interval_profile_recovery.py) uses exact rational intervals. Observation-error bounds and gain calibration are inputs; obtaining them from an experiment remains a separate task.
+
+## R5 recovery of an unknown depth prefix
 
 [R5: What a boundary response determines about its depth profile](03-lambda-reference/PROFILE_RECOVERY_R5.md) adds an exact inverse procedure without assuming a two-cell period. With a calibrated common product multiplier `z`, the first `m` odd coefficients of the response at `z=0` determine precisely the first `m` positive cell products. For example, `[3,-18,216]` recovers `[3,2,3]`; deeper cells remain unknown.
 
