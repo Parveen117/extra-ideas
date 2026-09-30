@@ -1,0 +1,50 @@
+{
+  "project": "Extra Ideas",
+  "prepared_date": "2026-09-30",
+  "source": {
+    "filename": "4ways.tex",
+    "sha256": "ace9e45fedf6154f2d872ae762c47a1d852ff93a373f6e30d99c33031cdf8234",
+    "preserved_verbatim": true
+  },
+  "route_excerpts": [
+    {
+      "folder": "01-intrinsic-numbers",
+      "source_lines": [
+        160,
+        203
+      ],
+      "verbatim": true,
+      "standalone_document": false
+    },
+    {
+      "folder": "02-relational-response",
+      "source_lines": [
+        204,
+        247
+      ],
+      "verbatim": true,
+      "standalone_document": false
+    },
+    {
+      "folder": "03-lambda-reference",
+      "source_lines": [
+        248,
+        273
+      ],
+      "verbatim": true,
+      "standalone_document": false
+    },
+    {
+      "folder": "04-operator-evolution",
+      "source_lines": [
+        274,
+        332
+      ],
+      "verbatim": true,
+      "standalone_document": false
+    }
+  ],
+  "status": "Initial four-route research organization; original manuscript preserved; see ASSESSMENT.md for claim status.",
+  "repository": "Parveen117/extra-ideas",
+  "visibility": "public"
+}

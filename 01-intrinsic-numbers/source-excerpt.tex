@@ -1,0 +1,44 @@
+\section{Way-1: Intrinsic Multidimensional Numbers}
+
+\begin{definition}[Way-1 Number Space]
+For $n \in \bN$, define the \textbf{Way-1 number space} as
+\[
+\cN_{n} = K^{n} = \{ \mathbf{x} = (x_1,\ldots,x_n) \mid x_i \in K \}.
+\]
+\end{definition}
+
+\begin{definition}[Coordinate Algebra]
+Define coordinatewise operations:
+\begin{align*}
+\mathbf{x} + \mathbf{y} &= (x_1 + y_1,\ldots,x_n + y_n), \\
+\alpha\mathbf{x} &= (\alpha x_1,\ldots,\alpha x_n), \\
+\mathbf{x} \odot \mathbf{y} &= (x_1y_1,\ldots,x_ny_n).
+\end{align*}
+The triple $(\cN_n, +, \odot)$ is a commutative $K$-algebra.
+\end{definition}
+
+\begin{theorem}[Basis and Decomposition]
+The standard basis vectors $e_i = (0,\ldots,1,\ldots,0)$ satisfy:
+\begin{align*}
+e_i \odot e_i &= e_i, \\
+e_i \odot e_j &= 0 \quad (i \neq j), \\
+\mathbf{x} &= \sum_{i=1}^{n} x_i e_i.
+\end{align*}
+Thus $\cN_n \cong Ke_1 \oplus \cdots \oplus Ke_n$ as algebras.
+\end{theorem}
+
+\begin{definition}[Valuation on Way-1]
+For $\mathbf{x} = (x_1,\ldots,x_n)$, define
+\[
+\val(\mathbf{x}) = \min_{1\leq i\leq n} \val(x_i).
+\]
+Then $\val(\mathbf{x} \odot \mathbf{y}) = \val(\mathbf{x}) + \val(\mathbf{y})$ when the minima align.
+\end{definition}
+
+\begin{theorem}[Graded Structure]
+\[
+\cN_n = \bigcup_{k\in\bZ} \cN_n^{(k)}, \quad \cN_n^{(k)} = \{ \mathbf{x} \mid \val(\mathbf{x}) = k \},
+\]
+and $\cN_n^{(k)} \odot \cN_n^{(m)} \subseteq \cN_n^{(k+m)}$. Hence $\cN_n$ is a graded algebra.
+\end{theorem}
+

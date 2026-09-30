@@ -1,0 +1,44 @@
+\section{Way-2: Relational/Response Numbers}
+
+\begin{definition}[Structural Response]
+A \textbf{response number} is a quantity $\lambda$ defined through a relation
+\[
+\lambda = \frac{dX}{dY}
+\]
+or more generally $\lambda_{ij} = \partial x_i / \partial x_j$. These are Jacobian-type numbers
+measuring relative change between structures.
+\end{definition}
+
+\begin{definition}[Relational Algebra]
+A \textbf{relational algebra} is a set equipped with:
+\begin{itemize}
+    \item A collection of response numbers $\{\lambda_{\alpha}\}$
+    \item Transformation laws expressing how structures relate
+    \item Invariant relations preserved under transformations
+\end{itemize}
+\end{definition}
+
+\begin{example}[Differential Relations]
+For observables $F,G$, the response relation
+\[
+\frac{dF}{dt} = \lambda \frac{dG}{dt}
+\]
+defines $\lambda$ as a structural coupling constant.
+\end{example}
+
+\begin{definition}[Seam Invariant]
+A \textbf{seam} is an invariant relation
+\[
+\seam = \frac{\lambda_p}{\lambda_v}
+\]
+that must be preserved under all admissible transformations.
+\end{definition}
+
+\begin{definition}[Seam Operator]
+For quantities $A,B$ with a seam $\seam$, define
+\[
+\seamop(A,B) = \lim_{\tau \to \tau_0 \text{ along seam}} \frac{A(\tau)}{B(\tau)}
+\]
+where the limit is taken while preserving $A/B = \seam$.
+\end{definition}
+

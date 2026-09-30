@@ -1,0 +1,26 @@
+\section{Way-3: Reference-Scale Normalization}
+
+\begin{definition}[Normalized Quantities]
+Every quantity $x \in K$ can be written uniquely as
+\[
+x = n\lstar \quad \text{or} \quad x = u\lstar^{k}
+\]
+with $n$ dimensionless and $u \in \unit$. The integer $k = \val(x)$ is the \textbf{scale order}.
+\end{definition}
+
+\begin{definition}[Harmonic Representation]
+A system in Way-3 is described by dimensionless coefficients $\{n_{\alpha}\}$ such that
+\[
+X_{\alpha} = n_{\alpha}\lstar^{\,k_{\alpha}}.
+\]
+Transformations preserve the reference scale $\lstar$ while acting on the coefficients.
+\end{definition}
+
+\begin{example}[Fredholm in Way-3]
+The Fredholm equation becomes
+\[
+n(\lambda) = n_0(\lambda) + \int \widetilde{K}(\lambda,\lambda')\, n(\lambda')\, d\lambda'
+\]
+with $\widetilde{K} = K/\lstar$ dimensionless.
+\end{example}
+
