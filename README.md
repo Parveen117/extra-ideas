@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R30's derivation ledger](04-operator-evolution/R30_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R31's derivation ledger](04-operator-evolution/R31_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,16 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R31: native propagation geometry and a complete increment observer
+
+[R31](02-relational-response/NATIVE_PROPAGATION_GEOMETRY_R31.md) derives a local reversible change `B=b+(delta_x V_y+delta_y V_x)phi` that unmixes both oriented loop-driven field updates into two source copies. Their full retained-source form `||B||^2+||phi||^2` is positive and conserved before any observation quotient. The exact driven solution is uniformly bounded. This identifies the mathematical content of R30's coupling without promoting an off-diagonal readout term to a primitive physical force.
+
+The alternating source has the exact scalar wave operator `L=(Delta_x+Delta_y)/2-(T_x-T_x^-1)(T_y-T_y^-1)/4`, with a native positive-square factorization and a finite count propagation cone. On the opposite-shift quotient its wave operator is exactly `Delta^2/4`; its leading two-label quadratic count form has rank one. These are derived directional properties of the source target, not an assumed physical metric.
+
+On a periodic L-by-L count target only the uniform two-role source is stationary. R30's loop is blind to an additional `6(L-1)` dynamic roles. Reading the complete signed four-event increment recovers every nonuniform source value, with an exact native inverse and a finite-decoder error bound. Native finite averages give a non-sharp propagation lower bound `1/(L-1)^4` for L>=2; no Fourier or classical spectral theorem enters.
+
+[Verification](04-operator-evolution/R31_VERIFICATION.json) binds seven written proofs, nine exact groups, twelve native replays, fifteen rejected alternatives and nine graph mutations. It checks complete Laurent identities, positive-square witnesses, exact count ranks, finite inverse/remainder identities and the unbounded affine counterexample outside the stationary theorem's domain. The [ledger](04-operator-evolution/R31_DERIVATION_LEDGER.json) keeps every target and physical-selection boundary explicit. All 243 earlier non-navigation files and the frozen R30 chain are preserved.
 
 ## R30: native directional loops and closed field interaction
 

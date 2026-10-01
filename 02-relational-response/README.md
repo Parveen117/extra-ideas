@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R31 native propagation geometry and increment reconstruction
+
+[NATIVE_PROPAGATION_GEOMETRY_R31.md](NATIVE_PROPAGATION_GEOMETRY_R31.md) unmixes the two oriented loop drives by one local reversible change of source variables. It derives a positive full-source invariant, a bounded exact driven solution, and the mixed two-direction wave operator. Opposite shifts have an exact quartic difference response; the leading quadratic count form has rank one.
+
+A native positive-square factorization classifies the stationary sector on finite-pairing domains. Periodic loop blindness is larger than stationarity: a full signed block-increment observer recovers every nonuniform source component, including the dynamic loop-blind sector. Its exact inverse and finite-decoder error bound use native count averages and elimination.
+
+[Verification](../04-operator-evolution/R31_VERIFICATION.json) binds seven proofs, nine exact groups and twelve native replays. The [ledger](../04-operator-evolution/R31_DERIVATION_LEDGER.json) retains the finite-pairing, direction-quotient and full-signed-reading domains. No physical irreducible force, metric, c/alpha or mass is identified by renaming these targets.
+
 ## R30 native protocol-loop curvature and field interaction
 
 [NATIVE_DIRECTIONAL_LOOP_INTERACTION_R30.md](NATIVE_DIRECTIONAL_LOOP_INTERACTION_R30.md) derives an exact directional order residue from two history-address labels sharing one native source role. Its actual closed-loop defect has the same quadratic size and a native continuation decoder. Intersecting interfaces localize an oriented curvature response; straight interfaces can be invisible to it.

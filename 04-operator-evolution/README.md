@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R31 propagation geometry and increment observer verification
+
+[native_propagation_geometry.cjs](native_propagation_geometry.cjs) uses the unchanged canonical arithmetic and word replayer. Complete Laurent identities verify simultaneous local unmixing, full-source conservation, the scalar alternating wave and its positive factorization. Exact direction substitutions and finite count jets check the quartic transverse response and rank-one leading form. Finite native positive-square witnesses, ranks and inverses support the stationary and reconstruction proofs.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r31.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R31_VERIFICATION.json](R31_VERIFICATION.json) binds seven written proofs, nine exact groups, twelve native replays, fifteen rejected alternatives and nine graph mutations. Checks include 72 continued-channel/solution matches, stationary and curvature ranks on periods one through five, eight exact inverse/blindness identities, 24 finite decoder remainder identities and 42 error-bound checks. Fifty affine-profile checks protect the finite-pairing stationary theorem's domain. [Source pins](R31_SOURCE_PINS.json) preserve all 243 prior non-navigation files and replay the frozen R30 chain. The [ledger](R31_DERIVATION_LEDGER.json) audits declared premises; formal proof-assistant and physical-validation status are separate.
+
 ## R30 directional-loop interaction verification
 
 [native_directional_loop_interaction.cjs](native_directional_loop_interaction.cjs) uses the unchanged canonical native arithmetic and word replayer. Complete Laurent identities verify the directional loop factorization, equal order/loop response forms, dual continuation, coupled inverse and conserved joint form. Literal H/K histories independently reproduce the two-label source census. Finite count frames and cyclic averaging/inverse identities check covariance and the complete curvature observation kernel.
