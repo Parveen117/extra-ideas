@@ -17,7 +17,23 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
-## R14: native source foundation and cross-repository derivation ledger
+## R15: cut/operator foundation and uploaded topology certification
+
+[R15](02-relational-response/EMK_TOPOLOGY_R15.md) starts with typed cut records, derives future-compatible recognition and a saturated cut topology, and constructs **iota from signed cyclic UGD phase records before a complex chart**. Scale, seam and path memory remain active. The [corrective LaTeX edition](02-relational-response/emk_topology_verified_R15.tex) contains the central proofs.
+
+The uploaded `emk_topology.tex` is [preserved exactly](04-operator-evolution/certificates/r15/emk_topology.original.tex); all [48 source claims](04-operator-evolution/certificates/r15/CLAIM_LEDGER.json) are audited. **The original universal three-axiom claim is not certified as written.** The packet identifies unsupported closure and analytic steps and supplies corrected results with explicit proof scope.
+
+[Exact verification](04-operator-evolution/R15_VERIFICATION.json) covers 3,678 finite action/observation systems, 42 signed phase basis vectors, ten unchanged-engine symbolic replays, mathematical negative controls, and a byte-matching replay of the existing UGD-1 certificate. Citations identify native constructions, declared presentations and imported analytic premises separately.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r15.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+## R14: scalar specialization and cross-repository derivation ledger
+
+**Scope corrected by [this notice](02-relational-response/R14_SCOPE_CORRECTION.md).** R14 is not the foundation of the full generalized UGD/recognition framework. Its scalar source is a later specialization. Its restricted non-uniqueness examples establish no universal obstruction for the full native source.
 
 [R14](02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md) derives the radial/complement split from native dagger and the transport from multiplication by `z=a+iota b`. Existing RH native period/polar/logarithm results derive theta from that source. The same source gives exact memory, consistent record-event content, and a phase metric; source-cell counts give unresolved-force covariance without imposing a balanced or Gaussian preparation.
 
@@ -28,7 +44,7 @@ h=\frac{(a\,db-b\,da)^2}{(a^2+b^2)^2}=d\theta^2,
 \qquad g_{\mathrm{record}}=4h.
 \]
 
-The [derivation ledger](02-relational-response/DERIVATION_SOURCE_LEDGER_R14.md) integrates **24 commit-pinned references** from RKF and RH, including mathematics developed for Yang–Mills. Each citation states its native inputs or classical imports and its actual evidence level. The current source-selection and physical event-actualization questions remain explicit; R14 does not relabel a source tuple as an unconditional derivation.
+The [derivation ledger](02-relational-response/DERIVATION_SOURCE_LEDGER_R14.md) integrates **24 commit-pinned references** from RKF and RH, including mathematics developed for Yang–Mills. Each citation states its native inputs or classical imports and its actual evidence level. R14's source-selection discussion is restricted to its stated scalar/preparation/protocol family; its old global foundational interpretation is superseded by R15.
 
 [Thirty exact checks and eight mathematical mutation controls pass](04-operator-evolution/R14_VERIFICATION.json). The [upstream replay record](04-operator-evolution/R14_UPSTREAM_REPLAYS.json) includes passing F00/E, GHI and 45-test RH foundation replays, and an explicitly failed old combined-engine certificate hash check. R1–R13 evidence is unchanged.
 

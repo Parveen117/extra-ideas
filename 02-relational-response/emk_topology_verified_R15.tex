@@ -1,0 +1,244 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{definition}[theorem]{Definition}
+\newcommand{\Sat}{\operatorname{Sat}}
+\newcommand{\Fix}{\operatorname{Fix}}
+\title{EMK: Cut Records, Recognition, Native Iota and Topology\\
+\large R15 corrective edition with scoped verification}
+\author{Research framework: Monty Dabas}
+\date{1 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We correct the supplied manuscript \texttt{emk\_topology.tex} at its
+cut/operator foundation. Recognition is completed against future cuts,
+the Eye is correctly typed, and saturated cut stability gives a topology.
+A quarter-turn operator is constructed from signed cyclic phase records,
+before introducing a complex chart. Scale, seam and path memory are retained.
+The original manuscript is not certified as written: its three prose axioms
+do not establish its asserted four-cycle, analytic completion or physical
+consequences. This edition provides written proofs and reproducible exact
+checks of the stated constructions, not a proof-assistant certification.
+\end{abstract}
+
+\section{Source and proof language}
+The source names the ground, a first cut $\kappa$, and a self-cut $\chi$.
+The first cut initially has the ground as its domain, while later expressions
+apply it to all appearances. Those extensions must be typed. We begin with
+finite records of typed arrows. In the common-carrier construction below,
+the admitted actions are total maps of $X$, and $r:X\to Y$ records the
+self-cut output; the exact-output interpretation is $r=\chi$.
+These signatures specify the interpretation being constructed. They are not
+claimed to follow uniquely from the source's prose.
+
+Logical equality, finite records, subsets, functions and induction are the
+declared metamathematical language. No scalar field, metric, ordinary complex
+plane, external analytic theorem, stochastic law or physical clock is an
+input to the recognition/topology construction. Object-level recognition
+equality is distinct from logical equality in the proof language.
+
+\section{Typed words before a scalar chart}
+\begin{theorem}[Free path construction]
+Typed finite cut paths, with concatenation at matching endpoints and an
+empty path at each object, have associative composition and local identities.
+Assignment of generating arrows to maps with the same signatures extends
+uniquely to evaluation of every path.
+\end{theorem}
+\begin{proof}
+The empty path must map to its local identity. Evaluate a nonempty path by
+evaluating its shorter prefix and then its last arrow. Induction proves
+existence and uniqueness. Both parenthesizations of concatenation give the
+same ordered record, proving associativity.
+\end{proof}
+In the common-carrier free term presentation, the four-letter word
+$\chi\kappa\chi\kappa$ is not the empty word. Naming two acts does not
+prove $(\chi\kappa)^2=I$. For example, on three appearance states let
+$\kappa=(1,2,0)$ and $\chi=(0,1,2)$. Then $J^2(0)=2\ne0$ for
+$J=\chi\kappa$. An initial arrow from the ground to the seed is separate.
+This witnesses the gap in the algebraic totalization; it does not refute
+another native construction whose stronger relations are actually proved.
+
+\section{Recognition and Eye}
+\begin{definition}
+For the action alphabet $G$, let $G^*$ contain all finite action words,
+including the empty word. Set
+\[
+x\approx y\quad\Longleftrightarrow\quad
+r(wx)=r(wy)\quad\hbox{for every }w\in G^*.
+\]
+\end{definition}
+\begin{theorem}[Greatest future-compatible recognition]
+The relation $\approx$ is an equivalence preserved by every action. It is
+the greatest action-compatible equivalence contained in $\ker(r)$.
+\end{theorem}
+\begin{proof}
+Each equality of records is reflexive, symmetric and transitive, so their
+intersection is an equivalence. Appending an action $g$ to the future test
+replaces $w$ by $wg$, proving preservation. Any compatible equivalence in
+$\ker(r)$ is preserved by every word by induction and therefore implies
+all the displayed record equalities.
+\end{proof}
+The theorem covers total actions on a common carrier. Partial typed actions
+also require matching future availability and source types. The finite
+exhaustive certificate covers the total case. In a free term model with
+literal self-cut records, the relation is equality; nontrivial collapse
+requires actual source identifications or a specified readout.
+
+Write $q:X\to Q=X/{\approx}$. The expression $q^2=q$ is not typed.
+\begin{theorem}[Typed Eye and saturation]
+The operator $\Sat(U)=q^{-1}(q(U))$ on subsets of $X$ is extensive,
+monotone, union preserving and idempotent. Every cut descends to
+$\bar g([x])=[gx]$. The zero-change seam is
+\[
+S_g^0=\{x:q(gx)=q(x)\}=q^{-1}(\Fix(\bar g)).
+\]
+\end{theorem}
+\begin{proof}
+Saturation includes exactly the recognition classes meeting $U$; repeating
+it adds none. Inclusion and unions follow from that membership condition.
+Action compatibility makes $\bar g$ well-defined. The seam identity is
+then precisely the definition of a fixed point in $Q$.
+\end{proof}
+The original seam applies an additional $\chi$ relative to zero healing
+cost. With $\chi=(0,0,1)$, $C=(2,2,2)$ and $x=0$, its seam test is true
+but its healing cost is one. The original seam-zero-cost theorem is false
+even in the exact-output interpretation $R=\ker\chi$.
+
+\section{The repaired cut topology}
+\begin{theorem}[Saturated cut stability]
+The family
+\[
+\tau_{\rm cut}=\{U\subseteq X:\Sat(U)=U,\ g(U)\subseteq U\ (g\in G)\}
+\]
+is a topology closed under arbitrary intersections. It consists exactly of
+the inverse images of forward-invariant subsets of $Q$, or equivalently
+the upper sets of the preorder generated by recognition and directed cuts.
+\end{theorem}
+\begin{proof}
+Empty and full sets satisfy the conditions. Unions preserve both conditions.
+An intersection is saturated because membership in every intersectand is
+constant on a class. If $x$ belongs to every intersectand, so does $gx$;
+thus arbitrary intersections are stable. Saturated sets are precisely the
+inverse images under $q$, and action stability descends. Closure under a
+finite chain of recognition/cut steps follows by induction, proving the
+preorder characterization in both directions.
+\end{proof}
+This is not automatically the coarsest topology making cuts continuous:
+the indiscrete topology already makes all endomaps continuous. Individual
+noncommuting actions need not be continuous for this invariant-set topology.
+An initial topology needs specified observables and codomain topologies.
+
+The original image condition does not imply saturation. With
+$\chi=(0,0,2)$, $\kappa=(2,2,0)$ and $R=\ker\chi$, both
+$\{0,2\}$ and $\{1,2\}$ satisfy it for every generated word, but their
+intersection does not. The original theorem's extra direct-image
+intersection-preservation premise is sufficient, but was not derived;
+on all subsets it forces the quotient to be injective.
+
+\section{Cut count and directed distance}
+\begin{theorem}
+Counting appended cut occurrences gives $\ell(uv)=\ell(u)+\ell(v)$.
+On $Q$, the least length of a cut word from $a$ to $b$, denoted $d^+(a,b)$
+and set to infinity if no such word exists, satisfies
+\[
+d^+(a,b)=0\iff a=b,\qquad
+d^+(a,c)\le d^+(a,b)+d^+(b,c).
+\]
+\end{theorem}
+\begin{proof}
+Length additivity follows by induction on appended occurrences. Zero length
+means the empty word. Concatenating finite minimizing words proves the
+triangle inequality; an infinite right side is automatic. The least finite
+length exists by induction on cut counts.
+\end{proof}
+This supplies an event index and a directed counting distance, distinct from
+the original healing cost. Symmetry and physical time do not follow.
+
+\section{Native quarter-turn from cyclic cut records}
+Use the existing UGD cyclic phase alphabet of size $4m$, $m>0$. Its size is
+a declared native input, not selected by the upload's A0--A2. Let $G_{4m}$
+be the free signed ledger on phase marks $e_j$ with indices modulo $4m$.
+Formal cancellation supplies signs; coefficients count occurrences. Set
+\[
+Ue_j=e_{j+1},\quad f_j=e_j-e_{j+2m},\quad
+V^-=(I-U^{2m})G_{4m},\quad \iota=U^m|_{V^-},\quad Ke_j=e_{m-j}.
+\]
+\begin{theorem}[Operator before complex chart]
+The $f_j$, $0\le j<2m$, freely generate $V^-$. On this sector,
+\[
+\iota^2=-I,\quad\iota^4=I,\quad K^2=I,\quad K\iota=-\iota K.
+\]
+\end{theorem}
+\begin{proof}
+Each generator image under $I-U^{2m}$ is a listed $f_j$ or its negative.
+Its first-half coefficients prove independence. A half-cycle exchanges the
+two terms of $f_j$, so $U^{2m}f_j=-f_j$, giving the power identities.
+Reflection squares to identity and obeys $KU^m=U^{-m}K$. It preserves
+$V^-$. There $U^{-m}=-U^m$, giving anticommutation.
+\end{proof}
+For $m=1$, $\iota f_0=f_1$ and $\iota f_1=-f_0$. Only afterward can a
+two-component chart be written as $a+\iota b$. The full phase module is
+larger: $U^{2m}e_0=e_{2m}\ne-e_0$. UGD scale and seam ledgers remain
+separate. Extending this action by identity on a seam ledger squares to
+$(-I,I)$, not global minus identity. No complex scalar replaces the full
+generalized state. The construction does not identify arbitrary
+$\kappa,\chi$ with these derived operators.
+
+\section{Path memory and the involution boundary}
+\begin{theorem}[Return retains its ledger]
+In a four-phase directed path, the count $n=4w+r$, $0\le r<4$, gives
+visible phase $r$ and loop count $w$. Concatenation is
+\[
+(r,w)(s,v)=((r+s)\bmod4,\ w+v+\lfloor(r+s)/4\rfloor).
+\]
+The empty path and the four-step path have equal visible phase and unequal
+loop count. Operator identity after four steps does not imply equal histories.
+\end{theorem}
+\begin{proof}
+Repeated removal of full four-step blocks gives the decomposition.
+Adding counts gives the formula and associativity. The two displayed paths
+have counts zero and four, hence loop counts zero and one.
+\end{proof}
+\begin{proposition}[Involution is not a helix or an Eye]
+If $J^2=I$, its endpoint orbit has at most two elements. If also $J^2=J$,
+then $J=I$. In any associative operator algebra $[J,J]=0$.
+\end{proposition}
+\begin{proof}
+Even powers give $I$ and odd powers give $J$. Combining the two squared
+identities gives $J=I$. The commutator is $JJ-JJ$.
+\end{proof}
+A two-state swap has no fixed point. The upload's chosen chart
+$J(z)=i\bar z$ swaps the two signed coordinates; its fixed set is the full
+diagonal, not only the positive ray. A declared four-vertex cycle has an
+indiscrete forward-invariant topology, while its orbit quotient is one point.
+Neither a graph cycle nor an involution supplies Maxwell equations,
+thermodynamic potentials, a continuous angle or physical evolution.
+
+\section{Evidence and source status}
+The companion \texttt{EMK\_TOPOLOGY\_R15.md} provides commit-pinned native
+and imported-premise citations. It credits the existing RKF future-observer
+and native-operator results, UGD-1 phase/scale/seam arithmetic, and the later
+native Euler/logarithm/period results in RKF and RH. The original morphic
+algebra certificate explicitly has open obligations; it is not a blanket
+endorsement of this upload.
+
+\texttt{verify\_r15.py} checks the original bytes and all 48 source claim
+environments, all 3678 two-action/observation systems on up to three states,
+29290 saturation cases, nine boundary witnesses, seven rejected mathematical
+replacements, ten unchanged-engine symbolic replays, one rejected altered
+native proof, and 42 signed basis vectors across six phase alphabets.
+The existing UGD-1 certificate is regenerated in memory against its old pin.
+Written proofs cover the general statements; finite checks have finite scope.
+
+\textbf{Whole-source verdict: not certified as written.}
+The root obligation is a typed derivation connecting the upload's acts to
+the cyclic/oriented native presentation, including all active records.
+Naming the acts does not prove closure, inverses, selected phase size or
+analytic completion. Those steps must be derived or precisely cited;
+they cannot be replaced by a scalar chart or a new certificate label.
+\end{document}

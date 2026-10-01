@@ -2,7 +2,13 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
-## R14 foundation route
+## R15 operator source before scalar coordinates
+
+[R15 §§2–8](../02-relational-response/EMK_TOPOLOGY_R15.md) constructs typed cut histories, future-compatible recognition and native iota from signed cyclic phase records. Existing generalized UGD numerals retain scale and seam ledgers. A two-component complex chart is a descendant sector, not the full source.
+
+## R14 scalar specialization
+
+[R14's foundational scope is corrected](../02-relational-response/R14_SCOPE_CORRECTION.md); its calculations do not reduce generalized UGD to a scalar source.
 
 [R14 §§1–3](../02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md) uses established native cut arithmetic, derives the radial/complement split from dagger, and reads theta from the native source using the existing period/polar/logarithm theorems. The [source ledger](../02-relational-response/DERIVATION_SOURCE_LEDGER_R14.md) distinguishes native constructions from ordinary-field presentations and imported adapters. This route does not repair every claim in the original Way-1 manuscript below.
 

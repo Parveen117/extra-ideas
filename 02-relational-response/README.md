@@ -2,9 +2,13 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
-## R14 native foundation
+## R15 uploaded topology and cut/operator foundation
 
-[Native Source Foundation R14](NATIVE_SOURCE_FOUNDATION_R14.md) derives the split, phase, memory, source-ledger covariance, event-record content and local phase geometry in one traced native chain. [Derivation Source Ledger R14](DERIVATION_SOURCE_LEDGER_R14.md) binds the already earned RKF/RH/Yang–Mills tools to their exact premises and evidence, marking classical imports in the citations themselves. Source selection and physical outcome actualization are explicit remaining obligations.
+[R15](EMK_TOPOLOGY_R15.md) audits all 48 claims in the uploaded topology manuscript and supplies proofs for future recognition, correctly typed Eye saturation, cut topology, directed cut distance, signed-phase iota and retained loop memory. The [corrective LaTeX edition](emk_topology_verified_R15.tex) and exact certificate keep the original unsupported claims visible. The full original manuscript is not certified as written.
+
+## R14 scalar specialization
+
+[R14](NATIVE_SOURCE_FOUNDATION_R14.md) derives split, phase, memory, covariance, event-record content and phase geometry for its stated native scalar model. [Its foundational scope is corrected](R14_SCOPE_CORRECTION.md): it is not the generalized UGD source, and its examples do not prove a universal source-selection obstruction. [Derivation Source Ledger R14](DERIVATION_SOURCE_LEDGER_R14.md) retains the premise-labelled RKF/RH/Yang–Mills references.
 
 ## Core idea
 

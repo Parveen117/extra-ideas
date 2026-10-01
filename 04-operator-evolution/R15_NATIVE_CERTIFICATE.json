@@ -1,0 +1,1285 @@
+{
+  "status": "PASS_SCOPED_NATIVE_REPLAYS",
+  "input": {
+    "schema": "extra-ideas.r15.operator-source-audit.v1",
+    "free": {
+      "presentation": {
+        "tokens": [
+          "c",
+          "k"
+        ],
+        "rules": []
+      },
+      "tasks": [
+        {
+          "name": "J_squared_not_identity_without_closure_law",
+          "left": {
+            "word": [
+              "c",
+              "k",
+              "c",
+              "k"
+            ]
+          },
+          "right": {
+            "word": []
+          },
+          "expected": "DISTINCT_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "order_of_cut_and_self_cut_not_automatically_equal",
+          "left": {
+            "word": [
+              "c",
+              "k"
+            ]
+          },
+          "right": {
+            "word": [
+              "k",
+              "c"
+            ]
+          },
+          "expected": "DISTINCT_IN_DECLARED_QUOTIENT"
+        }
+      ]
+    },
+    "kir": {
+      "presentation": {
+        "tokens": [
+          "R",
+          "K"
+        ],
+        "rules": [
+          {
+            "id": "RR",
+            "lhs": [
+              "R",
+              "R"
+            ],
+            "rhs": [
+              [
+                [],
+                -1
+              ]
+            ],
+            "source": "Local source: theory/PANINIAN_OPERATOR_COMPILER.md; RKF T48"
+          },
+          {
+            "id": "KK",
+            "lhs": [
+              "K",
+              "K"
+            ],
+            "rhs": [
+              [
+                [],
+                1
+              ]
+            ],
+            "source": "Local source: theory/PANINIAN_OPERATOR_COMPILER.md; RKF T48"
+          },
+          {
+            "id": "KR",
+            "lhs": [
+              "K",
+              "R"
+            ],
+            "rhs": [
+              [
+                [
+                  "R",
+                  "K"
+                ],
+                -1
+              ]
+            ],
+            "source": "Local source: theory/PANINIAN_OPERATOR_COMPILER.md; RKF T48"
+          }
+        ]
+      },
+      "tasks": [
+        {
+          "name": "reflection_squared",
+          "left": {
+            "word": [
+              "K",
+              "K"
+            ]
+          },
+          "right": {
+            "word": []
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "rotation_squared",
+          "left": {
+            "word": [
+              "R",
+              "R"
+            ]
+          },
+          "right": {
+            "op": "scale",
+            "coefficient": -1,
+            "value": {
+              "word": []
+            }
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "four_rotations",
+          "left": {
+            "word": [
+              "R",
+              "R",
+              "R",
+              "R"
+            ]
+          },
+          "right": {
+            "word": []
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "mixed_order_retained",
+          "left": {
+            "word": [
+              "K",
+              "R"
+            ]
+          },
+          "right": {
+            "op": "scale",
+            "coefficient": -1,
+            "value": {
+              "word": [
+                "R",
+                "K"
+              ]
+            }
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "reflection_is_not_rotation",
+          "left": {
+            "word": [
+              "K"
+            ]
+          },
+          "right": {
+            "word": [
+              "R"
+            ]
+          },
+          "expected": "DISTINCT_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "reflection_is_not_projector",
+          "left": {
+            "word": [
+              "K",
+              "K"
+            ]
+          },
+          "right": {
+            "word": [
+              "K"
+            ]
+          },
+          "expected": "DISTINCT_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "self_commutator_zero",
+          "left": {
+            "op": "commutator",
+            "left": {
+              "word": [
+                "K"
+              ]
+            },
+            "right": {
+              "word": [
+                "K"
+              ]
+            }
+          },
+          "right": {
+            "op": "scale",
+            "coefficient": 0,
+            "value": {
+              "word": []
+            }
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "mixed_curvature_nonzero",
+          "left": {
+            "op": "commutator",
+            "left": {
+              "word": [
+                "R"
+              ]
+            },
+            "right": {
+              "word": [
+                "K"
+              ]
+            }
+          },
+          "right": {
+            "op": "scale",
+            "coefficient": 2,
+            "value": {
+              "word": [
+                "R",
+                "K"
+              ]
+            }
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        }
+      ]
+    }
+  },
+  "input_sha256": "44bd67c1a1245957093aff89a6fffb7fd5605044592d357f566dcd278d5f5f39",
+  "groups": {
+    "free": {
+      "presentation_sha256": "a886ebf5c234fed3af8b2d413d28ec4a1da1a3208c7794776c97f254bd3ba1c4",
+      "audit": {
+        "protocol": "NATIVE_CRITICAL_PAIR_AUDIT_V1",
+        "presentation": "a886ebf5c234fed3af8b2d413d28ec4a1da1a3208c7794776c97f254bd3ba1c4",
+        "status": "CONFLUENT_BY_CHECKED_DIAMONDS",
+        "termination": "strict degree-lex decrease",
+        "criticalPairs": 0,
+        "resolutions": [],
+        "open": []
+      },
+      "results": [
+        {
+          "name": "J_squared_not_identity_without_closure_law",
+          "expected": "DISTINCT_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "DISTINCT_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "a886ebf5c234fed3af8b2d413d28ec4a1da1a3208c7794776c97f254bd3ba1c4",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "c",
+                      "k",
+                      "c",
+                      "k"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "c",
+                      "k",
+                      "c",
+                      "k"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "order_of_cut_and_self_cut_not_automatically_equal",
+          "expected": "DISTINCT_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "DISTINCT_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "a886ebf5c234fed3af8b2d413d28ec4a1da1a3208c7794776c97f254bd3ba1c4",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "c",
+                      "k"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "k",
+                      "c"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "c",
+                      "k"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "k",
+                      "c"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        }
+      ]
+    },
+    "kir": {
+      "presentation_sha256": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+      "audit": {
+        "protocol": "NATIVE_CRITICAL_PAIR_AUDIT_V1",
+        "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+        "status": "CONFLUENT_BY_CHECKED_DIAMONDS",
+        "termination": "strict degree-lex decrease",
+        "criticalPairs": 4,
+        "resolutions": [
+          {
+            "word": [
+              "R",
+              "R",
+              "R"
+            ],
+            "first": [
+              0,
+              0
+            ],
+            "second": [
+              0,
+              1
+            ],
+            "kind": "overlap",
+            "closed": true,
+            "left": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            },
+            "right": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "word": [
+              "K",
+              "R",
+              "R"
+            ],
+            "first": [
+              0,
+              1
+            ],
+            "second": [
+              2,
+              0
+            ],
+            "kind": "overlap",
+            "closed": true,
+            "left": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            },
+            "right": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R",
+                      "K",
+                      "R"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "R",
+                    "K",
+                    "R"
+                  ],
+                  "coefficient": [
+                    "-1",
+                    "0"
+                  ],
+                  "rule": "KR",
+                  "position": 1
+                },
+                {
+                  "word": [
+                    "R",
+                    "R",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1",
+                    "0"
+                  ],
+                  "rule": "RR",
+                  "position": 0
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "word": [
+              "K",
+              "K",
+              "K"
+            ],
+            "first": [
+              1,
+              0
+            ],
+            "second": [
+              1,
+              1
+            ],
+            "kind": "overlap",
+            "closed": true,
+            "left": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            },
+            "right": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "word": [
+              "K",
+              "K",
+              "R"
+            ],
+            "first": [
+              1,
+              0
+            ],
+            "second": [
+              2,
+              1
+            ],
+            "kind": "overlap",
+            "closed": true,
+            "left": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            },
+            "right": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K",
+                      "R",
+                      "K"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "R",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1",
+                    "0"
+                  ],
+                  "rule": "KR",
+                  "position": 0
+                },
+                {
+                  "word": [
+                    "R",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 1
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          }
+        ],
+        "open": []
+      },
+      "results": [
+        {
+          "name": "reflection_squared",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 0
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "rotation_squared",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "R",
+                      "R"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "R",
+                    "R"
+                  ],
+                  "coefficient": [
+                    "1",
+                    "0"
+                  ],
+                  "rule": "RR",
+                  "position": 0
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "four_rotations",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "R",
+                      "R",
+                      "R",
+                      "R"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "R",
+                    "R",
+                    "R",
+                    "R"
+                  ],
+                  "coefficient": [
+                    "1",
+                    "0"
+                  ],
+                  "rule": "RR",
+                  "position": 0
+                },
+                {
+                  "word": [
+                    "R",
+                    "R"
+                  ],
+                  "coefficient": [
+                    "-1",
+                    "0"
+                  ],
+                  "rule": "RR",
+                  "position": 0
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "mixed_order_retained",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R",
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "R"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "R"
+                  ],
+                  "coefficient": [
+                    "1",
+                    "0"
+                  ],
+                  "rule": "KR",
+                  "position": 0
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "reflection_is_not_rotation",
+          "expected": "DISTINCT_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "DISTINCT_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "reflection_is_not_projector",
+          "expected": "DISTINCT_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "DISTINCT_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 0
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "self_commutator_zero",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "mixed_curvature_nonzero",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R",
+                      "K"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "R"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "R"
+                  ],
+                  "coefficient": [
+                    "-1",
+                    "0"
+                  ],
+                  "rule": "KR",
+                  "position": 0
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        }
+      ]
+    }
+  },
+  "regular_basis": {
+    "dimension": 4,
+    "words": [
+      [],
+      [
+        "R"
+      ],
+      [
+        "K"
+      ],
+      [
+        "R",
+        "K"
+      ]
+    ]
+  },
+  "negative_controls": {
+    "altered_rotation_square_rejected": true
+  },
+  "scope": "Consequences of the declared native presentations, not a derivation of their relations from the upload A0-A2."
+}

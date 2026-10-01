@@ -1,0 +1,250 @@
+{
+  "boundary_witnesses": {
+    "B01_four_cycle_not_implied_by_two_acts": {
+      "J_squared": [
+        2,
+        0,
+        1
+      ],
+      "at_seed": 2,
+      "chi": [
+        0,
+        1,
+        2
+      ],
+      "kappa": [
+        1,
+        2,
+        0
+      ]
+    },
+    "B02_original_seam_has_cost_one": {
+      "chi": [
+        0,
+        0,
+        1
+      ],
+      "cost": 1,
+      "kappa": [
+        2,
+        2,
+        2
+      ],
+      "x": 0
+    },
+    "B03_unsaturated_image_condition_not_topology": {
+      "U": [
+        0,
+        2
+      ],
+      "V": [
+        1,
+        2
+      ],
+      "all_words_checked": true,
+      "chi": [
+        0,
+        0,
+        2
+      ],
+      "intersection": [
+        2
+      ],
+      "kappa": [
+        2,
+        2,
+        0
+      ]
+    },
+    "B04_current_eye_not_future_congruence": {
+      "actions": [
+        [
+          2,
+          1,
+          2
+        ],
+        [
+          0,
+          1,
+          2
+        ]
+      ],
+      "observation": [
+        0,
+        0,
+        1
+      ],
+      "separated_pair": [
+        0,
+        1
+      ]
+    },
+    "B05_involution_orbit_not_helix_or_fixed_limit": {
+      "J": [
+        1,
+        0
+      ],
+      "orbit": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "B06_fixed_line_includes_negative_ray": {
+      "fixed_point": [
+        -1,
+        -1
+      ]
+    },
+    "B07_endpoint_equality_loses_winding": {
+      "endpoints": [
+        0,
+        0
+      ],
+      "lengths": [
+        0,
+        4
+      ],
+      "loops": [
+        0,
+        1
+      ]
+    },
+    "B08_four_point_indiscrete_vs_one_point_quotient": {
+      "open_sets": 2,
+      "orbit_quotient_points": 1,
+      "vertices": 4
+    },
+    "B09_cut_distance_is_directed": {
+      "backward": null,
+      "forward": 2
+    }
+  },
+  "claim_status_counts": {
+    "CARRIER_AND_PROOF_REQUIRE_CORRECTION": 1,
+    "DEFINITION_NOT_PHYSICAL_THEOREM": 1,
+    "FALSE_AND_INCONSISTENT_AS_WRITTEN": 1,
+    "FALSE_AS_GLOBAL_PATH_INFERENCE": 1,
+    "FALSE_AS_WRITTEN": 1,
+    "FALSE_FOR_PROJECTED_SAME_ENDPOINT_PATHS": 2,
+    "FALSE_FROM_INVOLUTION_ALONE": 1,
+    "ILL_TYPED_AS_WRITTEN": 2,
+    "INCOMPLETE_AND_LITERAL_ENCODING_INSUFFICIENT": 1,
+    "INCOMPLETE_IN_SOURCE": 3,
+    "INTERPRETATION_WITH_UNPROVED_PHYSICAL_IDENTIFICATION": 2,
+    "INVERSE_NOT_ESTABLISHED": 1,
+    "LOCAL_STATEMENT_AND_UNSUPPORTED_EQUIVALENCE_MIXED": 2,
+    "NOT_A_FOUR_ELEMENT_J_ORBIT": 1,
+    "NOT_CERTIFIED_AS_WRITTEN": 1,
+    "NOT_DERIVED_FROM_CYCLE": 2,
+    "NOT_DERIVED_FROM_SOURCE": 2,
+    "NOT_ESTABLISHED_AS_STATED": 4,
+    "NOT_IMPLIED_BY_STATED_ACTS": 3,
+    "ONLY_ORDER_DISTINCTION_FOLLOWS": 1,
+    "PATH_GRAPH_NOT_AUTOMATIC_GROUP_ACTION": 1,
+    "PROVED_FOR_DECLARED_FOUR_CYCLE": 1,
+    "RELATION_NOT_FORCED_BY_ENDPOINT_RETURN": 1,
+    "REPAIRED_WITH_WRITTEN_PROOF": 3,
+    "REQUIRES_DESCENT_AND_SATURATION": 1,
+    "SELF_COMMUTATOR_CLAIM_FALSE": 1,
+    "TYPED_CONSTRUCTION_REQUIRED": 1,
+    "UNIVERSAL_LAYER_CLAIM_FALSE": 2,
+    "VALID_TYPED_FACTORISATION": 1,
+    "VALID_WITH_EXPLICIT_ADDITIONAL_PREMISE": 2,
+    "WRONG_FIXED_SET_IN_CHOSEN_CHART": 1
+  },
+  "date": "2026-10-01",
+  "finite_exhaustive_checks": {
+    "actions_per_system": 2,
+    "all_observation_partitions": true,
+    "all_transition_tables": true,
+    "carrier_sizes": [
+      1,
+      2,
+      3
+    ],
+    "finite_systems_and_observations": 3678,
+    "future_refinement_equals_full_transition_monoid": true,
+    "greatest_congruence_refining_observation": true,
+    "saturation_topology_reachability_and_directed_triangle": true,
+    "subset_checks": 29290
+  },
+  "formal_proof_assistant": false,
+  "mathematical_mutation_controls_rejected": {
+    "assert_four_cycle_without_relation": true,
+    "drop_future_tests": true,
+    "drop_saturation": true,
+    "equate_seam_to_cost_zero": true,
+    "erase_closed_path_memory": true,
+    "force_symmetric_cut_distance": true,
+    "turn_involution_into_idempotent_eye": true
+  },
+  "native_input_sha256": "44bd67c1a1245957093aff89a6fffb7fd5605044592d357f566dcd278d5f5f39",
+  "native_negative_controls": {
+    "altered_rotation_square_rejected": true
+  },
+  "native_packet_sha256": "75fb340b2635728c08553fbceaab70727ef7dd47d94237c2cbab42befc63a3bd",
+  "native_regular_basis": {
+    "dimension": 4,
+    "words": [
+      [],
+      [
+        "R"
+      ],
+      [
+        "K"
+      ],
+      [
+        "R",
+        "K"
+      ]
+    ]
+  },
+  "native_symbolic_replays": 10,
+  "node": "v24.19.0",
+  "original_source_sha256": "55f449e7eb3a2bde9e77193f595a6a5eeff3923da2bea076d00f0e9907b8cebd",
+  "preserved_previous_file_count": 117,
+  "prior_R1_R14_evidence_changed": false,
+  "python": "3.12.14",
+  "r14_full_UGD_nonuniqueness_inference": "WITHDRAWN; restricted examples remain restricted",
+  "r14_global_foundational_interpretation": "SUPERSEDED_BY_R14_SCOPE_CORRECTION",
+  "schema": "extra-ideas.r15.verification.v1",
+  "scope": "Written constructive proofs, exact finite checks, original-claim audit, native operator replay and UGD-1 reuse. No three-axiom universal sufficiency or physical validation.",
+  "signed_phase_operator_derivation_checks": {
+    "K_iota_equals_minus_iota_K": true,
+    "K_squared_identity": true,
+    "alphabet_size_derived_from_upload_A0_A2": false,
+    "alphabet_sizes": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24
+    ],
+    "complex_numbers_used": false,
+    "construction": "iota = U^m on span(e_j-e_(j+2m)); K(e_j)=e_(m-j)",
+    "full_phase_module_not_collapsed_to_orientation_sector": true,
+    "iota_squared_minus_identity": true,
+    "signed_basis_vectors": 42
+  },
+  "source_claim_environments": 48,
+  "source_pins_sha256": "96c04e67b9292fafb325a3559fca58582241481b5f304637532101a616ed0634",
+  "status": "SCOPED_CHECKS_PASS_ORIGINAL_NOT_CERTIFIED",
+  "ugd1_upstream_replay": {
+    "projection_blindness_witness": {
+      "full_states_differ": true,
+      "seam_totals": [
+        0,
+        2
+      ],
+      "shared_projection": 7
+    },
+    "sha256": "1e5e952cd0a122f8705444c2d73f94591e757d7f795a13877c328807e5359297",
+    "source_commit": "e1dc4e3773f063f14e56cf30222c8e8a504519cd",
+    "status": "BYTE_AND_EXPECTED_HASH_MATCH",
+    "upstream_files_rewritten": false
+  },
+  "whole_original_manuscript_certified": false
+}

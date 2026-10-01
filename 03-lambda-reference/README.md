@@ -2,9 +2,13 @@
 
 Source: Reference-Scale Normalization in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves that section verbatim as a LaTeX fragment.
 
-## R14 source scale and phase
+## R15 source order and R14 scope correction
 
-[R14 §3](../02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md) derives the radial scale `rho=sqrt(N(z))` and native phase from a nonzero source transition. Its normalized phase geometry has a radial null direction; normalization does not select a universal physical reference value. [Section 10](../02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md) gives exact native alternatives that a future source-selection law must distinguish.
+[R15](../02-relational-response/EMK_TOPOLOGY_R15.md) places cut/operator and generalized UGD data before scalar scale/phase charts. [The R14 correction](../02-relational-response/R14_SCOPE_CORRECTION.md) withdraws any inference from R14's restricted family to absence of a selection law in the full native framework.
+
+## R14 scalar scale and phase
+
+[R14 §3](../02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md) derives the radial scale `rho=sqrt(N(z))` and native phase for its nonzero scalar transition. Its normalized phase geometry has a radial null direction. [Section 10](../02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md) distinguishes alternatives within that scalar/preparation/protocol family; it does not classify all native sources.
 
 ## Core idea
 

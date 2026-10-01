@@ -2,7 +2,21 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
-## R14 executable native-source foundation
+## R15 cut/operator and topology verification
+
+[R15's proof and source audit](../02-relational-response/EMK_TOPOLOGY_R15.md) accompany [emk_topology_core.py](emk_topology_core.py), the [unchanged-engine caller](r15_native_topology_probe.cjs), [48-claim ledger](certificates/r15/CLAIM_LEDGER.json) and [source pins](certificates/r15/SOURCE_PINS.json). The full original manuscript is **not certified as written**; corrected statements have separate written proofs and scoped exact checks.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r15.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R15_VERIFICATION.json](R15_VERIFICATION.json) records exhaustive checks on 3,678 finite systems/observations, 42 signed phase basis vectors, ten native symbolic replays, negative controls and an exact unchanged UGD-1 certificate replay. No upstream runtime is copied and no old upstream pin is overwritten.
+
+## R14 executable scalar specialization
+
+[R14's foundational interpretation is superseded](../02-relational-response/R14_SCOPE_CORRECTION.md). Its exact scalar calculations remain reproducible; they do not constitute the full generalized UGD source.
 
 [R14](../02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md) and its [citation ledger](../02-relational-response/DERIVATION_SOURCE_LEDGER_R14.md) link the existing RKF/RH foundation to exact source-driven memory, record-event content, covariance and phase geometry. The adapter [native_source_foundation.cjs](native_source_foundation.cjs) calls the canonical RKF arithmetic source unchanged.
 
