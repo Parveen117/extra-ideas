@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R32's derivation ledger](04-operator-evolution/R32_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R33's derivation ledger](04-operator-evolution/R33_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,14 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R33: interaction memory after unresolved continuation
+
+[R33](02-relational-response/NATIVE_INTERACTION_MEMORY_R33.md) makes the proposed "alpha as memory of interaction" question precise. It eliminates unresolved fields using R32's source-derived increment norm. Two elementary cuts have one-way transfer `rho=3-2 sqrt(2)` and the preparation-independent round-trip amplitude `alpha_rt=rho^2=17-12 sqrt(2)`. The same value is the one-way squared-norm fraction; the complete round-trip squared-norm fraction is its square. No physical action or electromagnetic normalization is supplied.
+
+Releasing intermediate cuts gives `alpha_(m+n)=alpha_m alpha_n`, with exact closed-feedback and finite-extraction errors. A point-loaded completed response has total norm coefficient `9/32`, loaded-cut coefficient `1/4`, and nonlocal fraction exactly `1/9`. This is a distinct memory observable. Scalar channels, spatial apertures and cyclic boundaries have explicit different coefficients; inverse-Gram transfer also loses the signed record-loop orientation. The constructed elementary invariant is derived, while its identification with physical alpha remains open.
+
+[Verification](04-operator-evolution/R33_VERIFICATION.json) binds seven written proofs, nine exact groups, fourteen native word replays, fifteen false alternatives and nine invalid graph mutations. The [ledger](04-operator-evolution/R33_DERIVATION_LEDGER.json) labels the physical adapter in the earlier Publications alpha paper as comparison only. All 257 earlier non-navigation files and the frozen R32 source chain are preserved.
 
 ## R32: retained native loop, propagation gap and localized inverse
 

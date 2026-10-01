@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R33 native interaction memory and cut elimination
+
+[NATIVE_INTERACTION_MEMORY_R33.md](NATIVE_INTERACTION_MEMORY_R33.md) derives a two-cut interaction-memory coefficient from the existing squared increment and its localized inverse. Full-role elementary transfer has the invariant round-trip amplitude `17-12 sqrt(2)`, while a point-loaded response stores exactly `1/9` of its matching norm off the loaded cut. Neither quantity is identified with physical alpha.
+
+The proofs derive constrained-field elimination, exact return feedback, the multiplicative law under releasing intermediate cuts, controlled finite coefficient extraction, and cyclic wrapping. Role-channel and spatial-aperture examples expose remaining observation choices. The positive inverse-Gram response does not recover the minus-identity signed record loop.
+
+[Verification](../04-operator-evolution/R33_VERIFICATION.json) binds seven proofs, nine exact groups and fourteen native replays. The [ledger](../04-operator-evolution/R33_DERIVATION_LEDGER.json) preserves the constructed target and excludes the earlier alpha paper's admitted physical quadratic adapter from all proof paths. No measured constant enters the derivation.
+
 ## R32 retained native loop and complete inverse response
 
 [NATIVE_RETAINED_LOOP_GAP_R32.md](NATIVE_RETAINED_LOOP_GAP_R32.md) derives a minus-identity record loop from one source-law H/K memory carried reciprocally along two count directions. The source histories yield a changed return response and an exact paired wave with a positive identity term and mixed difference square. Its sharp normalized increment bounds are one and four; uniform fully signed states have a 48-event return cycle.

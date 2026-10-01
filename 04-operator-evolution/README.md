@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R33 interaction-memory coefficient verification
+
+[native_interaction_memory.cjs](native_interaction_memory.cjs) reuses the unchanged native arithmetic and canonical word replayer. It verifies the source-derived increment Gram, exact two- and three-cut eliminations, closed-return remainders, completed spatial response norm, native frame invariance and readout counterexamples. Positive scalar root selection uses native rational cuts separately from the algebraic matrix witness.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r33.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R33_VERIFICATION.json](R33_VERIFICATION.json) binds seven proofs, nine exact groups, fourteen native replays, fifteen false alternatives and nine graph mutations. Checks include 24 two-cut identities, 48 feedback identities, 12 coarsening identities, 13 complete finite Laurent remainders, 132 coefficient/inverse error checks, 14 wrapped-kernel coefficients and 64 native root bisections. [Source pins](R33_SOURCE_PINS.json) preserve all 257 earlier non-navigation files and replay the frozen R32 chain. The [ledger](R33_DERIVATION_LEDGER.json) distinguishes a derived native interaction-memory family from an unproved identification with physical alpha; metadata auditing is not semantic proof verification.
+
 ## R32 retained-loop gap and inverse verification
 
 [native_retained_loop_gap.cjs](native_retained_loop_gap.cjs) uses the unchanged canonical native arithmetic and word replayer. It reconstructs the coarse transport from literal fine H/K histories with reciprocal edge memory, verifies the record loop and staggered normal form, and checks every Laurent coefficient of the paired wave and its positive defect factorization. Finite native inverses and controlled series verify complete signed-record recovery.
