@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R20's derivation ledger](04-operator-evolution/R20_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R21's derivation ledger](04-operator-evolution/R21_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,24 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R21: record identity from current and native continuation
+
+[R21](02-relational-response/RECORD_IDENTITY_CONTINUATION_R21.md) derives an exact response test for fresh versus reused records. At event n, the native current at address `n-2` equals the current slot's previous-use count divided by `2^(n-1)`. A single H contrast at an earlier event changes that current by `2^(2-n)` precisely when the two events addressed the same slot. These readings reconstruct the full allocation partition up to renaming; a reuse count alone does not recover identity.
+
+The complete exchange-moment recurrence retains every returning correlation. For initially blank records and a specified future catalogue, only previously used slots that will be addressed again need remain in that moment ledger. A native projector expansion gives an independent signed-transport derivation. No classical random-sign or measurement law is supplied.
+
+The endpoint classification is exact: at a fixed depth, the full local energy/current response is coherent precisely for one repeatedly used slot, and equals source counts with zero current precisely for all-fresh slots. A separate joint continuation gate decides when a tagged record pair can meet again in both address and record, with different final-role tests for energy and current.
+
+[Verification](04-operator-evolution/R21_VERIFICATION.json) passes nine written results, twelve exact check groups and twelve native proof replays. Coverage includes all 279 allocation partitions through six events, 14,947 H/K history instances across them, 627 contrast readings, 3,060 retained-moment comparisons and 57,444 tagged pair continuations. Fifteen false alternatives and nine invalid dependency graphs are rejected. All 173 prior non-navigation files remain byte-identical and R20/R19/R18/R17/R16 replay unchanged.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r21.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+This identifies an allocation through its native responses; it does not predict which physical allocation occurs. The next geometric target is the return/meeting relation and its event-distance derived from the joint continuation gate. A physical metric, clock, c and alpha still require that further bridge.
 
 ## R20: native record-writing interaction and its exact readout
 

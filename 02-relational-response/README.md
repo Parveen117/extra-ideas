@@ -2,6 +2,12 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R21 record identity from native current
+
+[RECORD_IDENTITY_CONTINUATION_R21.md](RECORD_IDENTITY_CONTINUATION_R21.md) derives a sharp reuse-count/current identity and a native H-contrast test recovering equality of any two slot targets. All allocation partitions are identified up to renaming. Closed exchange moments retain the exact returning memory; initially independent blank slots permit a smaller live-slot ledger for a specified future continuation.
+
+Nine written results also derive a native sector decomposition, fixed-depth rigidity of coherent/count endpoints, a joint record-and-address meeting gate, and the exact minimum channel count for a declared exchange-probe target. [Verification](../04-operator-evolution/R21_VERIFICATION.json) passes twelve exact groups and twelve native proof replays, with all prior non-navigation files and certificates preserved. The [source ledger](../04-operator-evolution/R21_DERIVATION_LEDGER.json) excludes imported classical model assumptions from proof paths and keeps physical allocation selection open.
+
 ## R20 native record interaction and exact readout
 
 [NATIVE_RECORD_INTERACTION_R20.md](NATIVE_RECORD_INTERACTION_R20.md) derives a reversible record-writing gate from the existing H/K roles. The record's own current determines the retained cross coefficient. Fresh slots implement the repeated cut on its proved domain; reusing one slot preserves all local coherent responses for a single initial address. Their first current separation occurs at event two and energy separation at event three.
@@ -56,7 +62,7 @@ For a proposed Jacobian, check the compatibility conditions needed for it to ari
 
 ## Next target
 
-Continue from [R20](NATIVE_RECORD_INTERACTION_R20.md): derive when retained cut-history relations identify a reusable record slot and when they require a fresh one. Its exact interaction/readout laws now distinguish those choices. Connect the resulting admissible continuation to the observer/metric machinery, keeping final response recovery distinct from full history recovery and preserving the existing R10 connection and upstream master-review boundaries.
+Continue from [R21](RECORD_IDENTITY_CONTINUATION_R21.md): derive the meeting relation and its event-distance from joint address/record continuation. Slot identities are now reconstructible through native contrasts, while physical allocation still needs selection. Connect the return geometry to the observer/metric machinery, keeping response recovery distinct from full history recovery and preserving the existing R10 connection and upstream master-review boundaries.
 
 ## R13 complementary noise and native event information
 

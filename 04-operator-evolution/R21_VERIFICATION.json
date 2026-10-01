@@ -1,0 +1,225 @@
+{
+  "schema": "extra-ideas.r21.verification.v1",
+  "date": "2026-10-01",
+  "status": "PASS_R21_NATIVE_RECORD_IDENTITY",
+  "written_results": 9,
+  "exact_check_groups": 12,
+  "native_symbolic_replays": 12,
+  "counters": {
+    "native_slot_exchanges_and_projector_algebra": {
+      "slot_tuple_basis_cases": 98,
+      "complete_projector_product_cases": 340,
+      "maximum_record_slots": 4
+    },
+    "all_allocation_partitions_match_literal_cut_histories": {
+      "maximum_depth": 6,
+      "allocation_partitions": 279,
+      "literal_HK_word_instances": 14947,
+      "record_fibres_checked": 3009,
+      "source_words_erased_by_record_quotient": false
+    },
+    "ordered_history_pair_kernel_and_support_grading": {
+      "ordered_history_pairs": 4197,
+      "complete_pair_fields": 24,
+      "nonzero_moment_blocks_checked": 170
+    },
+    "exchange_moment_hierarchy_matches_full_joint_evolution": {
+      "joint_preparations": 3,
+      "allocation_protocols": 6,
+      "full_moment_comparisons": 552,
+      "joint_steps": 51,
+      "nonzero_initial_record_correlations_included": true
+    },
+    "live_slot_memory_reduction_keeps_exact_future_response": {
+      "complete_continuation_stages": 1558,
+      "retained_moment_field_comparisons": 3060,
+      "maximum_live_slots": 3,
+      "future_slot_catalogue_required": true,
+      "initial_blank_product_records_required": true,
+      "physical_record_erasure_claimed": false
+    },
+    "sector_transport_independently_recovers_unresolved_response": {
+      "allocation_partitions": 76,
+      "independent_sector_paths": 579,
+      "correlated_sector_comparisons": 144,
+      "random_sign_premise": false
+    },
+    "front_current_return_count_and_energy_balance": {
+      "all_partition_front_cases": 278,
+      "successive_energy_balance_cases": 278,
+      "fresh_final_writes": 76,
+      "returning_final_writes": 202,
+      "inserted_rate_or_coupling": false
+    },
+    "native_H_contrasts_reconstruct_entire_allocation_partition": {
+      "maximum_depth": 5,
+      "native_contrast_readings": 627,
+      "complete_partitions_reconstructed": 75,
+      "nontransitive_identity_data_rejected": true,
+      "physical_prepare_repeat_readout_interface_claimed": false
+    },
+    "coherent_and_count_endpoints_are_rigid": {
+      "complete_local_response_classifications": 278,
+      "passively_equal_front_prefixes": 4,
+      "contrast_separates_0101_from_0110": true
+    },
+    "exact_joint_continuation_gate_for_tagged_path_pairs": {
+      "complete_tagged_pair_continuations": 57444,
+      "record_and_address_meetings": 5304,
+      "nonzero_individual_energy_terms": 3654,
+      "nonzero_individual_current_terms": 1650,
+      "unavailable_slot_exclusions": 64,
+      "individual_path_survival_promoted_to_total_signal": false
+    },
+    "exchange_probe_rank_and_normalized_channel_count": {
+      "exact_native_scalar_probes": 340,
+      "ranks": [
+        {
+          "slots": 1,
+          "linear_scalar_channels": 2,
+          "normalized_variable_channels": 1
+        },
+        {
+          "slots": 2,
+          "linear_scalar_channels": 4,
+          "normalized_variable_channels": 3
+        },
+        {
+          "slots": 3,
+          "linear_scalar_channels": 8,
+          "normalized_variable_channels": 7
+        },
+        {
+          "slots": 4,
+          "linear_scalar_channels": 16,
+          "normalized_variable_channels": 15
+        }
+      ],
+      "restricted_exchange_catalogue_explicit": true,
+      "minimum_for_fixed_single_seed_claimed": false
+    },
+    "record_congruence_and_free_linear_kernel_are_distinct": {
+      "exact_free_ledger_rank_cases": 24,
+      "common_continuation_record_comparisons": 7266,
+      "binary_fibre_exponent_is_linear_nullity": false,
+      "full_source_word_identity_retained": true
+    }
+  },
+  "rejected_false_alternatives": {
+    "every_repeated_slot_is_fresh": true,
+    "every_existing_record_preserves_coherent_current": true,
+    "passive_return_counts_identify_slot_names": true,
+    "H_contrast_has_half_the_derived_effect": true,
+    "record_agreement_implies_local_meeting": true,
+    "address_agreement_implies_record_agreement": true,
+    "return_length_bounds_are_sufficient": true,
+    "record_quotient_is_full_history_equality": true,
+    "fibre_exponent_is_free_linear_nullity": true,
+    "normalized_target_needs_all_variable_channels": true,
+    "all_allocations_at_equal_depth_have_same_response": true,
+    "fresh_record_can_reveal_existing_exchange_moment": true,
+    "energy_alone_identifies_the_last_write": true,
+    "evaluated_exchange_return_erases_source_tags": true,
+    "record_current_is_an_inserted_probability": true
+  },
+  "derivation_graph": {
+    "status": "PASS_DECLARED_NATIVE_DERIVATION_GRAPH",
+    "certified_claims": 9,
+    "proof_path_nodes": 24,
+    "imported_classical_premises_on_proof_paths": 0,
+    "comparison_references_excluded_from_proof_paths": [
+      "declared_parameter_identification_comparison",
+      "declared_partial_continuation_comparison"
+    ],
+    "target_definitions_retained_as_definitions": [
+      "address_target",
+      "allocation_words",
+      "contrast_catalogue",
+      "exchange_probe_catalogue",
+      "front_target",
+      "record_readout",
+      "remaining_continuation"
+    ],
+    "automatic_semantic_or_formal_proof_verification": false
+  },
+  "derivation_graph_mutations_rejected": {
+    "reject_imported_classical_premise": true,
+    "reject_admitted_input_premise": true,
+    "reject_open_premise": true,
+    "reject_comparison_only_premise": true,
+    "reject_physical_claim_promotion": true,
+    "reject_protocol_definition_promotion": true,
+    "reject_dependency_cycle": true,
+    "reject_unpinned_source": true,
+    "reject_wrong_citation_commit": true
+  },
+  "altered_source_rejected": true,
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "previous_source_replayed": {
+    "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+    "status": "PASS_R20_NATIVE_RECORD_INTERACTION",
+    "native_certificate_sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+    "old_certificate_or_source_pin_modified": false,
+    "earlier_source_chain": {
+      "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+      "status": "PASS_R19_NATIVE_CURRENT_RETENTION",
+      "native_certificate_sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+      "old_certificate_or_source_pin_modified": false,
+      "earlier_source_chain": {
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+        "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+        "historical_navigation_inputs_restored_in_temporary_snapshot": 3,
+        "old_certificate_or_source_pin_modified": false,
+        "earlier_source_chain": {
+          "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+          "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+          "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+          "foundation": {
+            "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+            "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+            "written_statements": 14,
+            "native_replays": 13,
+            "analytic_replays": [
+              {
+                "id": "F00_F00E_EULER_V0_1",
+                "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+                "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+                "checks": 14,
+                "negative_controls": 6,
+                "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+              },
+              {
+                "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+                "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+                "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+                "checks": 20,
+                "negative_controls": 7,
+                "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+              }
+            ],
+            "original_universal_claim_certified": false
+          }
+        }
+      }
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 29,
+  "preserved_prior_files": 173,
+  "source_pins_sha256": "6c14926b6111f0e65769d6010c4b7e02af54ccc45bfaad7bbd51ccf5e200969e",
+  "native_certificate_sha256": "1d857541e8497dfb4c33b532c7d50ee629f5d8e92698a080307b7ae039794464",
+  "comparison_references_are_proof_dependencies": false,
+  "publications_comparison_certificates_rerun": false,
+  "allocation_identification_derived": true,
+  "physical_allocation_selected": false,
+  "physical_metric_c_alpha_derived": false,
+  "formal_proof_assistant_verified": false,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Native slot-allocation identity from exact current and H contrasts. Closed exchange moments, live-slot continuation, native sector decomposition and tagged return gates. Written arbitrary-depth proofs and finite checks; identification is not physical allocation selection.",
+  "canonical_report_sha256": "85a6dd20f1817e53a3bc5ee98b64f60d4120e54fb3eedf8069096d66103c7bfb"
+}

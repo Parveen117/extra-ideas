@@ -2,6 +2,20 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R21 record identity and continuation verification
+
+[record_identity_continuation.cjs](record_identity_continuation.cjs) derives record parity directly from original H/K histories and tests every allocation partition through six events. Joint gate propagation, a closed exchange-moment hierarchy, live-slot reduction and an independent native projector decomposition recover the same response. Front current counts returns; H contrasts recover equality of slot identities.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r21.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R21_VERIFICATION.json](R21_VERIFICATION.json) records nine written results, twelve exact groups, twelve canonical proof replays, fifteen rejected false alternatives and nine dependency-graph mutations. The finite coverage includes 279 allocation partitions, 14,947 history instances, 627 identity contrasts, 552 full-moment comparisons, 3,060 live-moment comparisons and 57,444 tagged return tests. Observer rank for the declared complete exchange-probe catalogue is checked separately from fixed-seed response and normalized affine channel counts.
+
+[R21_DERIVATION_LEDGER.json](R21_DERIVATION_LEDGER.json) binds the written proofs and their native premises; explicit target, preparation, contrast and continuation constructions remain definitions. The graph gate does not certify arbitrary proof semantics or promote identification into physical selection. [R21_SOURCE_PINS.json](R21_SOURCE_PINS.json) preserves all 173 prior non-navigation files, pins premise-labelled repository comparisons, and replays the complete R20/R19/R18/R17/R16 chain without changing old certificates or the engine. See the [proof and scope](../02-relational-response/RECORD_IDENTITY_CONTINUATION_R21.md).
+
 ## R20 native record interaction verification
 
 [native_record_interaction.cjs](native_record_interaction.cjs) constructs tuple records and a reversible role-controlled K gate using the unchanged native engine. Its matching-record readout derives the cut coefficient from the record's own current. Full tagged history propagation, reduced pair evolution and reused-slot factorization are checked independently.
@@ -103,7 +117,7 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Follow [R20](../02-relational-response/NATIVE_RECORD_INTERACTION_R20.md): derive record-slot identification and admissible reuse from the retained cut-history relations. Fresh and returning slots now have exact, distinguishable responses under the same constructed gate. A physical allocation law and shared operational event address still require derivation before a physical metric or clock. Preserve the full word ledger, independent sheets, nonaffine clock term, Smriti error control and the complete R10 connection contract.
+Follow [R21](../02-relational-response/RECORD_IDENTITY_CONTINUATION_R21.md): slot identity now has an exact H-contrast decoder and returning information has a joint address/record gate. Construct the meeting relation and its event-distance under the admitted continuation catalogue. Keep physical allocation and rod/clock selection separate from identification. Preserve the full word ledger, independent sheets, nonaffine clock term, Smriti error control and the complete R10 connection contract.
 
 ## R13 complementary memory/noise certificates
 
