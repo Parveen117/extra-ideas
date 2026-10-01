@@ -6,6 +6,8 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R19's derivation ledger](04-operator-evolution/R19_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+
 ## The four folders
 
 | Folder | Route | Main question |
@@ -16,6 +18,24 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R19: native current retention and returning pair memory
+
+[R19](02-relational-response/CURRENT_MEMORY_RETENTION_R19.md) derives the missing joint record for directed transport. Every local quadratic response can agree while the next current differs; the source update requires signed information shared by two addresses. The pair-record update and its complete hidden-memory equation follow from native multiplication and substitution, with no classical evolution or probability law supplied.
+
+For the original single seed, omitted pair information returns as `K/4` at event two. Its energy trace vanishes while its current trace is `1/2`; the third-event energy difference from source counts is `+1/4` at address `1` and `-1/4` at `-1`. Cutting the joint record at every event derives the count transport exactly. Retaining it derives an exact current-driven residue, with no fitted noise strength.
+
+The required pair-separation radius for a current prediction h events ahead is sharply `2h`. Odd-separation pairs form an invariant invisible sector for these local targets; relevant even-separation memory can return. Ordered source-word pair tags remain available before the address readout.
+
+[Verification](04-operator-evolution/R19_VERIFICATION.json) passes nine written results, eleven exact check groups, nine canonical proof replays and 5,461 literal source-word pairs. Twelve false alternatives and six invalid dependency graphs are rejected. All 158 prior non-navigation files stay byte-identical. The complete R18/R17/R16 replay now isolates R17's historical README inputs, repairing the navigation-hash conflict without changing any old certificate.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r19.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+Current retention and its memory cost are now derived for the inherited target. Selecting a physical interaction, common metric/clock, c or alpha remains a further native derivation; no such selection is inferred from a finite PASS.
 
 ## R18: cut-address transport toward physical metric selection
 
@@ -33,10 +53,12 @@ The exact source front is one address per event. The first-order formal symbol h
 The next physical-selection gate is the interaction/readout that preserves the required current and shares an operational event address, while retaining NC's independent sheet, return, clock and Smriti data. A controlled large-scale limit and rod/clock identification remain open. This finite protocol does not yet select physical spacetime, `c` or `alpha`.
 
 ```bash
-python3.12 -B 04-operator-evolution/verify_r18.py \
+python3.12 -B 04-operator-evolution/verify_r19.py \
   --rkf-root /path/to/Recognition-Kernel-Framework \
   --publications-root /path/to/Publications
 ```
+
+Use the R19 command above to reproduce R18 on the current tree. It supplies the isolated historical navigation inputs required by R17's frozen source gate; the old in-place R18 wrapper did not isolate them.
 
 ## R17: source-count noise, curvature and signed memory return
 

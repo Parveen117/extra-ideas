@@ -2,12 +2,26 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R19 native current and memory verification
+
+[current_memory_retention.cjs](current_memory_retention.cjs) derives pair evolution from R18's source update using the unchanged RKF arithmetic and proof replayer. It independently checks response propagation, 5,461 literal ordered word pairs, 18 exact memory expansions, the first source-generated return, reset/count equality, sharp prediction horizons and an invariant invisible parity sector.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r19.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R19_VERIFICATION.json](R19_VERIFICATION.json) records nine written results, eleven exact check groups, nine native proof replays, twelve rejected false alternatives and six rejected dependency-graph mutations. [R19_DERIVATION_LEDGER.json](R19_DERIVATION_LEDGER.json) requires native derivation on every certified mathematical proof path; declared constructions stay definitions and physical-selection claims remain open. The graph audit is separate from written proof and is not automatic semantic verification.
+
+[R19_SOURCE_PINS.json](R19_SOURCE_PINS.json) preserves all 158 earlier non-navigation files. The current complete-chain command is R19: it reproduces R18/R17/R16 in a temporary snapshot with the three exact historical README inputs in [R19_HISTORICAL_REPLAY_INPUTS.json](R19_HISTORICAL_REPLAY_INPUTS.json). R17 pinned those READMEs, so later navigation changes made the old in-place nested R18 command fail. This repair changes neither the frozen source gate nor any historical certificate. Earlier standalone commands require their own compatible source snapshots.
+
 ## R18 cut-address propagation verification
 
 [cut_transport.cjs](cut_transport.cjs) consumes R17's verified role maps and the unchanged canonical arithmetic, Laurent and proof-replay APIs. Literal word enumeration independently checks the address-response update and discrete wave stencil. Exact polynomial coefficients establish the two-event identity; finite jets are kept separate from an unproved continuum limit.
 
 ```bash
-python3.12 -B 04-operator-evolution/verify_r18.py \
+python3.12 -B 04-operator-evolution/verify_r19.py \
   --rkf-root /path/to/Recognition-Kernel-Framework \
   --publications-root /path/to/Publications
 ```
@@ -75,7 +89,7 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Follow [R18](../02-relational-response/CUT_TRANSPORT_METRIC_R18.md): derive the interaction/readout that retains the directed current and establishes a shared operational event address. The minimal local quadratic observer is now known for this transport target. A controlled large-scale limit, physical dimensions and rod/clock identification are subsequent gates. Preserve the full word ledger, independent sheets, returning-memory term, nonaffine clock term, Smriti error control and the complete R10 connection contract.
+Follow [R19](../02-relational-response/CURRENT_MEMORY_RETENTION_R19.md): test native interaction/readout candidates against the now-derived pair-memory equation and sharp prediction horizon. Each candidate must retain the relevant even-separation records or derive its record-cut operation and return terms. Establish a shared operational event address before a physical metric or clock. Preserve the full word ledger, independent sheets, nonaffine clock term, Smriti error control and the complete R10 connection contract.
 
 ## R13 complementary memory/noise certificates
 

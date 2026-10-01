@@ -2,6 +2,12 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R19 current retention and native pair memory
+
+[CURRENT_MEMORY_RETENTION_R19.md](CURRENT_MEMORY_RETENTION_R19.md) derives the pair record required to propagate R18's current, its exact return equation, and the repeated-cut operation that recovers source counts. The original seed generates a `K/4` return on event two and a signed energy redistribution on event three. The required pair-separation radius for h-event current prediction is exactly `2h` over the inherited finite preparation module.
+
+The [derivation ledger](../04-operator-evolution/R19_DERIVATION_LEDGER.json) excludes classical imports, unproved claims and comparison-only references from its proof paths. Native target definitions retain their explicit status. [Verification](../04-operator-evolution/R19_VERIFICATION.json) checks the source calculation and repairs historical replay through isolated pinned inputs. Physical interaction and metric selection remain subsequent targets.
+
 ## R18 source transport and the metric-selection gate
 
 [CUT_TRANSPORT_METRIC_R18.md](CUT_TRANSPORT_METRIC_R18.md) derives an event address from the cut roles, a signed response transport and its exact discrete wave identity. No physical speed or wave law is put into that finite construction. The address and aggregation are explicit target definitions; their physical selection is still open.

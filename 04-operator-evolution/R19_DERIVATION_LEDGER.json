@@ -1,0 +1,375 @@
+{
+  "schema": "extra-ideas.r19.native-derivation-ledger.v1",
+  "date": "2026-10-01",
+  "source_commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+  "no_classical_premise_rule": true,
+  "rule": "A certified mathematical proof path may contain only pinned native sources, explicit native constructions and written native derivations. Classical imports, unproved claims and comparison-only references are forbidden as premises.",
+  "certified_claims": [
+    "R19.1",
+    "R19.2",
+    "R19.3",
+    "R19.4",
+    "R19.5",
+    "R19.6",
+    "R19.7",
+    "R19.8",
+    "R19.9"
+  ],
+  "claims": [
+    {
+      "id": "R19.1",
+      "title": "Pair records and their update are derived by native multiplication",
+      "written_section_sha256": "fb1cb5a92084c0ea5e8e04cba1af68871cd181f010eef99bfa45ba329d1d7dd2",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "inherited_native_role_and_flux_identities",
+        "pair_update_matches_independent_response_propagation"
+      ],
+      "scope_boundary": "Finite pair record is derived from native B and multiplication; no independent quantum state postulate."
+    },
+    {
+      "id": "R19.2",
+      "title": "Local current requires a joint signed record at two addresses",
+      "written_section_sha256": "e6acbac7dae37a31639d8c01f7637cda15348be0b0143bda193d3fb1150ed3b4",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "all_local_quadratics_fail_to_determine_next_current"
+      ],
+      "scope_boundary": "Nonclosure over the finite preparation module, not uncertainty about the known single-seed trajectory."
+    },
+    {
+      "id": "R19.3",
+      "title": "Erased pair memory has an exact return equation",
+      "written_section_sha256": "53b099ed7caf3c7078d7a1fbef2b3cc9f02eb7cbc106164d8c5b540dfc54c16a",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "record_cut_identity_and_full_memory_expansion"
+      ],
+      "scope_boundary": "The source and equality cut determine the memory blocks; executing the cut physically is not selected."
+    },
+    {
+      "id": "R19.4",
+      "title": "The original single seed generates a returning current on event two",
+      "written_section_sha256": "ae882988185ad97d6459afba172f7d6dcbdbce3072392cfab860c784e1955602",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "single_seed_generated_memory_returns_before_energy_difference"
+      ],
+      "scope_boundary": "Exact single-seed current return and energy redistribution, not a fitted physical coupling."
+    },
+    {
+      "id": "R19.5",
+      "title": "Cutting the joint record every event derives the count transport",
+      "written_section_sha256": "bcc0d852f1ca8bce8fa3ca23f9418241f1bd43506edf90fd942d47ab116be151",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "repeated_native_cut_equals_literal_source_census"
+      ],
+      "scope_boundary": "Executing a specified native cut every event constructs the count readout; physical detector selection open."
+    },
+    {
+      "id": "R19.6",
+      "title": "The retained current exactly drives the count-versus-response residue",
+      "written_section_sha256": "342e1ca1e9cab7695171c0ccc54efbb665f9ac79375da7adabf62b714e5c1ae3",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "retained_current_drives_exact_count_residue"
+      ],
+      "scope_boundary": "Deterministic signed-current residue, not an imported random-noise process."
+    },
+    {
+      "id": "R19.7",
+      "title": "Finite-horizon current needs a sharp pair-separation radius",
+      "written_section_sha256": "1890818f2c76f8a478dac0270939cd105ebb84fe5711d1da9145883a228251f2",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "sharp_arbitrary_horizon_witnesses",
+        "finite_horizon_pair_band_sufficiency"
+      ],
+      "scope_boundary": "Sharp pair-separation band for a uniform preparation class, not a minimum over arbitrary encodings."
+    },
+    {
+      "id": "R19.8",
+      "title": "Odd separation is an invariant invisible sector for these local targets",
+      "written_section_sha256": "4f3ea5860971d5e4fa24b6a5b5baad7d49cc3d5cdf4f5c60ba5237aadc22414d",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "parity_sector_intertwines_source_and_is_locally_invisible"
+      ],
+      "scope_boundary": "One invariant invisible sector for local quadratic targets, not the complete UGD quotient."
+    },
+    {
+      "id": "R19.9",
+      "title": "The pair calculation lifts to the unmerged cut-word register",
+      "written_section_sha256": "8206dd719f5a948d3aadf583b04c104dbfd77f739e1cbb836095041c24aec435",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "literal_ordered_word_pairs_recover_evaluated_pair_record"
+      ],
+      "scope_boundary": "Ordered source-pair tags retained; independent sheets are not identified with addresses or discarded."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "source_roles",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C3-C8",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Previously constructed cut roles, refinement arithmetic, pairing and their written derivations."
+    },
+    {
+      "id": "source_history",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C13",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Free word identity and retained operation records; physical spacetime not selected."
+    },
+    {
+      "id": "source_census",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_HISTORY_MEMORY_R17.md",
+        "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+        "section": "R17.1-R17.3",
+        "sha256": "c915375894f3baecb062754f26466f35cb04032ec201ceeaa0ed2c265fb98cc9"
+      }
+    },
+    {
+      "id": "address_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_census"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "R18.1, R18.3",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "physical_selection_proved": false,
+      "scope": "Existing address, signed aggregation and finite pairing remain target definitions."
+    },
+    {
+      "id": "source_transport",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "address_target",
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "R18.3-R18.4, R18.8",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "scope": "Derived finite signed update, local energy and current in that target."
+    },
+    {
+      "id": "native_compression",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "rkf",
+        "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "section": "N06",
+        "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5"
+      },
+      "scope": "Pure insertion identity, also proved in R19.3; no external projection formalism assumed."
+    },
+    {
+      "id": "native_elimination",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "rkf",
+        "path": "operator_foundation/theory/02_COMPLETION_AND_MEMORY.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "section": "N09",
+        "sha256": "d205729945231c81a035889709f0a217b5a0979ce5299bdf6ed2ea30a5b9c817"
+      },
+      "scope": "Finite substitution and induction identity, also proved in R19.3."
+    },
+    {
+      "id": "pair_definition",
+      "kind": "NATIVE_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "address_target"
+      ],
+      "definition": "G(x,y)v=psi(x) B(psi(y),v); finite products and signed sums only."
+    },
+    {
+      "id": "local_record_cut",
+      "kind": "NATIVE_CONSTRUCTION",
+      "depends_on": [
+        "pair_definition"
+      ],
+      "definition": "Retain exactly those labelled pair coefficients for which x=y."
+    },
+    {
+      "id": "repeated_record_cut",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "local_record_cut",
+        "R19.1"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Iterate the available composition P T; no assertion that a detector selects it."
+    },
+    {
+      "id": "native_sheet_scope",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/native-ugd-propagation/THEOREM.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "section": "NC-1-NC-7",
+        "sha256": "8c452ed73cbd6af7c73a3c4509fe722b71c3241f16483655e84b46326f6a82da"
+      },
+      "scope": "Preserve source-to-physics and independent-sheet obligations; its chosen arrow and clock are not premises."
+    },
+    {
+      "id": "historical_walk_attribution",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "Historical Hadamard-walk attribution",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "scope": "External/classical reference only. Its mathematical and physical premises are not imported."
+    },
+    {
+      "id": "R19.1",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "pair_definition",
+        "source_transport"
+      ],
+      "written_section_sha256": "fb1cb5a92084c0ea5e8e04cba1af68871cd181f010eef99bfa45ba329d1d7dd2"
+    },
+    {
+      "id": "R19.2",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R19.1",
+        "source_transport"
+      ],
+      "written_section_sha256": "e6acbac7dae37a31639d8c01f7637cda15348be0b0143bda193d3fb1150ed3b4"
+    },
+    {
+      "id": "R19.3",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R19.1",
+        "local_record_cut",
+        "native_compression",
+        "native_elimination"
+      ],
+      "written_section_sha256": "53b099ed7caf3c7078d7a1fbef2b3cc9f02eb7cbc106164d8c5b540dfc54c16a"
+    },
+    {
+      "id": "R19.4",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R19.3",
+        "source_census",
+        "repeated_record_cut"
+      ],
+      "written_section_sha256": "ae882988185ad97d6459afba172f7d6dcbdbce3072392cfab860c784e1955602"
+    },
+    {
+      "id": "R19.5",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R19.1",
+        "repeated_record_cut",
+        "source_census"
+      ],
+      "written_section_sha256": "bcc0d852f1ca8bce8fa3ca23f9418241f1bd43506edf90fd942d47ab116be151"
+    },
+    {
+      "id": "R19.6",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R19.1",
+        "R19.2",
+        "R19.5",
+        "source_transport"
+      ],
+      "written_section_sha256": "342e1ca1e9cab7695171c0ccc54efbb665f9ac79375da7adabf62b714e5c1ae3"
+    },
+    {
+      "id": "R19.7",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R19.1",
+        "R19.2",
+        "source_transport"
+      ],
+      "written_section_sha256": "1890818f2c76f8a478dac0270939cd105ebb84fe5711d1da9145883a228251f2"
+    },
+    {
+      "id": "R19.8",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R19.1",
+        "local_record_cut"
+      ],
+      "written_section_sha256": "4f3ea5860971d5e4fa24b6a5b5baad7d49cc3d5cdf4f5c60ba5237aadc22414d"
+    },
+    {
+      "id": "R19.9",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R19.1",
+        "source_census",
+        "source_history",
+        "source_transport"
+      ],
+      "written_section_sha256": "8206dd719f5a948d3aadf583b04c104dbfd77f739e1cbb836095041c24aec435"
+    }
+  ],
+  "physical_interaction_selection_proved": false,
+  "origin_gate_checks_declared_metadata_not_arbitrary_prose": true,
+  "formal_proof_assistant_verified": false,
+  "target_definitions_are_not_universal_physical_selection": true
+}
