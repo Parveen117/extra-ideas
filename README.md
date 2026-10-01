@@ -17,6 +17,20 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
+## R11: spectral blindness and the curvature observer
+
+[R11](02-relational-response/SPECTRAL_CURVATURE_OBSERVER_R11.md) connects both spectral papers in Publications to native curvature and the R10 tangent quotient. It certifies an entire curvature family whose classical geometry is flat and whose characteristic data are constant. Its nonidentity finite order loops can have exactly the spectrum of identity.
+
+Cross-sector insertion markers recover all hidden curvature coordinates. For two visible and h hidden modes, the full declared target needs exactly **2h independent linear scalar responses**. A catalogue without the reverse-sector leg stays blind even with more spectral samples. The spectral paper's cubic connected response and R10's visible excursion use the same closed composition.
+
+The [verification record](04-operator-evolution/R11_VERIFICATION.json) binds **31 passing exact tests**, nine unchanged canonical-engine replays, six rejected mathematical mutations and two rejected native alterations. It includes 81 lower-coupling cases, 405 ordinary and 1,620 marked determinant evaluations, stable noise bounds and model-relative refusal cases. R1–R10/master evidence is preserved. See the [native packet](04-operator-evolution/R11_NATIVE_CERTIFICATE.json) and [source pins](04-operator-evolution/R11_SOURCE_PINS.json).
+
+    python3.12 -B 04-operator-evolution/verify_r11.py \
+      --publications-root ../Publications \
+      --rkf-root ../Recognition-Kernel-Framework
+
+Use Python 3.11 or 3.12, Node and pinned separate sources. Markers are inserted before compression; erased history requires its own record. Completeness is relative to the declared curvature family, and its response Gram matrix is not automatically a spacetime metric.
+
 ## R10: native curvature conservation and the classical tangent sector
 
 [R10](02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md) proves a sourced second Bianchi law for the balance-selected curvature readout: hidden odd couplings account exactly for its visible cyclic current. The full connection retains ordinary Bianchi. A smooth derivative witness and a nonzero three-mode source witness are certified.

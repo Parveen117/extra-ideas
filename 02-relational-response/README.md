@@ -22,7 +22,11 @@ For a proposed Jacobian, check the compatibility conditions needed for it to ari
 
 ## Next target
 
-Continue from the existing EMK master before physical response laws. The [master review](EMK_MASTER_TENSOR_REVIEW.md) credits its advanced metric, tensor/time, holonomy and information layers and identifies three consistency corrections. [R7](EMK_TENSOR_CALCULUS_R7.md), [R8](CURVATURE_OBSERVATION_R8.md) and [R9](CURVATURE_BALANCE_R9.md) provide typed transport, observation and conditional balance. [R10](NATIVE_CURVATURE_DESCENT_R10.md) adds sourced curvature conservation and an explicit classical tangent quotient. Next construct the observer and metric from a chosen native response/information sector and test preservation of the observer kernel under its actual transport; use the excursion correction when that quotient fails.
+Continue from the existing EMK master before physical response laws. The [master review](EMK_MASTER_TENSOR_REVIEW.md) credits its advanced metric, tensor/time, holonomy and information layers and identifies three consistency corrections. R7–R10 provide typed transport, observation, conditional balance and exact tangent descent. [R11](SPECTRAL_CURVATURE_OBSERVER_R11.md) connects both spectral papers to a minimal cross-sector curvature bank. Next identify a specific native response sector's permitted catalogue, distinguish response reading from transport intervention, and carry its feedback through the R10 excursion correction. Physical observer and metric selection remain explicit.
+
+## R11 spectral blindness and curvature recovery
+
+[SPECTRAL_CURVATURE_OBSERVER_R11.md](SPECTRAL_CURVATURE_OBSERVER_R11.md) certifies nonzero nilpotent native curvature with a flat Riemann quotient and spectrally identity finite loops. It recovers all 2h declared hidden curvature coordinates through a minimal cross-sector bank, connects cubic spectral excitation to the visible excursion, and checks orientation, conditional balance, catalogue restrictions, noise and the history boundary. [R11_VERIFICATION.json](../04-operator-evolution/R11_VERIFICATION.json) records 31 exact tests, nine native replays and eight rejected alterations.
 
 ## R10 curvature conservation and classical reduction
 

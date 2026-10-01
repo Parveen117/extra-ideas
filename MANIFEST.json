@@ -44,7 +44,7 @@
       "standalone_document": false
     }
   ],
-  "status": "R10: native sourced Bianchi, complete tangent-connection descent and a conditional Riemann sector are proved and certified. Visible curvature includes distortion and hidden excursions; full native and sheet memory can survive a flat classical quotient.",
+  "status": "R11: spectral blindness is connected to native curvature, flat tangent quotients and exact finite return. Minimal cross-sector banks recover the declared hidden family; cubic marker excitation equals the visible excursion trace.",
   "repository": "Parveen117/extra-ideas",
   "visibility": "public",
   "developments": [
@@ -405,6 +405,68 @@
       "new_Lean_formalization": false,
       "physical_validation": false,
       "general_classical_calculus_newly_discovered": false
+    },
+    {
+      "id": "R11",
+      "date": "2026-10-01",
+      "title": "Spectral blindness and the native curvature observer",
+      "proof": "02-relational-response/SPECTRAL_CURVATURE_OBSERVER_R11.md",
+      "implementation": "04-operator-evolution/spectral_curvature_observer.py",
+      "native_adapter": "04-operator-evolution/r11_native_spectral_probe.cjs",
+      "verifier": "04-operator-evolution/verify_r11.py",
+      "verification": "04-operator-evolution/R11_VERIFICATION.json",
+      "native_certificate": "04-operator-evolution/R11_NATIVE_CERTIFICATE.json",
+      "source_pins": "04-operator-evolution/R11_SOURCE_PINS.json",
+      "test_count": 31,
+      "validation_status": "PASS_EXACT_SPECTRAL_CURVATURE_OBSERVER",
+      "finite_case_counts": {
+        "lower_coupling_grid": 81,
+        "unmarked_curvature_determinants": 405,
+        "marked_curvature_determinants": 1620,
+        "marker_subbanks": 16,
+        "signed_finite_loop_parameters": 15,
+        "cubic_feedback_channels": 16,
+        "nonfeedback_marked_determinants": 60,
+        "hidden_dimensions": [
+          1,
+          2,
+          3
+        ]
+      },
+      "native_equalities_replayed": 8,
+      "native_distinctness_replays": 1,
+      "math_mutations_rejected": 6,
+      "native_alterations_rejected": 2,
+      "canonical_engine_home": "Parveen117/Recognition-Kernel-Framework/operator_foundation",
+      "source_runtime_reused_unchanged": true,
+      "engine_implementation_copied": false,
+      "public_spectral_PDFs_pinned": 2,
+      "results": [
+        "F_uv=[P_hidden,N_L]=N_L is nonzero nilpotent curvature with identically constant ordinary characteristic data.",
+        "The complete native connection descends exactly to a flat two-mode Levi-Civita sector.",
+        "The finite oriented loop X Y X^-1 Y^-1=I+a*b*N_L can be nonidentity with exactly identity spectrum and visible return.",
+        "For two visible and h hidden modes, a complete linear scalar curvature bank requires exactly 2h channels and cross-sector markers attain the count.",
+        "A catalogue without the hidden-to-visible leg remains blind at every spectral parameter.",
+        "Cubic connected spectral excitation and R10 excursion trace are the same marked closed-leg response.",
+        "Conditional cut balance, response Gram loss, calibrated noise decisions and erased-history limits are checked."
+      ],
+      "assumptions": [
+        "Finite rational admitted carrier with two visible tangent modes and h hidden modes.",
+        "Constant connection A_u=P_hidden, A_v=N_L and exact local jet descent.",
+        "Finite reversible protocol I+aP and I+bN with a different from -1.",
+        "Declared trace insertion markers before spectral compression and model-relative full lower-block target.",
+        "Minimum count applies to linear scalar channels, not universal physical device counts.",
+        "Known nonzero determinant gain and supplied deterministic error bound for stable decisions.",
+        "Response coordinate Gram is not identified with a physical spacetime metric.",
+        "Endpoint markers do not reconstruct previously erased history or independent sheet records."
+      ],
+      "published_high_degree_necklace_calibrations_rerun": false,
+      "private_MP_suite_executed": false,
+      "recorded_R1_R10_and_master_review_hashes_preserved": true,
+      "new_Lean_formalization": false,
+      "physical_validation": false,
+      "physical_probe_or_metric_selected": false,
+      "general_spectral_observer_theorems_newly_discovered": false
     }
   ],
   "lineage_assessment": "CROSS_REPO_LINEAGE.md",
@@ -431,5 +493,6 @@
   },
   "r8_lineage_addendum": "02-relational-response/CURVATURE_OBSERVATION_R8.md#7-what-is-added-and-what-already-existed",
   "r9_lineage_addendum": "02-relational-response/CURVATURE_BALANCE_R9.md#8-evidence-lineage-and-reproduction",
-  "r10_lineage_addendum": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md#source-and-result-lineage"
+  "r10_lineage_addendum": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md#source-and-result-lineage",
+  "r11_lineage_addendum": "02-relational-response/SPECTRAL_CURVATURE_OBSERVER_R11.md#source-links-and-reading-scope"
 }

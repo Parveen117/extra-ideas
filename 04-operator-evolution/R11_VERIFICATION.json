@@ -1,0 +1,663 @@
+{
+  "development": "R11",
+  "date": "2026-10-01",
+  "status": "PASS_EXACT_SPECTRAL_CURVATURE_OBSERVER",
+  "python": "3.12.14",
+  "node": "v24.19.0",
+  "tests_run": 31,
+  "failures": 0,
+  "errors": 0,
+  "finite_case_counts": {
+    "lower_coupling_grid": 81,
+    "unmarked_curvature_determinants": 405,
+    "marked_curvature_determinants": 1620,
+    "marker_subbanks": 16,
+    "signed_finite_loop_parameters": 15,
+    "cubic_feedback_channels": 16,
+    "nonfeedback_marked_determinants": 60,
+    "hidden_dimensions": [
+      1,
+      2,
+      3
+    ]
+  },
+  "math_mutation_controls": {
+    "spectral_flatness_erases_native_curvature": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "erase_finite_order_orientation": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "transpose_the_insertion_marker": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "one_scalar_channel_repairs_arbitrary_spectral_blindness": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "noisy_zero_is_exact_flatness": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "omit_connected_log_cross_terms": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    }
+  },
+  "native_negative_controls": {
+    "altered_contract_rejected": true,
+    "altered_witness_rejected": true
+  },
+  "native_contract": {
+    "input_sha256": "cf6bea4c23873c0c127a9620632f96f1822f248f2cd3463c3004b131e3f8e69a",
+    "equalities_replayed": 8,
+    "distinctness_replays": 1,
+    "audit": "CONFLUENT_BY_CHECKED_DIAMONDS",
+    "finite_carrier_assumed": false,
+    "canonical_engine_reused_unchanged": true
+  },
+  "upstream": {
+    "publications_commit": "e1dc4e3773f063f14e56cf30222c8e8a504519cd",
+    "rkf_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+    "publications_sha256": {
+      "SPECTRAL 1.pdf": "792bb1234bcd63b460b1413445f6731d832cda47ca608e13b558f831081dde3b",
+      "SPECTRAL_2.pdf": "b2333487bb7ff6a38c51f8ff6fd4dbe1fa49c96d6f11ffcb633bc94fecb2d4b6"
+    },
+    "rkf_sha256": {
+      "operator_foundation/core/dependency_gate.cjs": "9a3bbecd03c159536dc17ca827d24d6e644d527adbf6da332460efbb45dbc8d1",
+      "operator_foundation/core/native_laurent.cjs": "fc84abf52311f89ee3a7bb8c6883412e5f64a65812b0031804b44a2e660c0c8a",
+      "operator_foundation/core/native_operator.cjs": "304963cccf4320d76dd36147e5c15ad579e9d0496c86fb1f942543bc692e06a3",
+      "operator_foundation/core/native_paths.cjs": "cc59550c541c078a8b4643e8602691e147179db780e232a53162f604e812e14f",
+      "operator_foundation/core/paninian_operator.cjs": "9a30c72f4e89d0a15697c99095ed8e0f015bb8c64fda4ded9897394945886fd8",
+      "operator_foundation/core/workbench.cjs": "c12a3138cc326604a1149bc306b8cc338b9e9161516b610504ddbc7d59a1ea6d",
+      "operator_foundation/theory/01_NATIVE_ALGEBRA.md": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5",
+      "theorum/48_emk_algebra_cut_graded_curvature_theorem.md": "e447ea282bd47ccbc62e718a8d9aab912d926a9239a662d2e02c5f58fa7563f1"
+    }
+  },
+  "witnesses": {
+    "lower_coupling": [
+      [
+        "2",
+        "-3/4"
+      ],
+      [
+        "5/7",
+        "1"
+      ]
+    ],
+    "full_curvature": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "2",
+        "-3/4",
+        "0",
+        "0"
+      ],
+      [
+        "5/7",
+        "1",
+        "0",
+        "0"
+      ]
+    ],
+    "curvature_spectral_coefficients": [
+      "1",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "Riemann_reduction": {
+      "value_intertwining": [
+        [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "derivative_intertwining": [
+        [
+          [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        ]
+      ],
+      "curvature_intertwining": [
+        [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "connection_jet_descends": true,
+      "curvature_descends": true,
+      "Riemann_sector_certified": true,
+      "tangent_curvature": {
+        "u/v": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      }
+    },
+    "finite_order_loop": {
+      "a": "1/3",
+      "b": "2/5",
+      "carrier": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "4/15",
+          "-1/10",
+          "1",
+          "0"
+        ],
+        [
+          "2/21",
+          "2/15",
+          "0",
+          "1"
+        ]
+      ],
+      "spectral_coefficients": [
+        "1",
+        "-4",
+        "6",
+        "-4",
+        "1"
+      ],
+      "identity_spectral_coefficients": [
+        "1",
+        "-4",
+        "6",
+        "-4",
+        "1"
+      ]
+    },
+    "marked_determinants": {
+      "parameter": "2",
+      "values": [
+        "-3",
+        "5/2",
+        "-3/7",
+        "-1"
+      ],
+      "decoded_lower": [
+        [
+          "2",
+          "-3/4"
+        ],
+        [
+          "5/7",
+          "1"
+        ]
+      ]
+    },
+    "minimal_scalar_repair": {
+      "blind_kernel": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "blind_dimension": 4,
+      "target_blindness": 4,
+      "minimum_arbitrary_scalar_supplements": 4,
+      "target_faithful": false
+    },
+    "no_feedback_catalogue": {
+      "blind_kernel": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "blind_dimension": 4,
+      "target_blindness": 4,
+      "minimum_arbitrary_scalar_supplements": 4,
+      "target_faithful": false
+    },
+    "cubic_source_channel": {
+      "computed": "4",
+      "source_formula": "4"
+    },
+    "probe_excursion_connection": {
+      "visible_full_curvature": [
+        [
+          "2",
+          "-3/4"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "Riemann": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "distortion": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "excursion": [
+        [
+          "2",
+          "-3/4"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "reconstruction_residual": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "trace_visible_excursion": "2",
+      "marked_curvature_response": "2"
+    },
+    "balanced_response": {
+      "odd_multiplier": "0",
+      "response_rows": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "response_Gram": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "observer": {
+        "blind_kernel": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "blind_dimension": 4,
+        "target_blindness": 4,
+        "minimum_arbitrary_scalar_supplements": 4,
+        "target_faithful": false
+      }
+    },
+    "loss_ledger": {
+      "target_blindness_by_stage": [
+        0,
+        4,
+        4,
+        4
+      ],
+      "initial_blindness": 0,
+      "increments": [
+        4,
+        0,
+        0
+      ]
+    }
+  },
+  "preserved_evidence": {
+    "R1_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "c1b24ba12cb54af5d33ce443af0691165ccab8d40e345f3c2afc84669e9cea34",
+      "paths_checked": 4,
+      "all_hashes_match": true
+    },
+    "R2_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "f6051c6baec50f124ec5ac3ab7adc6e82dbba47f77571b590a72927de60d83e5",
+      "paths_checked": 4,
+      "all_hashes_match": true
+    },
+    "R3_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "0b48e868e53dd429100fdf15b81240d1b9cddf12e10b856d05f8f319a72ca2dd",
+      "paths_checked": 8,
+      "all_hashes_match": true
+    },
+    "R4_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_SOURCE_BRIDGE_CHECKS",
+      "record_sha256": "1b646bf98c396af0404381f5c23564f94d05b80b0c5d1fb19332a4848fbb6dbb",
+      "paths_checked": 10,
+      "all_hashes_match": true
+    },
+    "R5_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_PROFILE_RECOVERY_CHECKS",
+      "record_sha256": "525ebbf96054046177617f82fa84162fff51d8116251344770c01df5f376cf63",
+      "paths_checked": 15,
+      "all_hashes_match": true
+    },
+    "R6_VERIFICATION": {
+      "recorded_status": "PASS_CERTIFIED_INTERVAL_PROFILE_CHECKS",
+      "record_sha256": "ec53dfbd8d7c2fab225c3d5f5d2f2cdb73435d0bb3f74420f5baa9ed16a2f53d",
+      "paths_checked": 15,
+      "all_hashes_match": true
+    },
+    "R7_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_TYPED_EMK_TENSOR_CHECKS",
+      "record_sha256": "063dd9abc530a102867597dab47d1eb8701c91b2505a1d4877d51ffce53bc25a",
+      "paths_checked": 14,
+      "all_hashes_match": true
+    },
+    "R8_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_CURVATURE_OBSERVATION_CERTIFICATES",
+      "record_sha256": "76e9704e7177772ff053fa424c7772468a6537f380d2994c14511b3641100af8",
+      "paths_checked": 18,
+      "all_hashes_match": true
+    },
+    "R9_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_NATIVE_CURVATURE_BALANCE",
+      "record_sha256": "5670d64a389a7c9488bf6cf614a37baf3804a5ce31bfc3ecec5defd2fc075cee",
+      "paths_checked": 20,
+      "all_hashes_match": true
+    },
+    "R10_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_NATIVE_CURVATURE_DESCENT",
+      "record_sha256": "864d0db362c4fd85afd7ef3fc209ec699b2f3e4fe0063577831894c8024c8edd",
+      "paths_checked": 22,
+      "all_hashes_match": true
+    },
+    "EMK_MASTER_REVIEW_VERIFICATION": {
+      "recorded_status": "PASS_REPRODUCIBLE_EMK_MASTER_REVIEW_WITH_THREE_FINDINGS",
+      "record_sha256": "420189bb4c06a8db74c9a12081334058a8245021fdcd93683b8e820565f5f40c",
+      "paths_checked": 3,
+      "all_hashes_match": true
+    }
+  },
+  "claim_levels": {
+    "written_general_proofs": true,
+    "native_rewrite_certificates": true,
+    "exact_finite_spectral_and_curvature_checks": true,
+    "published_45_of_50_and_209_of_270_calibrations_rerun": false,
+    "private_MP_theorem_suite_executed": false,
+    "new_Lean_formalization": false,
+    "external_peer_review": false,
+    "physical_experiment": false
+  },
+  "selection_boundary": {
+    "curvature_family_is_admitted": true,
+    "probe_bank_is_model_relative": true,
+    "noise_bound_is_supplied": true,
+    "spectral_shadow_is_not_a_linear_map_in_general": true,
+    "minimal_count_applies_to_linear_scalar_channels": true,
+    "observer_markers_are_inserted_before_compression": true,
+    "erased_history_recovered_from_endpoint_markers": false,
+    "response_Gram_identified_with_spacetime_metric": false,
+    "new_physical_probe_or_metric_selected": false
+  },
+  "sha256": {
+    "4ways.tex": "ace9e45fedf6154f2d872ae762c47a1d852ff93a373f6e30d99c33031cdf8234",
+    "02-relational-response/SPECTRAL_CURVATURE_OBSERVER_R11.md": "ad51757e5b44316c839026adc55d6de7ef3de9255c838b23fb70f1d70b7da801",
+    "04-operator-evolution/spectral_curvature_observer.py": "6c1b067f8b7ac137d61a43871d7962fc6758f4a33bed30ebeb6f721063e641c6",
+    "04-operator-evolution/test_spectral_curvature_observer.py": "5401ea76333ca1d0509777be2cb530a3658d19ddfccf3b40ff90db3bed3119df",
+    "04-operator-evolution/r11_native_spectral_probe.cjs": "854b8931531de26251c162553f641d34931770a74e8ce9472161e01767b1120e",
+    "04-operator-evolution/verify_r11.py": "5406faa28da4223e9849b98ba03f841737a48a0b34fb85b7d341ec8a18ed4499",
+    "04-operator-evolution/R11_SOURCE_PINS.json": "45f82c045f2526784a5ded70161dddec702ff47658f9a0bd0b22c6691481a784",
+    "04-operator-evolution/R11_NATIVE_CERTIFICATE.json": "78503117c1bab88d25ecc7d5d2af6d9c1e2d3b279575d62ef6d69d67d6e3b453",
+    "04-operator-evolution/aghora_return.py": "17e1bb9681f9d5e766c4f294765c1273ba6716a64e8d125196fd36f10fb06e7c",
+    "04-operator-evolution/emk_tensor_calculus.py": "04d0e4d3754c165a0c54a2c40b837530d56780048732b168c95dfe1cca07887e",
+    "04-operator-evolution/emk_curvature_observation.py": "91059138ba60d02a7da154692e51af15dd0ed5461598ee6b80564de0639e6a62",
+    "04-operator-evolution/emk_curvature_balance.py": "6c922c02ea4681e7e3b6abe3b842e876b73e2324f15b78ac1ed79b5bcfc969ec",
+    "04-operator-evolution/native_curvature_descent.py": "0398d844b7675e97d3d1b99507421ee5c4370b1cbc611cbb1827428d789a50a4",
+    "04-operator-evolution/R1_VERIFICATION.json": "c1b24ba12cb54af5d33ce443af0691165ccab8d40e345f3c2afc84669e9cea34",
+    "04-operator-evolution/R2_VERIFICATION.json": "f6051c6baec50f124ec5ac3ab7adc6e82dbba47f77571b590a72927de60d83e5",
+    "04-operator-evolution/R3_VERIFICATION.json": "0b48e868e53dd429100fdf15b81240d1b9cddf12e10b856d05f8f319a72ca2dd",
+    "04-operator-evolution/R4_VERIFICATION.json": "1b646bf98c396af0404381f5c23564f94d05b80b0c5d1fb19332a4848fbb6dbb",
+    "04-operator-evolution/R5_VERIFICATION.json": "525ebbf96054046177617f82fa84162fff51d8116251344770c01df5f376cf63",
+    "04-operator-evolution/R6_VERIFICATION.json": "ec53dfbd8d7c2fab225c3d5f5d2f2cdb73435d0bb3f74420f5baa9ed16a2f53d",
+    "04-operator-evolution/R7_VERIFICATION.json": "063dd9abc530a102867597dab47d1eb8701c91b2505a1d4877d51ffce53bc25a",
+    "04-operator-evolution/R8_VERIFICATION.json": "76e9704e7177772ff053fa424c7772468a6537f380d2994c14511b3641100af8",
+    "04-operator-evolution/R9_VERIFICATION.json": "5670d64a389a7c9488bf6cf614a37baf3804a5ce31bfc3ecec5defd2fc075cee",
+    "04-operator-evolution/R10_VERIFICATION.json": "864d0db362c4fd85afd7ef3fc209ec699b2f3e4fe0063577831894c8024c8edd",
+    "04-operator-evolution/EMK_MASTER_REVIEW_VERIFICATION.json": "420189bb4c06a8db74c9a12081334058a8245021fdcd93683b8e820565f5f40c"
+  }
+}

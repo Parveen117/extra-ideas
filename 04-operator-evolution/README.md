@@ -26,7 +26,17 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Follow the [EMK master review](../02-relational-response/EMK_MASTER_TENSOR_REVIEW.md) and [R10](../02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md): construct its tangent observer and metric from a specified native response/information sector, then certify kernel preservation or quantify the hidden-excursion correction. Retain the identified deck/compensator, holonomy-domain and determinant corrections. KIR finite group action, infinitesimal connection and independent sheet memory remain separately typed. The [lambda note](../03-lambda-reference/IDENTIFIABILITY.md) retains the selection obligation.
+Follow the [EMK master review](../02-relational-response/EMK_MASTER_TENSOR_REVIEW.md) and [R11](../02-relational-response/SPECTRAL_CURVATURE_OBSERVER_R11.md): instantiate its cross-sector bank in a specified native response sector and test the permitted catalogue, gain and error bounds. When a probe is admitted as a transport intervention, track its R10 excursion rather than silently preserving the earlier tangent quotient. Retain the upstream corrections and separate metric/lambda selection obligation. Finite moves, infinitesimal curvature and sheet memory remain separately typed.
+
+## R11 spectral curvature observer certificates
+
+[spectral_curvature_observer.py](spectral_curvature_observer.py) implements the admitted curvature family, exact finite loops, characteristic and marked determinants, minimum target repair, catalogue search, cubic connected coefficients, conditional response geometry and noise decisions. [r11_native_spectral_probe.cjs](r11_native_spectral_probe.cjs) calls the unchanged RKF engine for eight equalities and one distinctness replay.
+
+    python3.12 -B 04-operator-evolution/verify_r11.py \
+      --publications-root ../Publications \
+      --rkf-root ../Recognition-Kernel-Framework
+
+Use Python 3.11 or 3.12, Node and [R11_SOURCE_PINS.json](R11_SOURCE_PINS.json). The verifier binds the original spectral PDFs and checks native bytes before replay. [R11_VERIFICATION.json](R11_VERIFICATION.json) records 31 tests, nine replays, six rejected math mutations, two rejected native alterations and preserved R1–R10/master evidence. See the [proof](../02-relational-response/SPECTRAL_CURVATURE_OBSERVER_R11.md) and [native packet](R11_NATIVE_CERTIFICATE.json). Completeness is model-relative; physical implementation and erased history are separate questions.
 
 ## R10 native curvature descent certificates
 

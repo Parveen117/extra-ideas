@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "development": "R11",
+  "date": "2026-10-01",
+  "scope": "Spectral-blind nilpotent native curvature with a flat Riemann quotient, minimal marked repair, cubic excitation and stable target certificates",
+  "extra_ideas_parent_commit": "31d831af236a40fae6fd83ce264dfc490759bf7b",
+  "publications": {
+    "repository": "Parveen117/Publications",
+    "commit": "e1dc4e3773f063f14e56cf30222c8e8a504519cd",
+    "files": [
+      {
+        "path": "SPECTRAL 1.pdf",
+        "git_blob_sha": "d4a622161988b94a1b522a579efdb47830e16bec",
+        "sha256": "792bb1234bcd63b460b1413445f6731d832cda47ca608e13b558f831081dde3b",
+        "bytes": 701295,
+        "pages": 57,
+        "title": "When Spectra Forget Order: Spectral Blindness, Observer-Marked Separation, and Stable Reconstruction of Ordered Matrix Products",
+        "sections_read_for_bridge": [
+          "abstract",
+          "1.4",
+          "2",
+          "3",
+          "4.5-4.6",
+          "5-7",
+          "15-19",
+          "22-23",
+          "Appendix C"
+        ],
+        "runtime_required": false
+      },
+      {
+        "path": "SPECTRAL_2.pdf",
+        "git_blob_sha": "549a48bd8e536fc85abfb0bf5f3f5772d1d415d0",
+        "sha256": "b2333487bb7ff6a38c51f8ff6fd4dbe1fa49c96d6f11ffcb633bc94fecb2d4b6",
+        "bytes": 411218,
+        "pages": 32,
+        "title": "Stable Recovery Beyond Spectral Blindness: Finite Sampling, Minimal Observer Lifts, and Completion-Stable Reconstruction",
+        "sections_read_for_bridge": [
+          "abstract",
+          "1-2",
+          "3.1",
+          "4-6",
+          "7.1-7.3"
+        ],
+        "runtime_required": false
+      }
+    ],
+    "executable_modules_consumed": []
+  },
+  "rkf": {
+    "repository": "Parveen117/Recognition-Kernel-Framework",
+    "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+    "files": [
+      {
+        "path": "operator_foundation/core/dependency_gate.cjs",
+        "git_blob_sha": "88a1143c62bdc28ec4ffc9a17752a6209ba78be8",
+        "sha256": "9a3bbecd03c159536dc17ca827d24d6e644d527adbf6da332460efbb45dbc8d1",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/native_laurent.cjs",
+        "git_blob_sha": "f3d18833fb6ced3b154182f57c1f54eb9bc975c7",
+        "sha256": "fc84abf52311f89ee3a7bb8c6883412e5f64a65812b0031804b44a2e660c0c8a",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/native_operator.cjs",
+        "git_blob_sha": "7b188defee82aa0edafc586eb3091baf0ceb6900",
+        "sha256": "304963cccf4320d76dd36147e5c15ad579e9d0496c86fb1f942543bc692e06a3",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/native_paths.cjs",
+        "git_blob_sha": "6222f41d35d18ebcda1223fc08b29398dd39df52",
+        "sha256": "cc59550c541c078a8b4643e8602691e147179db780e232a53162f604e812e14f",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/paninian_operator.cjs",
+        "git_blob_sha": "39d0cc2d2c0b42db319b02f4cd29c045910edbbc",
+        "sha256": "9a30c72f4e89d0a15697c99095ed8e0f015bb8c64fda4ded9897394945886fd8",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/workbench.cjs",
+        "git_blob_sha": "b9c8579e0c301b17c96bfe96320f88aa9723dded",
+        "sha256": "c12a3138cc326604a1149bc306b8cc338b9e9161516b610504ddbc7d59a1ea6d",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+        "git_blob_sha": "86366ede2f152f19cbdf0d1dbf06b2e4c0971dad",
+        "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5",
+        "runtime_required": false
+      },
+      {
+        "path": "theorum/48_emk_algebra_cut_graded_curvature_theorem.md",
+        "git_blob_sha": "34e34fe7ce04bacfcb474aefbec6606bcdca54a3",
+        "sha256": "e447ea282bd47ccbc62e718a8d9aab912d926a9239a662d2e02c5f58fa7563f1",
+        "runtime_required": false
+      }
+    ]
+  },
+  "canonical_engine_home": "Parveen117/Recognition-Kernel-Framework/operator_foundation",
+  "foundation_registers_read": [
+    "AGENTS.md",
+    "MATHEMATICS_INDEX.md",
+    "MATHEMATICS_INDEX_2026_09_16.md",
+    "operator_foundation/CANONICAL_HOME.json",
+    "operator_foundation/README.md",
+    "operator_foundation/theory/NATIVE_PRIMITIVE_ORDER.md",
+    "operator_foundation/theory/01_NATIVE_ALGEBRA.md"
+  ],
+  "native_contract_input_sha256": "cf6bea4c23873c0c127a9620632f96f1822f248f2cd3463c3004b131e3f8e69a",
+  "admitted_curvature_family": "Two visible tangent modes and h hidden modes; strict visible-to-hidden N_L, A_u=P_hidden, A_v=N_L",
+  "minimal_probe_count_scope": "2h linear scalar responses for the complete h-by-2 lower block; restricted catalogues may fail or cost more.",
+  "spectral_rank_warning": "The nonlinear characteristic map is not assigned a linear kernel. It is exactly constant on the declared family; its centered restriction is zero.",
+  "physical_probe_or_metric_selected": false,
+  "private_vault_or_MP_bodies_published": false,
+  "full_spectral_pdf_bodies_copied_into_extra_ideas": false,
+  "upstream_runtime_edited_or_copied_into_extra_ideas": false
+}
