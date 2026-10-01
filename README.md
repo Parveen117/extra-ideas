@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R26's derivation ledger](04-operator-evolution/R26_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R27's derivation ledger](04-operator-evolution/R27_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,24 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R27: source-law memory selection and retained-copy parity
+
+[R27](02-relational-response/NATIVE_REPLICA_SELECTION_R27.md) derives the mixed H/K law from the source's own continuation normalization on a record. For native record involutions A,B, their calculated defect is `G=(AB+BA)/2`. The record census has Gram `I+G`, while the moving source's return current obeys `j_2(0)+1/2 = ||G mu||^2/||mu||^2`. Preserving the original source census therefore forces anticommutation; it is not an additional commutator postulate.
+
+Every finite nonzero record carrying this source law factors into the original two-role H/K action and a multiplicity target. An explicit construction from its native plus/minus cuts proves the factorization and faithfulness. R26's specified local response, return coefficient and exact channel ratio three are unchanged by record rank, record coordinates or record preparation. The general propagation identity also identifies exactly how a candidate record's normalization defect would change its identity-relative gap.
+
+Literal copying of both source letters is a different target. A double copy fails the mixed law; a factorized full-law repair needs at least two additional native roles. Retaining r identical direction-record copies gives two exact response classes: odd r has R26's p and parity feedback; even r has R24's eta and R25's feedback. A native tuple-parity encoder retains every relative mark while exposing the one active source factor for odd total-copy count.
+
+[Verification](04-operator-evolution/R27_VERIFICATION.json) binds seven written proofs, ten exact groups and fourteen native identity replays. Two general-record involution rules are replayed separately from the canonical H/K presentation. Checks include native cut reconstruction, intertwiner calculations, copied-memory evolution and 1,016 literal source prefixes. Twelve false alternatives and nine invalid graph mutations are rejected. All 215 prior non-navigation files and the frozen R26 source chain are preserved.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r27.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+This classifies the source-law record target. Native counterfamilies show why joint-transport isometry alone does not select that target. Physical choice of control, retained-copy count, continuation convention, c/alpha, mass and charge remains open; neither a mathematical target nor an identity-relative propagation gap is promoted to a physical law.
 
 ## R26: reused native memory, a propagation gap and a fixed channel ratio
 

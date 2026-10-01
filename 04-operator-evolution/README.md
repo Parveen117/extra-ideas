@@ -2,6 +2,20 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R27 native source-law record and copy-parity verification
+
+[native_replica_selection.cjs](native_replica_selection.cjs) checks general involutive-record balance, commutator/current identities, the propagation polynomial, cut-based normal forms and all computed intertwiners. It verifies rank-independent source responses, literal-copy compensation, parity encoders, the two retained-copy return/feedback classes and a native count family with sign-related readouts but different identity-relative gaps.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r27.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R27_VERIFICATION.json](R27_VERIFICATION.json) records seven written proofs, ten exact groups, fourteen native identity replays, twelve rejected alternatives and nine invalid graph mutations. The general A/B presentation contains only the two self-return relations; anticommutation is not silently assumed. Canonical source identities have a separately identified replay presentation. Checks include 1,016 literal H/K prefixes and exact normal forms for native records of ranks two, four and six.
+
+[R27_DERIVATION_LEDGER.json](R27_DERIVATION_LEDGER.json) and [R27_SOURCE_PINS.json](R27_SOURCE_PINS.json) bind the [proofs](../02-relational-response/NATIVE_REPLICA_SELECTION_R27.md), hash-pin the inherited R25/R26 completion certificates, and preserve all 215 prior non-navigation files. The frozen R26 and earlier chain replays. Source-law record classification and copy-parity response are mathematical results; physical interaction, clock, mass, charge and alpha selection are not claimed. Finite checks and provenance gates are not a formal proof assistant.
+
 ## R26 native memory-residue verification
 
 [native_memory_residue.cjs](native_memory_residue.cjs) uses the unchanged RKF arithmetic and replayer. It checks reciprocal/commuting record cancellation, the commutator-current identity, normal-ordered joint propagation, every coefficient of the quartic shift identity, sharp defect packets, stopped first returns and an independent signed count recurrence. Full event/arrival-flag feedback is compared with the parity-dependent renewal response.

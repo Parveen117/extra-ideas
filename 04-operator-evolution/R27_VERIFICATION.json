@@ -1,0 +1,330 @@
+{
+  "schema": "extra-ideas.r27.verification.v1",
+  "date": "2026-10-01",
+  "status": "PASS_R27_NATIVE_REPLICA_SELECTION",
+  "written_results": 7,
+  "exact_check_groups": 10,
+  "native_symbolic_replays": 14,
+  "counters": {
+    "record_balance_curvature_and_return_current_share_one_native_defect": {
+      "record_candidates": 12,
+      "exact_operator_identities": 120,
+      "current_identities": 44,
+      "native_pairing_calibration_bounds": 44,
+      "anticommutation_assumed_for_general_candidates": false
+    },
+    "native_cut_normal_form_is_faithful_and_has_only_multiplicity_intertwiners": {
+      "exact_reconstructions": 3,
+      "exact_intertwiner_basis_checks": 14,
+      "normal_forms": [
+        {
+          "record_rank": 2,
+          "source_factor_rank": 2,
+          "multiplicity_rank": 1,
+          "intertwiner_rank": 1
+        },
+        {
+          "record_rank": 4,
+          "source_factor_rank": 2,
+          "multiplicity_rank": 2,
+          "intertwiner_rank": 4
+        },
+        {
+          "record_rank": 6,
+          "source_factor_rank": 2,
+          "multiplicity_rank": 3,
+          "intertwiner_rank": 9
+        }
+      ],
+      "orthonormal_record_basis_imported": false,
+      "source_words_identified_as_histories": false
+    },
+    "general_native_propagation_identity_and_sharp_count_family_bounds": {
+      "Laurent_coefficient_comparisons": 64,
+      "general_finite_field_norm_equalities": 8,
+      "sharp_packet_checks": 56,
+      "all_parameter_identity_is_written": "R27.3",
+      "gap_is_identity_relative": true
+    },
+    "source_law_record_endpoint_response_is_independent_of_rank_and_frame": {
+      "joint_endpoint_blocks": 195,
+      "operator_readout_equalities_for_all_joint_inputs": 180,
+      "max_event": 10,
+      "uncorrelated_source_record_assumption_required": false,
+      "record_preparation_fitted": false
+    },
+    "retained_feedback_and_first_returns_are_universal_for_source_law_records": {
+      "first_return_operator_and_gram_checks": 80,
+      "full_feedback_operator_checks": 16,
+      "joint_norm_checks": 32,
+      "max_direct_return_event": 20,
+      "max_direct_feedback_event": 8,
+      "inherited_return_mass": {
+        "lower": "0.782004429700",
+        "upper": "0.782012055372",
+        "lower_rational": "7820044297/10000000000",
+        "upper_rational": "195503013843/250000000000",
+        "partial_count": 4096,
+        "tail_upper_rational": "128/16785409",
+        "partial_rational_sha256": "f673ce05cffedab2cc591f2dd7878a7d349f53d7c2241dd77db615ff68b40612",
+        "all_depth_tail": "0 <= p-p_M <= 128/(M+1)^2",
+        "written_native_tail_proof": "R26.6"
+      },
+      "exact_inherited_channel_ratio": "3",
+      "new_return_constant_fitted": false
+    },
+    "literal_copy_full_law_requires_a_two_role_compensator": {
+      "repaired_joint_source_identities": 8,
+      "smallest_constructed_compensator_rank": 2,
+      "minimal_source_record_compensator_rank": 8,
+      "native_scalar_diagnostic_pairs": 16,
+      "one_dimensional_norm_repair_preserves_full_word_law": false,
+      "minimality_is_for_factorized_operator_copy_target": true
+    },
+    "copy_parity_has_exact_native_tag_normal_form_and_even_kernel": {
+      "native_tuple_tags_encoded": 42,
+      "copy_operator_and_rank_checks": 20,
+      "copy_classes": [
+        {
+          "total_copies": 1,
+          "source_law": true,
+          "multiplicity_rank": 1
+        },
+        {
+          "total_copies": 2,
+          "source_law": false,
+          "kernel_rank": 2,
+          "other_sector_Gram": "2"
+        },
+        {
+          "total_copies": 3,
+          "source_law": true,
+          "multiplicity_rank": 4
+        },
+        {
+          "total_copies": 4,
+          "source_law": false,
+          "kernel_rank": 8,
+          "other_sector_Gram": "2"
+        },
+        {
+          "total_copies": 5,
+          "source_law": true,
+          "multiplicity_rank": 16
+        }
+      ],
+      "full_role_tuples_are_not_erased_by_encoding": true
+    },
+    "retained_record_copy_parity_selects_two_return_and_feedback_classes": {
+      "copy_return_gram_checks": 48,
+      "copy_survivor_checks": 48,
+      "copy_feedback_checks": 24,
+      "copy_classes": [
+        {
+          "retained_record_copies": 0,
+          "response": "R24 eta / R25 feedback",
+          "record_rank": 1
+        },
+        {
+          "retained_record_copies": 1,
+          "response": "R26 p / parity pulses",
+          "record_rank": 2
+        },
+        {
+          "retained_record_copies": 2,
+          "response": "R24 eta / R25 feedback",
+          "record_rank": 4
+        },
+        {
+          "retained_record_copies": 3,
+          "response": "R26 p / parity pulses",
+          "record_rank": 8
+        }
+      ],
+      "inherited_even_return_mass": {
+        "lower": "0.6366197711",
+        "upper": "0.6366197750",
+        "lower_rational": "6366197711/10000000000",
+        "upper_rational": "25464791/40000000"
+      },
+      "total_source_copies_and_ancillary_record_copies_are_distinct": true
+    },
+    "native_count_family_and_sign_change_separate_readout_from_identity_gap": {
+      "exact_signed_endpoint_blocks": 65,
+      "exact_signed_feedback_flag_blocks": 238,
+      "native_counts": [
+        2,
+        1
+      ],
+      "gamma": "3/5",
+      "sigma": "4/5",
+      "return_current": "-7/50",
+      "sharp_lower_gap": "2/5",
+      "sign_reversed_sharp_lower_gap": "8/5",
+      "counts_are_constructed_witnesses_not_fitted_physics": true
+    },
+    "literal_HK_histories_reproduce_record_copy_parity_feedback": {
+      "literal_HK_prefixes": 1016,
+      "matched_arrival_record_blocks": 254,
+      "max_literal_event": 7,
+      "word_histories_quotiented_away": false
+    }
+  },
+  "rejected_false_alternatives": {
+    "two_record_involutions_already_force_anticommutation": true,
+    "joint_transport_normalization_already_implies_record_census_normalization": true,
+    "record_defect_current_is_linear_in_G": true,
+    "any_larger_source_law_record_needs_a_different_mixed_source_relation": true,
+    "an_intertwiner_can_freely_mix_the_two_source_role_blocks": true,
+    "literal_double_copy_preserves_the_original_source_law": true,
+    "scalar_iota_norm_repair_preserves_both_source_involutions": true,
+    "even_copy_balanced_census_is_pairing_preserving": true,
+    "adding_one_retained_native_copy_never_changes_the_response": true,
+    "ancillary_copy_parity_equals_total_literal_source_copy_parity": true,
+    "identical_local_readouts_determine_the_identity_relative_gap": true,
+    "old_eta_and_R26_p_can_be_used_interchangeably": true
+  },
+  "derivation_graph": {
+    "status": "PASS_DECLARED_NATIVE_DERIVATION_GRAPH",
+    "certified_claims": 7,
+    "proof_path_nodes": 25,
+    "imported_classical_premises_on_proof_paths": 0,
+    "comparison_references_excluded_from_proof_paths": [
+      "declared_alpha_selection_comparison"
+    ],
+    "target_definitions_retained_as_definitions": [
+      "arrival_feedback_target",
+      "direction_memory_interface",
+      "factorized_operator_copy_target",
+      "identity_continuation_target",
+      "native_count_counterfamily",
+      "native_local_readout",
+      "native_record_candidates",
+      "retained_copy_target",
+      "source_law_record_target"
+    ],
+    "automatic_semantic_or_formal_proof_verification": false
+  },
+  "derivation_graph_mutations_rejected": {
+    "reject_imported_classical_premise": true,
+    "reject_admitted_input_premise": true,
+    "reject_open_premise": true,
+    "reject_comparison_only_premise": true,
+    "reject_physical_claim_promotion": true,
+    "reject_protocol_definition_promotion": true,
+    "reject_dependency_cycle": true,
+    "reject_unpinned_source": true,
+    "reject_wrong_citation_commit": true
+  },
+  "altered_source_rejected": true,
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "wrong_r25_and_r26_certificate_pins_rejected": true,
+  "general_record_presentation_assumes_anticommutation": false,
+  "previous_source_replayed": {
+    "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+    "status": "PASS_R26_NATIVE_MEMORY_RESIDUE",
+    "native_certificate_sha256": "5d0df3fc203d393d1a4f58902a1f3f82e4c5ab7dfb60ffb40e380a7b96de2146",
+    "old_certificate_or_source_pin_modified": false,
+    "earlier_source_chain": {
+      "commit": "d4f1ae2481a72a04c465f1c17b37d154a6122eff",
+      "status": "PASS_R25_NATIVE_RETURN_FEEDBACK",
+      "native_certificate_sha256": "456f5c5d4bf9857b1604bb6024c346b1a6d499abd833b59a0b414a7bad0fb8d5",
+      "old_certificate_or_source_pin_modified": false,
+      "earlier_source_chain": {
+        "commit": "d660bbf026e1de818fcb3dd61d46346a4ad618ae",
+        "status": "PASS_R24_NATIVE_RETURN_COUPLING",
+        "native_certificate_sha256": "ae0c88451e3e0a7933dd42cecca67b0cc1254a81cc418da77b94843eaf1d2fbe",
+        "old_certificate_or_source_pin_modified": false,
+        "earlier_source_chain": {
+          "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+          "status": "PASS_R23_NATIVE_FUTURE_RESPONSE",
+          "native_certificate_sha256": "69b4e6d43db5bad0a10b797f7b7f788bb8091e4486bf0689960882d22b19295a",
+          "old_certificate_or_source_pin_modified": false,
+          "earlier_source_chain": {
+            "commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+            "status": "PASS_R22_NATIVE_MEETING_GEOMETRY",
+            "native_certificate_sha256": "ad6ac9d802b77c67ec33e8c023c147300994576207014eb9cd81014f6924b98f",
+            "old_certificate_or_source_pin_modified": false,
+            "earlier_source_chain": {
+              "commit": "2888aa2a9ea1c63a89b3d695256c8b9405dbd7cc",
+              "status": "PASS_R21_NATIVE_RECORD_IDENTITY",
+              "native_certificate_sha256": "1d857541e8497dfb4c33b532c7d50ee629f5d8e92698a080307b7ae039794464",
+              "old_certificate_or_source_pin_modified": false,
+              "earlier_source_chain": {
+                "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+                "status": "PASS_R20_NATIVE_RECORD_INTERACTION",
+                "native_certificate_sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+                "old_certificate_or_source_pin_modified": false,
+                "earlier_source_chain": {
+                  "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+                  "status": "PASS_R19_NATIVE_CURRENT_RETENTION",
+                  "native_certificate_sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+                  "old_certificate_or_source_pin_modified": false,
+                  "earlier_source_chain": {
+                    "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+                    "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+                    "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+                    "historical_navigation_inputs_restored_in_temporary_snapshot": 3,
+                    "old_certificate_or_source_pin_modified": false,
+                    "earlier_source_chain": {
+                      "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+                      "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+                      "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+                      "foundation": {
+                        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+                        "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+                        "written_statements": 14,
+                        "native_replays": 13,
+                        "analytic_replays": [
+                          {
+                            "id": "F00_F00E_EULER_V0_1",
+                            "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+                            "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+                            "checks": 14,
+                            "negative_controls": 6,
+                            "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+                          },
+                          {
+                            "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+                            "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+                            "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+                            "checks": 20,
+                            "negative_controls": 7,
+                            "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+                          }
+                        ],
+                        "original_universal_claim_certified": false
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 29,
+  "preserved_prior_files": 215,
+  "source_pins_sha256": "e534af621b26d6eab42f9bcae3cdaa72f6179be5c0c851d848a1fe64e9ff4d72",
+  "native_certificate_sha256": "f5b6b9427f7484b793d78619527353ae758b0261e871662ce84516e963edc872",
+  "comparison_references_are_proof_dependencies": false,
+  "publications_comparison_certificates_rerun": false,
+  "native_source_law_record_classified": true,
+  "native_record_balance_forces_mixed_law": true,
+  "native_copy_parity_response_derived": true,
+  "minimum_factorized_compensator_derived": true,
+  "physical_mass_gap_identified": false,
+  "physical_memory_interface_selected": false,
+  "physical_metric_c_alpha_derived": false,
+  "formal_proof_assistant_verified": false,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Seven written native proofs: source-law record normalization and mixed law, explicit finite record normal form, general propagation defect, universal R26 responses, minimum factorized operator-copy compensator, two copy-parity response classes and native counterfamilies. Mathematical target selection is not physical interaction, mass, charge or alpha selection.",
+  "canonical_report_sha256": "080e61bde3de5d030a926a44c4c2d07e976687d5650ccd50514b9da646285256"
+}

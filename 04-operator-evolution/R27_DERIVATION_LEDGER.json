@@ -1,0 +1,456 @@
+{
+  "schema": "extra-ideas.r27.derivation-ledger.v1",
+  "date": "2026-10-01",
+  "source_commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+  "no_classical_premise_rule": true,
+  "rule": "Proof paths use pinned native sources, explicit targets and native deductions. Imported classical, admitted, open and comparison-only premises are excluded. Carrying the original source law is an explicit mathematical target; its classification does not establish a physical choice of that target, control, copy count or clock.",
+  "certified_claims": [
+    "R27.1",
+    "R27.2",
+    "R27.3",
+    "R27.4",
+    "R27.5",
+    "R27.6",
+    "R27.7"
+  ],
+  "claims": [
+    {
+      "id": "R27.1",
+      "title": "Source normalization forces the mixed law and measures its failure",
+      "written_section_sha256": "44839b5f62ec44030bf3a338dfedd9e88fd7aef79b3dc806a1d2a0d61104240c",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "record_balance_curvature_and_return_current_share_one_native_defect"
+      ],
+      "scope_boundary": "Finite pairing-preserving record involutions carrying the original individual source self-return laws. Balanced source continuation is an explicit native target; its mixed law is derived, not assumed in the general symbolic presentation. Joint-transport isometry alone is weaker."
+    },
+    {
+      "id": "R27.2",
+      "title": "Every finite source-law record has one forced two-role factor",
+      "written_section_sha256": "9f1b75db9534449de0465f95db5fc9df6657fc7d5e2d072aca033ae24ffe9a09",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_cut_normal_form_is_faithful_and_has_only_multiplicity_intertwiners"
+      ],
+      "scope_boundary": "Complete finite real signed source-law record classification by the native plus/minus cuts. Source factor rank two, nonzero multiplicity and faithful action. Multiplicity marks are preserved; the whole generalized UGD carrier is not classified."
+    },
+    {
+      "id": "R27.3",
+      "title": "The record normalization defect enters propagation by an exact identity",
+      "written_section_sha256": "20b209bfa17feb614855c939964c321082cee8b40d50ebe5f3657928a653cc8e",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "general_native_propagation_identity_and_sharp_count_family_bounds",
+        "record_balance_curvature_and_return_current_share_one_native_defect"
+      ],
+      "scope_boundary": "General two-event propagation defect relative to the stated identity continuation. The record anticommutator defect is computed from native arrows. Sharp scalar-defect packet bounds and calibration inequality do not identify a physical mass."
+    },
+    {
+      "id": "R27.4",
+      "title": "R26's response is universal across finite source-law records",
+      "written_section_sha256": "5467b2b016d382611168e66c642def35e31f3f7b56c057b1bceb5599bee0efc5",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "source_law_record_endpoint_response_is_independent_of_rank_and_frame",
+        "retained_feedback_and_first_returns_are_universal_for_source_law_records"
+      ],
+      "scope_boundary": "Universality of the specified one-origin local source readouts, first returns and retained-arrival feedback across source-law records. Arbitrary joint source/record preparations enter only through the source pairing matrix. Other record or spatial-coherence readouts are not declared equivalent."
+    },
+    {
+      "id": "R27.5",
+      "title": "Copying both source letters requires a minimum native compensator",
+      "written_section_sha256": "e47d5582431f77117c69bbeab6bb2841c1be74502e5f6319486aef5d68ae3c03",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "literal_copy_full_law_requires_a_two_role_compensator"
+      ],
+      "scope_boundary": "Minimum compensation for the factorized literal operator-copy lift H tensor A tensor U, K tensor B tensor W. Native scalar-turn norm repair is weaker than full word-law repair. No minimum for arbitrary encodings, state cloning or physical particles is asserted."
+    },
+    {
+      "id": "R27.6",
+      "title": "Retained copy parity selects two native response classes",
+      "written_section_sha256": "6f0bbfd824d389e41d46f002598577adba0551d297e8bad8a4805129cbec4f66",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "copy_parity_has_exact_native_tag_normal_form_and_even_kernel",
+        "retained_record_copy_parity_selects_two_return_and_feedback_classes",
+        "literal_HK_histories_reproduce_record_copy_parity_feedback"
+      ],
+      "scope_boundary": "Retained identical record-copy parity selects the odd R26 versus even R24/R25 response classes. Total literal source-copy parity is a different count. Exact logical-role encoding preserves all relative marks and full history provenance."
+    },
+    {
+      "id": "R27.7",
+      "title": "Native counterfamilies locate the remaining physical-selection freedom",
+      "written_section_sha256": "29865e70d73b26b4d1e0497ef6bb13d9d809da945b972c113c600f8b2b5fa33f",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_count_family_and_sign_change_separate_readout_from_identity_gap",
+        "general_native_propagation_identity_and_sharp_count_family_bounds"
+      ],
+      "scope_boundary": "Native signed-count counterfamilies demonstrate that local causal joint isometry does not select the source-law target. B and minus B agree for the stated single-origin local and controller readouts but have different identity-relative propagation gaps. No unique physical target or phase convention follows."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "source_roles",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C3-C7",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Native marked roles, signed/refined coefficients, H/K and matching pairing. Finite counting, equality and induction remain the stated metamathematical infrastructure."
+    },
+    {
+      "id": "source_completion",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C8",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Native cut-Cauchy scalar completion and positive square-root construction."
+    },
+    {
+      "id": "source_history",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C13",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Full native finite word identities remain distinct from their coefficient evaluations."
+    },
+    {
+      "id": "source_transport",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "R18.1-R18.4",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "scope": "Unchanged equal H/K transport on the constructed address target. Physical time and unique transport selection not supplied."
+    },
+    {
+      "id": "source_record_gate",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RECORD_INTERACTION_R20.md",
+        "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+        "section": "R20.1-R20.4, R20.7",
+        "sha256": "6139b16bfcb5be9c07f9c32c17e82e616c10a7b7d3a3f7113c8bc9bf4e33e7a7"
+      },
+      "scope": "Native tuple pairing, controlled exchange, fresh direction records, address records and matching readout."
+    },
+    {
+      "id": "source_first_return",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_transport",
+        "source_record_gate",
+        "source_completion"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RETURN_COUPLING_R24.md",
+        "commit": "d660bbf026e1de818fcb3dd61d46346a4ad618ae",
+        "section": "R24.1-R24.8",
+        "sha256": "8846db56ecef6e2e8c53415a6e514516da8e4d4f2839f6f29ce46ee474755949"
+      },
+      "scope": "Native finite first-return splitting, survivor pairing telescope, Catalan and central-count bounds. R26 derives new memory-dependent weights; inherited eta is not the new p."
+    },
+    {
+      "id": "source_native_replay",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "rkf",
+        "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "section": "Native finite equality and replay",
+        "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5"
+      },
+      "scope": "Scoped identities in the unchanged canonical native engine; no whole-engine or formal proof-assistant claim."
+    },
+    {
+      "id": "source_arrival_feedback",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_first_return",
+        "source_record_gate",
+        "source_completion"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RETURN_FEEDBACK_R25.md",
+        "commit": "d4f1ae2481a72a04c465f1c17b37d154a6122eff",
+        "section": "R25.1-R25.8",
+        "sha256": "2278400c91ab94fd0d3506a5f25580d9f913e9af6b62edbdf788508eb79af0b7"
+      },
+      "scope": "Native retained-arrival feedback, bilinear response, terminal completion and source preparation. The old one-pulse return clock is not carried into the parity-dependent R26 pulses."
+    },
+    {
+      "id": "source_memory_residue",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_transport",
+        "source_record_gate",
+        "source_first_return",
+        "source_arrival_feedback"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_MEMORY_RESIDUE_R26.md",
+        "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+        "section": "R26.1-R26.9",
+        "sha256": "2a8b300ce78707cddad7163e8a2830dbea285892d6cc02abfeba8a9cc2fabd85"
+      },
+      "scope": "Native flat-record equivalence, commutator-current square, H/K propagation defect, new signed return p and certified tail, parity feedback, channel ratio and literal-copy norm obstruction. No physical mass or source-interaction selection."
+    },
+    {
+      "id": "native_record_candidates",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_record_gate"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Finite real signed record targets with pairing-preserving A and B carrying the native individual self-return identities A squared equals B squared equals identity. No mixed relation is imposed on this general candidate class."
+    },
+    {
+      "id": "source_law_record_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "native_record_candidates",
+        "source_roles",
+        "source_completion"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Continue a candidate record under the original equal two-tag source census (A+B)/sqrt(2), with its native pairing preserved. Anticommutation and complete source-algebra action are proved consequences. This is an explicit mathematical target, not a physical selection axiom."
+    },
+    {
+      "id": "direction_memory_interface",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "native_record_candidates",
+        "source_transport",
+        "source_memory_residue"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Apply A or B according to outgoing source direction and reuse the record. This declared interaction target is distinct from copying the original H/K source letter."
+    },
+    {
+      "id": "identity_continuation_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "direction_memory_interface",
+        "source_roles"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Compare two native transport events with identity using the matching norm. The identity/continuation convention is retained explicitly; it is not a physical Hamiltonian or mass identification."
+    },
+    {
+      "id": "native_local_readout",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "direction_memory_interface",
+        "source_record_gate"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Read source-role pairings locally at a common final address, for origin-supported source/record preparations. Spatial off-diagonal and record-resolved targets are not identified with this target."
+    },
+    {
+      "id": "arrival_feedback_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "direction_memory_interface",
+        "source_arrival_feedback",
+        "source_memory_residue"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Retain each origin-arrival predicate and apply the separate system-controlled K to the moving source after each hit. Full controller cross matching retains the record; no reset is supplied."
+    },
+    {
+      "id": "factorized_operator_copy_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_record_gate",
+        "source_completion"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Copy original source letters as H tensor A, K tensor B; repair by a further tensor factor U or W. Demand the full inherited H/K word law. This does not demand copying an arbitrary unknown state and does not include every possible encoding."
+    },
+    {
+      "id": "retained_copy_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_record_gate",
+        "source_history"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Finite tuple powers of native H/K, with all role marks retained. Distinguish ancillary record count r from total literal source-copy count k. Logical/relative parity encoding is a bijective tag relabelling."
+    },
+    {
+      "id": "native_count_counterfamily",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "native_record_candidates"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Construct candidate arrows using gamma=(m^2-n^2)/(m^2+n^2), sigma=2mn/(m^2+n^2) from signed native counts. Their normalization and response are calculated; the count choices are witnesses, not physical fitted inputs."
+    },
+    {
+      "id": "declared_alpha_selection_comparison",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/native-alpha-selection/THEOREM.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "section": "AS-1-AS-5",
+        "sha256": "54152003202564b83b90dfa875731905bda242458b9e8d7887c3fdfbf4dce54c"
+      },
+      "scope": "Mixed premises: native R2 with supplied cell weights and, in AS-3, an admitted positive quadratic physical adapter. Adapter and electromagnetic normalization excluded from R27 proof paths."
+    },
+    {
+      "id": "R27.1",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_native_replay",
+        "source_memory_residue",
+        "native_record_candidates",
+        "source_law_record_target"
+      ],
+      "written_section_sha256": "44839b5f62ec44030bf3a338dfedd9e88fd7aef79b3dc806a1d2a0d61104240c"
+    },
+    {
+      "id": "R27.2",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R27.1",
+        "source_roles",
+        "source_record_gate",
+        "source_law_record_target",
+        "source_history"
+      ],
+      "written_section_sha256": "9f1b75db9534449de0465f95db5fc9df6657fc7d5e2d072aca033ae24ffe9a09"
+    },
+    {
+      "id": "R27.3",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R27.1",
+        "source_roles",
+        "source_transport",
+        "source_memory_residue",
+        "identity_continuation_target"
+      ],
+      "written_section_sha256": "20b209bfa17feb614855c939964c321082cee8b40d50ebe5f3657928a653cc8e"
+    },
+    {
+      "id": "R27.4",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R27.2",
+        "source_memory_residue",
+        "source_completion",
+        "direction_memory_interface",
+        "native_local_readout",
+        "arrival_feedback_target"
+      ],
+      "written_section_sha256": "5467b2b016d382611168e66c642def35e31f3f7b56c057b1bceb5599bee0efc5"
+    },
+    {
+      "id": "R27.5",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R27.1",
+        "R27.2",
+        "source_roles",
+        "source_memory_residue",
+        "factorized_operator_copy_target"
+      ],
+      "written_section_sha256": "e47d5582431f77117c69bbeab6bb2841c1be74502e5f6319486aef5d68ae3c03"
+    },
+    {
+      "id": "R27.6",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R27.2",
+        "R27.4",
+        "R27.5",
+        "source_first_return",
+        "source_arrival_feedback",
+        "source_memory_residue",
+        "retained_copy_target",
+        "native_local_readout",
+        "arrival_feedback_target"
+      ],
+      "written_section_sha256": "6f0bbfd824d389e41d46f002598577adba0551d297e8bad8a4805129cbec4f66"
+    },
+    {
+      "id": "R27.7",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R27.1",
+        "R27.3",
+        "source_transport",
+        "source_record_gate",
+        "native_count_counterfamily",
+        "direction_memory_interface",
+        "native_local_readout",
+        "arrival_feedback_target"
+      ],
+      "written_section_sha256": "29865e70d73b26b4d1e0497ef6bb13d9d809da945b972c113c600f8b2b5fa33f"
+    }
+  ],
+  "native_source_law_record_classified": true,
+  "physical_memory_interface_selected": false,
+  "physical_metric_selected": false,
+  "physical_mass_gap_identified": false,
+  "physical_alpha_derived": false,
+  "origin_gate_checks_declared_metadata_not_arbitrary_prose": true,
+  "formal_proof_assistant_verified": false
+}

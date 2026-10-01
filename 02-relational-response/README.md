@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R27 native source-law record selection and copy-parity response
+
+[NATIVE_REPLICA_SELECTION_R27.md](NATIVE_REPLICA_SELECTION_R27.md) derives anticommutation from continuation under the source's own balanced census. The same calculated normalization defect determines the two-event return current and enters the propagation norm identity. Every finite source-law record has an explicit two-role H/K factor; remaining multiplicity does not introduce a coupling into R26's specified responses.
+
+The literal operator-copy problem has a minimum two-role compensator. Retained identical record copies split into an odd class with R26's response and an even class with R24–R25's response. Native count witnesses distinguish this mathematical selection from physical interaction selection and show that local readout equivalence does not alone fix a gap relative to identity.
+
+[Verification](../04-operator-evolution/R27_VERIFICATION.json) binds seven written proofs, ten exact groups and fourteen native identity replays. The [ledger](../04-operator-evolution/R27_DERIVATION_LEDGER.json) keeps the finite source-law, factorized-copy and specified-readout boundaries explicit. Earlier evidence and physical mass/charge boundaries are preserved.
+
 ## R26 returning memory, commutator residue and a fixed response ratio
 
 [NATIVE_MEMORY_RESIDUE_R26.md](NATIVE_MEMORY_RESIDUE_R26.md) derives flat-record response equivalences and a two-event commutator-square readout. A single reused native H/K direction record produces a signed source stencil and a sharp positive two-event propagation defect. Its return grammar and completion are derived afresh, including a separate coherent return map with native sqrt(3) coefficients.
