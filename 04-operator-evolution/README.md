@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R35 signed-envelope propagation verification
+
+[native_signed_envelope.cjs](native_signed_envelope.cjs) reuses the unchanged native arithmetic and canonical word replayer. It constructs the sixteen-role signed envelope from R32's source, checks all Laurent coefficients, and derives the rank-two leading form and sharp phase-speed polynomial. Native rational cuts enclose the positive root `2 c_count^2=1`; no measured physical constant enters.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r35.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R35_VERIFICATION.json](R35_VERIFICATION.json) binds seven proofs, nine exact groups, fourteen native replays, fifteen false alternatives and nine graph mutations. Checks include eight complete Laurent identities, fifteen literal-versus-regrouped field evolutions, the full phase-speed polynomial, 36 native phase pairs, 80 root cuts, the exact coefficient moment 88, and nonzero faster-front witnesses. [Source pins](R35_SOURCE_PINS.json) preserve all 271 prior non-navigation files and replay the frozen R34 chain. The [ledger](R35_DERIVATION_LEDGER.json) binds the R1–R33 reading register, distinguishes written infinite-limit proofs from finite exact checks, and excludes comparison-only physical inputs.
+
 ## R34 decoder-burden reduction verification
 
 [native_decoder_burden.cjs](native_decoder_burden.cjs) reuses the unchanged native arithmetic and word replayer. It checks exact minimum decoders, complete Laurent Gram identities, two-horizon design endpoints, finite cyclic inverses, sharp native count patterns, and gain/cost/error controls. The balanced bank's irrational source coefficients are represented exactly by their derived rational squared branch weights.

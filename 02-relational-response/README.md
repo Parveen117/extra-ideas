@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R35 native signed envelope and sharp phase propagation
+
+[NATIVE_SIGNED_ENVELOPE_R35.md](NATIVE_SIGNED_ENVELOPE_R35.md) reads R1–R33 together and derives a gapless signed envelope from R32's retained transport. Its sixteen-role regrouping keeps all address parity marks and gives `A_x^2=A_y^2=I/2`, `A_x A_y+A_y A_x=0`: a full-rank isotropic leading count form. The exact mixed fourth difference is retained in the finite wave equation.
+
+Native Euler phase probes give two actual rank-eight bands and the sharp phase-gradient bound `1/sqrt(2)`. The modewise phase limit has a finite-product error bound, and source-law record multiplicity leaves the coefficient unchanged. One spatial component count is two coarse steps and one envelope block is eight original events. The faster exact support front and the missing physical rod/clock/field identification are proved boundaries, so this is not yet physical c, h or alpha.
+
+[Verification](../04-operator-evolution/R35_VERIFICATION.json) binds seven proofs, nine exact groups and fourteen native replays. The [ledger](../04-operator-evolution/R35_DERIVATION_LEDGER.json) records all 33 readings, pinned native ancestors and comparison-only physical adapters. The unchanged frozen R34 chain is replayed.
+
 ## R34 native decoder burden and optimal two-increment reading
 
 [NATIVE_DECODER_BURDEN_R34.md](NATIVE_DECODER_BURDEN_R34.md) derives the minimum native decoder and computes the current full-state beta `1` and unit local-cut beta `1/2`. A balanced eight-/sixteen-event bank has sharp full beta `1/2` and local beta `0.36163703165179...`. Equal weights uniquely optimize the declared worst-state two-increment design. Native return counts certify the completed local value with an explicit tail.

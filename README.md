@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R34's derivation ledger](04-operator-evolution/R34_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R35's derivation ledger](04-operator-evolution/R35_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,14 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R35: a signed envelope and isotropic propagation coefficient
+
+[R35](02-relational-response/NATIVE_SIGNED_ENVELOPE_R35.md) synthesizes the complete R1–R33 reading into a new propagation sector of R32's retained source. An explicit event/address sign gives the exact wave operator `L_*=(lambda_x+lambda_y)/2-lambda_x lambda_y/16`, bounded between zero and three. Keeping all address parities produces two leading generators with `A_x^2=A_y^2=I/2` and zero anticommutator. Their count form has rank two, resolving R31's bare rank-one degeneracy within the different retained interface.
+
+The derived isotropic phase speed is exactly `1/sqrt(2)` component counts per eight-original-event block. A complete positive polynomial proves this is also the sharp upper bound on all native phase-gradient speeds. A native factorial estimate controls the modewise limit with error at most `89 n epsilon^2 (|kx|+|ky|)^2`. Finite source-law record multiplicity preserves the coefficient. The exact nonzero support front travels faster; physical light, rods/clocks, c, h and alpha remain unselected.
+
+[Verification](04-operator-evolution/R35_VERIFICATION.json) binds seven written proofs, nine exact groups, fourteen native replays, fifteen rejected alternatives and nine graph mutations. The [ledger](04-operator-evolution/R35_DERIVATION_LEDGER.json) binds the 33-paper reading register and labels admitted physical adapters as comparison only. All 271 prior non-navigation files and the frozen R34 chain are preserved.
 
 ## R34: native decoder burden and a balanced observer reduction
 
