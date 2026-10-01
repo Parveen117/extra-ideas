@@ -17,6 +17,28 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
+## R10: native curvature conservation and the classical tangent sector
+
+[R10](02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md) proves a sourced second Bianchi law for the balance-selected curvature readout: hidden odd couplings account exactly for its visible cyclic current. The full connection retains ordinary Bianchi. A smooth derivative witness and a nonzero three-mode source witness are certified.
+
+Classical Riemann curvature is an exact tangent quotient when a surjective observer intertwines the complete connection jet with an admitted metric's Levi-Civita jet. The visible curvature decomposition is
+
+\[
+(F_{ij})_{\mathrm{vis}}=R_{ij}(g)+\mathcal D_{ij}(S)+E_iL_j-E_jL_i.
+\]
+
+The certificate rejects pointwise metric/torsion checks and accidental curvature equality as sufficient quotient tests. It also certifies flat Riemann geometry with nonzero hidden native curvature, hidden feedback producing visible curvature, and visible return with retained hidden or sheet memory. The metric jet matches the existing EMK-G1 source at 23 rational positive-domain points; metric selection remains a separate research problem.
+
+The [verification record](04-operator-evolution/R10_VERIFICATION.json) binds **25 passing exact tests**, five unchanged canonical-engine symbolic replays, six rejected mathematical mutations, two rejected native alterations, and preserved R1–R9/master-review evidence. See the [native packet](04-operator-evolution/R10_NATIVE_CERTIFICATE.json) and [source pins](04-operator-evolution/R10_SOURCE_PINS.json).
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r10.py \
+  --publications-root ../Publications \
+  --rkf-root ../Recognition-Kernel-Framework
+```
+
+Use Python 3.11 or 3.12, Node and separate pinned source checkouts. These are written proofs, native rewrite certificates and exact finite checks. The canonical engine remains in **RKF/operator_foundation**.
+
 ## R9: native curvature balance and the information ledger
 
 [R9](02-relational-response/CURVATURE_BALANCE_R9.md) develops conditional information/curvature balance through the existing derived cut-swap `K`. Within a declared two-branch recognition protocol, invariance under branch exchange uniquely selects equal weights. The resulting balanced observer retains even curvature and removes odd curvature:

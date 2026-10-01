@@ -1,0 +1,1103 @@
+{
+  "development": "R10",
+  "date": "2026-10-01",
+  "status": "PASS_EXACT_NATIVE_CURVATURE_DESCENT",
+  "python": "3.12.14",
+  "node": "v24.19.0",
+  "tests_run": 25,
+  "failures": 0,
+  "errors": 0,
+  "finite_case_counts": {
+    "constant_Bianchi_cut_cases": 6,
+    "smooth_connection_two_jets": 1,
+    "positive_domain_EMKG1_metric_points": 23,
+    "EMKG1_curvature_comparison_routes_per_point": 3,
+    "flat_tangent_dimensions": [
+      1,
+      2,
+      3
+    ]
+  },
+  "math_mutation_controls": {
+    "omit_hidden_Bianchi_source": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "reverse_hidden_Bianchi_source_sign": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "ignore_differentiated_observer_contract": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "pointwise_metric_torsion_values_certify_connection_jet": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "erase_hidden_excursion_curvature": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "curvature_equality_identifies_the_connection": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    }
+  },
+  "native_negative_controls": {
+    "altered_contract_rejected": true,
+    "altered_witness_rejected": true
+  },
+  "native_contract": {
+    "input_sha256": "b982c4bb8c34b8f640c4b351a828e3467806a51cfcd9dffe4e085aab346dac82",
+    "single_carrier_symbolic_proofs_replayed": 3,
+    "typed_quotient_symbolic_proofs_replayed": 2,
+    "audits": {
+      "graded": "CONFLUENT_BY_CHECKED_DIAMONDS",
+      "descent": "CONFLUENT_BY_CHECKED_DIAMONDS"
+    },
+    "canonical_engine_reused_unchanged": true
+  },
+  "upstream": {
+    "publications_commit": "e1dc4e3773f063f14e56cf30222c8e8a504519cd",
+    "rkf_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+    "publications_sha256": {
+      "papers/emk-recognition-geometry/LINEAGE.md": "5c88ebd72534023c25ccad572007240d3809dd083d658e01f1725894882cc0a8",
+      "papers/emk-recognition-geometry/README.md": "bb7559a21a236b6d6bb00e69740453078c88eef73dc184d6b882a9f205cfcfae",
+      "papers/emk-recognition-geometry/certificates/emkg1_rotational_seam_metric.py": "a0a3d503ed4f17a3f2398dbde4c408c90cdfa14e16e8a171178319ec38029ab1",
+      "papers/emk-ugd-algebra/certificates/emkt1_master_tensor_and_time.py": "c32b977f25cb00edbfcb338e6028a6b0f3a1f0beae4f4f2737663c574c7a1dce"
+    },
+    "rkf_sha256": {
+      "operator_foundation/core/dependency_gate.cjs": "9a3bbecd03c159536dc17ca827d24d6e644d527adbf6da332460efbb45dbc8d1",
+      "operator_foundation/core/native_laurent.cjs": "fc84abf52311f89ee3a7bb8c6883412e5f64a65812b0031804b44a2e660c0c8a",
+      "operator_foundation/core/native_operator.cjs": "304963cccf4320d76dd36147e5c15ad579e9d0496c86fb1f942543bc692e06a3",
+      "operator_foundation/core/native_paths.cjs": "cc59550c541c078a8b4643e8602691e147179db780e232a53162f604e812e14f",
+      "operator_foundation/core/paninian_operator.cjs": "9a30c72f4e89d0a15697c99095ed8e0f015bb8c64fda4ded9897394945886fd8",
+      "operator_foundation/core/workbench.cjs": "c12a3138cc326604a1149bc306b8cc338b9e9161516b610504ddbc7d59a1ea6d",
+      "operator_foundation/theory/01_NATIVE_ALGEBRA.md": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5",
+      "theorum/48_emk_algebra_cut_graded_curvature_theorem.md": "e447ea282bd47ccbc62e718a8d9aab912d926a9239a662d2e02c5f58fa7563f1"
+    }
+  },
+  "witnesses": {
+    "sourced_Bianchi": {
+      "cyclic_curvatures": [
+        [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "full_bianchi": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "visible_bianchi": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "hidden_source": [
+        [
+          "-1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "sourced_residual": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "Riemann_descent": {
+      "value_intertwining": [
+        [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "derivative_intertwining": [
+        [
+          [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        ]
+      ],
+      "curvature_intertwining": [
+        [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "connection_jet_descends": true,
+      "curvature_descends": true,
+      "Riemann_sector_certified": true,
+      "tangent_curvature": {
+        "u/v": [
+          [
+            "0",
+            "-27/16"
+          ],
+          [
+            "9/4",
+            "0"
+          ]
+        ]
+      }
+    },
+    "curved_metric_visible_decomposition": {
+      "visible_full_curvature": [
+        [
+          "0",
+          "-27/16"
+        ],
+        [
+          "9/4",
+          "0"
+        ]
+      ],
+      "Riemann": [
+        [
+          "0",
+          "-27/16"
+        ],
+        [
+          "9/4",
+          "0"
+        ]
+      ],
+      "distortion": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "excursion": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "reconstruction_residual": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "source_Gaussian_curvature": "-27/16",
+    "flat_Riemann_with_curved_hidden_sector": {
+      "tangent_curvature": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "full_native_curvature": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-2"
+        ]
+      ],
+      "reduction": {
+        "value_intertwining": [
+          [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        "derivative_intertwining": [
+          [
+            [
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            ]
+          ]
+        ],
+        "curvature_intertwining": [
+          [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        "connection_jet_descends": true,
+        "curvature_descends": true,
+        "Riemann_sector_certified": true,
+        "tangent_curvature": {
+          "x0/x1": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        }
+      }
+    },
+    "feedback_breaks_descent": {
+      "decomposition": {
+        "visible_full_curvature": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "Riemann": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "distortion": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        "excursion": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "reconstruction_residual": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      "descent": {
+        "value_intertwining": [
+          [
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        "derivative_intertwining": [
+          [
+            [
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            ]
+          ]
+        ],
+        "curvature_intertwining": [
+          [
+            [
+              "0",
+              "1",
+              "0",
+              "-1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "0"
+            ]
+          ]
+        ],
+        "connection_jet_descends": false,
+        "curvature_descends": false,
+        "Riemann_sector_certified": false,
+        "tangent_curvature": {
+          "x0/x1": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        }
+      }
+    },
+    "pointwise_metric_torsion_test_is_insufficient": {
+      "compatibility": {
+        "nonmetricity": [
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        "torsion": [
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        "distortion_values": [
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        "distortion_partials": [
+          [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ]
+        ],
+        "Levi_Civita_connection_jet": false
+      },
+      "actual_curvature": [
+        [
+          "0",
+          "-1"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "reduction": {
+        "value_intertwining": [
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        "derivative_intertwining": [
+          [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ]
+          ],
+          [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ]
+        ],
+        "curvature_intertwining": [
+          [
+            [
+              "0",
+              "-1"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ]
+        ],
+        "connection_jet_descends": false,
+        "curvature_descends": false,
+        "Riemann_sector_certified": false,
+        "tangent_curvature": {
+          "x0/x1": [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        }
+      }
+    },
+    "finite_loop": {
+      "full_carrier": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1"
+        ]
+      ],
+      "visible_carrier": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ]
+    }
+  },
+  "preserved_evidence": {
+    "R1_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "c1b24ba12cb54af5d33ce443af0691165ccab8d40e345f3c2afc84669e9cea34",
+      "paths_checked": 4,
+      "all_hashes_match": true
+    },
+    "R2_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "f6051c6baec50f124ec5ac3ab7adc6e82dbba47f77571b590a72927de60d83e5",
+      "paths_checked": 4,
+      "all_hashes_match": true
+    },
+    "R3_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "0b48e868e53dd429100fdf15b81240d1b9cddf12e10b856d05f8f319a72ca2dd",
+      "paths_checked": 8,
+      "all_hashes_match": true
+    },
+    "R4_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_SOURCE_BRIDGE_CHECKS",
+      "record_sha256": "1b646bf98c396af0404381f5c23564f94d05b80b0c5d1fb19332a4848fbb6dbb",
+      "paths_checked": 10,
+      "all_hashes_match": true
+    },
+    "R5_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_PROFILE_RECOVERY_CHECKS",
+      "record_sha256": "525ebbf96054046177617f82fa84162fff51d8116251344770c01df5f376cf63",
+      "paths_checked": 15,
+      "all_hashes_match": true
+    },
+    "R6_VERIFICATION": {
+      "recorded_status": "PASS_CERTIFIED_INTERVAL_PROFILE_CHECKS",
+      "record_sha256": "ec53dfbd8d7c2fab225c3d5f5d2f2cdb73435d0bb3f74420f5baa9ed16a2f53d",
+      "paths_checked": 15,
+      "all_hashes_match": true
+    },
+    "R7_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_TYPED_EMK_TENSOR_CHECKS",
+      "record_sha256": "063dd9abc530a102867597dab47d1eb8701c91b2505a1d4877d51ffce53bc25a",
+      "paths_checked": 14,
+      "all_hashes_match": true
+    },
+    "R8_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_CURVATURE_OBSERVATION_CERTIFICATES",
+      "record_sha256": "76e9704e7177772ff053fa424c7772468a6537f380d2994c14511b3641100af8",
+      "paths_checked": 18,
+      "all_hashes_match": true
+    },
+    "R9_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_NATIVE_CURVATURE_BALANCE",
+      "record_sha256": "5670d64a389a7c9488bf6cf614a37baf3804a5ce31bfc3ecec5defd2fc075cee",
+      "paths_checked": 20,
+      "all_hashes_match": true
+    },
+    "EMK_MASTER_REVIEW_VERIFICATION": {
+      "recorded_status": "PASS_REPRODUCIBLE_EMK_MASTER_REVIEW_WITH_THREE_FINDINGS",
+      "record_sha256": "420189bb4c06a8db74c9a12081334058a8245021fdcd93683b8e820565f5f40c",
+      "paths_checked": 3,
+      "all_hashes_match": true
+    }
+  },
+  "claim_levels": {
+    "written_general_proofs": true,
+    "generic_rewrite_certificates": true,
+    "exact_finite_source_checks": true,
+    "new_Lean_formalization": false,
+    "external_peer_review": false,
+    "physical_experiment": false
+  },
+  "selection_boundary": {
+    "metric_is_admitted": true,
+    "tangent_quotient_is_conditional": true,
+    "connection_jet_intertwining_checked": true,
+    "smooth_Bianchi_cut_is_constant": true,
+    "new_physical_metric_or_rate_selected": false,
+    "Riemann_sector_asserted_for_all_native_transports": false,
+    "finite_group_loop_identified_with_infinitesimal_connection": false
+  },
+  "sha256": {
+    "4ways.tex": "ace9e45fedf6154f2d872ae762c47a1d852ff93a373f6e30d99c33031cdf8234",
+    "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md": "e0ebefb163d2ae2deb4acd2dbd7084a9f16e441b643f412a01661a7097763ce4",
+    "04-operator-evolution/native_curvature_descent.py": "0398d844b7675e97d3d1b99507421ee5c4370b1cbc611cbb1827428d789a50a4",
+    "04-operator-evolution/test_native_curvature_descent.py": "47ba7d2c2ecfc040d32f692525247084de43689ea1b463ee8c269b57f0319e73",
+    "04-operator-evolution/r10_native_curvature_probe.cjs": "c5d809ab0c6c83b2e9436913c48886646659d47818458dc4884f59fcdf2d5041",
+    "04-operator-evolution/verify_r10.py": "bc5917d1c0d5a59a017a0726c9823a5ef11a70b34045e02588ce8f4f28e06b03",
+    "04-operator-evolution/R10_SOURCE_PINS.json": "0cad929c22792c706b56d71faaa912453943bb22f459677508942e0031f78a27",
+    "04-operator-evolution/R10_NATIVE_CERTIFICATE.json": "9a169807aecb21d144f88a68f7928415794484ec64a278bd251011df058dd97e",
+    "04-operator-evolution/aghora_return.py": "17e1bb9681f9d5e766c4f294765c1273ba6716a64e8d125196fd36f10fb06e7c",
+    "04-operator-evolution/emk_tensor_calculus.py": "04d0e4d3754c165a0c54a2c40b837530d56780048732b168c95dfe1cca07887e",
+    "04-operator-evolution/emk_curvature_observation.py": "91059138ba60d02a7da154692e51af15dd0ed5461598ee6b80564de0639e6a62",
+    "04-operator-evolution/emk_curvature_balance.py": "6c922c02ea4681e7e3b6abe3b842e876b73e2324f15b78ac1ed79b5bcfc969ec",
+    "04-operator-evolution/R1_VERIFICATION.json": "c1b24ba12cb54af5d33ce443af0691165ccab8d40e345f3c2afc84669e9cea34",
+    "04-operator-evolution/R2_VERIFICATION.json": "f6051c6baec50f124ec5ac3ab7adc6e82dbba47f77571b590a72927de60d83e5",
+    "04-operator-evolution/R3_VERIFICATION.json": "0b48e868e53dd429100fdf15b81240d1b9cddf12e10b856d05f8f319a72ca2dd",
+    "04-operator-evolution/R4_VERIFICATION.json": "1b646bf98c396af0404381f5c23564f94d05b80b0c5d1fb19332a4848fbb6dbb",
+    "04-operator-evolution/R5_VERIFICATION.json": "525ebbf96054046177617f82fa84162fff51d8116251344770c01df5f376cf63",
+    "04-operator-evolution/R6_VERIFICATION.json": "ec53dfbd8d7c2fab225c3d5f5d2f2cdb73435d0bb3f74420f5baa9ed16a2f53d",
+    "04-operator-evolution/R7_VERIFICATION.json": "063dd9abc530a102867597dab47d1eb8701c91b2505a1d4877d51ffce53bc25a",
+    "04-operator-evolution/R8_VERIFICATION.json": "76e9704e7177772ff053fa424c7772468a6537f380d2994c14511b3641100af8",
+    "04-operator-evolution/R9_VERIFICATION.json": "5670d64a389a7c9488bf6cf614a37baf3804a5ce31bfc3ecec5defd2fc075cee",
+    "04-operator-evolution/EMK_MASTER_REVIEW_VERIFICATION.json": "420189bb4c06a8db74c9a12081334058a8245021fdcd93683b8e820565f5f40c"
+  }
+}

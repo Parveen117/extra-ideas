@@ -44,7 +44,7 @@
       "standalone_document": false
     }
   ],
-  "status": "R7: typed EMK tensor algebra and finite calculus; rank-parity closure diagnostics and the two-mode continuous R/K fixed-metric obstruction are proved and exactly checked. Physics follows a separately admitted direction and metric sector.",
+  "status": "R10: native sourced Bianchi, complete tangent-connection descent and a conditional Riemann sector are proved and certified. Visible curvature includes distortion and hidden excursions; full native and sheet memory can survive a flat classical quotient.",
   "repository": "Parveen117/extra-ideas",
   "visibility": "public",
   "developments": [
@@ -350,6 +350,61 @@
       "new_Lean_formalization": false,
       "physical_validation": false,
       "general_classical_algebra_or_information_methods_newly_discovered": false
+    },
+    {
+      "id": "R10",
+      "date": "2026-10-01",
+      "title": "Native curvature conservation and the classical tangent sector",
+      "proof": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md",
+      "implementation": "04-operator-evolution/native_curvature_descent.py",
+      "native_adapter": "04-operator-evolution/r10_native_curvature_probe.cjs",
+      "verifier": "04-operator-evolution/verify_r10.py",
+      "verification": "04-operator-evolution/R10_VERIFICATION.json",
+      "native_certificate": "04-operator-evolution/R10_NATIVE_CERTIFICATE.json",
+      "source_pins": "04-operator-evolution/R10_SOURCE_PINS.json",
+      "test_count": 25,
+      "validation_status": "PASS_EXACT_NATIVE_CURVATURE_DESCENT",
+      "finite_case_counts": {
+        "constant_Bianchi_cut_cases": 6,
+        "smooth_connection_two_jets": 1,
+        "positive_domain_EMKG1_metric_points": 23,
+        "EMKG1_curvature_comparison_routes_per_point": 3,
+        "flat_tangent_dimensions": [
+          1,
+          2,
+          3
+        ]
+      },
+      "single_carrier_symbolic_proofs_replayed": 3,
+      "typed_quotient_symbolic_proofs_replayed": 2,
+      "math_mutations_rejected": 6,
+      "native_alterations_rejected": 2,
+      "canonical_engine_home": "Parveen117/Recognition-Kernel-Framework/operator_foundation",
+      "source_runtime_reused_unchanged": true,
+      "engine_implementation_copied": false,
+      "results": [
+        "Balance-selected full curvature obeys a sourced second Bianchi law with an exact hidden odd-sector current.",
+        "A complete surjective tangent-connection intertwiner descends native curvature to Riemann curvature under an admitted Levi-Civita metric contract.",
+        "Visible full curvature decomposes exactly into Riemann, connection distortion and hidden feedback excursions.",
+        "Pointwise metric/torsion conditions and accidental curvature equality are refused as sufficient reduction tests.",
+        "EMKG1 metric two-jets reproduce existing Christoffel, lowered Riemann and Gaussian curvature at 23 rational positive-domain points.",
+        "Exact flat classical quotients retain nonzero hidden native curvature, finite hidden return mismatch and independent sheet records."
+      ],
+      "assumptions": [
+        "Lawfully typed associative composition and characteristic-zero central scalars.",
+        "Constant involutive cut for the graded Bianchi law; commuting coordinate partials.",
+        "Admitted smooth coordinate connection; exact finite values and derivative jets.",
+        "Admitted nondegenerate symmetric tangent metric and its consistent first/second jets.",
+        "Constant surjective observer in the executable adapter, with complete first derivative intertwining.",
+        "Declared visible/hidden splitting for the block decomposition.",
+        "Finite path composition and independent integer sheet memory are not automatically identified with local infinitesimal geometry."
+      ],
+      "metric_family_selected_by_physical_law": false,
+      "Riemann_sector_asserted_for_all_native_transports": false,
+      "recorded_R1_R9_and_master_review_hashes_preserved": true,
+      "new_Lean_formalization": false,
+      "physical_validation": false,
+      "general_classical_calculus_newly_discovered": false
     }
   ],
   "lineage_assessment": "CROSS_REPO_LINEAGE.md",
@@ -375,5 +430,6 @@
     "recorded_R1_R7_hashes_preserved": true
   },
   "r8_lineage_addendum": "02-relational-response/CURVATURE_OBSERVATION_R8.md#7-what-is-added-and-what-already-existed",
-  "r9_lineage_addendum": "02-relational-response/CURVATURE_BALANCE_R9.md#8-evidence-lineage-and-reproduction"
+  "r9_lineage_addendum": "02-relational-response/CURVATURE_BALANCE_R9.md#8-evidence-lineage-and-reproduction",
+  "r10_lineage_addendum": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md#source-and-result-lineage"
 }

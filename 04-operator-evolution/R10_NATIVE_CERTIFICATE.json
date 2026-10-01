@@ -1,0 +1,1768 @@
+{
+  "input": {
+    "schema": "extra-ideas.r10-native-curvature-descent.v1",
+    "graded": {
+      "input_format": "workbench_expression_AST",
+      "presentation": {
+        "tokens": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "K"
+        ],
+        "rules": [
+          {
+            "id": "KK",
+            "lhs": [
+              "K",
+              "K"
+            ],
+            "rhs": [
+              [
+                [],
+                1
+              ]
+            ],
+            "source": "R9/R10 constant native cut involution contract: K squared equals I"
+          }
+        ]
+      },
+      "tasks": [
+        {
+          "name": "full_constant_Bianchi_Jacobi",
+          "left": {
+            "op": "add",
+            "args": [
+              {
+                "op": "commutator",
+                "left": {
+                  "word": [
+                    "A"
+                  ]
+                },
+                "right": {
+                  "op": "commutator",
+                  "left": {
+                    "word": [
+                      "B"
+                    ]
+                  },
+                  "right": {
+                    "word": [
+                      "C"
+                    ]
+                  }
+                }
+              },
+              {
+                "op": "commutator",
+                "left": {
+                  "word": [
+                    "B"
+                  ]
+                },
+                "right": {
+                  "op": "commutator",
+                  "left": {
+                    "word": [
+                      "C"
+                    ]
+                  },
+                  "right": {
+                    "word": [
+                      "A"
+                    ]
+                  }
+                }
+              },
+              {
+                "op": "commutator",
+                "left": {
+                  "word": [
+                    "C"
+                  ]
+                },
+                "right": {
+                  "op": "commutator",
+                  "left": {
+                    "word": [
+                      "A"
+                    ]
+                  },
+                  "right": {
+                    "word": [
+                      "B"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "right": {
+            "op": "scale",
+            "coefficient": 0,
+            "value": {
+              "word": []
+            }
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "visible_Bianchi_plus_hidden_source",
+          "left": {
+            "op": "add",
+            "args": [
+              {
+                "op": "add",
+                "args": [
+                  {
+                    "op": "commutator",
+                    "left": {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "word": [
+                              "A"
+                            ]
+                          },
+                          {
+                            "op": "multiply",
+                            "args": [
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              },
+                              {
+                                "word": [
+                                  "A"
+                                ]
+                              },
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "right": {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "op": "commutator",
+                            "left": {
+                              "word": [
+                                "B"
+                              ]
+                            },
+                            "right": {
+                              "word": [
+                                "C"
+                              ]
+                            }
+                          },
+                          {
+                            "op": "multiply",
+                            "args": [
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              },
+                              {
+                                "op": "commutator",
+                                "left": {
+                                  "word": [
+                                    "B"
+                                  ]
+                                },
+                                "right": {
+                                  "word": [
+                                    "C"
+                                  ]
+                                }
+                              },
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "op": "commutator",
+                    "left": {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "word": [
+                              "B"
+                            ]
+                          },
+                          {
+                            "op": "multiply",
+                            "args": [
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              },
+                              {
+                                "word": [
+                                  "B"
+                                ]
+                              },
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "right": {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "op": "commutator",
+                            "left": {
+                              "word": [
+                                "C"
+                              ]
+                            },
+                            "right": {
+                              "word": [
+                                "A"
+                              ]
+                            }
+                          },
+                          {
+                            "op": "multiply",
+                            "args": [
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              },
+                              {
+                                "op": "commutator",
+                                "left": {
+                                  "word": [
+                                    "C"
+                                  ]
+                                },
+                                "right": {
+                                  "word": [
+                                    "A"
+                                  ]
+                                }
+                              },
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "op": "commutator",
+                    "left": {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "word": [
+                              "C"
+                            ]
+                          },
+                          {
+                            "op": "multiply",
+                            "args": [
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              },
+                              {
+                                "word": [
+                                  "C"
+                                ]
+                              },
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    "right": {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "op": "commutator",
+                            "left": {
+                              "word": [
+                                "A"
+                              ]
+                            },
+                            "right": {
+                              "word": [
+                                "B"
+                              ]
+                            }
+                          },
+                          {
+                            "op": "multiply",
+                            "args": [
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              },
+                              {
+                                "op": "commutator",
+                                "left": {
+                                  "word": [
+                                    "A"
+                                  ]
+                                },
+                                "right": {
+                                  "word": [
+                                    "B"
+                                  ]
+                                }
+                              },
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "op": "add",
+                "args": [
+                  {
+                    "op": "commutator",
+                    "left": {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "word": [
+                              "A"
+                            ]
+                          },
+                          {
+                            "op": "scale",
+                            "coefficient": -1,
+                            "value": {
+                              "op": "multiply",
+                              "args": [
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                },
+                                {
+                                  "word": [
+                                    "A"
+                                  ]
+                                },
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "right": {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "op": "commutator",
+                            "left": {
+                              "word": [
+                                "B"
+                              ]
+                            },
+                            "right": {
+                              "word": [
+                                "C"
+                              ]
+                            }
+                          },
+                          {
+                            "op": "scale",
+                            "coefficient": -1,
+                            "value": {
+                              "op": "multiply",
+                              "args": [
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                },
+                                {
+                                  "op": "commutator",
+                                  "left": {
+                                    "word": [
+                                      "B"
+                                    ]
+                                  },
+                                  "right": {
+                                    "word": [
+                                      "C"
+                                    ]
+                                  }
+                                },
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "op": "commutator",
+                    "left": {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "word": [
+                              "B"
+                            ]
+                          },
+                          {
+                            "op": "scale",
+                            "coefficient": -1,
+                            "value": {
+                              "op": "multiply",
+                              "args": [
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                },
+                                {
+                                  "word": [
+                                    "B"
+                                  ]
+                                },
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "right": {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "op": "commutator",
+                            "left": {
+                              "word": [
+                                "C"
+                              ]
+                            },
+                            "right": {
+                              "word": [
+                                "A"
+                              ]
+                            }
+                          },
+                          {
+                            "op": "scale",
+                            "coefficient": -1,
+                            "value": {
+                              "op": "multiply",
+                              "args": [
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                },
+                                {
+                                  "op": "commutator",
+                                  "left": {
+                                    "word": [
+                                      "C"
+                                    ]
+                                  },
+                                  "right": {
+                                    "word": [
+                                      "A"
+                                    ]
+                                  }
+                                },
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "op": "commutator",
+                    "left": {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "word": [
+                              "C"
+                            ]
+                          },
+                          {
+                            "op": "scale",
+                            "coefficient": -1,
+                            "value": {
+                              "op": "multiply",
+                              "args": [
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                },
+                                {
+                                  "word": [
+                                    "C"
+                                  ]
+                                },
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    "right": {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "op": "commutator",
+                            "left": {
+                              "word": [
+                                "A"
+                              ]
+                            },
+                            "right": {
+                              "word": [
+                                "B"
+                              ]
+                            }
+                          },
+                          {
+                            "op": "scale",
+                            "coefficient": -1,
+                            "value": {
+                              "op": "multiply",
+                              "args": [
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                },
+                                {
+                                  "op": "commutator",
+                                  "left": {
+                                    "word": [
+                                      "A"
+                                    ]
+                                  },
+                                  "right": {
+                                    "word": [
+                                      "B"
+                                    ]
+                                  }
+                                },
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "right": {
+            "op": "scale",
+            "coefficient": 0,
+            "value": {
+              "word": []
+            }
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "Riemann_distortion_commutator_expansion",
+          "left": {
+            "op": "commutator",
+            "left": {
+              "op": "add",
+              "args": [
+                {
+                  "word": [
+                    "A"
+                  ]
+                },
+                {
+                  "word": [
+                    "C"
+                  ]
+                }
+              ]
+            },
+            "right": {
+              "op": "add",
+              "args": [
+                {
+                  "word": [
+                    "B"
+                  ]
+                },
+                {
+                  "word": [
+                    "D"
+                  ]
+                }
+              ]
+            }
+          },
+          "right": {
+            "op": "add",
+            "args": [
+              {
+                "op": "commutator",
+                "left": {
+                  "word": [
+                    "A"
+                  ]
+                },
+                "right": {
+                  "word": [
+                    "B"
+                  ]
+                }
+              },
+              {
+                "op": "commutator",
+                "left": {
+                  "word": [
+                    "A"
+                  ]
+                },
+                "right": {
+                  "word": [
+                    "D"
+                  ]
+                }
+              },
+              {
+                "op": "commutator",
+                "left": {
+                  "word": [
+                    "C"
+                  ]
+                },
+                "right": {
+                  "word": [
+                    "B"
+                  ]
+                }
+              },
+              {
+                "op": "commutator",
+                "left": {
+                  "word": [
+                    "C"
+                  ]
+                },
+                "right": {
+                  "word": [
+                    "D"
+                  ]
+                }
+              }
+            ]
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        }
+      ]
+    },
+    "descent": {
+      "input_format": "native_typed_Expr_JSON",
+      "presentation": {
+        "objects": [
+          "V",
+          "W"
+        ],
+        "tokens": [
+          {
+            "name": "B1",
+            "from": "W",
+            "to": "W",
+            "charge": "0"
+          },
+          {
+            "name": "B2",
+            "from": "W",
+            "to": "W",
+            "charge": "0"
+          },
+          {
+            "name": "C",
+            "from": "V",
+            "to": "W",
+            "charge": "0"
+          },
+          {
+            "name": "A1",
+            "from": "V",
+            "to": "V",
+            "charge": "0"
+          },
+          {
+            "name": "A2",
+            "from": "V",
+            "to": "V",
+            "charge": "0"
+          }
+        ],
+        "rules": [
+          {
+            "id": "intertwine_1",
+            "lhs": [
+              "C",
+              "A1"
+            ],
+            "rhs": [
+              [
+                [
+                  "B1",
+                  "C"
+                ],
+                1
+              ]
+            ],
+            "source": "Declared typed observer contract C A1 = B1 C"
+          },
+          {
+            "id": "intertwine_2",
+            "lhs": [
+              "C",
+              "A2"
+            ],
+            "rhs": [
+              [
+                [
+                  "B2",
+                  "C"
+                ],
+                1
+              ]
+            ],
+            "source": "Declared typed observer contract C A2 = B2 C"
+          }
+        ]
+      },
+      "tasks": [
+        {
+          "name": "typed_observer_curvature_descent",
+          "left": {
+            "from": "V",
+            "to": "W",
+            "terms": [
+              [
+                [
+                  "C",
+                  "A1",
+                  "A2"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "C",
+                  "A2",
+                  "A1"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "right": {
+            "from": "V",
+            "to": "W",
+            "terms": [
+              [
+                [
+                  "B1",
+                  "B2",
+                  "C"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "B2",
+                  "B1",
+                  "C"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "typed_ordered_composition_descent",
+          "left": {
+            "from": "V",
+            "to": "W",
+            "terms": [
+              [
+                [
+                  "C",
+                  "A2",
+                  "A1"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "right": {
+            "from": "V",
+            "to": "W",
+            "terms": [
+              [
+                [
+                  "B2",
+                  "B1",
+                  "C"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        }
+      ]
+    }
+  },
+  "input_sha256": "b982c4bb8c34b8f640c4b351a828e3467806a51cfcd9dffe4e085aab346dac82",
+  "groups": {
+    "graded": {
+      "presentation_sha256": "7420e2ce52463e6db9711957784b2c2a61db38adcd42c84dfa292e3b35f6c0eb",
+      "audit": {
+        "protocol": "NATIVE_CRITICAL_PAIR_AUDIT_V1",
+        "presentation": "7420e2ce52463e6db9711957784b2c2a61db38adcd42c84dfa292e3b35f6c0eb",
+        "status": "CONFLUENT_BY_CHECKED_DIAMONDS",
+        "termination": "strict degree-lex decrease",
+        "criticalPairs": 1,
+        "resolutions": [
+          {
+            "word": [
+              "K",
+              "K",
+              "K"
+            ],
+            "first": [
+              0,
+              0
+            ],
+            "second": [
+              0,
+              1
+            ],
+            "kind": "overlap",
+            "closed": true,
+            "left": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "7420e2ce52463e6db9711957784b2c2a61db38adcd42c84dfa292e3b35f6c0eb",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            },
+            "right": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "7420e2ce52463e6db9711957784b2c2a61db38adcd42c84dfa292e3b35f6c0eb",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          }
+        ],
+        "open": []
+      },
+      "results": [
+        {
+          "name": "full_constant_Bianchi_Jacobi",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "7420e2ce52463e6db9711957784b2c2a61db38adcd42c84dfa292e3b35f6c0eb",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "visible_Bianchi_plus_hidden_source",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "7420e2ce52463e6db9711957784b2c2a61db38adcd42c84dfa292e3b35f6c0eb",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K",
+                      "A",
+                      "B",
+                      "K",
+                      "K",
+                      "C",
+                      "K"
+                    ],
+                    [
+                      "-1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "A",
+                      "C",
+                      "K",
+                      "K",
+                      "B",
+                      "K"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "A",
+                      "K",
+                      "K",
+                      "B",
+                      "C",
+                      "K"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "A",
+                      "K",
+                      "K",
+                      "C",
+                      "B",
+                      "K"
+                    ],
+                    [
+                      "-1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "B",
+                      "A",
+                      "K",
+                      "K",
+                      "C",
+                      "K"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "B",
+                      "C",
+                      "K",
+                      "K",
+                      "A",
+                      "K"
+                    ],
+                    [
+                      "-1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "B",
+                      "K",
+                      "K",
+                      "A",
+                      "C",
+                      "K"
+                    ],
+                    [
+                      "-1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "B",
+                      "K",
+                      "K",
+                      "C",
+                      "A",
+                      "K"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "C",
+                      "A",
+                      "K",
+                      "K",
+                      "B",
+                      "K"
+                    ],
+                    [
+                      "-1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "C",
+                      "B",
+                      "K",
+                      "K",
+                      "A",
+                      "K"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "C",
+                      "K",
+                      "K",
+                      "A",
+                      "B",
+                      "K"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "C",
+                      "K",
+                      "K",
+                      "B",
+                      "A",
+                      "K"
+                    ],
+                    [
+                      "-1/2",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "C",
+                    "K",
+                    "K",
+                    "B",
+                    "A",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 2
+                },
+                {
+                  "word": [
+                    "K",
+                    "C",
+                    "K",
+                    "K",
+                    "A",
+                    "B",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 2
+                },
+                {
+                  "word": [
+                    "K",
+                    "C",
+                    "B",
+                    "K",
+                    "K",
+                    "A",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 3
+                },
+                {
+                  "word": [
+                    "K",
+                    "C",
+                    "A",
+                    "K",
+                    "K",
+                    "B",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 3
+                },
+                {
+                  "word": [
+                    "K",
+                    "B",
+                    "K",
+                    "K",
+                    "C",
+                    "A",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 2
+                },
+                {
+                  "word": [
+                    "K",
+                    "B",
+                    "K",
+                    "K",
+                    "A",
+                    "C",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 2
+                },
+                {
+                  "word": [
+                    "K",
+                    "B",
+                    "C",
+                    "K",
+                    "K",
+                    "A",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 3
+                },
+                {
+                  "word": [
+                    "K",
+                    "B",
+                    "A",
+                    "K",
+                    "K",
+                    "C",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 3
+                },
+                {
+                  "word": [
+                    "K",
+                    "A",
+                    "K",
+                    "K",
+                    "C",
+                    "B",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 2
+                },
+                {
+                  "word": [
+                    "K",
+                    "A",
+                    "K",
+                    "K",
+                    "B",
+                    "C",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 2
+                },
+                {
+                  "word": [
+                    "K",
+                    "A",
+                    "C",
+                    "K",
+                    "K",
+                    "B",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 3
+                },
+                {
+                  "word": [
+                    "K",
+                    "A",
+                    "B",
+                    "K",
+                    "K",
+                    "C",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 3
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "Riemann_distortion_commutator_expansion",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "7420e2ce52463e6db9711957784b2c2a61db38adcd42c84dfa292e3b35f6c0eb",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        }
+      ],
+      "finite_carrier_assumed": false
+    },
+    "descent": {
+      "presentation_sha256": "37af4e0365b0d8ea77e5d05244acfca5b2759fd7b58eb506f0ad8e16b672a8ab",
+      "audit": {
+        "protocol": "NATIVE_CRITICAL_PAIR_AUDIT_V1",
+        "presentation": "37af4e0365b0d8ea77e5d05244acfca5b2759fd7b58eb506f0ad8e16b672a8ab",
+        "status": "CONFLUENT_BY_CHECKED_DIAMONDS",
+        "termination": "strict degree-lex decrease",
+        "criticalPairs": 0,
+        "resolutions": [],
+        "open": []
+      },
+      "results": [
+        {
+          "name": "typed_observer_curvature_descent",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "37af4e0365b0d8ea77e5d05244acfca5b2759fd7b58eb506f0ad8e16b672a8ab",
+              "input": {
+                "from": "V",
+                "to": "W",
+                "terms": [
+                  [
+                    [
+                      "B1",
+                      "B2",
+                      "C"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "B2",
+                      "B1",
+                      "C"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "C",
+                      "A1",
+                      "A2"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "C",
+                      "A2",
+                      "A1"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "C",
+                    "A2",
+                    "A1"
+                  ],
+                  "coefficient": [
+                    "-1",
+                    "0"
+                  ],
+                  "rule": "intertwine_2",
+                  "position": 0
+                },
+                {
+                  "word": [
+                    "C",
+                    "A1",
+                    "A2"
+                  ],
+                  "coefficient": [
+                    "1",
+                    "0"
+                  ],
+                  "rule": "intertwine_1",
+                  "position": 0
+                },
+                {
+                  "word": [
+                    "B2",
+                    "C",
+                    "A1"
+                  ],
+                  "coefficient": [
+                    "-1",
+                    "0"
+                  ],
+                  "rule": "intertwine_1",
+                  "position": 1
+                },
+                {
+                  "word": [
+                    "B1",
+                    "C",
+                    "A2"
+                  ],
+                  "coefficient": [
+                    "1",
+                    "0"
+                  ],
+                  "rule": "intertwine_2",
+                  "position": 1
+                }
+              ],
+              "output": {
+                "from": "V",
+                "to": "W",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "typed_ordered_composition_descent",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "37af4e0365b0d8ea77e5d05244acfca5b2759fd7b58eb506f0ad8e16b672a8ab",
+              "input": {
+                "from": "V",
+                "to": "W",
+                "terms": [
+                  [
+                    [
+                      "B2",
+                      "B1",
+                      "C"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "C",
+                      "A2",
+                      "A1"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "C",
+                    "A2",
+                    "A1"
+                  ],
+                  "coefficient": [
+                    "1",
+                    "0"
+                  ],
+                  "rule": "intertwine_2",
+                  "position": 0
+                },
+                {
+                  "word": [
+                    "B2",
+                    "C",
+                    "A1"
+                  ],
+                  "coefficient": [
+                    "1",
+                    "0"
+                  ],
+                  "rule": "intertwine_1",
+                  "position": 1
+                }
+              ],
+              "output": {
+                "from": "V",
+                "to": "W",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        }
+      ],
+      "finite_carrier_assumed": false
+    }
+  },
+  "negative_controls": {
+    "altered_contract_rejected": true,
+    "altered_witness_rejected": true
+  },
+  "status": "PASS_NATIVE_CURVATURE_DESCENT_REPLAYS"
+}

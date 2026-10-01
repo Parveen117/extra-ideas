@@ -26,7 +26,19 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Follow the [EMK master review](../02-relational-response/EMK_MASTER_TENSOR_REVIEW.md), [R8](../02-relational-response/CURVATURE_OBSERVATION_R8.md) and [R9](../02-relational-response/CURVATURE_BALANCE_R9.md): connect the certified observation and native balance contracts to a declared RTC sector, including how its actual branch record and event weights are generated. Retain the identified deck/compensator, holonomy-domain and determinant corrections. KIR transport is already lifted to explicit tensor types; its finite group action and infinitesimal Lie action remain distinct. The [lambda note](../03-lambda-reference/IDENTIFIABILITY.md) retains the separate selection obligation.
+Follow the [EMK master review](../02-relational-response/EMK_MASTER_TENSOR_REVIEW.md) and [R10](../02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md): construct its tangent observer and metric from a specified native response/information sector, then certify kernel preservation or quantify the hidden-excursion correction. Retain the identified deck/compensator, holonomy-domain and determinant corrections. KIR finite group action, infinitesimal connection and independent sheet memory remain separately typed. The [lambda note](../03-lambda-reference/IDENTIFIABILITY.md) retains the selection obligation.
+
+## R10 native curvature descent certificates
+
+[native_curvature_descent.py](native_curvature_descent.py) implements constant and smooth-jet sourced Bianchi, metric two-jet Levi-Civita construction, surjective typed observer descent, Riemann/distortion/excursion decomposition and finite retained-memory witnesses. [r10_native_curvature_probe.cjs](r10_native_curvature_probe.cjs) calls the unchanged canonical engine to replay three single-carrier and two typed quotient proofs; no engine is copied here.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r10.py \
+  --publications-root ../Publications \
+  --rkf-root ../Recognition-Kernel-Framework
+```
+
+Use Python 3.11 or 3.12, Node and the commits in [R10_SOURCE_PINS.json](R10_SOURCE_PINS.json). [R10_VERIFICATION.json](R10_VERIFICATION.json) records 25 exact tests, five symbolic replays, six rejected mathematical mutations, two rejected native alterations and unchanged R1–R9/master evidence. See the [proof](../02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md) and [native packet](R10_NATIVE_CERTIFICATE.json) for the local-jet, constant-cut and conditional tangent-sector scope.
 
 ## R9 native balance and information certificates
 

@@ -22,7 +22,11 @@ For a proposed Jacobian, check the compatibility conditions needed for it to ari
 
 ## Next target
 
-Continue from the existing EMK master before physical response laws. The [master review](EMK_MASTER_TENSOR_REVIEW.md) credits the already developed tensor/time, metric/curvature, holonomy, information and topology layers, and identifies three specific consistency corrections. [R7](EMK_TENSOR_CALCULUS_R7.md) supplies typed E/M pairing, tensor increments, ordered integration and curvature on one admitted carrier. [R8](CURVATURE_OBSERVATION_R8.md) certifies full curvature, compressed readout and recomputed reduced curvature. [R9](CURVATURE_BALANCE_R9.md) now supplies a conditional native balance mechanism with an exact information/branch ledger. Next identify its cut grades, branch record and recognition-event weights in a chosen RTC sector while retaining derivative compatibility and the existing sheet policy.
+Continue from the existing EMK master before physical response laws. The [master review](EMK_MASTER_TENSOR_REVIEW.md) credits its advanced metric, tensor/time, holonomy and information layers and identifies three consistency corrections. [R7](EMK_TENSOR_CALCULUS_R7.md), [R8](CURVATURE_OBSERVATION_R8.md) and [R9](CURVATURE_BALANCE_R9.md) provide typed transport, observation and conditional balance. [R10](NATIVE_CURVATURE_DESCENT_R10.md) adds sourced curvature conservation and an explicit classical tangent quotient. Next construct the observer and metric from a chosen native response/information sector and test preservation of the observer kernel under its actual transport; use the excursion correction when that quotient fails.
+
+## R10 curvature conservation and classical reduction
+
+[NATIVE_CURVATURE_DESCENT_R10.md](NATIVE_CURVATURE_DESCENT_R10.md) proves the balance-selected second Bianchi law with its hidden source, identifies Riemann curvature under complete Levi-Civita connection descent, and decomposes visible curvature into Riemann, distortion and hidden excursions. It matches the existing EMK-G1 metric source, certifies native curvature beyond a flat classical quotient, and retains finite hidden and sheet memory. [R10_VERIFICATION.json](../04-operator-evolution/R10_VERIFICATION.json) records 25 exact tests, five symbolic native replays and eight rejected alterations. The metric and observer remain declared selection contracts.
 
 ## R9 conditional information and curvature balance
 
