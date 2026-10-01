@@ -2,6 +2,12 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R24 native first return and fixed record-coupling responses
+
+[NATIVE_RETURN_COUPLING_R24.md](NATIVE_RETURN_COUPLING_R24.md) derives a signed excursion grammar directly from the existing H/K transport. It gives the fixed coherent return scale `sqrt(2)-1`, a distinct arrival-retained energy coefficient with a rigorous tail, and the exact record-gate law `1 - eta (1 - h)`. For the balanced native source the resulting retention is approximately `0.36338`. The normalized returned record depends on source parity, not its overall return amplitude.
+
+A full-word memory construction changes the completed response and provides an explicit boundary against claiming unique physical selection. [Verification](../04-operator-evolution/R24_VERIFICATION.json) records eight written results, nine exact groups and ten native replays. The [ledger](../04-operator-evolution/R24_DERIVATION_LEDGER.json) keeps target constructions, native consequences and mixed-premise Publications comparisons distinct. No c or alpha identification is claimed.
+
 ## R23 future-response equivalence and observer completion
 
 [FUTURE_RESPONSE_QUOTIENT_R23.md](FUTURE_RESPONSE_QUOTIENT_R23.md) derives an exact record-translation symmetry and a continuation-sufficient exchange quotient. Positive meeting-distance can remain invisible to every transport/write response, so meeting geometry and observable response geometry require distinct targets. Complete native exchange cuts have a sharp channel count; any finite future catalogue has a minimum linear observer and a derived positive response form on its quotient.

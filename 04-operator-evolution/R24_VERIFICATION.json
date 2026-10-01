@@ -1,0 +1,247 @@
+{
+  "schema": "extra-ideas.r24.verification.v1",
+  "date": "2026-10-01",
+  "status": "PASS_R24_NATIVE_RETURN_COUPLING",
+  "written_results": 8,
+  "exact_check_groups": 9,
+  "native_symbolic_replays": 10,
+  "counters": {
+    "stopped_native_norm_balance_and_source_preserving_renewal": {
+      "exact_pairing_balances": 64,
+      "ordered_renewal_coefficients": 64,
+      "translated_return_maps": 32,
+      "max_event": 64
+    },
+    "signed_excursion_grammar_matches_native_return_propagation": {
+      "formal_coefficients": 128,
+      "independent_native_return_matrices": 64,
+      "zero_return_matrices": 47,
+      "first_nonzero_events": [
+        2,
+        4,
+        8,
+        12,
+        16
+      ],
+      "event_six_return_zero": true
+    },
+    "native_unsigned_counts_and_rational_tail_inequalities": {
+      "independent_count_formulas": 129,
+      "literal_direction_words": 21845,
+      "exact_tail_inequalities": 258,
+      "max_count_index": 128
+    },
+    "literal_HK_first_return_histories_retain_signs_and_cancellation": {
+      "literal_HK_prefixes": 4212,
+      "distinct_first_return_histories": 260,
+      "six_event_histories_with_zero_aggregate": 8,
+      "max_event": 12
+    },
+    "coherent_completion_branch_and_certified_rational_enclosures": {
+      "alternating_error_enclosures": 129,
+      "g": {
+        "lower": "0.414213562373095",
+        "upper": "0.414213562373096",
+        "lower_rational": "82842712474619/200000000000000",
+        "upper_rational": "51776695296637/125000000000000"
+      },
+      "g_squared": {
+        "lower": "0.171572875253809",
+        "upper": "0.171572875253810",
+        "lower_rational": "171572875253809/1000000000000000",
+        "upper_rational": "17157287525381/100000000000000"
+      },
+      "rational_sqrt_two_bracket": [
+        "56022770974786139918731938227/39614081257132168796771975168",
+        "112045541949572279837463876455/79228162514264337593543950336"
+      ],
+      "bisections": 96,
+      "no_fitted_or_empirical_input": true
+    },
+    "retained_arrival_energy_telescopes_with_certified_completion_tail": {
+      "finite_telescope_identities": 129,
+      "independent_propagated_energy_sums": 16,
+      "count_index": 4096,
+      "event_horizon": 16388,
+      "tail_upper": "1/268566544",
+      "eta": {
+        "lower": "0.6366197711",
+        "upper": "0.6366197750",
+        "lower_rational": "6366197711/10000000000",
+        "upper_rational": "25464791/40000000"
+      },
+      "balanced_record_retention": {
+        "lower": "0.3633802250",
+        "upper": "0.3633802289",
+        "lower_rational": "14535209/40000000",
+        "upper_rational": "3633802289/10000000000"
+      },
+      "negative_role_record_retention": {
+        "lower": "-0.2732395499",
+        "upper": "-0.2732395423",
+        "lower_rational": "-2732395499/10000000000",
+        "upper_rational": "-2732395423/10000000000"
+      },
+      "exact_partial_sum_sha256": "ddc465e1c2b3eaf2d02cb668fa01222ae1c9144274502c7911119579317e6821",
+      "imported_integral_period_or_special_function_identity": false
+    },
+    "normalized_return_overlap_is_source_parity_not_return_scale": {
+      "nonzero_return_preparations": 119,
+      "arrival_retained_normalizations": 441,
+      "source_preparations": 7,
+      "canonical_source_retention": [
+        "1",
+        "-1",
+        "0"
+      ]
+    },
+    "full_joint_return_controlled_gate_derives_completed_coupling": {
+      "explicit_joint_pair_coefficients": 448,
+      "retained_live_and_arrival_branches": 378,
+      "completed_coupling_error_bounds": 28,
+      "physical_interface_selection_assumed": false
+    },
+    "full_word_memory_changes_return_energy_and_completed_interaction": {
+      "literal_recorded_direction_prefixes": 10530,
+      "exact_return_count_sums": 30,
+      "zero_current_checks": 60,
+      "word_memory_gate_checks": 30,
+      "first_energy_difference_event": 6,
+      "arrival_only_energy_at_six": "5/8",
+      "full_word_energy_at_six": "11/16"
+    }
+  },
+  "rejected_false_alternatives": {
+    "every_possible_first_return_has_nonzero_coherent_signal": true,
+    "all_even_first_return_amplitudes_are_positive": true,
+    "first_return_energy_is_total_return_energy": true,
+    "stopping_destroys_the_unreturned_source_norm": true,
+    "all_source_energy_eventually_returns_with_arrival_only_memory": true,
+    "coherent_scale_squared_equals_arrival_retained_energy": true,
+    "normalized_return_overlap_equals_the_coherent_scale": true,
+    "all_native_source_preparations_have_the_same_record_overlap": true,
+    "conditional_record_normalization_keeps_return_energy": true,
+    "cross_retention_must_be_nonnegative": true,
+    "full_word_recording_preserves_the_arrival_only_return_response": true,
+    "native_gates_alone_select_one_physical_coupling": true,
+    "omitted_positive_tail_can_be_set_to_zero": true,
+    "other_quadratic_branch_is_the_completed_return": true
+  },
+  "derivation_graph": {
+    "status": "PASS_DECLARED_NATIVE_DERIVATION_GRAPH",
+    "certified_claims": 8,
+    "proof_path_nodes": 19,
+    "imported_classical_premises_on_proof_paths": 0,
+    "comparison_references_excluded_from_proof_paths": [
+      "declared_alpha_selection_comparison",
+      "declared_parameter_identification_comparison"
+    ],
+    "target_definitions_retained_as_definitions": [
+      "arrival_energy_target",
+      "coherent_return_target",
+      "full_word_interface",
+      "return_gate_interface",
+      "return_interface"
+    ],
+    "automatic_semantic_or_formal_proof_verification": false
+  },
+  "derivation_graph_mutations_rejected": {
+    "reject_imported_classical_premise": true,
+    "reject_admitted_input_premise": true,
+    "reject_open_premise": true,
+    "reject_comparison_only_premise": true,
+    "reject_physical_claim_promotion": true,
+    "reject_protocol_definition_promotion": true,
+    "reject_dependency_cycle": true,
+    "reject_unpinned_source": true,
+    "reject_wrong_citation_commit": true
+  },
+  "altered_source_rejected": true,
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "previous_source_replayed": {
+    "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+    "status": "PASS_R23_NATIVE_FUTURE_RESPONSE",
+    "native_certificate_sha256": "69b4e6d43db5bad0a10b797f7b7f788bb8091e4486bf0689960882d22b19295a",
+    "old_certificate_or_source_pin_modified": false,
+    "earlier_source_chain": {
+      "commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+      "status": "PASS_R22_NATIVE_MEETING_GEOMETRY",
+      "native_certificate_sha256": "ad6ac9d802b77c67ec33e8c023c147300994576207014eb9cd81014f6924b98f",
+      "old_certificate_or_source_pin_modified": false,
+      "earlier_source_chain": {
+        "commit": "2888aa2a9ea1c63a89b3d695256c8b9405dbd7cc",
+        "status": "PASS_R21_NATIVE_RECORD_IDENTITY",
+        "native_certificate_sha256": "1d857541e8497dfb4c33b532c7d50ee629f5d8e92698a080307b7ae039794464",
+        "old_certificate_or_source_pin_modified": false,
+        "earlier_source_chain": {
+          "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+          "status": "PASS_R20_NATIVE_RECORD_INTERACTION",
+          "native_certificate_sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+          "old_certificate_or_source_pin_modified": false,
+          "earlier_source_chain": {
+            "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+            "status": "PASS_R19_NATIVE_CURRENT_RETENTION",
+            "native_certificate_sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+            "old_certificate_or_source_pin_modified": false,
+            "earlier_source_chain": {
+              "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+              "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+              "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+              "historical_navigation_inputs_restored_in_temporary_snapshot": 3,
+              "old_certificate_or_source_pin_modified": false,
+              "earlier_source_chain": {
+                "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+                "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+                "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+                "foundation": {
+                  "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+                  "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+                  "written_statements": 14,
+                  "native_replays": 13,
+                  "analytic_replays": [
+                    {
+                      "id": "F00_F00E_EULER_V0_1",
+                      "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+                      "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+                      "checks": 14,
+                      "negative_controls": 6,
+                      "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+                    },
+                    {
+                      "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+                      "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+                      "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+                      "checks": 20,
+                      "negative_controls": 7,
+                      "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+                    }
+                  ],
+                  "original_universal_claim_certified": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 29,
+  "preserved_prior_files": 194,
+  "source_pins_sha256": "387e032240d96527019e2da39706f053f3852727afb82237d68c36ca2b96fa44",
+  "native_certificate_sha256": "ae0c88451e3e0a7933dd42cecca67b0cc1254a81cc418da77b94843eaf1d2fbe",
+  "comparison_references_are_proof_dependencies": false,
+  "publications_comparison_certificates_rerun": false,
+  "native_first_return_coefficients_derived": true,
+  "native_return_controlled_coupling_derived": true,
+  "physical_interaction_interface_selected": false,
+  "physical_metric_c_alpha_derived": false,
+  "formal_proof_assistant_verified": false,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Native first-return grammar, fixed coherent scale, retained arrival-energy coefficient, normalized record overlap and full return-controlled gate. Eight written all-depth/completion proofs, exact finite checks and rational tail enclosures. Alternate native word memory changes the coupling. No physical source/interface or c/alpha identification.",
+  "canonical_report_sha256": "c2f6e4e3bf9a0920e41b8280ae3acd016a1b6065c31b9ed119e025745c499f3b"
+}

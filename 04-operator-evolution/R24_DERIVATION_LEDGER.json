@@ -1,0 +1,380 @@
+{
+  "schema": "extra-ideas.r24.derivation-ledger.v1",
+  "date": "2026-10-01",
+  "source_commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+  "no_classical_premise_rule": true,
+  "rule": "Proof paths contain pinned native sources, explicit constructions and native deductions. Classical/admitted/open/comparison premises are forbidden. Fixed coefficients of a constructed return/gate interface are not selected physical constants.",
+  "certified_claims": [
+    "R24.1",
+    "R24.2",
+    "R24.3",
+    "R24.4",
+    "R24.5",
+    "R24.6",
+    "R24.7",
+    "R24.8"
+  ],
+  "claims": [
+    {
+      "id": "R24.1",
+      "title": "Stopping at first return retains the source norm and closes renewal",
+      "written_section_sha256": "d076820d61648dbace139aeea9ed9f65dc4f3d94dc3d47fa68b0ece7a331250e",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "stopped_native_norm_balance_and_source_preserving_renewal"
+      ],
+      "scope_boundary": "Finite stopped tuple on native address/role marks; all returned and live branches retained. Renewal is a signed coefficient identity, not a physical absorption postulate."
+    },
+    {
+      "id": "R24.2",
+      "title": "Native excursion signs determine one algebraic return series",
+      "written_section_sha256": "9bf2a5067d37299acedb55953967ad70e705d384e8a9f120b6803bbfa58a3d0e",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "signed_excursion_grammar_matches_native_return_propagation",
+        "literal_HK_first_return_histories_retain_signs_and_cancellation"
+      ],
+      "scope_boundary": "The inherited R18 equal H/K transport and first-origin-return cut. Formal event-count variable and its uniquely selected zero-constant branch; no supplied constitutive quadratic or free decay parameter."
+    },
+    {
+      "id": "R24.3",
+      "title": "Finite word counts give all coefficients and exact cancellations",
+      "written_section_sha256": "5fb5000e14534dfc3ee4f1be0c1a7012aaf701ec8f5fcf1b0e4acf1da97e5a6f",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_unsigned_counts_and_rational_tail_inequalities",
+        "signed_excursion_grammar_matches_native_return_propagation",
+        "literal_HK_first_return_histories_retain_signs_and_cancellation"
+      ],
+      "scope_boundary": "Finite native signed/unsigned word counts; nonempty history support can have zero evaluated return. Full source histories are not identified by cancellation."
+    },
+    {
+      "id": "R24.4",
+      "title": "The completed coherent return has the fixed scale sqrt(2) minus one",
+      "written_section_sha256": "4d32fccb7d2f8ddaa245bea845f8144138afec366e15f047ef2dc79a3a48cc3f",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "coherent_completion_branch_and_certified_rational_enclosures"
+      ],
+      "scope_boundary": "Completed coherent amplitude target with a proved absolute tail and branch selection. Coherent folding of arrival marks is not asserted to be a norm-preserving physical erasure."
+    },
+    {
+      "id": "R24.5",
+      "title": "Retained arrival memory fixes a different coefficient with a rigorous tail",
+      "written_section_sha256": "a732b3386d3b3fd0c598991f36ab2b658cb27e23400707ebab6be9beda0d5f8c",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "retained_arrival_energy_telescopes_with_certified_completion_tail",
+        "stopped_native_norm_balance_and_source_preserving_renewal",
+        "native_unsigned_counts_and_rational_tail_inequalities"
+      ],
+      "scope_boundary": "Orthogonal arrival-mark response, independent of initial role and common address translation. Scalar response completion, not convergence of the moving live state. No imported integral or special-function identity."
+    },
+    {
+      "id": "R24.6",
+      "title": "Normalizing a returned record cancels its return scale",
+      "written_section_sha256": "43b4f9594302d7c6bcdcfe8735908b61badf1b9f4c6447417dd91c8d6c268d8e",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "normalized_return_overlap_is_source_parity_not_return_scale"
+      ],
+      "scope_boundary": "Normalized return record overlap in the stated real signed role sector. Overall return amplitude cancels; it is not the normalized record coupling."
+    },
+    {
+      "id": "R24.7",
+      "title": "A return-controlled native gate has an exact completed coupling law",
+      "written_section_sha256": "30d32d6dda01c770310662b4748723d3b2f80cd64455534f7bfa564da82ce48a",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "full_joint_return_controlled_gate_derives_completed_coupling",
+        "retained_arrival_energy_telescopes_with_certified_completion_tail"
+      ],
+      "scope_boundary": "Specified independent record preparation and finite return-controlled native W interface, with completed scalar response and tail bound. This fixes coefficients of that construction, not a physical interface or electromagnetic coupling."
+    },
+    {
+      "id": "R24.8",
+      "title": "Full word memory changes the limiting interaction and blocks physical promotion",
+      "written_section_sha256": "cbf0d584df4c48a9a0eac633d6bd626958cccfca8aff615eb38e333928dbb5c5",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "full_word_memory_changes_return_energy_and_completed_interaction",
+        "native_unsigned_counts_and_rational_tail_inequalities"
+      ],
+      "scope_boundary": "Full fresh direction-word recording is a second native joint protocol. It changes return energy and coupling, disproving physical-selection promotion from availability alone within these interfaces; not a universal impossibility theorem."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "source_roles",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C3-C7",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Native marked roles, signed/refined coefficients, H/K and matching pairing. Finite counting, equality and induction are metamathematical infrastructure."
+    },
+    {
+      "id": "source_completion",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C8",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Native cut-Cauchy scalar completion and positive square-root construction, not an ordinary complex primitive."
+    },
+    {
+      "id": "source_history",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C13",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Distinct full finite source words survive equal evaluated coefficients."
+    },
+    {
+      "id": "source_transport",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "R18.1-R18.4",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "scope": "The derived equal H/K transport on its constructed unit-address target; no physical clock or continuum law supplied."
+    },
+    {
+      "id": "source_record_gate",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RECORD_INTERACTION_R20.md",
+        "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+        "section": "R20.1-R20.4, R20.7",
+        "sha256": "6139b16bfcb5be9c07f9c32c17e82e616c10a7b7d3a3f7113c8bc9bf4e33e7a7"
+      },
+      "scope": "Native matching tuple ledger, controlled exchange, normalized record overlap, fresh word records and equality address cuts."
+    },
+    {
+      "id": "source_native_replay",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "rkf",
+        "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "section": "Native finite word equality and replay",
+        "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5"
+      },
+      "scope": "Scoped operator identities in the unchanged canonical engine; not a whole-engine or proof-assistant certification."
+    },
+    {
+      "id": "return_interface",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_transport",
+        "source_record_gate"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Equality with the source origin, fresh first-arrival marks and continuation only of the live complement, retaining all stopped branches."
+    },
+    {
+      "id": "coherent_return_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "return_interface",
+        "source_completion"
+      ],
+      "physical_selection_proved": false,
+      "definition": "The completed signed sum of arrival amplitude coefficients. This target does not claim a norm-preserving erasure of orthogonal arrival records."
+    },
+    {
+      "id": "arrival_energy_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "return_interface",
+        "source_completion"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Matching energy with all distinct first-arrival marks retained; scalar completion with an explicit tail."
+    },
+    {
+      "id": "return_gate_interface",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "return_interface",
+        "source_record_gate"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Independent normalized native record source; apply W on returned role branches and identity on the live branch, keeping all branch marks."
+    },
+    {
+      "id": "full_word_interface",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "return_interface",
+        "source_record_gate",
+        "source_history"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Also write a fresh role slot after every direction step; keep complete word records on returned and live branches."
+    },
+    {
+      "id": "declared_alpha_selection_comparison",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/native-alpha-selection/THEOREM.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "section": "AS-1-AS-5",
+        "sha256": "54152003202564b83b90dfa875731905bda242458b9e8d7887c3fdfbf4dce54c"
+      },
+      "scope": "Mixed premises: native R2 with supplied cell weights; AS-3 admits a positive quadratic physical adapter. No such adapter, coupling or electromagnetic normalization enters R24 proof paths."
+    },
+    {
+      "id": "declared_parameter_identification_comparison",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/native-return-identification/THEOREM.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "section": "NI-1-NI-4",
+        "sha256": "5f960f4434d9203a56a8d43518d021fcf60b59785dace8ecebdf2dc19a9a2a35"
+      },
+      "scope": "Specified positive cell weights and probe interface identify a parameter; no parameter-free physical prediction imported."
+    },
+    {
+      "id": "R24.1",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "source_roles",
+        "source_history",
+        "source_transport",
+        "source_record_gate",
+        "return_interface"
+      ],
+      "written_section_sha256": "d076820d61648dbace139aeea9ed9f65dc4f3d94dc3d47fa68b0ece7a331250e"
+    },
+    {
+      "id": "R24.2",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R24.1",
+        "source_roles",
+        "source_native_replay",
+        "source_history"
+      ],
+      "written_section_sha256": "9bf2a5067d37299acedb55953967ad70e705d384e8a9f120b6803bbfa58a3d0e"
+    },
+    {
+      "id": "R24.3",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R24.2",
+        "source_roles",
+        "source_history"
+      ],
+      "written_section_sha256": "5fb5000e14534dfc3ee4f1be0c1a7012aaf701ec8f5fcf1b0e4acf1da97e5a6f"
+    },
+    {
+      "id": "R24.4",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R24.2",
+        "R24.3",
+        "source_completion",
+        "coherent_return_target",
+        "source_native_replay"
+      ],
+      "written_section_sha256": "4d32fccb7d2f8ddaa245bea845f8144138afec366e15f047ef2dc79a3a48cc3f"
+    },
+    {
+      "id": "R24.5",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R24.1",
+        "R24.3",
+        "source_completion",
+        "arrival_energy_target"
+      ],
+      "written_section_sha256": "a732b3386d3b3fd0c598991f36ab2b658cb27e23400707ebab6be9beda0d5f8c"
+    },
+    {
+      "id": "R24.6",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R24.2",
+        "R24.4",
+        "R24.5",
+        "source_record_gate",
+        "source_native_replay"
+      ],
+      "written_section_sha256": "43b4f9594302d7c6bcdcfe8735908b61badf1b9f4c6447417dd91c8d6c268d8e"
+    },
+    {
+      "id": "R24.7",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R24.1",
+        "R24.5",
+        "R24.6",
+        "return_gate_interface",
+        "source_record_gate"
+      ],
+      "written_section_sha256": "30d32d6dda01c770310662b4748723d3b2f80cd64455534f7bfa564da82ce48a"
+    },
+    {
+      "id": "R24.8",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R24.3",
+        "R24.5",
+        "R24.7",
+        "full_word_interface",
+        "source_completion"
+      ],
+      "written_section_sha256": "cbf0d584df4c48a9a0eac633d6bd626958cccfca8aff615eb38e333928dbb5c5"
+    }
+  ],
+  "physical_interaction_interface_selected": false,
+  "physical_metric_selected": false,
+  "origin_gate_checks_declared_metadata_not_arbitrary_prose": true,
+  "formal_proof_assistant_verified": false
+}

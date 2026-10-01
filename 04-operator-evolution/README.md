@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R24 native return coefficients and record-coupling verification
+
+[native_return_coupling.cjs](native_return_coupling.cjs) uses unchanged native arithmetic and proof replay to check stopped-source norm balance, ordered renewal, signed excursion coefficients, literal H/K histories, unsigned counts, exact return-gate action and complete-word memory contrasts. Rational brackets certify the coherent root and the completed arrival-energy response; an explicit 4096-index count calculation is accompanied by a proved tail, not presented as direct enumeration of all such histories.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r24.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R24_VERIFICATION.json](R24_VERIFICATION.json) records eight written all-depth/completion results, nine exact groups, ten native identity replays, fourteen rejected false alternatives and nine invalid graph mutations. [R24_DERIVATION_LEDGER.json](R24_DERIVATION_LEDGER.json) binds the [written proofs](../02-relational-response/NATIVE_RETURN_COUPLING_R24.md). [R24_SOURCE_PINS.json](R24_SOURCE_PINS.json) preserves all 194 earlier non-navigation files and the unchanged R23 source chain. The physical interaction interface and electromagnetic identification remain open; metadata checks and finite exact replays are not proof-assistant verification.
+
 ## R23 future-response quotient and observer completion verification
 
 [future_response_quotient.cjs](future_response_quotient.cjs) checks record-translation commutation, native averaging and complete exchange reconstruction, compressed sector evolution, native cut probes and their sharp rank, exact finite-catalogue observers, delayed role detection and record-bit recovery. It uses the unchanged native arithmetic and proof replayer, retaining literal H/K histories for the equal-support/different-signal witness.

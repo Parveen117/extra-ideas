@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R23's derivation ledger](04-operator-evolution/R23_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R24's derivation ledger](04-operator-evolution/R24_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,22 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R24: fixed native return coefficients and record coupling
+
+[R24](02-relational-response/NATIVE_RETURN_COUPLING_R24.md) derives the entire signed first-return tail of the inherited native transport. Its coherent amplitude scale is exactly `g = sqrt(2) - 1`. Retaining separate arrival marks gives a different returned-energy coefficient `eta`, derived from native word counts with an explicit rational tail bound. No damping rate, probability law, classical return theorem or empirical constant is supplied.
+
+A return-controlled composition of R20's record gate has exact cross retention `1 - eta (1 - h)`, where `h` is the prepared source's native parity divided by its energy. For the already available balanced source this is `1 - eta`, enclosed by `0.3633802250` and `0.3633802289`. Normalizing only the returned record instead cancels the return scale; it does not yield g as an effective coupling. A second native protocol retaining every direction word gives limiting retention zero. These fixed mathematical responses therefore do not by themselves select a physical interface or derive alpha.
+
+[Verification](04-operator-evolution/R24_VERIFICATION.json) binds eight written all-depth/completion results, nine exact groups and ten native identity replays. It checks stopped and unrestricted propagation, literal H/K histories, signed excursion grammar, independent word counts, exact joint record gates and rational completion bounds. Fourteen false alternatives and nine invalid derivation graphs are rejected. All 194 prior non-navigation files and the frozen R23/R22/R21/R20/R19/R18/R17/R16 chain remain unchanged.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r24.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+The remaining physical task is native selection of the joint source, retained memory and continuation interface, followed by identification of a charged source, interaction channel and normalization. Existing spectral observer mathematics is reused as background; it is not rebuilt here.
 
 ## R23: future-response equivalence and native observer completion
 

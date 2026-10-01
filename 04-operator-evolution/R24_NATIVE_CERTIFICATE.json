@@ -1,0 +1,939 @@
+{
+  "schema": "extra-ideas.r24.native-return-coupling.v1",
+  "status": "PASS_R24_NATIVE_RETURN_COUPLING",
+  "input_sha256": "539ef68fb21119a6d723da7612d1668eb427f882f41efe995bdcad656360bd81",
+  "source_foundation": {
+    "repository": "Parveen117/extra-ideas",
+    "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+    "path": "02-relational-response/emk-topology-foundation",
+    "pins_sha256": "a7604972cf93bb919d281e76bb770d74e8f97fc7e2366f2d10a2ae685a625b90"
+  },
+  "exact_checks": [
+    {
+      "name": "stopped_native_norm_balance_and_source_preserving_renewal",
+      "passed": true,
+      "exact_pairing_balances": 64,
+      "ordered_renewal_coefficients": 64,
+      "translated_return_maps": 32,
+      "max_event": 64
+    },
+    {
+      "name": "signed_excursion_grammar_matches_native_return_propagation",
+      "passed": true,
+      "formal_coefficients": 128,
+      "independent_native_return_matrices": 64,
+      "zero_return_matrices": 47,
+      "first_nonzero_events": [
+        2,
+        4,
+        8,
+        12,
+        16
+      ],
+      "event_six_return_zero": true
+    },
+    {
+      "name": "native_unsigned_counts_and_rational_tail_inequalities",
+      "passed": true,
+      "independent_count_formulas": 129,
+      "literal_direction_words": 21845,
+      "exact_tail_inequalities": 258,
+      "max_count_index": 128
+    },
+    {
+      "name": "literal_HK_first_return_histories_retain_signs_and_cancellation",
+      "passed": true,
+      "literal_HK_prefixes": 4212,
+      "distinct_first_return_histories": 260,
+      "six_event_histories_with_zero_aggregate": 8,
+      "max_event": 12
+    },
+    {
+      "name": "coherent_completion_branch_and_certified_rational_enclosures",
+      "passed": true,
+      "alternating_error_enclosures": 129,
+      "g": {
+        "lower": "0.414213562373095",
+        "upper": "0.414213562373096",
+        "lower_rational": "82842712474619/200000000000000",
+        "upper_rational": "51776695296637/125000000000000"
+      },
+      "g_squared": {
+        "lower": "0.171572875253809",
+        "upper": "0.171572875253810",
+        "lower_rational": "171572875253809/1000000000000000",
+        "upper_rational": "17157287525381/100000000000000"
+      },
+      "rational_sqrt_two_bracket": [
+        "56022770974786139918731938227/39614081257132168796771975168",
+        "112045541949572279837463876455/79228162514264337593543950336"
+      ],
+      "bisections": 96,
+      "no_fitted_or_empirical_input": true
+    },
+    {
+      "name": "retained_arrival_energy_telescopes_with_certified_completion_tail",
+      "passed": true,
+      "finite_telescope_identities": 129,
+      "independent_propagated_energy_sums": 16,
+      "count_index": 4096,
+      "event_horizon": 16388,
+      "tail_upper": "1/268566544",
+      "eta": {
+        "lower": "0.6366197711",
+        "upper": "0.6366197750",
+        "lower_rational": "6366197711/10000000000",
+        "upper_rational": "25464791/40000000"
+      },
+      "balanced_record_retention": {
+        "lower": "0.3633802250",
+        "upper": "0.3633802289",
+        "lower_rational": "14535209/40000000",
+        "upper_rational": "3633802289/10000000000"
+      },
+      "negative_role_record_retention": {
+        "lower": "-0.2732395499",
+        "upper": "-0.2732395423",
+        "lower_rational": "-2732395499/10000000000",
+        "upper_rational": "-2732395423/10000000000"
+      },
+      "exact_partial_sum_sha256": "ddc465e1c2b3eaf2d02cb668fa01222ae1c9144274502c7911119579317e6821",
+      "imported_integral_period_or_special_function_identity": false
+    },
+    {
+      "name": "normalized_return_overlap_is_source_parity_not_return_scale",
+      "passed": true,
+      "nonzero_return_preparations": 119,
+      "arrival_retained_normalizations": 441,
+      "source_preparations": 7,
+      "canonical_source_retention": [
+        "1",
+        "-1",
+        "0"
+      ]
+    },
+    {
+      "name": "full_joint_return_controlled_gate_derives_completed_coupling",
+      "passed": true,
+      "explicit_joint_pair_coefficients": 448,
+      "retained_live_and_arrival_branches": 378,
+      "completed_coupling_error_bounds": 28,
+      "physical_interface_selection_assumed": false
+    },
+    {
+      "name": "full_word_memory_changes_return_energy_and_completed_interaction",
+      "passed": true,
+      "literal_recorded_direction_prefixes": 10530,
+      "exact_return_count_sums": 30,
+      "zero_current_checks": 60,
+      "word_memory_gate_checks": 30,
+      "first_energy_difference_event": 6,
+      "arrival_only_energy_at_six": "5/8",
+      "full_word_energy_at_six": "11/16"
+    }
+  ],
+  "check_count": 9,
+  "symbolic_replays": [
+    {
+      "name": "role_parity_involution",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [],
+                [
+                  "-1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "R",
+                  "K",
+                  "R",
+                  "K"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "R",
+                "K",
+                "R",
+                "K"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "KR",
+              "position": 1
+            },
+            {
+              "word": [
+                "R",
+                "R",
+                "K",
+                "K"
+              ],
+              "coefficient": [
+                "-1",
+                "0"
+              ],
+              "rule": "RR",
+              "position": 0
+            },
+            {
+              "word": [
+                "K",
+                "K"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "KK",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "role_exchange_involution",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [],
+                [
+                  "-1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "K",
+                  "K"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "K",
+                "K"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "KK",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "derived_return_orientation",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "R"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "K",
+                  "R",
+                  "K"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "K",
+                "R",
+                "K"
+              ],
+              "coefficient": [
+                "-1",
+                "0"
+              ],
+              "rule": "KR",
+              "position": 0
+            },
+            {
+              "word": [
+                "R",
+                "K",
+                "K"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "KK",
+              "position": 1
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "native_return_orientation_square",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "R",
+                  "R"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "R",
+                "R"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "RR",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "native_transport_normalization",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [],
+                [
+                  "-2",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "K",
+                  "K"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "R",
+                  "K",
+                  "K"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "K",
+                  "R",
+                  "K"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "R",
+                  "K",
+                  "R",
+                  "K"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "R",
+                "K",
+                "R",
+                "K"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "KR",
+              "position": 1
+            },
+            {
+              "word": [
+                "R",
+                "R",
+                "K",
+                "K"
+              ],
+              "coefficient": [
+                "-1",
+                "0"
+              ],
+              "rule": "RR",
+              "position": 0
+            },
+            {
+              "word": [
+                "K",
+                "R",
+                "K"
+              ],
+              "coefficient": [
+                "-1",
+                "0"
+              ],
+              "rule": "KR",
+              "position": 0
+            },
+            {
+              "word": [
+                "K",
+                "K"
+              ],
+              "coefficient": [
+                "2",
+                "0"
+              ],
+              "rule": "KK",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "return_map_pairing_scale",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [],
+                [
+                  "-1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "R",
+                  "R"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "R",
+                "R"
+              ],
+              "coefficient": [
+                "-1",
+                "0"
+              ],
+              "rule": "RR",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "returned_exchange_is_source_parity",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "K"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "R",
+                  "K"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "K",
+                  "R"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "R",
+                  "K",
+                  "R"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "R",
+                "K",
+                "R"
+              ],
+              "coefficient": [
+                "-1",
+                "0"
+              ],
+              "rule": "KR",
+              "position": 1
+            },
+            {
+              "word": [
+                "R",
+                "R",
+                "K"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "RR",
+              "position": 0
+            },
+            {
+              "word": [
+                "K",
+                "R"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "KR",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "returned_parity_is_negative_source_exchange",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "K"
+                ],
+                [
+                  "2",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "R",
+                  "K"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "R",
+                  "R",
+                  "K"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "R",
+                  "K",
+                  "R"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "R",
+                  "R",
+                  "K",
+                  "R"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "R",
+                "R",
+                "K",
+                "R"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "RR",
+              "position": 0
+            },
+            {
+              "word": [
+                "R",
+                "K",
+                "R"
+              ],
+              "coefficient": [
+                "-1",
+                "0"
+              ],
+              "rule": "KR",
+              "position": 1
+            },
+            {
+              "word": [
+                "R",
+                "R",
+                "K"
+              ],
+              "coefficient": [
+                "2",
+                "0"
+              ],
+              "rule": "RR",
+              "position": 0
+            },
+            {
+              "word": [
+                "K",
+                "R"
+              ],
+              "coefficient": [
+                "-1",
+                "0"
+              ],
+              "rule": "KR",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "native_role_cuts_disjoint",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [],
+                [
+                  "1/4",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "R",
+                  "K",
+                  "R",
+                  "K"
+                ],
+                [
+                  "-1/4",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "R",
+                "K",
+                "R",
+                "K"
+              ],
+              "coefficient": [
+                "-1/4",
+                "0"
+              ],
+              "rule": "KR",
+              "position": 1
+            },
+            {
+              "word": [
+                "R",
+                "R",
+                "K",
+                "K"
+              ],
+              "coefficient": [
+                "1/4",
+                "0"
+              ],
+              "rule": "RR",
+              "position": 0
+            },
+            {
+              "word": [
+                "K",
+                "K"
+              ],
+              "coefficient": [
+                "-1/4",
+                "0"
+              ],
+              "rule": "KK",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "native_role_cuts_complete",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    }
+  ],
+  "symbolic_replay_count": 10,
+  "rejected_false_alternatives": {
+    "every_possible_first_return_has_nonzero_coherent_signal": true,
+    "all_even_first_return_amplitudes_are_positive": true,
+    "first_return_energy_is_total_return_energy": true,
+    "stopping_destroys_the_unreturned_source_norm": true,
+    "all_source_energy_eventually_returns_with_arrival_only_memory": true,
+    "coherent_scale_squared_equals_arrival_retained_energy": true,
+    "normalized_return_overlap_equals_the_coherent_scale": true,
+    "all_native_source_preparations_have_the_same_record_overlap": true,
+    "conditional_record_normalization_keeps_return_energy": true,
+    "cross_retention_must_be_nonnegative": true,
+    "full_word_recording_preserves_the_arrival_only_return_response": true,
+    "native_gates_alone_select_one_physical_coupling": true,
+    "omitted_positive_tail_can_be_set_to_zero": true,
+    "other_quadratic_branch_is_the_completed_return": true
+  },
+  "altered_native_certificate_rejected": true,
+  "native_first_return_coefficients_derived": true,
+  "native_return_controlled_coupling_derived": true,
+  "ordinary_complex_probability_measurement_or_classical_return_premise": false,
+  "physical_interaction_interface_selected": false,
+  "physical_metric_c_alpha_derived": false,
+  "formal_proof_assistant_verified": false,
+  "scope": "Native signed/refined real role target. Eight written all-depth/completion results, finite exact native regressions and rational error enclosures. Fixed coefficients of explicitly constructed transport, return cuts and record interfaces; no physical source/interface or electromagnetic identification."
+}
