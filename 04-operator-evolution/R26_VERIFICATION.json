@@ -1,0 +1,468 @@
+{
+  "schema": "extra-ideas.r26.verification.v1",
+  "date": "2026-10-01",
+  "status": "PASS_R26_NATIVE_MEMORY_RESIDUE",
+  "written_results": 9,
+  "exact_check_groups": 12,
+  "native_symbolic_replays": 16,
+  "counters": {
+    "flat_reciprocal_and_commuting_records_cancel_in_source_and_feedback": {
+      "endpoint_operator_blocks": 378,
+      "retained_feedback_blocks": 432,
+      "max_unflagged_event": 18,
+      "max_feedback_event": 8,
+      "reciprocal_edge_arrows_need_not_commute": true,
+      "multiple_address_preparation_equivalence_claimed": false
+    },
+    "two_event_commutator_square_and_nonremovable_HK_readout": {
+      "commutator_response_checks": 125,
+      "frame_invariance_checks": 125,
+      "HK_defect": "4",
+      "HK_return_current": "-1/2",
+      "third_event_addresses": [
+        -3,
+        -1,
+        1,
+        3
+      ],
+      "third_event_energies": [
+        "1/8",
+        "5/8",
+        "1/8",
+        "1/8"
+      ]
+    },
+    "normal_ordered_memory_matches_full_joint_signed_stencil": {
+      "exact_joint_operator_blocks": 560,
+      "max_event": 32,
+      "record_preparation_parameter_required": false
+    },
+    "native_quartic_shift_identity_and_sharp_two_event_gap": {
+      "quartic_coefficient_addresses": [
+        -4,
+        -2,
+        0,
+        2,
+        4
+      ],
+      "finite_field_gap_equalities": 36,
+      "sharp_packet_checks": 36,
+      "bare_packet_checks": 6,
+      "sharp_infimum": "1",
+      "sharp_supremum": "3",
+      "defect": "squared norm of (V^2-I) divided by source norm",
+      "physical_mass_interpretation_proved": false
+    },
+    "first_return_joint_operators_match_new_signed_grammar": {
+      "joint_return_operator_entries": 1024,
+      "return_and_survivor_gram_checks": 128,
+      "max_event": 64,
+      "first_returns": [
+        {
+          "event": 2,
+          "signed_coefficient": "1",
+          "weight": "1/2"
+        },
+        {
+          "event": 4,
+          "signed_coefficient": "1",
+          "weight": "1/8"
+        },
+        {
+          "event": 6,
+          "signed_coefficient": "-2",
+          "weight": "1/8"
+        },
+        {
+          "event": 8,
+          "signed_coefficient": "1",
+          "weight": "1/128"
+        },
+        {
+          "event": 10,
+          "signed_coefficient": "-2",
+          "weight": "1/128"
+        },
+        {
+          "event": 12,
+          "signed_coefficient": "-2",
+          "weight": "1/512"
+        },
+        {
+          "event": 14,
+          "signed_coefficient": "4",
+          "weight": "1/512"
+        },
+        {
+          "event": 16,
+          "signed_coefficient": "-11",
+          "weight": "121/32768"
+        },
+        {
+          "event": 18,
+          "signed_coefficient": "22",
+          "weight": "121/32768"
+        },
+        {
+          "event": 20,
+          "signed_coefficient": "-14",
+          "weight": "49/131072"
+        },
+        {
+          "event": 22,
+          "signed_coefficient": "28",
+          "weight": "49/131072"
+        },
+        {
+          "event": 24,
+          "signed_coefficient": "58",
+          "weight": "841/2097152"
+        },
+        {
+          "event": 26,
+          "signed_coefficient": "-116",
+          "weight": "841/2097152"
+        },
+        {
+          "event": 28,
+          "signed_coefficient": "316",
+          "weight": "6241/8388608"
+        },
+        {
+          "event": 30,
+          "signed_coefficient": "-632",
+          "weight": "6241/8388608"
+        },
+        {
+          "event": 32,
+          "signed_coefficient": "397",
+          "weight": "157609/2147483648"
+        },
+        {
+          "event": 34,
+          "signed_coefficient": "-794",
+          "weight": "157609/2147483648"
+        },
+        {
+          "event": 36,
+          "signed_coefficient": "-2198",
+          "weight": "1207801/8589934592"
+        },
+        {
+          "event": 38,
+          "signed_coefficient": "4396",
+          "weight": "1207801/8589934592"
+        },
+        {
+          "event": 40,
+          "signed_coefficient": "-11954",
+          "weight": "35724529/137438953472"
+        },
+        {
+          "event": 42,
+          "signed_coefficient": "23908",
+          "weight": "35724529/137438953472"
+        },
+        {
+          "event": 44,
+          "signed_coefficient": "-14684",
+          "weight": "13476241/549755813888"
+        },
+        {
+          "event": 46,
+          "signed_coefficient": "29368",
+          "weight": "13476241/549755813888"
+        },
+        {
+          "event": 48,
+          "signed_coefficient": "95170",
+          "weight": "2264332225/35184372088832"
+        },
+        {
+          "event": 50,
+          "signed_coefficient": "-190340",
+          "weight": "2264332225/35184372088832"
+        },
+        {
+          "event": 52,
+          "signed_coefficient": "517492",
+          "weight": "16737373129/140737488355328"
+        },
+        {
+          "event": 54,
+          "signed_coefficient": "-1034984",
+          "weight": "16737373129/140737488355328"
+        },
+        {
+          "event": 56,
+          "signed_coefficient": "623764",
+          "weight": "24317595481/2251799813685248"
+        },
+        {
+          "event": 58,
+          "signed_coefficient": "-1247528",
+          "weight": "24317595481/2251799813685248"
+        },
+        {
+          "event": 60,
+          "signed_coefficient": "-4462472",
+          "weight": "311150880481/9007199254740992"
+        },
+        {
+          "event": 62,
+          "signed_coefficient": "8924944",
+          "weight": "311150880481/9007199254740992"
+        },
+        {
+          "event": 64,
+          "signed_coefficient": "-24270275",
+          "weight": "589046248575625/9223372036854775808"
+        }
+      ]
+    },
+    "native_coefficient_completion_and_exact_return_tail_witness": {
+      "independent_quadratic_coefficients": 128,
+      "first_return_grammar_coefficients": 129,
+      "finite_coefficient_bound_checks": 4096,
+      "equal_return_weight_pairs": 31,
+      "Z128": "945237238178114793634495832507565955466501517840344932024996741275307586840034244484829687150187755964098433907571442433146513874624109840418314454132937",
+      "integer_witness": "2000 Z128 < 141 * 16^128",
+      "return_mass": {
+        "lower": "0.782004429700",
+        "upper": "0.782012055372",
+        "lower_rational": "7820044297/10000000000",
+        "upper_rational": "195503013843/250000000000",
+        "partial_count": 4096,
+        "tail_upper_rational": "128/16785409",
+        "partial_rational_sha256": "f673ce05cffedab2cc591f2dd7878a7d349f53d7c2241dd77db615ff68b40612",
+        "all_depth_tail": "0 <= p-p_M <= 128/(M+1)^2",
+        "written_native_tail_proof": "R26.6"
+      },
+      "floating_point_or_fitted_input_used": false
+    },
+    "coherent_return_map_has_native_sqrt_three_normalization": {
+      "exact_source_and_joint_identities": 7,
+      "native_radical_relation": "r^2=3, r>0",
+      "E": "(1-sqrt(3))/4",
+      "O": "(1+sqrt(3))/4",
+      "coherent_fold_is_norm_preserving_erasure_of_arrival_flags": false
+    },
+    "return_parity_fixes_feedback_imbalance_and_fourth_power": {
+      "pulse_and_basis_identities": 10,
+      "all_parameter_polynomial_coefficients": 20,
+      "exact_finite_imbalance_checks": 31,
+      "completed_even_minus_odd_weight": "-1/2",
+      "fourth_power": "-p^2/4 times identity"
+    },
+    "full_joint_feedback_matches_parity_recurrence_with_record_retained": {
+      "joint_norm_equalities": 24,
+      "joint_response_entries": 192,
+      "retained_environment_blocks": 1086,
+      "max_direct_event": 12,
+      "max_recurrence_event": 128,
+      "auxiliary_record_is_not_reset": true,
+      "joint_relative_response_has_record_identity_factor": true
+    },
+    "literal_source_letters_match_direction_memory_and_feedback": {
+      "literal_HK_prefixes": 4080,
+      "exact_aggregate_blocks": 776,
+      "max_literal_event": 8,
+      "source_letter_tag_is_not_the_record_direction_control": true
+    },
+    "completed_feedback_identity_ratio_three_and_certified_enclosures": {
+      "all_parameter_fixed_point_coefficients": 3,
+      "exact_fixed_point_diagnostics": 4,
+      "source_formula_checks": 20,
+      "terminal_bilinear_bound_checks": 1224,
+      "source_e0": {
+        "lower": "0.094540136129",
+        "upper": "0.094543687856",
+        "lower_rational": "94540136129/1000000000000",
+        "upper_rational": "5908980491/62500000000"
+      },
+      "source_e1": {
+        "lower": "0.283620408389",
+        "upper": "0.283631063567",
+        "lower_rational": "283620408389/1000000000000",
+        "upper_rational": "283631063567/1000000000000"
+      },
+      "source_balanced_Ce0": {
+        "lower": "0.152114509174",
+        "upper": "0.152120584360",
+        "lower_rational": "76057254587/500000000000",
+        "upper_rational": "3803014609/25000000000"
+      },
+      "exact_channel_ratio": "3",
+      "event_horizon_witness": {
+        "k": 64,
+        "M": 4096,
+        "N": 1048704,
+        "error_upper": {
+          "lower": "0.000000000000",
+          "upper": "0.000070193186",
+          "lower_rational": "0",
+          "upper_rational": "35096593/500000000000"
+        },
+        "formula": "2*(p^(k+1)+128/((M+1)^2*(1-p)))"
+      },
+      "event_witness_is_tail_proof_evaluation_not_million_event_enumeration": true,
+      "physical_charge_or_alpha_identification_proved": false
+    },
+    "literal_letter_copying_requires_zero_cut_real_flag_overlap": {
+      "doubled_letter_and_kernel_identities": 4,
+      "exact_flag_gram_checks": 5,
+      "pairing_preserving_flag_examples": 3,
+      "real_flag_rule": "orthogonal",
+      "turn_valued_flag_rule": "zero cut-real overlap",
+      "one_scalar_direction_iota_flags_distinguish_letters": false
+    }
+  },
+  "rejected_false_alternatives": {
+    "every_reused_record_changes_source_readouts": true,
+    "HK_direction_memory_is_reciprocal_flat_memory": true,
+    "memory_only_changes_unobserved_labels": true,
+    "common_endpoint_frame_can_remove_the_relative_minus_sign": true,
+    "retained_HK_record_preparation_supplies_a_free_coupling": true,
+    "old_R24_eta_can_be_reused_as_the_new_return_mass": true,
+    "coherent_unit_return_map_means_unit_retained_arrival_energy": true,
+    "all_return_parities_have_the_same_feedback_pulse": true,
+    "dropping_R_before_continuation_preserves_future_response": true,
+    "feedback_channel_ratio_requires_fitting_the_return_tail": true,
+    "unflagged_coherent_literal_HK_copy_preserves_pairing": true,
+    "real_flag_orthogonality_is_forced_in_every_native_turn_sector": true,
+    "direction_control_is_identical_to_original_source_letter_control": true
+  },
+  "derivation_graph": {
+    "status": "PASS_DECLARED_NATIVE_DERIVATION_GRAPH",
+    "certified_claims": 9,
+    "proof_path_nodes": 25,
+    "imported_classical_premises_on_proof_paths": 0,
+    "comparison_references_excluded_from_proof_paths": [
+      "declared_alpha_selection_comparison"
+    ],
+    "target_definitions_retained_as_definitions": [
+      "arrival_feedback_interface",
+      "coherent_return_target",
+      "cross_response_target",
+      "direction_memory_interface",
+      "literal_letter_flag_target",
+      "native_preparation_target",
+      "native_terminal_catalogue",
+      "propagation_defect_target"
+    ],
+    "automatic_semantic_or_formal_proof_verification": false
+  },
+  "derivation_graph_mutations_rejected": {
+    "reject_imported_classical_premise": true,
+    "reject_admitted_input_premise": true,
+    "reject_open_premise": true,
+    "reject_comparison_only_premise": true,
+    "reject_physical_claim_promotion": true,
+    "reject_protocol_definition_promotion": true,
+    "reject_dependency_cycle": true,
+    "reject_unpinned_source": true,
+    "reject_wrong_citation_commit": true
+  },
+  "altered_source_rejected": true,
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "previous_source_replayed": {
+    "commit": "d4f1ae2481a72a04c465f1c17b37d154a6122eff",
+    "status": "PASS_R25_NATIVE_RETURN_FEEDBACK",
+    "native_certificate_sha256": "456f5c5d4bf9857b1604bb6024c346b1a6d499abd833b59a0b414a7bad0fb8d5",
+    "old_certificate_or_source_pin_modified": false,
+    "earlier_source_chain": {
+      "commit": "d660bbf026e1de818fcb3dd61d46346a4ad618ae",
+      "status": "PASS_R24_NATIVE_RETURN_COUPLING",
+      "native_certificate_sha256": "ae0c88451e3e0a7933dd42cecca67b0cc1254a81cc418da77b94843eaf1d2fbe",
+      "old_certificate_or_source_pin_modified": false,
+      "earlier_source_chain": {
+        "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+        "status": "PASS_R23_NATIVE_FUTURE_RESPONSE",
+        "native_certificate_sha256": "69b4e6d43db5bad0a10b797f7b7f788bb8091e4486bf0689960882d22b19295a",
+        "old_certificate_or_source_pin_modified": false,
+        "earlier_source_chain": {
+          "commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+          "status": "PASS_R22_NATIVE_MEETING_GEOMETRY",
+          "native_certificate_sha256": "ad6ac9d802b77c67ec33e8c023c147300994576207014eb9cd81014f6924b98f",
+          "old_certificate_or_source_pin_modified": false,
+          "earlier_source_chain": {
+            "commit": "2888aa2a9ea1c63a89b3d695256c8b9405dbd7cc",
+            "status": "PASS_R21_NATIVE_RECORD_IDENTITY",
+            "native_certificate_sha256": "1d857541e8497dfb4c33b532c7d50ee629f5d8e92698a080307b7ae039794464",
+            "old_certificate_or_source_pin_modified": false,
+            "earlier_source_chain": {
+              "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+              "status": "PASS_R20_NATIVE_RECORD_INTERACTION",
+              "native_certificate_sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+              "old_certificate_or_source_pin_modified": false,
+              "earlier_source_chain": {
+                "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+                "status": "PASS_R19_NATIVE_CURRENT_RETENTION",
+                "native_certificate_sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+                "old_certificate_or_source_pin_modified": false,
+                "earlier_source_chain": {
+                  "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+                  "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+                  "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+                  "historical_navigation_inputs_restored_in_temporary_snapshot": 3,
+                  "old_certificate_or_source_pin_modified": false,
+                  "earlier_source_chain": {
+                    "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+                    "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+                    "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+                    "foundation": {
+                      "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+                      "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+                      "written_statements": 14,
+                      "native_replays": 13,
+                      "analytic_replays": [
+                        {
+                          "id": "F00_F00E_EULER_V0_1",
+                          "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+                          "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+                          "checks": 14,
+                          "negative_controls": 6,
+                          "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+                        },
+                        {
+                          "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+                          "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+                          "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+                          "checks": 20,
+                          "negative_controls": 7,
+                          "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+                        }
+                      ],
+                      "original_universal_claim_certified": false
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 29,
+  "preserved_prior_files": 208,
+  "source_pins_sha256": "a1e62fe58c5a1387938190392e60df0b967091cb7a35587111d8fa4753631f7a",
+  "native_certificate_sha256": "5d0df3fc203d393d1a4f58902a1f3f82e4c5ab7dfb60ffb40e380a7b96de2146",
+  "comparison_references_are_proof_dependencies": false,
+  "publications_comparison_certificates_rerun": false,
+  "native_commutator_residue_derived": true,
+  "native_two_event_gap_derived": true,
+  "native_feedback_ratio_three_derived": true,
+  "physical_mass_gap_identified": false,
+  "physical_memory_interface_selected": false,
+  "physical_metric_c_alpha_derived": false,
+  "formal_proof_assistant_verified": false,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Nine written native results: flat memory equivalence, commutator response, reused H/K record factorization, a two-event propagation defect, new return grammar and rigorous tail, coherent sqrt3 map, parity feedback, exact channel ratio three and flag normalization. Native constructions do not select a physical memory interface, mass, charge or alpha.",
+  "canonical_report_sha256": "78abe41f714070aa8b6bd7e0b6baafe55b3bff13db4f7b95ec543c269c96944e"
+}

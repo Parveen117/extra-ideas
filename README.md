@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R25's derivation ledger](04-operator-evolution/R25_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R26's derivation ledger](04-operator-evolution/R26_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,24 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R26: reused native memory, a propagation gap and a fixed channel ratio
+
+[R26](02-relational-response/NATIVE_MEMORY_RESIDUE_R26.md) derives when returning memory is invisible to source response and when operation order leaves a measurable residue. Reciprocal edge records and commuting direction records cancel from the stated readouts. Reusing the native anticommuting H/K record instead changes the two-event return current to `-1/2` and changes the next-event source energies.
+
+The joint transport V has the exact identity `||(V^2-I)psi||^2 = ||psi||^2 + ||(S^2-I)psi||^2/2`. Its normalized defect has sharp bounds one and three; the corresponding unrecorded source has infimum zero. This is a derived propagation defect, with no physical mass interpretation supplied.
+
+The new signed return grammar gives a retained return-energy coefficient p enclosed by `0.782004429700` and `0.782012055372`. Return-parity feedback fixes the exact channel ratio `kappa(e1)/kappa(e0) = 3`, independently of the numerical return tail. Its completed operator is `(1-p)/(1+p^2/4) [I-H/2-R/4-pK/4]`. The coherently folded return map separately has native sqrt(3) coefficients and preserves pairing; it does not imply unit retained-arrival energy.
+
+[Verification](04-operator-evolution/R26_VERIFICATION.json) binds nine written results, twelve exact groups and sixteen canonical native replays. It checks joint propagation, 4,080 literal source prefixes, independent return recurrences, exact integer witnesses and native flag normalization. Thirteen false alternatives and nine invalid dependency graphs are rejected. All 208 prior non-navigation files and the frozen R25 source chain remain unchanged.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r26.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+The new gap and channel ratio belong to the explicitly constructed H/K-memory interface. Physical selection of that interface, a mass or charge interpretation, and c/alpha remain open. Copying the original source letters is a distinct construction: normalization derives zero cut-real flag overlap, with different real and native-iota-valued solutions.
 
 ## R25: native return feedback and terminal-boundary selection
 

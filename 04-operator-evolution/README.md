@@ -2,6 +2,20 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R26 native memory-residue verification
+
+[native_memory_residue.cjs](native_memory_residue.cjs) uses the unchanged RKF arithmetic and replayer. It checks reciprocal/commuting record cancellation, the commutator-current identity, normal-ordered joint propagation, every coefficient of the quartic shift identity, sharp defect packets, stopped first returns and an independent signed count recurrence. Full event/arrival-flag feedback is compared with the parity-dependent renewal response.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r26.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R26_VERIFICATION.json](R26_VERIFICATION.json) records nine written results, twelve exact groups, sixteen canonical native replays, thirteen rejected alternatives and nine graph mutations. Checks include first-return operators through 64 events, 4,080 literal H/K prefixes, 4,096 coefficient inequalities and 1,224 terminal bilinear bounds. Exact integer arithmetic and the [written tail proof](../02-relational-response/NATIVE_MEMORY_RESIDUE_R26.md) enclose the new returned-energy coefficient; a million-event error witness is an evaluation of that proved bound, not an enumeration claim.
+
+[R26_DERIVATION_LEDGER.json](R26_DERIVATION_LEDGER.json) and [R26_SOURCE_PINS.json](R26_SOURCE_PINS.json) bind the proofs and preserve all 208 prior non-navigation files. The frozen R25 and earlier native chain replays. The propagation defect and exact channel ratio three have no asserted physical mass, charge or alpha identification. Metadata gates and finite checks are not a formal proof assistant.
+
 ## R25 native return-feedback verification
 
 [native_return_feedback.cjs](native_return_feedback.cjs) checks the complete forward event/record evolution against an independently assembled first-return recurrence. It retains the four native response components and checks the return clock, exact completed operator identity, admissible terminal-boundary bounds, finite-event tails, preparation dependence and full-word alternative. The R24 certificate supplies a hash-pinned rational eta enclosure; no observed constant or new rate is fitted.

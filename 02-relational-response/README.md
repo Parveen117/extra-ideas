@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R26 returning memory, commutator residue and a fixed response ratio
+
+[NATIVE_MEMORY_RESIDUE_R26.md](NATIVE_MEMORY_RESIDUE_R26.md) derives flat-record response equivalences and a two-event commutator-square readout. A single reused native H/K direction record produces a signed source stencil and a sharp positive two-event propagation defect. Its return grammar and completion are derived afresh, including a separate coherent return map with native sqrt(3) coefficients.
+
+Retained-arrival feedback fixes the even/odd return-weight imbalance at `-1/2` and the exact e1/e0 response ratio at three. The new return-energy coefficient lies between `0.782004429700` and `0.782012055372`; this interval is not an empirical fit. Literal source-letter copying has a separately derived flag-normalization constraint.
+
+[Verification](../04-operator-evolution/R26_VERIFICATION.json) binds nine written results, twelve exact groups and sixteen native replays. The [ledger](../04-operator-evolution/R26_DERIVATION_LEDGER.json) distinguishes constructed memory choices from physical selection and keeps the propagation defect separate from a physical mass claim. Earlier RH and Yang–Mills boundaries are unchanged.
+
 ## R25 native feedback, retained phase memory and boundary independence
 
 [NATIVE_RETURN_FEEDBACK_R25.md](NATIVE_RETURN_FEEDBACK_R25.md) derives the return-triggered feedback pulse and its eight-return cycle from the unchanged source. The continuation quartet `I, H, R, K` closes exactly. Eliminating all return loops gives a unique completed response, independent of admissible distant terminal choices, with an explicit error bound in source-event depth.
