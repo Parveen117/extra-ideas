@@ -1,0 +1,112 @@
+{
+  "schema": "extra-ideas.r18.claim-ledger.v1",
+  "date": "2026-10-01",
+  "source_commit": "f561681959f5af93389db6bc77763c6794d76a87",
+  "claims": [
+    {
+      "id": "R18.1",
+      "title": "Source roles construct an event address and its reachability cone",
+      "written_section_sha256": "1ee8c28ef5c8c708b6093826d4b3717c13f0aeb64f643e678a69352fd6878534",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "exact_check_groups": [
+        "all_words_role_address_bijection_and_signed_aggregate",
+        "count_recurrence_moments_and_continuation_cone"
+      ],
+      "scope_boundary": "Event-address reachability, not physical spacetime; source seed and address target explicit."
+    },
+    {
+      "id": "R18.2",
+      "title": "Erasing signs gives an exact census transport",
+      "written_section_sha256": "1e46e0dbbecfdbf3c27367d6a3345c9920e859666a4907b0ed9df284a673dc8f",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "exact_check_groups": [
+        "count_recurrence_moments_and_continuation_cone"
+      ],
+      "scope_boundary": "Exact record-count contents, not an empirical random detector law."
+    },
+    {
+      "id": "R18.3",
+      "title": "Retaining source signs selects a norm-preserving transport normalization",
+      "written_section_sha256": "b1281fc0cd22be863e38c7bb9ea6bb05752230f5748a4be83fa2438105461106",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "exact_check_groups": [
+        "inherited_roles_projectors_and_energy_normalization",
+        "all_words_role_address_bijection_and_signed_aggregate"
+      ],
+      "scope_boundary": "Unique positive scalar normalization within the defined finite address aggregation and pairing."
+    },
+    {
+      "id": "R18.4",
+      "title": "The exact current retains interference discarded by counting",
+      "written_section_sha256": "8f05e69b2718754224238635c49cbca0c13d388de3330cdaaa02b2d40914ae4e",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "exact_check_groups": [
+        "normalization_and_local_current_on_source_histories"
+      ],
+      "scope_boundary": "Quadratic native response is not presumed to be detector probability."
+    },
+    {
+      "id": "R18.5",
+      "title": "Two events obey an exact rational discrete wave identity",
+      "written_section_sha256": "b78dd5031ac468a9be94558aafa56518f21cd8c3b552f7dca089ee4a7fb93c0d",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "exact_check_groups": [
+        "all_coefficient_laurent_wave_identity",
+        "independent_word_response_obeys_exact_wave_stencil"
+      ],
+      "scope_boundary": "Discrete stencil follows from the update; unrestricted second-order data are not equivalent."
+    },
+    {
+      "id": "R18.6",
+      "title": "The first transport symbol is selected within this address protocol",
+      "written_section_sha256": "a62914f1ddb7ad4fc6a8138146f497ad3787103a597ecb7fee9331aefb7ec6b7",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "exact_check_groups": [
+        "finite_shift_jets_and_characteristic_coefficients"
+      ],
+      "scope_boundary": "Finite jets and algebraic characteristic polynomial only; continuum convergence is unproved."
+    },
+    {
+      "id": "R18.7",
+      "title": "The exact front differs from the slow-variation characteristic slope",
+      "written_section_sha256": "72ae96118d9e09c7b2e36524316e60593f67e3998e96bfc08ba86b1c3148d9dc",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "exact_check_groups": [
+        "exact_nonzero_front_and_distinct_address_metric"
+      ],
+      "scope_boundary": "Exact support front and candidate smooth-symbol slope are distinct."
+    },
+    {
+      "id": "R18.8",
+      "title": "A minimal local response distinguishes directed transport",
+      "written_section_sha256": "9ae014dd7c10606181b04d32fc772a56f1869e5c4a1c2e59f2df0c6d7c067410",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "exact_check_groups": [
+        "minimum_quadratic_current_observer"
+      ],
+      "scope_boundary": "Minimum within linear quadratic-response banks for the two outgoing energy targets."
+    },
+    {
+      "id": "R18.9",
+      "title": "Physical calibration remains outside the derived address law",
+      "written_section_sha256": "98728ada075e55f586b054bc0dbce47fe9f06a53fb0570b808bc15bd97c9f16f",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "exact_check_groups": [
+        "calibration_family_does_not_enter_native_transfer"
+      ],
+      "scope_boundary": "Boundary of this constructed target; not a no-go theorem for the full recognition framework."
+    }
+  ],
+  "physical_metric_selection_proved": false,
+  "continuum_convergence_proved": false,
+  "full_ugd_replaced_by_two_roles": false,
+  "address_and_aggregation_are_explicit_target_definitions": true,
+  "formal_proof_assistant_verified": false,
+  "historical_hadamard_walk_priority_claimed": false,
+  "external_reference": {
+    "url": "https://cs.uwaterloo.ca/~watrous/Papers/OneDimensionalQuantumWalks.pdf",
+    "role": "EXTERNAL_ATTRIBUTION_ONLY_NOT_PROOF_DEPENDENCY",
+    "authors": "Ambainis, Bach, Nayak, Vishwanath, Watrous",
+    "year": 2001
+  }
+}

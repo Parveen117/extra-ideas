@@ -1,0 +1,237 @@
+{
+  "schema": "extra-ideas.r18.verification.v1",
+  "date": "2026-10-01",
+  "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+  "written_results": 9,
+  "exact_check_groups": 10,
+  "native_symbolic_replays": 8,
+  "counters": {
+    "inherited_roles_projectors_and_energy_normalization": {
+      "positive_normalization_squared": "1/2",
+      "complex_scalar_input": false,
+      "finite_address_pairing": true
+    },
+    "all_words_role_address_bijection_and_signed_aggregate": {
+      "maximum_depth": 10,
+      "enumerated_records": 2047,
+      "complete_depths": 11
+    },
+    "count_recurrence_moments_and_continuation_cone": {
+      "address_count_cases": 66,
+      "continuation_cases": 155
+    },
+    "normalization_and_local_current_on_source_histories": {
+      "local_current_cases": 140,
+      "third_event_addresses": [
+        -3,
+        -1,
+        1,
+        3
+      ],
+      "third_event_census": [
+        "1/8",
+        "3/8",
+        "3/8",
+        "1/8"
+      ],
+      "third_event_energy": [
+        "1/8",
+        "1/8",
+        "5/8",
+        "1/8"
+      ]
+    },
+    "all_coefficient_laurent_wave_identity": {
+      "all_formal_laurent_coefficients": true,
+      "wave_coefficient": "1/2",
+      "two_event_transfer": [
+        [
+          -2,
+          [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "-1/2",
+                "0"
+              ],
+              [
+                "1/2",
+                "0"
+              ]
+            ]
+          ]
+        ],
+        [
+          0,
+          [
+            [
+              [
+                "1/2",
+                "0"
+              ],
+              [
+                "-1/2",
+                "0"
+              ]
+            ],
+            [
+              [
+                "1/2",
+                "0"
+              ],
+              [
+                "1/2",
+                "0"
+              ]
+            ]
+          ]
+        ],
+        [
+          2,
+          [
+            [
+              [
+                "1/2",
+                "0"
+              ],
+              [
+                "1/2",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ]
+        ]
+      ]
+    },
+    "independent_word_response_obeys_exact_wave_stencil": {
+      "independent_word_stencils": 7,
+      "arbitrary_field_isometry_cases": 18
+    },
+    "finite_shift_jets_and_characteristic_coefficients": {
+      "finite_jet_order": 2,
+      "continuum_convergence_claimed": false,
+      "characteristic_speed_squared": "1/2"
+    },
+    "exact_nonzero_front_and_distinct_address_metric": {
+      "front_depths": 10,
+      "exact_front_speed_squared": "1",
+      "candidate_slope_is_not_exact_front": true
+    },
+    "minimum_quadratic_current_observer": {
+      "minimum_linear_quadratic_responses": 2,
+      "energy_only_counterexample": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ]
+    },
+    "calibration_family_does_not_enter_native_transfer": {
+      "adapter_examples": [
+        [
+          "1",
+          "1"
+        ],
+        [
+          "3",
+          "2"
+        ],
+        [
+          "1/5",
+          "7"
+        ]
+      ],
+      "unique_physical_metric_selected": false,
+      "physical_c_or_alpha_derived": false
+    }
+  },
+  "rejected_false_alternatives": {
+    "commuting_cut_roles": true,
+    "erased_parity_sign_preserves_norm": true,
+    "census_half_is_coherent_isometry": true,
+    "wave_coefficient_one": true,
+    "reversed_second_jet_order": true,
+    "count_content_equals_signed_energy": true,
+    "address_alone_recovers_final_role": true,
+    "energy_alone_recovers_current": true,
+    "candidate_symbol_equals_exact_front": true,
+    "selected_dimensional_calibration": true
+  },
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "source_file_tamper_rejected": true,
+  "previous_source_replayed": {
+    "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+    "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+    "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+    "foundation": {
+      "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+      "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+      "written_statements": 14,
+      "native_replays": 13,
+      "analytic_replays": [
+        {
+          "id": "F00_F00E_EULER_V0_1",
+          "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+          "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+          "checks": 14,
+          "negative_controls": 6,
+          "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+        },
+        {
+          "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+          "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+          "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+          "checks": 20,
+          "negative_controls": 7,
+          "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+        }
+      ],
+      "original_universal_claim_certified": false
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 29,
+  "comparison_source_commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+  "comparison_files_hash_verified": 5,
+  "comparison_physics_certificates_reexecuted": false,
+  "preserved_prior_files": 151,
+  "source_pins_sha256": "713c2fc0b4460ff4bff4aca3addac80adbc1629df7848bf4c3ec3371d4b9345b",
+  "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+  "physical_metric_selection_proved": false,
+  "physical_c_or_alpha_derived": false,
+  "continuum_convergence_proved": false,
+  "formal_proof_assistant_verified": false,
+  "core_external_complex_or_wave_law_input": false,
+  "address_and_aggregation_are_explicit_target_definitions": true,
+  "known_hadamard_walk_lineage_acknowledged": true,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Native cut-address construction; exact finite signed transport, wave stencil and formal jets. Physical protocol selection, large-scale convergence and rod/clock calibration remain open.",
+  "canonical_report_sha256": "f8f89052af65d959eac83e458c82eb1bb2abab1fa10348a145606d8f91d666b2"
+}

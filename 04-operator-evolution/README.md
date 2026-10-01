@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R18 cut-address propagation verification
+
+[cut_transport.cjs](cut_transport.cjs) consumes R17's verified role maps and the unchanged canonical arithmetic, Laurent and proof-replay APIs. Literal word enumeration independently checks the address-response update and discrete wave stencil. Exact polynomial coefficients establish the two-event identity; finite jets are kept separate from an unproved continuum limit.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r18.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+Use the RKF commit and Publications research-branch commit in [R18_SOURCE_PINS.json](R18_SOURCE_PINS.json). [R18_VERIFICATION.json](R18_VERIFICATION.json) records nine written results, ten exact check groups, eight native symbolic replays, 2,047 source records, 155 continuation cases, 140 local current checks, seven independent word stencils and 18 arbitrary-field energy checks. Ten false alternatives, an altered native proof, a wrong input pin and source-file tampering are rejected. All 151 prior non-navigation files are preserved; R17/R16 are reproduced into temporary outputs. Publications comparison texts are hash-checked, without claiming their physics certificates were rerun. See the [proof and scope](../02-relational-response/CUT_TRANSPORT_METRIC_R18.md) and [claim ledger](R18_CLAIM_LEDGER.json).
+
 ## R17 source-count memory and curvature verification
 
 [cut_history_dynamics.cjs](cut_history_dynamics.cjs) takes its role maps directly from the verified [R16 foundation](../02-relational-response/emk-topology-foundation/README.md) and calls the unchanged canonical RKF engine. It checks the full H/K source census, `M²=I/2`, the curvature/spread identity, exact covariance and lag response, source-derived hidden balance, minimum seam-observer repair and signed first-return tails.
@@ -63,7 +75,7 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Follow [R17](../02-relational-response/CUT_HISTORY_MEMORY_R17.md): the full cut-history source now supplies preparation, covariance, return events, the finite-aperture recovery budget and the boundary count metric. Next construct the smallest target-specific record quotient before connecting it to the R12/R13 metric machinery. Preserve the full word ledger, signed return information and the complete R10 connection contract.
+Follow [R18](../02-relational-response/CUT_TRANSPORT_METRIC_R18.md): derive the interaction/readout that retains the directed current and establishes a shared operational event address. The minimal local quadratic observer is now known for this transport target. A controlled large-scale limit, physical dimensions and rod/clock identification are subsequent gates. Preserve the full word ledger, independent sheets, returning-memory term, nonaffine clock term, Smriti error control and the complete R10 connection contract.
 
 ## R13 complementary memory/noise certificates
 

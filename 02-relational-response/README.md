@@ -2,6 +2,12 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R18 source transport and the metric-selection gate
+
+[CUT_TRANSPORT_METRIC_R18.md](CUT_TRANSPORT_METRIC_R18.md) derives an event address from the cut roles, a signed response transport and its exact discrete wave identity. No physical speed or wave law is put into that finite construction. The address and aggregation are explicit target definitions; their physical selection is still open.
+
+The source's exact support front differs from the candidate smooth-scale characteristic slope. Local energy alone also misses the current needed for directed transport; two independent quadratic responses suffice and are minimal for that target. [R18 verification](../04-operator-evolution/R18_VERIFICATION.json) binds the proofs, source-word checks, full Laurent identity and negative controls. The existing native sheet/clock correction is cited with its full-carrier obligations, and the known Hadamard-walk lineage is acknowledged.
+
 ## R17 cut-history memory, noise and return events
 
 [CUT_HISTORY_MEMORY_R17.md](CUT_HISTORY_MEMORY_R17.md) now follows the integrated [R16 constructive foundation](emk-topology-foundation/README.md). It derives the full source-census mean, curvature/spread relation, lag covariance, source-generated hidden pair and parity-sensitive memory return from the same H/K cut roles. It needs no independently supplied angle, balanced preparation or noise variance.

@@ -17,6 +17,27 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
+## R18: cut-address transport toward physical metric selection
+
+[R18](02-relational-response/CUT_TRANSPORT_METRIC_R18.md) constructs an event address directly from R17's cut-role histories. Retaining signed responses at each address gives a unique positive norm-preserving normalization within that explicit observation protocol. Its two-event transfer obeys the exact wave stencil
+
+\[
+\psi_{n+2}-2\psi_n+\psi_{n-2}
+=\tfrac12(T^2-2I+T^{-2})\psi_n.
+\]
+
+The exact source front is one address per event. The first-order formal symbol has squared characteristic slope `1/2`; these are distinct. Plain source counts give a different response from sign-preserving aggregation. A minimal two-scalar quadratic observer retains both local energy and directed current.
+
+[Verification](04-operator-evolution/R18_VERIFICATION.json) passes nine written results, ten exact check groups, eight canonical symbolic replays, 2,047 source records and ten rejected false alternatives. R17/R16 are reproduced without altering their certificates; 151 prior non-navigation files remain byte-identical. The established Hadamard-walk correspondence is explicitly credited. Existing Publications NC, CP, NP and SC results are commit-pinned and labelled with their retained premises.
+
+The next physical-selection gate is the interaction/readout that preserves the required current and shares an operational event address, while retaining NC's independent sheet, return, clock and Smriti data. A controlled large-scale limit and rod/clock identification remain open. This finite protocol does not yet select physical spacetime, `c` or `alpha`.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r18.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
 ## R17: source-count noise, curvature and signed memory return
 
 [R17](02-relational-response/CUT_HISTORY_MEMORY_R17.md) develops the full free cut-history source using the role operators derived in R16. Native counting gives the mean map `M=(H+K)/2`, with `M²=I/2`. Record erasure produces the exact spread/curvature relation
