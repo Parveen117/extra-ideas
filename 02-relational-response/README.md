@@ -2,6 +2,10 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R14 native foundation
+
+[Native Source Foundation R14](NATIVE_SOURCE_FOUNDATION_R14.md) derives the split, phase, memory, source-ledger covariance, event-record content and local phase geometry in one traced native chain. [Derivation Source Ledger R14](DERIVATION_SOURCE_LEDGER_R14.md) binds the already earned RKF/RH/Yang–Mills tools to their exact premises and evidence, marking classical imports in the citations themselves. Source selection and physical outcome actualization are explicit remaining obligations.
+
 ## Core idea
 
 Describe a system through responses and relations rather than only its coordinates. Write `chi_XY=dX/dY` for a response and reserve `lambda_*` for the proposed fixed reference.

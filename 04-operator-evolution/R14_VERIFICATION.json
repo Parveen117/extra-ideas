@@ -1,0 +1,217 @@
+{
+  "schema": "extra-ideas.r14.finite-native-audit.v1",
+  "status": "PASS_R14_FINITE_NATIVE_SOURCE_FOUNDATION",
+  "test_count": 30,
+  "tests": [
+    {
+      "name": "quarter-turn and dagger are native scalar operations",
+      "passed": true
+    },
+    {
+      "name": "radial/complement split derived from dagger is idempotent",
+      "passed": true
+    },
+    {
+      "name": "cut-square energy decomposes and is positive",
+      "passed": true
+    },
+    {
+      "name": "multiplication derives raw transport and its radial scale",
+      "passed": true
+    },
+    {
+      "name": "cut commutator, leakage and return use one source coefficient",
+      "passed": true
+    },
+    {
+      "name": "exact reduced memory reconstructs unnormalized full histories",
+      "passed": true
+    },
+    {
+      "name": "two-step recurrence retains source scale instead of silently setting it to one",
+      "passed": true
+    },
+    {
+      "name": "two radial readings recover every coupled complementary source",
+      "passed": true
+    },
+    {
+      "name": "canonical N03 completion has the proved minimum rank",
+      "passed": true
+    },
+    {
+      "name": "arbitrary finite refinement ledger derives variance by pair squares",
+      "passed": true
+    },
+    {
+      "name": "refinement and record ordering preserve derived moments",
+      "passed": true
+    },
+    {
+      "name": "source count balance is derived when present and not imposed",
+      "passed": true
+    },
+    {
+      "name": "colored force covariance follows the full source ledger",
+      "passed": true
+    },
+    {
+      "name": "resolved force can vanish while returning memory survives",
+      "passed": true
+    },
+    {
+      "name": "first-exit content equals normalized native path squares",
+      "passed": true
+    },
+    {
+      "name": "first-exit endpoints retain unresolved and immediate-exit cases",
+      "passed": true
+    },
+    {
+      "name": "full record refinement conserves normalized energy and reconstructs coherent sum",
+      "passed": true
+    },
+    {
+      "name": "first-exit cylinder content is independent of further record refinement",
+      "passed": true
+    },
+    {
+      "name": "coherent erasure and monitored survival remain different operations",
+      "passed": true
+    },
+    {
+      "name": "relative-content Hessian equals phase geometry without an angle input",
+      "passed": true
+    },
+    {
+      "name": "derived geometry has radial kernel and angular normalization four",
+      "passed": true
+    },
+    {
+      "name": "source rescaling preserves the phase geometry with transported tangents",
+      "passed": true
+    },
+    {
+      "name": "relative-content jets use native log derivatives and normalized source content",
+      "passed": true
+    },
+    {
+      "name": "native logarithm enclosures independently validate the local contrast Hessian",
+      "passed": true
+    },
+    {
+      "name": "support boundaries are not reported as regular event Hessians",
+      "passed": true
+    },
+    {
+      "name": "native angle series and factorial Euler independently enclose source phase",
+      "passed": true
+    },
+    {
+      "name": "signed phase remains distinguishable beyond squared event content",
+      "passed": true
+    },
+    {
+      "name": "same native algebra permits inequivalent phase and preparation sources",
+      "passed": true
+    },
+    {
+      "name": "integer path memory survives endpoint return",
+      "passed": true
+    },
+    {
+      "name": "invalid source, ledger and exact-input claims are rejected",
+      "passed": true
+    }
+  ],
+  "case_counts": {
+    "histories": 36,
+    "recoveries": 28,
+    "record_trees": 54,
+    "metric_tangents": 36,
+    "observer_completions": 9
+  },
+  "mathematical_mutations": [
+    {
+      "name": "wrong memory feedback sign",
+      "rejected": true,
+      "reason": "2 != 0"
+    },
+    {
+      "name": "wrong hidden force sign",
+      "rejected": true,
+      "reason": "-2 != 0"
+    },
+    {
+      "name": "forced balanced preparation",
+      "rejected": true,
+      "reason": "1 != 0"
+    },
+    {
+      "name": "quartic event rule",
+      "rejected": true,
+      "reason": "9433/8425 != 1"
+    },
+    {
+      "name": "wrong conjugation projector",
+      "rejected": true,
+      "reason": "The expression evaluated to a falsy value:\n\n  assert.ok(s.P(z).add(s.Q(z)).eq(z))\n"
+    },
+    {
+      "name": "dropped record normalization",
+      "rejected": true,
+      "reason": "13 != 1"
+    },
+    {
+      "name": "lost phase orientation",
+      "rejected": true,
+      "reason": "1156/625 != 4/625"
+    },
+    {
+      "name": "wrong local log Hessian factor",
+      "rejected": true,
+      "reason": "8 != 4"
+    }
+  ],
+  "canonical_runtime_sources": [
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "path": "operator_foundation/core/native_operator.cjs",
+      "git_blob_sha": "7b188defee82aa0edafc586eb3091baf0ceb6900",
+      "sha256": "304963cccf4320d76dd36147e5c15ad579e9d0496c86fb1f942543bc692e06a3",
+      "matched": true
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "native_source_foundation.cjs",
+      "sha256": "34528062a29b218037af145501ea8832390337529c2970a3b6e0e8674499df61"
+    },
+    {
+      "path": "test_native_source_foundation.cjs",
+      "sha256": "580474ab6fdef885293cc1a362dbc14f23bda3f097f7d7b08df93d8923ccccf2"
+    },
+    {
+      "path": "verify_r14.cjs",
+      "sha256": "fc63f4c5ffc12422745f74f853e11adc41db9d0eb75ab10e813f9280cbf0f13e"
+    },
+    {
+      "path": "R14_SOURCE_PINS.json",
+      "sha256": "cbfa0082e93a94a4dc59b71c2ed278ea29be36d5d28fa7a19e4b3aa2ef8179a2"
+    },
+    {
+      "path": "../02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md",
+      "sha256": "ba735a02c84a25018f79c3cf2ab796404c6aadaf631dbb0165fc3af7cb246755"
+    },
+    {
+      "path": "../02-relational-response/DERIVATION_SOURCE_LEDGER_R14.md",
+      "sha256": "8356adc3fb372e5d210405e4485c6428570963d1408a932e9332aa59c66afe43"
+    }
+  ],
+  "evidence_scope": "Exact finite source, history, record-content, covariance and metric identities; written infinite and analytic theorems remain separate.",
+  "full_source_selection_proved": false,
+  "physical_event_actualization_proved": false,
+  "all_repositories_pure_native": false,
+  "new_lean_formalization": false
+}

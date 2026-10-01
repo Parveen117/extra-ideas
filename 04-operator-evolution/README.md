@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R14 executable native-source foundation
+
+[R14](../02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md) and its [citation ledger](../02-relational-response/DERIVATION_SOURCE_LEDGER_R14.md) link the existing RKF/RH foundation to exact source-driven memory, record-event content, covariance and phase geometry. The adapter [native_source_foundation.cjs](native_source_foundation.cjs) calls the canonical RKF arithmetic source unchanged.
+
+```bash
+node 04-operator-evolution/verify_r14.cjs \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --output /tmp/R14_VERIFICATION.json
+```
+
+The [certificate](R14_VERIFICATION.json) records 30 checks, 36 histories, 28 hidden recoveries, 54 complete record trees, 36 metric tangents, nine observer completions and eight rejected mathematical mutations. [Pins](R14_SOURCE_PINS.json) identify the sources. [Upstream replay status](R14_UPSTREAM_REPLAYS.json) includes an old combined-engine certificate hash failure; no full upstream-engine PASS or unconditional physical foundation is claimed.
+
 ## Core idea
 
 Describe states through the transformations that act on them: composition, generators, flows, commutators, and spectral data.

@@ -1,0 +1,58 @@
+{
+  "schema": "extra-ideas.r14.upstream-replays.v1",
+  "date": "2026-10-01",
+  "python": "3.12.14",
+  "node": "v24.19.0",
+  "runs": [
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "command": "python3.12 -B certificates/foundation/F00_F00E_EULER_V0_1/verify.py --output TEMP",
+      "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+      "checks": 14,
+      "negative_controls": 6,
+      "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5"
+    },
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "command": "python3.12 -B certificates/foundation/F00GHI_LOG_ARITHMETIC_ZETA_V0_1/verify.py --output TEMP",
+      "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+      "checks": 20,
+      "negative_controls": 7,
+      "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd"
+    },
+    {
+      "repository": "Parveen117/RH-Framework",
+      "commit": "fd104f46cc8c99c05f0e05b10f18c9332e8219de",
+      "command": "python3.12 -B tools/verify_native_foundation.py",
+      "status": "PASS",
+      "tests": 45,
+      "matching_certificates": 5
+    },
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "command": "node operator_foundation/verify_all.cjs --check",
+      "status": "FAILED_CERTIFICATE_HASH_CHECK",
+      "failed_component": "tests/verify.cjs --check",
+      "actual_sha256": "35a9efc5ef96e6a3b88546011b99c0f9a386441db81c3a47da8109445428d79e",
+      "expected_sha256": "f8ae27c1c6e776cf4a9e0a50ebc984b3574466bc2466628609fcf53de27fd6e6",
+      "source_or_certificate_modified": false
+    },
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "command": "node operator_foundation/tests/verify_core.cjs",
+      "status": "PASS_EXACT_FINITE_CHECKS_UNPINNED",
+      "checks": 122
+    },
+    {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "command": "node operator_foundation/tests/verify.cjs",
+      "status": "PASS_EXACT_FINITE_CHECKS_UNPINNED",
+      "checks": 189
+    }
+  ]
+}

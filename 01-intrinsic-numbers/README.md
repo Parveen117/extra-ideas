@@ -2,6 +2,10 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R14 foundation route
+
+[R14 §§1–3](../02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md) uses established native cut arithmetic, derives the radial/complement split from dagger, and reads theta from the native source using the existing period/polar/logarithm theorems. The [source ledger](../02-relational-response/DERIVATION_SOURCE_LEDGER_R14.md) distinguishes native constructions from ordinary-field presentations and imported adapters. This route does not repair every claim in the original Way-1 manuscript below.
+
 ## Core idea
 
 Represent a state by a vector in `F^n`, where `F` is an explicitly defined field. Use componentwise addition and multiplication. The coordinate idempotents `e_i` satisfy `e_i odot e_j=0` for `i != j` and decompose the algebra into its coordinate factors.

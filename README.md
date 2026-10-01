@@ -17,6 +17,27 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
+## R14: native source foundation and cross-repository derivation ledger
+
+[R14](02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md) derives the radial/complement split from native dagger and the transport from multiplication by `z=a+iota b`. Existing RH native period/polar/logarithm results derive theta from that source. The same source gives exact memory, consistent record-event content, and a phase metric; source-cell counts give unresolved-force covariance without imposing a balanced or Gaussian preparation.
+
+The native normalized-amplitude metric and the separately derived record-logarithm Hessian agree up to the proved factor four:
+
+\[
+h=\frac{(a\,db-b\,da)^2}{(a^2+b^2)^2}=d\theta^2,
+\qquad g_{\mathrm{record}}=4h.
+\]
+
+The [derivation ledger](02-relational-response/DERIVATION_SOURCE_LEDGER_R14.md) integrates **24 commit-pinned references** from RKF and RH, including mathematics developed for Yang–Mills. Each citation states its native inputs or classical imports and its actual evidence level. The current source-selection and physical event-actualization questions remain explicit; R14 does not relabel a source tuple as an unconditional derivation.
+
+[Thirty exact checks and eight mathematical mutation controls pass](04-operator-evolution/R14_VERIFICATION.json). The [upstream replay record](04-operator-evolution/R14_UPSTREAM_REPLAYS.json) includes passing F00/E, GHI and 45-test RH foundation replays, and an explicitly failed old combined-engine certificate hash check. R1–R13 evidence is unchanged.
+
+```bash
+node 04-operator-evolution/verify_r14.cjs \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --output /tmp/R14_VERIFICATION.json
+```
+
 ## R13: complementary memory derives noise and event information
 
 [R13](02-relational-response/COMPLEMENT_MEMORY_NOISE_R13.md) constructs the statistical ingredients that R12 supplied. Exact hidden-state elimination generates memory and an unresolved complementary force. A balanced unit-norm native preparation derives its colored covariance. Additive native norm readout derives continuation and exit weights \(r=\cos^2\theta,\ q=\sin^2\theta\), with a monitored first-exit law.

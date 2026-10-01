@@ -2,6 +2,10 @@
 
 Source: Reference-Scale Normalization in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves that section verbatim as a LaTeX fragment.
 
+## R14 source scale and phase
+
+[R14 §3](../02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md) derives the radial scale `rho=sqrt(N(z))` and native phase from a nonzero source transition. Its normalized phase geometry has a radial null direction; normalization does not select a universal physical reference value. [Section 10](../02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md) gives exact native alternatives that a future source-selection law must distinguish.
+
 ## Core idea
 
 Hold a reference `lambda_*` fixed and express states or quantities through coefficients and scale orders:
