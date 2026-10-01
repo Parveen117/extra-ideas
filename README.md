@@ -17,6 +17,29 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
+## R13: complementary memory derives noise and event information
+
+[R13](02-relational-response/COMPLEMENT_MEMORY_NOISE_R13.md) constructs the statistical ingredients that R12 supplied. Exact hidden-state elimination generates memory and an unresolved complementary force. A balanced unit-norm native preparation derives its colored covariance. Additive native norm readout derives continuation and exit weights \(r=\cos^2\theta,\ q=\sin^2\theta\), with a monitored first-exit law.
+
+Native balanced binary meters then realize the completed observer/metric selection equation **without Gaussian noise or external record precision**. Matching the sheet gain to the complementary sine leg gives
+
+\[
+g=(1+\cos^2\theta\,v^2)\,du^2+dv^2.
+\]
+
+The cut/transport commutator, complementary norm loss and returning memory all use the same sine amplitude. Coherent retention, monitored reset, hidden-force fluctuations and binary event fluctuations have explicit separate contracts.
+
+The [verification record](04-operator-evolution/R13_VERIFICATION.json) reports **31 exact tests**, 11 native replays, three canonical N03 completions, six rejected mathematical mutations and three rejected native alterations. All R1–R12/master evidence is preserved. See the [pins](04-operator-evolution/R13_SOURCE_PINS.json) and [native packet](04-operator-evolution/R13_NATIVE_CERTIFICATE.json).
+
+~~~bash
+python3.12 -B 04-operator-evolution/verify_r13.py \
+  --publications-root ../Publications \
+  --rkf-root ../Recognition-Kernel-Framework
+~~~
+
+The derivation selects noise, event weights and information geometry within a concrete native construction. Preparation, rotational phase, norm-readout policy and matched channel identification are specified; their physical selection is a further question.
+
+
 ## R12: deriving the observer and metric
 
 [R12](02-relational-response/OBSERVER_METRIC_FOUNDATION_R12.md) derives a minimum future observer and a unique operational metric from one native event experiment. With calibrated terminal noise and a stable stopping law, its tagged Fisher form solves

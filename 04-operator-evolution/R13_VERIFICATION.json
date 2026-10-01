@@ -1,0 +1,859 @@
+{
+  "development": "R13",
+  "date": "2026-10-01",
+  "status": "PASS_EXACT_COMPLEMENT_MEMORY_NOISE_FOUNDATION",
+  "python": "3.12.14",
+  "node": "v24.19.0",
+  "tests_run": 31,
+  "failures": 0,
+  "errors": 0,
+  "finite_case_counts": {
+    "native_rotation_charts": 12,
+    "full_vs_reduced_rotation_histories": 36,
+    "hidden_component_recoveries": 108,
+    "first_exit_branch_norm_checks": 72,
+    "independent_QTH_rotating_readout_comparisons": 12,
+    "independent_QTH_binary_score_evaluations": 27,
+    "non_Gaussian_seam_parameter_cases": 12,
+    "finite_waiting_moment_tail_checks": 5,
+    "finite_event_tail_ledgers": 7,
+    "multi_hidden_feedback_modes": 2,
+    "native_observer_catalogues": 3
+  },
+  "math_mutation_controls": {
+    "erase_complement_round_trip_memory": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "pretend_complement_noise_is_independent_in_time": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "pretend_native_balanced_noise_is_Gaussian": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "use_linear_amplitudes_instead_of_native_norm_weights": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "equate_coherent_retention_and_monitored_reset": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "misnormalize_native_binary_information": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    }
+  },
+  "native_negative_controls": {
+    "altered_input_rejected": true,
+    "altered_rewrite_rejected": true,
+    "altered_future_observer_rejected": true
+  },
+  "native_contract": {
+    "input_sha256": "73de3a0243e9e1113ee7c237c4917725cd460f2b28446e5f6100482bb858fa78",
+    "equalities_replayed": 10,
+    "distinctness_replays": 1,
+    "audit": "CONFLUENT_BY_CHECKED_DIAMONDS",
+    "abstract_rewrites_assume_finite_carrier": false,
+    "finite_observer_checks": {
+      "rotation_future_reveals_the_hidden_component": {
+        "rank": 2,
+        "observer_matrix_match": true
+      },
+      "no_sine_coupling_has_no_future_hidden_response": {
+        "rank": 1,
+        "observer_matrix_match": true
+      },
+      "one_way_hidden_record_does_not_return_to_the_observer": {
+        "rank": 1,
+        "observer_matrix_match": true
+      }
+    },
+    "branch_norm_proof_dependencies": [
+      "visible_cut_is_idempotent",
+      "visible_single_step_is_the_cosine_channel"
+    ],
+    "canonical_engine_reused_unchanged": true
+  },
+  "upstream": {
+    "publications_commit": "e1dc4e3773f063f14e56cf30222c8e8a504519cd",
+    "rkf_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+    "publications_sha256": {
+      "papers/emk-ugd-algebra/certificates/emk2_native_carrier.py": "49d8548e7e3ccc2ce77bdc0f5a317b737f3bd37dc4d9e1f90c9f87852c37d1c0",
+      "papers/curvature-information-duality/certificates/qth1_quantum_recognition_information.py": "f661838ae5c169bb80c51e281e4252f1e3be55d51e2e488c23bc12a93a9bd4f6"
+    },
+    "rkf_sha256": {
+      "operator_foundation/core/dependency_gate.cjs": "9a3bbecd03c159536dc17ca827d24d6e644d527adbf6da332460efbb45dbc8d1",
+      "operator_foundation/core/native_laurent.cjs": "fc84abf52311f89ee3a7bb8c6883412e5f64a65812b0031804b44a2e660c0c8a",
+      "operator_foundation/core/native_operator.cjs": "304963cccf4320d76dd36147e5c15ad579e9d0496c86fb1f942543bc692e06a3",
+      "operator_foundation/core/native_paths.cjs": "cc59550c541c078a8b4643e8602691e147179db780e232a53162f604e812e14f",
+      "operator_foundation/core/paninian_operator.cjs": "9a30c72f4e89d0a15697c99095ed8e0f015bb8c64fda4ded9897394945886fd8",
+      "operator_foundation/core/workbench.cjs": "c12a3138cc326604a1149bc306b8cc338b9e9161516b610504ddbc7d59a1ea6d",
+      "operator_foundation/theory/01_NATIVE_ALGEBRA.md": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5",
+      "operator_foundation/examples/emk_job.json": "fd3c9e50cb51050acb9c36b3123fbc4664870c621e5d73bb8763b1050b30c763"
+    }
+  },
+  "witnesses": {
+    "rotation": [
+      [
+        "3/5",
+        "-4/5"
+      ],
+      [
+        "4/5",
+        "3/5"
+      ]
+    ],
+    "unit_preparation": {
+      "visible": "5/13",
+      "hidden_branches": [
+        "12/13",
+        "-12/13"
+      ],
+      "weights": [
+        "1/2",
+        "1/2"
+      ],
+      "hidden_mean": "0",
+      "hidden_variance": "144/169",
+      "hidden_fourth_moment": "20736/28561",
+      "gaussian_hidden_law": false
+    },
+    "visible_history": [
+      [
+        [
+          "5/13"
+        ]
+      ],
+      [
+        [
+          "-33/65"
+        ]
+      ],
+      [
+        [
+          "-323/325"
+        ]
+      ],
+      [
+        [
+          "-1113/1625"
+        ]
+      ],
+      [
+        [
+          "1397/8125"
+        ]
+      ]
+    ],
+    "endogenous_noise": {
+      "preparation": {
+        "visible": "5/13",
+        "hidden_branches": [
+          "12/13",
+          "-12/13"
+        ],
+        "weights": [
+          "1/2",
+          "1/2"
+        ],
+        "hidden_mean": "0",
+        "hidden_variance": "144/169",
+        "hidden_fourth_moment": "20736/28561",
+        "gaussian_hidden_law": false
+      },
+      "noise_paths": [
+        [
+          "-48/65",
+          "-144/325",
+          "-432/1625",
+          "-1296/8125"
+        ],
+        [
+          "48/65",
+          "144/325",
+          "432/1625",
+          "1296/8125"
+        ]
+      ],
+      "noise_mean": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "covariance": [
+        [
+          [
+            [
+              "2304/4225"
+            ]
+          ],
+          [
+            [
+              "6912/21125"
+            ]
+          ],
+          [
+            [
+              "20736/105625"
+            ]
+          ],
+          [
+            [
+              "62208/528125"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "6912/21125"
+            ]
+          ],
+          [
+            [
+              "20736/105625"
+            ]
+          ],
+          [
+            [
+              "62208/528125"
+            ]
+          ],
+          [
+            [
+              "186624/2640625"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "20736/105625"
+            ]
+          ],
+          [
+            [
+              "62208/528125"
+            ]
+          ],
+          [
+            [
+              "186624/2640625"
+            ]
+          ],
+          [
+            [
+              "559872/13203125"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "62208/528125"
+            ]
+          ],
+          [
+            [
+              "186624/2640625"
+            ]
+          ],
+          [
+            [
+              "559872/13203125"
+            ]
+          ],
+          [
+            [
+              "1679616/66015625"
+            ]
+          ]
+        ]
+      ],
+      "covariance_by_branches": [
+        [
+          "2304/4225",
+          "6912/21125",
+          "20736/105625",
+          "62208/528125"
+        ],
+        [
+          "6912/21125",
+          "20736/105625",
+          "62208/528125",
+          "186624/2640625"
+        ],
+        [
+          "20736/105625",
+          "62208/528125",
+          "186624/2640625",
+          "559872/13203125"
+        ],
+        [
+          "62208/528125",
+          "186624/2640625",
+          "559872/13203125",
+          "1679616/66015625"
+        ]
+      ],
+      "memory_kernels": [
+        [
+          [
+            "-16/25"
+          ]
+        ],
+        [
+          [
+            "-48/125"
+          ]
+        ],
+        [
+          [
+            "-144/625"
+          ]
+        ],
+        [
+          [
+            "-432/3125"
+          ]
+        ]
+      ],
+      "memory_noise_residual": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "temporal_rank": 1
+    },
+    "memory_equation_residuals": [
+      [
+        [
+          "0"
+        ]
+      ],
+      [
+        [
+          "0"
+        ]
+      ],
+      [
+        [
+          "0"
+        ]
+      ],
+      [
+        [
+          "0"
+        ]
+      ]
+    ],
+    "first_exit": {
+      "continuation": "9/25",
+      "exit": "16/25",
+      "probabilities": [
+        "16/25",
+        "144/625",
+        "1296/15625",
+        "11664/390625",
+        "104976/9765625"
+      ],
+      "unresolved_tail": "59049/9765625",
+      "total_mass_with_tail": "1",
+      "terminates_almost_surely": true,
+      "mean_continuations": "9/16",
+      "variance_continuations": "225/256"
+    },
+    "event_information": {
+      "binary_fisher_angular": "4",
+      "waiting_fisher_continuation": "15625/2304",
+      "waiting_fisher_angular": "25/4",
+      "expected_trials_to_exit": "25/16",
+      "information_per_expected_trial": "4",
+      "likelihood": "native norm-weighted monitored event record; not Gaussian"
+    },
+    "cut_incompatibility": {
+      "cut_transport_commutator": [
+        [
+          "0",
+          "-4/5"
+        ],
+        [
+          "-4/5",
+          "0"
+        ]
+      ],
+      "commutator_square": [
+        [
+          "16/25",
+          "0"
+        ],
+        [
+          "0",
+          "16/25"
+        ]
+      ],
+      "complementary_norm": [
+        [
+          "16/25",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "retained_norm_loss": [
+        [
+          "16/25",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "coherent_vs_monitored": {
+      "coherent_visible_amplitude": "-7/25",
+      "monitored_survival_amplitude": "9/25",
+      "coherent_final_visible_weight": "49/625",
+      "monitored_survival_weight": "81/625",
+      "two_step_compression_defect": [
+        [
+          "-16/25",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "two_step_excursion": [
+        [
+          "-16/25",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "two_step_excursion_coefficient": "-16/25"
+    },
+    "native_binary_seam": {
+      "derived_continuation": "9/25",
+      "derived_complement_gain": "4/5",
+      "derived_kappa": "9/25",
+      "seed_information": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "record_covariance_at_origin": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "future_observer": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "response_metric": [
+        [
+          "26/25",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "untagged_response_metric_at_origin": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "discarded_tag_information": [
+        [
+          "1/25",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "tangent_metric": [
+        [
+          "26/25",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "tangent_metric_first": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "6/25",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "tangent_metric_second": [
+        [
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "18/25",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ]
+      ],
+      "Gaussian_assumption": false,
+      "external_record_noise_precision": false,
+      "likelihood": "tagged product of native balanced binary meters",
+      "gate_information": {
+        "binary_fisher_angular": "4",
+        "waiting_fisher_continuation": "15625/2304",
+        "waiting_fisher_angular": "25/4",
+        "expected_trials_to_exit": "25/16",
+        "information_per_expected_trial": "4",
+        "likelihood": "native norm-weighted monitored event record; not Gaussian"
+      },
+      "gate_response_cross_score_at_origin": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "state_scope": "anchored zero contrast",
+      "protocol_identification": "sheet gain is the monitored complementary sine leg"
+    },
+    "R12_stopping_and_gain_bridge": {
+      "derived_continuation": "9/25",
+      "derived_record_gain": "4/5",
+      "derived_kappa": "9/25",
+      "tangent_metric": [
+        [
+          "26/25",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "Gaussian_calibration_retained_from_R12": true,
+      "Gaussian_calibration_derived_from_complement": false,
+      "protocol_identification": "R12 record gain equals native QTP sine amplitude"
+    }
+  },
+  "preserved_evidence": {
+    "R1_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "c1b24ba12cb54af5d33ce443af0691165ccab8d40e345f3c2afc84669e9cea34",
+      "paths_checked": 4,
+      "all_hashes_match": true
+    },
+    "R2_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "f6051c6baec50f124ec5ac3ab7adc6e82dbba47f77571b590a72927de60d83e5",
+      "paths_checked": 4,
+      "all_hashes_match": true
+    },
+    "R3_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "0b48e868e53dd429100fdf15b81240d1b9cddf12e10b856d05f8f319a72ca2dd",
+      "paths_checked": 8,
+      "all_hashes_match": true
+    },
+    "R4_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_SOURCE_BRIDGE_CHECKS",
+      "record_sha256": "1b646bf98c396af0404381f5c23564f94d05b80b0c5d1fb19332a4848fbb6dbb",
+      "paths_checked": 10,
+      "all_hashes_match": true
+    },
+    "R5_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_PROFILE_RECOVERY_CHECKS",
+      "record_sha256": "525ebbf96054046177617f82fa84162fff51d8116251344770c01df5f376cf63",
+      "paths_checked": 15,
+      "all_hashes_match": true
+    },
+    "R6_VERIFICATION": {
+      "recorded_status": "PASS_CERTIFIED_INTERVAL_PROFILE_CHECKS",
+      "record_sha256": "ec53dfbd8d7c2fab225c3d5f5d2f2cdb73435d0bb3f74420f5baa9ed16a2f53d",
+      "paths_checked": 15,
+      "all_hashes_match": true
+    },
+    "R7_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_TYPED_EMK_TENSOR_CHECKS",
+      "record_sha256": "063dd9abc530a102867597dab47d1eb8701c91b2505a1d4877d51ffce53bc25a",
+      "paths_checked": 14,
+      "all_hashes_match": true
+    },
+    "R8_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_CURVATURE_OBSERVATION_CERTIFICATES",
+      "record_sha256": "76e9704e7177772ff053fa424c7772468a6537f380d2994c14511b3641100af8",
+      "paths_checked": 18,
+      "all_hashes_match": true
+    },
+    "R9_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_NATIVE_CURVATURE_BALANCE",
+      "record_sha256": "5670d64a389a7c9488bf6cf614a37baf3804a5ce31bfc3ecec5defd2fc075cee",
+      "paths_checked": 20,
+      "all_hashes_match": true
+    },
+    "R10_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_NATIVE_CURVATURE_DESCENT",
+      "record_sha256": "864d0db362c4fd85afd7ef3fc209ec699b2f3e4fe0063577831894c8024c8edd",
+      "paths_checked": 22,
+      "all_hashes_match": true
+    },
+    "R11_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_SPECTRAL_CURVATURE_OBSERVER",
+      "record_sha256": "e8ec82efdd42e5ae6b6fac9e01e3d95df9b7d986505530daaf1b7078487f4dec",
+      "paths_checked": 24,
+      "all_hashes_match": true
+    },
+    "R12_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_OBSERVER_METRIC_FOUNDATION",
+      "record_sha256": "bbf94213c61cdd1158dc3c4a6c5ce19ac56efe35f58649fe86409a41647ff8bf",
+      "paths_checked": 27,
+      "all_hashes_match": true
+    },
+    "EMK_MASTER_REVIEW_VERIFICATION": {
+      "recorded_status": "PASS_REPRODUCIBLE_EMK_MASTER_REVIEW_WITH_THREE_FINDINGS",
+      "record_sha256": "420189bb4c06a8db74c9a12081334058a8245021fdcd93683b8e820565f5f40c",
+      "paths_checked": 3,
+      "all_hashes_match": true
+    }
+  },
+  "claim_levels": {
+    "written_hidden_elimination_and_norm_selection_proofs": true,
+    "written_completed_native_binary_metric_realization": true,
+    "native_rewrite_certificates": true,
+    "exact_finite_rational_checks": true,
+    "new_Lean_formalization": false,
+    "external_peer_review": false,
+    "physical_experiment": false
+  },
+  "selection_boundary": {
+    "hidden_force_and_memory_derived_from_native_blocks": true,
+    "noise_covariance_derived_in_balanced_unit_preparation": true,
+    "event_law_derived_from_additive_norm_readout": true,
+    "native_binary_meter_likelihood_and_variance_derived": true,
+    "R12_metric_equation_realized_without_Gaussian_noise": true,
+    "matched_native_sheet_gain_and_stopping_derive_kappa_cosine_squared": true,
+    "native_preparation_phase_cut_and_detector_policy_are_specified": true,
+    "binary_seam_state_scope": "anchored zero contrast",
+    "ordinary_complement_noise_is_independent_in_time_or_Gaussian": false,
+    "coherent_retention_has_the_monitored_geometric_event_law": false,
+    "all_noise_is_proved_to_be_hidden_memory": false,
+    "norm_probabilities_recover_signed_orientation": false,
+    "original_R12_Gaussian_experiment_rewritten": false,
+    "integer_sheet_memory_equals_complementary_state_amplitude": false,
+    "universal_physical_phase_metric_clock_or_signature_selected": false
+  },
+  "sha256": {
+    "4ways.tex": "ace9e45fedf6154f2d872ae762c47a1d852ff93a373f6e30d99c33031cdf8234",
+    "02-relational-response/COMPLEMENT_MEMORY_NOISE_R13.md": "18f8e00f8f0d89482daea53af78deb66b688a745933e7faf0c8cb9d199b3a516",
+    "04-operator-evolution/complement_memory_noise.py": "dfbfa940ba8d740fa3c69f02c8f58f374ce92329dc78cc799748f303b9783d4a",
+    "04-operator-evolution/test_complement_memory_noise.py": "7ea12154d1eccfeecbda6565303b83cdd2e16e77ae51613d73674faa769a5832",
+    "04-operator-evolution/r13_native_complement_probe.cjs": "250a9901294ea726a17f159f33064df76f9d7c6a6172145dd326478c77afe0b2",
+    "04-operator-evolution/verify_r13.py": "f4c2f97a86daa609ced2f169aac29780688b569dfafe85edc9ebaf6e16824a4d",
+    "04-operator-evolution/R13_SOURCE_PINS.json": "4f01c4dad7c51ecd7a7af0456cf6decd795d2b27b13815b8f6e32e43cc9edf75",
+    "04-operator-evolution/R13_NATIVE_CERTIFICATE.json": "7c2d21f8e7b64978d8039d4e3f28cf882be9b355741a69ce8b80981b9b562dd2",
+    "04-operator-evolution/verify_r11.py": "5406faa28da4223e9849b98ba03f841737a48a0b34fb85b7d341ec8a18ed4499",
+    "04-operator-evolution/aghora_return.py": "17e1bb9681f9d5e766c4f294765c1273ba6716a64e8d125196fd36f10fb06e7c",
+    "04-operator-evolution/emk_tensor_calculus.py": "04d0e4d3754c165a0c54a2c40b837530d56780048732b168c95dfe1cca07887e",
+    "04-operator-evolution/emk_curvature_observation.py": "91059138ba60d02a7da154692e51af15dd0ed5461598ee6b80564de0639e6a62",
+    "04-operator-evolution/emk_curvature_balance.py": "6c922c02ea4681e7e3b6abe3b842e876b73e2324f15b78ac1ed79b5bcfc969ec",
+    "04-operator-evolution/native_curvature_descent.py": "0398d844b7675e97d3d1b99507421ee5c4370b1cbc611cbb1827428d789a50a4",
+    "04-operator-evolution/spectral_curvature_observer.py": "6c1b067f8b7ac137d61a43871d7962fc6758f4a33bed30ebeb6f721063e641c6",
+    "04-operator-evolution/observer_metric_foundation.py": "d6ba25b514db4ff058b83c8dc5b7f4f0b341a4c6a2294f6a666b4d93f09ff8fd",
+    "04-operator-evolution/R1_VERIFICATION.json": "c1b24ba12cb54af5d33ce443af0691165ccab8d40e345f3c2afc84669e9cea34",
+    "04-operator-evolution/R2_VERIFICATION.json": "f6051c6baec50f124ec5ac3ab7adc6e82dbba47f77571b590a72927de60d83e5",
+    "04-operator-evolution/R3_VERIFICATION.json": "0b48e868e53dd429100fdf15b81240d1b9cddf12e10b856d05f8f319a72ca2dd",
+    "04-operator-evolution/R4_VERIFICATION.json": "1b646bf98c396af0404381f5c23564f94d05b80b0c5d1fb19332a4848fbb6dbb",
+    "04-operator-evolution/R5_VERIFICATION.json": "525ebbf96054046177617f82fa84162fff51d8116251344770c01df5f376cf63",
+    "04-operator-evolution/R6_VERIFICATION.json": "ec53dfbd8d7c2fab225c3d5f5d2f2cdb73435d0bb3f74420f5baa9ed16a2f53d",
+    "04-operator-evolution/R7_VERIFICATION.json": "063dd9abc530a102867597dab47d1eb8701c91b2505a1d4877d51ffce53bc25a",
+    "04-operator-evolution/R8_VERIFICATION.json": "76e9704e7177772ff053fa424c7772468a6537f380d2994c14511b3641100af8",
+    "04-operator-evolution/R9_VERIFICATION.json": "5670d64a389a7c9488bf6cf614a37baf3804a5ce31bfc3ecec5defd2fc075cee",
+    "04-operator-evolution/R10_VERIFICATION.json": "864d0db362c4fd85afd7ef3fc209ec699b2f3e4fe0063577831894c8024c8edd",
+    "04-operator-evolution/R11_VERIFICATION.json": "e8ec82efdd42e5ae6b6fac9e01e3d95df9b7d986505530daaf1b7078487f4dec",
+    "04-operator-evolution/R12_VERIFICATION.json": "bbf94213c61cdd1158dc3c4a6c5ce19ac56efe35f58649fe86409a41647ff8bf",
+    "04-operator-evolution/EMK_MASTER_REVIEW_VERIFICATION.json": "420189bb4c06a8db74c9a12081334058a8245021fdcd93683b8e820565f5f40c"
+  }
+}

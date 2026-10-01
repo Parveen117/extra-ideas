@@ -26,7 +26,19 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Follow [R12](../02-relational-response/OBSERVER_METRIC_FOUNDATION_R12.md): the allowed event experiment derives its future observer and metric through a positive Stein selection equation. Next justify the response/noise/event contract from a specific native sector and carry the derived metric through the full R10 connection law. Keep R11 marker reading and transport intervention distinct, and retain the upstream master-review corrections.
+Follow [R13](../02-relational-response/COMPLEMENT_MEMORY_NOISE_R13.md): complementary transport now generates memory and endogenous covariance, and native norm-weighted binary records realize the observer/metric equation. Next match the preparation, monitoring policy and record coupling to an actual native source and test its colored-force, event and recovery predictions. Preserve signed information and the complete R10 connection contract.
+
+## R13 complementary memory/noise certificates
+
+[complement_memory_noise.py](complement_memory_noise.py) implements exact block elimination, complementary covariance, balanced unit preparations, hidden-state recovery, native first-exit weights, event Fisher information and a non-Gaussian binary realization of the completed seam metric. [r13_native_complement_probe.cjs](r13_native_complement_probe.cjs) calls the unchanged KIR presentation and N03 engine for 11 algebra replays and three observer completions.
+
+~~~bash
+python3.12 -B 04-operator-evolution/verify_r13.py \
+  --publications-root ../Publications \
+  --rkf-root ../Recognition-Kernel-Framework
+~~~
+
+[R13_VERIFICATION.json](R13_VERIFICATION.json) binds 31 exact tests, six rejected mathematical mutations, three rejected native alterations and unchanged R1–R12/master evidence. See the [proof](../02-relational-response/COMPLEMENT_MEMORY_NOISE_R13.md), [pins](R13_SOURCE_PINS.json) and [native packet](R13_NATIVE_CERTIFICATE.json). Native binary likelihood replaces the need for Gaussian noise in this construction; coherent retention and monitored reset remain distinct protocols.
 
 ## R12 observer/metric selection certificates
 

@@ -44,7 +44,7 @@
       "standalone_document": false
     }
   ],
-  "status": "R12: a native event experiment jointly derives its future observer quotient and unique tagged operational metric; balanced nilpotent sheet cost derives the positive quadratic EMK-G1 warp and its metric jets.",
+  "status": "R13: complementary native transport derives memory, endogenous covariance and norm-weighted event data; native balanced binary meters realize the observer/metric foundation without Gaussian noise, with matched seam kappa=cosine^2.",
   "repository": "Parveen117/extra-ideas",
   "visibility": "public",
   "developments": [
@@ -523,6 +523,70 @@
       "general_Fisher_Stein_or_observer_theorems_newly_discovered": false,
       "new_Lean_formalization": false,
       "physical_validation": false
+    },
+    {
+      "id": "R13",
+      "date": "2026-10-01",
+      "title": "Complementary native memory generates noise, events and information geometry",
+      "proof": "02-relational-response/COMPLEMENT_MEMORY_NOISE_R13.md",
+      "implementation": "04-operator-evolution/complement_memory_noise.py",
+      "native_adapter": "04-operator-evolution/r13_native_complement_probe.cjs",
+      "verifier": "04-operator-evolution/verify_r13.py",
+      "verification": "04-operator-evolution/R13_VERIFICATION.json",
+      "native_certificate": "04-operator-evolution/R13_NATIVE_CERTIFICATE.json",
+      "source_pins": "04-operator-evolution/R13_SOURCE_PINS.json",
+      "test_count": 31,
+      "validation_status": "PASS_EXACT_COMPLEMENT_MEMORY_NOISE_FOUNDATION",
+      "finite_case_counts": {
+        "native_rotation_charts": 12,
+        "full_vs_reduced_rotation_histories": 36,
+        "hidden_component_recoveries": 108,
+        "first_exit_branch_norm_checks": 72,
+        "independent_QTH_rotating_readout_comparisons": 12,
+        "independent_QTH_binary_score_evaluations": 27,
+        "non_Gaussian_seam_parameter_cases": 12,
+        "finite_waiting_moment_tail_checks": 5,
+        "finite_event_tail_ledgers": 7,
+        "multi_hidden_feedback_modes": 2,
+        "native_observer_catalogues": 3
+      },
+      "native_equalities_replayed": 10,
+      "native_distinctness_replays": 1,
+      "canonical_observer_completions": 3,
+      "math_mutations_rejected": 6,
+      "native_alterations_rejected": 3,
+      "canonical_engine_home": "Parveen117/Recognition-Kernel-Framework/operator_foundation",
+      "source_runtime_reused_unchanged": true,
+      "engine_implementation_copied": false,
+      "results": [
+        "Exact block elimination gives visible memory B D^lag C and complementary initial force B D^n z0.",
+        "A balanced native unit-norm preparation derives colored covariance s^2*c^(n+m)*(1-x0^2) with no independent variance.",
+        "The observed cut commutator [P,T]=-sK, its square, norm leakage and first return share the same complementary amplitude.",
+        "Additive native norm branch weights derive monitored continuation r=c^2 and first-exit law s^2*c^(2k).",
+        "The native binary event and first-exit likelihoods derive angular Fisher information 4 and 4/s^2.",
+        "Balanced native binary product meters generate their own likelihood and origin covariance, realizing the completed R12 metric without Gaussian noise.",
+        "Matched sheet gain s and stopping r=c^2 derive seam kappa=c^2 and its metric jets.",
+        "Signed recovery, colored temporal rank, non-Gaussian moments and coherent/reset distinctions are explicitly certified."
+      ],
+      "assumptions": [
+        "admitted positive native cut-amplitude chart and lawful invertible transports",
+        "specified visible/complementary cut and known unit-norm balanced preparation",
+        "nonnegative additive branch-norm weights interpreted as event frequencies",
+        "monitored first-exit policy distinguished from coherent retention",
+        "product preparation of balanced native binary meters and normalized contrast coordinates",
+        "matched sheet gain equal to the monitored sine leg",
+        "anchored zero contrast and admitted tangent chart"
+      ],
+      "noise_memory_and_event_data_derived_within_native_construction": true,
+      "non_Gaussian_R12_metric_realization": true,
+      "all_noise_is_proved_to_be_hidden_memory": false,
+      "universal_physical_preparation_phase_or_detector_policy_selected": false,
+      "universal_metric_clock_or_signature_selected": false,
+      "recorded_R1_R12_and_master_review_hashes_preserved": true,
+      "general_Mori_Zwanzig_projection_or_Fisher_theorems_newly_discovered": false,
+      "original_R12_Gaussian_experiment_rewritten": false,
+      "new_Lean_formalization": false,
+      "physical_validation": false
     }
   ],
   "lineage_assessment": "CROSS_REPO_LINEAGE.md",
@@ -551,5 +615,6 @@
   "r9_lineage_addendum": "02-relational-response/CURVATURE_BALANCE_R9.md#8-evidence-lineage-and-reproduction",
   "r10_lineage_addendum": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md#source-and-result-lineage",
   "r11_lineage_addendum": "02-relational-response/SPECTRAL_CURVATURE_OBSERVER_R11.md#source-links-and-reading-scope",
-  "r12_lineage_addendum": "02-relational-response/OBSERVER_METRIC_FOUNDATION_R12.md#9-certification-and-lineage"
+  "r12_lineage_addendum": "02-relational-response/OBSERVER_METRIC_FOUNDATION_R12.md#9-certification-and-lineage",
+  "r13_lineage_addendum": "02-relational-response/COMPLEMENT_MEMORY_NOISE_R13.md#9-evidence-and-lineage"
 }

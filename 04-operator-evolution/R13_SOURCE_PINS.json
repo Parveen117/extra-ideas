@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "development": "R13",
+  "date": "2026-10-01",
+  "scope": "Complement-generated native memory, endogenous covariance, norm-selected event law and non-Gaussian realization of the observer/metric selection equation",
+  "extra_ideas_parent_commit": "ef46d451adf9913c801c394b49bf7f598f52bd43",
+  "publications": {
+    "repository": "Parveen117/Publications",
+    "commit": "e1dc4e3773f063f14e56cf30222c8e8a504519cd",
+    "files": [
+      {
+        "path": "papers/emk-ugd-algebra/certificates/emk2_native_carrier.py",
+        "git_blob_sha": "eaf3c3f65476f37165c75031fcd6cfb2cb66f710",
+        "sha256": "49d8548e7e3ccc2ce77bdc0f5a317b737f3bd37dc4d9e1f90c9f87852c37d1c0",
+        "runtime_required": true
+      },
+      {
+        "path": "papers/curvature-information-duality/certificates/qth1_quantum_recognition_information.py",
+        "git_blob_sha": "20e39eee4a4fb31b74b4f4b4b9be9feb05ffd868",
+        "sha256": "f661838ae5c169bb80c51e281e4252f1e3be55d51e2e488c23bc12a93a9bd4f6",
+        "runtime_required": true
+      }
+    ],
+    "runtime_modules": {
+      "carrier": "papers/emk-ugd-algebra/certificates/emk2_native_carrier.py",
+      "quantum": "papers/curvature-information-duality/certificates/qth1_quantum_recognition_information.py"
+    }
+  },
+  "rkf": {
+    "repository": "Parveen117/Recognition-Kernel-Framework",
+    "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+    "files": [
+      {
+        "path": "operator_foundation/core/dependency_gate.cjs",
+        "git_blob_sha": "88a1143c62bdc28ec4ffc9a17752a6209ba78be8",
+        "sha256": "9a3bbecd03c159536dc17ca827d24d6e644d527adbf6da332460efbb45dbc8d1",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/native_laurent.cjs",
+        "git_blob_sha": "f3d18833fb6ced3b154182f57c1f54eb9bc975c7",
+        "sha256": "fc84abf52311f89ee3a7bb8c6883412e5f64a65812b0031804b44a2e660c0c8a",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/native_operator.cjs",
+        "git_blob_sha": "7b188defee82aa0edafc586eb3091baf0ceb6900",
+        "sha256": "304963cccf4320d76dd36147e5c15ad579e9d0496c86fb1f942543bc692e06a3",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/native_paths.cjs",
+        "git_blob_sha": "6222f41d35d18ebcda1223fc08b29398dd39df52",
+        "sha256": "cc59550c541c078a8b4643e8602691e147179db780e232a53162f604e812e14f",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/paninian_operator.cjs",
+        "git_blob_sha": "39d0cc2d2c0b42db319b02f4cd29c045910edbbc",
+        "sha256": "9a30c72f4e89d0a15697c99095ed8e0f015bb8c64fda4ded9897394945886fd8",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/workbench.cjs",
+        "git_blob_sha": "b9c8579e0c301b17c96bfe96320f88aa9723dded",
+        "sha256": "c12a3138cc326604a1149bc306b8cc338b9e9161516b610504ddbc7d59a1ea6d",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+        "git_blob_sha": "86366ede2f152f19cbdf0d1dbf06b2e4c0971dad",
+        "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5",
+        "runtime_required": false
+      },
+      {
+        "path": "operator_foundation/examples/emk_job.json",
+        "git_blob_sha": "7a6eb17ecc8ddefc145645cd9bbfdf66361c6ecb",
+        "sha256": "fd3c9e50cb51050acb9c36b3123fbc4664870c621e5d73bb8763b1050b30c763",
+        "runtime_required": true
+      }
+    ]
+  },
+  "canonical_engine_home": "Parveen117/Recognition-Kernel-Framework/operator_foundation",
+  "foundation_registers_read": [
+    "AGENTS.md",
+    "MATHEMATICS_INDEX.md",
+    "MATHEMATICS_INDEX_2026_09_16.md",
+    "operator_foundation/CANONICAL_HOME.json",
+    "operator_foundation/README.md",
+    "operator_foundation/theory/NATIVE_PRIMITIVE_ORDER.md",
+    "operator_foundation/theory/01_NATIVE_ALGEBRA.md"
+  ],
+  "native_contract_input_sha256": "73de3a0243e9e1113ee7c237c4917725cd460f2b28446e5f6100482bb858fa78",
+  "mathematical_lineage": [
+    "Existing EMK-2 even/odd carrier and native Cayley chart",
+    "Existing native N06 compression memory and N03 minimum observer",
+    "Block hidden-state elimination; established Mori-Zwanzig memory/noise structure",
+    "Existing QTH-1 projective classical Fisher score",
+    "R12 positive Stein selection reused with a native binary likelihood"
+  ],
+  "external_primary_references": [
+    {
+      "title": "Transport, Collective Motion, and Brownian Motion",
+      "author": "Hazime Mori",
+      "year": 1965,
+      "doi": "10.1143/PTP.33.423",
+      "url": "https://academic.oup.com/ptp/article/33/3/423/1925580",
+      "reading_scope": "publisher abstract; historical memory/random-force lineage only"
+    },
+    {
+      "title": "A Priori Estimation Of Memory Effects In Coarse-Grained Nonlinear Systems Using The Mori-Zwanzig Formalism",
+      "authors": [
+        "Ayoub Gouasmi",
+        "Eric Parish",
+        "Karthik Duraisamy"
+      ],
+      "arxiv": "1611.06277v2",
+      "url": "https://arxiv.org/abs/1611.06277v2",
+      "reading_scope": "primary abstract; projected memory/noise and exact linear case only"
+    }
+  ],
+  "selection_inputs": [
+    "native rotation phase in a positive cut-amplitude chart",
+    "specified visible/complementary cut and preparation",
+    "known unit norm plus branch-exchange balance for the hidden pair",
+    "additive nonnegative norm branch weights interpreted as event frequencies",
+    "monitored first-exit policy versus coherent retention",
+    "product preparation of balanced native binary meters",
+    "matched sheet gain equal to the monitored complementary sine leg",
+    "anchored tangent chart"
+  ],
+  "selection_outputs": [
+    "exact deterministic hidden-elimination memory and force",
+    "hidden-pair covariance without an independent noise parameter",
+    "norm-weighted continuation r=cosine^2 and exit=sine^2",
+    "binary and complete-event Fisher information",
+    "non-Gaussian realization of the completed R12 metric equation",
+    "matched seam kappa=cosine^2"
+  ],
+  "external_Gaussian_noise_required_for_binary_realization": false,
+  "all_noise_is_proved_to_be_hidden_memory": false,
+  "initial_preparation_or_rotation_phase_selected_for_nature": false,
+  "native_norm_weight_axioms_prove_every_physical_detector_follows_them": false,
+  "integer_sheet_memory_identified_with_the_complementary_state_mode": false,
+  "original_R12_Gaussian_experiment_rewritten": false,
+  "private_vault_bodies_published": false,
+  "upstream_engine_implementation_copied_or_edited": false
+}

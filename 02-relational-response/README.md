@@ -22,7 +22,11 @@ For a proposed Jacobian, check the compatibility conditions needed for it to ari
 
 ## Next target
 
-Continue from the existing EMK master and [R12](OBSERVER_METRIC_FOUNDATION_R12.md). A native event experiment now derives the future observer quotient, operational metric and positive quadratic seam warp together. Next select its preparation, noise likelihood and event law from a specific native response sector, rather than introduce an independent metric. Retain the [master review](EMK_MASTER_TENSOR_REVIEW.md) corrections, R11's reading/intervention distinction and R10's complete connection descent gate.
+Continue from [R13](COMPLEMENT_MEMORY_NOISE_R13.md), which derives endogenous noise, event weights and a native binary realization of the observer/metric foundation. Next identify its native preparation and monitoring policy in a specific response sector, and compare the predicted colored covariance, exit weights and signed recovery against that source. Keep the original R12 likelihood, R11 reading/intervention distinction, R10 connection descent and upstream master-review corrections explicit.
+
+## R13 complementary noise and native event information
+
+[COMPLEMENT_MEMORY_NOISE_R13.md](COMPLEMENT_MEMORY_NOISE_R13.md) derives visible memory and unresolved force by exact complementary-state elimination. Known unit norm plus native exchange balance fixes the hidden covariance; monitored norm readout gives \(r=\cos^2\theta\). Native balanced binary records realize the completed metric without Gaussian noise, with a matched seam warp \(\kappa=\cos^2\theta\). [R13_VERIFICATION.json](../04-operator-evolution/R13_VERIFICATION.json) records 31 exact tests, 11 native replays, three observer completions and nine rejected alterations. This retains orientation-sensitive responses and separates coherent transport from intermediate cut/reset.
 
 ## R12 observer and metric foundation
 
