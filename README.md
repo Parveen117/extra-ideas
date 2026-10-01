@@ -17,7 +17,11 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
-## Latest development: R7 EMK tensor foundation before physics
+## Latest review: the existing EMK master and advanced results
+
+The [EMK master tensor review](02-relational-response/EMK_MASTER_TENSOR_REVIEW.md) corrects the earlier roadmap: master/time, metric/Christoffel/Riemann, holonomy/sheet memory, information tensor and finite cohomology results already exist in the connected repositories. All 191 tests across eight public certificate families pass. Three additional checks identify a deck/compensator sign mismatch, a missing nondegenerate-domain condition, and a determinant-factor interpretation that needs correction. The [review verifier](04-operator-evolution/verify_emk_master_review.py) and [record](04-operator-evolution/EMK_MASTER_REVIEW_VERIFICATION.json) reproduce these findings against unchanged sources. Next development should reconcile and extend the existing master.
+
+## R7: typed tensors on an admitted EMK carrier
 
 [R7: A typed tensor foundation for EMK](02-relational-response/EMK_TENSOR_CALCULUS_R7.md) develops tensor algebra, transport, derivatives, seam blocks, finite integration, curvature and metric compatibility on the existing native KIR carrier. The [Vault source audit](02-relational-response/EMK_VAULT_SOURCE_AUDIT_R7.md) distinguishes existing work, corrected claims and remaining assumptions. It indexes 143 source files, including all 43 recovered EMK core LaTeX files, with explicit reading depth rather than claiming every file was read in full.
 
@@ -27,13 +31,13 @@ Three load-bearing distinctions are now precise:
 - On the standard real two-mode carrier, both continuous R and K flows cannot preserve a nonzero fixed symmetric metric. Their shared traceless transport preserves an alternating area form; metric selection remains a separate task.
 - Tensor return, full carrier return and independent sheet winding are different closure checks.
 
-The [exact implementation](04-operator-evolution/emk_tensor_calculus.py) passes 16 focused tests, including all 30 rank/variance signatures at ranks 1–4. Three unchanged public EMK source modules are consumed directly. The verifier also preserves all recorded R1–R6 hashes:
+The fixed-metric obstruction concerns that standard two-mode continuous action; it does not exclude the existing EMK geometry or information metrics. The [exact implementation](04-operator-evolution/emk_tensor_calculus.py) passes 16 focused tests, including all 30 rank/variance signatures at ranks 1–4. Three unchanged public EMK source modules are consumed directly. The verifier also preserves all recorded R1–R6 hashes:
 
 ```bash
 python3.12 -B 04-operator-evolution/verify_r7.py --publications-root ../Publications
 ```
 
-See [source pins](04-operator-evolution/R7_SOURCE_PINS.json) and [verification evidence](04-operator-evolution/R7_VERIFICATION.json). Classical tensor/bundle calculus already has rotation and holonomy; R7 specifies the EMK representation and recognition/ledger policy rather than claiming those general operations are new. The next foundation step is native direction/soldering and metric policy before torsion/Ricci and physical applications.
+See [source pins](04-operator-evolution/R7_SOURCE_PINS.json) and [verification evidence](04-operator-evolution/R7_VERIFICATION.json). Classical tensor/bundle calculus already has rotation and holonomy; R7 specifies the EMK representation and recognition/ledger policy rather than claiming those general operations are new. Follow the [master review](02-relational-response/EMK_MASTER_TENSOR_REVIEW.md) to connect this admitted carrier to existing RTC and metric sectors before choosing further extensions.
 
 ## R6 recovery with coefficient error bars
 

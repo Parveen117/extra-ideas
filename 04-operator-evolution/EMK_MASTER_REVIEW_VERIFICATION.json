@@ -1,0 +1,162 @@
+{
+  "certificate_pins": [
+    {
+      "family": "CID1",
+      "matches": true,
+      "sha256": "f2fb93395131daf86a2075e54f1c1b8cb1bf17a10a2adc5f5a0f802543e1f2fc"
+    },
+    {
+      "family": "QTH1",
+      "matches": true,
+      "sha256": "002f4f892c2f048227f97523dbbc508d5884fea64f828109f30ff3b00c49a40c"
+    },
+    {
+      "family": "EMKG1",
+      "matches": true,
+      "sha256": "4e5ab6dcace0a5b5c7849cd11687d9d4f8f24099d15528aa3cdc83ceed538cdb"
+    },
+    {
+      "family": "EMKG2",
+      "matches": true,
+      "sha256": "a0f67290363841361aae5e64223ed4fece583fdc478f75b8bbd86a8f1626462e"
+    },
+    {
+      "family": "EMKG3",
+      "matches": true,
+      "sha256": "b9439313f184de6696547394c96b4b510691b99729a0ce01f9d4749a154481f7"
+    },
+    {
+      "family": "EMKT1",
+      "matches": true,
+      "sha256": "99149411bd77ea294232c897a8e3ba4b42040cf09aed2e4e6add4433532bf1fd"
+    },
+    {
+      "family": "EMKT2",
+      "matches": true,
+      "sha256": "f85722c150aea6d15bf97d1ec60d70beff8e21f7e979fb5668192ea019fc0e1f"
+    },
+    {
+      "family": "EMKTOP1",
+      "matches": true,
+      "sha256": "1262b38bb75a6d1c5c7a584c076118ba26588c0c6afe0aad1c026e4af475287d"
+    }
+  ],
+  "checked_rkf_context_files": 4,
+  "findings": {
+    "EMKG2_T5": {
+      "A_at_minus_one_zero_one": [
+        "-1",
+        "1",
+        "-1"
+      ],
+      "c": "-2",
+      "finding": "A vanishes inside this rectangle; formal polynomial agreement does not establish Levi-Civita holonomy across a degenerate metric.",
+      "formal_area_integral": "16",
+      "formal_boundary_integral": "16",
+      "minimal_repair": "Restrict geometric holonomy checks to a declared nondegenerate region, here A>0.",
+      "v_interval": [
+        "-1",
+        "1"
+      ]
+    },
+    "EMKG3_T2": {
+      "actual_deck_compensated_sigma_after": "-4/5",
+      "actual_deck_compensated_sigma_before": "0",
+      "drift": "-4/5",
+      "existing_certificate_reports": "PASS",
+      "finding": "Inverse deck and forward compensation use opposite signs.",
+      "minimal_repair": "Keep inverse deck; phi_hat=(phi+p_phi*u) mod K, sigma_hat=sigma+p_sigma*u.",
+      "repair_exact_checks": 189
+    },
+    "EMKT1_T6": {
+      "commuting_transport": "2I",
+      "coupling_factor": "1/4",
+      "finding": "The inverse transport determinant is not a noncommutativity diagnostic; its arithmetic is correct.",
+      "noncommuting_determinant_one_transport_coupling_factor": "1"
+    }
+  },
+  "preserved_revisions": {
+    "R1": {
+      "all_recorded_hashes_match": true,
+      "files_checked": 4
+    },
+    "R2": {
+      "all_recorded_hashes_match": true,
+      "files_checked": 4
+    },
+    "R3": {
+      "all_recorded_hashes_match": true,
+      "files_checked": 8
+    },
+    "R4": {
+      "all_recorded_hashes_match": true,
+      "files_checked": 10
+    },
+    "R5": {
+      "all_recorded_hashes_match": true,
+      "files_checked": 15
+    },
+    "R6": {
+      "all_recorded_hashes_match": true,
+      "files_checked": 15
+    },
+    "R7": {
+      "all_recorded_hashes_match": true,
+      "files_checked": 14
+    }
+  },
+  "publications_commit": "e1dc4e3773f063f14e56cf30222c8e8a504519cd",
+  "review_date": "2026-10-01",
+  "runner": "stdlib unittest.FunctionTestCase on unchanged no-argument upstream test functions",
+  "sha256": {
+    "02-relational-response/EMK_MASTER_TENSOR_REVIEW.md": "41f8a2760fc40e1a86af85d6179e66c73693edf7cdcc5daa629ff1fe8c93fbd8",
+    "04-operator-evolution/EMK_MASTER_REVIEW_SOURCE_PINS.json": "0cde2e63fab799dd4a23aa15b022d6c3a44f2338a1fa4eb76ae2fa8424a38915",
+    "04-operator-evolution/verify_emk_master_review.py": "a7beaea3634f2f2794e1c506cff9cebe3803f0b71e8e715c999108374d93ff67"
+  },
+  "status": "PASS_REPRODUCIBLE_EMK_MASTER_REVIEW_WITH_THREE_FINDINGS",
+  "suites": [
+    {
+      "passed": true,
+      "path": "papers/curvature-information-duality/tests/test_cid1.py",
+      "tests": 20
+    },
+    {
+      "passed": true,
+      "path": "papers/curvature-information-duality/tests/test_qth1.py",
+      "tests": 29
+    },
+    {
+      "passed": true,
+      "path": "papers/emk-recognition-geometry/tests/test_emkg1.py",
+      "tests": 20
+    },
+    {
+      "passed": true,
+      "path": "papers/emk-recognition-geometry/tests/test_emkg2.py",
+      "tests": 29
+    },
+    {
+      "passed": true,
+      "path": "papers/emk-recognition-geometry/tests/test_emkg3.py",
+      "tests": 27
+    },
+    {
+      "passed": true,
+      "path": "papers/emk-ugd-algebra/tests/test_emkt1.py",
+      "tests": 21
+    },
+    {
+      "passed": true,
+      "path": "papers/emk-ugd-algebra/tests/test_emkt2.py",
+      "tests": 16
+    },
+    {
+      "passed": true,
+      "path": "papers/recognition-seam-topology/tests/test_emktop1.py",
+      "tests": 29
+    }
+  ],
+  "total_upstream_tests": 191,
+  "unchanged_publications_files": 43,
+  "upstream_repairs_applied": false
+}

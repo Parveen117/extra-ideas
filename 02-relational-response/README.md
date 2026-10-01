@@ -22,7 +22,7 @@ For a proposed Jacobian, check the compatibility conditions needed for it to ari
 
 ## Next target
 
-Develop the foundation before physical response laws. [R7](EMK_TENSOR_CALCULUS_R7.md) supplies typed E/M pairing, tensor increments, lawful product coupling, ordered integration and curvature. Its [Vault audit](EMK_VAULT_SOURCE_AUDIT_R7.md) identifies the missing bridge/metric assumptions in older proposals. The next step is a native direction/soldering rule and compatible metric policy, then torsion/Ricci on that admitted sector.
+Continue from the existing EMK master before physical response laws. The [master review](EMK_MASTER_TENSOR_REVIEW.md) credits the already developed tensor/time, metric/curvature, holonomy, information and topology layers, and identifies three specific consistency corrections. [R7](EMK_TENSOR_CALCULUS_R7.md) supplies typed E/M pairing, tensor increments, ordered integration and curvature on one admitted carrier. Connect that realization to the existing RTC and metric sectors, then extend operations outside their stated scope.
 
 Role in the four-route program: connect an algebraic or operator result to a quantity that can be compared across states or measured. See [the shared assessment](../ASSESSMENT.md).
 

@@ -26,7 +26,7 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Extend the [R7 tensor foundation](../02-relational-response/EMK_TENSOR_CALCULUS_R7.md) with a native direction/soldering rule, a metric policy and higher exterior operations before physical applications. KIR transport is already lifted to explicit tensor types; its finite group action and infinitesimal Lie action must remain distinct. The [lambda note](../03-lambda-reference/IDENTIFIABILITY.md) retains the separate selection obligation.
+Follow the [EMK master review](../02-relational-response/EMK_MASTER_TENSOR_REVIEW.md): reconcile the deck/compensator convention, holonomy domain and determinant interpretation, then connect [R7's admitted carrier](../02-relational-response/EMK_TENSOR_CALCULUS_R7.md) to the existing RTC, metric and topology layers. KIR transport is already lifted to explicit tensor types; its finite group action and infinitesimal Lie action must remain distinct. The [lambda note](../03-lambda-reference/IDENTIFIABILITY.md) retains the separate selection obligation.
 
 Role in the four-route program: the main calculation and proof tool. See [the shared assessment](../ASSESSMENT.md) for the other operator corrections.
 

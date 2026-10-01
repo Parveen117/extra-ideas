@@ -1,0 +1,250 @@
+{
+  "review_date": "2026-10-01",
+  "publications": {
+    "repository": "Parveen117/Publications",
+    "commit": "e1dc4e3773f063f14e56cf30222c8e8a504519cd",
+    "files": [
+      {
+        "path": "papers/curvature-information-duality/LINEAGE.md",
+        "git_blob_sha": "fa79135f248746644e52c5d9f808fa7f588abf5c",
+        "sha256": "cde78cd3d3eb6a998ef3706aba95bf03dbad5077d435c52c34f2ddadb081ccca"
+      },
+      {
+        "path": "papers/curvature-information-duality/README.md",
+        "git_blob_sha": "79ae551bc9591708a3ce277f9ef5236b7c40b8bc",
+        "sha256": "199cd8775ef5f3d5c5d4f8ec9dcc725e13dab9c730600d6d3845c64a53766fa2"
+      },
+      {
+        "path": "papers/curvature-information-duality/certificates/CID1_RESULT.json",
+        "git_blob_sha": "0e940fa9c76ffabf4cb585de43f26a1f8a2e4da9",
+        "sha256": "f2fb93395131daf86a2075e54f1c1b8cb1bf17a10a2adc5f5a0f802543e1f2fc"
+      },
+      {
+        "path": "papers/curvature-information-duality/certificates/EXPECTED_CID1.sha256",
+        "git_blob_sha": "64321f0ca309e9504cb2a4adba3853d09c331430",
+        "sha256": "96c07fd952e91c816794c8e13b69302c8240f578c7c5b65488d33ea261f1479c"
+      },
+      {
+        "path": "papers/curvature-information-duality/certificates/EXPECTED_QTH1.sha256",
+        "git_blob_sha": "f35fe7b28c9fee0e9f6374dde289da3c1ba6c17a",
+        "sha256": "296aaf7e801aef9b4660543cbb2c92bc0d244ed2ad28a45a652eaf913376cfb4"
+      },
+      {
+        "path": "papers/curvature-information-duality/certificates/QTH1_RESULT.json",
+        "git_blob_sha": "c0ae7a00016317e66879725850df5d9ce1f49bbf",
+        "sha256": "002f4f892c2f048227f97523dbbc508d5884fea64f828109f30ff3b00c49a40c"
+      },
+      {
+        "path": "papers/curvature-information-duality/certificates/cid1_curvature_information_duality.py",
+        "git_blob_sha": "26a53ac7ccaea524fee03f8a0a103a070f785303",
+        "sha256": "e4207d4d77ff71ff4014f05205f15600699fb516dc4ab7721f0fa07b3ba20186"
+      },
+      {
+        "path": "papers/curvature-information-duality/certificates/qth1_quantum_recognition_information.py",
+        "git_blob_sha": "20e39eee4a4fb31b74b4f4b4b9be9feb05ffd868",
+        "sha256": "f661838ae5c169bb80c51e281e4252f1e3be55d51e2e488c23bc12a93a9bd4f6"
+      },
+      {
+        "path": "papers/curvature-information-duality/tests/test_cid1.py",
+        "git_blob_sha": "0131127bdf1d268ce5f3eb5462fbf4957a91f52f",
+        "sha256": "b99e4d7f48f572686b01aad8b189f758c5f64ffb6180d5cd43c5a48144fe21ab"
+      },
+      {
+        "path": "papers/curvature-information-duality/tests/test_qth1.py",
+        "git_blob_sha": "34845a49d4d6097a57917c2fbeb1e908dde1ee89",
+        "sha256": "0b043f58a18998bfdf4135f8338c5e637e5380f99214c640792554a912021c12"
+      },
+      {
+        "path": "papers/cut-first-equivalence/certificates/cfe1_cut_first_equivalence.py",
+        "git_blob_sha": "57e86a8a63c1f736af0ab342678dbd367cc93ca9",
+        "sha256": "f8188dd6765a51bbe9e7ffa47faf947f8c367e5f6dcfe69a32c1f05e91f2c02a"
+      },
+      {
+        "path": "papers/cut-first-equivalence/certificates/cfeu_uniqueness.py",
+        "git_blob_sha": "32ddec99a86fd3021bae3446449900d72f22a1dd",
+        "sha256": "f4cce58ec424a5ce144cde6e8082c18e6fa5b3118bc2c297eaa04dbbe815c97b"
+      },
+      {
+        "path": "papers/emk-recognition-geometry/LINEAGE.md",
+        "git_blob_sha": "f64e6219962ebdb2a92eed0d0381714c358ff294",
+        "sha256": "5c88ebd72534023c25ccad572007240d3809dd083d658e01f1725894882cc0a8"
+      },
+      {
+        "path": "papers/emk-recognition-geometry/README.md",
+        "git_blob_sha": "5aa32e20b1b8c74cccff7aab2b07cb682b7eb8fd",
+        "sha256": "bb7559a21a236b6d6bb00e69740453078c88eef73dc184d6b882a9f205cfcfae"
+      },
+      {
+        "path": "papers/emk-recognition-geometry/certificates/EMKG1_RESULT.json",
+        "git_blob_sha": "60667aad784031dcd66ad2e9cf572bd102368d2d",
+        "sha256": "4e5ab6dcace0a5b5c7849cd11687d9d4f8f24099d15528aa3cdc83ceed538cdb"
+      },
+      {
+        "path": "papers/emk-recognition-geometry/certificates/EMKG2_RESULT.json",
+        "git_blob_sha": "d178bfe72e2018c9810dc03aa72f07874c7ae752",
+        "sha256": "a0f67290363841361aae5e64223ed4fece583fdc478f75b8bbd86a8f1626462e"
+      },
+      {
+        "path": "papers/emk-recognition-geometry/certificates/EMKG3_RESULT.json",
+        "git_blob_sha": "69658a32249551615053f564a4260ee7860a674a",
+        "sha256": "b9439313f184de6696547394c96b4b510691b99729a0ce01f9d4749a154481f7"
+      },
+      {
+        "path": "papers/emk-recognition-geometry/certificates/EXPECTED_EMKG1.sha256",
+        "git_blob_sha": "d11aacb165dd748e6de2ee2cc9737c6e5004e075",
+        "sha256": "4e0dd3a0b21f1f20d24c8ce10fa88f233cbd5da06499a6afa6411c67112e6c63"
+      },
+      {
+        "path": "papers/emk-recognition-geometry/certificates/EXPECTED_EMKG2.sha256",
+        "git_blob_sha": "e1bde1fc59914e00ae323d8712bf592cee202275",
+        "sha256": "4e17f4273bd198d765357e9bef2e0717ded1b15206657c4632b29298aeaad83c"
+      },
+      {
+        "path": "papers/emk-recognition-geometry/certificates/EXPECTED_EMKG3.sha256",
+        "git_blob_sha": "80abdd9e57a0db093df76423bfd4b5d42423717a",
+        "sha256": "de933075638dac49f1559a3ad29e4d4f3f47af816d9c582453f6f9a1e5b72123"
+      },
+      {
+        "path": "papers/emk-recognition-geometry/certificates/emkg1_rotational_seam_metric.py",
+        "git_blob_sha": "69891367970d4f4c4c8a37551a541e7029f5913f",
+        "sha256": "a0a3d503ed4f17a3f2398dbde4c408c90cdfa14e16e8a171178319ec38029ab1"
+      },
+      {
+        "path": "papers/emk-recognition-geometry/certificates/emkg2_global_quotient_holonomy.py",
+        "git_blob_sha": "2c9f48768c9bb38d9474d80ce88b72996147fbc9",
+        "sha256": "22110bf90e40ab838759fe34f12048417043404b8f8e04ccfa93704bca97fd1c"
+      },
+      {
+        "path": "papers/emk-recognition-geometry/certificates/emkg3_helical_sheet_memory.py",
+        "git_blob_sha": "a840a6827aa5853bbd8d3544ac44ac65c9ac42e5",
+        "sha256": "0a627fc63eb9b00b79871fdb0f4c39abdb0b9373c714a458badc6cb9dee9bb65"
+      },
+      {
+        "path": "papers/emk-recognition-geometry/tests/test_emkg1.py",
+        "git_blob_sha": "0673ebea9f0723ff2cab3349cc981c9862485b23",
+        "sha256": "644f9fd9ef522ec73e912ca8cc30c874be58762ec369dc5699e1d3023d44a833"
+      },
+      {
+        "path": "papers/emk-recognition-geometry/tests/test_emkg2.py",
+        "git_blob_sha": "5ca7f05202c561fa723b01694d3db0e263e79bb1",
+        "sha256": "d596fd638bdc74a46254eae1fd5ac7e0331f050ee1b58010fdece8a359fac310"
+      },
+      {
+        "path": "papers/emk-recognition-geometry/tests/test_emkg3.py",
+        "git_blob_sha": "1ca4215db19794a801f0f9548a79c824ab509f58",
+        "sha256": "7e17d8801b6d0d3bf2c45331091c9d75e17863b6b23cc9ccd428e95513b56f11"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/LINEAGE.md",
+        "git_blob_sha": "005c8df7dcfc6d5136dd1dd479cf13ee3409878d",
+        "sha256": "3f54d440d683cc91584410ad54900317e4d699a944914d248f81876386aaf497"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/README.md",
+        "git_blob_sha": "63b2530cf1fe5eaa6f2a84aa9b8f78ea04b90e1c",
+        "sha256": "f3328f4a8a76aedc3bf1c50c17288f634d7c16b021712e0a9494519e89f1cbba"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/certificates/EMKT1_RESULT.json",
+        "git_blob_sha": "5b7f7097ad53eff0a322580e3873d56c77f0df95",
+        "sha256": "99149411bd77ea294232c897a8e3ba4b42040cf09aed2e4e6add4433532bf1fd"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/certificates/EMKT2_RESULT.json",
+        "git_blob_sha": "459eb4532ae4ef48faa244fc7ddc1bfde39abdce",
+        "sha256": "f85722c150aea6d15bf97d1ec60d70beff8e21f7e979fb5668192ea019fc0e1f"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/certificates/EXPECTED_EMKT1.sha256",
+        "git_blob_sha": "bc94fecbf9d4480b155c475e937b7880eb23b8b3",
+        "sha256": "3c4c1d89ec31b61e37fbe1c5f13c7821120a0610145327db4cb8debc1aa96dbb"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/certificates/EXPECTED_EMKT2.sha256",
+        "git_blob_sha": "dcb345f43ba09eac79fe3b1bedfe2751db358eca",
+        "sha256": "46bddbfae334a486810fc1fedde78f6a192ead9b427dce39978c53ce990caace"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/certificates/emk2_native_carrier.py",
+        "git_blob_sha": "eaf3c3f65476f37165c75031fcd6cfb2cb66f710",
+        "sha256": "49d8548e7e3ccc2ce77bdc0f5a317b737f3bd37dc4d9e1f90c9f87852c37d1c0"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/certificates/emkt1_master_tensor_and_time.py",
+        "git_blob_sha": "612786f2c91de005a62bfaca87f778a79060ce0a",
+        "sha256": "c32b977f25cb00edbfcb338e6028a6b0f3a1f0beae4f4f2737663c574c7a1dce"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/certificates/emkt2_time_ordered_transport.py",
+        "git_blob_sha": "850abf516c44bb296b3cf43fcb7ba93434837bf5",
+        "sha256": "2dc28deb6bfa898568c9c2cb949ae76932d0995106aa28bf9f01a8fae29fd993"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/tests/test_emkt1.py",
+        "git_blob_sha": "e41cc18b37bdf11886d901a70f75663565bf70b7",
+        "sha256": "f2343330ae3250bd0f25700993bb206c13b62a1ec86a5cb959a765f62fd2fbcc"
+      },
+      {
+        "path": "papers/emk-ugd-algebra/tests/test_emkt2.py",
+        "git_blob_sha": "24e8f8ec26f796baaff2106059c2cc12d5daa872",
+        "sha256": "553830804f94ffb3eb266ccd46303590763155a90242b2b71e1195aa069a2d35"
+      },
+      {
+        "path": "papers/recognition-seam-topology/LINEAGE.md",
+        "git_blob_sha": "98337c44f294a1f5031fdb03de7fd57ed4166f16",
+        "sha256": "00a36aace8be70de1ecfe21adfa57c609b6a3eb94b4c5a438e1adfbf8e893410"
+      },
+      {
+        "path": "papers/recognition-seam-topology/README.md",
+        "git_blob_sha": "459da46561bbc123eb85fd6706a900cd6e294091",
+        "sha256": "08834cbaa54928bfbb70ddcffa06bef9bb276a397102a35f2e91ad4d691b80f1"
+      },
+      {
+        "path": "papers/recognition-seam-topology/certificates/EMKTOP1_RESULT.json",
+        "git_blob_sha": "f97c0ab1beaa1f8d5f3990cf6a8280c24dd303c9",
+        "sha256": "1262b38bb75a6d1c5c7a584c076118ba26588c0c6afe0aad1c026e4af475287d"
+      },
+      {
+        "path": "papers/recognition-seam-topology/certificates/EXPECTED_EMKTOP1.sha256",
+        "git_blob_sha": "cdd1680388ca433f0e0c00b4aea46083d2f3a3d5",
+        "sha256": "81bf1d1eefe802750eb0f5f7b98a4b1fcc28bb789a3bfbd519166342efb9a820"
+      },
+      {
+        "path": "papers/recognition-seam-topology/certificates/emktop1_vault_topology_appendix.py",
+        "git_blob_sha": "8a68395c647b816bf41e40dadcc861f20fa3a53f",
+        "sha256": "785515f070f6e43e836ef7656f7d503079473d9308c6f98fb6b5f5cfe6fb4e81"
+      },
+      {
+        "path": "papers/recognition-seam-topology/tests/test_emktop1.py",
+        "git_blob_sha": "2af461a0dbab649e1f0773d5b2252b53450c7d6b",
+        "sha256": "2d795733339538a50801b9a3db4c4216791d13eb28985d2874c384e658380d39"
+      }
+    ]
+  },
+  "rkf_context": {
+    "repository": "Parveen117/Recognition-Kernel-Framework",
+    "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+    "files": [
+      {
+        "path": "proof_lab/README_NATIVE_METRIC_GRAPH_BOUNDARY_PAIRING.md",
+        "git_blob_sha": "4d8341dde60746f78a22f71db352a2c03593f82f",
+        "sha256": "d0f46318f07aa9d888085557523faeca1c8cda8c2d75f3437a21181dfe425bb1"
+      },
+      {
+        "path": "theorum/32_cut_covariance_event_realization_theorem.md",
+        "git_blob_sha": "6aa597095cf93a69be564ea1e3f49c1a1656c346",
+        "sha256": "c591711a0e6e66cddf4a5b598a99ea6198034d3192f4dcf0a2a76b6a3bdc2e0f"
+      },
+      {
+        "path": "theorum/35_native_metric_graph_boundary_pairing.md",
+        "git_blob_sha": "c15db5dcc010863919976f55bfee81174b6fc5ac",
+        "sha256": "653e3bf5145e04de31bb52d030a366505bf37a5d6de7a6c14c75e7527a24af17"
+      },
+      {
+        "path": "theorum/thermodynamics/06_onsager_hodge_no_leakage.md",
+        "git_blob_sha": "df4c049174771abc3dee74539bfc6d8baa669593",
+        "sha256": "0b2ffee77b9e719a563e045a3150b3f0dae21b1f40d624531e4be2afcc926724"
+      }
+    ]
+  }
+}
