@@ -1,0 +1,314 @@
+{
+  "schema": "extra-ideas.r29.verification.v1",
+  "date": "2026-10-01",
+  "status": "PASS_R29_NATIVE_PAIRED_FIELD_DYNAMICS",
+  "written_results": 7,
+  "exact_check_groups": 8,
+  "native_symbolic_replays": 10,
+  "counters": {
+    "source_transport_factors_into_a_native_constitutive_operator": {
+      "Laurent_operator_identities": 7,
+      "native_norm_ratio_checks": 3,
+      "curvature_preparation_checks": 3,
+      "constitutive_norm_ratio": "1/2",
+      "new_physical_coefficient_supplied": false
+    },
+    "paired_induction_is_local_reversible_and_obeys_the_native_wave": {
+      "Laurent_inverse_and_wave_identities": 3,
+      "source_field_matches": 72,
+      "finite_wave_checks": 66,
+      "maximum_pair_event": 12,
+      "paired_event_range": 1
+    },
+    "compatibility_residue_is_transported_and_selects_the_source_sector": {
+      "Laurent_intertwining_identities": 2,
+      "exact_residue_and_forcing_checks": 144,
+      "residue_norm_checks": 72,
+      "total_field_checks": 72,
+      "incompatible_pairs_included": true,
+      "spurious_wave_solutions_promoted_to_source": false
+    },
+    "paired_field_energy_has_an_exact_positive_conserved_form": {
+      "complete_Laurent_Gram_identities": 1,
+      "conservation_and_positive_decomposition_checks": 130,
+      "source_form_and_bound_checks": 117,
+      "rejected_uncoupled_energy": {
+        "before": "1",
+        "after": "3/2"
+      }
+    },
+    "local_field_current_is_a_complete_quadratic_identity": {
+      "complete_native_quadratic_coefficient_identity": true,
+      "quadratic_input_coordinates": 6,
+      "local_balances": 470,
+      "local_defect_source_balances": 144,
+      "interference_term_retained": true
+    },
+    "finite_difference_fields_reconstruct_their_source_without_extra_modes": {
+      "finite_native_potential_reconstructions": 23,
+      "reconstructed_event_readouts": 23,
+      "field_norm_ratio_alone_rejected": true,
+      "zero_sum_and_constitutive_constraints_both_retained": true
+    },
+    "cyclic_zero_field_backgrounds_have_exactly_two_native_kernel_roles": {
+      "cyclic_count_quotients": [
+        {
+          "cyclic_addresses": 1,
+          "field_rank": 0,
+          "uniform_kernel_roles": 2,
+          "constraint_rank": 4
+        },
+        {
+          "cyclic_addresses": 2,
+          "field_rank": 2,
+          "uniform_kernel_roles": 2,
+          "constraint_rank": 6
+        },
+        {
+          "cyclic_addresses": 3,
+          "field_rank": 4,
+          "uniform_kernel_roles": 2,
+          "constraint_rank": 8
+        },
+        {
+          "cyclic_addresses": 4,
+          "field_rank": 6,
+          "uniform_kernel_roles": 2,
+          "constraint_rank": 10
+        },
+        {
+          "cyclic_addresses": 5,
+          "field_rank": 8,
+          "uniform_kernel_roles": 2,
+          "constraint_rank": 12
+        },
+        {
+          "cyclic_addresses": 6,
+          "field_rank": 10,
+          "uniform_kernel_roles": 2,
+          "constraint_rank": 14
+        },
+        {
+          "cyclic_addresses": 7,
+          "field_rank": 12,
+          "uniform_kernel_roles": 2,
+          "constraint_rank": 16
+        },
+        {
+          "cyclic_addresses": 8,
+          "field_rank": 14,
+          "uniform_kernel_roles": 2,
+          "constraint_rank": 18
+        }
+      ],
+      "finite_recovery_checks": 16,
+      "physical_periodic_topology_selected": false,
+      "arbitrary_local_gauge_symmetry_claimed": false
+    },
+    "boundary_interface_residue_and_native_width_bound_are_exact": {
+      "interface_profiles": 8,
+      "end_record_and_total_checks": 216,
+      "potential_field_continuation_checks": 2358,
+      "native_width_bound_checks": 8,
+      "field_energy_checks": 72,
+      "sharp_width_family": [
+        {
+          "width": 1,
+          "energy": "5"
+        },
+        {
+          "width": 2,
+          "energy": "5/2"
+        },
+        {
+          "width": 3,
+          "energy": "5/3"
+        },
+        {
+          "width": 5,
+          "energy": "1"
+        },
+        {
+          "width": 8,
+          "energy": "5/8"
+        },
+        {
+          "width": 13,
+          "energy": "5/13"
+        }
+      ],
+      "nonzero_residue_identified_as_electric_charge": false,
+      "universal_mass_from_boundary_residue": false
+    }
+  },
+  "rejected_false_alternatives": {
+    "constitutive_relation_is_identity": true,
+    "field_norm_ratio_alone_selects_source": true,
+    "every_paired_wave_is_a_source_history": true,
+    "compatibility_residue_disappears_after_one_step": true,
+    "ordinary_uncoupled_energy_is_conserved_for_all_pairs": true,
+    "link_current_can_omit_interference": true,
+    "zero_field_background_has_zero_local_native_curvature": true,
+    "arbitrary_local_potential_change_is_field_invisible": true,
+    "every_finite_address_field_has_zero_boundary_residue": true,
+    "zero_total_residue_implies_zero_field": true,
+    "fixed_boundary_residue_fixes_a_universal_energy": true,
+    "native_constitutive_norm_ratio_is_pointwise": true
+  },
+  "derivation_graph": {
+    "status": "PASS_DECLARED_NATIVE_DERIVATION_GRAPH",
+    "certified_claims": 7,
+    "proof_path_nodes": 18,
+    "imported_classical_premises_on_proof_paths": 0,
+    "comparison_references_excluded_from_proof_paths": [
+      "comparison_clock_free_cut",
+      "comparison_cut_curvature",
+      "comparison_information_response",
+      "comparison_odd_exchange",
+      "comparison_riemann_adapter",
+      "comparison_zero_cut"
+    ],
+    "target_definitions_retained_as_definitions": [
+      "constant_tail_target",
+      "cyclic_count_target",
+      "full_paired_field_extension",
+      "native_conserved_field_target",
+      "paired_difference_target"
+    ],
+    "automatic_semantic_or_formal_proof_verification": false
+  },
+  "derivation_graph_mutations_rejected": {
+    "reject_imported_classical_premise": true,
+    "reject_admitted_input_premise": true,
+    "reject_open_premise": true,
+    "reject_comparison_only_premise": true,
+    "reject_physical_claim_promotion": true,
+    "reject_protocol_definition_promotion": true,
+    "reject_dependency_cycle": true,
+    "reject_unpinned_source": true,
+    "reject_wrong_citation_commit": true
+  },
+  "altered_source_rejected": true,
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "wrong_r28_certificate_pin_rejected": true,
+  "previous_source_replayed": {
+    "commit": "9ed6ae27d3ddb005ed7f4f3f27417036729698fd",
+    "status": "PASS_R28_NATIVE_CUT_CURVATURE_PROPAGATION",
+    "native_certificate_sha256": "dbfd38615437b0726f1ad70b31d393178c08a61bf674607beb69775ffe3cea11",
+    "old_certificate_or_source_pin_modified": false,
+    "earlier_source_chain": {
+      "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+      "status": "PASS_R27_NATIVE_REPLICA_SELECTION",
+      "native_certificate_sha256": "f5b6b9427f7484b793d78619527353ae758b0261e871662ce84516e963edc872",
+      "old_certificate_or_source_pin_modified": false,
+      "earlier_source_chain": {
+        "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+        "status": "PASS_R26_NATIVE_MEMORY_RESIDUE",
+        "native_certificate_sha256": "5d0df3fc203d393d1a4f58902a1f3f82e4c5ab7dfb60ffb40e380a7b96de2146",
+        "old_certificate_or_source_pin_modified": false,
+        "earlier_source_chain": {
+          "commit": "d4f1ae2481a72a04c465f1c17b37d154a6122eff",
+          "status": "PASS_R25_NATIVE_RETURN_FEEDBACK",
+          "native_certificate_sha256": "456f5c5d4bf9857b1604bb6024c346b1a6d499abd833b59a0b414a7bad0fb8d5",
+          "old_certificate_or_source_pin_modified": false,
+          "earlier_source_chain": {
+            "commit": "d660bbf026e1de818fcb3dd61d46346a4ad618ae",
+            "status": "PASS_R24_NATIVE_RETURN_COUPLING",
+            "native_certificate_sha256": "ae0c88451e3e0a7933dd42cecca67b0cc1254a81cc418da77b94843eaf1d2fbe",
+            "old_certificate_or_source_pin_modified": false,
+            "earlier_source_chain": {
+              "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+              "status": "PASS_R23_NATIVE_FUTURE_RESPONSE",
+              "native_certificate_sha256": "69b4e6d43db5bad0a10b797f7b7f788bb8091e4486bf0689960882d22b19295a",
+              "old_certificate_or_source_pin_modified": false,
+              "earlier_source_chain": {
+                "commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+                "status": "PASS_R22_NATIVE_MEETING_GEOMETRY",
+                "native_certificate_sha256": "ad6ac9d802b77c67ec33e8c023c147300994576207014eb9cd81014f6924b98f",
+                "old_certificate_or_source_pin_modified": false,
+                "earlier_source_chain": {
+                  "commit": "2888aa2a9ea1c63a89b3d695256c8b9405dbd7cc",
+                  "status": "PASS_R21_NATIVE_RECORD_IDENTITY",
+                  "native_certificate_sha256": "1d857541e8497dfb4c33b532c7d50ee629f5d8e92698a080307b7ae039794464",
+                  "old_certificate_or_source_pin_modified": false,
+                  "earlier_source_chain": {
+                    "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+                    "status": "PASS_R20_NATIVE_RECORD_INTERACTION",
+                    "native_certificate_sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+                    "old_certificate_or_source_pin_modified": false,
+                    "earlier_source_chain": {
+                      "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+                      "status": "PASS_R19_NATIVE_CURRENT_RETENTION",
+                      "native_certificate_sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+                      "old_certificate_or_source_pin_modified": false,
+                      "earlier_source_chain": {
+                        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+                        "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+                        "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+                        "historical_navigation_inputs_restored_in_temporary_snapshot": 3,
+                        "old_certificate_or_source_pin_modified": false,
+                        "earlier_source_chain": {
+                          "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+                          "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+                          "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+                          "foundation": {
+                            "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+                            "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+                            "written_statements": 14,
+                            "native_replays": 13,
+                            "analytic_replays": [
+                              {
+                                "id": "F00_F00E_EULER_V0_1",
+                                "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+                                "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+                                "checks": 14,
+                                "negative_controls": 6,
+                                "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+                              },
+                              {
+                                "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+                                "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+                                "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+                                "checks": 20,
+                                "negative_controls": 7,
+                                "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+                              }
+                            ],
+                            "original_universal_claim_certified": false
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 33,
+  "preserved_prior_files": 229,
+  "source_pins_sha256": "103d5e1f8e468f9933d25f6860449e3ab551cb2475b20f85df3399566d7d3d05",
+  "native_certificate_sha256": "59a8ed58355297764315daeb39cb950dc48b038c29c2a934aa7935ca3ca4361d",
+  "comparison_references_are_proof_dependencies": false,
+  "comparison_source_certificates_rerun": false,
+  "native_constitutive_operator_derived": true,
+  "paired_induction_and_source_constraint_derived": true,
+  "positive_field_form_and_local_current_derived": true,
+  "stationary_background_and_boundary_residue_classified": true,
+  "physical_vacuum_identified": false,
+  "electromagnetism_derived": false,
+  "physical_metric_c_alpha_derived": false,
+  "physical_electric_charge_or_particle_mass_identified": false,
+  "formal_proof_assistant_verified": false,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Seven written proofs: native constitutive relation, reversible paired induction, source-sector constraint, positive conserved form, local current and defect source, uniform stationary backgrounds and conserved boundary interfaces. Exact checks support the native target; no physical EM/vacuum/charge/c/alpha/mass or proof-assistant identification.",
+  "canonical_report_sha256": "216933c05b782924ec0574f1706a681926c972654a36a76b65a47c706db83961"
+}

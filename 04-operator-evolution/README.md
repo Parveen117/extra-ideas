@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R29 paired-field dynamics verification
+
+[native_paired_field_dynamics.cjs](native_paired_field_dynamics.cjs) uses the unchanged canonical arithmetic and replayer. Complete native Laurent identities verify constitutive factorization, the paired inverse/wave polynomial, source/residue intertwiners and conservation of the field Gram form. The local current is checked as an identity in all coefficients of a six-variable quadratic form, with independent finite source and defect evolutions.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r29.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R29_VERIFICATION.json](R29_VERIFICATION.json) binds seven written proofs, eight exact groups, ten native replays, twelve false alternatives and nine rejected graph mutations. Finite checks include 614 local current/source balances, exact ranks on eight cyclic count targets, and 2,358 potential-to-field interface continuation checks. [Source pins](R29_SOURCE_PINS.json) preserve all 229 prior non-navigation files and replay the frozen R28 chain. Mathematical field and boundary targets remain explicit; no physical EM/vacuum/charge/c/alpha/mass or formal proof-assistant identification is claimed.
+
 ## R28 native cut-curvature propagation verification
 
 [native_cut_curvature_propagation.cjs](native_cut_curvature_propagation.cjs) uses the unchanged canonical engine for exact role operators, address Laurent coefficients, hidden-memory elimination and word replay. It checks the existing transport against 4,092 literal H/K prefixes, propagates signed ordered-preparation differences, rejects the corresponding intensity wave law, and constructs the nonzero projected cyclic-curvature source from native role copies.

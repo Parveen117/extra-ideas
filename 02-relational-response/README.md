@@ -2,6 +2,12 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R29 paired fields and native constitutive closure
+
+[NATIVE_PAIRED_FIELD_DYNAMICS_R29.md](NATIVE_PAIRED_FIELD_DYNAMICS_R29.md) derives a local relation between event and address difference fields, closed reversible induction, a positive conserved form and a local current. The compatibility residue evolves exactly and supplies the apparent source seen after losing that record; a field norm ratio alone does not establish source compatibility.
+
+Stationary uniform backgrounds have zero difference-field reading and can retain nonzero native curvature response. Their interfaces carry a conserved boundary residue, with explicit reconstruction and a sharp finite-width energy bound. [Verification](../04-operator-evolution/R29_VERIFICATION.json) binds seven proofs, eight exact groups and ten native replays. The [ledger](../04-operator-evolution/R29_DERIVATION_LEDGER.json) keeps native field results distinct from unproved physical vacuum, electric charge and electromagnetic identification.
+
 ## R28 native curvature, hidden memory and the signed wave response
 
 [NATIVE_CUT_CURVATURE_PROPAGATION_R28.md](NATIVE_CUT_CURVATURE_PROPAGATION_R28.md) identifies the existing transport's visible–memory exchange with the native H/K commutator. The hidden role can have nonzero retained energy despite zero visible response. Exact elimination derives its event-memory kernel, and a signed curvature preparation follows R18's wave law. Its quadratic information/energy reading is a different target and fails that linear wave equation in an explicit witness.

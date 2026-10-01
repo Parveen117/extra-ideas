@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R28's derivation ledger](04-operator-evolution/R28_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R29's derivation ledger](04-operator-evolution/R29_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,16 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R29: native paired fields, constitutive closure and boundary residue
+
+[R29](02-relational-response/NATIVE_PAIRED_FIELD_DYNAMICS_R29.md) constructs event and address differences of R28's signed curvature response. Factoring the source two-event transport gives the local relation `e=N b`, with `N^dagger N=I/2`. The coupled induction equations and their coefficient follow from that factorization and the existing native wave law. No electromagnetic constitutive law is supplied.
+
+The full paired update is reversible and has an explicitly positive conserved field form. Its compatibility residue `c=e-N b` evolves by inverse native transport and contributes the exact source `delta c` to the b field. This separates genuine source fields from extra solutions of the paired wave equation. A local current includes the required cross-address interference term.
+
+Uniform backgrounds are exactly the stationary zero-field sector at the two-event resolution, although their local H/K curvature response can remain nonzero. An interface between two such backgrounds has conserved boundary residue `Q=q_minus-q_plus`. Zero total residue can still carry waves. A sharp energy/width identity keeps this residue distinct from a selected physical charge or mass.
+
+[Verification](04-operator-evolution/R29_VERIFICATION.json) binds seven written proofs, eight exact groups, ten native word replays, twelve rejected alternatives and nine invalid graph mutations. It verifies complete Laurent identities, local quadratic coefficients, source reconstruction and finite boundary examples. The [ledger](04-operator-evolution/R29_DERIVATION_LEDGER.json) preserves explicit readout/boundary targets and excludes imported premises. All 229 earlier non-navigation files and the frozen R28 chain are preserved. Physical EM, vacuum, charge and c/alpha identification remain open.
 
 ## R28: native cut curvature, hidden response and propagation
 
