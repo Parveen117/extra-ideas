@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R32 retained native loop and complete inverse response
+
+[NATIVE_RETAINED_LOOP_GAP_R32.md](NATIVE_RETAINED_LOOP_GAP_R32.md) derives a minus-identity record loop from one source-law H/K memory carried reciprocally along two count directions. The source histories yield a changed return response and an exact paired wave with a positive identity term and mixed difference square. Its sharp normalized increment bounds are one and four; uniform fully signed states have a 48-event return cycle.
+
+The full retained increment has no uniform blind sector. A native factorized inverse supplies a finite error bound and an explicit localized count kernel with ratio `3-2 sqrt(2)`. Local flattening and fixed-frame similarity to the bare continuation are obstructed in their stated domains; a staggered source/record factorization remains available.
+
+[Verification](../04-operator-evolution/R32_VERIFICATION.json) binds seven proofs, nine exact groups and fourteen native replays. The [ledger](../04-operator-evolution/R32_DERIVATION_LEDGER.json) retains the constructed edge interface, one-origin preparation boundary and complete signed-record readout. Physical force, mass, clock/metric and c/alpha selection remain open.
+
 ## R31 native propagation geometry and increment reconstruction
 
 [NATIVE_PROPAGATION_GEOMETRY_R31.md](NATIVE_PROPAGATION_GEOMETRY_R31.md) unmixes the two oriented loop drives by one local reversible change of source variables. It derives a positive full-source invariant, a bounded exact driven solution, and the mixed two-direction wave operator. Opposite shifts have an exact quartic difference response; the leading quadratic count form has rank one.

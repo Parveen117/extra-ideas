@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R31's derivation ledger](04-operator-evolution/R31_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R32's derivation ledger](04-operator-evolution/R32_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,16 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R32: retained native loop, propagation gap and localized inverse
+
+[R32](02-relational-response/NATIVE_RETAINED_LOOP_GAP_R32.md) carries one native source-law H/K record reciprocally along both count directions. Its record-link loop is exactly `-I`; a common local frame cannot flatten both directions. Literal original source histories derive the coarse retained transport. A native frame can factor record multiplicity into a staggered source, but its nonflat loop and changed propagation remain. For the stated one-origin preparation, the origin response after two blocks changes from `9/64` to `1/64`.
+
+The paired eight-event continuation B has the exact positive identity `||(B-I)Psi||^2 = ||Psi||^2 + ||D_x Psi||^2/4 + ||D_y Psi||^2/4 + ||D_x D_y Psi||^2/16`, where `D_i=T_i^2-I`. Its sharp normalized bounds are one and four. This obstructs similarity to flat continuation in the proved class. Every nonzero fully signed uniform state returns after exactly 48 original events; intensity observations can have shorter periods.
+
+The full signed source/record increment is now a complete observer, including uniform source values. Its factorized native inverse has a count-volume-independent finite error bound and a localized kernel with exact tail ratio `rho=3-2 sqrt(2)`. No Fourier transform, physical mass term or coupling angle is supplied. The gap, count cycle and inverse coefficient are mathematical results of the stated retained interface; physical force, mass and c/alpha identification remain open.
+
+[Verification](04-operator-evolution/R32_VERIFICATION.json) binds seven written proofs, nine exact groups, fourteen native word replays, fifteen rejected alternatives and nine graph mutations. Checks include 4,080 literal source prefixes, 969 normal-ordered endpoint blocks, sharp packet families, cyclic invertibility, finite decoder remainders and native root cuts. The [ledger](04-operator-evolution/R32_DERIVATION_LEDGER.json) records the allowed staggered factorization and the precise obstruction/observation domains. All 250 earlier non-navigation files and the frozen R31 chain are preserved.
 
 ## R31: native propagation geometry and a complete increment observer
 

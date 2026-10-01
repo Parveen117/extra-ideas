@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R32 retained-loop gap and inverse verification
+
+[native_retained_loop_gap.cjs](native_retained_loop_gap.cjs) uses the unchanged canonical native arithmetic and word replayer. It reconstructs the coarse transport from literal fine H/K histories with reciprocal edge memory, verifies the record loop and staggered normal form, and checks every Laurent coefficient of the paired wave and its positive defect factorization. Finite native inverses and controlled series verify complete signed-record recovery.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r32.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R32_VERIFICATION.json](R32_VERIFICATION.json) binds seven written proofs, nine exact groups, fourteen native replays, fifteen rejected alternatives and nine graph mutations. Checks include 4,080 literal source prefixes, 969 normal-ordered endpoint blocks, 16 sharp-packet identities, cyclic increment ranks through period four, 18 finite decoder remainders, 36 error-bound checks and 64 native positive-root bisections. [Source pins](R32_SOURCE_PINS.json) preserve all 250 prior non-navigation files and replay the frozen R31 chain. The [ledger](R32_DERIVATION_LEDGER.json) distinguishes source laws, constructed interfaces, exact computations and open physical identification; it is not a semantic proof assistant.
+
 ## R31 propagation geometry and increment observer verification
 
 [native_propagation_geometry.cjs](native_propagation_geometry.cjs) uses the unchanged canonical arithmetic and word replayer. Complete Laurent identities verify simultaneous local unmixing, full-source conservation, the scalar alternating wave and its positive factorization. Exact direction substitutions and finite count jets check the quartic transverse response and rank-one leading form. Finite native positive-square witnesses, ranks and inverses support the stationary and reconstruction proofs.

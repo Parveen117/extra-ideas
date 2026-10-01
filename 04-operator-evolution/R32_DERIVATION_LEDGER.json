@@ -1,0 +1,545 @@
+{
+  "schema": "extra-ideas.r32.derivation-ledger.v1",
+  "date": "2026-10-01",
+  "source_commit": "63d040f031b6b36c36a4fa0475f5ce26ec765caf",
+  "no_classical_premise_rule": true,
+  "rule": "Pinned native sources, explicit reciprocal-edge/preparation/boundary/readout targets and native deductions are allowed on proof paths. Imported/admitted/open/comparison premises and promotion of a definition to physical selection are rejected. The nonflat loop, allowed staggered factorization, fixed-protocol gap and complete signed-record observer retain their precise domains. Metadata auditing is not semantic proof verification.",
+  "certified_claims": [
+    "R32.1",
+    "R32.2",
+    "R32.3",
+    "R32.4",
+    "R32.5",
+    "R32.6",
+    "R32.7"
+  ],
+  "claims": [
+    {
+      "id": "R32.1",
+      "title": "Reciprocal edges can retain a loop that no common native frame flattens",
+      "written_section_sha256": "a7f16a3c9ec88631b2394ccbf95e27889d175193f7cd8c39bd49ebc9f1d7a3eb",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_source_law_record_has_a_nonflat_reciprocal_loop",
+        "native_gap_obstructs_flat_transport_similarity_and_local_frame_removal"
+      ],
+      "scope_boundary": "The reciprocal source-law record has loop -I and no common frame can flatten both directions. This is record-link curvature, distinct from a loop of the complete source transport. Periodic flattening additionally requires trivial winding."
+    },
+    {
+      "id": "R32.2",
+      "title": "Original source events construct the reciprocal retained transport",
+      "written_section_sha256": "1ba1fde7d7a408734e85c545c2a7e4ad54283466fac1d81e4b7af813fde19c7e",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "literal_fine_source_histories_reproduce_coarse_retained_transport",
+        "native_source_law_record_has_a_nonflat_reciprocal_loop",
+        "retained_interaction_has_finite_native_propagation_range"
+      ],
+      "scope_boundary": "The original signed H/K event census and reciprocal records on native fine edges produce the coarse transport exactly. The coarse interface is a constructed target; it is not selected as a physical force or literal copying of source letter tags."
+    },
+    {
+      "id": "R32.3",
+      "title": "Native area parity changes source response while retaining record information",
+      "written_section_sha256": "b1a153d19724fb786640eb4a2ff2f009353771703cca9613933de028fc3437c2",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "area_parity_normal_form_changes_an_actual_source_reading"
+      ],
+      "scope_boundary": "A native endpoint frame factors record multiplicity while leaving staggered source signs and the nonflat loop. Memory-preparation independence is restricted to one-origin product inputs on the unwrapped plane. A source response changes from 9/64 to 1/64; the record is not erased."
+    },
+    {
+      "id": "R32.4",
+      "title": "The retained source derives an exact gapped paired wave",
+      "written_section_sha256": "48b2babd44d411d5f04eead65fcbbdfa3d4ec739d13125deb759dc7b67f61e26",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "retained_loop_derives_a_gapped_paired_wave_and_sharp_bounds"
+      ],
+      "scope_boundary": "Complete Laurent identities derive the paired wave and a positive identity/difference-square ledger with sharp normalized bounds one and four. This fixed-protocol increment gap is not a physical Hamiltonian mass gap or a Yang-Mills result."
+    },
+    {
+      "id": "R32.5",
+      "title": "Flat continuation is obstructed and uniform signed states have a fixed count cycle",
+      "written_section_sha256": "f217020f2c9bb969ff25f74308e575cab193a2606805dc11749ff995e2b3eda6",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_gap_obstructs_flat_transport_similarity_and_local_frame_removal",
+        "uniform_native_source_has_an_exact_twelve_block_cycle"
+      ],
+      "scope_boundary": "Finite cyclic similarity to flat continuation is excluded; on the unwrapped completion the excluded class is bounded, boundedly invertible, time-independent linear similarities. Staggered factorization and arbitrary event-dependent frame changes are not excluded. The uniform 48-event cycle concerns fully signed states, not every intensity readout."
+    },
+    {
+      "id": "R32.6",
+      "title": "The full retained increment is a complete observer with a uniform decoder bound",
+      "written_section_sha256": "45e309c0ba9317e9a773669e04c7b20cf79784c20b2429bf80ccce2699efb710",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "signed_retained_increment_has_an_exact_inverse_and_uniform_decoder_error"
+      ],
+      "scope_boundary": "The complete four-role source/record signed increment is invertible, with no uniform kernel. The finite decoder has a source-independent certified error estimate. Unresolved source intensities or one scalar sensor are not claimed complete."
+    },
+    {
+      "id": "R32.7",
+      "title": "The inverse response has a source-derived localized count kernel",
+      "written_section_sha256": "13f8a3ec4b0fb45d202b20d1a6dec8ade22e63fdbc49e45b081036e90919af37",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_inverse_kernel_has_a_derived_exponential_count_tail"
+      ],
+      "scope_boundary": "The decaying native root 3-2 sqrt(2) determines a normalized localized inverse count kernel. Positive root selection, native completion and periodic wrapping remain explicit. This target coefficient is not alpha or a selected universal physical coupling."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "source_roles",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C3-C7",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Native marked roles, signed/refined coefficients, H/K and matching pairing. Finite counting, equality and induction remain the stated metamathematical infrastructure."
+    },
+    {
+      "id": "source_completion",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C8",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Native cut-Cauchy scalar completion and positive square-root construction."
+    },
+    {
+      "id": "source_history",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C13",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Full native finite word identities remain distinct from their coefficient evaluations."
+    },
+    {
+      "id": "source_transport",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "R18.1-R18.4",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "scope": "Unchanged equal H/K transport on the constructed address target. Physical time and unique transport selection not supplied."
+    },
+    {
+      "id": "source_native_replay",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "rkf",
+        "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "section": "Native finite equality and replay",
+        "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5"
+      },
+      "scope": "Scoped identities in the unchanged canonical native engine; no whole-engine or formal proof-assistant claim."
+    },
+    {
+      "id": "comparison_clock_free_cut",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "theorum/24_clock_free_recognition_seam_cut_calculus.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "3d7d70f5cd213378c32e90e3c88eb195b48a7ea9e69297353c2eaafd04dbb8b8"
+      },
+      "scope": "Declared event lift/cut/arrow calculus; attribution only. Required role-block identities rederived in R28."
+    },
+    {
+      "id": "comparison_cut_curvature",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "theorum/48_emk_algebra_cut_graded_curvature_theorem.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "e447ea282bd47ccbc62e718a8d9aab912d926a9239a662d2e02c5f58fa7563f1"
+      },
+      "scope": "Prior exact EMK commutator and grading; source candidate certificate is not rerun or upgraded."
+    },
+    {
+      "id": "comparison_odd_exchange",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "theorum/51_odd_channel_exchange_law_theorem.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "c515d45334e1010c75750f15c1f5b1518bc4817e4956b01a55dbbec6952e48e4"
+      },
+      "scope": "Prior native scalar-turn Cayley exchange; different grading from the present role cut."
+    },
+    {
+      "id": "comparison_zero_cut",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "mp_gold/07_zero_as_cut_topology.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "47c08643b69bbea870f89a3f0cb70518cb98fad96502370cb71794f174d9780a"
+      },
+      "scope": "Declared circle/torus homology ledger, proved model cut/join identity and user-local qualified numerical evidence. No topology or physical vacuum premise imported."
+    },
+    {
+      "id": "comparison_riemann_adapter",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md",
+        "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+        "sha256": "e0ebefb163d2ae2deb4acd2dbd7084a9f16e441b643f412a01661a7097763ce4"
+      },
+      "scope": "Admitted smooth/tangent/metric adapter for Riemann special case; excluded from every new proof path."
+    },
+    {
+      "id": "comparison_information_response",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/uncut-cut-measurement/NATIVE_RESPONSE_TENSOR_AND_CUT_LEDGER.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "sha256": "3ee3183f14e5f0a5978c1d591720c7bfb499528d71677ddb722ecbe8a19d1fbe"
+      },
+      "scope": "Prior response/Gram/seam construction on a declared real carrier, and separate supplied classical ensemble weights in U32. Attribution only; no such weights or ordinary complex chart enter R28."
+    },
+    {
+      "id": "source_curvature_bridge",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_transport",
+        "source_native_replay"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_CUT_CURVATURE_PROPAGATION_R28.md",
+        "commit": "9ed6ae27d3ddb005ed7f4f3f27417036729698fd",
+        "section": "R28.1-R28.6",
+        "sha256": "7c1909146b16710895e536cfb62dc85a09ea13816a69d1345266cd8f246f54a2"
+      },
+      "scope": "Native cut curvature, signed preparation, hidden transition exchange and the existing wave target. Physical vacuum/EM and unique dynamics are not selected."
+    },
+    {
+      "id": "source_paired_fields",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_transport",
+        "source_curvature_bridge"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_PAIRED_FIELD_DYNAMICS_R29.md",
+        "commit": "16602a29c469ac96001977432fcf5fc4b548970b",
+        "section": "R29.1-R29.7",
+        "sha256": "930c3d613d4098e31c31000bd07eef9fd2ffc20f9f46dfa44f709c1b3b65b0e1"
+      },
+      "scope": "Native V/N factorization, paired induction and source compatibility, positive field form, local current and boundary residue on explicit readouts. Physical EM, vacuum and coupling selection remain open."
+    },
+    {
+      "id": "comparison_native_reciprocal_frames",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_MEMORY_RESIDUE_R26.md",
+        "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+        "section": "R26.1",
+        "sha256": "2a8b300ce78707cddad7163e8a2830dbea285892d6cc02abfeba8a9cc2fabd85"
+      },
+      "scope": "Native-derived prior attribution: reciprocal-record cancellation. R30.6 independently writes the two-label frame-cancellation proof, so this attribution is not a proof dependency or a physical gauge selection."
+    },
+    {
+      "id": "source_directional_loops",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_transport",
+        "source_curvature_bridge",
+        "source_paired_fields"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_DIRECTIONAL_LOOP_INTERACTION_R30.md",
+        "commit": "7ac5b3e5baba4dafb51f4330bfe84d001a9ab1d4",
+        "section": "R30.1-R30.8",
+        "sha256": "e3badb8ad9ae8f74e57d52339ce33a93297aa199ed3b8f725483f98932b59314"
+      },
+      "scope": "Exact directional source/loop response, dual continuation, paired-loop drive and cyclic observation kernel within explicit mathematical targets. Physical force, EM, metric and spatial dimension are not selected."
+    },
+    {
+      "id": "comparison_native_observer_rank",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/FUTURE_RESPONSE_QUOTIENT_R23.md",
+        "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+        "section": "R23.1-R23.9",
+        "sha256": "927641e6b6b3e4ec27ca0ad5c2735431bba83c9316f604c932b23a890a700a06"
+      },
+      "scope": "Native prior attribution: finite complete response quotients and observer ranks. R31.7 independently proves the complete block-increment target; no fixed physical observer count is imported."
+    },
+    {
+      "id": "source_native_tuples",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RECORD_INTERACTION_R20.md",
+        "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+        "section": "Tuple construction and R20.1-R20.2",
+        "sha256": "6139b16bfcb5be9c07f9c32c17e82e616c10a7b7d3a3f7113c8bc9bf4e33e7a7"
+      },
+      "scope": "Finite marked-role tuples, product matching pairing and specified record/readout gates; no Hilbert, physical tensor or probability premise is supplied."
+    },
+    {
+      "id": "source_reciprocal_memory",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_transport",
+        "source_native_tuples"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_MEMORY_RESIDUE_R26.md",
+        "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+        "section": "R26.1-R26.4",
+        "sha256": "2a8b300ce78707cddad7163e8a2830dbea285892d6cc02abfeba8a9cc2fabd85"
+      },
+      "scope": "Native reciprocal frame cancellation, order-sensitive source response and finite-field norm completion. The existing one-direction propagation gap is not a physical mass or Yang-Mills claim."
+    },
+    {
+      "id": "source_record_law",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_native_tuples",
+        "source_reciprocal_memory"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_REPLICA_SELECTION_R27.md",
+        "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+        "section": "R27.1-R27.2",
+        "sha256": "d4ed6c9940127c04fe8fbc12bfdc18d6e1183bab6b09e468db73941bdc433d91"
+      },
+      "scope": "The source-normalized finite real signed record derives anticommutation and a minimum two-role factor. Physical interface and record-control selection remain separate."
+    },
+    {
+      "id": "source_flat_propagation",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_directional_loops",
+        "source_paired_fields"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_PROPAGATION_GEOMETRY_R31.md",
+        "commit": "63d040f031b6b36c36a4fa0475f5ce26ec765caf",
+        "section": "R31.1-R31.7",
+        "sha256": "1b26aea521095c2a9f501d7230c944cf70b2a80c111ae3a97fbca16e2700e2f9"
+      },
+      "scope": "Explicit flat-target local unmixing, count propagation and increment observer. The earlier native proofs are retained; no physical force/metric/c/alpha claim is promoted."
+    },
+    {
+      "id": "reciprocal_source_law_edge_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_record_law",
+        "source_native_tuples",
+        "source_directional_loops"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Attach the same source-law record H_m/K_m action to the two coarse history-address directions, with inverse reverse edges. The chosen interface carries no free angle but is still an explicit target, not a selected physical law."
+    },
+    {
+      "id": "coarse_event_pair_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_transport",
+        "source_paired_fields",
+        "source_reciprocal_memory",
+        "reciprocal_source_law_edge_target"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Realize each coarse reciprocal edge by one recorded and one identity fine edge, and retain the original H/K event histories and signs. Two-event source aggregation derives the stated covariant coarse stencil."
+    },
+    {
+      "id": "one_origin_record_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_native_tuples",
+        "reciprocal_source_law_edge_target"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Prepare one source origin with an independent normalized native record and retain signed endpoint coefficients and unresolved matching readouts. Keep this preparation domain distinct from general multi-origin states and from full record reconstruction."
+    },
+    {
+      "id": "cyclic_and_completed_count_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_history",
+        "source_reciprocal_memory"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Use either a chosen finite cyclic count boundary, including winding data, or the already constructed native Cauchy completion of finite matching fields. Physical topology, metric and clock units are not supplied."
+    },
+    {
+      "id": "full_retained_increment_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_native_tuples",
+        "coarse_event_pair_target",
+        "cyclic_and_completed_count_target"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Read the full four-role signed source/record change after two four-event blocks. The inverse and its finite error are mathematical observation constructions, not completeness of source intensity alone or a selected physical measurement."
+    },
+    {
+      "id": "R32.1",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "source_native_replay",
+        "source_record_law",
+        "source_reciprocal_memory",
+        "reciprocal_source_law_edge_target"
+      ],
+      "written_section_sha256": "a7f16a3c9ec88631b2394ccbf95e27889d175193f7cd8c39bd49ebc9f1d7a3eb"
+    },
+    {
+      "id": "R32.2",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R32.1",
+        "source_paired_fields",
+        "source_transport",
+        "coarse_event_pair_target"
+      ],
+      "written_section_sha256": "1ba1fde7d7a408734e85c545c2a7e4ad54283466fac1d81e4b7af813fde19c7e"
+    },
+    {
+      "id": "R32.3",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R32.1",
+        "R32.2",
+        "source_native_tuples",
+        "one_origin_record_target"
+      ],
+      "written_section_sha256": "b1a153d19724fb786640eb4a2ff2f009353771703cca9613933de028fc3437c2"
+    },
+    {
+      "id": "R32.4",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R32.1",
+        "R32.2",
+        "source_native_replay",
+        "source_completion",
+        "cyclic_and_completed_count_target"
+      ],
+      "written_section_sha256": "48b2babd44d411d5f04eead65fcbbdfa3d4ec739d13125deb759dc7b67f61e26"
+    },
+    {
+      "id": "R32.5",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R32.3",
+        "R32.4",
+        "source_flat_propagation",
+        "cyclic_and_completed_count_target"
+      ],
+      "written_section_sha256": "f217020f2c9bb969ff25f74308e575cab193a2606805dc11749ff995e2b3eda6"
+    },
+    {
+      "id": "R32.6",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R32.4",
+        "source_completion",
+        "full_retained_increment_target"
+      ],
+      "written_section_sha256": "45e309c0ba9317e9a773669e04c7b20cf79784c20b2429bf80ccce2699efb710"
+    },
+    {
+      "id": "R32.7",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R32.4",
+        "R32.6",
+        "source_completion",
+        "source_native_replay",
+        "cyclic_and_completed_count_target"
+      ],
+      "written_section_sha256": "13f8a3ec4b0fb45d202b20d1a6dec8ade22e63fdbc49e45b081036e90919af37"
+    }
+  ],
+  "native_reciprocal_loop_obstruction_derived": true,
+  "native_retained_propagation_gap_and_cycle_derived": true,
+  "native_source_response_contrast_derived": true,
+  "complete_retained_increment_inverse_and_tail_derived": true,
+  "physical_vacuum_identified": false,
+  "electromagnetism_derived": false,
+  "physical_metric_c_alpha_derived": false,
+  "physical_electric_charge_or_particle_mass_identified": false,
+  "physical_spatial_dimension_or_gauge_group_selected": false,
+  "primitive_physical_force_derived": false,
+  "formal_proof_assistant_verified": false,
+  "origin_gate_checks_declared_metadata_not_arbitrary_prose": true
+}
