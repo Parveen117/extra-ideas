@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R30 directional-loop interaction verification
+
+[native_directional_loop_interaction.cjs](native_directional_loop_interaction.cjs) uses the unchanged canonical native arithmetic and word replayer. Complete Laurent identities verify the directional loop factorization, equal order/loop response forms, dual continuation, coupled inverse and conserved joint form. Literal H/K histories independently reproduce the two-label source census. Finite count frames and cyclic averaging/inverse identities check covariance and the complete curvature observation kernel.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r30.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R30_VERIFICATION.json](R30_VERIFICATION.json) binds eight written proofs, nine exact groups, twelve native replays, fourteen rejected alternatives and nine graph mutations. Checks include 2,040 literal source prefixes, 1,284 local current/source balances, exact curvature reconstruction on periods one through five, and joint energy ranks through period four. [Source pins](R30_SOURCE_PINS.json) preserve all 236 prior non-navigation files and replay the frozen R29 chain. The [ledger](R30_DERIVATION_LEDGER.json) audits declared premises; it is not a semantic proof assistant. Physical EM/vacuum/charge/c/alpha/mass, spatial dimension and gauge-group selection remain open.
+
 ## R29 paired-field dynamics verification
 
 [native_paired_field_dynamics.cjs](native_paired_field_dynamics.cjs) uses the unchanged canonical arithmetic and replayer. Complete native Laurent identities verify constitutive factorization, the paired inverse/wave polynomial, source/residue intertwiners and conservation of the field Gram form. The local current is checked as an identity in all coefficients of a six-variable quadratic form, with independent finite source and defect evolutions.

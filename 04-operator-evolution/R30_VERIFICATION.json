@@ -1,0 +1,315 @@
+{
+  "schema": "extra-ideas.r30.verification.v1",
+  "date": "2026-10-01",
+  "status": "PASS_R30_NATIVE_DIRECTIONAL_LOOP_INTERACTION",
+  "written_results": 8,
+  "exact_check_groups": 9,
+  "native_symbolic_replays": 12,
+  "counters": {
+    "two_address_source_histories_reproduce_shared_role_transport": {
+      "literal_source_prefixes": 2040,
+      "independent_endpoint_comparisons": 8,
+      "max_literal_event": 8,
+      "address_labels_come_from_event_block_counter": true,
+      "shared_source_role_is_load_bearing": true
+    },
+    "directional_order_residue_and_closed_loop_have_exact_native_factorization": {
+      "complete_Laurent_identities": 7,
+      "scalar_difference_terms": 6,
+      "localized_unit_response_energy": "3/4",
+      "zero_response_for_all_compact_preparations": false,
+      "closed_protocol_is_not_assumed_a_spacetime_plaquette": true
+    },
+    "curvature_intertwines_inverse_directional_transport": {
+      "complete_Laurent_intertwiners": 6,
+      "dual_field_evolution_checks": 18,
+      "curvature_and_loop_norm_checks": 36,
+      "max_four_event_block": 5,
+      "dual_is_inverse_of_reversed_block_order": true
+    },
+    "intersecting_native_interfaces_localize_curvature": {
+      "oriented_corner_readings": 294,
+      "straight_diagonal_and_uniform_readings": 588,
+      "actual_loop_readings": 243,
+      "corner_response_energy_ratio": "1/4",
+      "infinite_background_norm_used": false
+    },
+    "loop_readout_closes_a_reversible_paired_field_interaction": {
+      "complete_Laurent_closure_inverse_and_Gram_identities": 4,
+      "field_closure_matches": 90,
+      "conserved_form_checks": 60,
+      "first_induced_b_energy": "2",
+      "interaction_readout_c_is_Omega_phi": true,
+      "physical_interaction_selected": false
+    },
+    "local_native_frames_preserve_loop_response_and_do_not_create_curvature": {
+      "cyclic_addresses": 9,
+      "local_native_count_frames": 9,
+      "exact_covariance_and_flatness_identities": 8,
+      "position_dependent_frame_is_not_a_physical_gauge_field": true,
+      "ordinary_complex_phase_input": false
+    },
+    "finite_cyclic_curvature_blindness_is_exactly_three_average_sectors": {
+      "count_quotients": [
+        {
+          "period": 1,
+          "source_roles": 2,
+          "blind_roles": 2,
+          "curvature_rank": 0
+        },
+        {
+          "period": 2,
+          "source_roles": 8,
+          "blind_roles": 8,
+          "curvature_rank": 0
+        },
+        {
+          "period": 3,
+          "source_roles": 18,
+          "blind_roles": 14,
+          "curvature_rank": 4
+        },
+        {
+          "period": 4,
+          "source_roles": 32,
+          "blind_roles": 20,
+          "curvature_rank": 12
+        },
+        {
+          "period": 5,
+          "source_roles": 50,
+          "blind_roles": 26,
+          "curvature_rank": 24
+        }
+      ],
+      "complete_average_inverse_and_reconstruction_identities": 75,
+      "Fourier_or_classical_spectral_theorem_used": false,
+      "period_two_is_completely_curvature_blind": true
+    },
+    "curvature_reconstruction_and_coupled_energy_quotient_are_exact": {
+      "quotients": [
+        {
+          "period": 1,
+          "joint_input_roles": 4,
+          "forgotten_roles": 2,
+          "closed_interaction_quotient_roles": 2
+        },
+        {
+          "period": 2,
+          "joint_input_roles": 16,
+          "forgotten_roles": 8,
+          "closed_interaction_quotient_roles": 8
+        },
+        {
+          "period": 3,
+          "joint_input_roles": 36,
+          "forgotten_roles": 14,
+          "closed_interaction_quotient_roles": 22
+        },
+        {
+          "period": 4,
+          "joint_input_roles": 64,
+          "forgotten_roles": 20,
+          "closed_interaction_quotient_roles": 44
+        },
+        {
+          "period": 5,
+          "joint_input_roles": 100,
+          "forgotten_roles": 26,
+          "closed_interaction_quotient_roles": 74
+        }
+      ],
+      "exact_invariance_and_kernel_identities": 25,
+      "full_joint_Gram_rank_checks": 4,
+      "joint_form_positive_on_its_observable_quotient": true,
+      "blind_source_information_erased_or_declared_nonexistent": false
+    },
+    "loop_driven_local_field_balance_retains_boundary_residue": {
+      "local_current_and_loop_source_balances": 1284,
+      "retained_row_boundary_totals": 18,
+      "net_boundary_residue_created_by_loop_drive": false,
+      "physical_electric_current_identified": false
+    }
+  },
+  "rejected_false_alternatives": {
+    "independent_address_shifts_force_directional_transports_to_commute": true,
+    "separate_source_role_copies_have_the_same_nonzero_commutator": true,
+    "order_residue_is_the_identical_signed_closed_loop_response": true,
+    "curvature_follows_the_same_forward_directional_update": true,
+    "dual_of_two_direction_order_is_always_its_plain_inverse": true,
+    "straight_interface_residue_alone_forces_loop_curvature": true,
+    "intersecting_zero_field_backgrounds_cannot_have_local_loop_response": true,
+    "arbitrary_native_frame_change_creates_curvature_of_pure_shifts": true,
+    "period_two_flat_readout_proves_source_is_flat": true,
+    "periodic_curvature_blindness_contains_only_uniform_backgrounds": true,
+    "full_loop_driven_joint_form_is_positive_before_removing_blind_periodic_modes": true,
+    "loop_residue_cannot_drive_a_nonzero_native_field": true,
+    "ordinary_joint_b_phi_norm_is_the_conserved_interaction_energy": true,
+    "loop_drive_creates_net_row_boundary_residue": true
+  },
+  "derivation_graph": {
+    "status": "PASS_DECLARED_NATIVE_DERIVATION_GRAPH",
+    "certified_claims": 8,
+    "proof_path_nodes": 21,
+    "imported_classical_premises_on_proof_paths": 0,
+    "comparison_references_excluded_from_proof_paths": [
+      "comparison_clock_free_cut",
+      "comparison_cut_curvature",
+      "comparison_information_response",
+      "comparison_native_reciprocal_frames",
+      "comparison_odd_exchange",
+      "comparison_riemann_adapter",
+      "comparison_zero_cut"
+    ],
+    "target_definitions_retained_as_definitions": [
+      "constant_interface_target",
+      "cyclic_count_curvature_target",
+      "local_native_frame_target",
+      "loop_driven_field_target",
+      "protocol_loop_target",
+      "shared_role_direction_target"
+    ],
+    "automatic_semantic_or_formal_proof_verification": false
+  },
+  "derivation_graph_mutations_rejected": {
+    "reject_imported_classical_premise": true,
+    "reject_admitted_input_premise": true,
+    "reject_open_premise": true,
+    "reject_comparison_only_premise": true,
+    "reject_physical_claim_promotion": true,
+    "reject_protocol_definition_promotion": true,
+    "reject_dependency_cycle": true,
+    "reject_unpinned_source": true,
+    "reject_wrong_citation_commit": true
+  },
+  "altered_source_rejected": true,
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "wrong_r29_certificate_pin_rejected": true,
+  "previous_source_replayed": {
+    "commit": "16602a29c469ac96001977432fcf5fc4b548970b",
+    "status": "PASS_R29_NATIVE_PAIRED_FIELD_DYNAMICS",
+    "native_certificate_sha256": "59a8ed58355297764315daeb39cb950dc48b038c29c2a934aa7935ca3ca4361d",
+    "old_certificate_or_source_pin_modified": false,
+    "earlier_source_chain": {
+      "commit": "9ed6ae27d3ddb005ed7f4f3f27417036729698fd",
+      "status": "PASS_R28_NATIVE_CUT_CURVATURE_PROPAGATION",
+      "native_certificate_sha256": "dbfd38615437b0726f1ad70b31d393178c08a61bf674607beb69775ffe3cea11",
+      "old_certificate_or_source_pin_modified": false,
+      "earlier_source_chain": {
+        "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+        "status": "PASS_R27_NATIVE_REPLICA_SELECTION",
+        "native_certificate_sha256": "f5b6b9427f7484b793d78619527353ae758b0261e871662ce84516e963edc872",
+        "old_certificate_or_source_pin_modified": false,
+        "earlier_source_chain": {
+          "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+          "status": "PASS_R26_NATIVE_MEMORY_RESIDUE",
+          "native_certificate_sha256": "5d0df3fc203d393d1a4f58902a1f3f82e4c5ab7dfb60ffb40e380a7b96de2146",
+          "old_certificate_or_source_pin_modified": false,
+          "earlier_source_chain": {
+            "commit": "d4f1ae2481a72a04c465f1c17b37d154a6122eff",
+            "status": "PASS_R25_NATIVE_RETURN_FEEDBACK",
+            "native_certificate_sha256": "456f5c5d4bf9857b1604bb6024c346b1a6d499abd833b59a0b414a7bad0fb8d5",
+            "old_certificate_or_source_pin_modified": false,
+            "earlier_source_chain": {
+              "commit": "d660bbf026e1de818fcb3dd61d46346a4ad618ae",
+              "status": "PASS_R24_NATIVE_RETURN_COUPLING",
+              "native_certificate_sha256": "ae0c88451e3e0a7933dd42cecca67b0cc1254a81cc418da77b94843eaf1d2fbe",
+              "old_certificate_or_source_pin_modified": false,
+              "earlier_source_chain": {
+                "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+                "status": "PASS_R23_NATIVE_FUTURE_RESPONSE",
+                "native_certificate_sha256": "69b4e6d43db5bad0a10b797f7b7f788bb8091e4486bf0689960882d22b19295a",
+                "old_certificate_or_source_pin_modified": false,
+                "earlier_source_chain": {
+                  "commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+                  "status": "PASS_R22_NATIVE_MEETING_GEOMETRY",
+                  "native_certificate_sha256": "ad6ac9d802b77c67ec33e8c023c147300994576207014eb9cd81014f6924b98f",
+                  "old_certificate_or_source_pin_modified": false,
+                  "earlier_source_chain": {
+                    "commit": "2888aa2a9ea1c63a89b3d695256c8b9405dbd7cc",
+                    "status": "PASS_R21_NATIVE_RECORD_IDENTITY",
+                    "native_certificate_sha256": "1d857541e8497dfb4c33b532c7d50ee629f5d8e92698a080307b7ae039794464",
+                    "old_certificate_or_source_pin_modified": false,
+                    "earlier_source_chain": {
+                      "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+                      "status": "PASS_R20_NATIVE_RECORD_INTERACTION",
+                      "native_certificate_sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+                      "old_certificate_or_source_pin_modified": false,
+                      "earlier_source_chain": {
+                        "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+                        "status": "PASS_R19_NATIVE_CURRENT_RETENTION",
+                        "native_certificate_sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+                        "old_certificate_or_source_pin_modified": false,
+                        "earlier_source_chain": {
+                          "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+                          "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+                          "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+                          "historical_navigation_inputs_restored_in_temporary_snapshot": 3,
+                          "old_certificate_or_source_pin_modified": false,
+                          "earlier_source_chain": {
+                            "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+                            "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+                            "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+                            "foundation": {
+                              "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+                              "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+                              "written_statements": 14,
+                              "native_replays": 13,
+                              "analytic_replays": [
+                                {
+                                  "id": "F00_F00E_EULER_V0_1",
+                                  "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+                                  "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+                                  "checks": 14,
+                                  "negative_controls": 6,
+                                  "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+                                },
+                                {
+                                  "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+                                  "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+                                  "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+                                  "checks": 20,
+                                  "negative_controls": 7,
+                                  "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+                                }
+                              ],
+                              "original_universal_claim_certified": false
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 33,
+  "preserved_prior_files": 236,
+  "source_pins_sha256": "462de1fc879d9fa7da671ab4ce124c4d1b4ae22af0b46f01399481fe5d7cdcd3",
+  "native_certificate_sha256": "3a913a511ce03b76ee7f8e6697b8d0ae79d9eaaa655992999a6b76da4fba060c",
+  "comparison_references_are_proof_dependencies": false,
+  "comparison_source_certificates_rerun": false,
+  "native_shared_role_loop_curvature_derived": true,
+  "loop_driven_paired_field_closure_derived": true,
+  "native_local_frame_covariance_derived": true,
+  "complete_cyclic_curvature_quotient_derived": true,
+  "physical_vacuum_identified": false,
+  "electromagnetism_derived": false,
+  "physical_metric_c_alpha_derived": false,
+  "physical_electric_charge_or_particle_mass_identified": false,
+  "physical_spatial_dimension_or_gauge_group_selected": false,
+  "formal_proof_assistant_verified": false,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Eight written proofs: source-count directions, exact order/loop curvature, dual continuation, interface corners, closed loop-driven paired fields, local native frame covariance, complete cyclic blindness/reconstruction and positive interaction quotient. Scoped native identities and explicit response targets; no physical EM/vacuum/charge/c/alpha/mass/dimension/gauge-group or proof-assistant identification.",
+  "canonical_report_sha256": "28c65fb4bd974e9f4b6a4f75ad3d83f110734fe97deeeb6abc44baa555afa60f"
+}

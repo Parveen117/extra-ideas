@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R29's derivation ledger](04-operator-evolution/R29_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R30's derivation ledger](04-operator-evolution/R30_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,16 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R30: native directional loops and closed field interaction
+
+[R30](02-relational-response/NATIVE_DIRECTIONAL_LOOP_INTERACTION_R30.md) constructs two address records from internally counted source-event pairs while retaining one shared H/K role. Their directional transports have the exact order residue `Omega = delta_x delta_y (T_y^-1 - T_x^-1) (H-K)/4`. The actual closed protocol loop has a different signed response but the same quadratic reading. An intersecting pair of native interfaces gives a localized oriented response; a straight interface can carry R29's boundary residue while remaining invisible to this loop.
+
+The curvature reading follows a derived inverse-direction continuation. Setting R29's compatibility readout to `c=Omega phi` therefore closes a local reversible interaction between the native source and paired field. Its complete positive form and row boundary residue are conserved. Count-built local role frames preserve curvature and cannot manufacture flux from pure shifts.
+
+Three finite native averages classify the entire curvature-blind sector on an L-by-L periodic count target: `2(3L-2)` native roles. A finite weighted-count formula reconstructs everything outside that kernel, and the closed interaction quotient has `4L^2-6L+4` roles with a positive conserved form. In particular, complete loop blindness at period two is a boundary alias, not flatness of the unwrapped source. No Fourier or classical spectral theorem is imported.
+
+[Verification](04-operator-evolution/R30_VERIFICATION.json) binds eight written proofs, nine exact groups, twelve native word replays, fourteen rejected alternatives and nine invalid graph mutations. It checks complete Laurent identities, 2,040 literal source prefixes, native frame covariance, cyclic reconstruction/ranks and 1,284 local current/source balances. The [ledger](04-operator-evolution/R30_DERIVATION_LEDGER.json) retains the direction, boundary and interaction targets as explicit constructions. All 236 earlier non-navigation files and the frozen R29 source chain are preserved. Physical spatial dimension, gauge group, EM and c/alpha selection remain open.
 
 ## R29: native paired fields, constitutive closure and boundary residue
 

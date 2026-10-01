@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R30 native protocol-loop curvature and field interaction
+
+[NATIVE_DIRECTIONAL_LOOP_INTERACTION_R30.md](NATIVE_DIRECTIONAL_LOOP_INTERACTION_R30.md) derives an exact directional order residue from two history-address labels sharing one native source role. Its actual closed-loop defect has the same quadratic size and a native continuation decoder. Intersecting interfaces localize an oriented curvature response; straight interfaces can be invisible to it.
+
+The loop reading realizes R29's compatibility residue and closes a local reversible source/field interaction with a positive conserved form. Native local role-frame changes preserve its curvature and cannot create a pure-link flux. On periodic count targets, three finite averaging cuts give the complete blind sector and a finite weighted-count reconstruction, without a classical spectral theorem.
+
+[Verification](../04-operator-evolution/R30_VERIFICATION.json) binds eight proofs, nine exact groups and twelve native replays. The [ledger](../04-operator-evolution/R30_DERIVATION_LEDGER.json) labels the constructed directions, coupling readout, local frames and finite boundary explicitly; physical spatial dimension, gauge group and electromagnetism are not identified by those mathematical constructions.
+
 ## R29 paired fields and native constitutive closure
 
 [NATIVE_PAIRED_FIELD_DYNAMICS_R29.md](NATIVE_PAIRED_FIELD_DYNAMICS_R29.md) derives a local relation between event and address difference fields, closed reversible induction, a positive conserved form and a local current. The compatibility residue evolves exactly and supplies the apparent source seen after losing that record; a field norm ratio alone does not establish source compatibility.
