@@ -2,6 +2,12 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R23 future-response equivalence and observer completion
+
+[FUTURE_RESPONSE_QUOTIENT_R23.md](FUTURE_RESPONSE_QUOTIENT_R23.md) derives an exact record-translation symmetry and a continuation-sufficient exchange quotient. Positive meeting-distance can remain invisible to every transport/write response, so meeting geometry and observable response geometry require distinct targets. Complete native exchange cuts have a sharp channel count; any finite future catalogue has a minimum linear observer and a derived positive response form on its quotient.
+
+For the two specified two-address preparation supports, four events attain the all-future quotient, with exact inverse-minor witnesses. Further results give the first-slot return law for initial-role detection, a two-event basis decoder, a native rotation/probe that recovers hidden record marks, and equal-support words with different signed signals. [Verification](../04-operator-evolution/R23_VERIFICATION.json) binds nine written proofs, ten exact groups and twelve native replays. The [ledger](../04-operator-evolution/R23_DERIVATION_LEDGER.json) preserves the real signed target, full history and physical-selection boundaries.
+
 ## R22 native meeting geometry and record parity
 
 [MEETING_GEOMETRY_R22.md](MEETING_GEOMETRY_R22.md) derives the exact meeting capacity of every finite allocation word, then the minimum return length for a complete native slot catalogue. That length is a metric on address/record endpoints, with explicit disconnected components, exact ball counts and different energy/current return times. Full history tags remain distinct even when this endpoint distance vanishes.
@@ -68,7 +74,7 @@ For a proposed Jacobian, check the compatibility conditions needed for it to ari
 
 ## Next target
 
-Continue from [R22](MEETING_GEOMETRY_R22.md): determine which continuation catalogues have identical future native energy/current responses after exact record-coordinate reduction, and derive separating responses for the others. Meeting geometry is now explicit, while physical catalogue and clock/rod selection remain open. Keep response recovery distinct from full history recovery and preserve the existing R10 connection and upstream master-review boundaries.
+Continue from [R23](FUTURE_RESPONSE_QUOTIENT_R23.md): derive the observer-record coupling and its schedule from retained native history, then determine which conserved response fixes its scale. Observable quotient and native probe completion are now explicit; physical clock/rod and metric selection remain further questions. Preserve full history, the existing R10 connection and upstream master-review boundaries.
 
 ## R13 complementary noise and native event information
 

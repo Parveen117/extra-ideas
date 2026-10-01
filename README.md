@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R22's derivation ledger](04-operator-evolution/R22_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R23's derivation ledger](04-operator-evolution/R23_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,24 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R23: future-response equivalence and native observer completion
+
+[R23](02-relational-response/FUTURE_RESPONSE_QUOTIENT_R23.md) derives which distinctions the transport/write interface cannot observe. A common translation of record marks commutes with every native U/W continuation and preserves every unresolved energy/current response. Two records can therefore have meeting-distance two while giving identical responses for every future word. This leaves their full source labels intact and shows why the meeting metric does not descend unchanged to response classes.
+
+Finite native translation averaging gives an exact sufficient exchange quotient. After R22's parity compression it uses `2^(r-1)` exchange fields. A constructed complete cut-probe catalogue has sharp linear rank `2^(r-1) N(N+1)/2` on N address/role labels in the real signed pair target. Every finite future catalogue also has its own derived minimum observer and response form. For initial addresses `{0,2}`, both roles, and one or two record slots, exact four-event readouts attain the full all-future quotient: respectively 10 and 20 channels. Invertible native minors certify those ranks, and the smaller three-event ranks prove that four is sharp for these finite supports.
+
+The initial role becomes visible precisely when the first written slot returns. Basis endpoints have an exact two-event address/role decoder under a nonempty complete slot catalogue. A further derived even record rotation and prepared exchange probe recovers the hidden record bits. Two explicit five-event words also prove that identical final meeting support can have different signed energy/current signals.
+
+[Verification](04-operator-evolution/R23_VERIFICATION.json) passes nine written results, ten exact groups and twelve native proof replays. It includes 966 cut-probe comparisons, 23,440 observer factorization coefficients, 284 initial-role protocols, 102 endpoint decoders, 68 record-bit probes and exact 10-by-10 and 20-by-20 inverse witnesses. Sixteen false alternatives and nine invalid dependency graphs are rejected. All 187 prior non-navigation files and the R22/R21/R20/R19/R18/R17/R16 certificate chain stay unchanged.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r23.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+Native observer completion is now explicit. Its physical coupling, preparation and schedule still require source selection before the response form can be identified with a physical metric or constants such as c and alpha.
 
 ## R22: native meeting geometry and one-bit record reconstruction
 

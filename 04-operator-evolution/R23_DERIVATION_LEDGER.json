@@ -1,0 +1,523 @@
+{
+  "schema": "extra-ideas.r23.derivation-ledger.v1",
+  "date": "2026-10-01",
+  "source_commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+  "no_classical_premise_rule": true,
+  "rule": "Proof paths contain pinned native sources, explicit constructions and native deductions. Classical/admitted/open/comparison premises are forbidden. A constructed observer or response form is not a selected physical instrument or metric.",
+  "certified_claims": [
+    "R23.1",
+    "R23.2",
+    "R23.3",
+    "R23.4",
+    "R23.5",
+    "R23.6",
+    "R23.7",
+    "R23.8",
+    "R23.9"
+  ],
+  "claims": [
+    {
+      "id": "R23.1",
+      "title": "Record translation is an exact symmetry of every future response",
+      "written_section_sha256": "654b2cfa4dd3f45c40c78338825f5c8ebfddc105e722101f12fc52cc6f706f4d",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "record_translation_commutes_with_every_native_step"
+      ],
+      "scope_boundary": "Every common input-independent transport/write word with matching-record local readout. Even translations preserve the fixed native parity subspace; no erased-source identity claim."
+    },
+    {
+      "id": "R23.2",
+      "title": "Native translation averaging gives a closed exchange quotient",
+      "written_section_sha256": "efb32d6fceaa97fa8839af6ed0475f553101efee6018e0ad8056af0e4263d2bf",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_averaging_cut_and_exact_exchange_reconstruction",
+        "compressed_exchange_and_sector_continuation_match_full_records"
+      ],
+      "scope_boundary": "Exact continuation-sufficient exchange quotient on the real signed pair sector. A smaller passive catalogue may identify further distinctions. Averaging is not an imposed physical reset."
+    },
+    {
+      "id": "R23.3",
+      "title": "Complete native exchange probes have a sharp channel count",
+      "written_section_sha256": "d92f55eef598bb0e04b8420dc25474ee7f47260dd5d40544517eac59b51f3f9f",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "complete_native_exchange_probes_recover_sharp_channel_rank"
+      ],
+      "scope_boundary": "Sharp linear rank for the explicitly constructed complete exchange-cut probe target on N system labels. Known normalization removes one variable channel. Extra iota-valued sectors are not covered by the real symmetric count."
+    },
+    {
+      "id": "R23.4",
+      "title": "A finite future catalogue derives its own minimum observer",
+      "written_section_sha256": "50fa3449b0766f2db4684c2ee3f90db88acd88c88b3afcf3b1d4205ba6ee44c0",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "finite_catalogue_observer_rank_and_native_response_form",
+        "native_averaging_cut_and_exact_exchange_reconstruction"
+      ],
+      "scope_boundary": "Exact finite-catalogue linear observer and constructed response form. The two listed finite-support cases attain the proved all-future upper bound at four events by exact invertible-minor witnesses; no general infinite-horizon plateau extrapolation."
+    },
+    {
+      "id": "R23.5",
+      "title": "Positive meeting-distance can be invisible for every future word",
+      "written_section_sha256": "82d5982c70b147994dd60cb04368f3341daea4f6bcb5a3cdbc59d64f13956a7e",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "positive_meeting_distance_is_invisible_to_all_word_readouts"
+      ],
+      "scope_boundary": "Positive meeting-distance can identify the same passive future-response class; the original endpoint distance does not descend unchanged. Hidden source records remain distinct."
+    },
+    {
+      "id": "R23.6",
+      "title": "The first slot's return exposes the initial system role",
+      "written_section_sha256": "20ae92631928538822b332d419b434ea5ffcac2bf0daad00cae72d8538b0ee35",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "first_slot_return_is_sharp_initial_role_detection_time"
+      ],
+      "scope_boundary": "Single-address role basis preparations with one record basis tuple. Positive-prefix full pair equality; at zero events only local energy/current agree. First-slot return, not arbitrary slot reuse, is decisive."
+    },
+    {
+      "id": "R23.7",
+      "title": "Basis endpoints have an exact two-event operational decoder",
+      "written_section_sha256": "4b2189d359255b24cedb4f662397ff3259bd5dc6acd4cd33540fc5a6a5474dc6",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "basis_endpoint_decoder_has_exact_two_event_depth",
+        "first_slot_return_is_sharp_initial_role_detection_time"
+      ],
+      "scope_boundary": "Complete classification of basis endpoint preparations under the stated prefix-readout catalogue, not arbitrary coherent fields or minimum nonlinear coding."
+    },
+    {
+      "id": "R23.8",
+      "title": "A derived record rotation restores the hidden basis marks",
+      "written_section_sha256": "c2e56780b87645f70afadf1a3509cd28b9aa81269afac17f79e8e6dc22036629",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_even_record_rotation_restores_every_retained_basis_bit"
+      ],
+      "scope_boundary": "Derived native observer enlargement using a specified even record rotation and prepared exchange probe. Basis-record identification is not a nondisturbing measurement of an unknown coherent field or physical observer selection."
+    },
+    {
+      "id": "R23.9",
+      "title": "Identical meeting support need not give identical signed response",
+      "written_section_sha256": "a4bde7ba7e50364e6f284efdc38a4a86258199a5aec7ec13ff70090a6f5b1db5",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "same_final_meeting_support_has_different_native_signed_signal"
+      ],
+      "scope_boundary": "Identical final meeting and final-role support for every endpoint difference does not determine signed aggregate energy/current; native word order supplies the missing information."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "source_roles",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C3-C8",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Derived role parity/exchange, native pairing, refinements and completion."
+    },
+    {
+      "id": "source_history",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C13",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Full typed words remain upstream; equality, finite counting and induction are declared metamathematical infrastructure."
+    },
+    {
+      "id": "address_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "R18.1, R18.3",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "physical_selection_proved": false,
+      "definition": "Constructed integer address and signed response aggregation target."
+    },
+    {
+      "id": "source_transport",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "address_target",
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "R18.1-R18.4",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "scope": "Native direction bijection, normalized U and the nonzero derived role transition table."
+    },
+    {
+      "id": "source_pairs",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_transport"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CURRENT_MEMORY_RETENTION_R19.md",
+        "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+        "section": "R19.1-R19.6",
+        "sha256": "d353a7f8eef831785ddf6d1168a6d1b9d9031e5b53bad68d6a7ff3548dfa82b7"
+      },
+      "scope": "Real signed finite pair ledger, matching dagger, local energy/current and transport balance; not a scalar redefinition of UGD."
+    },
+    {
+      "id": "record_tuple_construction",
+      "kind": "NATIVE_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RECORD_INTERACTION_R20.md",
+        "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+        "section": "Source construction and R20.1",
+        "sha256": "6139b16bfcb5be9c07f9c32c17e82e616c10a7b7d3a3f7113c8bc9bf4e33e7a7"
+      },
+      "definition": "Finite marked tuples and independent-position native H/K actions."
+    },
+    {
+      "id": "record_readout",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "record_tuple_construction",
+        "source_pairs"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RECORD_INTERACTION_R20.md",
+        "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+        "section": "R20.2",
+        "sha256": "6139b16bfcb5be9c07f9c32c17e82e616c10a7b7d3a3f7113c8bc9bf4e33e7a7"
+      },
+      "physical_selection_proved": false,
+      "definition": "Finite pairing contraction over equal record marks."
+    },
+    {
+      "id": "source_record_gate",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "record_tuple_construction",
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RECORD_INTERACTION_R20.md",
+        "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+        "section": "R20.1",
+        "sha256": "6139b16bfcb5be9c07f9c32c17e82e616c10a7b7d3a3f7113c8bc9bf4e33e7a7"
+      },
+      "scope": "Derived reversible controlled record exchange."
+    },
+    {
+      "id": "allocation_words",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_record_gate",
+        "source_transport",
+        "source_history"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Common input-independent finite words of U followed by a named W; their order is retained."
+    },
+    {
+      "id": "source_exchange",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "allocation_words",
+        "record_readout",
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/RECORD_IDENTITY_CONTINUATION_R21.md",
+        "commit": "2888aa2a9ea1c63a89b3d695256c8b9405dbd7cc",
+        "section": "R21.2-R21.5, R21.9",
+        "sha256": "2714c898ef0fcdbe7dbba10edfb8d5b77a9666a0db3afd20471ca99052102e6c"
+      },
+      "scope": "Native pair-retention kernel, exchange moments, derived sign sectors, front path sums and prepared no-U exchange probe."
+    },
+    {
+      "id": "source_meeting_geometry",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "allocation_words",
+        "record_readout"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/MEETING_GEOMETRY_R22.md",
+        "commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+        "section": "R22.1-R22.5, R22.9",
+        "sha256": "0406896fa70a1ae7820a23fd06bee8ca5b3597525f8677f3c93532fab41a1617"
+      },
+      "scope": "Derived fixed-word capacity, target-role gate and complete-catalogue endpoint metric; aggregate signs remain separate."
+    },
+    {
+      "id": "source_record_compression",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_meeting_geometry",
+        "source_record_gate"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/MEETING_GEOMETRY_R22.md",
+        "commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+        "section": "R22.7",
+        "sha256": "0406896fa70a1ae7820a23fd06bee8ca5b3597525f8677f3c93532fab41a1617"
+      },
+      "scope": "Exact time-indexed parity-subspace coordinate bijection, lifted arrows and off-address readout filter."
+    },
+    {
+      "id": "compressed_pair_target",
+      "kind": "NATIVE_CONSTRUCTION",
+      "depends_on": [
+        "source_record_compression",
+        "source_pairs"
+      ],
+      "definition": "Finite real symmetric pair ledger on compressed address/role/record labels; basis translation and finite refinement sums."
+    },
+    {
+      "id": "native_probe_cuts",
+      "kind": "NATIVE_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_history",
+        "source_record_compression"
+      ],
+      "definition": "Equality cut on a chosen native basis label, derived normalized two-label mixing, and (I plus or minus a record translation)/2. Compressed arrows are lifted through the exact parity bijection."
+    },
+    {
+      "id": "complete_exchange_probe_catalogue",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "native_probe_cuts",
+        "compressed_pair_target",
+        "source_exchange"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Repeated prepared cut energies for every retained translation mask and each single-label or two-label system probe; no availability is inferred."
+    },
+    {
+      "id": "finite_future_catalogue",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "allocation_words",
+        "compressed_pair_target",
+        "record_readout"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Finite initial support, stated future words and prefix readouts. The list of outputs defines an unweighted native sum-of-squares response form."
+    },
+    {
+      "id": "basis_preparation_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "record_tuple_construction",
+        "source_record_compression",
+        "source_roles"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Single address/role and record-basis preparations with all local prefix energy/current readouts."
+    },
+    {
+      "id": "rotated_record_probe_catalogue",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_record_gate",
+        "source_exchange",
+        "source_record_compression"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Even record mixing (H_i+K_i K_r)/sqrt(2), balanced native role probe and product W_i W_r without U on repeated basis preparations."
+    },
+    {
+      "id": "native_minimum_observer",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "rkf",
+        "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "section": "N03-N04",
+        "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5"
+      },
+      "scope": "Native minimum linear state observer for a declared target; an algebra quotient has stronger requirements. Finite proof is reproduced here."
+    },
+    {
+      "id": "declared_partial_continuation_comparison",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/uncut-cut-measurement/ADMISSIBLE_CONTINUATION.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "section": "U13-U16",
+        "sha256": "dd71c56c3bb1593d5cc5afb5fe66c118216be94c933b7961e3bb52cce445a3c5"
+      },
+      "scope": "Supplied carrier, cut, partial domains and availability interface; not imported as physical observer selection."
+    },
+    {
+      "id": "declared_parameter_identification_comparison",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/native-return-identification/THEOREM.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "section": "NI-1-NI-4",
+        "sha256": "5f960f4434d9203a56a8d43518d021fcf60b59785dace8ecebdf2dc19a9a2a35"
+      },
+      "scope": "Supplied paired-cell couplings and symmetric probes identify a parameter, not parameter-free alpha; comparison only."
+    },
+    {
+      "id": "R23.1",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "source_history",
+        "source_record_gate",
+        "source_transport",
+        "record_readout",
+        "source_record_compression",
+        "allocation_words"
+      ],
+      "written_section_sha256": "654b2cfa4dd3f45c40c78338825f5c8ebfddc105e722101f12fc52cc6f706f4d"
+    },
+    {
+      "id": "R23.2",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R23.1",
+        "compressed_pair_target",
+        "source_exchange"
+      ],
+      "written_section_sha256": "efb32d6fceaa97fa8839af6ed0475f553101efee6018e0ad8056af0e4263d2bf"
+    },
+    {
+      "id": "R23.3",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R23.2",
+        "complete_exchange_probe_catalogue",
+        "native_probe_cuts",
+        "native_minimum_observer"
+      ],
+      "written_section_sha256": "d92f55eef598bb0e04b8420dc25474ee7f47260dd5d40544517eac59b51f3f9f"
+    },
+    {
+      "id": "R23.4",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R23.2",
+        "R23.3",
+        "finite_future_catalogue",
+        "native_minimum_observer",
+        "source_pairs"
+      ],
+      "written_section_sha256": "50fa3449b0766f2db4684c2ee3f90db88acd88c88b3afcf3b1d4205ba6ee44c0"
+    },
+    {
+      "id": "R23.5",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R23.1",
+        "R23.2",
+        "source_meeting_geometry",
+        "basis_preparation_target"
+      ],
+      "written_section_sha256": "82d5982c70b147994dd60cb04368f3341daea4f6bcb5a3cdbc59d64f13956a7e"
+    },
+    {
+      "id": "R23.6",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "source_exchange",
+        "source_transport",
+        "source_pairs",
+        "allocation_words",
+        "basis_preparation_target"
+      ],
+      "written_section_sha256": "20ae92631928538822b332d419b434ea5ffcac2bf0daad00cae72d8538b0ee35"
+    },
+    {
+      "id": "R23.7",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R23.1",
+        "R23.6",
+        "finite_future_catalogue",
+        "basis_preparation_target"
+      ],
+      "written_section_sha256": "4b2189d359255b24cedb4f662397ff3259bd5dc6acd4cd33540fc5a6a5474dc6"
+    },
+    {
+      "id": "R23.8",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "source_roles",
+        "source_record_gate",
+        "source_exchange",
+        "source_record_compression",
+        "rotated_record_probe_catalogue"
+      ],
+      "written_section_sha256": "c2e56780b87645f70afadf1a3509cd28b9aa81269afac17f79e8e6dc22036629"
+    },
+    {
+      "id": "R23.9",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "source_meeting_geometry",
+        "source_history",
+        "source_transport",
+        "source_record_gate",
+        "record_readout",
+        "allocation_words"
+      ],
+      "written_section_sha256": "a4bde7ba7e50364e6f284efdc38a4a86258199a5aec7ec13ff70090a6f5b1db5"
+    }
+  ],
+  "physical_observer_selected": false,
+  "physical_metric_selected": false,
+  "origin_gate_checks_declared_metadata_not_arbitrary_prose": true,
+  "formal_proof_assistant_verified": false
+}

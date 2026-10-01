@@ -2,6 +2,20 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R23 future-response quotient and observer completion verification
+
+[future_response_quotient.cjs](future_response_quotient.cjs) checks record-translation commutation, native averaging and complete exchange reconstruction, compressed sector evolution, native cut probes and their sharp rank, exact finite-catalogue observers, delayed role detection and record-bit recovery. It uses the unchanged native arithmetic and proof replayer, retaining literal H/K histories for the equal-support/different-signal witness.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r23.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R23_VERIFICATION.json](R23_VERIFICATION.json) records nine written results, ten exact groups, twelve native proof replays, sixteen false alternatives and nine invalid graph mutations. Checks include 105 symmetric pair basis inputs, 237 continued exchange fields, 966 native probe comparisons, 23,440 observer coefficients, 284 initial-role protocols and 68 hidden-bit probes. The two finite preparation ledgers attain ranks 10 and 20 at horizon four, with exact inverse-minor witnesses. The proved exchange upper bound then certifies all-future completeness for those supports; an arbitrary rank plateau is not treated as saturation.
+
+[R23_DERIVATION_LEDGER.json](R23_DERIVATION_LEDGER.json) binds the [written proofs](../02-relational-response/FUTURE_RESPONSE_QUOTIENT_R23.md) and explicit target/probe constructions. [R23_SOURCE_PINS.json](R23_SOURCE_PINS.json) preserves all 187 earlier non-navigation files and pins premise-labelled repository comparisons. The R22/R21/R20/R19/R18/R17/R16 chain replays without altering historical evidence. Neither the provenance gate nor these finite checks claim formal proof-assistant or physical validation.
+
 ## R22 meeting geometry and record reconstruction verification
 
 [meeting_geometry.cjs](meeting_geometry.cjs) compares the constructive fixed-word meeting rule with exhaustive native direction pairs and the complete-catalogue distance with independent graph exploration. It checks exact target-return gates, metric inequalities and ball counts, one-bit reconstruction and its compressed evolution, first-reuse onset, and signed cancellation. Original H/K word tags supply an independent source check.
@@ -131,7 +145,7 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Follow [R22](../02-relational-response/MEETING_GEOMETRY_R22.md): derive equivalence and separation of future native response catalogues using the exact meeting geometry and one-bit record reconstruction. Keep physical allocation and clock/rod selection separate from a constructed comparison metric. Preserve the full word ledger, independent sheets, nonaffine clock term, Smriti error control and the complete R10 connection contract.
+Follow [R23](../02-relational-response/FUTURE_RESPONSE_QUOTIENT_R23.md): derive observer-record coupling and scheduling from the retained native source, with a conserved response fixing any proposed scale. Keep constructed observer completion separate from physical instrument and clock/rod selection. Preserve the full word ledger, independent sheets, nonaffine clock term, Smriti error control and the complete R10 connection contract.
 
 ## R13 complementary memory/noise certificates
 
