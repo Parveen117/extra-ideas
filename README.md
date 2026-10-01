@@ -17,6 +17,32 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
+## R17: source-count noise, curvature and signed memory return
+
+[R17](02-relational-response/CUT_HISTORY_MEMORY_R17.md) develops the full free cut-history source using the role operators derived in R16. Native counting gives the mean map `M=(H+K)/2`, with `M²=I/2`. Record erasure produces the exact spread/curvature relation
+
+\[
+\mathcal V_1(v)=\frac12\|v\|^2=\frac18\|[K,H]v\|^2,
+\qquad \mathcal V_n(v)=(1-2^{-n})\|v\|^2.
+\]
+
+The first source layer constructs the balanced hidden pair used in R13. A hidden component returns at the first H tag after `m` K tags with sign `(-1)^m`. Prefix counts derive its waiting law `2^(-m-1)`, even/odd return contents `2/3, 1/3`, and an erased-parity mean response factor `1/3`. Full return amplitude and the source word remain active.
+
+Finite prefix apertures have an exact recovery budget: after keeping j of N tags, unresolved endpoint spread is `(1-2^(-(N-j))) E`. The same source count gives the common-prefix cylinder content, reproducing the recognition boundary metric without a separate numerical calibration.
+
+[Exact verification](04-operator-evolution/R17_VERIFICATION.json) covers ten written results, 15 canonical symbolic replays, 2,044 state records, 80 lag cases, 420 signed-return checks, 180 history-aperture cases and minimum observer completion. Eleven false alternatives, an altered proof and a wrong input pin are rejected. The unchanged foundation and its Euler/log audit hashes are replayed. These are derived record-count contents, not an empirical detector-frequency claim.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r17.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework
+```
+
+## R16: the integrated constructive cut foundation
+
+The [foundation packet](02-relational-response/emk-topology-foundation/README.md), originally prepared as a standalone edition, is now part of this repository's active derivation route. Its 14 written results construct signed role operators before iota, then scalar completion, recognition geometry, Eye apertures and retained histories. Unlike R15's signed cyclic presentation, C4 derives its four-cycle from exchange and parity on the two role generators; a phase-alphabet size is not an input.
+
+The R16 packet remains byte-identical to commit `4cc46d1`, preserving its source and certificate hashes. Its historical statement that application integration was deferred records that stage; R17 supplies the first connection here. The original upload's universal raw-closure claim remains unproved/false as its 48-claim ledger documents. Neither R16 nor R17 equates the full UGD state with a scalar.
+
 ## R15: cut/operator foundation and uploaded topology certification
 
 [R15](02-relational-response/EMK_TOPOLOGY_R15.md) starts with typed cut records, derives future-compatible recognition and a saturated cut topology, and constructs **iota from signed cyclic UGD phase records before a complex chart**. Scale, seam and path memory remain active. The [corrective LaTeX edition](02-relational-response/emk_topology_verified_R15.tex) contains the central proofs.

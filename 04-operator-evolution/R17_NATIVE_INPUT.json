@@ -1,0 +1,43 @@
+{
+  "schema": "extra-ideas.r17.native-input.v1",
+  "source_foundation": {
+    "repository": "Parveen117/extra-ideas",
+    "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+    "path": "02-relational-response/emk-topology-foundation",
+    "pins_sha256": "a7604972cf93bb919d281e76bb770d74e8f97fc7e2366f2d10a2ae685a625b90"
+  },
+  "ordered_roles": [
+    "cut",
+    "self_cut_trace"
+  ],
+  "constructed_maps": {
+    "parity_on_roles": [
+      1,
+      -2
+    ],
+    "role_exchange": [
+      2,
+      1
+    ]
+  },
+  "maximum_depth": 8,
+  "return_depth": 14,
+  "verification_seeds": [
+    [
+      "1",
+      "0"
+    ],
+    [
+      "0",
+      "1"
+    ],
+    [
+      "1",
+      "1"
+    ],
+    [
+      "2",
+      "-3"
+    ]
+  ]
+}

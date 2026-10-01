@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R17 cut-history memory, noise and return events
+
+[CUT_HISTORY_MEMORY_R17.md](CUT_HISTORY_MEMORY_R17.md) now follows the integrated [R16 constructive foundation](emk-topology-foundation/README.md). It derives the full source-census mean, curvature/spread relation, lag covariance, source-generated hidden pair and parity-sensitive memory return from the same H/K cut roles. It needs no independently supplied angle, balanced preparation or noise variance.
+
+The returning event has count content `2^(-m-1)` and signed response `(-1)^m PHv`. Erasing its parity gives mean `PHv/3` while each full return keeps its norm. The P/PH observer pair reconstructs the role state isometrically; it does not reconstruct an erased path. [R17 verification](../04-operator-evolution/R17_VERIFICATION.json) separates exact checks from written arbitrary-depth proofs and physical interpretation.
+
+The frozen R16 packet keeps its original certificates and 48-claim audit unchanged. Its earlier application-deferral note is historical; this R17 chapter supplies the new connection.
+
 ## R15 uploaded topology and cut/operator foundation
 
 [R15](EMK_TOPOLOGY_R15.md) audits all 48 claims in the uploaded topology manuscript and supplies proofs for future recognition, correctly typed Eye saturation, cut topology, directed cut distance, signed-phase iota and retained loop memory. The [corrective LaTeX edition](emk_topology_verified_R15.tex) and exact certificate keep the original unsupported claims visible. The full original manuscript is not certified as written.
@@ -30,7 +38,7 @@ For a proposed Jacobian, check the compatibility conditions needed for it to ari
 
 ## Next target
 
-Continue from [R13](COMPLEMENT_MEMORY_NOISE_R13.md), which derives endogenous noise, event weights and a native binary realization of the observer/metric foundation. Next identify its native preparation and monitoring policy in a specific response sector, and compare the predicted colored covariance, exit weights and signed recovery against that source. Keep the original R12 likelihood, R11 reading/intervention distinction, R10 connection descent and upstream master-review corrections explicit.
+Continue from [R17](CUT_HISTORY_MEMORY_R17.md): the finite-history aperture budget and count-calibrated boundary metric are now derived. Next find the smallest target-specific record quotient and connect its recovery law to the existing observer/metric machinery. Keep state recovery distinct from full history recovery, and preserve the existing R10 connection and upstream master-review boundaries.
 
 ## R13 complementary noise and native event information
 

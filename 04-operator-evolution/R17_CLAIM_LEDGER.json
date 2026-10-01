@@ -1,0 +1,142 @@
+{
+  "schema": "extra-ideas.r17.claim-ledger.v1",
+  "claims": [
+    {
+      "id": "R17.1",
+      "title": "Consistent census and record-preserving lift",
+      "depends_on": [
+        "R16:C1",
+        "R16:C3",
+        "R16:C4",
+        "R16:C6",
+        "FULL_SOURCE_CENSUS"
+      ],
+      "written_section_sha256": "d0d84696e285e07b4bb58a3e33004909a2bee339ef87781e5deddd6e98cab6a1",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "R17.2",
+      "title": "Exact curvature/spread identity",
+      "depends_on": [
+        "R17.1",
+        "R16:C4",
+        "R16:C6"
+      ],
+      "written_section_sha256": "011513ba99dd45a6c44bc9b98d46c43a6aeaed1604c54b0abc675b837f71261e",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "R17.3",
+      "title": "Exact finite-depth mean and covariance",
+      "depends_on": [
+        "R17.1",
+        "R17.2",
+        "R16:C8",
+        "RKF:F00G_FOR_LOG_IDENTITY_ONLY"
+      ],
+      "written_section_sha256": "204f723ba6b37ec8795e92201f1eb33fbe68317f3add98de39215e5e497d764c",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "R17.4",
+      "title": "One returning cut completes the observer",
+      "depends_on": [
+        "R16:C4",
+        "R16:C6",
+        "R16:C7",
+        "RKF:N03"
+      ],
+      "written_section_sha256": "36d2b0e3869eb2f5aae2c2fce18b5d666b578209ba3103c720f8537a27925553",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "R17.5",
+      "title": "The first source layer generates the hidden pair",
+      "depends_on": [
+        "R17.1",
+        "R17.4",
+        "FIRST_CUT_ROLE_SEED"
+      ],
+      "written_section_sha256": "26c8c25e416ae98dd8ad96f2d6d6b114d21dfed4d0053a496600ee79655dc697",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "R17.6",
+      "title": "First-return count law and exact tail",
+      "depends_on": [
+        "R17.1",
+        "R16:C8"
+      ],
+      "written_section_sha256": "667304a4a0d5d60ae8e1ec2e6f507471f9a9a6df248430422cb15334febc2f2a",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "R17.7",
+      "title": "Returning memory remembers the intervening cuts",
+      "depends_on": [
+        "R17.4",
+        "R17.6"
+      ],
+      "written_section_sha256": "24375f85e6372a31478a7777b8f5b9c55e56422c7a88b2c02d659598f3fe09b9",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "R17.8",
+      "title": "Recovering the role state does not recover an erased history",
+      "depends_on": [
+        "R16:C1",
+        "R16:C4"
+      ],
+      "written_section_sha256": "010c824dff023a8cd8d9a920f526ae1ada554172ef2e7e328c17d0743bd0cc85",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "R17.9",
+      "title": "Exact recovery budget of the native history tower",
+      "depends_on": [
+        "R17.1",
+        "R17.3",
+        "R16:C12",
+        "RKF:F00G_FOR_LOG_IDENTITY_ONLY"
+      ],
+      "written_section_sha256": "f88f0266947d6717f59a40fdb636f22093bc8c8984d4d18d8b2e730266b6d74c",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "R17.10",
+      "title": "The prefix metric is the count of the common recognition cylinder",
+      "depends_on": [
+        "R17.1",
+        "R16:C9",
+        "R16:C10"
+      ],
+      "written_section_sha256": "ebd716aa1515adbb352296c5c884fc0b1a37e548fc5842ab8f2452309d75fb77",
+      "evidence": "WRITTEN_PROOF_WITH_SCOPED_EXACT_CERTIFICATE",
+      "formal_proof_assistant_verified": false
+    }
+  ],
+  "source_commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+  "declared_source_constructions": [
+    "FULL_SOURCE_CENSUS: every distinct length-n free record is counted once; normalized count is not an independently selected empirical sampling law.",
+    "ROLE_ACTION: the explicit R16 signed role representation k->H, c->K; no arbitrary primitive closure assertion.",
+    "PAIRING_AND_APERTURE: use R16 C6 coefficient matching and C7 P=(I+K)/2.",
+    "FIRST_CUT_ROLE_SEED: e_k for R17.5; other main results apply to every signed/radial role state.",
+    "EVENT: first H after a K prefix; its content and amplitude are derived from this same record source."
+  ],
+  "native_source_count_is_empirical_detector_law": false,
+  "independent_angle_noise_variance_or_stopping_parameter": false,
+  "full_ugd_replaced_by_role_state": false,
+  "ordinary_classical_math_imports_in_core": [],
+  "proof_infrastructure": "Classical logical equality, finite counting, functions, quotient/completion and induction inherited from R16; code arithmetic encodes proved native count laws.",
+  "analytic_dependency": "Only native F00G is cited for the logarithm identity; C8 supplies its completed radial field. No ordinary log, probability density, Hilbert primitive or Gaussian distribution is an input.",
+  "novelty_scope": "A source-specific derivation and connection; no priority claim for general averaging, covariance or geometric-series mechanisms."
+}

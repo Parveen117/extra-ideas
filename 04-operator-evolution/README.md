@@ -2,6 +2,17 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R17 source-count memory and curvature verification
+
+[cut_history_dynamics.cjs](cut_history_dynamics.cjs) takes its role maps directly from the verified [R16 foundation](../02-relational-response/emk-topology-foundation/README.md) and calls the unchanged canonical RKF engine. It checks the full H/K source census, `M²=I/2`, the curvature/spread identity, exact covariance and lag response, source-derived hidden balance, minimum seam-observer repair and signed first-return tails.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r17.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework
+```
+
+[R17_VERIFICATION.json](R17_VERIFICATION.json) records 12 exact check groups, 15 symbolic replays, 2,044 state records, 80 lag cases, 420 return responses, 180 history-aperture cases, 11 rejected false alternatives, a rejected altered proof and a rejected input pin. [R17_SOURCE_PINS.json](R17_SOURCE_PINS.json) binds the canonical runtime, the frozen foundation and prior evidence. The verifier reproduces the foundation into temporary outputs, preserving its old certificate files. See the [ten written results](../02-relational-response/CUT_HISTORY_MEMORY_R17.md) and [claim ledger](R17_CLAIM_LEDGER.json).
+
 ## R15 cut/operator and topology verification
 
 [R15's proof and source audit](../02-relational-response/EMK_TOPOLOGY_R15.md) accompany [emk_topology_core.py](emk_topology_core.py), the [unchanged-engine caller](r15_native_topology_probe.cjs), [48-claim ledger](certificates/r15/CLAIM_LEDGER.json) and [source pins](certificates/r15/SOURCE_PINS.json). The full original manuscript is **not certified as written**; corrected statements have separate written proofs and scoped exact checks.
@@ -52,7 +63,7 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Follow [R13](../02-relational-response/COMPLEMENT_MEMORY_NOISE_R13.md): complementary transport now generates memory and endogenous covariance, and native norm-weighted binary records realize the observer/metric equation. Next match the preparation, monitoring policy and record coupling to an actual native source and test its colored-force, event and recovery predictions. Preserve signed information and the complete R10 connection contract.
+Follow [R17](../02-relational-response/CUT_HISTORY_MEMORY_R17.md): the full cut-history source now supplies preparation, covariance, return events, the finite-aperture recovery budget and the boundary count metric. Next construct the smallest target-specific record quotient before connecting it to the R12/R13 metric machinery. Preserve the full word ledger, signed return information and the complete R10 connection contract.
 
 ## R13 complementary memory/noise certificates
 
