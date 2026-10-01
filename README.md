@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R27's derivation ledger](04-operator-evolution/R27_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R28's derivation ledger](04-operator-evolution/R28_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,14 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R28: native cut curvature, hidden response and propagation
+
+[R28](02-relational-response/NATIVE_CUT_CURVATURE_PROPAGATION_R28.md) connects the source H/K curvature directly to the existing R18 transport. Its signed order residue has zero cut-even reading but nonzero quadratic response. The finite cut differential is exactly the transported curvature divided by `2 sqrt(2)`. Eliminating the hidden role gives an explicit finite memory law with every coefficient fixed by the source normalization.
+
+A signed curvature preparation propagates with R18's native wave identity and conserved recognition energy. An initially zero visible reading can become nonzero using retained hidden response. The squared information/energy readout does not generally follow the same linear wave law. A separate chart-free cyclic curvature identity has an exact hidden-source term, witnessed on two native role copies.
+
+[Verification](04-operator-evolution/R28_VERIFICATION.json) binds six written proofs, eight exact groups, ten native identity replays and 4,092 literal source prefixes. Nine false alternatives and nine invalid dependency graphs are rejected; all 222 previous non-navigation files are preserved. The [ledger](04-operator-evolution/R28_DERIVATION_LEDGER.json) excludes the declared topology, smooth Riemann adapter and other comparison premises from the new proofs. Vacuum-as-cut and an electromagnetic interpretation remain physical targets; neither is claimed from a zero reading alone.
 
 ## R27: source-law memory selection and retained-copy parity
 

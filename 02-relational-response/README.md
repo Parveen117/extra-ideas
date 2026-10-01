@@ -2,6 +2,12 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R28 native curvature, hidden memory and the signed wave response
+
+[NATIVE_CUT_CURVATURE_PROPAGATION_R28.md](NATIVE_CUT_CURVATURE_PROPAGATION_R28.md) identifies the existing transport's visible–memory exchange with the native H/K commutator. The hidden role can have nonzero retained energy despite zero visible response. Exact elimination derives its event-memory kernel, and a signed curvature preparation follows R18's wave law. Its quadratic information/energy reading is a different target and fails that linear wave equation in an explicit witness.
+
+A native associative word identity also yields a cyclic curvature ledger with a nonzero hidden-source example, without a smooth chart. [Verification](../04-operator-evolution/R28_VERIFICATION.json) binds six written proofs, eight exact groups and ten symbolic replays. Physical vacuum and electromagnetic identification remain open; comparison citations state their declared or imported inputs directly.
+
 ## R27 native source-law record selection and copy-parity response
 
 [NATIVE_REPLICA_SELECTION_R27.md](NATIVE_REPLICA_SELECTION_R27.md) derives anticommutation from continuation under the source's own balanced census. The same calculated normalization defect determines the two-event return current and enters the propagation norm identity. Every finite source-law record has an explicit two-role H/K factor; remaining multiplicity does not introduce a coupling into R26's specified responses.

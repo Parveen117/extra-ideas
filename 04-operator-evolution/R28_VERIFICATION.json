@@ -1,0 +1,228 @@
+{
+  "schema": "extra-ideas.r28.verification.v1",
+  "date": "2026-10-01",
+  "status": "PASS_R28_NATIVE_CUT_CURVATURE_PROPAGATION",
+  "written_results": 6,
+  "exact_check_groups": 8,
+  "native_symbolic_replays": 10,
+  "counters": {
+    "native_cut_curvature_is_hidden_but_not_flat": {
+      "exact_identities": 8,
+      "curvature": "-2 KH",
+      "cut_even_curvature": "0",
+      "quadratic_response": "4 I",
+      "loop_displacement": "-2 I"
+    },
+    "propagation_cut_differential_equals_native_curvature": {
+      "Laurent_operator_identities": 9,
+      "normalization_squared": "1/2",
+      "normalized_transition_differential_Gram": "I/2",
+      "extra_coupling_parameter": false
+    },
+    "eliminated_visible_memory_kernel_matches_full_words": {
+      "kernel_coefficients": 17,
+      "finite_memory_and_initial_term_checks": 84,
+      "formal_inverse_cancellations": 16,
+      "maximum_memory_power": 16,
+      "coefficient_arithmetic": "Exact unnormalized W numerators; U coefficient at word length j is numerator / sqrt(2)^j."
+    },
+    "zero_visible_input_can_reappear_from_retained_hidden_energy": {
+      "initial_visible_energy": "0",
+      "initial_retained_energy": "1",
+      "next_visible_energy": "1/2",
+      "next_hidden_energy": "1/2",
+      "external_injection_after_preparation": false
+    },
+    "curvature_response_obeys_finite_wave_and_conservation": {
+      "Laurent_polynomial_identities": 2,
+      "signed_wave_checks": 39,
+      "norm_checks": 51,
+      "support_checks": 51,
+      "ordered_preparation_checks": 51,
+      "maximum_event": 16
+    },
+    "literal_cut_words_reproduce_curvature_preparation_and_propagation": {
+      "literal_source_prefixes": 4092,
+      "independent_field_comparisons": 20,
+      "maximum_literal_event": 10,
+      "intensity_wave_rejection": {
+        "left": "1/8",
+        "right": "-1/4"
+      }
+    },
+    "cyclic_native_curvature_has_exact_hidden_source": {
+      "native_operator_families": 7,
+      "cyclic_and_grading_identities": 77,
+      "nonzero_visible_source": "P tensor H",
+      "imported_coordinate_derivatives": false
+    },
+    "same_native_curvature_allows_distinct_pairing_preserving_continuations": {
+      "native_continuations": [
+        "identity",
+        "local KH",
+        "R18 address transport"
+      ],
+      "same_source_curvature": true,
+      "unique_dynamics_from_algebra_and_pairing": false
+    }
+  },
+  "rejected_false_alternatives": {
+    "zero_cut_reading_implies_zero_curvature": true,
+    "zero_cut_reading_implies_zero_quadratic_response": true,
+    "order_residue_equals_loop_displacement": true,
+    "cut_projection_preserves_products": true,
+    "zero_visible_input_implies_zero_future_visible_response": true,
+    "actual_zero_state_can_supply_response": true,
+    "intensity_obeys_signed_response_wave": true,
+    "visible_cyclic_curvature_always_closes_without_memory": true,
+    "nonzero_native_curvature_alone_forces_address_spreading": true
+  },
+  "derivation_graph": {
+    "status": "PASS_DECLARED_NATIVE_DERIVATION_GRAPH",
+    "certified_claims": 6,
+    "proof_path_nodes": 16,
+    "imported_classical_premises_on_proof_paths": 0,
+    "comparison_references_excluded_from_proof_paths": [
+      "comparison_clock_free_cut",
+      "comparison_cut_curvature",
+      "comparison_information_response",
+      "comparison_odd_exchange",
+      "comparison_riemann_adapter",
+      "comparison_zero_cut"
+    ],
+    "target_definitions_retained_as_definitions": [
+      "curvature_response_target",
+      "finite_curvature_catalogue",
+      "hidden_channel_elimination_target",
+      "native_continuation_comparison"
+    ],
+    "automatic_semantic_or_formal_proof_verification": false
+  },
+  "derivation_graph_mutations_rejected": {
+    "reject_imported_classical_premise": true,
+    "reject_admitted_input_premise": true,
+    "reject_open_premise": true,
+    "reject_comparison_only_premise": true,
+    "reject_physical_claim_promotion": true,
+    "reject_protocol_definition_promotion": true,
+    "reject_dependency_cycle": true,
+    "reject_unpinned_source": true,
+    "reject_wrong_citation_commit": true
+  },
+  "altered_source_rejected": true,
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "wrong_r27_certificate_pin_rejected": true,
+  "previous_source_replayed": {
+    "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+    "status": "PASS_R27_NATIVE_REPLICA_SELECTION",
+    "native_certificate_sha256": "f5b6b9427f7484b793d78619527353ae758b0261e871662ce84516e963edc872",
+    "old_certificate_or_source_pin_modified": false,
+    "earlier_source_chain": {
+      "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+      "status": "PASS_R26_NATIVE_MEMORY_RESIDUE",
+      "native_certificate_sha256": "5d0df3fc203d393d1a4f58902a1f3f82e4c5ab7dfb60ffb40e380a7b96de2146",
+      "old_certificate_or_source_pin_modified": false,
+      "earlier_source_chain": {
+        "commit": "d4f1ae2481a72a04c465f1c17b37d154a6122eff",
+        "status": "PASS_R25_NATIVE_RETURN_FEEDBACK",
+        "native_certificate_sha256": "456f5c5d4bf9857b1604bb6024c346b1a6d499abd833b59a0b414a7bad0fb8d5",
+        "old_certificate_or_source_pin_modified": false,
+        "earlier_source_chain": {
+          "commit": "d660bbf026e1de818fcb3dd61d46346a4ad618ae",
+          "status": "PASS_R24_NATIVE_RETURN_COUPLING",
+          "native_certificate_sha256": "ae0c88451e3e0a7933dd42cecca67b0cc1254a81cc418da77b94843eaf1d2fbe",
+          "old_certificate_or_source_pin_modified": false,
+          "earlier_source_chain": {
+            "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+            "status": "PASS_R23_NATIVE_FUTURE_RESPONSE",
+            "native_certificate_sha256": "69b4e6d43db5bad0a10b797f7b7f788bb8091e4486bf0689960882d22b19295a",
+            "old_certificate_or_source_pin_modified": false,
+            "earlier_source_chain": {
+              "commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+              "status": "PASS_R22_NATIVE_MEETING_GEOMETRY",
+              "native_certificate_sha256": "ad6ac9d802b77c67ec33e8c023c147300994576207014eb9cd81014f6924b98f",
+              "old_certificate_or_source_pin_modified": false,
+              "earlier_source_chain": {
+                "commit": "2888aa2a9ea1c63a89b3d695256c8b9405dbd7cc",
+                "status": "PASS_R21_NATIVE_RECORD_IDENTITY",
+                "native_certificate_sha256": "1d857541e8497dfb4c33b532c7d50ee629f5d8e92698a080307b7ae039794464",
+                "old_certificate_or_source_pin_modified": false,
+                "earlier_source_chain": {
+                  "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+                  "status": "PASS_R20_NATIVE_RECORD_INTERACTION",
+                  "native_certificate_sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+                  "old_certificate_or_source_pin_modified": false,
+                  "earlier_source_chain": {
+                    "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+                    "status": "PASS_R19_NATIVE_CURRENT_RETENTION",
+                    "native_certificate_sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+                    "old_certificate_or_source_pin_modified": false,
+                    "earlier_source_chain": {
+                      "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+                      "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+                      "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+                      "historical_navigation_inputs_restored_in_temporary_snapshot": 3,
+                      "old_certificate_or_source_pin_modified": false,
+                      "earlier_source_chain": {
+                        "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+                        "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+                        "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+                        "foundation": {
+                          "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+                          "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+                          "written_statements": 14,
+                          "native_replays": 13,
+                          "analytic_replays": [
+                            {
+                              "id": "F00_F00E_EULER_V0_1",
+                              "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+                              "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+                              "checks": 14,
+                              "negative_controls": 6,
+                              "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+                            },
+                            {
+                              "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+                              "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+                              "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+                              "checks": 20,
+                              "negative_controls": 7,
+                              "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+                            }
+                          ],
+                          "original_universal_claim_certified": false
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 33,
+  "preserved_prior_files": 222,
+  "source_pins_sha256": "54560ceeb7349d18f66ea3dc809fb67c43a791185cf7191a4731e12cfa461a5a",
+  "native_certificate_sha256": "dbfd38615437b0726f1ad70b31d393178c08a61bf674607beb69775ffe3cea11",
+  "comparison_references_are_proof_dependencies": false,
+  "comparison_source_certificates_rerun": false,
+  "native_curvature_exchange_derived": true,
+  "hidden_memory_kernel_derived": true,
+  "signed_curvature_response_wave_derived": true,
+  "native_chart_free_cyclic_ledger_derived": true,
+  "physical_vacuum_identified": false,
+  "electromagnetism_derived": false,
+  "physical_metric_c_alpha_derived": false,
+  "formal_proof_assistant_verified": false,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Six written proofs bind native cut curvature, transition exchange, exact hidden-memory kernel, signed response wave, chart-free cyclic ledger and non-uniqueness of dynamics from algebra alone. Eight finite exact groups and ten native word replays support this scope; no physical vacuum/EM/c/alpha or proof-assistant claim.",
+  "canonical_report_sha256": "efb82655cf67b62ff578196d5f1b0e050539b7aa342685e7d235553dc0fbf248"
+}

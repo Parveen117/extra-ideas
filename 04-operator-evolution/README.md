@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R28 native cut-curvature propagation verification
+
+[native_cut_curvature_propagation.cjs](native_cut_curvature_propagation.cjs) uses the unchanged canonical engine for exact role operators, address Laurent coefficients, hidden-memory elimination and word replay. It checks the existing transport against 4,092 literal H/K prefixes, propagates signed ordered-preparation differences, rejects the corresponding intensity wave law, and constructs the nonzero projected cyclic-curvature source from native role copies.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r28.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R28_VERIFICATION.json](R28_VERIFICATION.json) records six written proofs, eight exact groups, ten native replays, nine rejected alternatives and nine invalid graph mutations. The [ledger](R28_DERIVATION_LEDGER.json) and [source pins](R28_SOURCE_PINS.json) preserve all 222 prior non-navigation files and replay the frozen R27 source chain. Native exchange, memory and signed propagation are certified within the explicit R18 target; physical vacuum, electromagnetism, c/alpha and formal proof-assistant verification are not claimed.
+
 ## R27 native source-law record and copy-parity verification
 
 [native_replica_selection.cjs](native_replica_selection.cjs) checks general involutive-record balance, commutator/current identities, the propagation polynomial, cut-based normal forms and all computed intertwiners. It verifies rank-independent source responses, literal-copy compensation, parity encoders, the two retained-copy return/feedback classes and a native count family with sign-related readouts but different identity-relative gaps.

@@ -1,0 +1,364 @@
+{
+  "schema": "extra-ideas.r28.derivation-ledger.v1",
+  "date": "2026-10-01",
+  "source_commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+  "no_classical_premise_rule": true,
+  "rule": "Proof paths use pinned native source, explicit response constructions and native deductions. Imported/admitted/open/comparison premises and promotion of definitions to physical selections are rejected. Mathematical targets remain visible; metadata checks do not verify arbitrary prose.",
+  "certified_claims": [
+    "R28.1",
+    "R28.2",
+    "R28.3",
+    "R28.4",
+    "R28.5",
+    "R28.6"
+  ],
+  "claims": [
+    {
+      "id": "R28.1",
+      "title": "A zero cut reading can hide a nonzero curvature square",
+      "written_section_sha256": "8d3db2b1745e5e3e5ccf1e49cfab353ce68cef8feb3ff1e697fee247bff7b6c1",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_cut_curvature_is_hidden_but_not_flat"
+      ],
+      "scope_boundary": "Native signed order residue, operator cut reading, quadratic response and four-arrow loop are distinct exact targets. No physical vacuum or flatness interpretation follows from the zero first reading."
+    },
+    {
+      "id": "R28.2",
+      "title": "The native propagation coupling is exactly cut curvature",
+      "written_section_sha256": "8c0f387c18c318474e6ca01b3b908f7864f1b18cd0c3b80320a8f0437b9d9d18",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "propagation_cut_differential_equals_native_curvature"
+      ],
+      "scope_boundary": "Exact finite transition differential on the existing R18 signed address target. No new coupling constant; its role-cut grading is not identified with the distinct native scalar-turn grading of RKF 51."
+    },
+    {
+      "id": "R28.3",
+      "title": "Eliminating the hidden cut derives an exact memory kernel",
+      "written_section_sha256": "96fddbe72965bfa9f847e08979ec3973069f3a89b404ee1e2f24f8036208335e",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "eliminated_visible_memory_kernel_matches_full_words",
+        "zero_visible_input_can_reappear_from_retained_hidden_energy"
+      ],
+      "scope_boundary": "Finite hidden-channel elimination and formal event-lag kernel. The event variable is not a physical clock or complex frequency. Reappearance uses retained initial response; the true zero vector stays zero."
+    },
+    {
+      "id": "R28.4",
+      "title": "A signed curvature response propagates by the native wave law",
+      "written_section_sha256": "ed398b40e018c467a85083c185fcf79e28647fc939288c83c9491fc69141854b",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "curvature_response_obeys_finite_wave_and_conservation",
+        "literal_cut_words_reproduce_curvature_preparation_and_propagation"
+      ],
+      "scope_boundary": "Signed ordered-preparation difference under a common R18 continuation. Native wave identity reused and independently expanded. The positive information/energy size does not generally obey that linear wave equation."
+    },
+    {
+      "id": "R28.5",
+      "title": "Native composition gives a chart-free cyclic curvature ledger",
+      "written_section_sha256": "8df7b0f982d746dbbb0c8974be1896b3570c2ca7d59812e9b5c38428f286286d",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "cyclic_native_curvature_has_exact_hidden_source"
+      ],
+      "scope_boundary": "Associative finite endomorphism words and cut grading, with a source-built four-role nonzero hidden-source witness. No smooth connection, coordinate derivative, physical axis or Maxwell divergence law is installed."
+    },
+    {
+      "id": "R28.6",
+      "title": "Curvature alone does not select a unique dynamics or a physical vacuum",
+      "written_section_sha256": "3a1f1fa5a54666f648048187208341a7c8dfbbf94eb4f6483da2ace066383493",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "same_native_curvature_allows_distinct_pairing_preserving_continuations",
+        "zero_visible_input_can_reappear_from_retained_hidden_energy"
+      ],
+      "scope_boundary": "Explicit native pairing-preserving continuations show that algebra and conservation alone do not select a dynamics. Zero operator reading, zero state reading, no later injection and physical vacuum are not identified."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "source_roles",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C3-C7",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Native marked roles, signed/refined coefficients, H/K and matching pairing. Finite counting, equality and induction remain the stated metamathematical infrastructure."
+    },
+    {
+      "id": "source_completion",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C8",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Native cut-Cauchy scalar completion and positive square-root construction."
+    },
+    {
+      "id": "source_history",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C13",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Full native finite word identities remain distinct from their coefficient evaluations."
+    },
+    {
+      "id": "source_transport",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "R18.1-R18.4",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "scope": "Unchanged equal H/K transport on the constructed address target. Physical time and unique transport selection not supplied."
+    },
+    {
+      "id": "source_record_gate",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RECORD_INTERACTION_R20.md",
+        "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+        "section": "R20.1-R20.4, R20.7",
+        "sha256": "6139b16bfcb5be9c07f9c32c17e82e616c10a7b7d3a3f7113c8bc9bf4e33e7a7"
+      },
+      "scope": "Native tuple pairing, controlled exchange, fresh direction records, address records and matching readout."
+    },
+    {
+      "id": "source_native_replay",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "rkf",
+        "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "section": "Native finite equality and replay",
+        "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5"
+      },
+      "scope": "Scoped identities in the unchanged canonical native engine; no whole-engine or formal proof-assistant claim."
+    },
+    {
+      "id": "curvature_response_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_transport"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Signed difference of H/K order preparations followed by the already derived R18 common continuation. The operator even reading and the P state readout are typed separately. This is a response construction, not a physical field or vacuum axiom."
+    },
+    {
+      "id": "hidden_channel_elimination_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_transport",
+        "source_roles"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Retain both source roles in U, then solve the Q recurrence exactly and substitute into the P recurrence. No hidden reset, stochastic rate, external drive or physical constitutive coefficient is supplied."
+    },
+    {
+      "id": "finite_curvature_catalogue",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_record_gate"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Endomorphisms constructed on finite native role tuples, native composition and cut involution. The example uses two role copies and source-built matrix units; its three arrow labels are not physical directions."
+    },
+    {
+      "id": "native_continuation_comparison",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_transport"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Compare identity, local KH and the existing address transport on the same native pairing target to test whether algebra/conservation already force a unique dynamics."
+    },
+    {
+      "id": "comparison_clock_free_cut",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "theorum/24_clock_free_recognition_seam_cut_calculus.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "3d7d70f5cd213378c32e90e3c88eb195b48a7ea9e69297353c2eaafd04dbb8b8"
+      },
+      "scope": "Declared event lift/cut/arrow calculus; attribution only. Required role-block identities rederived in R28."
+    },
+    {
+      "id": "comparison_cut_curvature",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "theorum/48_emk_algebra_cut_graded_curvature_theorem.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "e447ea282bd47ccbc62e718a8d9aab912d926a9239a662d2e02c5f58fa7563f1"
+      },
+      "scope": "Prior exact EMK commutator and grading; source candidate certificate is not rerun or upgraded."
+    },
+    {
+      "id": "comparison_odd_exchange",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "theorum/51_odd_channel_exchange_law_theorem.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "c515d45334e1010c75750f15c1f5b1518bc4817e4956b01a55dbbec6952e48e4"
+      },
+      "scope": "Prior native scalar-turn Cayley exchange; different grading from the present role cut."
+    },
+    {
+      "id": "comparison_zero_cut",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "mp_gold/07_zero_as_cut_topology.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "47c08643b69bbea870f89a3f0cb70518cb98fad96502370cb71794f174d9780a"
+      },
+      "scope": "Declared circle/torus homology ledger, proved model cut/join identity and user-local qualified numerical evidence. No topology or physical vacuum premise imported."
+    },
+    {
+      "id": "comparison_riemann_adapter",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md",
+        "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+        "sha256": "e0ebefb163d2ae2deb4acd2dbd7084a9f16e441b643f412a01661a7097763ce4"
+      },
+      "scope": "Admitted smooth/tangent/metric adapter for Riemann special case; excluded from every new proof path."
+    },
+    {
+      "id": "comparison_information_response",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/uncut-cut-measurement/NATIVE_RESPONSE_TENSOR_AND_CUT_LEDGER.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "sha256": "3ee3183f14e5f0a5978c1d591720c7bfb499528d71677ddb722ecbe8a19d1fbe"
+      },
+      "scope": "Prior response/Gram/seam construction on a declared real carrier, and separate supplied classical ensemble weights in U32. Attribution only; no such weights or ordinary complex chart enter R28."
+    },
+    {
+      "id": "R28.1",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "source_roles",
+        "source_native_replay",
+        "curvature_response_target"
+      ],
+      "written_section_sha256": "8d3db2b1745e5e3e5ccf1e49cfab353ce68cef8feb3ff1e697fee247bff7b6c1"
+    },
+    {
+      "id": "R28.2",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R28.1",
+        "source_transport",
+        "source_completion",
+        "hidden_channel_elimination_target"
+      ],
+      "written_section_sha256": "8c0f387c18c318474e6ca01b3b908f7864f1b18cd0c3b80320a8f0437b9d9d18"
+    },
+    {
+      "id": "R28.3",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R28.2",
+        "hidden_channel_elimination_target",
+        "curvature_response_target"
+      ],
+      "written_section_sha256": "96fddbe72965bfa9f847e08979ec3973069f3a89b404ee1e2f24f8036208335e"
+    },
+    {
+      "id": "R28.4",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R28.1",
+        "R28.2",
+        "R28.3",
+        "source_transport",
+        "source_history",
+        "curvature_response_target"
+      ],
+      "written_section_sha256": "ed398b40e018c467a85083c185fcf79e28647fc939288c83c9491fc69141854b"
+    },
+    {
+      "id": "R28.5",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "source_roles",
+        "source_native_replay",
+        "finite_curvature_catalogue"
+      ],
+      "written_section_sha256": "8df7b0f982d746dbbb0c8974be1896b3570c2ca7d59812e9b5c38428f286286d"
+    },
+    {
+      "id": "R28.6",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R28.1",
+        "R28.3",
+        "R28.4",
+        "native_continuation_comparison"
+      ],
+      "written_section_sha256": "3a1f1fa5a54666f648048187208341a7c8dfbbf94eb4f6483da2ace066383493"
+    }
+  ],
+  "native_curvature_exchange_derived": true,
+  "hidden_memory_kernel_derived": true,
+  "signed_curvature_response_wave_derived": true,
+  "physical_vacuum_identified": false,
+  "electromagnetism_derived": false,
+  "physical_metric_c_alpha_derived": false,
+  "origin_gate_checks_declared_metadata_not_arbitrary_prose": true,
+  "formal_proof_assistant_verified": false
+}
