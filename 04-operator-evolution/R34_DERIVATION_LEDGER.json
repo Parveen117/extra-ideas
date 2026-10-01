@@ -1,0 +1,567 @@
+{
+  "schema": "extra-ideas.r34.derivation-ledger.v1",
+  "date": "2026-10-02",
+  "source_commit": "5ddce4544de7111a80c93a8ade7cf2399c7c90f3",
+  "no_classical_premise_rule": true,
+  "rule": "Use pinned native matching/completion, declared target/observer/boundary/cost definitions and native deductions. Exclude imported/admitted/open/comparison premises and all promotion of an observation to physical selection. The cited Hilbert-based quarter is comparison only. Metadata auditing is not semantic proof verification.",
+  "certified_claims": [
+    "R34.1",
+    "R34.2",
+    "R34.3",
+    "R34.4",
+    "R34.5",
+    "R34.6"
+  ],
+  "claims": [
+    {
+      "id": "R34.1",
+      "title": "Native pairing derives the target burden and its minimum decoder",
+      "written_section_sha256": "260e5403cc942a854fc7d2f3b468d0f8ee2b0dd488af03e66f4bcb6ef8b3311d",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_minimum_decoder_is_attained_and_orthogonal"
+      ],
+      "scope_boundary": "Beta is relative to a specified observer, target and native output pairing. The minimum decoder is derived for an explicit coefficient target and a gapped native Gram with inverse; no classical representation theorem is imported."
+    },
+    {
+      "id": "R34.2",
+      "title": "The current increment has burden one globally and one half locally",
+      "written_section_sha256": "f2f460c39a887bd97eba4033de9ad3c289599e10baed807248bec938c260f89a",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_minimum_decoder_is_attained_and_orthogonal",
+        "finite_native_component_cuts_preserve_their_boundary_beta"
+      ],
+      "scope_boundary": "The unwrapped full-state target has beta one and a unit local-role target beta one half. Finite cyclic local burdens use their own wrapped coefficients. These are not the R33 interaction-memory coefficient or a repository-wide proof-progress fraction."
+    },
+    {
+      "id": "R34.3",
+      "title": "Balanced native increments uniquely minimize the two-horizon worst burden",
+      "written_section_sha256": "db0cb69563ac2de6fd6c3dba96713beb558f3f15c6682a0d6a7f97a570c40866",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_two_horizon_gram_has_complete_positive_identities",
+        "native_two_horizon_design_has_a_unique_balanced_optimum",
+        "native_sharp_patterns_certify_gain_independent_conditioning"
+      ],
+      "scope_boundary": "Equal native branch weights uniquely minimize worst full-state beta in the two-increment family with total squared weight one. The sharp value is one half. This is a constructed observer optimization, not a globally optimal physical sensor or a physical noise law."
+    },
+    {
+      "id": "R34.4",
+      "title": "Native path counts certify the improved local burden",
+      "written_section_sha256": "a8224d74baf0d4dee5fbc0ce4bb85899a2ac04b1517b73b1cc15dc18e1f79c99",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_return_counts_certify_the_completed_local_burden",
+        "finite_native_component_cuts_preserve_their_boundary_beta"
+      ],
+      "scope_boundary": "Finite native return counts enclose the completed unit local burden near 0.36163703165179, with a derived geometric tail. The balanced design was optimized for the full-state objective, not asserted optimal for the point objective."
+    },
+    {
+      "id": "R34.5",
+      "title": "Gain and event-cost audits separate a real design change from rescaling",
+      "written_section_sha256": "1b1f96bf3ff3d3c388e568cd3d64733fd27b3d6dba475142060acb952b94a1a0",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_sharp_patterns_certify_gain_independent_conditioning",
+        "native_cost_normalization_retains_its_distinct_tradeoffs"
+      ],
+      "scope_boundary": "The sharp response range improves from [1,4] to [2,25/8] and is not merely amplified. Weighted event-cost normalization gives full beta 3/4 but removes the local advantage; maximum-horizon normalization gives full beta one. Costs remain explicit targets."
+    },
+    {
+      "id": "R34.6",
+      "title": "The improved bank preserves the information and exposes inherited errors",
+      "written_section_sha256": "b290bd2f89f63e957c58b0fd8934d21dc6208a35e4e79cfd9ce3cafa8d7ed9d3",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_error_transport_does_not_create_independent_information",
+        "native_target_and_duplicate_normalization_prevent_fake_beta_reduction"
+      ],
+      "scope_boundary": "The new bank factors through the complete old observer and has the same kernel. Postprocessed errors share their old carrier and do not become independent; in the transported old norm beta is unchanged. Gain, duplicate and target rescaling controls explain the cited finite quarter without importing its Hilbert premise."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "source_roles",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C3-C7",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Native marked roles, signed/refined coefficients, H/K and matching pairing. Finite counting, equality and induction remain the stated metamathematical infrastructure."
+    },
+    {
+      "id": "source_completion",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C8",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Native cut-Cauchy scalar completion and positive square-root construction."
+    },
+    {
+      "id": "source_history",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C13",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Full native finite word identities remain distinct from their coefficient evaluations."
+    },
+    {
+      "id": "source_transport",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "R18.1-R18.4",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "scope": "Unchanged equal H/K transport on the constructed address target. Physical time and unique transport selection not supplied."
+    },
+    {
+      "id": "source_native_replay",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "rkf",
+        "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "section": "Native finite equality and replay",
+        "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5"
+      },
+      "scope": "Scoped identities in the unchanged canonical native engine; no whole-engine or formal proof-assistant claim."
+    },
+    {
+      "id": "comparison_clock_free_cut",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "theorum/24_clock_free_recognition_seam_cut_calculus.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "3d7d70f5cd213378c32e90e3c88eb195b48a7ea9e69297353c2eaafd04dbb8b8"
+      },
+      "scope": "Declared event lift/cut/arrow calculus; attribution only. Required role-block identities rederived in R28."
+    },
+    {
+      "id": "comparison_cut_curvature",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "theorum/48_emk_algebra_cut_graded_curvature_theorem.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "e447ea282bd47ccbc62e718a8d9aab912d926a9239a662d2e02c5f58fa7563f1"
+      },
+      "scope": "Prior exact EMK commutator and grading; source candidate certificate is not rerun or upgraded."
+    },
+    {
+      "id": "comparison_odd_exchange",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "theorum/51_odd_channel_exchange_law_theorem.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "c515d45334e1010c75750f15c1f5b1518bc4817e4956b01a55dbbec6952e48e4"
+      },
+      "scope": "Prior native scalar-turn Cayley exchange; different grading from the present role cut."
+    },
+    {
+      "id": "comparison_zero_cut",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "mp_gold/07_zero_as_cut_topology.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "47c08643b69bbea870f89a3f0cb70518cb98fad96502370cb71794f174d9780a"
+      },
+      "scope": "Declared circle/torus homology ledger, proved model cut/join identity and user-local qualified numerical evidence. No topology or physical vacuum premise imported."
+    },
+    {
+      "id": "comparison_riemann_adapter",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md",
+        "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+        "sha256": "e0ebefb163d2ae2deb4acd2dbd7084a9f16e441b643f412a01661a7097763ce4"
+      },
+      "scope": "Admitted smooth/tangent/metric adapter for Riemann special case; excluded from every new proof path."
+    },
+    {
+      "id": "comparison_information_response",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/uncut-cut-measurement/NATIVE_RESPONSE_TENSOR_AND_CUT_LEDGER.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "sha256": "3ee3183f14e5f0a5978c1d591720c7bfb499528d71677ddb722ecbe8a19d1fbe"
+      },
+      "scope": "Prior response/Gram/seam construction on a declared real carrier, and separate supplied classical ensemble weights in U32. Attribution only; no such weights or ordinary complex chart enter R28."
+    },
+    {
+      "id": "source_curvature_bridge",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_transport",
+        "source_native_replay"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_CUT_CURVATURE_PROPAGATION_R28.md",
+        "commit": "9ed6ae27d3ddb005ed7f4f3f27417036729698fd",
+        "section": "R28.1-R28.6",
+        "sha256": "7c1909146b16710895e536cfb62dc85a09ea13816a69d1345266cd8f246f54a2"
+      },
+      "scope": "Native cut curvature, signed preparation, hidden transition exchange and the existing wave target. Physical vacuum/EM and unique dynamics are not selected."
+    },
+    {
+      "id": "source_paired_fields",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_transport",
+        "source_curvature_bridge"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_PAIRED_FIELD_DYNAMICS_R29.md",
+        "commit": "16602a29c469ac96001977432fcf5fc4b548970b",
+        "section": "R29.1-R29.7",
+        "sha256": "930c3d613d4098e31c31000bd07eef9fd2ffc20f9f46dfa44f709c1b3b65b0e1"
+      },
+      "scope": "Native V/N factorization, paired induction and source compatibility, positive field form, local current and boundary residue on explicit readouts. Physical EM, vacuum and coupling selection remain open."
+    },
+    {
+      "id": "comparison_native_reciprocal_frames",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_MEMORY_RESIDUE_R26.md",
+        "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+        "section": "R26.1",
+        "sha256": "2a8b300ce78707cddad7163e8a2830dbea285892d6cc02abfeba8a9cc2fabd85"
+      },
+      "scope": "Native-derived prior attribution: reciprocal-record cancellation. R30.6 independently writes the two-label frame-cancellation proof, so this attribution is not a proof dependency or a physical gauge selection."
+    },
+    {
+      "id": "source_directional_loops",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_transport",
+        "source_curvature_bridge",
+        "source_paired_fields"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_DIRECTIONAL_LOOP_INTERACTION_R30.md",
+        "commit": "7ac5b3e5baba4dafb51f4330bfe84d001a9ab1d4",
+        "section": "R30.1-R30.8",
+        "sha256": "e3badb8ad9ae8f74e57d52339ce33a93297aa199ed3b8f725483f98932b59314"
+      },
+      "scope": "Exact directional source/loop response, dual continuation, paired-loop drive and cyclic observation kernel within explicit mathematical targets. Physical force, EM, metric and spatial dimension are not selected."
+    },
+    {
+      "id": "comparison_native_observer_rank",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/FUTURE_RESPONSE_QUOTIENT_R23.md",
+        "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+        "section": "R23.1-R23.9",
+        "sha256": "927641e6b6b3e4ec27ca0ad5c2735431bba83c9316f604c932b23a890a700a06"
+      },
+      "scope": "Native prior attribution: finite complete response quotients and observer ranks. R31.7 independently proves the complete block-increment target; no fixed physical observer count is imported."
+    },
+    {
+      "id": "source_native_tuples",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RECORD_INTERACTION_R20.md",
+        "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+        "section": "Tuple construction and R20.1-R20.2",
+        "sha256": "6139b16bfcb5be9c07f9c32c17e82e616c10a7b7d3a3f7113c8bc9bf4e33e7a7"
+      },
+      "scope": "Finite marked-role tuples, product matching pairing and specified record/readout gates; no Hilbert, physical tensor or probability premise is supplied."
+    },
+    {
+      "id": "source_reciprocal_memory",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_transport",
+        "source_native_tuples"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_MEMORY_RESIDUE_R26.md",
+        "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+        "section": "R26.1-R26.4",
+        "sha256": "2a8b300ce78707cddad7163e8a2830dbea285892d6cc02abfeba8a9cc2fabd85"
+      },
+      "scope": "Native reciprocal frame cancellation, order-sensitive source response and finite-field norm completion. The existing one-direction propagation gap is not a physical mass or Yang-Mills claim."
+    },
+    {
+      "id": "source_record_law",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_native_tuples",
+        "source_reciprocal_memory"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_REPLICA_SELECTION_R27.md",
+        "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+        "section": "R27.1-R27.2",
+        "sha256": "d4ed6c9940127c04fe8fbc12bfdc18d6e1183bab6b09e468db73941bdc433d91"
+      },
+      "scope": "The source-normalized finite real signed record derives anticommutation and a minimum two-role factor. Physical interface and record-control selection remain separate."
+    },
+    {
+      "id": "source_flat_propagation",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_directional_loops",
+        "source_paired_fields"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_PROPAGATION_GEOMETRY_R31.md",
+        "commit": "63d040f031b6b36c36a4fa0475f5ce26ec765caf",
+        "section": "R31.1-R31.7",
+        "sha256": "1b26aea521095c2a9f501d7230c944cf70b2a80c111ae3a97fbca16e2700e2f9"
+      },
+      "scope": "Explicit flat-target local unmixing, count propagation and increment observer. The earlier native proofs are retained; no physical force/metric/c/alpha claim is promoted."
+    },
+    {
+      "id": "source_retained_loop",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_native_tuples",
+        "source_record_law",
+        "source_directional_loops"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RETAINED_LOOP_GAP_R32.md",
+        "commit": "1105a43209b144bd34a81bfbb99acc7876948e95",
+        "section": "R32.1, R32.4, R32.6-R32.7",
+        "sha256": "93ed77cbc91a902e471a244eb614709ca486331060f7511443f0bda94a89c5e1"
+      },
+      "scope": "Native retained-record loop, increment Gram, norm bounds, completed inverse and localized count kernel. R32 reciprocal edge interface is explicitly constructed; it is not a selected physical vacuum or electromagnetic law."
+    },
+    {
+      "id": "comparison_native_alpha_selection",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/native-alpha-selection/THEOREM.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "section": "AS-1-AS-5, especially the AS-3 admitted adapter",
+        "sha256": "54152003202564b83b90dfa875731905bda242458b9e8d7887c3fdfbf4dce54c"
+      },
+      "scope": "Mixed premises: AS-1/AS-2 supply positive cell weights and a probe; AS-3 admits a positive physical quadratic adapter and electromagnetic normalization. Comparison only, never a proof premise. Numerical physical alpha is not derived there."
+    },
+    {
+      "id": "source_interaction_memory",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_retained_loop",
+        "source_completion",
+        "source_native_tuples"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_INTERACTION_MEMORY_R33.md",
+        "commit": "5ddce4544de7111a80c93a8ade7cf2399c7c90f3",
+        "section": "R33.1-R33.2, R33.5-R33.7",
+        "sha256": "154cab0aca7fa8a597f9f9014ff9aa320dc39472e65a61e90de52c5ffc4ff2fe"
+      },
+      "scope": "Native completed inverse elimination and its observation/scale/boundary distinctions. The source interface and readout are explicit constructed targets, not physical alpha selection."
+    },
+    {
+      "id": "comparison_quarter_decoder",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "theorum/43_bilateral_jet_flow_recognition_capstone_theorem.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "section": "Sections 2, 8, 11 and the analytic claim boundary",
+        "sha256": "3322a037bd238a933d8c5fbfbe2add845ce1b8c0d76e47de599df357cfd8269a"
+      },
+      "scope": "The abstract T43 statement admits Hilbert spaces and a bounded generator. Its beta=1/4 example has identity observer and target e4/2. Comparison only, excluded from native proof dependencies. No global RH or repository beta is certified by that example."
+    },
+    {
+      "id": "native_burden_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_interaction_memory",
+        "source_completion",
+        "source_native_tuples"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Use a fixed native target and output matching pairing to define the sharp squared target/output ratio. Distinguish full-state and unit local-role targets; do not define a repository-wide progress score."
+    },
+    {
+      "id": "native_two_horizon_observer_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "native_burden_target",
+        "source_retained_loop"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Retain eight- and sixteen-event increments in two native tags with squared branch weights summing to one. Optimize the worst full-state burden over that family. This observer/cost objective is declared, not physically selected."
+    },
+    {
+      "id": "native_count_boundary_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "native_burden_target",
+        "source_completion"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Use the unwrapped native completion for reported local constants; use explicitly cyclic component counts for exact finite inverses and sharp patterns. Boundary values are not interchanged."
+    },
+    {
+      "id": "native_cost_and_error_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "native_two_horizon_observer_target",
+        "source_native_tuples"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Audit total branch weight, weighted event count, maximum horizon and exact transported old-error norm separately. Fresh tag labels alone do not establish independent noise or physical resource costs."
+    },
+    {
+      "id": "R34.1",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "source_native_replay",
+        "source_interaction_memory",
+        "native_burden_target"
+      ],
+      "written_section_sha256": "260e5403cc942a854fc7d2f3b468d0f8ee2b0dd488af03e66f4bcb6ef8b3311d"
+    },
+    {
+      "id": "R34.2",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R34.1",
+        "source_retained_loop",
+        "native_count_boundary_target"
+      ],
+      "written_section_sha256": "f2f460c39a887bd97eba4033de9ad3c289599e10baed807248bec938c260f89a"
+    },
+    {
+      "id": "R34.3",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R34.1",
+        "R34.2",
+        "native_two_horizon_observer_target",
+        "native_count_boundary_target"
+      ],
+      "written_section_sha256": "db0cb69563ac2de6fd6c3dba96713beb558f3f15c6682a0d6a7f97a570c40866"
+    },
+    {
+      "id": "R34.4",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R34.1",
+        "R34.3",
+        "source_completion",
+        "native_count_boundary_target"
+      ],
+      "written_section_sha256": "a8224d74baf0d4dee5fbc0ce4bb85899a2ac04b1517b73b1cc15dc18e1f79c99"
+    },
+    {
+      "id": "R34.5",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R34.3",
+        "R34.4",
+        "native_cost_and_error_target",
+        "native_count_boundary_target"
+      ],
+      "written_section_sha256": "1b1f96bf3ff3d3c388e568cd3d64733fd27b3d6dba475142060acb952b94a1a0"
+    },
+    {
+      "id": "R34.6",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R34.1",
+        "R34.3",
+        "native_cost_and_error_target"
+      ],
+      "written_section_sha256": "b290bd2f89f63e957c58b0fd8934d21dc6208a35e4e79cfd9ce3cafa8d7ed9d3"
+    }
+  ],
+  "native_target_burden_and_decoder_derived": true,
+  "native_fixed_weight_observer_optimum_derived": true,
+  "native_point_burden_reduction_certified": true,
+  "native_gain_cost_and_error_boundaries_derived": true,
+  "physical_vacuum_identified": false,
+  "electromagnetism_derived": false,
+  "physical_metric_c_alpha_derived": false,
+  "physical_electric_charge_or_particle_mass_identified": false,
+  "physical_spatial_dimension_or_gauge_group_selected": false,
+  "primitive_physical_force_derived": false,
+  "formal_proof_assistant_verified": false,
+  "origin_gate_checks_declared_metadata_not_arbitrary_prose": true
+}

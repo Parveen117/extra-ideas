@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R34 native decoder burden and optimal two-increment reading
+
+[NATIVE_DECODER_BURDEN_R34.md](NATIVE_DECODER_BURDEN_R34.md) derives the minimum native decoder and computes the current full-state beta `1` and unit local-cut beta `1/2`. A balanced eight-/sixteen-event bank has sharp full beta `1/2` and local beta `0.36163703165179...`. Equal weights uniquely optimize the declared worst-state two-increment design. Native return counts certify the completed local value with an explicit tail.
+
+The response-range ratio improves from `4` to `25/16` independently of common gain. Event-cost and inherited-error audits retain their precise tradeoffs: weighted-work full beta is `3/4`, maximum-horizon full beta is `1`, and old errors remain correlated under postprocessing. The comparison quarter in RKF T43 is tied to its half-sized target and admitted Hilbert representation; no such representation is a premise here.
+
+[Verification](../04-operator-evolution/R34_VERIFICATION.json) binds six proofs, nine exact groups and fourteen native replays. The [ledger](../04-operator-evolution/R34_DERIVATION_LEDGER.json) keeps target/observer/cost selection explicit and makes no physical-noise or alpha claim.
+
 ## R33 native interaction memory and cut elimination
 
 [NATIVE_INTERACTION_MEMORY_R33.md](NATIVE_INTERACTION_MEMORY_R33.md) derives a two-cut interaction-memory coefficient from the existing squared increment and its localized inverse. Full-role elementary transfer has the invariant round-trip amplitude `17-12 sqrt(2)`, while a point-loaded response stores exactly `1/9` of its matching norm off the loaded cut. Neither quantity is identified with physical alpha.

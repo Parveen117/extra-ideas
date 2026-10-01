@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R33's derivation ledger](04-operator-evolution/R33_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R34's derivation ledger](04-operator-evolution/R34_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,14 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R34: native decoder burden and a balanced observer reduction
+
+[R34](02-relational-response/NATIVE_DECODER_BURDEN_R34.md) defines beta for an explicit target, observer and output pairing. The existing eight-event increment has sharp full-state burden `1` and unit local-cut burden `1/2`. A balanced bank of eight- and sixteen-event increments, with total squared branch weight one, reduces these to `1/2` and the certified interval `0.3616370316517928 < beta_point < 0.3616370316517930`.
+
+The native identity `A_*^dagger A_*=G(5I-G)/2=2I+(G-I)(4I-G)/2` proves the reduction. Equal branch weights uniquely optimize worst full-state burden in this two-increment family. The exact response range improves from `[1,4]` to `[2,25/8]`, so this is more than amplification. Average event-work normalization leaves full beta `3/4`; maximum-horizon normalization leaves beta `1`. The point-target gain does not survive average event-cost normalization. Postprocessed copies retain their shared old error and do not create independent information.
+
+[Verification](04-operator-evolution/R34_VERIFICATION.json) binds six written proofs, nine exact groups, fourteen native replays, fifteen rejected alternatives and nine graph mutations. The [ledger](04-operator-evolution/R34_DERIVATION_LEDGER.json) labels RKF T43's Hilbert-based quarter example as comparison only. It is a particular target normalization, not a repository-wide RH beta. All 264 earlier non-navigation files and the frozen R33 chain are preserved. Physical noise, clock and alpha selection remain open.
 
 ## R33: interaction memory after unresolved continuation
 

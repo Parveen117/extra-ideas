@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R34 decoder-burden reduction verification
+
+[native_decoder_burden.cjs](native_decoder_burden.cjs) reuses the unchanged native arithmetic and word replayer. It checks exact minimum decoders, complete Laurent Gram identities, two-horizon design endpoints, finite cyclic inverses, sharp native count patterns, and gain/cost/error controls. The balanced bank's irrational source coefficients are represented exactly by their derived rational squared branch weights.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r34.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R34_VERIFICATION.json](R34_VERIFICATION.json) binds six proofs, nine exact groups, fourteen native replays, fifteen false alternatives and nine graph mutations. Checks include 69 decoder identities, seven complete Laurent square identities, 39 design/end-point identities, 161 exact return moments, 25 independent finite moment checks, and explicit inherited-error and target-normalization controls. [Source pins](R34_SOURCE_PINS.json) preserve all 264 prior non-navigation files and replay the frozen R33 chain. The [ledger](R34_DERIVATION_LEDGER.json) excludes the comparison theorem's admitted Hilbert premise and separates mathematical design improvement from physical interpretation.
+
 ## R33 interaction-memory coefficient verification
 
 [native_interaction_memory.cjs](native_interaction_memory.cjs) reuses the unchanged native arithmetic and canonical word replayer. It verifies the source-derived increment Gram, exact two- and three-cut eliminations, closed-return remainders, completed spatial response norm, native frame invariance and readout counterexamples. Positive scalar root selection uses native rational cuts separately from the algebraic matrix witness.
