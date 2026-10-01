@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "development": "R8",
+  "date": "2026-10-01",
+  "scope": "Exact curvature observation research adapter and existing native observer closure",
+  "canonical_engine_home": "Parveen117/Recognition-Kernel-Framework/operator_foundation",
+  "source_engine_copied_into_extra_ideas": false,
+  "rkf": {
+    "repository": "Parveen117/Recognition-Kernel-Framework",
+    "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+    "files": [
+      {
+        "path": "operator_foundation/core/dependency_gate.cjs",
+        "git_blob_sha": "88a1143c62bdc28ec4ffc9a17752a6209ba78be8",
+        "sha256": "9a3bbecd03c159536dc17ca827d24d6e644d527adbf6da332460efbb45dbc8d1",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/native_laurent.cjs",
+        "git_blob_sha": "f3d18833fb6ced3b154182f57c1f54eb9bc975c7",
+        "sha256": "fc84abf52311f89ee3a7bb8c6883412e5f64a65812b0031804b44a2e660c0c8a",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/native_operator.cjs",
+        "git_blob_sha": "7b188defee82aa0edafc586eb3091baf0ceb6900",
+        "sha256": "304963cccf4320d76dd36147e5c15ad579e9d0496c86fb1f942543bc692e06a3",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/native_paths.cjs",
+        "git_blob_sha": "6222f41d35d18ebcda1223fc08b29398dd39df52",
+        "sha256": "cc59550c541c078a8b4643e8602691e147179db780e232a53162f604e812e14f",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/paninian_operator.cjs",
+        "git_blob_sha": "39d0cc2d2c0b42db319b02f4cd29c045910edbbc",
+        "sha256": "9a30c72f4e89d0a15697c99095ed8e0f015bb8c64fda4ded9897394945886fd8",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/core/workbench.cjs",
+        "git_blob_sha": "b9c8579e0c301b17c96bfe96320f88aa9723dded",
+        "sha256": "c12a3138cc326604a1149bc306b8cc338b9e9161516b610504ddbc7d59a1ea6d",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/examples/emk_job.json",
+        "git_blob_sha": "7a6eb17ecc8ddefc145645cd9bbfdf66361c6ecb",
+        "sha256": "fd3c9e50cb51050acb9c36b3123fbc4664870c621e5d73bb8763b1050b30c763",
+        "runtime_required": true
+      },
+      {
+        "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+        "git_blob_sha": "86366ede2f152f19cbdf0d1dbf06b2e4c0971dad",
+        "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5",
+        "runtime_required": false
+      },
+      {
+        "path": "proof_lab/emk_algebra_cut_graded_curvature.py",
+        "git_blob_sha": "d437329d00687835c46bb726f6dc83b0a56f1c73",
+        "sha256": "93d7fb372cbbbeb66f93b7d8f678bd17dc7c266a125da6006516f5c0fcc130f2",
+        "runtime_required": true
+      },
+      {
+        "path": "theorum/48_emk_algebra_cut_graded_curvature_theorem.md",
+        "git_blob_sha": "34e34fe7ce04bacfcb474aefbec6606bcdca54a3",
+        "sha256": "e447ea282bd47ccbc62e718a8d9aab912d926a9239a662d2e02c5f58fa7563f1",
+        "runtime_required": false
+      },
+      {
+        "path": "theorum/thermodynamics/05_onsager_compass_and_constitutive_no_go.md",
+        "git_blob_sha": "e304668c861e04c813c3b97320b778de08ee817f",
+        "sha256": "116a5360098b28efc05f31febf8ac54fea087e8c1d590b78190f02c5792e7c2d",
+        "runtime_required": false
+      },
+      {
+        "path": "theorum/thermodynamics/lambda_geometry/11_noncommutative_holonomy_and_irreducibility.md",
+        "git_blob_sha": "aad1a3645f83d675ed5f3a2254dfd8dfe722b5e1",
+        "sha256": "5ad8f503bee6f46b5f8c437f728c6c2f5a704a6dad7aa23d35a64f1afcaa3ac7",
+        "runtime_required": false
+      }
+    ]
+  },
+  "native_job_input_sha256": "125ed5647549d6b3784872c3b20e157f6bbbc5ece389b4386d64efbda1524d3e",
+  "foundation_registers_read": [
+    "AGENTS.md",
+    "MATHEMATICS_INDEX.md",
+    "MATHEMATICS_INDEX_2026_09_16.md",
+    "operator_foundation/CANONICAL_HOME.json",
+    "operator_foundation/README.md",
+    "operator_foundation/theory/NATIVE_PRIMITIVE_ORDER.md",
+    "operator_foundation/theory/01_NATIVE_ALGEBRA.md"
+  ],
+  "extra_ideas_parent_commit": "b9401afff0d52a1a2ef621534ec3080a9458d9e2",
+  "private_vault_bodies_published": false,
+  "known_emkg3_compensator_bug_consumed": false,
+  "upstream_repairs_applied": false,
+  "compression_contract_input_sha256": "1e82b17f78c2eaba601353a091f4f1477d12ef8c62719b6700938d5ca48fcbc8"
+}

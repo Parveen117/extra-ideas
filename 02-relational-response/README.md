@@ -22,7 +22,11 @@ For a proposed Jacobian, check the compatibility conditions needed for it to ari
 
 ## Next target
 
-Continue from the existing EMK master before physical response laws. The [master review](EMK_MASTER_TENSOR_REVIEW.md) credits the already developed tensor/time, metric/curvature, holonomy, information and topology layers, and identifies three specific consistency corrections. [R7](EMK_TENSOR_CALCULUS_R7.md) supplies typed E/M pairing, tensor increments, ordered integration and curvature on one admitted carrier. Connect that realization to the existing RTC and metric sectors, then extend operations outside their stated scope.
+Continue from the existing EMK master before physical response laws. The [master review](EMK_MASTER_TENSOR_REVIEW.md) credits the already developed tensor/time, metric/curvature, holonomy, information and topology layers, and identifies three specific consistency corrections. [R7](EMK_TENSOR_CALCULUS_R7.md) supplies typed E/M pairing, tensor increments, ordered integration and curvature on one admitted carrier. [R8](CURVATURE_OBSERVATION_R8.md) now certifies the distinction between full curvature, compressed readout and recomputed reduced curvature. Next connect the declared readout and constant-response contracts to a chosen RTC/metric sector, including derivative compatibility and the existing sheet policy.
+
+## R8 curvature and response development
+
+[CURVATURE_OBSERVATION_R8.md](CURVATURE_OBSERVATION_R8.md) proves the exact discarded-sector correction for observation, constructs counterexamples in both directions, and recovers every current KIR odd-curvature target from two fixed cross-sector channels. Dimension restriction follows an explicit two-form pullback. Onsager symmetry is equivalent to flatness for the stated constant linear scalar response; a variable symmetric response can still be curved. The proof keeps active cut sign reversal, passive reference changes and independent sheet memory distinct. See the [certificate](../04-operator-evolution/R8_VERIFICATION.json) for 23 exact tests and native proof replay.
 
 Role in the four-route program: connect an algebraic or operator result to a quantity that can be compared across states or measured. See [the shared assessment](../ASSESSMENT.md).
 

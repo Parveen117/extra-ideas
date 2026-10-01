@@ -1,0 +1,708 @@
+{
+  "development": "R8",
+  "date": "2026-10-01",
+  "status": "PASS_EXACT_CURVATURE_OBSERVATION_CERTIFICATES",
+  "python": "3.12.14",
+  "node": "v24.19.0",
+  "arithmetic": "exact rational matrices; unchanged canonical cut-field symbolic engine",
+  "tests_run": 23,
+  "failures": 0,
+  "errors": 0,
+  "finite_case_counts": {
+    "compression_cases": 100,
+    "odd_target_reconstructions": 25,
+    "source_curvature_comparisons": 27,
+    "constant_response_cases": 81
+  },
+  "mutation_controls": {
+    "wrong_excursion_sign": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "omit_excursion_memory": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "wrong_odd_reconstruction_sign": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "omit_connection_derivatives": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "trace_zero_means_flat": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "sheet_alias_mod_two": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    }
+  },
+  "native_negative_controls": {
+    "altered_job_contract_rejected": true,
+    "altered_observer_result_rejected": true,
+    "altered_general_rewrite_rejected": true
+  },
+  "native_job": {
+    "input_sha256": "125ed5647549d6b3784872c3b20e157f6bbbc5ece389b4386d64efbda1524d3e",
+    "replay": {
+      "status": "REPLAY_MATCH",
+      "input_sha256": "125ed5647549d6b3784872c3b20e157f6bbbc5ece389b4386d64efbda1524d3e",
+      "result_sha256": "6923c312b970e4b3aa2c575f64a6162c060b9d243dc67a9fa841f621e52ccd70",
+      "verified_job": true
+    },
+    "equality_proofs_replayed": 2,
+    "observer": {
+      "actions": [
+        [
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ]
+      ],
+      "completed_rank": 4,
+      "extra_channels": 2,
+      "field": "cut-complex",
+      "initial_rank": 2,
+      "native_dagger_closure_requested": false,
+      "observer": [
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      ],
+      "seed_rank": 2
+    },
+    "engine_home": "Parveen117/Recognition-Kernel-Framework/operator_foundation",
+    "source_reused_unchanged": true
+  },
+  "general_compression_proof": {
+    "input_sha256": "1e82b17f78c2eaba601353a091f4f1477d12ef8c62719b6700938d5ca48fcbc8",
+    "replay": "REPLAY_MATCH",
+    "presentation_audit": "CONFLUENT_BY_CHECKED_DIAMONDS",
+    "finite_carrier_assumed": false,
+    "rewrites_replayed": 2
+  },
+  "upstream": {
+    "repository": "Parveen117/Recognition-Kernel-Framework",
+    "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+    "source_count": 12,
+    "sha256": {
+      "operator_foundation/core/dependency_gate.cjs": "9a3bbecd03c159536dc17ca827d24d6e644d527adbf6da332460efbb45dbc8d1",
+      "operator_foundation/core/native_laurent.cjs": "fc84abf52311f89ee3a7bb8c6883412e5f64a65812b0031804b44a2e660c0c8a",
+      "operator_foundation/core/native_operator.cjs": "304963cccf4320d76dd36147e5c15ad579e9d0496c86fb1f942543bc692e06a3",
+      "operator_foundation/core/native_paths.cjs": "cc59550c541c078a8b4643e8602691e147179db780e232a53162f604e812e14f",
+      "operator_foundation/core/paninian_operator.cjs": "9a30c72f4e89d0a15697c99095ed8e0f015bb8c64fda4ded9897394945886fd8",
+      "operator_foundation/core/workbench.cjs": "c12a3138cc326604a1149bc306b8cc338b9e9161516b610504ddbc7d59a1ea6d",
+      "operator_foundation/examples/emk_job.json": "fd3c9e50cb51050acb9c36b3123fbc4664870c621e5d73bb8763b1050b30c763",
+      "operator_foundation/theory/01_NATIVE_ALGEBRA.md": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5",
+      "proof_lab/emk_algebra_cut_graded_curvature.py": "93d7fb372cbbbeb66f93b7d8f678bd17dc7c266a125da6006516f5c0fcc130f2",
+      "theorum/48_emk_algebra_cut_graded_curvature_theorem.md": "e447ea282bd47ccbc62e718a8d9aab912d926a9239a662d2e02c5f58fa7563f1",
+      "theorum/thermodynamics/05_onsager_compass_and_constitutive_no_go.md": "116a5360098b28efc05f31febf8ac54fea087e8c1d590b78190f02c5792e7c2d",
+      "theorum/thermodynamics/lambda_geometry/11_noncommutative_holonomy_and_irreducibility.md": "5ad8f503bee6f46b5f8c437f728c6c2f5a704a6dad7aa23d35a64f1afcaa3ac7"
+    }
+  },
+  "exact_witnesses": {
+    "KIR": {
+      "curvature": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "-2"
+        ]
+      ],
+      "trace": "0",
+      "active_cut_flips_sign": true,
+      "odd_readouts": [
+        "2",
+        "2"
+      ],
+      "recovered": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "-2"
+        ]
+      ],
+      "same_sector_plus": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "same_sector_minus": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "cross_sector_plus_minus": [
+        [
+          "1",
+          "-1"
+        ],
+        [
+          "1",
+          "-1"
+        ]
+      ]
+    },
+    "full_curved_reduced_flat": {
+      "full": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "-2"
+        ]
+      ],
+      "compressed_full": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "reduced": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "excursions": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "identity_residual": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "full_flat": false,
+      "reduced_flat": true
+    },
+    "full_flat_reduced_curved": {
+      "full": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "compressed_full": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "reduced": [
+        [
+          "0",
+          "-1/9",
+          "1/9"
+        ],
+        [
+          "1/9",
+          "0",
+          "-1/9"
+        ],
+        [
+          "-1/9",
+          "1/9",
+          "0"
+        ]
+      ],
+      "excursions": [
+        [
+          "0",
+          "1/9",
+          "-1/9"
+        ],
+        [
+          "-1/9",
+          "0",
+          "1/9"
+        ],
+        [
+          "1/9",
+          "-1/9",
+          "0"
+        ]
+      ],
+      "identity_residual": [
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "full_flat": true,
+      "reduced_flat": false
+    },
+    "three_direction_components": {
+      "radial/tangent_1": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "-2"
+        ]
+      ],
+      "radial/tangent_2": [
+        [
+          "0",
+          "2"
+        ],
+        [
+          "-2",
+          "0"
+        ]
+      ],
+      "tangent_1/tangent_2": [
+        [
+          "0",
+          "-2"
+        ],
+        [
+          "-2",
+          "0"
+        ]
+      ]
+    },
+    "one_direction_pullback_components": {},
+    "noncommuting_flat_connection": {
+      "commutator": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "-4/3",
+          "-1"
+        ]
+      ],
+      "curvature": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ]
+    },
+    "constant_onsager": {
+      "symmetric_curvature": [
+        [
+          "0"
+        ]
+      ],
+      "asymmetric_curvature": [
+        [
+          "3"
+        ]
+      ]
+    },
+    "state_dependent_symmetric_response": {
+      "point": [
+        "2",
+        "3"
+      ],
+      "response": [
+        [
+          "3",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "curvature": [
+        [
+          "-2"
+        ]
+      ]
+    }
+  },
+  "independent_sheet_audit": {
+    "tensor_type_returns": [
+      true
+    ],
+    "full_carrier_return": true,
+    "sheet_residue": 2,
+    "full_unledgered_return": false,
+    "full_return_after_sheet_ledger": false
+  },
+  "preserved_evidence": {
+    "R1_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "c1b24ba12cb54af5d33ce443af0691165ccab8d40e345f3c2afc84669e9cea34",
+      "recorded_paths_checked": 4,
+      "all_hashes_match": true
+    },
+    "R2_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "f6051c6baec50f124ec5ac3ab7adc6e82dbba47f77571b590a72927de60d83e5",
+      "recorded_paths_checked": 4,
+      "all_hashes_match": true
+    },
+    "R3_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "0b48e868e53dd429100fdf15b81240d1b9cddf12e10b856d05f8f319a72ca2dd",
+      "recorded_paths_checked": 8,
+      "all_hashes_match": true
+    },
+    "R4_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_SOURCE_BRIDGE_CHECKS",
+      "record_sha256": "1b646bf98c396af0404381f5c23564f94d05b80b0c5d1fb19332a4848fbb6dbb",
+      "recorded_paths_checked": 10,
+      "all_hashes_match": true
+    },
+    "R5_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_PROFILE_RECOVERY_CHECKS",
+      "record_sha256": "525ebbf96054046177617f82fa84162fff51d8116251344770c01df5f376cf63",
+      "recorded_paths_checked": 15,
+      "all_hashes_match": true
+    },
+    "R6_VERIFICATION": {
+      "recorded_status": "PASS_CERTIFIED_INTERVAL_PROFILE_CHECKS",
+      "record_sha256": "ec53dfbd8d7c2fab225c3d5f5d2f2cdb73435d0bb3f74420f5baa9ed16a2f53d",
+      "recorded_paths_checked": 15,
+      "all_hashes_match": true
+    },
+    "R7_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_TYPED_EMK_TENSOR_CHECKS",
+      "record_sha256": "063dd9abc530a102867597dab47d1eb8701c91b2505a1d4877d51ffce53bc25a",
+      "recorded_paths_checked": 14,
+      "all_hashes_match": true
+    },
+    "EMK_MASTER_REVIEW_VERIFICATION": {
+      "recorded_status": "PASS_REPRODUCIBLE_EMK_MASTER_REVIEW_WITH_THREE_FINDINGS",
+      "record_sha256": "420189bb4c06a8db74c9a12081334058a8245021fdcd93683b8e820565f5f40c",
+      "recorded_paths_checked": 3,
+      "all_hashes_match": true
+    }
+  },
+  "claim_levels": {
+    "general_results": "written algebraic proofs with explicit assumptions",
+    "finite_results": "exact rational tests and source proof replay",
+    "Lean_formalization_added": false,
+    "external_peer_review": false,
+    "physical_experiment": false,
+    "global_PDE_existence": false
+  },
+  "sha256": {
+    "4ways.tex": "ace9e45fedf6154f2d872ae762c47a1d852ff93a373f6e30d99c33031cdf8234",
+    "02-relational-response/CURVATURE_OBSERVATION_R8.md": "b61a90f6e33c2f752b0b0eee28c5afd6918ce938207310e89503ce1407998459",
+    "04-operator-evolution/emk_curvature_observation.py": "91059138ba60d02a7da154692e51af15dd0ed5461598ee6b80564de0639e6a62",
+    "04-operator-evolution/test_emk_curvature_observation.py": "d5d235d56877189392f288da0b7c00d60c274b7b9803b3a3299cec9a105662d4",
+    "04-operator-evolution/r8_native_curvature_probe.cjs": "97ba8ae360d64d5b4fbe56d9b43c9a9d3d922d10ac5edf439a3d19234c51ff84",
+    "04-operator-evolution/verify_r8.py": "baab0bfefdc293a783e6a99f82778bab896f36d441c0377ccfaf84de18197f27",
+    "04-operator-evolution/R8_SOURCE_PINS.json": "7610b5db63154f968b21ea5a07c4c0deb3762c3add93116ecb3b5f6ece093bc0",
+    "04-operator-evolution/R8_NATIVE_CERTIFICATE.json": "7ca8f17eed2cb630e85c65acb3578be7d47f4eb2b49881c8e3f7c530ade4f554",
+    "04-operator-evolution/aghora_return.py": "17e1bb9681f9d5e766c4f294765c1273ba6716a64e8d125196fd36f10fb06e7c",
+    "04-operator-evolution/emk_tensor_calculus.py": "04d0e4d3754c165a0c54a2c40b837530d56780048732b168c95dfe1cca07887e",
+    "04-operator-evolution/R1_VERIFICATION.json": "c1b24ba12cb54af5d33ce443af0691165ccab8d40e345f3c2afc84669e9cea34",
+    "04-operator-evolution/R2_VERIFICATION.json": "f6051c6baec50f124ec5ac3ab7adc6e82dbba47f77571b590a72927de60d83e5",
+    "04-operator-evolution/R3_VERIFICATION.json": "0b48e868e53dd429100fdf15b81240d1b9cddf12e10b856d05f8f319a72ca2dd",
+    "04-operator-evolution/R4_VERIFICATION.json": "1b646bf98c396af0404381f5c23564f94d05b80b0c5d1fb19332a4848fbb6dbb",
+    "04-operator-evolution/R5_VERIFICATION.json": "525ebbf96054046177617f82fa84162fff51d8116251344770c01df5f376cf63",
+    "04-operator-evolution/R6_VERIFICATION.json": "ec53dfbd8d7c2fab225c3d5f5d2f2cdb73435d0bb3f74420f5baa9ed16a2f53d",
+    "04-operator-evolution/R7_VERIFICATION.json": "063dd9abc530a102867597dab47d1eb8701c91b2505a1d4877d51ffce53bc25a",
+    "04-operator-evolution/EMK_MASTER_REVIEW_VERIFICATION.json": "420189bb4c06a8db74c9a12081334058a8245021fdcd93683b8e820565f5f40c"
+  }
+}

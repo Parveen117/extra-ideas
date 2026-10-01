@@ -244,6 +244,58 @@
       "smooth_analytic_existence_certified": false,
       "universal_lambda_selected": false,
       "physical_validation": false
+    },
+    {
+      "id": "R8",
+      "date": "2026-10-01",
+      "title": "Curvature observation correction and native recovery certificates",
+      "proof": "02-relational-response/CURVATURE_OBSERVATION_R8.md",
+      "implementation": "04-operator-evolution/emk_curvature_observation.py",
+      "native_adapter": "04-operator-evolution/r8_native_curvature_probe.cjs",
+      "verifier": "04-operator-evolution/verify_r8.py",
+      "verification": "04-operator-evolution/R8_VERIFICATION.json",
+      "native_certificate": "04-operator-evolution/R8_NATIVE_CERTIFICATE.json",
+      "source_pins": "04-operator-evolution/R8_SOURCE_PINS.json",
+      "test_count": 23,
+      "validation_status": "PASS_EXACT_CURVATURE_OBSERVATION_CERTIFICATES",
+      "finite_case_counts": {
+        "compression_cases": 100,
+        "odd_target_reconstructions": 25,
+        "source_curvature_comparisons": 27,
+        "constant_response_cases": 81
+      },
+      "math_mutations_rejected": 6,
+      "native_tampering_controls_rejected": 3,
+      "general_idempotent_identity_symbolically_replayed": true,
+      "general_identity_rewrite_count": 2,
+      "KIR_equality_proofs_replayed": 2,
+      "canonical_engine_home": "Parveen117/Recognition-Kernel-Framework/operator_foundation",
+      "source_runtime_reused_unchanged": true,
+      "engine_implementation_copied": false,
+      "current_odd_target_channels": 2,
+      "unrestricted_future_algebra_channels": 4,
+      "results": [
+        "[PAP,PBP]=P[A,B]P-(PA(I-P)BP-PB(I-P)AP)",
+        "both full-curved/reduced-flat and full-flat/reduced-curved exact witnesses",
+        "two fixed linear cross-sector channels reconstruct the KIR odd curvature target",
+        "constant-base-map curvature pullback and one-direction loss of transverse comparison",
+        "constant scalar response flat iff L symmetric; derivative and sheet counterexamples retained"
+      ],
+      "assumptions": [
+        "lawfully comparable actions on a declared common carrier",
+        "idempotent compression; constant projector in the connection-jet adapter",
+        "characteristic-zero central field; exact rational coordinate examples",
+        "two fixed linear channels on the KIR odd target, broader future contract stated separately",
+        "coordinate connection jets and constant affine base/reference transformations",
+        "constant linear response only for the Onsager equivalence",
+        "R7 direct-product integer sheet and preregistered ledger policy"
+      ],
+      "known_upstream_emkg3_compensator_bug_consumed": false,
+      "recorded_R1_R7_and_master_review_hashes_preserved": true,
+      "new_Lean_formalization": false,
+      "physical_validation": false,
+      "general_classical_calculus_newly_discovered": false,
+      "universal_lambda_selected": false
     }
   ],
   "lineage_assessment": "CROSS_REPO_LINEAGE.md",
@@ -267,5 +319,6 @@
     "all_connected_repository_files_read_in_full": false,
     "r7_metric_obstruction_scope": "fixed symmetric form on standard real two-mode carrier under both continuous R/K flows",
     "recorded_R1_R7_hashes_preserved": true
-  }
+  },
+  "r8_lineage_addendum": "02-relational-response/CURVATURE_OBSERVATION_R8.md#7-what-is-added-and-what-already-existed"
 }

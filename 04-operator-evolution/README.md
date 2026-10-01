@@ -26,7 +26,17 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Follow the [EMK master review](../02-relational-response/EMK_MASTER_TENSOR_REVIEW.md): reconcile the deck/compensator convention, holonomy domain and determinant interpretation, then connect [R7's admitted carrier](../02-relational-response/EMK_TENSOR_CALCULUS_R7.md) to the existing RTC, metric and topology layers. KIR transport is already lifted to explicit tensor types; its finite group action and infinitesimal Lie action must remain distinct. The [lambda note](../03-lambda-reference/IDENTIFIABILITY.md) retains the separate selection obligation.
+Follow the [EMK master review](../02-relational-response/EMK_MASTER_TENSOR_REVIEW.md) and [R8](../02-relational-response/CURVATURE_OBSERVATION_R8.md): connect the certified observation/curvature contracts to a declared RTC, metric and topology sector while retaining the identified deck/compensator, holonomy-domain and determinant corrections. KIR transport is already lifted to explicit tensor types; its finite group action and infinitesimal Lie action remain distinct. The [lambda note](../03-lambda-reference/IDENTIFIABILITY.md) retains the separate selection obligation.
+
+## R8 exact curvature and observation adapter
+
+[emk_curvature_observation.py](emk_curvature_observation.py) reuses the R2 matrix arithmetic and R7 chart for compression, odd-target reconstruction and connection jets. [r8_native_curvature_probe.cjs](r8_native_curvature_probe.cjs) calls the unchanged canonical **RKF/operator_foundation** engine; no engine implementation is copied here. It replays a symbolic general compression proof, two KIR identities and a rank-2 to rank-4 future observer completion.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r8.py --rkf-root ../Recognition-Kernel-Framework
+```
+
+Use the separate RKF checkout at the commit in [R8_SOURCE_PINS.json](R8_SOURCE_PINS.json), Python 3.11 or 3.12, and Node. [R8_VERIFICATION.json](R8_VERIFICATION.json) records 23 passing exact tests, six rejected mathematical mutations, three rejected altered native contracts/results, and preservation of earlier evidence. [R8_NATIVE_CERTIFICATE.json](R8_NATIVE_CERTIFICATE.json) contains the replayable native inputs, rewrite witnesses and observer result. General written proofs and the exact computation have explicit assumptions; physical validation and new Lean formalization remain separate evidence levels.
 
 Role in the four-route program: the main calculation and proof tool. See [the shared assessment](../ASSESSMENT.md) for the other operator corrections.
 

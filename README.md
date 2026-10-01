@@ -17,9 +17,27 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
+## R8: curvature and observation certificates
+
+[R8](02-relational-response/CURVATURE_OBSERVATION_R8.md) links full ordered mismatch, observation, cut sign, dimension restriction and Onsager response flatness through explicit maps. Its central law is
+
+\[
+[PAP,PBP]=P[A,B]P-\big(PA(I-P)BP-PB(I-P)AP\big).
+\]
+
+The discarded-sector term explains two certified counterexamples: full curvature can be nonzero while reduced generators commute, and commuting full generators can acquire reduced ordered mismatch after projection. On the existing KIR odd-curvature space, two oriented cross-sector scalar channels recover the full current target; the same rows require two more channels for unrestricted future algebra observation. The base-direction pullback rule and constant-response condition `F_ij=L_ji-L_ij` state precisely which flatness claim each observation supports. State-dependent symmetric response and noncommuting flat connections supply the boundary cases.
+
+The unchanged canonical engine remains in **RKF/operator_foundation**. R8 calls it to replay the general idempotent compression identity without a finite carrier, two existing KIR equalities, and a minimum future-observer completion. The [verification record](04-operator-evolution/R8_VERIFICATION.json) reports **23 passing exact tests**, six rejected mathematical mutations, three rejected altered native contracts/results, and preserved R1–R7/master-review hashes. The [complete native packet](04-operator-evolution/R8_NATIVE_CERTIFICATE.json) and [source pins](04-operator-evolution/R8_SOURCE_PINS.json) make the result reviewable.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r8.py --rkf-root ../Recognition-Kernel-Framework
+```
+
+Use the RKF commit listed in the pins, Python 3.11 or 3.12, and Node. These are algebraic proofs and exact computational certificates; a new Lean formalization or physical validation is not claimed. R8 credits the existing compression, observer and KIR theorems rather than duplicating their engine.
+
 ## Latest review: the existing EMK master and advanced results
 
-The [EMK master tensor review](02-relational-response/EMK_MASTER_TENSOR_REVIEW.md) corrects the earlier roadmap: master/time, metric/Christoffel/Riemann, holonomy/sheet memory, information tensor and finite cohomology results already exist in the connected repositories. All 191 tests across eight public certificate families pass. Three additional checks identify a deck/compensator sign mismatch, a missing nondegenerate-domain condition, and a determinant-factor interpretation that needs correction. The [review verifier](04-operator-evolution/verify_emk_master_review.py) and [record](04-operator-evolution/EMK_MASTER_REVIEW_VERIFICATION.json) reproduce these findings against unchanged sources. Next development should reconcile and extend the existing master.
+The [EMK master tensor review](02-relational-response/EMK_MASTER_TENSOR_REVIEW.md) corrects the earlier roadmap: master/time, metric/Christoffel/Riemann, holonomy/sheet memory, information tensor and finite cohomology results already exist in the connected repositories. All 191 tests across eight public certificate families pass. Three additional checks identify a deck/compensator sign mismatch, a missing nondegenerate-domain condition, and a determinant-factor interpretation that needs correction. The [review verifier](04-operator-evolution/verify_emk_master_review.py) and [record](04-operator-evolution/EMK_MASTER_REVIEW_VERIFICATION.json) reproduce these findings against unchanged sources. R8 extends observation/curvature contracts while these upstream consistency repairs remain identified and unapplied.
 
 ## R7: typed tensors on an admitted EMK carrier
 
