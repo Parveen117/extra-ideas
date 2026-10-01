@@ -1,0 +1,2861 @@
+{
+  "input": {
+    "schema": "extra-ideas.r9-cut-balance.v1",
+    "generic": {
+      "presentation": {
+        "tokens": [
+          "A",
+          "B",
+          "K"
+        ],
+        "rules": [
+          {
+            "id": "KK",
+            "lhs": [
+              "K",
+              "K"
+            ],
+            "rhs": [
+              [
+                [],
+                1
+              ]
+            ],
+            "source": "R9 native involution contract: K squared equals I"
+          }
+        ]
+      },
+      "tasks": [
+        {
+          "name": "balanced_idempotence",
+          "left": {
+            "op": "scale",
+            "coefficient": [
+              "1/2",
+              "0"
+            ],
+            "value": {
+              "op": "add",
+              "args": [
+                {
+                  "op": "scale",
+                  "coefficient": [
+                    "1/2",
+                    "0"
+                  ],
+                  "value": {
+                    "op": "add",
+                    "args": [
+                      {
+                        "word": [
+                          "A"
+                        ]
+                      },
+                      {
+                        "op": "multiply",
+                        "args": [
+                          {
+                            "word": [
+                              "K"
+                            ]
+                          },
+                          {
+                            "word": [
+                              "A"
+                            ]
+                          },
+                          {
+                            "word": [
+                              "K"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    },
+                    {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "word": [
+                              "A"
+                            ]
+                          },
+                          {
+                            "op": "multiply",
+                            "args": [
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              },
+                              {
+                                "word": [
+                                  "A"
+                                ]
+                              },
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "right": {
+            "op": "scale",
+            "coefficient": [
+              "1/2",
+              "0"
+            ],
+            "value": {
+              "op": "add",
+              "args": [
+                {
+                  "word": [
+                    "A"
+                  ]
+                },
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    },
+                    {
+                      "word": [
+                        "A"
+                      ]
+                    },
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "branch_exchange_invariance",
+          "left": {
+            "op": "scale",
+            "coefficient": [
+              "1/2",
+              "0"
+            ],
+            "value": {
+              "op": "add",
+              "args": [
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    },
+                    {
+                      "word": [
+                        "A"
+                      ]
+                    },
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    },
+                    {
+                      "op": "multiply",
+                      "args": [
+                        {
+                          "word": [
+                            "K"
+                          ]
+                        },
+                        {
+                          "word": [
+                            "A"
+                          ]
+                        },
+                        {
+                          "word": [
+                            "K"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "right": {
+            "op": "scale",
+            "coefficient": [
+              "1/2",
+              "0"
+            ],
+            "value": {
+              "op": "add",
+              "args": [
+                {
+                  "word": [
+                    "A"
+                  ]
+                },
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    },
+                    {
+                      "word": [
+                        "A"
+                      ]
+                    },
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "odd_sector_annihilated",
+          "left": {
+            "op": "scale",
+            "coefficient": [
+              "1/2",
+              "0"
+            ],
+            "value": {
+              "op": "add",
+              "args": [
+                {
+                  "op": "scale",
+                  "coefficient": [
+                    "1/2",
+                    "0"
+                  ],
+                  "value": {
+                    "op": "add",
+                    "args": [
+                      {
+                        "word": [
+                          "A"
+                        ]
+                      },
+                      {
+                        "op": "scale",
+                        "coefficient": -1,
+                        "value": {
+                          "op": "multiply",
+                          "args": [
+                            {
+                              "word": [
+                                "K"
+                              ]
+                            },
+                            {
+                              "word": [
+                                "A"
+                              ]
+                            },
+                            {
+                              "word": [
+                                "K"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    },
+                    {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "word": [
+                              "A"
+                            ]
+                          },
+                          {
+                            "op": "scale",
+                            "coefficient": -1,
+                            "value": {
+                              "op": "multiply",
+                              "args": [
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                },
+                                {
+                                  "word": [
+                                    "A"
+                                  ]
+                                },
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "right": {
+            "op": "scale",
+            "coefficient": 0,
+            "value": {
+              "word": []
+            }
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "product_memory_defect",
+          "left": {
+            "op": "add",
+            "args": [
+              {
+                "op": "scale",
+                "coefficient": [
+                  "1/2",
+                  "0"
+                ],
+                "value": {
+                  "op": "add",
+                  "args": [
+                    {
+                      "op": "multiply",
+                      "args": [
+                        {
+                          "word": [
+                            "A"
+                          ]
+                        },
+                        {
+                          "word": [
+                            "B"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "op": "multiply",
+                      "args": [
+                        {
+                          "word": [
+                            "K"
+                          ]
+                        },
+                        {
+                          "op": "multiply",
+                          "args": [
+                            {
+                              "word": [
+                                "A"
+                              ]
+                            },
+                            {
+                              "word": [
+                                "B"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "word": [
+                            "K"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "op": "scale",
+                "coefficient": -1,
+                "value": {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "word": [
+                              "A"
+                            ]
+                          },
+                          {
+                            "op": "multiply",
+                            "args": [
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              },
+                              {
+                                "word": [
+                                  "A"
+                                ]
+                              },
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "word": [
+                              "B"
+                            ]
+                          },
+                          {
+                            "op": "multiply",
+                            "args": [
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              },
+                              {
+                                "word": [
+                                  "B"
+                                ]
+                              },
+                              {
+                                "word": [
+                                  "K"
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "right": {
+            "op": "multiply",
+            "args": [
+              {
+                "op": "scale",
+                "coefficient": [
+                  "1/2",
+                  "0"
+                ],
+                "value": {
+                  "op": "add",
+                  "args": [
+                    {
+                      "word": [
+                        "A"
+                      ]
+                    },
+                    {
+                      "op": "scale",
+                      "coefficient": -1,
+                      "value": {
+                        "op": "multiply",
+                        "args": [
+                          {
+                            "word": [
+                              "K"
+                            ]
+                          },
+                          {
+                            "word": [
+                              "A"
+                            ]
+                          },
+                          {
+                            "word": [
+                              "K"
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "op": "scale",
+                "coefficient": [
+                  "1/2",
+                  "0"
+                ],
+                "value": {
+                  "op": "add",
+                  "args": [
+                    {
+                      "word": [
+                        "B"
+                      ]
+                    },
+                    {
+                      "op": "scale",
+                      "coefficient": -1,
+                      "value": {
+                        "op": "multiply",
+                        "args": [
+                          {
+                            "word": [
+                              "K"
+                            ]
+                          },
+                          {
+                            "word": [
+                              "B"
+                            ]
+                          },
+                          {
+                            "word": [
+                              "K"
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "commutator_memory_defect",
+          "left": {
+            "op": "add",
+            "args": [
+              {
+                "op": "scale",
+                "coefficient": [
+                  "1/2",
+                  "0"
+                ],
+                "value": {
+                  "op": "add",
+                  "args": [
+                    {
+                      "op": "commutator",
+                      "left": {
+                        "word": [
+                          "A"
+                        ]
+                      },
+                      "right": {
+                        "word": [
+                          "B"
+                        ]
+                      }
+                    },
+                    {
+                      "op": "multiply",
+                      "args": [
+                        {
+                          "word": [
+                            "K"
+                          ]
+                        },
+                        {
+                          "op": "commutator",
+                          "left": {
+                            "word": [
+                              "A"
+                            ]
+                          },
+                          "right": {
+                            "word": [
+                              "B"
+                            ]
+                          }
+                        },
+                        {
+                          "word": [
+                            "K"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "op": "scale",
+                "coefficient": -1,
+                "value": {
+                  "op": "commutator",
+                  "left": {
+                    "op": "scale",
+                    "coefficient": [
+                      "1/2",
+                      "0"
+                    ],
+                    "value": {
+                      "op": "add",
+                      "args": [
+                        {
+                          "word": [
+                            "A"
+                          ]
+                        },
+                        {
+                          "op": "multiply",
+                          "args": [
+                            {
+                              "word": [
+                                "K"
+                              ]
+                            },
+                            {
+                              "word": [
+                                "A"
+                              ]
+                            },
+                            {
+                              "word": [
+                                "K"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "right": {
+                    "op": "scale",
+                    "coefficient": [
+                      "1/2",
+                      "0"
+                    ],
+                    "value": {
+                      "op": "add",
+                      "args": [
+                        {
+                          "word": [
+                            "B"
+                          ]
+                        },
+                        {
+                          "op": "multiply",
+                          "args": [
+                            {
+                              "word": [
+                                "K"
+                              ]
+                            },
+                            {
+                              "word": [
+                                "B"
+                              ]
+                            },
+                            {
+                              "word": [
+                                "K"
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          "right": {
+            "op": "commutator",
+            "left": {
+              "op": "scale",
+              "coefficient": [
+                "1/2",
+                "0"
+              ],
+              "value": {
+                "op": "add",
+                "args": [
+                  {
+                    "word": [
+                      "A"
+                    ]
+                  },
+                  {
+                    "op": "scale",
+                    "coefficient": -1,
+                    "value": {
+                      "op": "multiply",
+                      "args": [
+                        {
+                          "word": [
+                            "K"
+                          ]
+                        },
+                        {
+                          "word": [
+                            "A"
+                          ]
+                        },
+                        {
+                          "word": [
+                            "K"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            "right": {
+              "op": "scale",
+              "coefficient": [
+                "1/2",
+                "0"
+              ],
+              "value": {
+                "op": "add",
+                "args": [
+                  {
+                    "word": [
+                      "B"
+                    ]
+                  },
+                  {
+                    "op": "scale",
+                    "coefficient": -1,
+                    "value": {
+                      "op": "multiply",
+                      "args": [
+                        {
+                          "word": [
+                            "K"
+                          ]
+                        },
+                        {
+                          "word": [
+                            "B"
+                          ]
+                        },
+                        {
+                          "word": [
+                            "K"
+                          ]
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "odd_second_moment_retained",
+          "left": {
+            "op": "scale",
+            "coefficient": [
+              "1/2",
+              "0"
+            ],
+            "value": {
+              "op": "add",
+              "args": [
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "word": [
+                              "A"
+                            ]
+                          },
+                          {
+                            "op": "scale",
+                            "coefficient": -1,
+                            "value": {
+                              "op": "multiply",
+                              "args": [
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                },
+                                {
+                                  "word": [
+                                    "A"
+                                  ]
+                                },
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "op": "scale",
+                      "coefficient": [
+                        "1/2",
+                        "0"
+                      ],
+                      "value": {
+                        "op": "add",
+                        "args": [
+                          {
+                            "word": [
+                              "A"
+                            ]
+                          },
+                          {
+                            "op": "scale",
+                            "coefficient": -1,
+                            "value": {
+                              "op": "multiply",
+                              "args": [
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                },
+                                {
+                                  "word": [
+                                    "A"
+                                  ]
+                                },
+                                {
+                                  "word": [
+                                    "K"
+                                  ]
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    },
+                    {
+                      "op": "multiply",
+                      "args": [
+                        {
+                          "op": "scale",
+                          "coefficient": [
+                            "1/2",
+                            "0"
+                          ],
+                          "value": {
+                            "op": "add",
+                            "args": [
+                              {
+                                "word": [
+                                  "A"
+                                ]
+                              },
+                              {
+                                "op": "scale",
+                                "coefficient": -1,
+                                "value": {
+                                  "op": "multiply",
+                                  "args": [
+                                    {
+                                      "word": [
+                                        "K"
+                                      ]
+                                    },
+                                    {
+                                      "word": [
+                                        "A"
+                                      ]
+                                    },
+                                    {
+                                      "word": [
+                                        "K"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "op": "scale",
+                          "coefficient": [
+                            "1/2",
+                            "0"
+                          ],
+                          "value": {
+                            "op": "add",
+                            "args": [
+                              {
+                                "word": [
+                                  "A"
+                                ]
+                              },
+                              {
+                                "op": "scale",
+                                "coefficient": -1,
+                                "value": {
+                                  "op": "multiply",
+                                  "args": [
+                                    {
+                                      "word": [
+                                        "K"
+                                      ]
+                                    },
+                                    {
+                                      "word": [
+                                        "A"
+                                      ]
+                                    },
+                                    {
+                                      "word": [
+                                        "K"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "right": {
+            "op": "multiply",
+            "args": [
+              {
+                "op": "scale",
+                "coefficient": [
+                  "1/2",
+                  "0"
+                ],
+                "value": {
+                  "op": "add",
+                  "args": [
+                    {
+                      "word": [
+                        "A"
+                      ]
+                    },
+                    {
+                      "op": "scale",
+                      "coefficient": -1,
+                      "value": {
+                        "op": "multiply",
+                        "args": [
+                          {
+                            "word": [
+                              "K"
+                            ]
+                          },
+                          {
+                            "word": [
+                              "A"
+                            ]
+                          },
+                          {
+                            "word": [
+                              "K"
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "op": "scale",
+                "coefficient": [
+                  "1/2",
+                  "0"
+                ],
+                "value": {
+                  "op": "add",
+                  "args": [
+                    {
+                      "word": [
+                        "A"
+                      ]
+                    },
+                    {
+                      "op": "scale",
+                      "coefficient": -1,
+                      "value": {
+                        "op": "multiply",
+                        "args": [
+                          {
+                            "word": [
+                              "K"
+                            ]
+                          },
+                          {
+                            "word": [
+                              "A"
+                            ]
+                          },
+                          {
+                            "word": [
+                              "K"
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        }
+      ]
+    },
+    "kir": {
+      "presentation": {
+        "tokens": [
+          "R",
+          "K"
+        ],
+        "rules": [
+          {
+            "id": "RR",
+            "lhs": [
+              "R",
+              "R"
+            ],
+            "rhs": [
+              [
+                [],
+                -1
+              ]
+            ],
+            "source": "Local source: theory/PANINIAN_OPERATOR_COMPILER.md; RKF T48"
+          },
+          {
+            "id": "KK",
+            "lhs": [
+              "K",
+              "K"
+            ],
+            "rhs": [
+              [
+                [],
+                1
+              ]
+            ],
+            "source": "Local source: theory/PANINIAN_OPERATOR_COMPILER.md; RKF T48"
+          },
+          {
+            "id": "KR",
+            "lhs": [
+              "K",
+              "R"
+            ],
+            "rhs": [
+              [
+                [
+                  "R",
+                  "K"
+                ],
+                -1
+              ]
+            ],
+            "source": "Local source: theory/PANINIAN_OPERATOR_COMPILER.md; RKF T48"
+          }
+        ]
+      },
+      "tasks": [
+        {
+          "name": "raw_KIR_curvature_nonzero",
+          "left": {
+            "op": "commutator",
+            "left": {
+              "word": [
+                "K"
+              ]
+            },
+            "right": {
+              "word": [
+                "R"
+              ]
+            }
+          },
+          "right": {
+            "op": "scale",
+            "coefficient": 0,
+            "value": {
+              "word": []
+            }
+          },
+          "expected": "DISTINCT_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "radial_tangential_curvature_cancels",
+          "left": {
+            "op": "scale",
+            "coefficient": [
+              "1/2",
+              "0"
+            ],
+            "value": {
+              "op": "add",
+              "args": [
+                {
+                  "op": "commutator",
+                  "left": {
+                    "word": [
+                      "K"
+                    ]
+                  },
+                  "right": {
+                    "word": [
+                      "R"
+                    ]
+                  }
+                },
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    },
+                    {
+                      "op": "commutator",
+                      "left": {
+                        "word": [
+                          "K"
+                        ]
+                      },
+                      "right": {
+                        "word": [
+                          "R"
+                        ]
+                      }
+                    },
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "right": {
+            "op": "scale",
+            "coefficient": 0,
+            "value": {
+              "word": []
+            }
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        },
+        {
+          "name": "tangential_tangential_curvature_survives",
+          "left": {
+            "op": "scale",
+            "coefficient": [
+              "1/2",
+              "0"
+            ],
+            "value": {
+              "op": "add",
+              "args": [
+                {
+                  "op": "commutator",
+                  "left": {
+                    "word": [
+                      "R"
+                    ]
+                  },
+                  "right": {
+                    "word": [
+                      "R",
+                      "K"
+                    ]
+                  }
+                },
+                {
+                  "op": "multiply",
+                  "args": [
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    },
+                    {
+                      "op": "commutator",
+                      "left": {
+                        "word": [
+                          "R"
+                        ]
+                      },
+                      "right": {
+                        "word": [
+                          "R",
+                          "K"
+                        ]
+                      }
+                    },
+                    {
+                      "word": [
+                        "K"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "right": {
+            "op": "scale",
+            "coefficient": -2,
+            "value": {
+              "word": [
+                "K"
+              ]
+            }
+          },
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+        }
+      ]
+    }
+  },
+  "input_sha256": "171fe9bb03751d0e9a96eef93b8ba71ad7e3edac75cb918508a06b7321a94b0b",
+  "groups": {
+    "generic": {
+      "presentation_sha256": "7999733ecab2926496d9815356558ee63eca439e25a4479f7c9eed88a69332d8",
+      "audit": {
+        "protocol": "NATIVE_CRITICAL_PAIR_AUDIT_V1",
+        "presentation": "7999733ecab2926496d9815356558ee63eca439e25a4479f7c9eed88a69332d8",
+        "status": "CONFLUENT_BY_CHECKED_DIAMONDS",
+        "termination": "strict degree-lex decrease",
+        "criticalPairs": 1,
+        "resolutions": [
+          {
+            "word": [
+              "K",
+              "K",
+              "K"
+            ],
+            "first": [
+              0,
+              0
+            ],
+            "second": [
+              0,
+              1
+            ],
+            "kind": "overlap",
+            "closed": true,
+            "left": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "7999733ecab2926496d9815356558ee63eca439e25a4479f7c9eed88a69332d8",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            },
+            "right": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "7999733ecab2926496d9815356558ee63eca439e25a4479f7c9eed88a69332d8",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          }
+        ],
+        "open": []
+      },
+      "results": [
+        {
+          "name": "balanced_idempotence",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "7999733ecab2926496d9815356558ee63eca439e25a4479f7c9eed88a69332d8",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "A"
+                    ],
+                    [
+                      "-1/4",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "K",
+                      "A",
+                      "K",
+                      "K"
+                    ],
+                    [
+                      "1/4",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "K",
+                    "A",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/4",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 0
+                },
+                {
+                  "word": [
+                    "A",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/4",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 1
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "branch_exchange_invariance",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "7999733ecab2926496d9815356558ee63eca439e25a4479f7c9eed88a69332d8",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "A"
+                    ],
+                    [
+                      "-1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "K",
+                      "A",
+                      "K",
+                      "K"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "K",
+                    "A",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 0
+                },
+                {
+                  "word": [
+                    "A",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 1
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "odd_sector_annihilated",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "7999733ecab2926496d9815356558ee63eca439e25a4479f7c9eed88a69332d8",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "A"
+                    ],
+                    [
+                      "1/4",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "K",
+                      "A",
+                      "K",
+                      "K"
+                    ],
+                    [
+                      "-1/4",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "K",
+                    "A",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/4",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 0
+                },
+                {
+                  "word": [
+                    "A",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/4",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 1
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "product_memory_defect",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "7999733ecab2926496d9815356558ee63eca439e25a4479f7c9eed88a69332d8",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K",
+                      "A",
+                      "B",
+                      "K"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "A",
+                      "K",
+                      "K",
+                      "B",
+                      "K"
+                    ],
+                    [
+                      "-1/2",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "A",
+                    "K",
+                    "K",
+                    "B",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 2
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "commutator_memory_defect",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "7999733ecab2926496d9815356558ee63eca439e25a4479f7c9eed88a69332d8",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K",
+                      "A",
+                      "B",
+                      "K"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "B",
+                      "A",
+                      "K"
+                    ],
+                    [
+                      "-1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "A",
+                      "K",
+                      "K",
+                      "B",
+                      "K"
+                    ],
+                    [
+                      "-1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "B",
+                      "K",
+                      "K",
+                      "A",
+                      "K"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "B",
+                    "K",
+                    "K",
+                    "A",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 2
+                },
+                {
+                  "word": [
+                    "K",
+                    "A",
+                    "K",
+                    "K",
+                    "B",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 2
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "odd_second_moment_retained",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "7999733ecab2926496d9815356558ee63eca439e25a4479f7c9eed88a69332d8",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "A",
+                      "A"
+                    ],
+                    [
+                      "-1/8",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "A",
+                      "K",
+                      "A",
+                      "K"
+                    ],
+                    [
+                      "1/8",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "A",
+                      "A",
+                      "K"
+                    ],
+                    [
+                      "1/8",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "A",
+                      "K",
+                      "A"
+                    ],
+                    [
+                      "1/8",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "A",
+                      "K",
+                      "A",
+                      "K",
+                      "K"
+                    ],
+                    [
+                      "-1/8",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "A",
+                      "K",
+                      "K",
+                      "A",
+                      "K"
+                    ],
+                    [
+                      "-1/8",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "K",
+                      "A",
+                      "K",
+                      "A",
+                      "K"
+                    ],
+                    [
+                      "-1/8",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "K",
+                      "A",
+                      "K",
+                      "K",
+                      "A",
+                      "K",
+                      "K"
+                    ],
+                    [
+                      "1/8",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "K",
+                    "A",
+                    "K",
+                    "K",
+                    "A",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/8",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 0
+                },
+                {
+                  "word": [
+                    "K",
+                    "K",
+                    "A",
+                    "K",
+                    "A",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/8",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 0
+                },
+                {
+                  "word": [
+                    "K",
+                    "A",
+                    "K",
+                    "K",
+                    "A",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/8",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 2
+                },
+                {
+                  "word": [
+                    "K",
+                    "A",
+                    "K",
+                    "A",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/8",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 4
+                },
+                {
+                  "word": [
+                    "A",
+                    "K",
+                    "K",
+                    "A",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/8",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 1
+                },
+                {
+                  "word": [
+                    "A",
+                    "A",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/8",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 2
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        }
+      ],
+      "finite_carrier_assumed": false
+    },
+    "kir": {
+      "presentation_sha256": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+      "audit": {
+        "protocol": "NATIVE_CRITICAL_PAIR_AUDIT_V1",
+        "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+        "status": "CONFLUENT_BY_CHECKED_DIAMONDS",
+        "termination": "strict degree-lex decrease",
+        "criticalPairs": 4,
+        "resolutions": [
+          {
+            "word": [
+              "R",
+              "R",
+              "R"
+            ],
+            "first": [
+              0,
+              0
+            ],
+            "second": [
+              0,
+              1
+            ],
+            "kind": "overlap",
+            "closed": true,
+            "left": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            },
+            "right": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "word": [
+              "K",
+              "R",
+              "R"
+            ],
+            "first": [
+              0,
+              1
+            ],
+            "second": [
+              2,
+              0
+            ],
+            "kind": "overlap",
+            "closed": true,
+            "left": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            },
+            "right": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R",
+                      "K",
+                      "R"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "R",
+                    "K",
+                    "R"
+                  ],
+                  "coefficient": [
+                    "-1",
+                    "0"
+                  ],
+                  "rule": "KR",
+                  "position": 1
+                },
+                {
+                  "word": [
+                    "R",
+                    "R",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1",
+                    "0"
+                  ],
+                  "rule": "RR",
+                  "position": 0
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "word": [
+              "K",
+              "K",
+              "K"
+            ],
+            "first": [
+              1,
+              0
+            ],
+            "second": [
+              1,
+              1
+            ],
+            "kind": "overlap",
+            "closed": true,
+            "left": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            },
+            "right": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          },
+          {
+            "word": [
+              "K",
+              "K",
+              "R"
+            ],
+            "first": [
+              1,
+              0
+            ],
+            "second": [
+              2,
+              1
+            ],
+            "kind": "overlap",
+            "closed": true,
+            "left": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            },
+            "right": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K",
+                      "R",
+                      "K"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "R",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1",
+                    "0"
+                  ],
+                  "rule": "KR",
+                  "position": 0
+                },
+                {
+                  "word": [
+                    "R",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 1
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          }
+        ],
+        "open": []
+      },
+      "results": [
+        {
+          "name": "raw_KIR_curvature_nonzero",
+          "expected": "DISTINCT_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "DISTINCT_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R",
+                      "K"
+                    ],
+                    [
+                      "-1",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "R"
+                    ],
+                    [
+                      "1",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "R"
+                  ],
+                  "coefficient": [
+                    "1",
+                    "0"
+                  ],
+                  "rule": "KR",
+                  "position": 0
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R",
+                      "K"
+                    ],
+                    [
+                      "-2",
+                      "0"
+                    ]
+                  ]
+                ]
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "radial_tangential_curvature_cancels",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "R",
+                      "K"
+                    ],
+                    [
+                      "-1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "R"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "R",
+                      "K",
+                      "K"
+                    ],
+                    [
+                      "-1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "K",
+                      "R",
+                      "K"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "K",
+                    "R",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 0
+                },
+                {
+                  "word": [
+                    "K",
+                    "R",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 2
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        },
+        {
+          "name": "tangential_tangential_curvature_survives",
+          "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+          "result": {
+            "status": "EQUAL_IN_DECLARED_QUOTIENT",
+            "certificate": {
+              "protocol": "NATIVE_REWRITE_WITNESS_V1",
+              "presentation": "4fbd5d6376447e9e91faff1126ddd7ef0c50f81fbe43972de3f76f602d624043",
+              "input": {
+                "from": "*",
+                "to": "*",
+                "terms": [
+                  [
+                    [
+                      "K"
+                    ],
+                    [
+                      "2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "R",
+                      "R",
+                      "K"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "R",
+                      "K",
+                      "R"
+                    ],
+                    [
+                      "-1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "R",
+                      "R",
+                      "K",
+                      "K"
+                    ],
+                    [
+                      "1/2",
+                      "0"
+                    ]
+                  ],
+                  [
+                    [
+                      "K",
+                      "R",
+                      "K",
+                      "R",
+                      "K"
+                    ],
+                    [
+                      "-1/2",
+                      "0"
+                    ]
+                  ]
+                ]
+              },
+              "steps": [
+                {
+                  "word": [
+                    "K",
+                    "R",
+                    "K",
+                    "R",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/2",
+                    "0"
+                  ],
+                  "rule": "KR",
+                  "position": 0
+                },
+                {
+                  "word": [
+                    "K",
+                    "R",
+                    "R",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/2",
+                    "0"
+                  ],
+                  "rule": "RR",
+                  "position": 1
+                },
+                {
+                  "word": [
+                    "R",
+                    "K",
+                    "K",
+                    "R",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 1
+                },
+                {
+                  "word": [
+                    "K",
+                    "K",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "-1/2",
+                    "0"
+                  ],
+                  "rule": "KK",
+                  "position": 0
+                },
+                {
+                  "word": [
+                    "R",
+                    "K",
+                    "R"
+                  ],
+                  "coefficient": [
+                    "-1/2",
+                    "0"
+                  ],
+                  "rule": "KR",
+                  "position": 1
+                },
+                {
+                  "word": [
+                    "R",
+                    "R",
+                    "K"
+                  ],
+                  "coefficient": [
+                    "3/2",
+                    "0"
+                  ],
+                  "rule": "RR",
+                  "position": 0
+                }
+              ],
+              "output": {
+                "from": "*",
+                "to": "*",
+                "terms": []
+              }
+            }
+          },
+          "replay": "REPLAY_MATCH"
+        }
+      ],
+      "finite_carrier_assumed": false
+    }
+  },
+  "negative_controls": {
+    "altered_contract_rejected": true,
+    "altered_witness_rejected": true
+  },
+  "status": "PASS_NATIVE_CUT_BALANCE_REPLAYS"
+}

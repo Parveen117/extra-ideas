@@ -17,6 +17,28 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
+## R9: native curvature balance and the information ledger
+
+[R9](02-relational-response/CURVATURE_BALANCE_R9.md) develops conditional information/curvature balance through the existing derived cut-swap `K`. Within a declared two-branch recognition protocol, invariance under branch exchange uniquely selects equal weights. The resulting balanced observer retains even curvature and removes odd curvature:
+
+\[
+\Phi([A,B])=[A_e,B_e]+[A_o,B_o].
+\]
+
+For the stated native radial/tangential chart, the `K,R` and `K,RK` curvatures cancel under this observer, while the `R,RK` curvature survives. A clock-free event sequence gives an exact product law for imbalance, including conditional sign reversal and finite balance. The mean-curvature/variance budget records the retained second moment.
+
+The information certificate transforms the complete QTH-1 state family, including its derivatives: `g'=diag(1,lambda^2)` and `B'_xy=lambda^2 m`. Retaining the realized cut branch permits exact inverse recovery; discarding it leaves a quantified positive information loss. Zero mean curvature is also tested against joint parameter-information saturation. Recognition curvature and classical Riemann curvature are documented as different typed objects, with an explicit adapter required to identify them.
+
+The [verification record](04-operator-evolution/R9_VERIFICATION.json) reports **24 passing exact tests**, nine unchanged canonical-engine rewrite replays, six rejected mathematical mutations and two rejected native alterations. R1–R8 and master-review evidence is preserved. See the [symbolic packet](04-operator-evolution/R9_NATIVE_CERTIFICATE.json) and [source pins](04-operator-evolution/R9_SOURCE_PINS.json).
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r9.py \
+  --publications-root ../Publications \
+  --rkf-root ../Recognition-Kernel-Framework
+```
+
+Use Python 3.11 or 3.12, Node and the pinned separate checkouts. Exchange symmetry is the endpoint-selection hypothesis; a physical recognition rate is a further model choice. The canonical engine remains in **RKF/operator_foundation**.
+
 ## R8: curvature and observation certificates
 
 [R8](02-relational-response/CURVATURE_OBSERVATION_R8.md) links full ordered mismatch, observation, cut sign, dimension restriction and Onsager response flatness through explicit maps. Its central law is

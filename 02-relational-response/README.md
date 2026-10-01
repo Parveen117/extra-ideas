@@ -22,7 +22,11 @@ For a proposed Jacobian, check the compatibility conditions needed for it to ari
 
 ## Next target
 
-Continue from the existing EMK master before physical response laws. The [master review](EMK_MASTER_TENSOR_REVIEW.md) credits the already developed tensor/time, metric/curvature, holonomy, information and topology layers, and identifies three specific consistency corrections. [R7](EMK_TENSOR_CALCULUS_R7.md) supplies typed E/M pairing, tensor increments, ordered integration and curvature on one admitted carrier. [R8](CURVATURE_OBSERVATION_R8.md) now certifies the distinction between full curvature, compressed readout and recomputed reduced curvature. Next connect the declared readout and constant-response contracts to a chosen RTC/metric sector, including derivative compatibility and the existing sheet policy.
+Continue from the existing EMK master before physical response laws. The [master review](EMK_MASTER_TENSOR_REVIEW.md) credits the already developed tensor/time, metric/curvature, holonomy, information and topology layers, and identifies three specific consistency corrections. [R7](EMK_TENSOR_CALCULUS_R7.md) supplies typed E/M pairing, tensor increments, ordered integration and curvature on one admitted carrier. [R8](CURVATURE_OBSERVATION_R8.md) certifies full curvature, compressed readout and recomputed reduced curvature. [R9](CURVATURE_BALANCE_R9.md) now supplies a conditional native balance mechanism with an exact information/branch ledger. Next identify its cut grades, branch record and recognition-event weights in a chosen RTC sector while retaining derivative compatibility and the existing sheet policy.
+
+## R9 conditional information and curvature balance
+
+[CURVATURE_BALANCE_R9.md](CURVATURE_BALANCE_R9.md) derives the exchange-balanced endpoint from the existing cut-swap, proves which curvature grades cancel or survive, and gives an exact event-by-event imbalance law. It transforms the complete information family and its derivatives, records the visible information loss and exact branchwise recovery, and distinguishes recognition curvature from Riemann curvature. [R9_VERIFICATION.json](../04-operator-evolution/R9_VERIFICATION.json) binds 24 exact tests and nine symbolic native replays. Off-diagonal entries and observation in general are not treated as universal curvature or flatness criteria.
 
 ## R8 curvature and response development
 

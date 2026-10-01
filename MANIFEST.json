@@ -296,6 +296,60 @@
       "physical_validation": false,
       "general_classical_calculus_newly_discovered": false,
       "universal_lambda_selected": false
+    },
+    {
+      "id": "R9",
+      "date": "2026-10-01",
+      "title": "Native curvature balance and the information ledger",
+      "proof": "02-relational-response/CURVATURE_BALANCE_R9.md",
+      "implementation": "04-operator-evolution/emk_curvature_balance.py",
+      "native_adapter": "04-operator-evolution/r9_native_balance_probe.cjs",
+      "verifier": "04-operator-evolution/verify_r9.py",
+      "verification": "04-operator-evolution/R9_VERIFICATION.json",
+      "native_certificate": "04-operator-evolution/R9_NATIVE_CERTIFICATE.json",
+      "source_pins": "04-operator-evolution/R9_SOURCE_PINS.json",
+      "test_count": 24,
+      "validation_status": "PASS_EXACT_NATIVE_CURVATURE_BALANCE",
+      "finite_case_counts": {
+        "two_event_balance_sequences": 25,
+        "curvature_selection_pairs": 25,
+        "variance_budget_cases": 25,
+        "source_tensor_pushforwards": 25,
+        "measurement_matrices_compared": 25,
+        "source_directional_measurement_values": 75
+      },
+      "general_symbolic_proofs_replayed": 6,
+      "KIR_certificates_replayed": 3,
+      "math_mutations_rejected": 6,
+      "native_alterations_rejected": 2,
+      "canonical_engine_home": "Parveen117/Recognition-Kernel-Framework/operator_foundation",
+      "source_runtime_reused_unchanged": true,
+      "engine_implementation_copied": false,
+      "results": [
+        "branch-exchange invariance uniquely selects equal weights in the declared mixing family",
+        "balanced observer retains even/even and odd/odd curvature; mixed-parity curvature cancels",
+        "clock-free odd imbalance is multiplied by the product of event factors 1-2 theta_j",
+        "signed curvature mean and variance have an exact retained second-moment budget",
+        "whole-family pushforward gives information diag(1,lambda^2) and antisymmetric pairing lambda^2 m",
+        "recorded cut branch permits exact inverse recovery and retains the original information metric",
+        "finite one-copy joint parameter information has trace at most one even at zero mean curvature"
+      ],
+      "assumptions": [
+        "derived K cut-swap and lawful composition on the native carrier",
+        "characteristic-zero central scalar field and nontrivial cut action",
+        "declared convex two-branch recognition and branch-exchange invariance for endpoint selection",
+        "Hermitian/unitary two-mode cut for positive-state channel statements",
+        "full-rank local QTH-1 axis family with |m|<1 and complete state/derivative pushforward",
+        "state-independent recorded branch weights for the flagged-information ledger",
+        "finite positive complete one-copy qubit effects for the joint information bound"
+      ],
+      "physical_rate_or_clock_selected": false,
+      "Riemann_identification_imposed": false,
+      "all_observation_asserted_flat": false,
+      "recorded_R1_R8_and_master_review_hashes_preserved": true,
+      "new_Lean_formalization": false,
+      "physical_validation": false,
+      "general_classical_algebra_or_information_methods_newly_discovered": false
     }
   ],
   "lineage_assessment": "CROSS_REPO_LINEAGE.md",
@@ -320,5 +374,6 @@
     "r7_metric_obstruction_scope": "fixed symmetric form on standard real two-mode carrier under both continuous R/K flows",
     "recorded_R1_R7_hashes_preserved": true
   },
-  "r8_lineage_addendum": "02-relational-response/CURVATURE_OBSERVATION_R8.md#7-what-is-added-and-what-already-existed"
+  "r8_lineage_addendum": "02-relational-response/CURVATURE_OBSERVATION_R8.md#7-what-is-added-and-what-already-existed",
+  "r9_lineage_addendum": "02-relational-response/CURVATURE_BALANCE_R9.md#8-evidence-lineage-and-reproduction"
 }

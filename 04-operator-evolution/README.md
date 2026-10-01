@@ -26,7 +26,19 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Follow the [EMK master review](../02-relational-response/EMK_MASTER_TENSOR_REVIEW.md) and [R8](../02-relational-response/CURVATURE_OBSERVATION_R8.md): connect the certified observation/curvature contracts to a declared RTC, metric and topology sector while retaining the identified deck/compensator, holonomy-domain and determinant corrections. KIR transport is already lifted to explicit tensor types; its finite group action and infinitesimal Lie action remain distinct. The [lambda note](../03-lambda-reference/IDENTIFIABILITY.md) retains the separate selection obligation.
+Follow the [EMK master review](../02-relational-response/EMK_MASTER_TENSOR_REVIEW.md), [R8](../02-relational-response/CURVATURE_OBSERVATION_R8.md) and [R9](../02-relational-response/CURVATURE_BALANCE_R9.md): connect the certified observation and native balance contracts to a declared RTC sector, including how its actual branch record and event weights are generated. Retain the identified deck/compensator, holonomy-domain and determinant corrections. KIR transport is already lifted to explicit tensor types; its finite group action and infinitesimal Lie action remain distinct. The [lambda note](../03-lambda-reference/IDENTIFIABILITY.md) retains the separate selection obligation.
+
+## R9 native balance and information certificates
+
+[emk_curvature_balance.py](emk_curvature_balance.py) implements cut grading, recognition events, curvature-sector selection, a mean/variance budget, whole-family information pushforward and finite measurement ledgers. [r9_native_balance_probe.cjs](r9_native_balance_probe.cjs) calls the unchanged **RKF/operator_foundation** engine for six general involution identities and three KIR certificates. The derived cut and information operations are consumed from unchanged EMK-T1/QTH-1 source.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r9.py \
+  --publications-root ../Publications \
+  --rkf-root ../Recognition-Kernel-Framework
+```
+
+Use Python 3.11 or 3.12, Node, and the separate checkouts at commits in [R9_SOURCE_PINS.json](R9_SOURCE_PINS.json). [R9_VERIFICATION.json](R9_VERIFICATION.json) records 24 passing exact tests, nine symbolic replays, six rejected math mutations, two rejected native alterations and preserved R1–R8/master-review evidence. [R9_NATIVE_CERTIFICATE.json](R9_NATIVE_CERTIFICATE.json) contains the pinned symbolic contracts and replayable witnesses. The [proof](../02-relational-response/CURVATURE_BALANCE_R9.md) states the exchange-symmetry hypothesis and keeps recognized curvature, information cost, branch recovery and Riemann curvature distinct.
 
 ## R8 exact curvature and observation adapter
 
