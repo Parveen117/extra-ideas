@@ -2,6 +2,12 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R20 native record interaction and exact readout
+
+[NATIVE_RECORD_INTERACTION_R20.md](NATIVE_RECORD_INTERACTION_R20.md) derives a reversible record-writing gate from the existing H/K roles. The record's own current determines the retained cross coefficient. Fresh slots implement the repeated cut on its proved domain; reusing one slot preserves all local coherent responses for a single initial address. Their first current separation occurs at event two and energy separation at event three.
+
+Nine written results cover the full tagged-word construction, fixed-gate failure of reduced-state closure, address records and harmless parity cuts, reversible uncomputation, and distinct minimum ranks for a full history ledger and a final pair target. [Verification](../04-operator-evolution/R20_VERIFICATION.json) passes thirteen exact groups and ten native proof replays while preserving every prior non-navigation file. The [ledger](../04-operator-evolution/R20_DERIVATION_LEDGER.json) keeps the tuple/readout/allocation constructions explicit and comparison premises outside proof paths. Physical record allocation, metric, c and alpha remain open.
+
 ## R19 current retention and native pair memory
 
 [CURRENT_MEMORY_RETENTION_R19.md](CURRENT_MEMORY_RETENTION_R19.md) derives the pair record required to propagate R18's current, its exact return equation, and the repeated-cut operation that recovers source counts. The original seed generates a `K/4` return on event two and a signed energy redistribution on event three. The required pair-separation radius for h-event current prediction is exactly `2h` over the inherited finite preparation module.
@@ -50,7 +56,7 @@ For a proposed Jacobian, check the compatibility conditions needed for it to ari
 
 ## Next target
 
-Continue from [R17](CUT_HISTORY_MEMORY_R17.md): the finite-history aperture budget and count-calibrated boundary metric are now derived. Next find the smallest target-specific record quotient and connect its recovery law to the existing observer/metric machinery. Keep state recovery distinct from full history recovery, and preserve the existing R10 connection and upstream master-review boundaries.
+Continue from [R20](NATIVE_RECORD_INTERACTION_R20.md): derive when retained cut-history relations identify a reusable record slot and when they require a fresh one. Its exact interaction/readout laws now distinguish those choices. Connect the resulting admissible continuation to the observer/metric machinery, keeping final response recovery distinct from full history recovery and preserving the existing R10 connection and upstream master-review boundaries.
 
 ## R13 complementary noise and native event information
 

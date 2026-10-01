@@ -1,0 +1,410 @@
+{
+  "schema": "extra-ideas.r20.derivation-ledger.v1",
+  "date": "2026-10-01",
+  "source_commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+  "no_classical_premise_rule": true,
+  "rule": "Every certified proof path contains only pinned native sources, explicit native constructions and written native deductions. Classical/admitted/open/comparison dependencies are forbidden. Constructions are not physical selections.",
+  "certified_claims": [
+    "R20.1",
+    "R20.2",
+    "R20.3",
+    "R20.4",
+    "R20.5",
+    "R20.6",
+    "R20.7",
+    "R20.8",
+    "R20.9"
+  ],
+  "claims": [
+    {
+      "id": "R20.1",
+      "title": "The source constructs a reversible, nontrivial record gate",
+      "written_section_sha256": "663b7723efdf58b1fc2d694548b63b4c2536060dc6bb1e3741418ed342e58890",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "derived_tuple_gate_and_nonfactorization"
+      ],
+      "scope_boundary": "Unique linear extension of the specified role-writing rule, not a uniquely selected physical interaction or cloning of arbitrary vectors."
+    },
+    {
+      "id": "R20.2",
+      "title": "The retained cross coefficient is the record's native current",
+      "written_section_sha256": "e606924de3817f3f7c8cb493eea04f4704ffc82929ca4902113d87221b9cbef5",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "record_current_determines_overlap"
+      ],
+      "scope_boundary": "Matching-record readout is an explicit native target; overlap is derived from preparation, not a probability or fitted strength."
+    },
+    {
+      "id": "R20.3",
+      "title": "Fresh native records realize the repeated address cut on its exact domain",
+      "written_section_sha256": "064a25501df0a8ee317b8931787f59788aded6b6eb0f86536159ee3275cfeed4",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "fresh_joint_response_matches_independent_pair_recurrence",
+        "fresh_address_cut_domain_and_counterexample"
+      ],
+      "scope_boundary": "Fresh-role reduction equals repeated address cutting on address-diagonal inputs; a counterexample excludes the unrestricted claim."
+    },
+    {
+      "id": "R20.4",
+      "title": "Full fresh records retain source words and derive the count response",
+      "written_section_sha256": "79d9b35caebfb68c8a7091255a0a9373c6e9f38a8bf9e4ddb0277eebeeb5e23d",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "literal_HK_words_reproduce_fresh_register",
+        "fresh_source_count_and_zero_current"
+      ],
+      "scope_boundary": "Signed native word counts, not an empirical detector-frequency or random-process premise; all word identities retained."
+    },
+    {
+      "id": "R20.5",
+      "title": "Reusing one record slot preserves the complete local coherent response",
+      "written_section_sha256": "016926d1b3e437e8c0de275de30960a72ca1803a8c919d4b387cb51bfc6b71f0",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "reused_record_factorization_for_single_origin"
+      ],
+      "scope_boundary": "All finite depths for one initial address; arbitrary initial multi-address fields are excluded with an exact witness."
+    },
+    {
+      "id": "R20.6",
+      "title": "The first return distinguishes record allocation and defeats local closure",
+      "written_section_sha256": "82f1e01e5a38c3a4633cc0fec7dd49a2e3e219847d363f952f3e2b04fc70324c",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "first_return_and_fixed_gate_nonclosure"
+      ],
+      "scope_boundary": "Observable separation and failure of reduced-state closure under an explicit fixed next gate; no stochastic force assumed."
+    },
+    {
+      "id": "R20.7",
+      "title": "Address records realize equality cuts and identify a harmless cut",
+      "written_section_sha256": "7edd99c6f56275bcf09424608f96fadcb74aa67258dfe87e5b0788c61a882814",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "address_record_codes_derive_equality_cuts",
+        "parity_cut_never_changes_future_local_targets"
+      ],
+      "scope_boundary": "Finite constructed address codes and their exact equality cuts; parity is target-invisible, not all discarded information."
+    },
+    {
+      "id": "R20.8",
+      "title": "Record-only reversible processing cannot erase a distinction",
+      "written_section_sha256": "12f03eb077bdf2eb1a581bd3181090e6e9db63ceb8ed36288717a7a10e170a5b",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "record_only_native_arrows_preserve_unresolved_pairs",
+        "coupled_decoders_restore_blank_records"
+      ],
+      "scope_boundary": "Pairing-preserving record-only maps leave readout invariant; available coupled decoder is not a free physical eraser."
+    },
+    {
+      "id": "R20.9",
+      "title": "Full history storage and one-event readout have different exact costs",
+      "written_section_sha256": "ada74f70a2e4eaf1464eb398c79c9f7b924e085d957c5d97d8a6bec70de856d5",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "record_rank_matches_distinct_history_and_final_target"
+      ],
+      "scope_boundary": "Minimum 2n rank for one final single-seed pair target; full history costs 2^n marks. No online compression or entropy claim."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "source_roles",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C3-C8",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Constructed cut roles, refinements, H/K, matching pairing and coefficient completion."
+    },
+    {
+      "id": "source_history",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C13",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Free marked histories; evaluated arrow return does not erase words."
+    },
+    {
+      "id": "address_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "R18.1, R18.3",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "physical_selection_proved": false,
+      "definition": "Inherited integer address, signed aggregation and finite matching response."
+    },
+    {
+      "id": "source_transport",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "address_target",
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "R18.3-R18.4",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "scope": "Derived U, inverse and pairing preservation within the constructed target."
+    },
+    {
+      "id": "source_census",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_history",
+        "address_target"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "R18.1-R18.2",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "scope": "H/K-to-directions bijection and finite combinatorial counts."
+    },
+    {
+      "id": "source_pairs",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_transport"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CURRENT_MEMORY_RETENTION_R19.md",
+        "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+        "section": "R19.1-R19.5",
+        "sha256": "d353a7f8eef831785ddf6d1168a6d1b9d9031e5b53bad68d6a7ff3548dfa82b7"
+      },
+      "scope": "Derived pair update, current return and repeated equality cut on its stated domain."
+    },
+    {
+      "id": "source_parity",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_pairs"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CURRENT_MEMORY_RETENTION_R19.md",
+        "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+        "section": "R19.8",
+        "sha256": "d353a7f8eef831785ddf6d1168a6d1b9d9031e5b53bad68d6a7ff3548dfa82b7"
+      },
+      "scope": "Even-separation quotient intertwines T and retains all future local pair targets."
+    },
+    {
+      "id": "tuple_ledger",
+      "kind": "NATIVE_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_history"
+      ],
+      "definition": "Free marked tuples, signed/refined coefficient arrays and matching-mark pairing; product notation derived by expansion."
+    },
+    {
+      "id": "record_readout",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "tuple_ledger",
+        "source_pairs"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Sum finite coefficient products over equal record marks."
+    },
+    {
+      "id": "slot_protocols",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "tuple_ledger",
+        "R20.1",
+        "source_transport"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Compose U with the available native W on a fresh slot or on a reused specified slot."
+    },
+    {
+      "id": "address_code_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "address_target",
+        "tuple_ledger"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Finite predicates on derived addresses controlling native record exchanges."
+    },
+    {
+      "id": "prior_declared_interaction",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/uncut-cut-measurement/NATIVE_INTERACTION_AND_LAWFUL_CUTS.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "section": "U27-U29",
+        "sha256": "ac37333fb1aa315ffe41f6ad821bd1437ddb4a2270cc065f65820b270bb4ea69"
+      },
+      "scope": "Supplied real carrier, interaction graph, control catalogue and nonzero Cayley parameters; none promoted into source-derived physical inputs."
+    },
+    {
+      "id": "prior_declared_grading_assembly",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/uncut-cut-measurement/NATIVE_GRADING_AND_SEAM_MEMORY.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "section": "U24-U26",
+        "sha256": "247c3f652cabacfaf9338c4900037baf8c5d6941fbdd56134ecace532174a051"
+      },
+      "scope": "Supplied graph/port carrier and readout; local grading assembly is a separate obligation, not assumed by R20."
+    },
+    {
+      "id": "native_full_carrier_boundary",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/native-ugd-propagation/THEOREM.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "section": "NC-1-NC-7",
+        "sha256": "8c452ed73cbd6af7c73a3c4509fe722b71c3241f16483655e84b46326f6a82da"
+      },
+      "scope": "Independent sheet, return and clock obligations remain distinct; supplied product arrow and clock not consumed."
+    },
+    {
+      "id": "R20.1",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "source_roles",
+        "tuple_ledger"
+      ],
+      "written_section_sha256": "663b7723efdf58b1fc2d694548b63b4c2536060dc6bb1e3741418ed342e58890"
+    },
+    {
+      "id": "R20.2",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R20.1",
+        "record_readout",
+        "source_roles"
+      ],
+      "written_section_sha256": "e606924de3817f3f7c8cb493eea04f4704ffc82929ca4902113d87221b9cbef5"
+    },
+    {
+      "id": "R20.3",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R20.2",
+        "slot_protocols",
+        "source_pairs"
+      ],
+      "written_section_sha256": "064a25501df0a8ee317b8931787f59788aded6b6eb0f86536159ee3275cfeed4"
+    },
+    {
+      "id": "R20.4",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R20.3",
+        "source_census",
+        "source_history"
+      ],
+      "written_section_sha256": "79d9b35caebfb68c8a7091255a0a9373c6e9f38a8bf9e4ddb0277eebeeb5e23d"
+    },
+    {
+      "id": "R20.5",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R20.2",
+        "slot_protocols",
+        "source_transport",
+        "source_census"
+      ],
+      "written_section_sha256": "016926d1b3e437e8c0de275de30960a72ca1803a8c919d4b387cb51bfc6b71f0"
+    },
+    {
+      "id": "R20.6",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R20.3",
+        "R20.4",
+        "R20.5",
+        "source_pairs"
+      ],
+      "written_section_sha256": "82f1e01e5a38c3a4633cc0fec7dd49a2e3e219847d363f952f3e2b04fc70324c"
+    },
+    {
+      "id": "R20.7",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R20.2",
+        "address_code_target",
+        "source_parity",
+        "R20.6"
+      ],
+      "written_section_sha256": "7edd99c6f56275bcf09424608f96fadcb74aa67258dfe87e5b0788c61a882814"
+    },
+    {
+      "id": "R20.8",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R20.1",
+        "R20.5",
+        "address_code_target",
+        "record_readout",
+        "source_transport",
+        "slot_protocols"
+      ],
+      "written_section_sha256": "12f03eb077bdf2eb1a581bd3181090e6e9db63ceb8ed36288717a7a10e170a5b"
+    },
+    {
+      "id": "R20.9",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R20.4",
+        "tuple_ledger",
+        "record_readout",
+        "source_roles"
+      ],
+      "written_section_sha256": "ada74f70a2e4eaf1464eb398c79c9f7b924e085d957c5d97d8a6bec70de856d5"
+    }
+  ],
+  "physical_memory_allocation_selected": false,
+  "origin_gate_checks_declared_metadata_not_arbitrary_prose": true,
+  "formal_proof_assistant_verified": false
+}

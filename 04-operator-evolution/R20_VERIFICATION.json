@@ -1,0 +1,224 @@
+{
+  "schema": "extra-ideas.r20.verification.v1",
+  "date": "2026-10-01",
+  "status": "PASS_R20_NATIVE_RECORD_INTERACTION",
+  "written_results": 9,
+  "exact_check_groups": 13,
+  "native_symbolic_replays": 10,
+  "counters": {
+    "derived_tuple_gate_and_nonfactorization": {
+      "complete_tuple_basis_cases": 4,
+      "pairing_preserved": true,
+      "unknown_vector_copying_claimed": false
+    },
+    "record_current_determines_overlap": {
+      "native_record_preparations": 7,
+      "whole_pair_readout_comparisons": 28,
+      "inserted_overlap_parameter": false
+    },
+    "fresh_joint_response_matches_independent_pair_recurrence": {
+      "preparations": 4,
+      "complete_evolution_cases": 28,
+      "maximum_depth": 6
+    },
+    "literal_HK_words_reproduce_fresh_register": {
+      "maximum_depth": 8,
+      "literal_source_words": 511,
+      "full_word_to_record_bijection": true
+    },
+    "fresh_address_cut_domain_and_counterexample": {
+      "complete_diagonal_coefficient_basis_cases": 20,
+      "unrestricted_address_cut_claim_rejected": true
+    },
+    "fresh_source_count_and_zero_current": {
+      "maximum_depth": 9,
+      "address_count_cases": 55,
+      "stochastic_transition_premise": false
+    },
+    "reused_record_factorization_for_single_origin": {
+      "initial_roles": 3,
+      "record_preparations": 3,
+      "full_joint_factorizations": 81,
+      "maximum_depth": 8
+    },
+    "first_return_and_fixed_gate_nonclosure": {
+      "first_current_difference": "1/2",
+      "first_energy_difference_at_event": 3,
+      "same_next_gate_on_same_slot_witness": true,
+      "untouched_extra_slot_retained": true
+    },
+    "address_record_codes_derive_equality_cuts": {
+      "finite_code_constructions": 4,
+      "injective_full_cut_and_parity_cut_verified": true
+    },
+    "parity_cut_never_changes_future_local_targets": {
+      "future_local_comparisons": 32,
+      "maximum_depth": 7
+    },
+    "record_only_native_arrows_preserve_unresolved_pairs": {
+      "complete_pair_invariance_cases": 24,
+      "allowed_record_arrows": [
+        "K",
+        "H",
+        "(H+K)/sqrt(2)"
+      ]
+    },
+    "coupled_decoders_restore_blank_records": {
+      "reuse_address_decoders": 9,
+      "fresh_reverse_and_replay_cases": 18,
+      "instantaneous_physical_erasure_claimed": false
+    },
+    "record_rank_matches_distinct_history_and_final_target": {
+      "exact_record_rank_cases": 7,
+      "positive_attainment_square_inputs": 56,
+      "ranks": [
+        {
+          "depth": 1,
+          "history_mark_rank": 2,
+          "minimum_final_pair_record_rank": 2
+        },
+        {
+          "depth": 2,
+          "history_mark_rank": 4,
+          "minimum_final_pair_record_rank": 4
+        },
+        {
+          "depth": 3,
+          "history_mark_rank": 8,
+          "minimum_final_pair_record_rank": 6
+        },
+        {
+          "depth": 4,
+          "history_mark_rank": 16,
+          "minimum_final_pair_record_rank": 8
+        },
+        {
+          "depth": 5,
+          "history_mark_rank": 32,
+          "minimum_final_pair_record_rank": 10
+        },
+        {
+          "depth": 6,
+          "history_mark_rank": 64,
+          "minimum_final_pair_record_rank": 12
+        },
+        {
+          "depth": 7,
+          "history_mark_rank": 128,
+          "minimum_final_pair_record_rank": 14
+        }
+      ],
+      "root_existence_source": "R16 C8; inherited written proof and replay",
+      "causal_online_compression_claimed": false
+    }
+  },
+  "rejected_false_alternatives": {
+    "native_record_gate_is_identity": true,
+    "native_gate_copies_arbitrary_vector": true,
+    "every_record_has_zero_overlap": true,
+    "record_overlap_is_always_nonnegative": true,
+    "fresh_role_cut_is_address_cut_on_every_input": true,
+    "fresh_and_reused_slots_have_same_current": true,
+    "energy_difference_already_at_second_event": true,
+    "final_address_cut_equals_fresh_writing": true,
+    "record_only_exchange_restores_lost_cross_pair": true,
+    "local_pair_is_closed_under_fixed_next_gate": true,
+    "one_reused_slot_preserves_every_initial_address_preparation": true,
+    "every_address_cut_changes_future_local_response": true,
+    "evaluated_operator_return_erases_history": true,
+    "full_history_rank_equals_minimum_final_record_rank": true,
+    "omit_transport_normalization_preserves_energy": true
+  },
+  "derivation_graph": {
+    "status": "PASS_DECLARED_NATIVE_DERIVATION_GRAPH",
+    "certified_claims": 9,
+    "proof_path_nodes": 20,
+    "imported_classical_premises_on_proof_paths": 0,
+    "comparison_references_excluded_from_proof_paths": [
+      "native_full_carrier_boundary",
+      "prior_declared_grading_assembly",
+      "prior_declared_interaction"
+    ],
+    "target_definitions_retained_as_definitions": [
+      "address_code_target",
+      "address_target",
+      "record_readout",
+      "slot_protocols"
+    ],
+    "automatic_semantic_or_formal_proof_verification": false
+  },
+  "derivation_graph_mutations_rejected": {
+    "reject_imported_classical_premise": true,
+    "reject_admitted_input_premise": true,
+    "reject_open_premise": true,
+    "reject_comparison_only_premise": true,
+    "reject_physical_claim_promotion": true,
+    "reject_protocol_definition_promotion": true,
+    "reject_dependency_cycle": true,
+    "reject_unpinned_source": true,
+    "reject_wrong_citation_commit": true
+  },
+  "altered_source_rejected": true,
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "previous_source_replayed": {
+    "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+    "status": "PASS_R19_NATIVE_CURRENT_RETENTION",
+    "native_certificate_sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+    "old_certificate_or_source_pin_modified": false,
+    "earlier_source_chain": {
+      "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+      "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+      "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+      "historical_navigation_inputs_restored_in_temporary_snapshot": 3,
+      "old_certificate_or_source_pin_modified": false,
+      "earlier_source_chain": {
+        "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+        "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+        "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+        "foundation": {
+          "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+          "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+          "written_statements": 14,
+          "native_replays": 13,
+          "analytic_replays": [
+            {
+              "id": "F00_F00E_EULER_V0_1",
+              "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+              "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+              "checks": 14,
+              "negative_controls": 6,
+              "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+            },
+            {
+              "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+              "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+              "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+              "checks": 20,
+              "negative_controls": 7,
+              "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+            }
+          ],
+          "original_universal_claim_certified": false
+        }
+      }
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 29,
+  "preserved_prior_files": 166,
+  "source_pins_sha256": "d22b02e5787273bfa2a439c194f40ab1e8eef42471526dc72676a519e2d8dc36",
+  "native_certificate_sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+  "comparison_references_are_proof_dependencies": false,
+  "publications_comparison_certificates_rerun": false,
+  "record_interaction_constructed": true,
+  "physical_memory_allocation_selected": false,
+  "physical_metric_c_alpha_derived": false,
+  "formal_proof_assistant_verified": false,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Source-constructed tuple gate and finite pairing readout. Fresh, reused, coarse and decoded record protocols derived exactly. Written arbitrary-depth proofs plus finite checks; no physical protocol selection or full-UGD reduction.",
+  "canonical_report_sha256": "59017dace64a3a5b2da04e04c26cc5b2f640bdaa814b5012ef19b3637ccbaaed"
+}

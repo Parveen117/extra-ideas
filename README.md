@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R19's derivation ledger](04-operator-evolution/R19_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R20's derivation ledger](04-operator-evolution/R20_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,24 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R20: native record-writing interaction and its exact readout
+
+[R20](02-relational-response/NATIVE_RECORD_INTERACTION_R20.md) constructs a reversible record gate from the source role cuts and exchange: `W = Pi_0 tensor I + Pi_1 tensor K`. Tuples and their matching pairing are constructed explicitly. The amount of cross response retained by a record is its own native current divided by its energy, `2uv/(u²+v²)`; no measurement axiom or noise parameter is supplied.
+
+Fresh records at every event realize R19's repeated address cut on address-diagonal inputs and give the exact source counts. Reusing a single record instead preserves all local energy and current for a single initial address: paths reaching the same address acquire the same record. The first current difference is `1/2` at event two; energy differs at event three. A second witness proves that the complete system pair readout can fail to determine the next current even for the same specified next gate.
+
+Address coding derives exact equality cuts, parity recording is invisible to future local targets, and coupled inverse protocols recover the coherent response. Keeping the full signed history ledger costs rank `2^n`; the one-event final fresh pair target needs exactly `2n` record directions. The latter is not an online compression rule.
+
+[Verification](04-operator-evolution/R20_VERIFICATION.json) passes nine written results, thirteen exact groups, ten native proof replays, 511 tagged H/K histories and 81 full reused-record factorizations. Fifteen false alternatives and nine dependency-graph mutations are rejected. All 166 previous non-navigation files remain byte-identical, and the frozen R19/R18/R17/R16 chain replays into temporary outputs.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r20.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+The next derivation is which retained history relations make a record slot available again. The gate and readout mechanism are constructed; physical memory allocation, a common metric/clock, c and alpha have not been selected. Existing Publications interactions are cited with their supplied carrier, graph and coupling parameters explicitly labelled as comparison-only inputs.
 
 ## R19: native current retention and returning pair memory
 

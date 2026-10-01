@@ -2,6 +2,20 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R20 native record interaction verification
+
+[native_record_interaction.cjs](native_record_interaction.cjs) constructs tuple records and a reversible role-controlled K gate using the unchanged native engine. Its matching-record readout derives the cut coefficient from the record's own current. Full tagged history propagation, reduced pair evolution and reused-slot factorization are checked independently.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r20.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R20_VERIFICATION.json](R20_VERIFICATION.json) records nine written results, thirteen exact groups, ten canonical proof replays, fifteen rejected false alternatives and nine invalid dependency graphs. It covers 511 H/K words, 81 reused-record factorizations, fixed-gate nonclosure, coarse address codes, record-only invariance, coupled decoders and exact history/final-target rank distinctions. The [derivation ledger](R20_DERIVATION_LEDGER.json) binds the proof text and rejects admitted classical premises or a promotion of protocol definitions to physical laws. It is not a semantic proof assistant.
+
+[R20_SOURCE_PINS.json](R20_SOURCE_PINS.json) preserves all 166 earlier non-navigation files and pins the premise-labelled Publications comparisons. The wrapper reproduces R19 and its isolated R18/R17/R16 chain without changing any historical certificate or engine file. Read the [written results and precise domains](../02-relational-response/NATIVE_RECORD_INTERACTION_R20.md) before interpreting a finite PASS as a broader claim.
+
 ## R19 native current and memory verification
 
 [current_memory_retention.cjs](current_memory_retention.cjs) derives pair evolution from R18's source update using the unchanged RKF arithmetic and proof replayer. It independently checks response propagation, 5,461 literal ordered word pairs, 18 exact memory expansions, the first source-generated return, reset/count equality, sharp prediction horizons and an invariant invisible parity sector.
@@ -14,7 +28,7 @@ python3.12 -B 04-operator-evolution/verify_r19.py \
 
 [R19_VERIFICATION.json](R19_VERIFICATION.json) records nine written results, eleven exact check groups, nine native proof replays, twelve rejected false alternatives and six rejected dependency-graph mutations. [R19_DERIVATION_LEDGER.json](R19_DERIVATION_LEDGER.json) requires native derivation on every certified mathematical proof path; declared constructions stay definitions and physical-selection claims remain open. The graph audit is separate from written proof and is not automatic semantic verification.
 
-[R19_SOURCE_PINS.json](R19_SOURCE_PINS.json) preserves all 158 earlier non-navigation files. The current complete-chain command is R19: it reproduces R18/R17/R16 in a temporary snapshot with the three exact historical README inputs in [R19_HISTORICAL_REPLAY_INPUTS.json](R19_HISTORICAL_REPLAY_INPUTS.json). R17 pinned those READMEs, so later navigation changes made the old in-place nested R18 command fail. This repair changes neither the frozen source gate nor any historical certificate. Earlier standalone commands require their own compatible source snapshots.
+[R19_SOURCE_PINS.json](R19_SOURCE_PINS.json) preserves all 158 earlier non-navigation files. R19 reproduces R18/R17/R16 in a temporary snapshot with the three exact historical README inputs in [R19_HISTORICAL_REPLAY_INPUTS.json](R19_HISTORICAL_REPLAY_INPUTS.json); the current R20 command includes that replay. R17 pinned those READMEs, so later navigation changes made the old in-place nested R18 command fail. This repair changes neither the frozen source gate nor any historical certificate. Earlier standalone commands require their own compatible source snapshots.
 
 ## R18 cut-address propagation verification
 
@@ -89,7 +103,7 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Follow [R19](../02-relational-response/CURRENT_MEMORY_RETENTION_R19.md): test native interaction/readout candidates against the now-derived pair-memory equation and sharp prediction horizon. Each candidate must retain the relevant even-separation records or derive its record-cut operation and return terms. Establish a shared operational event address before a physical metric or clock. Preserve the full word ledger, independent sheets, nonaffine clock term, Smriti error control and the complete R10 connection contract.
+Follow [R20](../02-relational-response/NATIVE_RECORD_INTERACTION_R20.md): derive record-slot identification and admissible reuse from the retained cut-history relations. Fresh and returning slots now have exact, distinguishable responses under the same constructed gate. A physical allocation law and shared operational event address still require derivation before a physical metric or clock. Preserve the full word ledger, independent sheets, nonaffine clock term, Smriti error control and the complete R10 connection contract.
 
 ## R13 complementary memory/noise certificates
 
