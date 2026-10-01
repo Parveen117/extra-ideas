@@ -1,0 +1,153 @@
+{
+  "schema": "emk-constructive-cut.verification.v1",
+  "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+  "written_core_statements": 14,
+  "written_proof_status": "Every new core statement has a proof; ledger coverage checked, proof text not mechanically type-checked.",
+  "whole_original_manuscript_certified": false,
+  "original_claims_accounted_for": 48,
+  "formal_proof_assistant_verified": false,
+  "external_peer_review_claimed": false,
+  "extra_work_integration_performed": false,
+  "source_pins_sha256": "a7604972cf93bb919d281e76bb770d74e8f97fc7e2366f2d10a2ae685a625b90",
+  "local_pinned_files": 10,
+  "canonical_rkf_files_checked": 27,
+  "rkf_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "finite_exact_checks": {
+    "signed_roles": {
+      "primitive_data": {
+        "ordered_roles": [
+          "cut",
+          "self_cut_trace"
+        ]
+      },
+      "constructed_maps": {
+        "parity_on_roles": [
+          1,
+          -2
+        ],
+        "role_exchange": [
+          2,
+          1
+        ]
+      },
+      "derived_quarter_turn": [
+        2,
+        -1
+      ],
+      "derived_orbit": [
+        1,
+        2,
+        -1,
+        -2
+      ],
+      "cyclic_phase_alphabet_supplied": false,
+      "ordinary_complex_input": false,
+      "signed_operator_group_size": 8,
+      "complete_group_associativity_cases": 512,
+      "complete_bilinear_basis_cases": 32,
+      "universal_extension": "Each identity is on every free generator; linear/bilinear extension proves it for all coefficients.",
+      "raw_chi_kappa_identified_with_quarter_turn": false,
+      "operators": [
+        [
+          -2,
+          -1
+        ],
+        [
+          -2,
+          1
+        ],
+        [
+          -1,
+          -2
+        ],
+        [
+          -1,
+          2
+        ],
+        [
+          1,
+          -2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          -1
+        ],
+        [
+          2,
+          1
+        ]
+      ]
+    },
+    "histories": {
+      "finite_histories": 63,
+      "maximum_history_length": 5,
+      "all_ultrametric_triples": 250047,
+      "cut_prepend_halves_distance": true,
+      "cut_append_nonexpansive": true,
+      "aperture_meet_and_error_bounds": true,
+      "end_marker_retained": true,
+      "periodic_infinite_history_prefix_witnesses": 4,
+      "infinite_completion_evidence": "WRITTEN_PREFIX_STABILIZATION_PROOF; finite witnesses only in this program"
+    },
+    "comparison_loops": {
+      "finite_graphs": 4,
+      "exact_potential_assignments": 270,
+      "fundamental_cycle_count": "edges - vertices + connected_components",
+      "every_chord_perturbation_detected": true,
+      "directed_acyclic_diamond_can_have_nonzero_comparison_period": true,
+      "four_step_lifted_period": 4,
+      "derived_role_graph": {
+        "vertices": 8,
+        "edges": 16,
+        "independent_comparison_cycles": 9,
+        "complete_potential_basis_plus_zero": 9
+      }
+    },
+    "rejected_mutations": {
+      "replace_quarter_turn_by_unsigned_role_swap": true,
+      "claim_raw_chi_kappa_closure": true,
+      "identify_orientation_and_reflection": true,
+      "erase_four_step_history": true,
+      "erase_history_terminator": true,
+      "make_involution_an_idempotent_eye": true,
+      "claim_one_aperture_recovers_all_histories": true,
+      "claim_strict_infinite_hierarchy_from_involution": true
+    }
+  },
+  "native_replay": {
+    "proofs": 13,
+    "complete_cut_corner_basis_cases": 16,
+    "certificate_sha256": "3aa9b5ad55b0a7af0496ceb43b4840efc65dffd19fd08ac3e81212f688bfe168",
+    "all_coordinate_turn_components_zero": true,
+    "tampered_certificate_rejected": true
+  },
+  "analytic_replays": [
+    {
+      "id": "F00_F00E_EULER_V0_1",
+      "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+      "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+      "checks": 14,
+      "negative_controls": 6,
+      "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+    },
+    {
+      "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+      "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+      "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+      "checks": 20,
+      "negative_controls": 7,
+      "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+    }
+  ],
+  "source_mutation_rejected": true,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "mathematical_scope": "Free typed records and explicitly constructed role, coefficient, recognition and completion objects; not uniqueness from the original prose or physical identification.",
+  "canonical_report_sha256": "796dc704e69091c403bf874ab02f7b724e6cf2eb51fba591123437e0e855fba4"
+}

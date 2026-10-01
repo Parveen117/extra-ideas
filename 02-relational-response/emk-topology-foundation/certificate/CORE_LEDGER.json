@@ -1,0 +1,265 @@
+{
+  "schema": "emk-constructive-cut.core-ledger.v1",
+  "closed_written_proof_ledger": true,
+  "original_universal_sufficiency": false,
+  "premises": [
+    {
+      "id": "M0",
+      "kind": "DECLARED_METAMATHEMATICS",
+      "statement": "Classical logical equality, finite/countable records, functions, subsets, quotient sets and induction. No claim that proof logic itself is derived from a cut."
+    },
+    {
+      "id": "S0",
+      "kind": "EXPLICIT_SOURCE_FORMALIZATION",
+      "statement": "Free typed recursion on first-cut and self-cut-of-trace event tags, based at a first-cut seed. Not uniquely forced by the original prose."
+    },
+    {
+      "id": "D1",
+      "kind": "CONSTRUCTED_MAPS",
+      "statement": "On the free signed role ledger, exchange swaps the named roles and parity negates the self-cut role. Definitions, not asserted laws of arbitrary raw chi/kappa."
+    },
+    {
+      "id": "D2",
+      "kind": "CONSTRUCTED_PAIRING",
+      "statement": "Equal-weight matching of the two marked role coefficients; no physical metric uniqueness asserted."
+    },
+    {
+      "id": "D3",
+      "kind": "CONSTRUCTED_RECOGNITION",
+      "statement": "Every finite prefix is observable, with termination retained. Other observation policies can induce different recognition quotients."
+    },
+    {
+      "id": "D4",
+      "kind": "DECLARED_NORMALIZATION",
+      "statement": "Use native halving 2^-prefix_length. Other rational contraction ratios generate the same topology; no unique physical scale asserted."
+    }
+  ],
+  "theorems": [
+    {
+      "id": "C1",
+      "title": "Free record and evaluation theorem",
+      "depends_on": [
+        "M0",
+        "S0"
+      ],
+      "status": "WRITTEN_PROOF_IN_CORRECTED_CONSTRUCTION",
+      "proof_method": "finite record induction",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "C2",
+      "title": "What primitive naming does not prove",
+      "depends_on": [
+        "C1"
+      ],
+      "status": "WRITTEN_PROOF_IN_CORRECTED_CONSTRUCTION",
+      "proof_method": "word length and exact three-state countermodel",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "C3",
+      "title": "Signed and refined cut counts",
+      "depends_on": [
+        "M0",
+        "S0"
+      ],
+      "status": "WRITTEN_PROOF_IN_CORRECTED_CONSTRUCTION",
+      "proof_method": "finite position matching, cancellation and quotient field laws",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "C4",
+      "title": "Native role-operator closure",
+      "depends_on": [
+        "C1",
+        "C3",
+        "D1"
+      ],
+      "status": "WRITTEN_PROOF_IN_CORRECTED_CONSTRUCTION",
+      "proof_method": "all free generators; linear extension; eight signed permutations",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "C5",
+      "title": "Algebra and recovered scalar sector",
+      "depends_on": [
+        "C3",
+        "C4"
+      ],
+      "status": "WRITTEN_PROOF_IN_CORRECTED_CONSTRUCTION",
+      "proof_method": "four-element basis, commutant equations and exact inverse",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "C6",
+      "title": "Native pairing and compatible orientation",
+      "depends_on": [
+        "C3",
+        "C4",
+        "C5",
+        "D2"
+      ],
+      "status": "WRITTEN_PROOF_IN_CORRECTED_CONSTRUCTION",
+      "proof_method": "bilinear coefficient proof and norm product expansion",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "C7",
+      "title": "Seam aperture and genuine mixed curvature",
+      "depends_on": [
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "status": "WRITTEN_PROOF_IN_CORRECTED_CONSTRUCTION",
+      "proof_method": "exact algebra and insertion of complementary idempotents",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "C8",
+      "title": "Complete native coefficient field",
+      "depends_on": [
+        "C3",
+        "C5",
+        "C6"
+      ],
+      "status": "WRITTEN_PROOF_IN_CORRECTED_CONSTRUCTION",
+      "proof_method": "Cauchy quotient, inverse tail bound, dense enumeration, radial order and bisection square root",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "C9",
+      "title": "Recognition equality and prefix topology",
+      "depends_on": [
+        "C1",
+        "M0",
+        "D3"
+      ],
+      "status": "WRITTEN_PROOF_IN_CORRECTED_CONSTRUCTION",
+      "proof_method": "first differing symbol and cylinder basis proof",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "C10",
+      "title": "Derived prefix ultrametric",
+      "depends_on": [
+        "C3",
+        "C9",
+        "D4"
+      ],
+      "status": "WRITTEN_PROOF_IN_CORRECTED_CONSTRUCTION",
+      "proof_method": "common-prefix inequality and cylinder/ball comparison",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "C11",
+      "title": "Exact history completion",
+      "depends_on": [
+        "C1",
+        "C9",
+        "C10"
+      ],
+      "status": "WRITTEN_PROOF_IN_CORRECTED_CONSTRUCTION",
+      "proof_method": "stabilizing finite prefixes and dense finite truncations",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "C12",
+      "title": "A correctly typed Eye hierarchy",
+      "depends_on": [
+        "C10",
+        "C11"
+      ],
+      "status": "WRITTEN_PROOF_IN_CORRECTED_CONSTRUCTION",
+      "proof_method": "truncation identities, error bound and separating witnesses",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "C13",
+      "title": "No loss of cut history at operator return",
+      "depends_on": [
+        "C1",
+        "C3",
+        "C4"
+      ],
+      "status": "WRITTEN_PROOF_IN_CORRECTED_CONSTRUCTION",
+      "proof_method": "free word distinction and quotient/remainder cut counts",
+      "formal_proof_assistant_verified": false
+    },
+    {
+      "id": "C14",
+      "title": "Exactness and the full loop ledger",
+      "depends_on": [
+        "C1",
+        "C3"
+      ],
+      "status": "WRITTEN_PROOF_IN_CORRECTED_CONSTRUCTION",
+      "proof_method": "spanning forest integration and independent fundamental comparison cycles",
+      "formal_proof_assistant_verified": false
+    }
+  ],
+  "analytic_citations": [
+    {
+      "id": "N1",
+      "name": "Native exponential and Euler identities",
+      "source_id": "RKF-F00E",
+      "input_theorems": [
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C8"
+      ],
+      "evidence": "PINNED_WRITTEN_THEOREM_AND_RERUN_FINITE_EXACT_CERTIFICATE",
+      "ordinary_classical_math_import": "NONE_IN_STATED_NATIVE_DERIVATION; arithmetic libraries implement exact count refinements"
+    },
+    {
+      "id": "N2",
+      "name": "Positive radial logarithm",
+      "source_id": "RKF-F00G",
+      "input_theorems": [
+        "C8",
+        "N1"
+      ],
+      "evidence": "PINNED_WRITTEN_THEOREM_AND_RERUN_FINITE_EXACT_CERTIFICATE",
+      "ordinary_classical_math_import": "NONE_IN_STATED_NATIVE_DERIVATION; monotonicity premise supplied from native exponential series"
+    },
+    {
+      "id": "N3",
+      "name": "Native pi and fundamental circular period",
+      "source_id": "RH-F00J",
+      "input_theorems": [
+        "C8",
+        "N1",
+        "N2"
+      ],
+      "evidence": "PINNED_WRITTEN_THEOREM; NOT_FORMALLY_OR_INDEPENDENTLY_NUMERICALLY_CERTIFIED_HERE",
+      "ordinary_classical_math_import": "NONE_IN_STATED_NATIVE_DERIVATION; native series and bisection"
+    },
+    {
+      "id": "N4",
+      "name": "Native scalar polar form and branch logarithm",
+      "source_id": "RH-F00K",
+      "input_theorems": [
+        "C8",
+        "N1",
+        "N2",
+        "N3"
+      ],
+      "evidence": "PINNED_WRITTEN_THEOREM; NOT_FORMALLY_OR_INDEPENDENTLY_NUMERICALLY_CERTIFIED_HERE",
+      "ordinary_classical_math_import": "NONE_IN_STATED_NATIVE_DERIVATION; applies to scalar quotient, not full UGD histories"
+    }
+  ],
+  "excluded_later_citation": {
+    "id": "MP-NR13",
+    "scope": "Algebraic gauge normalization only; ordinary Haar measure, continuous L1/L2 group analysis and Young-type inequalities are ANALYTIC_IMPORTS, excluded from core dependencies."
+  },
+  "deferred_physical_identifications": [
+    "physical time",
+    "physical noise law",
+    "thermodynamic Maxwell/Legendre/Onsager equations",
+    "spacetime metric",
+    "RH or Yang-Mills continuum conclusion"
+  ],
+  "extra_work_integration_performed": false
+}

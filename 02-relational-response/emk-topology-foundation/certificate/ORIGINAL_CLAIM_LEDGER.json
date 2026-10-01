@@ -1,0 +1,859 @@
+{
+  "schema": "emk-constructive-cut.original-claim-ledger.v1",
+  "original_source_sha256": "55f449e7eb3a2bde9e77193f595a6a5eeff3923da2bea076d00f0e9907b8cebd",
+  "coverage": "Every theorem, lemma, proposition and corollary environment in the original; duplicates retained.",
+  "whole_source_verdict": "NOT_CERTIFIED_AS_WRITTEN",
+  "new_theory": "Corrected free typed cut-record construction, not the same universal claim.",
+  "claims": [
+    {
+      "id": "ET01",
+      "environment": "proposition",
+      "title": "Initial Appearances",
+      "start_line": 103,
+      "end_line": 108,
+      "normalized_environment_sha256": "ff9bff7cc9ead54480e1ebe9aae5f10b8fdda81e435df7d5be89862420619641",
+      "original_status": "TYPED_CONSTRUCTION_REQUIRED",
+      "original_reason": "The recursive word construction works after total/typed extensions of the primitive acts are declared; their original ground/trace domains do not already permit every displayed application.",
+      "corrective_disposition": "Typed replacement",
+      "replacement_ids": [
+        "C1"
+      ],
+      "replacement_scope": "Free typed constructors make recursion lawful; the upload did not supply their recursive domains.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET02",
+      "environment": "theorem",
+      "title": "Reflexivity",
+      "start_line": 127,
+      "end_line": 129,
+      "normalized_environment_sha256": "bc4cf4802bbb48391ba8e146bd39c50bc67f1f163a8708417abc66cb1a7a857f",
+      "original_status": "REPAIRED_WITH_WRITTEN_PROOF",
+      "original_reason": "The source assumes the matching property of observer-indistinguishability. R15 constructs recognition as equality of all future records and proves the equivalence properties.",
+      "corrective_disposition": "Recognition replacement",
+      "replacement_ids": [
+        "C9"
+      ],
+      "replacement_scope": "Equality of all finite cut-record observations is an explicit equivalence. Observer wording alone does not define it.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET03",
+      "environment": "theorem",
+      "title": "Symmetry",
+      "start_line": 134,
+      "end_line": 136,
+      "normalized_environment_sha256": "148aef89d9421483d8f588516d889df36bf30f9b4f5df5ccc29681140fff2981",
+      "original_status": "REPAIRED_WITH_WRITTEN_PROOF",
+      "original_reason": "The source assumes the matching property of observer-indistinguishability. R15 constructs recognition as equality of all future records and proves the equivalence properties.",
+      "corrective_disposition": "Recognition replacement",
+      "replacement_ids": [
+        "C9"
+      ],
+      "replacement_scope": "Equality of all finite cut-record observations is an explicit equivalence. Observer wording alone does not define it.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET04",
+      "environment": "theorem",
+      "title": "Transitivity",
+      "start_line": 141,
+      "end_line": 143,
+      "normalized_environment_sha256": "5907f4a8743222c0e3483343730fc1a35cad32f875dd12cf3d3fb49530f046b8",
+      "original_status": "REPAIRED_WITH_WRITTEN_PROOF",
+      "original_reason": "The source assumes the matching property of observer-indistinguishability. R15 constructs recognition as equality of all future records and proves the equivalence properties.",
+      "corrective_disposition": "Recognition replacement",
+      "replacement_ids": [
+        "C9"
+      ],
+      "replacement_scope": "Equality of all finite cut-record observations is an explicit equivalence. Observer wording alone does not define it.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET05",
+      "environment": "corollary",
+      "title": "",
+      "start_line": 161,
+      "end_line": 166,
+      "normalized_environment_sha256": "bb0a4bfea080928d4682369a5c681260845fd5a83916db9ee92011613f384afb",
+      "original_status": "INCOMPLETE_IN_SOURCE",
+      "original_reason": "Testing only powers of chi does not establish compatibility with future kappa cuts. Object-level recognition equality is also not logical equality in the proof language.",
+      "corrective_disposition": "Recognition replacement",
+      "replacement_ids": [
+        "C9"
+      ],
+      "replacement_scope": "Equality of all finite cut-record observations is an explicit equivalence. Observer wording alone does not define it.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET06",
+      "environment": "theorem",
+      "title": "Eye Idempotence",
+      "start_line": 177,
+      "end_line": 181,
+      "normalized_environment_sha256": "facf26100032ed6719449c9439bb93d057705176979ef0010a40eba8c852ab5c",
+      "original_status": "ILL_TYPED_AS_WRITTEN",
+      "original_reason": "E maps X to X/R, so E(E(x)) is undefined without another map/domain extension. Saturation q^-1 q is a genuinely idempotent operator on subsets.",
+      "corrective_disposition": "Typed Eye replacement",
+      "replacement_ids": [
+        "C12"
+      ],
+      "replacement_scope": "Truncations are endomaps of one completed history space and satisfy the proved aperture meet law.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET07",
+      "environment": "theorem",
+      "title": "Seam as Fixed Point of $\\selfcut \\circ C$",
+      "start_line": 196,
+      "end_line": 200,
+      "normalized_environment_sha256": "d447f7d340c337073d360bfd2cff565cd585372c477b25913b221b379ae13b8b",
+      "original_status": "NOT_ESTABLISHED_AS_STATED",
+      "original_reason": "The seam compares chi(Cx) to chi(x), while fixedness of chi C compares chi(Cx) to x. These require different equations; the quotient seam repair states the exact identity.",
+      "corrective_disposition": "Seam corrected",
+      "replacement_ids": [
+        "C7"
+      ],
+      "replacement_scope": "The actual exchange fixed set is the whole signed diagonal; its projector is derived. The original zero-cost and positive-ray statements are not certified.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET08",
+      "environment": "theorem",
+      "title": "Topology Theorem",
+      "start_line": 247,
+      "end_line": 249,
+      "normalized_environment_sha256": "8a83c9fdfc06b8aae016dfe746096d3f3dfb624d56069eb2f3fbf6f40ab8a4ad",
+      "original_status": "VALID_WITH_EXPLICIT_ADDITIONAL_PREMISE",
+      "original_reason": "Direct image preserving all finite intersections is a sufficient stated condition, but is not derived and forces a quotient map to be injective. The unsaturated image condition alone fails. R15 proves topology using saturated cut-stable subsets, permitting nontrivial fibres.",
+      "corrective_disposition": "Topology replaced",
+      "replacement_ids": [
+        "C9",
+        "C10",
+        "C11"
+      ],
+      "replacement_scope": "Recognition cylinders, their prefix metric and completion are constructed. They are not the upload's unsaturated image-stability topology.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET09",
+      "environment": "theorem",
+      "title": "Time Emerges from $\\selfcut$",
+      "start_line": 273,
+      "end_line": 277,
+      "normalized_environment_sha256": "c4555f9b315a4a37c6c646c6d2e8949ffc6774507e81229012aad0356eaa69c0",
+      "original_status": "DEFINITION_NOT_PHYSICAL_THEOREM",
+      "original_reason": "Iteration gives a discrete event/count index. Calling it experienced physical time is additional interpretation; no clock calibration, irreversibility or continuous flow follows.",
+      "corrective_disposition": "Event index only",
+      "replacement_ids": [
+        "C13"
+      ],
+      "replacement_scope": "Cut count is an internal record index; a physical clock is not derived.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET10",
+      "environment": "theorem",
+      "title": "TVSP Compass Emergence",
+      "start_line": 304,
+      "end_line": 307,
+      "normalized_environment_sha256": "fd555adc5e90288ad1a32a7cbd8f91436d2b91d61626df5a4079b16162869d68",
+      "original_status": "NOT_IMPLIED_BY_STATED_ACTS",
+      "original_reason": "The four-cycle/involution equation is assumed in the supposed derivation. Free cut words and the three-state totalized model separate J^2 from identity.",
+      "corrective_disposition": "Role closure corrected",
+      "replacement_ids": [
+        "C2",
+        "C4"
+      ],
+      "replacement_scope": "Exchange/parity produce a quarter-turn on the signed role carrier. Arbitrary raw chi/kappa closure and a four-point orbit of one involution do not follow.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET11",
+      "environment": "theorem",
+      "title": "Hierarchy of Layers",
+      "start_line": 325,
+      "end_line": 331,
+      "normalized_environment_sha256": "4679035211dd4d5db8266d494c75fd87f88bc69655756533e717f14a9a9aa6d4",
+      "original_status": "UNIVERSAL_LAYER_CLAIM_FALSE",
+      "original_reason": "There is no reason for every recursive layer to differ. In the later source J^2=I, J powers alternate between at most two endpoints; an unbounded distinct tower does not follow.",
+      "corrective_disposition": "Tower corrected",
+      "replacement_ids": [
+        "C12"
+      ],
+      "replacement_scope": "Distinct truncation maps give a strict global hierarchy; powers of an involution do not. Individual finite histories can stabilize.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET12",
+      "environment": "theorem",
+      "title": "Real Numbers are Cut-Orbits",
+      "start_line": 344,
+      "end_line": 349,
+      "normalized_environment_sha256": "98aa2c96d6046c30f699b685d6ca0c85ee237d20aa1dc07d44386b76196144d7",
+      "original_status": "INCOMPLETE_AND_LITERAL_ENCODING_INSUFFICIENT",
+      "original_reason": "Strict alternation determines at most two infinite words, one if the first symbol is fixed. A quotient cannot encode all real scalars that way. General infinite words would still need an order, arithmetic, equivalence and completion construction.",
+      "corrective_disposition": "Completion constructed",
+      "replacement_ids": [
+        "C3",
+        "C8",
+        "C11"
+      ],
+      "replacement_scope": "Signed cut refinements and Cauchy completion construct scalars; arbitrary finite/infinite histories form a separate completed record space. Alternation alone is insufficient.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET13",
+      "environment": "theorem",
+      "title": "Eye Idempotence",
+      "start_line": 481,
+      "end_line": 485,
+      "normalized_environment_sha256": "276d6501e7bb594ff730310506d72fbff06a7800ac340ec8c03b09fe10934842",
+      "original_status": "ILL_TYPED_AS_WRITTEN",
+      "original_reason": "E maps X to X/R, so E(E(x)) is undefined without another map/domain extension. Saturation q^-1 q is a genuinely idempotent operator on subsets.",
+      "corrective_disposition": "Typed Eye replacement",
+      "replacement_ids": [
+        "C12"
+      ],
+      "replacement_scope": "Truncations are endomaps of one completed history space and satisfy the proved aperture meet law.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET14",
+      "environment": "theorem",
+      "title": "Seam Zero-Cost Theorem",
+      "start_line": 531,
+      "end_line": 536,
+      "normalized_environment_sha256": "4e08bd34b01f09b5084ac5b77fe361c6b4912386f8a2f0ef45c3b5353db8fc78",
+      "original_status": "FALSE_AS_WRITTEN",
+      "original_reason": "For chi=(0,0,1), C=(2,2,2), x=0 and R=ker chi the source seam passes but healing cost is one, not zero.",
+      "corrective_disposition": "Seam corrected",
+      "replacement_ids": [
+        "C7"
+      ],
+      "replacement_scope": "The actual exchange fixed set is the whole signed diagonal; its projector is derived. The original zero-cost and positive-ray statements are not certified.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET15",
+      "environment": "theorem",
+      "title": "EMK Topology Theorem",
+      "start_line": 547,
+      "end_line": 549,
+      "normalized_environment_sha256": "c843af584a58e13a1715bb5d95d780881d71c7af86d7d8b0e6b27775bb004390",
+      "original_status": "VALID_WITH_EXPLICIT_ADDITIONAL_PREMISE",
+      "original_reason": "Direct image preserving all finite intersections is a sufficient stated condition, but is not derived and forces a quotient map to be injective. The unsaturated image condition alone fails. R15 proves topology using saturated cut-stable subsets, permitting nontrivial fibres.",
+      "corrective_disposition": "Topology replaced",
+      "replacement_ids": [
+        "C9",
+        "C10",
+        "C11"
+      ],
+      "replacement_scope": "Recognition cylinders, their prefix metric and completion are constructed. They are not the upload's unsaturated image-stability topology.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET16",
+      "environment": "lemma",
+      "title": "Cycle Orthogonality",
+      "start_line": 574,
+      "end_line": 580,
+      "normalized_environment_sha256": "c05abb267c42a998c460af355e2446009a66171537c96d8157c7fa7a054f6f3d",
+      "original_status": "NOT_DERIVED_FROM_SOURCE",
+      "original_reason": "Distinct names for cycle directions do not impose commuting operators. The native KIR algebra explicitly retains noncommuting directions.",
+      "corrective_disposition": "Pairing and order split",
+      "replacement_ids": [
+        "C4",
+        "C6",
+        "C7"
+      ],
+      "replacement_scope": "A native role pairing is derived, but distinct role operators need not commute; the mixed defect is nonzero.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET17",
+      "environment": "theorem",
+      "title": "Path Equality in One Dimension",
+      "start_line": 592,
+      "end_line": 597,
+      "normalized_environment_sha256": "579cb3ad82b7ec0532cf9150a334c120ffc771360b1ea282854643a81d919f61",
+      "original_status": "FALSE_FOR_PROJECTED_SAME_ENDPOINT_PATHS",
+      "original_reason": "Even using the source equation df/f=i dtheta, one full turn and the constant path have equal circle endpoints and unequal lifted increments. Winding or a simply connected branch must be retained.",
+      "corrective_disposition": "Full residue criterion",
+      "replacement_ids": [
+        "C13",
+        "C14"
+      ],
+      "replacement_scope": "Endpoint equality does not erase periods. Potential exactness is equivalent to vanishing on every fundamental comparison cycle.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET18",
+      "environment": "theorem",
+      "title": "Path Equality in All Dimensions",
+      "start_line": 608,
+      "end_line": 617,
+      "normalized_environment_sha256": "635ee45f48bf1b59d64f4a838e8d2329d8a1e2f0a57bcf796aebc34ff61cf625",
+      "original_status": "INCOMPLETE_IN_SOURCE",
+      "original_reason": "Independent phase contributions, the seam differential and convergence of the infinite sum are not proved. Finite support at each finite depth alone does not give a convergent infinite limit.",
+      "corrective_disposition": "Infinite sum withdrawn",
+      "replacement_ids": [
+        "C8",
+        "C11",
+        "C14"
+      ],
+      "replacement_scope": "The scalar/history completions and finite loop criterion are proved. They do not validate the unspecified infinite master-seam series.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET19",
+      "environment": "theorem",
+      "title": "EMK Analytic Form",
+      "start_line": 636,
+      "end_line": 646,
+      "normalized_environment_sha256": "bd2d2a6e1eb4c58265aa7704f6940a981295d8db050686835addc83c340aca11",
+      "original_status": "LOCAL_STATEMENT_AND_UNSUPPORTED_EQUIVALENCE_MIXED",
+      "original_reason": "The nonvanishing local equation df/f=i dXi integrates to C exp(iXi) on an admitted branch. Arbitrary F(exp(iXi)) need not satisfy that same equation, or be nonvanishing; the asserted equivalence needs a different proved definition.",
+      "corrective_disposition": "Native analytic citation",
+      "replacement_ids": [
+        "C4",
+        "C5",
+        "C8",
+        "N1",
+        "N2",
+        "N3",
+        "N4"
+      ],
+      "replacement_scope": "Euler, radial logarithm, period and scalar polar/logarithm use pinned native theorems. The upload's arbitrary analytic-class equivalence is withdrawn.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET20",
+      "environment": "theorem",
+      "title": "Curvature Obstructs Path Equality",
+      "start_line": 664,
+      "end_line": 671,
+      "normalized_environment_sha256": "2a537be1fedb71ff5a3c2608db7e608a88ca7b93e3a52a2d6dfce9cbf69baff4",
+      "original_status": "ONLY_ORDER_DISTINCTION_FOLLOWS",
+      "original_reason": "A positive distinguishing distance detects different observed endpoints. It does not force a particular scalar function to detect them or identify general differential curvature. Noncommuting transport and a chosen readout must be separated.",
+      "corrective_disposition": "Mixed defect corrected",
+      "replacement_ids": [
+        "C7",
+        "C14"
+      ],
+      "replacement_scope": "The mixed operator commutator is nonzero; every self-commutator is zero. This does not identify it with Riemannian or connection curvature.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET21",
+      "environment": "corollary",
+      "title": "Flatness = Full Path Equality",
+      "start_line": 673,
+      "end_line": 680,
+      "normalized_environment_sha256": "544d4b818a8e1314f94540ecdf24e853613f8410f441c28a438438ee81253dd5",
+      "original_status": "FALSE_AS_GLOBAL_PATH_INFERENCE",
+      "original_reason": "Vanishing pairwise local order defects does not remove global winding, prove the stated scalar differential, or fix holonomy. A closed four-step path already retains a nonempty ledger.",
+      "corrective_disposition": "Full residue criterion",
+      "replacement_ids": [
+        "C13",
+        "C14"
+      ],
+      "replacement_scope": "Endpoint equality does not erase periods. Potential exactness is equivalent to vanishing on every fundamental comparison cycle.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET22",
+      "environment": "theorem",
+      "title": "Global Angular Analyticity is Derived",
+      "start_line": 701,
+      "end_line": 709,
+      "normalized_environment_sha256": "edb9b34457acebc4c731b9c5a3761b57717fde4dd6013fba3447460126aad397",
+      "original_status": "NOT_DERIVED_FROM_SOURCE",
+      "original_reason": "Its three proposed intermediate inputs (four-cycle, orthogonality, uniform phase law) are themselves not derived from A0-A2. Complex functions and analytic operations have been introduced.",
+      "corrective_disposition": "Native analytic citation",
+      "replacement_ids": [
+        "C4",
+        "C5",
+        "C8",
+        "N1",
+        "N2",
+        "N3",
+        "N4"
+      ],
+      "replacement_scope": "Euler, radial logarithm, period and scalar polar/logarithm use pinned native theorems. The upload's arbitrary analytic-class equivalence is withdrawn.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET23",
+      "environment": "theorem",
+      "title": "4-Cycle Property",
+      "start_line": 712,
+      "end_line": 715,
+      "normalized_environment_sha256": "cb9be8c49d3e7a6378a79e07bd50435c5653ca7630547b95d40cf3adf5f4160c",
+      "original_status": "NOT_IMPLIED_BY_STATED_ACTS",
+      "original_reason": "The four-cycle/involution equation is assumed in the supposed derivation. Free cut words and the three-state totalized model separate J^2 from identity.",
+      "corrective_disposition": "Role closure corrected",
+      "replacement_ids": [
+        "C2",
+        "C4"
+      ],
+      "replacement_scope": "Exchange/parity produce a quarter-turn on the signed role carrier. Arbitrary raw chi/kappa closure and a four-point orbit of one involution do not follow.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET24",
+      "environment": "theorem",
+      "title": "Path Equality",
+      "start_line": 733,
+      "end_line": 738,
+      "normalized_environment_sha256": "e3281376cc963f61551fa29b9cb95f4b739866070cd8fd384ce41324049c4a06",
+      "original_status": "FALSE_FOR_PROJECTED_SAME_ENDPOINT_PATHS",
+      "original_reason": "Even using the source equation df/f=i dtheta, one full turn and the constant path have equal circle endpoints and unequal lifted increments. Winding or a simply connected branch must be retained.",
+      "corrective_disposition": "Full residue criterion",
+      "replacement_ids": [
+        "C13",
+        "C14"
+      ],
+      "replacement_scope": "Endpoint equality does not erase periods. Potential exactness is equivalent to vanishing on every fundamental comparison cycle.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET25",
+      "environment": "theorem",
+      "title": "Master Seam Coordinate",
+      "start_line": 744,
+      "end_line": 753,
+      "normalized_environment_sha256": "2a3fba21d8e0956613427194e06a552ed06f132f693f82aac65fa62002f627b2",
+      "original_status": "INCOMPLETE_IN_SOURCE",
+      "original_reason": "Independent phase contributions, the seam differential and convergence of the infinite sum are not proved. Finite support at each finite depth alone does not give a convergent infinite limit.",
+      "corrective_disposition": "Infinite sum withdrawn",
+      "replacement_ids": [
+        "C8",
+        "C11",
+        "C14"
+      ],
+      "replacement_scope": "The scalar/history completions and finite loop criterion are proved. They do not validate the unspecified infinite master-seam series.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET26",
+      "environment": "corollary",
+      "title": "EMK Analytic Class",
+      "start_line": 755,
+      "end_line": 759,
+      "normalized_environment_sha256": "927e6b0efa358b675c03f188b02918cec35478b176c7e2025ce25ebcef35b699",
+      "original_status": "LOCAL_STATEMENT_AND_UNSUPPORTED_EQUIVALENCE_MIXED",
+      "original_reason": "The nonvanishing local equation df/f=i dXi integrates to C exp(iXi) on an admitted branch. Arbitrary F(exp(iXi)) need not satisfy that same equation, or be nonvanishing; the asserted equivalence needs a different proved definition.",
+      "corrective_disposition": "Native analytic citation",
+      "replacement_ids": [
+        "C4",
+        "C5",
+        "C8",
+        "N1",
+        "N2",
+        "N3",
+        "N4"
+      ],
+      "replacement_scope": "Euler, radial logarithm, period and scalar polar/logarithm use pinned native theorems. The upload's arbitrary analytic-class equivalence is withdrawn.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET27",
+      "environment": "theorem",
+      "title": "Characterization of EMK Topology",
+      "start_line": 766,
+      "end_line": 769,
+      "normalized_environment_sha256": "8437230c60c4253d7778dd443036bb8c9434b5460694946aa22db7c00db03d36",
+      "original_status": "NOT_ESTABLISHED_AS_STATED",
+      "original_reason": "The proof incorrectly infers saturated fibres from image stability and changes phase covariance into invariance. A codomain topology and actual observable continuity are needed for an initial-topology claim.",
+      "corrective_disposition": "Topology replaced",
+      "replacement_ids": [
+        "C9",
+        "C10",
+        "C11"
+      ],
+      "replacement_scope": "Recognition cylinders, their prefix metric and completion are constructed. They are not the upload's unsaturated image-stability topology.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET28",
+      "environment": "corollary",
+      "title": "",
+      "start_line": 797,
+      "end_line": 800,
+      "normalized_environment_sha256": "1458d8bc47c992f2867af433a65e07396f33cd50fba65e633bcb13a2c5424471",
+      "original_status": "NOT_ESTABLISHED_AS_STATED",
+      "original_reason": "The proof incorrectly infers saturated fibres from image stability and changes phase covariance into invariance. A codomain topology and actual observable continuity are needed for an initial-topology claim.",
+      "corrective_disposition": "Topology replaced",
+      "replacement_ids": [
+        "C9",
+        "C10",
+        "C11"
+      ],
+      "replacement_scope": "Recognition cylinders, their prefix metric and completion are constructed. They are not the upload's unsaturated image-stability topology.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET29",
+      "environment": "lemma",
+      "title": "Factorization",
+      "start_line": 840,
+      "end_line": 846,
+      "normalized_environment_sha256": "5009e6eb3ddd4815a6002fcb5cd696ddc1d4c3c9f6b13d4733e55f2757a8be03",
+      "original_status": "VALID_TYPED_FACTORISATION",
+      "original_reason": "When the two quotient maps exist with the stated types, preimages compose exactly as written. This does not establish the existence or physical interpretation of the proposed quotients.",
+      "corrective_disposition": "Typed maps retained",
+      "replacement_ids": [
+        "C1",
+        "C9",
+        "C12"
+      ],
+      "replacement_scope": "Ordinary typed composition is valid. New recognition is full record equality, and truncations retain their common codomain; no unspecified quotient descent is assumed.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET30",
+      "environment": "lemma",
+      "title": "Cut-Invariance Condition",
+      "start_line": 848,
+      "end_line": 854,
+      "normalized_environment_sha256": "0953557a6899e4c875be0166eafa3d15e25b610bc2dd25e92533daa2d9c8082a",
+      "original_status": "REQUIRES_DESCENT_AND_SATURATION",
+      "original_reason": "A cut acts on recognition classes only when the equivalence is preserved. With future recognition and saturated cut topology the stated invariant-preimage correspondence is proved.",
+      "corrective_disposition": "Typed maps retained",
+      "replacement_ids": [
+        "C1",
+        "C9",
+        "C12"
+      ],
+      "replacement_scope": "Ordinary typed composition is valid. New recognition is full record equality, and truncations retain their common codomain; no unspecified quotient descent is assumed.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET31",
+      "environment": "lemma",
+      "title": "Full Cyclic Action",
+      "start_line": 871,
+      "end_line": 877,
+      "normalized_environment_sha256": "c1eb9281216a47a592c5063058abf7c6abf6872bba6169c492d34b8afa09e1be",
+      "original_status": "PATH_GRAPH_NOT_AUTOMATIC_GROUP_ACTION",
+      "original_reason": "The displayed kappa and chi arrows are partial on different vertices. Paths do not automatically make them total permutations or quotient every full loop to an identity.",
+      "corrective_disposition": "Path and action separated",
+      "replacement_ids": [
+        "C1",
+        "C4",
+        "C13"
+      ],
+      "replacement_scope": "A free nonempty path may evaluate to identity on the role carrier while its event record remains distinct.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET32",
+      "environment": "theorem",
+      "title": "Cut-Invariant Subsets of \\(\\{T, V, S, P\\}\\)",
+      "start_line": 898,
+      "end_line": 900,
+      "normalized_environment_sha256": "e3ce2033163151deba5b91721a7c18112e03be05c800fd6db0ea02b047b6f96e",
+      "original_status": "PROVED_FOR_DECLARED_FOUR_CYCLE",
+      "original_reason": "Forward reachability around the declared directed cycle forces a nonempty invariant subset to contain every vertex. This does not derive that cycle from A0-A2.",
+      "corrective_disposition": "Cycle scope corrected",
+      "replacement_ids": [
+        "C4",
+        "C9"
+      ],
+      "replacement_scope": "A specified directed cycle has only empty/full forward-invariant subsets. Its carrier is not its one-point orbit quotient, and that invariant topology differs from recognition topology.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET33",
+      "environment": "theorem",
+      "title": "Indiscrete Topology",
+      "start_line": 915,
+      "end_line": 920,
+      "normalized_environment_sha256": "3456b5f4936b49f55e849ffd882db498f7d69fe539ef14aa333a49e5ececdb2e",
+      "original_status": "CARRIER_AND_PROOF_REQUIRE_CORRECTION",
+      "original_reason": "On four distinct cyclic vertices the invariant topology is indiscrete; after identifying the entire orbit the carrier has one point. The written proof instead says every subset is open and calls that indiscrete.",
+      "corrective_disposition": "Cycle scope corrected",
+      "replacement_ids": [
+        "C4",
+        "C9"
+      ],
+      "replacement_scope": "A specified directed cycle has only empty/full forward-invariant subsets. Its carrier is not its one-point orbit quotient, and that invariant topology differs from recognition topology.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET34",
+      "environment": "corollary",
+      "title": "Comparison with Classical Thermodynamics",
+      "start_line": 944,
+      "end_line": 953,
+      "normalized_environment_sha256": "486134d43997e66f9a3717ccd2dbcf5c7e27b25de4788ce5ca1e04152d4f1213",
+      "original_status": "INTERPRETATION_WITH_UNPROVED_PHYSICAL_IDENTIFICATION",
+      "original_reason": "The declared finite compass is not a derivation of a thermodynamic state space or a no-go theorem for native continuous geometry. Keep the finite graph result and state the representation boundary.",
+      "corrective_disposition": "Physics claim withdrawn",
+      "replacement_ids": [
+        "C14"
+      ],
+      "replacement_scope": "Finite comparison potentials and their loop criterion are mathematical results; Maxwell, Legendre and thermodynamic identifications have not been derived.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET35",
+      "environment": "lemma",
+      "title": "Generators and Relations",
+      "start_line": 1017,
+      "end_line": 1023,
+      "normalized_environment_sha256": "d4222d260b369740bce7e1e34b09ca1c272c3b847e20fe3a5c5f859a75d22d77",
+      "original_status": "RELATION_NOT_FORCED_BY_ENDPOINT_RETURN",
+      "original_reason": "A four-arrow loop and an empty identity path have the same endpoint but differ in the free path category. Quotienting their histories needs an admitted relation and residue policy.",
+      "corrective_disposition": "Path and action separated",
+      "replacement_ids": [
+        "C1",
+        "C4",
+        "C13"
+      ],
+      "replacement_scope": "A free nonempty path may evaluate to identity on the role carrier while its event record remains distinct.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET36",
+      "environment": "theorem",
+      "title": "Separation of Structures",
+      "start_line": 1035,
+      "end_line": 1042,
+      "normalized_environment_sha256": "2f98dbc4c74916ab9c8c218f5d422ba4dc59504f7412dbf3c3a141e20375b6c8",
+      "original_status": "FALSE_AND_INCONSISTENT_AS_WRITTEN",
+      "original_reason": "Discrete (all subsets) and indiscrete (only empty/full) are not interchangeable conventions on four points. A cycle does not encode Maxwell identities, and the topology constructed from cut actions depends on those actions.",
+      "corrective_disposition": "Cycle scope corrected",
+      "replacement_ids": [
+        "C4",
+        "C9"
+      ],
+      "replacement_scope": "A specified directed cycle has only empty/full forward-invariant subsets. Its carrier is not its one-point orbit quotient, and that invariant topology differs from recognition topology.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET37",
+      "environment": "theorem",
+      "title": "Maxwell Relations from Cycle Closure",
+      "start_line": 1064,
+      "end_line": 1082,
+      "normalized_environment_sha256": "2e2615154d5d83035da4285a092966d4b9586c591c9827fb4c3bfa5648665e54",
+      "original_status": "NOT_DERIVED_FROM_CYCLE",
+      "original_reason": "A directed graph and a cycle relation supply no differentiable potentials, conjugate-variable rules, fixed-variable derivative domains, or Legendre functor laws. The claimed Maxwell/potential conclusions have no proof from the given data.",
+      "corrective_disposition": "Physics claim withdrawn",
+      "replacement_ids": [
+        "C14"
+      ],
+      "replacement_scope": "Finite comparison potentials and their loop criterion are mathematical results; Maxwell, Legendre and thermodynamic identifications have not been derived.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET38",
+      "environment": "proposition",
+      "title": "Four Potentials as Fixed Points",
+      "start_line": 1102,
+      "end_line": 1108,
+      "normalized_environment_sha256": "b0ac4ee1c0b2bf0c408c94fdb737f5648ee82a665141b638ba6a5d8f3d8595bc",
+      "original_status": "NOT_DERIVED_FROM_CYCLE",
+      "original_reason": "A directed graph and a cycle relation supply no differentiable potentials, conjugate-variable rules, fixed-variable derivative domains, or Legendre functor laws. The claimed Maxwell/potential conclusions have no proof from the given data.",
+      "corrective_disposition": "Physics claim withdrawn",
+      "replacement_ids": [
+        "C14"
+      ],
+      "replacement_scope": "Finite comparison potentials and their loop criterion are mathematical results; Maxwell, Legendre and thermodynamic identifications have not been derived.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET39",
+      "environment": "corollary",
+      "title": "Final Statement",
+      "start_line": 1126,
+      "end_line": 1128,
+      "normalized_environment_sha256": "ab3f14707a1e861b3d72273ef31921c277f4317f58cd620923550c99b8a6799e",
+      "original_status": "INTERPRETATION_WITH_UNPROVED_PHYSICAL_IDENTIFICATION",
+      "original_reason": "The declared finite compass is not a derivation of a thermodynamic state space or a no-go theorem for native continuous geometry. Keep the finite graph result and state the representation boundary.",
+      "corrective_disposition": "Physics claim withdrawn",
+      "replacement_ids": [
+        "C14"
+      ],
+      "replacement_scope": "Finite comparison potentials and their loop criterion are mathematical results; Maxwell, Legendre and thermodynamic identifications have not been derived.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET40",
+      "environment": "theorem",
+      "title": "Involution Property",
+      "start_line": 1146,
+      "end_line": 1151,
+      "normalized_environment_sha256": "8f51754c025a36996bb8eb66d2133bbfe05777c0b0f86cba257dd5efaddb3831",
+      "original_status": "NOT_IMPLIED_BY_STATED_ACTS",
+      "original_reason": "The four-cycle/involution equation is assumed in the supposed derivation. Free cut words and the three-state totalized model separate J^2 from identity.",
+      "corrective_disposition": "Role closure corrected",
+      "replacement_ids": [
+        "C2",
+        "C4"
+      ],
+      "replacement_scope": "Exchange/parity produce a quarter-turn on the signed role carrier. Arbitrary raw chi/kappa closure and a four-point orbit of one involution do not follow.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET41",
+      "environment": "theorem",
+      "title": "The Seam as Fixed Points",
+      "start_line": 1172,
+      "end_line": 1178,
+      "normalized_environment_sha256": "d3f2bfe283912512347f4b683bef1a100d5db337a1059317b273c90c383df8fc",
+      "original_status": "WRONG_FIXED_SET_IN_CHOSEN_CHART",
+      "original_reason": "J(z)=i conjugate(z) fixes the whole real diagonal, including (-1,-1), not only r>=0. The complex chart is an explicit representation, not a source primitive.",
+      "corrective_disposition": "Seam corrected",
+      "replacement_ids": [
+        "C7"
+      ],
+      "replacement_scope": "The actual exchange fixed set is the whole signed diagonal; its projector is derived. The original zero-cost and positive-ray statements are not certified.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET42",
+      "environment": "theorem",
+      "title": "Recognition as \\(\\chi\\)",
+      "start_line": 1182,
+      "end_line": 1187,
+      "normalized_environment_sha256": "677be2949a1aacd039c1fb5efb48a1e4c821c5ab7bc9bfde437a5bd6c0b3c359",
+      "original_status": "INVERSE_NOT_ESTABLISHED",
+      "original_reason": "chi=J kappa^-1 is algebraically valid when kappa is invertible, but invertibility and the rotational interpretation were never established.",
+      "corrective_disposition": "Inverse scope corrected",
+      "replacement_ids": [
+        "C1",
+        "C4"
+      ],
+      "replacement_scope": "The constructed role maps have proved inverses; arbitrary primitive acts are not declared invertible.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET43",
+      "environment": "theorem",
+      "title": "TVSP Compass as \\(J\\)-Orbit",
+      "start_line": 1189,
+      "end_line": 1196,
+      "normalized_environment_sha256": "965f22c3d308b8d82526ea565d472a5ce61d22683d03f10fab5c7809883ac96f",
+      "original_status": "NOT_A_FOUR_ELEMENT_J_ORBIT",
+      "original_reason": "An involution J has orbit size at most two. Alternating partial kappa/chi paths may visit four vertices in a separately declared graph; they are not thereby square roots of J.",
+      "corrective_disposition": "Role closure corrected",
+      "replacement_ids": [
+        "C2",
+        "C4"
+      ],
+      "replacement_scope": "Exchange/parity produce a quarter-turn on the signed role carrier. Arbitrary raw chi/kappa closure and a four-point orbit of one involution do not follow.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET44",
+      "environment": "theorem",
+      "title": "\\(\\lambda\\)-Layers as Powers of \\(J\\)",
+      "start_line": 1198,
+      "end_line": 1211,
+      "normalized_environment_sha256": "617aefaafbc1e910dc5df298d7412dd0f943de51e283112868e7d6a0c8daf264",
+      "original_status": "UNIVERSAL_LAYER_CLAIM_FALSE",
+      "original_reason": "There is no reason for every recursive layer to differ. In the later source J^2=I, J powers alternate between at most two endpoints; an unbounded distinct tower does not follow.",
+      "corrective_disposition": "Tower corrected",
+      "replacement_ids": [
+        "C12"
+      ],
+      "replacement_scope": "Distinct truncation maps give a strict global hierarchy; powers of an involution do not. Individual finite histories can stabilize.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET45",
+      "environment": "theorem",
+      "title": "Helical Torus as Involute",
+      "start_line": 1213,
+      "end_line": 1219,
+      "normalized_environment_sha256": "f3dbc4d57b73e3feaa170c64c19a645f126d61e3b4e875237c7fe8f08cfdcc12",
+      "original_status": "FALSE_FROM_INVOLUTION_ALONE",
+      "original_reason": "The set {J^n x0} for J^2=I has at most two elements. A helix, continuous exponential generator, winding lift and convergence are additional constructions, not consequences of that set.",
+      "corrective_disposition": "Helix claim withdrawn",
+      "replacement_ids": [
+        "C11",
+        "C12",
+        "C13"
+      ],
+      "replacement_scope": "Infinite records, a refinement tower and retained winding are constructed. A physical helix or torus is not forced by an involution.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET46",
+      "environment": "theorem",
+      "title": "Curvature as Non-Commutation",
+      "start_line": 1221,
+      "end_line": 1230,
+      "normalized_environment_sha256": "51ec01ff320d95ac074598efc44e39d17dafa80a7bc2b566ece8253ea6bf459f",
+      "original_status": "SELF_COMMUTATOR_CLAIM_FALSE",
+      "original_reason": "[J,J]=0 always. Nonzero [nabla,J] is not in general equivalent to connection curvature. Distinct native KIR operators can have a nonzero order commutator.",
+      "corrective_disposition": "Mixed defect corrected",
+      "replacement_ids": [
+        "C7",
+        "C14"
+      ],
+      "replacement_scope": "The mixed operator commutator is nonzero; every self-commutator is zero. This does not identify it with Riemannian or connection curvature.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET47",
+      "environment": "theorem",
+      "title": "EMK Topology from \\(J\\)",
+      "start_line": 1232,
+      "end_line": 1238,
+      "normalized_environment_sha256": "f2ec5900a8b00de7ef1c79d398c2ebba1c5b2bef01e02dbc4dbbbf95e7cc3ff5",
+      "original_status": "NOT_ESTABLISHED_AS_STATED",
+      "original_reason": "For bijective J the displayed image condition reduces to forward cut invariance; this is not automatically an initial topology of unspecified analytic functions. Invariance, continuity, recognition saturation and observations need their distinct definitions.",
+      "corrective_disposition": "Topology replaced",
+      "replacement_ids": [
+        "C9",
+        "C10",
+        "C11"
+      ],
+      "replacement_scope": "Recognition cylinders, their prefix metric and completion are constructed. They are not the upload's unsaturated image-stability topology.",
+      "original_promoted_to_unconditional_theorem": false
+    },
+    {
+      "id": "ET48",
+      "environment": "theorem",
+      "title": "Sufficiency of Three Axioms",
+      "start_line": 1264,
+      "end_line": 1267,
+      "normalized_environment_sha256": "b5ceea2aaea2a3754475272b292659d2bdff5853a5ebca72cdac3f2de2dfe734",
+      "original_status": "NOT_CERTIFIED_AS_WRITTEN",
+      "original_reason": "The final conclusion depends on the unsupported/false closure, quotient, winding, involution and analytic steps recorded above. Proofs of repaired constructions do not certify the original universal sufficiency claim.",
+      "corrective_disposition": "Universal claim rejected",
+      "replacement_ids": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9",
+        "C10",
+        "C11",
+        "C12",
+        "C13",
+        "C14"
+      ],
+      "replacement_scope": "The corrected constructive theory has closed written proofs. This is not a proof that the original three prose axioms force every later structure.",
+      "original_promoted_to_unconditional_theorem": false
+    }
+  ],
+  "additional_premise_audit": [
+    "Total extension of first-cut/self-cut domains is used by the recursive appearance definition.",
+    "Observer-indistinguishability is assumed to be an equivalence without a specified decision relation.",
+    "The four-cycle property is introduced as a definition and later asserted to follow from naming the acts.",
+    "Angles, pi, an infinite torus, C-valued functions, exponentials, derivatives and integrals precede any native construction of them in this upload.",
+    "Finite support at each depth does not prove convergence of the infinite seam-phase sum.",
+    "A noninjective quotient does not preserve arbitrary direct-image intersections.",
+    "Thermodynamic variable names and graph arrows do not define differentiable response potentials.",
+    "The final section explicitly chooses a complex representation and then presents its geometry as primitive necessity."
+  ]
+}

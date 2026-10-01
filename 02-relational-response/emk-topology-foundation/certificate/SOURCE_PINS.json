@@ -1,0 +1,344 @@
+{
+  "schema": "emk-constructive-cut.source-pins.v1",
+  "date": "2026-10-01",
+  "original_source_sha256": "55f449e7eb3a2bde9e77193f595a6a5eeff3923da2bea076d00f0e9907b8cebd",
+  "repository_parent_commit": "4ed64ee82729e88c4daa74b567e71046897f4667",
+  "native_input_sha256": "b68463069a779667ffd2583f1140eced91cf0707bce0e2d6630e9e19b4b0ba34",
+  "rkf": {
+    "repository": "Parveen117/Recognition-Kernel-Framework",
+    "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+    "files": [
+      {
+        "path": "certificates/foundation/F00GHI_LOG_ARITHMETIC_ZETA_V0_1/README.md",
+        "sha256": "daef4110c5c43aa10f6e60962473c5ca60d7bbfdada22d864330bd68ff4514c2",
+        "git_blob_sha": "919c4cb0565255867e65f6edf0e585970025619e"
+      },
+      {
+        "path": "certificates/foundation/F00GHI_LOG_ARITHMETIC_ZETA_V0_1/result.json",
+        "sha256": "4250fe4865fd2213a70ee6be4bafa12ebb253becad6ff9115678f46b9897f008",
+        "git_blob_sha": "33cd4c7edb5be6315de4f1e96a1e7372fdabac79"
+      },
+      {
+        "path": "certificates/foundation/F00GHI_LOG_ARITHMETIC_ZETA_V0_1/spec.json",
+        "sha256": "32c94a385e0ca36f1924774c8c1ad170c723466e769a28de810e08937482c78e",
+        "git_blob_sha": "a02c97d274e7416187efe414fe3f56aff33f7a8d"
+      },
+      {
+        "path": "certificates/foundation/F00GHI_LOG_ARITHMETIC_ZETA_V0_1/verify.py",
+        "sha256": "4b81ae6aeb4d6d10ba344b2ea9a219c62c47a70dd7a8c2b095362ece748c1cdd",
+        "git_blob_sha": "600ea93e55ab23697b83c7c754e09c0482fe3e55"
+      },
+      {
+        "path": "certificates/foundation/F00_F00E_EULER_V0_1/README.md",
+        "sha256": "5c86becf7aa98d7cacd728fdfd5286281c336b4f9e6d7336f2baafa43b939b7a",
+        "git_blob_sha": "fd58105e919fa6a7b8fd4f475e4bb4c296022847"
+      },
+      {
+        "path": "certificates/foundation/F00_F00E_EULER_V0_1/result.json",
+        "sha256": "0ee615c19e2a9d5d5b3a2943f5f18b4b1fc8b43ec821547ac39505bb8ab61ddd",
+        "git_blob_sha": "2ec53f7641d0c300bf4a7961d0a93ecd2fc40d03"
+      },
+      {
+        "path": "certificates/foundation/F00_F00E_EULER_V0_1/spec.json",
+        "sha256": "f66d4f30118d7cceffd5cd6789d56298a98bcc6757f523ec736d9f315140eeba",
+        "git_blob_sha": "f3dd832f9a53e531f083c37108d2499269fb21e3"
+      },
+      {
+        "path": "certificates/foundation/F00_F00E_EULER_V0_1/verify.py",
+        "sha256": "cab615f1ce6d74cf0b4859895aea6f16e1b5a2a882c91a7cde75708ed6ed825d",
+        "git_blob_sha": "e7c4cfe3b02134f2b556835c292f563ccfdb54ab"
+      },
+      {
+        "path": "certificates/foundation/NUMERICAL_PROOF_PROTOCOL.md",
+        "sha256": "88b42ab7316de31f5adbd777272acd446a1f620698675da9b10118407c1ea008",
+        "git_blob_sha": "f5784526dff9bb1287d3e228b8383ef0e5bfe4cf"
+      },
+      {
+        "path": "operator_foundation/CANONICAL_HOME.json",
+        "sha256": "6c5a7756ff220e7a9afa7fdb72151781f1777e2099880788f21a1e1b780ced39",
+        "git_blob_sha": "f22847fe52944214912fa66524d0edb1fc2448a4"
+      },
+      {
+        "path": "operator_foundation/core/dependency_gate.cjs",
+        "sha256": "9a3bbecd03c159536dc17ca827d24d6e644d527adbf6da332460efbb45dbc8d1",
+        "git_blob_sha": "88a1143c62bdc28ec4ffc9a17752a6209ba78be8"
+      },
+      {
+        "path": "operator_foundation/core/native_laurent.cjs",
+        "sha256": "fc84abf52311f89ee3a7bb8c6883412e5f64a65812b0031804b44a2e660c0c8a",
+        "git_blob_sha": "f3d18833fb6ced3b154182f57c1f54eb9bc975c7"
+      },
+      {
+        "path": "operator_foundation/core/native_operator.cjs",
+        "sha256": "304963cccf4320d76dd36147e5c15ad579e9d0496c86fb1f942543bc692e06a3",
+        "git_blob_sha": "7b188defee82aa0edafc586eb3091baf0ceb6900"
+      },
+      {
+        "path": "operator_foundation/core/native_paths.cjs",
+        "sha256": "cc59550c541c078a8b4643e8602691e147179db780e232a53162f604e812e14f",
+        "git_blob_sha": "6222f41d35d18ebcda1223fc08b29398dd39df52"
+      },
+      {
+        "path": "operator_foundation/core/paninian_operator.cjs",
+        "sha256": "9a30c72f4e89d0a15697c99095ed8e0f015bb8c64fda4ded9897394945886fd8",
+        "git_blob_sha": "39d0cc2d2c0b42db319b02f4cd29c045910edbbc"
+      },
+      {
+        "path": "operator_foundation/core/weighted_completion.cjs",
+        "sha256": "a32af89f0ee013b918eaae67131b7b3c6e7cf39129fafb64c037cf30ac192f4b",
+        "git_blob_sha": "98241db9d940b7eaac9628491b8995fe249978eb"
+      },
+      {
+        "path": "operator_foundation/core/workbench.cjs",
+        "sha256": "c12a3138cc326604a1149bc306b8cc338b9e9161516b610504ddbc7d59a1ea6d",
+        "git_blob_sha": "b9c8579e0c301b17c96bfe96320f88aa9723dded"
+      },
+      {
+        "path": "operator_foundation/examples/emk_job.json",
+        "sha256": "fd3c9e50cb51050acb9c36b3123fbc4664870c621e5d73bb8763b1050b30c763",
+        "git_blob_sha": "7a6eb17ecc8ddefc145645cd9bbfdf66361c6ecb"
+      },
+      {
+        "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+        "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5",
+        "git_blob_sha": "86366ede2f152f19cbdf0d1dbf06b2e4c0971dad"
+      },
+      {
+        "path": "operator_foundation/theory/AUTOMATIC_REGULAR_MODEL.md",
+        "sha256": "838a285acf97b05517eb1d3ac7602d249cacd735647c61adb67479797ec41b91",
+        "git_blob_sha": "802b2cdc4065ad803fa9691f5894a99101b0441d"
+      },
+      {
+        "path": "operator_foundation/theory/NATIVE_PRIMITIVE_ORDER.md",
+        "sha256": "f1f2fa357d41745445bcaf403784edbec6a17cbd78bc400cbd1229aa682c0fd9",
+        "git_blob_sha": "1ac91cb1e7b0081de4d6c1eec0d7dd6891ccbad6"
+      },
+      {
+        "path": "operator_foundation/theory/PANINIAN_OPERATOR_COMPILER.md",
+        "sha256": "cbeb9fd821bc134f4510408623fb1c723ab59a00237aa5b505d09cd4621c4eca",
+        "git_blob_sha": "a1dc6c6c2f211e27f9db6154733d1c141d415ed7"
+      },
+      {
+        "path": "src/rh_framework/native_summability.py",
+        "sha256": "c35b67e5eeedcb4dfc3532cc7073c30d889113cbf1421cef1cfc753d9d3843b7",
+        "git_blob_sha": "77011e37ebfe42d916ab465cfe5666038a4ad7cb"
+      },
+      {
+        "path": "theorems/foundation/F00E_NATIVE_EULER_FROM_IOTA_COMPLEX.md",
+        "sha256": "2654b5cab54e5f103b01471ffc06ca5e32eb56b11444744ffdf7edadb27daf8c",
+        "git_blob_sha": "9ea9c78aa12d8fa0db5b4c87b9463d64a4751f41"
+      },
+      {
+        "path": "theorems/foundation/F00G_NATIVE_LOGARITHM_AND_POWERS.md",
+        "sha256": "488eabd5bf14952b503a725c45afcc244be613dcb31838e597115821b34fc0a3",
+        "git_blob_sha": "04e67b84d2b21b87380a0373c99f70a7af19aab6"
+      },
+      {
+        "path": "theorems/foundation/F00H_NATIVE_NATURAL_ARITHMETIC_AND_PRIME_FACTORIZATION.md",
+        "sha256": "96609c90d9d9ec608e933e30ee226bd6a331e980da2031455f2713763160632e",
+        "git_blob_sha": "5fc483464b3a14ba5bb8e9a9e3c6233173ed3cd6"
+      },
+      {
+        "path": "theorems/foundation/F00I_NATIVE_DIRICHLET_ZETA_EULER_PRODUCT.md",
+        "sha256": "b39fb8aa888e2e81b25333e2c2caaaf74c4a3293dfabca73cf73fdde563d7db9",
+        "git_blob_sha": "0b50bdebfc6c8e52a1c6918b3bf81bb4c77a9747"
+      }
+    ]
+  },
+  "mathematical_sources": [
+    {
+      "path": "theorems/foundation/F00E_NATIVE_EULER_FROM_IOTA_COMPLEX.md",
+      "sha256": "2654b5cab54e5f103b01471ffc06ca5e32eb56b11444744ffdf7edadb27daf8c",
+      "git_blob_sha": "9ea9c78aa12d8fa0db5b4c87b9463d64a4751f41",
+      "id": "RKF-F00E",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/3cc5a33b05c16d59c90994ddda69dedc0d392424/theorems/foundation/F00E_NATIVE_EULER_FROM_IOTA_COMPLEX.md",
+      "evidence": "NATIVE_WRITTEN_ANALYTIC_THEOREM_WITH_RERUN_SCOPED_FINITE_AUDIT",
+      "premises": "Native ordered Archimedean coefficient completion and iota; supplied by C3-C8 for F00E/G. F00G radial monotonicity follows from native series and group law as proved in the manuscript.",
+      "classical_mathematical_import": "NONE_IN_STATED_NATIVE_DERIVATION; no independent proof-assistant validation claimed."
+    },
+    {
+      "path": "theorems/foundation/F00G_NATIVE_LOGARITHM_AND_POWERS.md",
+      "sha256": "488eabd5bf14952b503a725c45afcc244be613dcb31838e597115821b34fc0a3",
+      "git_blob_sha": "04e67b84d2b21b87380a0373c99f70a7af19aab6",
+      "id": "RKF-F00G",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/3cc5a33b05c16d59c90994ddda69dedc0d392424/theorems/foundation/F00G_NATIVE_LOGARITHM_AND_POWERS.md",
+      "evidence": "NATIVE_WRITTEN_ANALYTIC_THEOREM_WITH_RERUN_SCOPED_FINITE_AUDIT",
+      "premises": "Native ordered Archimedean coefficient completion and iota; supplied by C3-C8 for F00E/G. F00G radial monotonicity follows from native series and group law as proved in the manuscript.",
+      "classical_mathematical_import": "NONE_IN_STATED_NATIVE_DERIVATION; no independent proof-assistant validation claimed."
+    },
+    {
+      "path": "theorems/foundation/F00H_NATIVE_NATURAL_ARITHMETIC_AND_PRIME_FACTORIZATION.md",
+      "sha256": "96609c90d9d9ec608e933e30ee226bd6a331e980da2031455f2713763160632e",
+      "git_blob_sha": "5fc483464b3a14ba5bb8e9a9e3c6233173ed3cd6",
+      "id": "RKF-F00H",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/3cc5a33b05c16d59c90994ddda69dedc0d392424/theorems/foundation/F00H_NATIVE_NATURAL_ARITHMETIC_AND_PRIME_FACTORIZATION.md",
+      "evidence": "ONLY_INCIDENTAL_COVERAGE_OF_SHARED_CERTIFICATE; NOT_A_NEW_RH_CLAIM",
+      "premises": "Native ordered Archimedean coefficient completion and iota; supplied by C3-C8 for F00E/G. F00G radial monotonicity follows from native series and group law as proved in the manuscript.",
+      "classical_mathematical_import": "NONE_IN_STATED_NATIVE_DERIVATION; no independent proof-assistant validation claimed."
+    },
+    {
+      "path": "theorems/foundation/F00I_NATIVE_DIRICHLET_ZETA_EULER_PRODUCT.md",
+      "sha256": "b39fb8aa888e2e81b25333e2c2caaaf74c4a3293dfabca73cf73fdde563d7db9",
+      "git_blob_sha": "0b50bdebfc6c8e52a1c6918b3bf81bb4c77a9747",
+      "id": "RKF-F00I",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/3cc5a33b05c16d59c90994ddda69dedc0d392424/theorems/foundation/F00I_NATIVE_DIRICHLET_ZETA_EULER_PRODUCT.md",
+      "evidence": "ONLY_INCIDENTAL_COVERAGE_OF_SHARED_CERTIFICATE; NOT_A_NEW_RH_CLAIM",
+      "premises": "Native ordered Archimedean coefficient completion and iota; supplied by C3-C8 for F00E/G. F00G radial monotonicity follows from native series and group law as proved in the manuscript.",
+      "classical_mathematical_import": "NONE_IN_STATED_NATIVE_DERIVATION; no independent proof-assistant validation claimed."
+    },
+    {
+      "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+      "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5",
+      "git_blob_sha": "86366ede2f152f19cbdf0d1dbf06b2e4c0971dad",
+      "id": "RKF-N06",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/3cc5a33b05c16d59c90994ddda69dedc0d392424/operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+      "evidence": "NATIVE_WRITTEN_CUT_CORNER_IDENTITY; REPROVED_AS_C7",
+      "premises": "Unital associative algebra and idempotent P. Only the algebraic PAQBP identity is used; no positivity/reducing-subspace theorem imported.",
+      "classical_mathematical_import": "NONE_REQUIRED_FOR_THE_USED_ALGEBRAIC_IDENTITY; priority for standard algebraic mechanisms is not claimed."
+    },
+    {
+      "repository": "Parveen117/RH-Framework",
+      "commit": "c588ded973a395b5fce37c82f670616160979a2e",
+      "path": "theorems/foundation/F00J_NATIVE_PI_AND_FUNDAMENTAL_CIRCULAR_PERIOD.md",
+      "git_blob_sha": "997ba0ef7c8f23b750ce7c4c543ae10bbfd0a49d",
+      "sha256": "9aec8a1f41968bb71166f2b912903d32c24d59cd90ccad37031d8c45372e76d5",
+      "id": "RH-F00J",
+      "url": "https://github.com/Parveen117/RH-Framework/blob/c588ded973a395b5fce37c82f670616160979a2e/theorems/foundation/F00J_NATIVE_PI_AND_FUNDAMENTAL_CIRCULAR_PERIOD.md",
+      "evidence": "PINNED_WRITTEN_NATIVE_THEOREM_READ; NO_NEW_FORMAL_OR_INDEPENDENT_NUMERIC_CERTIFICATE",
+      "premises": "Native Euler series, completed ordered cut field, radial logarithm; F00K additionally uses the F00J period. Scalar sector only, not full UGD history.",
+      "classical_mathematical_import": "NONE_IN_STATED_NATIVE_DERIVATION; source derives its bisection, period and polar operations."
+    },
+    {
+      "repository": "Parveen117/RH-Framework",
+      "commit": "c588ded973a395b5fce37c82f670616160979a2e",
+      "path": "theorems/foundation/F00K_NATIVE_POLAR_DECOMPOSITION_AND_COMPLEX_LOG.md",
+      "git_blob_sha": "884d6407ab2149e6d8f3f207ec229c2ab0709c7e",
+      "sha256": "247aa78cce28bb71b9b8f4cb214246ebd046381a0ceed7f72485bd0cffd64b07",
+      "id": "RH-F00K",
+      "url": "https://github.com/Parveen117/RH-Framework/blob/c588ded973a395b5fce37c82f670616160979a2e/theorems/foundation/F00K_NATIVE_POLAR_DECOMPOSITION_AND_COMPLEX_LOG.md",
+      "evidence": "PINNED_WRITTEN_NATIVE_THEOREM_READ; NO_NEW_FORMAL_OR_INDEPENDENT_NUMERIC_CERTIFICATE",
+      "premises": "Native Euler series, completed ordered cut field, radial logarithm; F00K additionally uses the F00J period. Scalar sector only, not full UGD history.",
+      "classical_mathematical_import": "NONE_IN_STATED_NATIVE_DERIVATION; source derives its bisection, period and polar operations."
+    },
+    {
+      "path": "proof_lab/native_operator_algebra/CUT_DERIVED_SCALAR_COMPLETION_THEOREM.md",
+      "git_blob_sha": "7499376b8127abc857caef27d0a445ce773e094d",
+      "url": "https://github.com/Parveen117/MP/blob/feedfca094aa557086a612a0736aaffc07ab1ae4/proof_lab/native_operator_algebra/CUT_DERIVED_SCALAR_COMPLETION_THEOREM.md",
+      "repository": "Parveen117/MP",
+      "commit": "feedfca094aa557086a612a0736aaffc07ab1ae4",
+      "sha256": "182f3d0b59a8724c58cba1653aefd7233992015e2c7c8490a2f2393983913be5",
+      "visibility": "PRIVATE; CITATION_METADATA_ONLY, SOURCE_BODY_NOT_REPUBLISHED",
+      "id": "MP-NR7-NR8",
+      "evidence": "WRITTEN_NATIVE_SIGNED_REFINEMENT_FIELD_AND_CAUCHY_COMPLETION",
+      "premises": "Finite cuts, signed/refinement quotient, oriented two-role plane. Source DEFINES quarter-turn action in section 3, then proves its square; C4 supplies the role construction here. It is not a proof of unrestricted raw chi/kappa closure.",
+      "classical_mathematical_import": "NONE_AS_PRIMITIVE_SCALAR_INPUT; completion/universal-property proof language declared; later comparison with ordinary complex numbers is a shadow identification."
+    },
+    {
+      "path": "proof_lab/native_operator_algebra/UGD_CUT_SCALAR_QUOTIENT_THEOREM.md",
+      "git_blob_sha": "0924dd3f140553b0fe5e5b0f3141390f07912316",
+      "url": "https://github.com/Parveen117/MP/blob/feedfca094aa557086a612a0736aaffc07ab1ae4/proof_lab/native_operator_algebra/UGD_CUT_SCALAR_QUOTIENT_THEOREM.md",
+      "repository": "Parveen117/MP",
+      "commit": "feedfca094aa557086a612a0736aaffc07ab1ae4",
+      "sha256": "31d7b5a6b9bf8b1606f8c6c9b901be9fd4ff29e9e8d7670dd9bf30fcf728b0f5",
+      "visibility": "PRIVATE; CITATION_METADATA_ONLY, SOURCE_BODY_NOT_REPUBLISHED",
+      "id": "MP-NR9",
+      "evidence": "WRITTEN_NATIVE_UGD_SCALAR_SHADOW_QUOTIENT",
+      "premises": "Declared associative UGD law, native completed scalar field, native exponential and phase/polar apparatus. Kernel is pure memory; quotient is not full UGD.",
+      "classical_mathematical_import": "No classical scalar substitution is used here; group quotient is an algebraic comparison with its stated group inputs. Not used to prove raw cut axioms."
+    },
+    {
+      "path": "proof_lab/native_operator_algebra/UGD_NORMALIZED_MEMORY_GROUP_THEOREM.md",
+      "git_blob_sha": "ea860cc8f471afc02b0dcfb3c9947c4adb3612dd",
+      "url": "https://github.com/Parveen117/MP/blob/feedfca094aa557086a612a0736aaffc07ab1ae4/proof_lab/native_operator_algebra/UGD_NORMALIZED_MEMORY_GROUP_THEOREM.md",
+      "repository": "Parveen117/MP",
+      "commit": "feedfca094aa557086a612a0736aaffc07ab1ae4",
+      "sha256": "d562e1275c81555729a423e5d429a4aa1629481350a6c12d09e7c2133de08df1",
+      "visibility": "PRIVATE; CITATION_METADATA_ONLY, SOURCE_BODY_NOT_REPUBLISHED",
+      "id": "MP-NR13",
+      "evidence": "EXCLUDED_LATER_ANALYTIC_EXTENSION; CITED_FOR_BOUNDARY_ONLY",
+      "premises": "Declared normalized UGD potential cocycle and specified continuous seam-glued group topology.",
+      "classical_mathematical_import": "IMPORTED_ANALYTIC_MACHINERY: ordinary Haar measure, continuous L1/L2 group integration and Young-type inequalities in later sections. Not a dependency of C1-C14 or N1-N4."
+    }
+  ],
+  "analytic_replays": [
+    {
+      "id": "F00_F00E_EULER_V0_1",
+      "verifier": "certificates/foundation/F00_F00E_EULER_V0_1/verify.py",
+      "passing_status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+      "expected_canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5"
+    },
+    {
+      "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+      "verifier": "certificates/foundation/F00GHI_LOG_ARITHMETIC_ZETA_V0_1/verify.py",
+      "passing_status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+      "expected_canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd"
+    }
+  ],
+  "local_files": [
+    {
+      "path": "README.md",
+      "sha256": "f12f79e6ca8bf2c574a75f0892a1a660255e4f49a3ce760d49eefae0477d531f",
+      "git_blob_sha": "1471413d5bb6a027bee7b63f224d5ddcf587ccaa"
+    },
+    {
+      "path": "emk_topology_foundation.tex",
+      "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c",
+      "git_blob_sha": "87d95f6c5547cf75dd779f949f7c24f364c545d6"
+    },
+    {
+      "path": "emk_topology_foundation.pdf",
+      "sha256": "b6596d9ad4403abe6564fa06dbc08a2833b4b1e9b20869016b42ef2402737484",
+      "git_blob_sha": "cb59ad5ac88aa65d81ee5ed655d6dce672daceaa"
+    },
+    {
+      "path": "claim_dispositions.tex",
+      "sha256": "06016233566fc840323c465e3a8d9135a0c9bb56cdf2bf95fd930998283f3a5a",
+      "git_blob_sha": "af2475a5a1f9935929e5e8c555fc466d69285db4"
+    },
+    {
+      "path": "source/emk_topology.original.tex",
+      "sha256": "55f449e7eb3a2bde9e77193f595a6a5eeff3923da2bea076d00f0e9907b8cebd",
+      "git_blob_sha": "764019fbe922e6e34dc4bee4b4ba2e8f9c2b1b64"
+    },
+    {
+      "path": "certificate/CORE_LEDGER.json",
+      "sha256": "c166ac64b8ef1041e8582542f070255bd896d3f51b438f4ceca8a570008cf689",
+      "git_blob_sha": "e31b8360de4ed66a48da7d2871abc8db47a38fb9"
+    },
+    {
+      "path": "certificate/ORIGINAL_CLAIM_LEDGER.json",
+      "sha256": "472e2e09a41154c12e9a14788575e3f4e1d30f9ab7b3fc14f87bb6cc4c0ec7a7",
+      "git_blob_sha": "3ba0a976fc6bd4f41a4512df70156df01f6737ca"
+    },
+    {
+      "path": "certificate/checks.py",
+      "sha256": "d1f019a6f1343a16ae4a361bd13561b032c0f74709b75fe22f21338fc47bfef9",
+      "git_blob_sha": "ccf6ae42a3f89c3b99525f696fe1141e60fa19ad"
+    },
+    {
+      "path": "certificate/native_bridge.cjs",
+      "sha256": "5b4f89312b27a142459344dcf8f41f1df8145cef6ddbab4195ac3557e5bf120d",
+      "git_blob_sha": "0378b866e52c6b0bb563b6d67d2efa6b53c35f1f"
+    },
+    {
+      "path": "certificate/verify.py",
+      "sha256": "d4a6180e1d9025a009925d3a6971484259e46faa46c764d1011aa7f15d871ee0",
+      "git_blob_sha": "5315900220a3245ac3c59581b7bcff4b87e6d856"
+    }
+  ],
+  "output_policy": "SOURCE_PINS binds inputs and the shipped PDF. VERIFICATION and NATIVE_REPLAY are reproducible outputs; they are not inputs to their own proof checks.",
+  "evidence_boundary": "Hashes certify source identity, exact checks certify their specified finite/linear claims, written proofs support the general constructions. No formal proof assistant or external peer review asserted.",
+  "source_freedom_claim": "No ordinary complex field, Hilbert space, continuum geometry or physical law is a primitive mathematical object of this core. Explicit proof metatheory and construction choices remain declared.",
+  "extra_work_integration_performed": false,
+  "upstream_engine_copied_or_modified": false
+}

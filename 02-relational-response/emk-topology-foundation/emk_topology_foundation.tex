@@ -1,0 +1,664 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,mathtools}
+\usepackage[margin=25mm]{geometry}
+\usepackage{microtype,longtable,array,booktabs,enumitem}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\hypersetup{pdftitle={EMK Constructive Cut Foundation},pdfauthor={Monty Dabas research programme}}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newcommand{\Hist}{\mathcal H}
+\newcommand{\Qcut}{\mathbb Q_\Sigma}
+\newcommand{\Rcut}{\mathbb R_\Sigma}
+\newcommand{\Kcut}{\mathbb K_\Sigma}
+\newcommand{\Id}{\mathrm I}
+\newcommand{\End}{\operatorname{End}}
+\newcommand{\Span}{\operatorname{span}}
+\newcommand{\cut}{\kappa}
+\newcommand{\selfcut}{\chi}
+\setlength{\emergencystretch}{3em}
+\setlist{nosep}
+\title{EMK Constructive Cut Foundation\\
+\large Typed records, native operators, iota, recognition geometry and completion}
+\author{Research programme: Monty Dabas\\\small Corrective mathematical edition}
+\date{1 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We construct an explicit foundation from finite typed records of cut and
+self-cut. Cut counts supply signed refinement scalars. The two recorded roles
+supply parity and exchange maps whose composition has a derived four-cycle and
+square minus identity; no complex field or cyclic phase alphabet is an input.
+The complex-like scalar sector is subsequently recovered inside the larger
+operator algebra. Finite recognition depth supplies idempotent apertures,
+a prefix topology, a native ultrametric and a complete history space. Full
+history remains distinct from operator or scalar shadow. Exact comparison-loop
+residues characterize path-independent increments.
+
+This is a \emph{corrected constructive theory}, not a proof of the original
+manuscript's unrestricted three-prose-axiom claim. The typed recursion and
+completion operations are stated explicitly. In particular, closure of the
+constructed role operators is not literal closure of arbitrary primitive acts.
+Every theorem in the new core has a written proof or an identified native
+analytic dependency. Exact finite certificates and source hashes accompany it;
+no proof-assistant verification or physical identification is claimed.
+\end{abstract}
+\bigskip
+
+\section{The source, and what has been corrected}
+\label{sec:source}
+The input manuscript \texttt{emk\_topology.tex} has SHA-256
+\begin{quote}\ttfamily\small
+55f449e7eb3a2bde9e77193f595a6a5eeff3923da2bea076d00f0e9907b8cebd.
+\end{quote}
+It introduces a ground, a cut from the ground, and a self-cut on the trace of
+a cut. Later it applies both acts recursively to all appearances, identifies
+their product with an involution, and derives further structures from that
+identification. Those are different mathematical assertions.
+
+The present source is the \emph{free typed realization of the stated recursion}.
+There are sorts Ground, History and Trace. A first-cut constructor gives a
+seed $p_0$ from the ground. There is a history-extension constructor $k$;
+recording a history gives its trace; a self-cut applied to that trace gives
+the constructor $c$. Thus subsequent histories are finite words in the two
+event tags $k,c$, based at $p_0$.
+
+The history with no \emph{additional} event is denoted $\epsilon$.
+It is the post-cut seed $p_0$, not the pre-cut ground and not absence of an
+object. Zero additional cut count therefore does not identify the ground
+with a scalar zero. The map from histories to their count is explicitly a
+summary, not history equality.
+
+The extension and trace constructors make the manuscript's recursive domain
+use precise. They are a stated formalization, not a theorem that its original
+prose uniquely forces this formalization. The proof language uses logical
+equality, finite records, functions, subsets and induction. These are declared
+metamathematical infrastructure. No ordinary complex numbers, spacetime,
+metric, noise distribution or physical clock is an initial object.
+
+\begin{theorem}[C1: Free record and evaluation theorem]
+\label{thm:free}
+Finite based records form a free monoid under concatenation. Every assignment
+of the two tags to composable endomaps has a unique evaluation preserving
+concatenation and the empty record. For general typed arrows, the analogous
+construction has separate local identity paths and composition only at
+matching endpoints.
+\end{theorem}
+\begin{proof}
+The empty record must evaluate to the appropriate identity. Removing the last
+tag of a nonempty record leaves a shorter record; its value and the value of
+the final tag determine the evaluation. Induction gives existence and
+uniqueness. Concatenation is associative because either parenthesization gives
+the same ordered list. Typed endpoint matching proves the same statement
+object by object.
+\end{proof}
+
+\begin{proposition}[C2: What primitive naming does not prove]
+\label{thm:gap}
+The free record $ckck$ is not the empty record. The equation
+$(\selfcut\cut)^2=\Id$ is not a consequence of specifying two composable acts.
+\end{proposition}
+\begin{proof}
+The two records have different lengths. Alternatively, take three appearances
+and maps $\cut=(1,2,0)$, $\selfcut=(0,1,2)$ in table notation. The composite
+squared sends $0$ to $2$, not $0$. A separate initial cut can still create
+the seed $0$. Thus even the totalized algebraic reading permits failure of
+the claimed equation.
+\end{proof}
+The result below derives closure on a \emph{constructed role carrier}. It does
+not erase this counterexample or silently reinterpret a literal primitive
+identity. This distinction is part of the certificate.
+
+\section{Counts, signs and refinement before scalar coordinates}
+\label{sec:counts}
+Let a cut count be the length of a finite string of identical counting marks.
+The empty counting string has count zero and appending a mark is successor.
+Disjoint concatenation defines addition; replacing each mark by a copy of a
+second counting string defines multiplication.
+
+\begin{theorem}[C3: Signed and refined cut counts]
+\label{thm:counts}
+Signed pairs $(p,n)$ modulo
+\[
+(p,n)\sim(p',n')\quad\Longleftrightarrow\quad p+n'=p'+n
+\]
+form a commutative ordered ring of signed cut counts. Refinement packets
+$[a:b]_\Sigma$, with signed $a$ and positive count $b$, modulo
+$ab'=a'b$, form an ordered field $\Qcut$ under
+\[
+[a:b]+[u:v]=[av+ub:bv],\qquad [a:b][u:v]=[au:bv].
+\]
+\end{theorem}
+\begin{proof}
+Concatenation and rectangular replication give associative, commutative count
+addition and multiplication, with distributivity, by matching finite positions.
+Count cancellation follows by removing equal initial blocks, and induction
+compares any two counts. Adding signed pairs componentwise and setting
+$(p,n)(u,v)=(pu+nv,pv+nu)$ respects the displayed relation by expansion.
+The swapped pair is the additive inverse. The sign of the difference is
+well-defined by count comparison. A product of two positive nonzero differences
+is positive, so there are no zero divisors.
+
+Cross-multiplication shows the refinement relation is reflexive and symmetric;
+transitivity uses cancellation of its positive common denominator. Expanding
+the two operation formulas shows independence of representatives. The field
+laws follow by putting finitely many operands over a common positive
+denominator and using the signed ring laws. For nonzero $[a:b]$, interchange
+numerator and denominator and move any denominator sign to the numerator;
+the resulting product is one. Cross-multiplied signs give the field order.
+\end{proof}
+Opposite signs cancel in the \emph{coefficient ledger}. They do not delete the
+underlying cut-event record or physically undo an irreversible cut. This is
+the native count/refinement content credited to MP NR-7 in the source ledger.
+
+\section{A four-cycle derived from the two cut roles}
+\label{sec:roles}
+Form the free signed ledger on the two distinct recorded roles
+$e_k,e_c$. After refinement, denote it
+$V=\Qcut e_k\oplus\Qcut e_c$. This is an additive construction on tags;
+its elements are not asserted to be all UGD states.
+
+Role exchange and role parity are the following explicitly constructed maps:
+\[
+K e_k=e_c,\quad K e_c=e_k,\qquad
+H e_k=e_k,\quad H e_c=-e_c.
+\]
+Exchange is induced by the swap of the two tags. Parity takes the additive
+inverse of the self-cut-role count, while leaving the cut-role count fixed.
+Their extension is unique by additivity. The order of the named roles fixes
+the displayed orientation convention; reversing it reverses the quarter-turn.
+
+\begin{theorem}[C4: Native role-operator closure]
+\label{thm:roles}
+Define $R=KH$. Then, on every signed/refined role ledger,
+\[
+H^2=K^2=\Id,\qquad R^2=-\Id,\qquad R^4=\Id,
+\qquad KR=-RK.
+\]
+The orbit of $e_k$ under $R$ is precisely
+$e_k,e_c,-e_k,-e_c,e_k$. The group generated by $H,K$ consists of the
+eight signed permutations $\pm\Id,\pm H,\pm K,\pm R$.
+\end{theorem}
+\begin{proof}
+Directly on the two free generators,
+$Re_k=e_c$ and $Re_c=-e_k$. Applying twice negates each generator, and
+applying four times fixes each. Exchange and parity each square to identity.
+Also $KRe_k=e_k=-RKe_k$ and $KRe_c=-e_c=-RKe_c$, proving anticommutation.
+Additivity extends each identity to every ledger.
+
+All products reduce to the eight listed signed permutations using these
+relations. Their images of the two generators are pairwise distinct; each
+listed permutation is generated by $H,K$. Thus the list is exact.
+\end{proof}
+Here the number four is an \emph{output}, not a supplied phase-alphabet size.
+The constructed maps are definitions on the free role completion; the
+closure equations are their proved consequences. No theorem has identified
+these maps with every possible physical realization of primitive acts.
+
+The free evaluation of Theorem~\ref{thm:free} permits the assignment
+$k\mapsto H$, $c\mapsto K$. Its image of the composite $ck$ is $R$.
+Under this particular interpretation $(ck)^2$ acts as $-\Id$, and
+$(ck)^4$ acts as $\Id$. Four quarter-turns therefore mean eight alternating
+primitive-tag occurrences here. They are not the upload's asserted four
+primitive-tag identity. This correction prevents an off-by-two cycle claim.
+
+\section{The larger operator algebra and its scalar sector}
+\label{sec:scalars}
+\begin{theorem}[C5: Algebra and recovered scalar sector]
+\label{thm:scalars}
+The algebra generated by the role operators is all $\End_{\Qcut}(V)$, with
+basis $\Id,K,R,RK$. The operators commuting with $R$ are precisely
+\[
+\Kcut^0=\{a\Id+bR:a,b\in\Qcut\}.
+\]
+This commutative sector is a field, with derived element $\iota=R$,
+\[
+\iota^2=-1,\quad
+(a+b\iota)(c+d\iota)=(ac-bd)+(ad+bc)\iota,
+\quad
+(a+b\iota)^{-1}=\frac{a-b\iota}{a^2+b^2}
+\]
+for nonzero $a+b\iota$.
+\end{theorem}
+\begin{proof}
+Read the two generator images after constructing the operators. Their output
+coordinate arrays are
+\[
+\Id=\begin{pmatrix}1&0\\0&1\end{pmatrix},\quad
+K=\begin{pmatrix}0&1\\1&0\end{pmatrix},\quad
+R=\begin{pmatrix}0&-1\\1&0\end{pmatrix},\quad
+RK=\begin{pmatrix}-1&0\\0&1\end{pmatrix}.
+\]
+They span all four independent array positions because division by two exists
+in $\Qcut$. Comparing the two images in $AR=RA$ forces an arbitrary array
+$A$ to have equal diagonal entries and opposite off-diagonal entries, hence
+$A=a\Id+bR$. Its product law follows from $R^2=-\Id$. It is closed and
+commutative. The positive ordered-cut expression $a^2+b^2$ vanishes only
+when both coefficients vanish. Multiplying by the displayed inverse gives
+identity. Associativity and distributivity come from composition and addition
+of the constructed maps.
+\end{proof}
+These arrays are outputs of the free-generator calculation. They were not
+assumed as primitive geometry. Further, $R$ is central in $\Kcut^0$ but not
+in the full algebra: it anticommutes with $K$. The scalar sector therefore
+cannot replace the noncommuting algebra or the full UGD state.
+
+\section{Pairing, dagger, seam and operator curvature}
+\label{sec:pairing}
+Coefficient matching of the two recorded roles defines
+\[
+B(ae_k+be_c,ue_k+ve_c)=au+bv,\qquad
+\omega(ae_k+be_c,ue_k+ve_c)=av-bu.
+\]
+\begin{theorem}[C6: Native pairing and compatible orientation]
+\label{thm:pairing}
+$B$ is bilinear, symmetric and positive definite. It is preserved by $H,K,R$.
+The oriented form satisfies $\omega(x,y)=B(Rx,y)$. Within the scalar sector,
+orientation reversal gives
+\[
+(a+b\iota)^\dagger=a-b\iota,\quad
+z^\dagger z=a^2+b^2,\quad
+N(zw)=N(z)N(w).
+\]
+\end{theorem}
+\begin{proof}
+Bilinearity and symmetry follow by distributivity. Its diagonal is the sum
+of the two signed-cut squares, positive for a nonzero ledger. Sign changes
+and tag exchange preserve matched products, hence so does their composite.
+Substitution of $Rx=-be_k+ae_c$ gives the oriented-form identity. Reversing
+the quarter-turn changes $R$ to $-R$; expansion proves the dagger laws and
+the norm-square identity. Expanding the product norm gives
+$(a^2+b^2)(c^2+d^2)=(ac-bd)^2+(ad+bc)^2$.
+\end{proof}
+The pairing is derived from this marked-role counting construction. It is
+not declared to be a universal physical spacetime metric, nor automatically
+the pairing on every future UGD or morphic module.
+
+\begin{theorem}[C7: Seam aperture and genuine mixed curvature]
+\label{thm:seam}
+The fixed seam of $K$ is $\Qcut(e_k+e_c)$, including both signs. Put
+$P=(\Id+K)/2$ and $Q=(\Id-K)/2$. Then
+\[
+P^2=P,\quad Q^2=Q,\quad PQ=QP=0,\quad P+Q=\Id.
+\]
+The native mixed order defect is $[R,K]=2RK\ne0$, whereas $[K,K]=0$.
+For any two endomaps $A,B$ of $V$,
+\[
+PABP-(PAP)(PBP)=PAQBP.
+\]
+\end{theorem}
+\begin{proof}
+Exchange fixes exactly equal role coefficients. Expand the projector
+expressions using $K^2=\Id$. Anticommutation gives the mixed defect; its
+value on $e_k$ is $-2e_k$, which is nonzero. The final identity follows by
+inserting $\Id=P+Q$ between $A$ and $B$.
+\end{proof}
+The last formula credits the existing native cut-corner theorem. It identifies
+the returning omitted component algebraically, without assigning a probability
+law or physical noise mechanism. That later work remains separate.
+
+\section{Cut-Cauchy scalar completion and native analytic dependencies}
+\label{sec:analytic}
+Define $D(a+b\iota)=|a|+|b|$ in the ordered cut field. Direct expansion
+proves the triangle inequality and $D(zw)\le D(z)D(w)$.
+
+\begin{theorem}[C8: Complete native coefficient field]
+\label{thm:completion}
+Cut-Cauchy sequences in $\Kcut^0$, modulo differences tending to zero in
+every positive rational-cut radius for $D$, form a complete field $\Kcut$.
+Termwise addition, multiplication and dagger are well-defined, and the
+constant-sequence map embeds $\Kcut^0$ densely. The radial component is
+the ordered Archimedean completion $\Rcut$ of $\Qcut$. Each nonnegative
+radial scalar has a unique nonnegative square root, and $\sqrt{N(z)}$
+is a multiplicative norm defining the same completion.
+\end{theorem}
+\begin{proof}
+A Cauchy sequence is bounded: after its Cauchy threshold it stays within one
+unit of a fixed term, and finitely many earlier terms have a common count
+bound. The two inequalities above show that sums and products of Cauchy
+sequences are Cauchy and that changing either by a null sequence changes
+the result by a null sequence. Dagger preserves $D$.
+
+A nonzero Cauchy class has some positive rational $\epsilon$ for which
+arbitrarily late terms have $D\ge\epsilon$. Choose a Cauchy tail whose
+pairwise differences have $D<\epsilon/2$. Comparison with a later large
+term shows every term of that tail has $D\ge\epsilon/2$. Write this lower
+bound as $\delta$. Since $a^2+b^2\ge(|a|+|b|)^2/2$, the inverse formula
+gives $D(z^{-1})\le2/\delta$. Consequently
+\[
+D(z_n^{-1}-z_m^{-1})\le(4/\delta^2)D(z_n-z_m).
+\]
+Tail inverses are Cauchy and give the inverse class; finitely many initial
+choices do not affect it.
+
+Every class is approximated by sufficiently late individual terms of a
+representative, so constant cut scalars are dense. For completeness,
+approximate the $j$th member of a Cauchy sequence of
+classes by a rational-cut element within $2^{-j}$. Enumerate rational-cut
+pairs by increasing total numerator/denominator count, breaking ties by
+the ordered role tags. Density supplies an eligible element; select the
+first eligible element of this fixed enumeration. Here radius comparison
+between classes means eventual comparison of representative differences,
+with strict rational slack, so it is independent of representatives. No
+simultaneous choice of representatives is required. The approximating
+elements are Cauchy by the triangle inequality and their class is the limit.
+Constant sequences are injective because a
+nonzero exact cut scalar has a positive rational separation from zero.
+
+Radial sequences remain radial under these operations. Their nonnegative
+cone is the closure of the nonnegative rational cuts; comparison by rational
+separation gives a proper total order. A Cauchy representative is bounded
+by a finite cut count, proving the Archimedean property. Componentwise
+construction identifies the full completed field with two radial components
+and the already derived multiplication law, without taking ordinary
+$\mathbb C$ as input.
+
+For a nonnegative radial $s$, choose a count $M>s+1$. Bisect $[0,M]$,
+keeping the half whose squared endpoints bracket $s$. The nested endpoints
+are Cauchy because their separation is $M2^{-n}$. Their common limit $u$
+satisfies $u^2=s$, since products respect limits. If $0\le u<v$, then
+$v^2-u^2=(v-u)(v+u)>0$, proving uniqueness. Thus square root is constructed,
+not imported. Finally
+$(ac+bd)^2\le(a^2+b^2)(c^2+d^2)$ follows by subtracting to obtain
+$(ad-bc)^2\ge0$. Expanding $N(z+w)$ and taking the nonnegative roots gives
+the triangle inequality for $\sqrt N$. Positivity and multiplicativity
+follow from Theorem~\ref{thm:pairing}. The inequalities
+$N\le D^2\le2N$ prove agreement of their Cauchy notions.
+\end{proof}
+This is the constructive content of MP NR-7/NR-8; the original oriented-plane
+input has here been supplied by Theorem~\ref{thm:roles}. Norm-square and $D$
+neighborhoods agree because $N\le D^2\le2N$, so their completions coincide.
+
+The following \emph{native analytic results are cited, not re-proved or
+presented as a new formal certification here}: RKF F00/E (N1) constructs the
+factorial-series exponential and Euler identities on this completed field;
+F00G (N2) constructs the positive logarithm and proves its product law; RH F00J
+(N3) constructs the fundamental circular period, and F00K (N4) proves scalar polar
+decomposition and the branch logarithm. Their exact files, commits and
+premises are in the source ledger. The coefficient and completion inputs
+are supplied above. They do not select a physical angle trajectory or make
+a scalar logarithm single-valued on full loop histories.
+
+For clarity, the radial monotonicity input of F00G needs no additional
+classical calculus result: for $t>0$ the native exponential series gives
+$\operatorname{Exp}_\Sigma(t)>1$. The exponential group law gives positivity
+also for negative $t$ by reciprocation. For $y>x$, it then gives
+$\operatorname{Exp}_\Sigma(y)=\operatorname{Exp}_\Sigma(x)
+\operatorname{Exp}_\Sigma(y-x)>\operatorname{Exp}_\Sigma(x)$.
+
+\section{Recognition depth, topology and a native history metric}
+\label{sec:history}
+For a finite history $h$, read its two-tag word followed by an end marker
+$\bot$, repeated after termination. The marker is a record of termination,
+not the pre-distinction ground. Recognition at depth $n$ reads the first
+$n$ symbols of this padded record. Two histories are fully recognized as
+equal exactly when every finite readout agrees.
+
+\begin{theorem}[C9: Recognition equality and prefix topology]
+\label{thm:topology}
+Full finite-depth recognition is equality of histories. Sets fixing a finite
+readout form a clopen basis for a topology $\tau_{\rm rec}$. This is the
+coarsest topology in which every finite recognition map into its finite
+discrete record set is continuous.
+\end{theorem}
+\begin{proof}
+Unequal words differ at a symbol or at the first termination of the shorter
+word, so some finite readout separates them. A finite readout cylinder is
+partitioned by the next-symbol cylinders. Intersections of compatible
+cylinders are the longer cylinder; incompatible intersections are empty.
+This proves the basis laws. The complement of a cylinder is a union of the
+other cylinders at that depth, so it is clopen. Any topology making those
+finite maps continuous contains every cylinder; their union/intersection
+closure proves the claimed minimality.
+\end{proof}
+On finite histories this topology is discrete: reading through a finite
+history's end marker isolates it. The same cylinders have a nontrivial
+boundary topology on completed infinite histories below. The forward-invariant
+topology of cut reachability is another construction and must not be
+identified with this recognition topology.
+
+\begin{theorem}[C10: Derived prefix ultrametric]
+\label{thm:metric}
+Let $\ell(h,g)$ be the length of the common prefix before the first
+differing tag or end marker. Set
+\[
+d(h,g)=\begin{cases}0&h=g,\\2^{-\ell(h,g)}&h\ne g.\end{cases}
+\]
+Then $d$ is a metric with the stronger triangle inequality
+\[
+d(h,u)\le\max\{d(h,g),d(g,u)\}.
+\]
+It generates $\tau_{\rm rec}$. Prepending the same cut halves nonzero
+distance; appending the same cut is non-expansive.
+\end{theorem}
+\begin{proof}
+Symmetry and separation follow from first difference. If each of two pairs
+agrees on its first $n$ symbols, so does the third pair. Hence
+$\ell(h,u)\ge\min(\ell(h,g),\ell(g,u))$, which is the displayed inequality.
+A ball $d(h,g)<2^{-n}$ fixes symbols through index $n$. Conversely every
+finite cylinder contains a ball at each of its members. Thus the topologies
+agree. Prepending adds one to the common-prefix length. Appending cannot
+destroy a previously matching prefix, including when one original word ends
+first; hence it cannot increase distance.
+\end{proof}
+The factor $1/2$ uses the native halving refinement of cut counts; it is an
+explicit normalization, not a number forced uniquely by the tag alphabet.
+More generally any rational $0<r<1$ in place of $1/2$ yields the same prefix
+topology. The numerical calibration is therefore a construction convention,
+not a selected physical length scale. This metric measures recorded
+distinguishability; it is not claimed to be Riemannian curvature geometry.
+
+\section{History completion, Eye apertures and the tower}
+\label{sec:history-completion}
+Adjoin infinite two-tag histories to the finite histories. A completed record
+either has no end marker, or from its first end marker onward has only end
+markers. Extend the prefix metric by the same first-difference rule.
+
+\begin{theorem}[C11: Exact history completion]
+\label{thm:history-completion}
+The resulting space $\overline{\Hist}$ is complete, and finite histories are
+dense. It is the metric completion of the finite source records.
+\end{theorem}
+\begin{proof}
+In a Cauchy sequence, each finite prefix eventually stabilizes: take a radius
+smaller than the corresponding dyadic separation. The stabilized prefixes
+are compatible. If an end marker occurs, no later symbol can be a cut tag,
+because every sufficiently late original record obeys this finite condition.
+They therefore specify exactly one permitted finite or infinite history.
+Prefix stabilization is precisely convergence to it. Every infinite history
+is approximated within $2^{-n}$ by its finite length-$n$ truncation; finite
+ones already belong to the dense source. The same description shows that
+equivalent Cauchy sequences have the same limit profile, establishing the
+completion identification directly.
+\end{proof}
+
+\begin{theorem}[C12: A correctly typed Eye hierarchy]
+\label{thm:eye}
+Let $E_n:\overline{\Hist}\to\overline{\Hist}$ truncate a history after at
+most $n$ tags, retaining the result as an actual finite record. Then
+\[
+E_n^2=E_n,\qquad E_mE_n=E_{\min(m,n)},\qquad
+d(E_nh,h)\le2^{-n}.
+\]
+Every history is recovered uniquely from its coherent truncations. Each
+$E_n$ is non-expansive. There is no finite $n$ that recovers every history.
+\end{theorem}
+\begin{proof}
+Truncating twice keeps the shorter limit, proving the two algebraic identities.
+The truncated and original records agree in the first $n$ positions unless
+already equal, proving the error bound. Identical coherent truncations fix
+every symbol, hence the whole history; the bound proves convergence back to
+that history. Truncation preserves any common prefix up to its cutoff and
+otherwise makes the results equal, proving non-expansiveness. Histories
+$k^n$ and $k^nc$ have equal $E_n$ and are distinct.
+\end{proof}
+These are endomaps with a common domain, so idempotence is genuinely typed.
+For $m>n$, $E_m\ne E_n$ globally, as witnessed by a sufficiently long history.
+A particular short history may stabilize. Thus the global hierarchy can be
+strict without falsely requiring every individual state to change at every
+level. It is a refinement tower, not powers of one involution.
+
+\section{State return, history return and lifted phase}
+\label{sec:memory}
+\begin{theorem}[C13: No loss of cut history at operator return]
+\label{thm:memory}
+An evaluated operator word can be identity while its based event record is
+nonempty. For the derived quarter-turn, four $R$ occurrences return every
+role ledger but leave four operation records. For $n$ positive quarter-turn
+occurrences there is a unique decomposition $n=4w+r$, $0\le r<4$, with
+composition law
+\[
+(r,w)(s,v)=((r+s)\bmod4,\ w+v+\lfloor(r+s)/4\rfloor).
+\]
+\end{theorem}
+\begin{proof}
+The role return follows from $R^4=\Id$; a four-letter word is not the empty
+word by Theorem~\ref{thm:free}. Repeatedly remove complete four-mark blocks
+to obtain the unique remainder and count. Adding two counts gives the formula,
+whose associativity is inherited from count addition. Forgetting $w$ sends
+the counts zero and four to the same phase but erases their difference.
+\end{proof}
+The full word contains more than its loop count. UGD phase/scale/seam objects
+must retain their active memory rather than be replaced by the scalar sector
+of Theorem~\ref{thm:scalars}. MP NR-9 proves the appropriate scalar-shadow
+quotient for its declared UGD law; it does not equate that quotient with the
+full UGD state. No identification of all history words with a single seam
+integer is made here.
+
+Cut count gives an internal event index. Histories form a prefix order in
+which extension increases that count. Different branches need not be ordered
+as one physical time line. Neither event count nor a finite endpoint orbit
+establishes a continuous physical clock or a helical spacetime manifold.
+
+\section{Complete path-equality criterion from comparison residues}
+\label{sec:paths}
+Let a finite cut graph have oriented edges and a
+signed/refined increment $a_e$ on each edge. Formal reversed traversal carries
+$-a_e$. Reversal is a \emph{comparison of records}, not a physical reverse
+operation that erases a cut. Choose a spanning forest by exploring finite
+paths. Put a potential $F$ at zero on each root and integrate increments
+along the unique tree paths.
+
+\begin{theorem}[C14: Exactness and the full loop ledger]
+\label{thm:paths}
+For every edge $e:x\to y$ define $r_e=a_e-(F(y)-F(x))$.
+Tree-edge residues vanish. The following are equivalent:
+\begin{enumerate}[label=(\roman*)]
+\item every edge increment is a potential difference;
+\item the increment sum of every closed comparison walk is zero;
+\item every non-tree residue $r_e$ is zero.
+\end{enumerate}
+There are $|E|-|V|+b$ independent fundamental comparison cycles, where $b$
+is the number of connected components. Same endpoints alone do not force
+equal increments.
+\end{theorem}
+\begin{proof}
+Potential differences telescope on every walk, proving (i) implies (ii).
+The tree path from a root to $x$, followed by $e$, then the reversed tree
+path from $y$, has sum $r_e$, proving (ii) implies (iii). By the definition
+of $F$, tree increments are already its differences, so (iii) gives (i).
+
+Each non-tree edge yields one such cycle with coefficient one on that edge
+and zero on other non-tree edges; hence these cycles are independent. Subtract
+these cycles from any signed cycle to leave a cycle supported on a forest.
+At a leaf its incident coefficient must be zero. Repeated leaf removal proves
+the remainder zero. A forest has $|V|-b$ edges, giving the stated count.
+\end{proof}
+This supplies a complete finite criterion, including global periods; checking
+only one local commutator is insufficient. A directed diamond has no directed
+cycle but can have unequal sums on its two routes. A four-edge phase loop
+with unit increments has lifted sum four despite endpoint return. In a later
+native logarithm chart the analogous loop period must likewise be retained.
+For the graph actually generated by the eight signed role operators and
+left multiplication by $H,K$, there are eight vertices and sixteen directed
+edges, hence nine independent comparison cycles. Its potential basis and
+every chord defect are included in the certificate.
+
+\section{What the completed core does and does not certify}
+\label{sec:status}
+The new core consists of Theorems/Propositions C1--C14 above. Each has a
+stated construction and proof. Its mathematical inputs are the typed free
+cut-record realization, the declared proof language and the explicit
+completion operations. The analytic extensions in Section~\ref{sec:analytic}
+are named existing native results with their own evidence levels.
+
+The original claim that \emph{arbitrary} acts named first-cut and self-cut
+force all later structures remains false or unproved as recorded in the
+claim ledger. The new construction is not logically interchangeable with
+that universal statement. In particular:
+\begin{itemize}
+\item the four-cycle is proved on the constructed signed role carrier;
+\item the source's asserted raw $(\selfcut\cut)^2=\Id$ is not restored;
+\item topology and metric are the constructed recognition geometry, not an
+  automatic thermodynamic manifold;
+\item Maxwell relations, Legendre potentials, Onsager response, physical
+  event probabilities and an infinite helix are not certified from a graph
+  cycle or operator notation;
+\item the full UGD seam state is not equated with a complex scalar;
+\item no RH, Yang--Mills continuum or physical-constant claim is added.
+\end{itemize}
+Removing an incorrect theorem from the active core is a documented correction,
+not proof of the original theorem. The original file and all 48 dispositions
+remain available alongside this edition. Thus \emph{the corrected constructive
+core has a closed proof ledger}; \emph{the entire original manuscript is not
+certified as written}. Physical and later extra-work connections are deferred.
+
+\section{Certificate and source ledger}
+\label{sec:certificate}
+Run \texttt{certificate/verify.py} with the pinned RKF checkout. The local
+checker exhausts the eight derived signed permutations, all 512 group triples
+and all 32 pairing basis cases. These basis checks cover the full linear
+identities, not only sampled coefficients. It also tests 63 finite histories,
+all 250047 ultrametric triples, truncation bounds, 270 exact potential
+assignments on four graph types, and negative controls. General infinite
+statements have the written proofs above; the checker does not pretend to
+enumerate all infinite histories or analytic points.
+
+The unchanged canonical RKF engine supplies algebra normalization and replay.
+The F00/E and F00GHI certificates are rerun against original source pins;
+their analytical theorems are not thereby converted into proof-assistant
+certificates. No Lean/Coq runtime is available in this environment, and no
+formal-proof-assistant verification is claimed. Source hash, written proof,
+finite algorithmic evidence and external review remain distinct.
+
+Primary sources, with premises attached:
+\begin{enumerate}
+\item MP, commit \texttt{feedfca094aa557086a612a0736aaffc07ab1ae4}.\par
+\path{proof_lab/native_operator_algebra/}: NR-7 signed cut/refinement
+field; NR-8 cut-Cauchy completion; NR-9 UGD scalar-shadow quotient.
+Native algebra/completion results. NR-7 originally \emph{defines} the
+oriented action before proving its square; this edition constructs it from
+role exchange and parity. Private source bodies are cited, not republished.
+\item RKF, commit \texttt{3cc5a33b05c16d59c90994ddda69dedc0d392424},
+\texttt{operator\_foundation/}: native typed paths, exact cut arithmetic,
+normal-form compiler, faithful regular action and cut-corner residue.
+Native presentation inputs; no primitive ordinary Hilbert space. Canonical
+engine source is reused unchanged, not copied into this packet.
+\item Same RKF commit, F00/E and F00G: native factorial-series Euler
+construction and positive logarithm. Inputs: the ordered cut completion and
+derived iota. Their finite source certificates are replayed; continuous
+results remain supported by the source's written proofs.
+\item RH, commit \texttt{c588ded973a395b5fce37c82f670616160979a2e}, F00J
+and F00K: native period and scalar polar/logarithm results. Inputs: native
+Euler functions and ordered completion. Written-source citation, no new
+standalone formal or numerical certificate asserted here.
+\item MP NR-13 normalized UGD group: algebraic gauge normalization is exact
+for its declared potential cocycle. Its later ordinary Haar and $L^1/L^2$
+extension invokes analytic group/measure machinery and Young-type bounds.
+Those \emph{analytic imports are not dependencies of this core}.
+\end{enumerate}
+Exact URLs, Git blobs, SHA-256 hashes and evidence roles are recorded in
+\path{certificate/SOURCE_PINS.json}. Hashing establishes source identity,
+not theorem truth.
+
+\appendix
+\section{Disposition of every original claim}
+The machine-readable ledger retains original environment titles and line
+ranges. A replacement is a corrected statement, not retroactive approval of
+the original wording. The following compact table covers all 48 original
+theorem, lemma, proposition and corollary environments, including duplicates.
+\input{claim_dispositions.tex}
+\end{document}
