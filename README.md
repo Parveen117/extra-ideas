@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R35's derivation ledger](04-operator-evolution/R35_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R36's derivation ledger](04-operator-evolution/R36_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,14 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R36: curvature-complete observation, information geometry and current
+
+[R36](02-relational-response/NATIVE_CURVATURE_OBSERVER_R36.md) derives the phase-response metric `gamma=I/2` and its dual count-length form `2I` from the actual R35 signed increment. The same response product has an oriented part `J=[A_x,A_y]`, with `J^2=-I`, and a native curvature-area identity. The derived cut and its curvature contrast give two signed readings that reconstruct every source role and preserve its matching norm. Two readings are minimal for this rank-eight cut and sixteen-role target.
+
+The complete paired reading has exact closed source dynamics and the same scalar wave. Omitting the second reading produces an explicit memory kernel. In the controlled leading flow, the native density and current obey local continuity and `|j|^2 <= rho^2/2`, with exact deficit `rho^2/2-|j|^2=2(||a||^2||b||^2-(Re<a,b>)^2)`. Thus the R35 coefficient also bounds a derived information current. The response geometry, protocol curvature and existing R10 Riemann adapter retain their distinct types; physical rod/clock/field selection and the faster finite support front remain explicit boundaries.
+
+[Verification](04-operator-evolution/R36_VERIFICATION.json) binds seven written proofs, nine exact groups, fourteen native replays, fifteen rejected alternatives and nine graph mutations. The [ledger](04-operator-evolution/R36_DERIVATION_LEDGER.json) reuses the prior curvature results with their source status and inherits the R1–R33 reading register. All 278 prior non-navigation files and the frozen R35 chain are preserved.
 
 ## R35: a signed envelope and isotropic propagation coefficient
 

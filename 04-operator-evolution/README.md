@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R36 curvature-observer geometry and current verification
+
+[native_curvature_observer.cjs](native_curvature_observer.cjs) reuses the unchanged native engine and reconstructs the source envelope from the pinned role tags. It checks the response Gram and dual metric, curvature products and area law, complete cut observer, exact paired wave, hidden-memory recurrence, information-current deficit, finite curvature correction and transported frames.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r36.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R36_VERIFICATION.json](R36_VERIFICATION.json) binds seven written proofs, nine exact groups, fourteen native replays, fifteen false alternatives and nine graph mutations. Checks include 100 state/phase responses, 108 directional product/area checks, 18 complete source reconstructions, six complete observed-wave/intertwining identities, four exact memory recurrences, 54 current/deficit checks and 18 native local first-jet continuity checks. [Source pins](R36_SOURCE_PINS.json) preserve all 278 prior non-navigation files and replay the frozen R35 chain. The [ledger](R36_DERIVATION_LEDGER.json) separates the native leading-flow information current from exact lattice support and physical or Riemann-adapter selection.
+
 ## R35 signed-envelope propagation verification
 
 [native_signed_envelope.cjs](native_signed_envelope.cjs) reuses the unchanged native arithmetic and canonical word replayer. It constructs the sixteen-role signed envelope from R32's source, checks all Laurent coefficients, and derives the rank-two leading form and sharp phase-speed polynomial. Native rational cuts enclose the positive root `2 c_count^2=1`; no measured physical constant enters.

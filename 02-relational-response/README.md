@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R36 native curvature observer and information-current cone
+
+[NATIVE_CURVATURE_OBSERVER_R36.md](NATIVE_CURVATURE_OBSERVER_R36.md) derives a preparation-independent phase-response metric and dual count length from R35. Its response operators also give an oriented curvature and area law. For the derived cut P and turn J, the readings `a=Pu`, `b=-PJu` have the exact decoder `u=a+Jb`. The curvature contrast supplies precisely the omitted cut; signed readings and their intensities remain different observations.
+
+The paired observer transports the exact source dynamics, scalar wave and native norm. A single cut instead has a derived memory recurrence. The leading-flow current satisfies `|j|/rho <= 1/sqrt(2)` with an exact retained-mismatch deficit and local continuity for the constructed finite-phase flow. The common limit has R35's finite error bound, while curvature conjugation has a nonzero finite correction. These are readouts of the same source; neither independent physical fields nor a physical light cone is asserted.
+
+[Verification](../04-operator-evolution/R36_VERIFICATION.json) binds seven proofs, nine exact groups and fourteen native replays. The [ledger](../04-operator-evolution/R36_DERIVATION_LEDGER.json) preserves the admitted smooth/tangent/metric status of R10's Riemann bridge and keeps those comparison inputs outside the native proof paths.
+
 ## R35 native signed envelope and sharp phase propagation
 
 [NATIVE_SIGNED_ENVELOPE_R35.md](NATIVE_SIGNED_ENVELOPE_R35.md) reads R1–R33 together and derives a gapless signed envelope from R32's retained transport. Its sixteen-role regrouping keeps all address parity marks and gives `A_x^2=A_y^2=I/2`, `A_x A_y+A_y A_x=0`: a full-rank isotropic leading count form. The exact mixed fourth difference is retained in the finite wave equation.
