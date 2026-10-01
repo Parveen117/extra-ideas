@@ -2,6 +2,12 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R22 native meeting geometry and record parity
+
+[MEETING_GEOMETRY_R22.md](MEETING_GEOMETRY_R22.md) derives the exact meeting capacity of every finite allocation word, then the minimum return length for a complete native slot catalogue. That length is a metric on address/record endpoints, with explicit disconnected components, exact ball counts and different energy/current return times. Full history tags remain distinct even when this endpoint distance vanishes.
+
+The same source invariant reconstructs one record bit from address, event and the remaining bits. A derived compressed evolution recovers the full field, including the correct off-address readout filter. First slot reuse fixes the first nonzero current and next-event energy departure for the original seed; a signed pair example proves why support alone does not guarantee signal. [Verification](../04-operator-evolution/R22_VERIFICATION.json) binds nine written proofs, ten exact groups and ten native replays. The [ledger](../04-operator-evolution/R22_DERIVATION_LEDGER.json) keeps the constructed catalogue separate from physical metric selection and excludes classical premises from its declared proof paths.
+
 ## R21 record identity from native current
 
 [RECORD_IDENTITY_CONTINUATION_R21.md](RECORD_IDENTITY_CONTINUATION_R21.md) derives a sharp reuse-count/current identity and a native H-contrast test recovering equality of any two slot targets. All allocation partitions are identified up to renaming. Closed exchange moments retain the exact returning memory; initially independent blank slots permit a smaller live-slot ledger for a specified future continuation.
@@ -62,7 +68,7 @@ For a proposed Jacobian, check the compatibility conditions needed for it to ari
 
 ## Next target
 
-Continue from [R21](RECORD_IDENTITY_CONTINUATION_R21.md): derive the meeting relation and its event-distance from joint address/record continuation. Slot identities are now reconstructible through native contrasts, while physical allocation still needs selection. Connect the return geometry to the observer/metric machinery, keeping response recovery distinct from full history recovery and preserving the existing R10 connection and upstream master-review boundaries.
+Continue from [R22](MEETING_GEOMETRY_R22.md): determine which continuation catalogues have identical future native energy/current responses after exact record-coordinate reduction, and derive separating responses for the others. Meeting geometry is now explicit, while physical catalogue and clock/rod selection remain open. Keep response recovery distinct from full history recovery and preserve the existing R10 connection and upstream master-review boundaries.
 
 ## R13 complementary noise and native event information
 

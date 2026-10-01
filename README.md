@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R21's derivation ledger](04-operator-evolution/R21_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R22's derivation ledger](04-operator-evolution/R22_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,24 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R22: native meeting geometry and one-bit record reconstruction
+
+[R22](02-relational-response/MEETING_GEOMETRY_R22.md) derives an exact constructive meeting test for every finite future slot word. Coverage, parity and an explicit disagreement capacity decide whether two tagged histories can meet in both address and record. For the constructed complete slot catalogue, the minimum is `max(|x-y|/2, number of differing record bits)` on compatible components. Unavailable differing slots or incompatible parity prevent a meeting.
+
+This is a metric on the observed address/record endpoints and a pseudometric on full histories. Its ball volumes are derived by native counting. The first current term from a nonmeeting pair occurs at the minimum meeting event; the first energy term needs one further event. Surviving signed terms can cancel, and explicit examples keep that boundary visible.
+
+Address and event already determine the parity of the whole record. One record bit can therefore be reconstructed from the address and the other bits. The resulting evolution recovers the complete record field exactly; local energy/current need no additional bit, while off-address pair readout retains an explicit congruence filter. For the original blank-record seed, first slot reuse produces the first current, and the next event produces the first energy departure from source counts.
+
+[Verification](04-operator-evolution/R22_VERIFICATION.json) passes nine written results, ten exact check groups and ten native proof replays. It covers 271,453 exhaustive direction pairs, 9,370 constructed meeting witnesses, 25,039 metric triangles, 190 arbitrary-field reconstructions and all 279 allocation partitions through six events. Sixteen false alternatives and nine dependency-graph mutations are rejected. All 180 prior non-navigation files and the frozen R21/R20/R19/R18/R17/R16 chain remain unchanged.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r22.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+The complete slot catalogue is explicitly constructed, not physically selected. The next step is to derive which continuation catalogues are indistinguishable in future native responses, and which require distinct observable geometry. Physical clock/rod selection, c and alpha remain open.
 
 ## R21: record identity from current and native continuation
 

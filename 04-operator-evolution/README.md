@@ -2,6 +2,20 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R22 meeting geometry and record reconstruction verification
+
+[meeting_geometry.cjs](meeting_geometry.cjs) compares the constructive fixed-word meeting rule with exhaustive native direction pairs and the complete-catalogue distance with independent graph exploration. It checks exact target-return gates, metric inequalities and ball counts, one-bit reconstruction and its compressed evolution, first-reuse onset, and signed cancellation. Original H/K word tags supply an independent source check.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r22.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R22_VERIFICATION.json](R22_VERIFICATION.json) records nine written results, ten exact groups, ten canonical proof replays, sixteen rejected false alternatives and nine rejected graph mutations. Finite coverage includes 271,453 direction pairs, 69,984 meeting decisions, 9,370 constructed witnesses, 25,039 metric triangles, 190 arbitrary-field reconstructions, 876 compressed protocols and all 279 allocation partitions through six events. [R22_SOURCE_PINS.json](R22_SOURCE_PINS.json) preserves all 180 previous non-navigation files and binds the unchanged native engine and premise-labelled comparisons.
+
+[R22_DERIVATION_LEDGER.json](R22_DERIVATION_LEDGER.json) binds the [written proofs](../02-relational-response/MEETING_GEOMETRY_R22.md), distinguishing endpoint metric, history pseudometric, term support and signed response. Complete-catalogue availability is a construction, not a physical selection result. The provenance gate does not claim semantic proof-assistant checking. The full R21/R20/R19/R18/R17/R16 chain replays without changing historical evidence.
+
 ## R21 record identity and continuation verification
 
 [record_identity_continuation.cjs](record_identity_continuation.cjs) derives record parity directly from original H/K histories and tests every allocation partition through six events. Joint gate propagation, a closed exchange-moment hierarchy, live-slot reduction and an independent native projector decomposition recover the same response. Front current counts returns; H contrasts recover equality of slot identities.
@@ -117,7 +131,7 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Follow [R21](../02-relational-response/RECORD_IDENTITY_CONTINUATION_R21.md): slot identity now has an exact H-contrast decoder and returning information has a joint address/record gate. Construct the meeting relation and its event-distance under the admitted continuation catalogue. Keep physical allocation and rod/clock selection separate from identification. Preserve the full word ledger, independent sheets, nonaffine clock term, Smriti error control and the complete R10 connection contract.
+Follow [R22](../02-relational-response/MEETING_GEOMETRY_R22.md): derive equivalence and separation of future native response catalogues using the exact meeting geometry and one-bit record reconstruction. Keep physical allocation and clock/rod selection separate from a constructed comparison metric. Preserve the full word ledger, independent sheets, nonaffine clock term, Smriti error control and the complete R10 connection contract.
 
 ## R13 complementary memory/noise certificates
 
