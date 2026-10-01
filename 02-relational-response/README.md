@@ -2,6 +2,12 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R25 native feedback, retained phase memory and boundary independence
+
+[NATIVE_RETURN_FEEDBACK_R25.md](NATIVE_RETURN_FEEDBACK_R25.md) derives the return-triggered feedback pulse and its eight-return cycle from the unchanged source. The continuation quartet `I, H, R, K` closes exactly. Eliminating all return loops gives a unique completed response, independent of admissible distant terminal choices, with an explicit error bound in source-event depth.
+
+The balanced native source has completed retention approximately `0.23158` in this interface. A fully recorded word interface instead has a nilpotent return map and zero limiting retention. [Verification](../04-operator-evolution/R25_VERIFICATION.json) binds eight written results, nine exact groups and twelve native replays. The [ledger](../04-operator-evolution/R25_DERIVATION_LEDGER.json) separates proved boundary independence from unproved physical memory selection; neither protocol is identified as electromagnetism.
+
 ## R24 native first return and fixed record-coupling responses
 
 [NATIVE_RETURN_COUPLING_R24.md](NATIVE_RETURN_COUPLING_R24.md) derives a signed excursion grammar directly from the existing H/K transport. It gives the fixed coherent return scale `sqrt(2)-1`, a distinct arrival-retained energy coefficient with a rigorous tail, and the exact record-gate law `1 - eta (1 - h)`. For the balanced native source the resulting retention is approximately `0.36338`. The normalized returned record depends on source parity, not its overall return amplitude.

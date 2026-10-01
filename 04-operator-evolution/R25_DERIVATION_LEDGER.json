@@ -1,0 +1,383 @@
+{
+  "schema": "extra-ideas.r25.derivation-ledger.v1",
+  "date": "2026-10-01",
+  "source_commit": "d660bbf026e1de818fcb3dd61d46346a4ad618ae",
+  "no_classical_premise_rule": true,
+  "rule": "Proof paths contain pinned native sources, explicit constructions and native deductions. Classical/admitted/open/comparison premises are forbidden. Boundary-independent response inside a declared native feedback interface is not physical selection of that interface.",
+  "certified_claims": [
+    "R25.1",
+    "R25.2",
+    "R25.3",
+    "R25.4",
+    "R25.5",
+    "R25.6",
+    "R25.7",
+    "R25.8"
+  ],
+  "claims": [
+    {
+      "id": "R25.1",
+      "title": "Native returns generate the feedback pulse and its clock",
+      "written_section_sha256": "9e8db422e98167dcbd5ff778786e85bde2dce4186aa34e05892e37e51326f6e9",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_feedback_pulse_and_endogenous_eight_return_clock"
+      ],
+      "scope_boundary": "Pulse on nonzero returned branches after factoring the inherited common signed coefficient. Four-return source-role restoration is not an unconditional four-event gate; its completed norm is eta^4."
+    },
+    {
+      "id": "R25.2",
+      "title": "The exact feedback memory has four native components",
+      "written_section_sha256": "76a673d1c7b1858a4faa3ee7e74495b7041323986778ee9ea5eebddd1e12b58f",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_four_component_continuation_and_hidden_R_reentry"
+      ],
+      "scope_boundary": "Four-dimensional real two-role continuation closure. Presently invisible skew R feeds future response; this is the explicit source pulse, not a new generic observer theorem or a claim about the entire UGD carrier."
+    },
+    {
+      "id": "R25.3",
+      "title": "The full finite-event evolution has an exact retained-memory recurrence",
+      "written_section_sha256": "3dacec05af82432315e114b3e7c12e708881357195d93565a8624d4179f83893",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "full_joint_event_feedback_matches_exact_retained_memory_recurrence",
+        "literal_HK_feedback_histories_match_joint_return_flags"
+      ],
+      "scope_boundary": "Full finite-event response with every arrival predicate retained and a fixed independent prepared source. Positive matching coefficients arise from joint native evolution, not a stochastic law or reset."
+    },
+    {
+      "id": "R25.4",
+      "title": "Completing all returns fixes one exact feedback response",
+      "written_section_sha256": "eacdb622871df5fe5f61aae1364473d7ec2849691b3874aa8f1c257f8937096f",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "completed_feedback_polynomial_identity_and_unique_algebraic_response",
+        "finite_event_tail_bound_and_completed_response_enclosures"
+      ],
+      "scope_boundary": "Completion of the stated arrival-memory feedback, inherited eta strictly below one. Exact operator response, with real quadratic readout depending on source parity/current; no electromagnetic identification."
+    },
+    {
+      "id": "R25.5",
+      "title": "All admissible far-boundary continuations give the same limit",
+      "written_section_sha256": "59df8cb7f5c8024f35fa56eb87f228a71ec685ad6c74a828dd123352efc8fcef",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_terminal_continuations_lose_influence_with_derived_return_depth",
+        "completed_feedback_polynomial_identity_and_unique_algebraic_response"
+      ],
+      "scope_boundary": "Any bounded relative terminal response induced by two native pairing-preserving continuation arrows after m completed returns. Vanishing terminal freedom within this interface does not select the interface itself."
+    },
+    {
+      "id": "R25.6",
+      "title": "The event-horizon error is bounded without an external decay law",
+      "written_section_sha256": "2d5cde813a1567bb587366e9ae456e2db52d7336a6a28256ec5c8356f7d3e81b",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "finite_event_tail_bound_and_completed_response_enclosures"
+      ],
+      "scope_boundary": "Bilinear finite-event error in the inherited word-depth count, proved from native first-return count tails and finite differences. No physical time unit or externally imposed decay law."
+    },
+    {
+      "id": "R25.7",
+      "title": "The completed response has a sharp source-preparation range",
+      "written_section_sha256": "42274fef3cceb0ad6f062b52a28e98d12beb139dcb14251196ac83e516ec593e",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_source_preparation_range_and_fixed_numeric_responses"
+      ],
+      "scope_boundary": "Sharp range on nonzero real signed source preparations, with C8-completed extremizers. Canonical numerical outputs have rigorous rational enclosures and are not fitted constants."
+    },
+    {
+      "id": "R25.8",
+      "title": "Full word memory gives a different causal continuation law",
+      "written_section_sha256": "f4afc66221e63aeb4744a032fda364d590b7981493db80895ce8140d2d0f1f27",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "full_word_feedback_is_nilpotent_and_differs_from_arrival_only_memory"
+      ],
+      "scope_boundary": "Second causal pairing-preserving interface with full direction-word memory. Its nilpotent continuation and zero limiting cross response do not destroy full source norm or identify source histories; physical non-selection is scoped to these consistency properties."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "source_roles",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C3-C7",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Native marked roles, signed/refined coefficients, H/K and matching pairing. Finite counting, equality and induction remain the stated metamathematical infrastructure."
+    },
+    {
+      "id": "source_completion",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C8",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Native cut-Cauchy scalar completion and positive square-root construction."
+    },
+    {
+      "id": "source_history",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C13",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Full native finite word identities remain distinct from their coefficient evaluations."
+    },
+    {
+      "id": "source_transport",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "R18.1-R18.4",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "scope": "Unchanged equal H/K transport on the constructed address target. Physical time and unique transport selection not supplied."
+    },
+    {
+      "id": "source_record_gate",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RECORD_INTERACTION_R20.md",
+        "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+        "section": "R20.1-R20.4, R20.7",
+        "sha256": "6139b16bfcb5be9c07f9c32c17e82e616c10a7b7d3a3f7113c8bc9bf4e33e7a7"
+      },
+      "scope": "Native tuple pairing, controlled exchange, fresh direction records, address records and matching readout."
+    },
+    {
+      "id": "source_first_return",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_transport",
+        "source_record_gate",
+        "source_completion"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RETURN_COUPLING_R24.md",
+        "commit": "d660bbf026e1de818fcb3dd61d46346a4ad618ae",
+        "section": "R24.1-R24.8",
+        "sha256": "8846db56ecef6e2e8c53415a6e514516da8e4d4f2839f6f29ce46ee474755949"
+      },
+      "scope": "Native first-return operator, survival isometry, signed/count coefficients, eta completion/tail and full-word alternative. No physical source or interface selected."
+    },
+    {
+      "id": "source_native_replay",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "rkf",
+        "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "section": "Native finite equality and replay",
+        "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5"
+      },
+      "scope": "Scoped identities in the unchanged canonical native engine; no whole-engine or formal proof-assistant claim."
+    },
+    {
+      "id": "feedback_interface",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_first_return",
+        "source_record_gate"
+      ],
+      "physical_selection_proved": false,
+      "definition": "After every native transport event, write the origin-equality predicate, apply W on that branch, and continue all branches with full arrival flags retained."
+    },
+    {
+      "id": "cross_response_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "feedback_interface",
+        "source_roles"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Match all source/environment coordinates between the two system branches to obtain a real two-role bilinear source response; retain skew components before continuation."
+    },
+    {
+      "id": "native_terminal_catalogue",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_record_gate",
+        "feedback_interface"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Relative responses V0-dagger V1 of arbitrary native pairing-preserving continuations after a finite completed-return cutoff. Their bound is derived from matching pairing."
+    },
+    {
+      "id": "native_preparation_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_completion"
+      ],
+      "physical_selection_proved": false,
+      "definition": "All nonzero real signed source roles, including the existing e0, e1 and Ce0 and explicitly completed extremizers. This is a preparation domain, not physical vacuum selection."
+    },
+    {
+      "id": "full_word_feedback_interface",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "feedback_interface",
+        "source_record_gate",
+        "source_first_return",
+        "source_history"
+      ],
+      "physical_selection_proved": false,
+      "definition": "The same source and return gate, plus a fresh retained direction-word mark after each native step."
+    },
+    {
+      "id": "declared_alpha_selection_comparison",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/native-alpha-selection/THEOREM.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "section": "AS-1-AS-5",
+        "sha256": "54152003202564b83b90dfa875731905bda242458b9e8d7887c3fdfbf4dce54c"
+      },
+      "scope": "Mixed premises: native R2 with supplied cell weights and, in AS-3, an admitted positive quadratic physical adapter. Adapter and electromagnetic normalization excluded from R25 proof paths."
+    },
+    {
+      "id": "R25.1",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "source_first_return",
+        "source_roles",
+        "source_record_gate",
+        "source_native_replay",
+        "feedback_interface"
+      ],
+      "written_section_sha256": "9e8db422e98167dcbd5ff778786e85bde2dce4186aa34e05892e37e51326f6e9"
+    },
+    {
+      "id": "R25.2",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R25.1",
+        "source_roles",
+        "source_native_replay",
+        "cross_response_target"
+      ],
+      "written_section_sha256": "76a673d1c7b1858a4faa3ee7e74495b7041323986778ee9ea5eebddd1e12b58f"
+    },
+    {
+      "id": "R25.3",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R25.1",
+        "R25.2",
+        "source_first_return",
+        "feedback_interface",
+        "cross_response_target",
+        "source_history"
+      ],
+      "written_section_sha256": "3dacec05af82432315e114b3e7c12e708881357195d93565a8624d4179f83893"
+    },
+    {
+      "id": "R25.4",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R25.2",
+        "R25.3",
+        "source_first_return",
+        "source_completion"
+      ],
+      "written_section_sha256": "eacdb622871df5fe5f61aae1364473d7ec2849691b3874aa8f1c257f8937096f"
+    },
+    {
+      "id": "R25.5",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R25.1",
+        "R25.2",
+        "R25.4",
+        "native_terminal_catalogue",
+        "source_roles"
+      ],
+      "written_section_sha256": "59df8cb7f5c8024f35fa56eb87f228a71ec685ad6c74a828dd123352efc8fcef"
+    },
+    {
+      "id": "R25.6",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R25.3",
+        "R25.4",
+        "source_first_return",
+        "source_completion",
+        "source_roles"
+      ],
+      "written_section_sha256": "2d5cde813a1567bb587366e9ae456e2db52d7336a6a28256ec5c8356f7d3e81b"
+    },
+    {
+      "id": "R25.7",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R25.2",
+        "R25.4",
+        "source_completion",
+        "native_preparation_target"
+      ],
+      "written_section_sha256": "42274fef3cceb0ad6f062b52a28e98d12beb139dcb14251196ac83e516ec593e"
+    },
+    {
+      "id": "R25.8",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R25.3",
+        "R25.7",
+        "source_first_return",
+        "full_word_feedback_interface",
+        "source_record_gate"
+      ],
+      "written_section_sha256": "f4afc66221e63aeb4744a032fda364d590b7981493db80895ce8140d2d0f1f27"
+    }
+  ],
+  "physical_memory_interface_selected": false,
+  "physical_metric_selected": false,
+  "origin_gate_checks_declared_metadata_not_arbitrary_prose": true,
+  "formal_proof_assistant_verified": false
+}

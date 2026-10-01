@@ -2,6 +2,20 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R25 native return-feedback verification
+
+[native_return_feedback.cjs](native_return_feedback.cjs) checks the complete forward event/record evolution against an independently assembled first-return recurrence. It retains the four native response components and checks the return clock, exact completed operator identity, admissible terminal-boundary bounds, finite-event tails, preparation dependence and full-word alternative. The R24 certificate supplies a hash-pinned rational eta enclosure; no observed constant or new rate is fitted.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r25.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R25_VERIFICATION.json](R25_VERIFICATION.json) records eight written results, nine exact groups, twelve native identity replays, sixteen rejected alternatives and nine graph mutations. Checks include 8,184 literal H/K prefixes, 880 matched record blocks, 65 exact return-count reconstructions, 3,072 terminal bounds and 4,112 bilinear event-error bounds. Full-word dynamics is independently propagated through twelve events. The [proof](../02-relational-response/NATIVE_RETURN_FEEDBACK_R25.md) establishes the all-depth/completion claims; finite checks do not replace it.
+
+[R25_DERIVATION_LEDGER.json](R25_DERIVATION_LEDGER.json) and [R25_SOURCE_PINS.json](R25_SOURCE_PINS.json) bind the scoped dependencies and preserve all 201 previous non-navigation files. The unchanged R24/R23/R22/R21/R20/R19/R18/R17/R16 chain replays. Physical memory selection, c/alpha identification and formal proof-assistant verification are not claimed.
+
 ## R24 native return coefficients and record-coupling verification
 
 [native_return_coupling.cjs](native_return_coupling.cjs) uses unchanged native arithmetic and proof replay to check stopped-source norm balance, ordered renewal, signed excursion coefficients, literal H/K histories, unsigned counts, exact return-gate action and complete-word memory contrasts. Rational brackets certify the coherent root and the completed arrival-energy response; an explicit 4096-index count calculation is accompanied by a proved tail, not presented as direct enumeration of all such histories.

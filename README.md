@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R24's derivation ledger](04-operator-evolution/R24_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R25's derivation ledger](04-operator-evolution/R25_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,22 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R25: native return feedback and terminal-boundary selection
+
+[R25](02-relational-response/NATIVE_RETURN_FEEDBACK_R25.md) continues the source after every return and applies the existing record gate at the source's own origin hits. Native arrival histories determine the timing. The pulse has an eight-return cycle: after four returns the source role is restored with a system sign contrast. Its exact response memory spans `I, H, R, K`; the presently invisible R component feeds a later visible response.
+
+Completing all returns gives the unique response operator `D* = (1-eta)/(1+eta^4) [I + eta H - eta^2 R - eta^3 K]`, using only R24's derived eta. Every terminal continuation built from native pairing-preserving arrows loses influence with return depth. An explicit inverse-square bound also proves convergence in the original event count. For the existing balanced source, completed cross retention is enclosed by `0.2315845743` and `0.2315845792`.
+
+[Verification](04-operator-evolution/R25_VERIFICATION.json) binds eight written results, nine exact groups and twelve native identity replays. Independent joint-field propagation, 8,184 literal H/K prefixes, 3,072 boundary bounds and 4,112 event-error checks support the scoped proofs. Sixteen false alternatives and nine invalid dependency graphs are rejected. All 201 prior non-navigation files and the R24 source chain remain unchanged.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r25.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+The selected result is the completed response inside this native feedback construction. Full direction-word memory gives a different, nilpotent continuation and zero limiting cross response while preserving the joint source norm. Causality and pairing preservation alone therefore do not select a unique physical memory interface or alpha. Source-preparation dependence of the scalar readout remains explicit.
 
 ## R24: fixed native return coefficients and record coupling
 

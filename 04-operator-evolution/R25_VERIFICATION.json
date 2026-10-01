@@ -1,0 +1,275 @@
+{
+  "schema": "extra-ideas.r25.verification.v1",
+  "date": "2026-10-01",
+  "status": "PASS_R25_NATIVE_RETURN_FEEDBACK",
+  "written_results": 8,
+  "exact_check_groups": 9,
+  "native_symbolic_replays": 12,
+  "counters": {
+    "native_feedback_pulse_and_endogenous_eight_return_clock": {
+      "native_pulse_identities": 4,
+      "excluded_smaller_periods": 7,
+      "return_period": 8,
+      "source_role_restored_at_return": 4,
+      "fixed_transport_event_period_assumed": false
+    },
+    "native_four_component_continuation_and_hidden_R_reentry": {
+      "closure_rank": 4,
+      "full_basis_fourth_power_checks": 4,
+      "cycle_entries": 8,
+      "presently_invisible_R_has_visible_continuation": true
+    },
+    "full_joint_event_feedback_matches_exact_retained_memory_recurrence": {
+      "direct_joint_norm_checks": 28,
+      "direct_joint_response_entries": 56,
+      "retained_environment_blocks": 1628,
+      "exact_normalized_return_count_reconstructions": 65,
+      "max_direct_event": 14,
+      "max_recurrence_event": 256
+    },
+    "literal_HK_feedback_histories_match_joint_return_flags": {
+      "literal_HK_prefixes": 8184,
+      "exact_aggregated_flag_blocks": 880,
+      "max_literal_event": 10
+    },
+    "completed_feedback_polynomial_identity_and_unique_algebraic_response": {
+      "exact_polynomial_coefficients": 5,
+      "exact_rational_diagnostics": [
+        "0",
+        "1/2",
+        "5/8",
+        "6366197711/10000000000",
+        "25464791/40000000",
+        "11/16",
+        "1"
+      ],
+      "diagnostics_are_physical_parameter_inputs": false,
+      "unit_return_mass_is_not_claimed_convergent": true
+    },
+    "native_terminal_continuations_lose_influence_with_derived_return_depth": {
+      "exact_boundary_bilinear_bounds": 3072,
+      "finite_boundary_recursions": 96,
+      "max_return_cutoff": 16,
+      "terminal_choices": [
+        "I",
+        "H",
+        "R",
+        "K"
+      ],
+      "unbounded_terminal_amplification_admitted": false
+    },
+    "finite_event_tail_bound_and_completed_response_enclosures": {
+      "event_gap_tail_checks": 257,
+      "exact_bilinear_event_error_checks": 4112,
+      "cubic_finite_difference_identities": 124,
+      "inherited_eta_interval": {
+        "lower": "0.6366197711",
+        "upper": "0.6366197750",
+        "lower_rational": "6366197711/10000000000",
+        "upper_rational": "25464791/40000000"
+      },
+      "uniform_event_error": "min(2,138368/(125*(N+1)^2))",
+      "imported_exponential_in_event_time": false
+    },
+    "native_source_preparation_range_and_fixed_numeric_responses": {
+      "native_preparation_circle_checks": 7,
+      "exact_source_response_identities": 49,
+      "sharp_range_square_checks": 7,
+      "completed_coefficient_intervals": [
+        {
+          "lower": "0.3121137557",
+          "upper": "0.3121137602",
+          "lower_rational": "3121137557/10000000000",
+          "upper_rational": "1560568801/5000000000"
+        },
+        {
+          "lower": "0.1986977877",
+          "upper": "0.1986977918",
+          "lower_rational": "1986977877/10000000000",
+          "upper_rational": "993488959/5000000000"
+        },
+        {
+          "lower": "-0.1264949435",
+          "upper": "-0.1264949401",
+          "lower_rational": "-252989887/2000000000",
+          "upper_rational": "-1264949401/10000000000"
+        },
+        {
+          "lower": "-0.0805291825",
+          "upper": "-0.0805291798",
+          "lower_rational": "-32211673/400000000",
+          "upper_rational": "-402645899/5000000000"
+        }
+      ],
+      "source_e0": {
+        "lower": "0.5108115446",
+        "upper": "0.5108115507",
+        "lower_rational": "2554057723/5000000000",
+        "upper_rational": "5108115507/10000000000"
+      },
+      "source_e1": {
+        "lower": "0.1134159667",
+        "upper": "0.1134159697",
+        "lower_rational": "1134159667/10000000000",
+        "upper_rational": "1134159697/10000000000"
+      },
+      "source_balanced_Ce0": {
+        "lower": "0.2315845743",
+        "upper": "0.2315845792",
+        "lower_rational": "2315845743/10000000000",
+        "upper_rational": "72370181/312500000"
+      },
+      "empirical_constant_or_fit_used": false
+    },
+    "full_word_feedback_is_nilpotent_and_differs_from_arrival_only_memory": {
+      "native_word_continuation_map_checks": 12,
+      "joint_word_norm_checks": 24,
+      "full_word_response_entries": 48,
+      "preserved_word_environment_blocks": 16380,
+      "max_direct_word_event": 12,
+      "word_continuation_nilpotency": 3,
+      "zero_response_is_not_zero_joint_source": true
+    }
+  },
+  "rejected_false_alternatives": {
+    "return_timing_is_an_external_fixed_two_event_schedule": true,
+    "replacing_the_source_by_a_fresh_copy_after_each_return_is_exact": true,
+    "scalar_current_alone_is_closed_under_return": true,
+    "the_antisymmetric_R_component_may_be_dropped_before_continuing": true,
+    "four_returns_restore_the_entire_system_source_pulse": true,
+    "eight_returns_mean_eight_transport_events": true,
+    "coherent_amplitude_is_the_arrival_energy_coefficient": true,
+    "algebraic_fixed_point_uniqueness_alone_guarantees_forward_completion": true,
+    "all_bounded_terminal_choices_survive_in_the_completed_response": true,
+    "completed_scalar_retention_is_independent_of_native_source": true,
+    "causality_and_pairing_preservation_uniquely_select_memory": true,
+    "using_the_same_return_gate_makes_full_word_and_arrival_protocols_identical": true,
+    "finite_no_return_is_a_declaration_of_permanent_escape": true,
+    "the_event_gap_tail_is_eta_to_the_event_depth": true,
+    "zero_full_word_cross_response_means_zero_joint_source": true,
+    "full_word_nilpotency_identifies_or_deletes_the_source_histories": true
+  },
+  "derivation_graph": {
+    "status": "PASS_DECLARED_NATIVE_DERIVATION_GRAPH",
+    "certified_claims": 8,
+    "proof_path_nodes": 20,
+    "imported_classical_premises_on_proof_paths": 0,
+    "comparison_references_excluded_from_proof_paths": [
+      "declared_alpha_selection_comparison"
+    ],
+    "target_definitions_retained_as_definitions": [
+      "cross_response_target",
+      "feedback_interface",
+      "full_word_feedback_interface",
+      "native_preparation_target",
+      "native_terminal_catalogue"
+    ],
+    "automatic_semantic_or_formal_proof_verification": false
+  },
+  "derivation_graph_mutations_rejected": {
+    "reject_imported_classical_premise": true,
+    "reject_admitted_input_premise": true,
+    "reject_open_premise": true,
+    "reject_comparison_only_premise": true,
+    "reject_physical_claim_promotion": true,
+    "reject_protocol_definition_promotion": true,
+    "reject_dependency_cycle": true,
+    "reject_unpinned_source": true,
+    "reject_wrong_citation_commit": true
+  },
+  "altered_source_rejected": true,
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "wrong_parent_certificate_pin_rejected": true,
+  "previous_source_replayed": {
+    "commit": "d660bbf026e1de818fcb3dd61d46346a4ad618ae",
+    "status": "PASS_R24_NATIVE_RETURN_COUPLING",
+    "native_certificate_sha256": "ae0c88451e3e0a7933dd42cecca67b0cc1254a81cc418da77b94843eaf1d2fbe",
+    "old_certificate_or_source_pin_modified": false,
+    "earlier_source_chain": {
+      "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+      "status": "PASS_R23_NATIVE_FUTURE_RESPONSE",
+      "native_certificate_sha256": "69b4e6d43db5bad0a10b797f7b7f788bb8091e4486bf0689960882d22b19295a",
+      "old_certificate_or_source_pin_modified": false,
+      "earlier_source_chain": {
+        "commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+        "status": "PASS_R22_NATIVE_MEETING_GEOMETRY",
+        "native_certificate_sha256": "ad6ac9d802b77c67ec33e8c023c147300994576207014eb9cd81014f6924b98f",
+        "old_certificate_or_source_pin_modified": false,
+        "earlier_source_chain": {
+          "commit": "2888aa2a9ea1c63a89b3d695256c8b9405dbd7cc",
+          "status": "PASS_R21_NATIVE_RECORD_IDENTITY",
+          "native_certificate_sha256": "1d857541e8497dfb4c33b532c7d50ee629f5d8e92698a080307b7ae039794464",
+          "old_certificate_or_source_pin_modified": false,
+          "earlier_source_chain": {
+            "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+            "status": "PASS_R20_NATIVE_RECORD_INTERACTION",
+            "native_certificate_sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+            "old_certificate_or_source_pin_modified": false,
+            "earlier_source_chain": {
+              "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+              "status": "PASS_R19_NATIVE_CURRENT_RETENTION",
+              "native_certificate_sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+              "old_certificate_or_source_pin_modified": false,
+              "earlier_source_chain": {
+                "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+                "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+                "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+                "historical_navigation_inputs_restored_in_temporary_snapshot": 3,
+                "old_certificate_or_source_pin_modified": false,
+                "earlier_source_chain": {
+                  "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+                  "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+                  "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+                  "foundation": {
+                    "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+                    "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+                    "written_statements": 14,
+                    "native_replays": 13,
+                    "analytic_replays": [
+                      {
+                        "id": "F00_F00E_EULER_V0_1",
+                        "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+                        "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+                        "checks": 14,
+                        "negative_controls": 6,
+                        "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+                      },
+                      {
+                        "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+                        "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+                        "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+                        "checks": 20,
+                        "negative_controls": 7,
+                        "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+                      }
+                    ],
+                    "original_universal_claim_certified": false
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 29,
+  "preserved_prior_files": 201,
+  "source_pins_sha256": "1d4e0197a92fe549a46d42aebeb88d121be2a221c35851c325afc6257083bd23",
+  "native_certificate_sha256": "456f5c5d4bf9857b1604bb6024c346b1a6d499abd833b59a0b414a7bad0fb8d5",
+  "comparison_references_are_proof_dependencies": false,
+  "publications_comparison_certificates_rerun": false,
+  "native_return_feedback_derived": true,
+  "native_terminal_boundary_independence_derived": true,
+  "physical_memory_interface_selected": false,
+  "physical_metric_c_alpha_derived": false,
+  "formal_proof_assistant_verified": false,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Declared native origin-return feedback with retained arrival memory. Eight written results derive the pulse, exact four-component memory, full finite-event recurrence, unique completed response, admissible terminal-boundary independence and event-horizon error. Full word memory gives a different native limit. No physical memory interface or alpha selection.",
+  "canonical_report_sha256": "94e62d87845b40979613321f5bee259e2bbd87547ae27598d48d45b4570e6c7a"
+}
