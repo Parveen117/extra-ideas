@@ -17,6 +17,34 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
 
+## R12: deriving the observer and metric
+
+[R12](02-relational-response/OBSERVER_METRIC_FOUNDATION_R12.md) derives a minimum future observer and a unique operational metric from one native event experiment. With calibrated terminal noise and a stable stopping law, its tagged Fisher form solves
+
+\[
+G=(1-r)D^TWD+r\sum_a p_aT_a^TGT_a,\qquad
+\ker G=\bigcap_w\ker(DT_w).
+\]
+
+The balanced nilpotent sheet family selects the existing positive quadratic seam geometry:
+
+\[
+g=(1+\kappa v^2)\,du^2+dv^2,\qquad \kappa=c^2r/(1-r).
+\]
+
+Metric first and second derivatives are derived from the same equation and match the unchanged EMK-G1 geometry. Balanced linear curvature can vanish while the second-moment metric remains curved. Actual event-tag erasure loses that warp at the common zero state, with an exact positive information ledger; this is a conditional observation law.
+
+The [verification record](04-operator-evolution/R12_VERIFICATION.json) reports **28 exact tests**, nine native algebra replays, four canonical observer completions, six rejected mathematical mutations and three rejected native alterations. R1–R11/master evidence is preserved. See the [pins](04-operator-evolution/R12_SOURCE_PINS.json) and [native certificate](04-operator-evolution/R12_NATIVE_CERTIFICATE.json).
+
+~~~bash
+python3.12 -B 04-operator-evolution/verify_r12.py \
+  --publications-root ../Publications \
+  --rkf-root ../Recognition-Kernel-Framework
+~~~
+
+This is a foundation derivation under a specified likelihood, event law and tangent chart. Their physical selection remains open; information distance does not automatically select spacetime signature or force the original native connection to be Levi–Civita.
+
+
 ## R11: spectral blindness and the curvature observer
 
 [R11](02-relational-response/SPECTRAL_CURVATURE_OBSERVER_R11.md) connects both spectral papers in Publications to native curvature and the R10 tangent quotient. It certifies an entire curvature family whose classical geometry is flat and whose characteristic data are constant. Its nonidentity finite order loops can have exactly the spectrum of identity.

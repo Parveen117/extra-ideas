@@ -1,0 +1,845 @@
+{
+  "development": "R12",
+  "date": "2026-10-01",
+  "status": "PASS_EXACT_OBSERVER_METRIC_FOUNDATION",
+  "python": "3.12.14",
+  "node": "v24.19.0",
+  "tests_run": 28,
+  "failures": 0,
+  "errors": 0,
+  "finite_case_counts": {
+    "balanced_sheet_parameter_cases": 27,
+    "independent_EMKG1_geometry_comparisons": 18,
+    "positive_calibration_and_event_law_cases": 9,
+    "finite_event_apertures": 5,
+    "rank_changing_points": 2,
+    "native_observer_catalogues": 4
+  },
+  "math_mutation_controls": {
+    "omit_future_event_information": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "current_seed_is_already_future_complete": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "forgetting_tags_keeps_the_second_moment_metric": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "omit_derivatives_of_the_native_transport": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "balanced_first_moment_forces_a_flat_metric": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    },
+    "accept_a_divergent_event_law": {
+      "rejected": true,
+      "tests_run": 1,
+      "assertion_failures": 1,
+      "errors": 0
+    }
+  },
+  "native_negative_controls": {
+    "altered_input_rejected": true,
+    "altered_rewrite_rejected": true,
+    "altered_future_observer_rejected": true
+  },
+  "native_contract": {
+    "input_sha256": "15d48486d82eab1947835d878473ab903db473fb588608e7655dfba113ee522b",
+    "equalities_replayed": 8,
+    "distinctness_replays": 1,
+    "audit": "CONFLUENT_BY_CHECKED_DIAMONDS",
+    "abstract_algebra_replays_assume_finite_carrier": false,
+    "observer_completions_are_finite": true,
+    "observer_metric_kernel_comparisons": {
+      "future_depth": {
+        "rank": 2,
+        "observer_matrix_match": true
+      },
+      "paired_sheet_with_one_invisible_mode": {
+        "rank": 3,
+        "observer_matrix_match": true
+      },
+      "both_reverse_markers_admitted_as_transport": {
+        "rank": 4,
+        "observer_matrix_match": true
+      },
+      "lower_record_without_reverse_feedback": {
+        "rank": 2,
+        "observer_matrix_match": true
+      }
+    },
+    "canonical_engine_reused_unchanged": true
+  },
+  "upstream": {
+    "publications_commit": "e1dc4e3773f063f14e56cf30222c8e8a504519cd",
+    "rkf_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+    "publications_sha256": {
+      "papers/emk-recognition-geometry/certificates/emkg1_rotational_seam_metric.py": "a0a3d503ed4f17a3f2398dbde4c408c90cdfa14e16e8a171178319ec38029ab1",
+      "papers/curvature-information-duality/certificates/cid1_curvature_information_duality.py": "e4207d4d77ff71ff4014f05205f15600699fb516dc4ab7721f0fa07b3ba20186",
+      "papers/curvature-information-duality/certificates/qth1_quantum_recognition_information.py": "f661838ae5c169bb80c51e281e4252f1e3be55d51e2e488c23bc12a93a9bd4f6"
+    },
+    "rkf_sha256": {
+      "operator_foundation/core/dependency_gate.cjs": "9a3bbecd03c159536dc17ca827d24d6e644d527adbf6da332460efbb45dbc8d1",
+      "operator_foundation/core/native_laurent.cjs": "fc84abf52311f89ee3a7bb8c6883412e5f64a65812b0031804b44a2e660c0c8a",
+      "operator_foundation/core/native_operator.cjs": "304963cccf4320d76dd36147e5c15ad579e9d0496c86fb1f942543bc692e06a3",
+      "operator_foundation/core/native_paths.cjs": "cc59550c541c078a8b4643e8602691e147179db780e232a53162f604e812e14f",
+      "operator_foundation/core/paninian_operator.cjs": "9a30c72f4e89d0a15697c99095ed8e0f015bb8c64fda4ded9897394945886fd8",
+      "operator_foundation/core/workbench.cjs": "c12a3138cc326604a1149bc306b8cc338b9e9161516b610504ddbc7d59a1ea6d",
+      "operator_foundation/theory/01_NATIVE_ALGEBRA.md": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5",
+      "theorum/35_native_metric_graph_boundary_pairing.md": "653e3bf5145e04de31bb52d030a366505bf37a5d6de7a6c14c75e7527a24af17"
+    }
+  },
+  "witnesses": {
+    "balanced_sheet": {
+      "coupling": "2",
+      "normal_coordinate": "1/3",
+      "continuation": "1/2",
+      "derived_kappa": "4",
+      "derived_observer": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "derived_response_metric": [
+        [
+          "13/9",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "tangent_metric": [
+        [
+          "13/9",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "tangent_metric_first": [
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "8/3",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "tangent_metric_second": [
+        [
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "8",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ]
+      ],
+      "gaussian_curvature": "-324/169",
+      "forgotten_tag_metric_at_origin": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "forgotten_information": [
+        [
+          "4/9",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "raw_native_curvature": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "2",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "riemann_curvature": [
+        [
+          "0",
+          "-324/169"
+        ],
+        [
+          "36/13",
+          "0"
+        ]
+      ],
+      "distortion_curvature": [
+        [
+          "0",
+          "324/169"
+        ],
+        [
+          "-36/13",
+          "0"
+        ]
+      ],
+      "excursion_curvature": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "native_connection_is_levi_civita": false
+    },
+    "feedback_catalogue": {
+      "observer": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "rank": 4,
+      "kernel": [],
+      "section": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "quotient_metric": [
+        [
+          "64/63",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "64/63",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "8/63",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "8/63"
+        ]
+      ],
+      "descended_transports": [
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "-1"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      ],
+      "metric": [
+        [
+          "64/63",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "64/63",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "8/63",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "8/63"
+        ]
+      ],
+      "seed": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ],
+      "stein_residual": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    }
+  },
+  "preserved_evidence": {
+    "R1_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "c1b24ba12cb54af5d33ce443af0691165ccab8d40e345f3c2afc84669e9cea34",
+      "paths_checked": 4,
+      "all_hashes_match": true
+    },
+    "R2_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "f6051c6baec50f124ec5ac3ab7adc6e82dbba47f77571b590a72927de60d83e5",
+      "paths_checked": 4,
+      "all_hashes_match": true
+    },
+    "R3_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_FINITE_CHECKS",
+      "record_sha256": "0b48e868e53dd429100fdf15b81240d1b9cddf12e10b856d05f8f319a72ca2dd",
+      "paths_checked": 8,
+      "all_hashes_match": true
+    },
+    "R4_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_SOURCE_BRIDGE_CHECKS",
+      "record_sha256": "1b646bf98c396af0404381f5c23564f94d05b80b0c5d1fb19332a4848fbb6dbb",
+      "paths_checked": 10,
+      "all_hashes_match": true
+    },
+    "R5_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_PROFILE_RECOVERY_CHECKS",
+      "record_sha256": "525ebbf96054046177617f82fa84162fff51d8116251344770c01df5f376cf63",
+      "paths_checked": 15,
+      "all_hashes_match": true
+    },
+    "R6_VERIFICATION": {
+      "recorded_status": "PASS_CERTIFIED_INTERVAL_PROFILE_CHECKS",
+      "record_sha256": "ec53dfbd8d7c2fab225c3d5f5d2f2cdb73435d0bb3f74420f5baa9ed16a2f53d",
+      "paths_checked": 15,
+      "all_hashes_match": true
+    },
+    "R7_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_TYPED_EMK_TENSOR_CHECKS",
+      "record_sha256": "063dd9abc530a102867597dab47d1eb8701c91b2505a1d4877d51ffce53bc25a",
+      "paths_checked": 14,
+      "all_hashes_match": true
+    },
+    "R8_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_CURVATURE_OBSERVATION_CERTIFICATES",
+      "record_sha256": "76e9704e7177772ff053fa424c7772468a6537f380d2994c14511b3641100af8",
+      "paths_checked": 18,
+      "all_hashes_match": true
+    },
+    "R9_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_NATIVE_CURVATURE_BALANCE",
+      "record_sha256": "5670d64a389a7c9488bf6cf614a37baf3804a5ce31bfc3ecec5defd2fc075cee",
+      "paths_checked": 20,
+      "all_hashes_match": true
+    },
+    "R10_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_NATIVE_CURVATURE_DESCENT",
+      "record_sha256": "864d0db362c4fd85afd7ef3fc209ec699b2f3e4fe0063577831894c8024c8edd",
+      "paths_checked": 22,
+      "all_hashes_match": true
+    },
+    "R11_VERIFICATION": {
+      "recorded_status": "PASS_EXACT_SPECTRAL_CURVATURE_OBSERVER",
+      "record_sha256": "e8ec82efdd42e5ae6b6fac9e01e3d95df9b7d986505530daaf1b7078487f4dec",
+      "paths_checked": 24,
+      "all_hashes_match": true
+    },
+    "EMK_MASTER_REVIEW_VERIFICATION": {
+      "recorded_status": "PASS_REPRODUCIBLE_EMK_MASTER_REVIEW_WITH_THREE_FINDINGS",
+      "record_sha256": "420189bb4c06a8db74c9a12081334058a8245021fdcd93683b8e820565f5f40c",
+      "paths_checked": 3,
+      "all_hashes_match": true
+    }
+  },
+  "claim_levels": {
+    "written_general_convergence_and_selection_proofs": true,
+    "native_rewrite_certificates": true,
+    "exact_finite_rational_checks": true,
+    "new_Lean_formalization": false,
+    "external_peer_review": false,
+    "physical_experiment": false
+  },
+  "selection_boundary": {
+    "observer_quotient_derived_from_event_response_kernel": true,
+    "operational_metric_derived_from_tagged_likelihood": true,
+    "metric_two_jet_derived_from_transport_two_jet": true,
+    "positive_quadratic_EMKG1_family_derived_within_event_model": true,
+    "admitted_noise_likelihood_and_event_law": true,
+    "admitted_constant_tangent_map": true,
+    "stability_is_checked_separately_from_algebraic_solve": true,
+    "untagged_mean_formula_scope": "zero displacement only",
+    "global_fixed_statistical_family_claimed_for_nonclosed_response_coframe": false,
+    "original_native_connection_is_automatically_levi_civita": false,
+    "all_observation_forces_flatness": false,
+    "universal_physical_metric_or_clock_selected": false,
+    "lorentz_signature_derived_from_positive_fisher_metric": false
+  },
+  "sha256": {
+    "4ways.tex": "ace9e45fedf6154f2d872ae762c47a1d852ff93a373f6e30d99c33031cdf8234",
+    "02-relational-response/OBSERVER_METRIC_FOUNDATION_R12.md": "2da79f4ceaeb2cdace775f6f40dacd80c37460dda7b7bf69f1dff7bac29ae2dc",
+    "04-operator-evolution/observer_metric_foundation.py": "d6ba25b514db4ff058b83c8dc5b7f4f0b341a4c6a2294f6a666b4d93f09ff8fd",
+    "04-operator-evolution/test_observer_metric_foundation.py": "87bbb561673bce6598c18d79e9d7161704746a41ccd7be269c7092f27b89e3c7",
+    "04-operator-evolution/r12_native_observer_metric_probe.cjs": "75cabb4fc4802a07a8e3cf0f0eb06e14ea18b82cdf4d9d5a39c6947cff4e94b3",
+    "04-operator-evolution/verify_r12.py": "4be113071026e8d3f27a3d648c36dafe256c6d1055b034d09404c6d9087921db",
+    "04-operator-evolution/R12_SOURCE_PINS.json": "89f40459baddcf6e3b40bace6368d61e3d1ffcac58793b13a8eb17099a2f4fb1",
+    "04-operator-evolution/R12_NATIVE_CERTIFICATE.json": "a95dceace1967f9348968fb3a84b3036fdece21089122f169a99919861c8879f",
+    "04-operator-evolution/verify_r11.py": "5406faa28da4223e9849b98ba03f841737a48a0b34fb85b7d341ec8a18ed4499",
+    "04-operator-evolution/aghora_return.py": "17e1bb9681f9d5e766c4f294765c1273ba6716a64e8d125196fd36f10fb06e7c",
+    "04-operator-evolution/emk_tensor_calculus.py": "04d0e4d3754c165a0c54a2c40b837530d56780048732b168c95dfe1cca07887e",
+    "04-operator-evolution/emk_curvature_observation.py": "91059138ba60d02a7da154692e51af15dd0ed5461598ee6b80564de0639e6a62",
+    "04-operator-evolution/emk_curvature_balance.py": "6c922c02ea4681e7e3b6abe3b842e876b73e2324f15b78ac1ed79b5bcfc969ec",
+    "04-operator-evolution/native_curvature_descent.py": "0398d844b7675e97d3d1b99507421ee5c4370b1cbc611cbb1827428d789a50a4",
+    "04-operator-evolution/spectral_curvature_observer.py": "6c1b067f8b7ac137d61a43871d7962fc6758f4a33bed30ebeb6f721063e641c6",
+    "04-operator-evolution/R1_VERIFICATION.json": "c1b24ba12cb54af5d33ce443af0691165ccab8d40e345f3c2afc84669e9cea34",
+    "04-operator-evolution/R2_VERIFICATION.json": "f6051c6baec50f124ec5ac3ab7adc6e82dbba47f77571b590a72927de60d83e5",
+    "04-operator-evolution/R3_VERIFICATION.json": "0b48e868e53dd429100fdf15b81240d1b9cddf12e10b856d05f8f319a72ca2dd",
+    "04-operator-evolution/R4_VERIFICATION.json": "1b646bf98c396af0404381f5c23564f94d05b80b0c5d1fb19332a4848fbb6dbb",
+    "04-operator-evolution/R5_VERIFICATION.json": "525ebbf96054046177617f82fa84162fff51d8116251344770c01df5f376cf63",
+    "04-operator-evolution/R6_VERIFICATION.json": "ec53dfbd8d7c2fab225c3d5f5d2f2cdb73435d0bb3f74420f5baa9ed16a2f53d",
+    "04-operator-evolution/R7_VERIFICATION.json": "063dd9abc530a102867597dab47d1eb8701c91b2505a1d4877d51ffce53bc25a",
+    "04-operator-evolution/R8_VERIFICATION.json": "76e9704e7177772ff053fa424c7772468a6537f380d2994c14511b3641100af8",
+    "04-operator-evolution/R9_VERIFICATION.json": "5670d64a389a7c9488bf6cf614a37baf3804a5ce31bfc3ecec5defd2fc075cee",
+    "04-operator-evolution/R10_VERIFICATION.json": "864d0db362c4fd85afd7ef3fc209ec699b2f3e4fe0063577831894c8024c8edd",
+    "04-operator-evolution/R11_VERIFICATION.json": "e8ec82efdd42e5ae6b6fac9e01e3d95df9b7d986505530daaf1b7078487f4dec",
+    "04-operator-evolution/EMK_MASTER_REVIEW_VERIFICATION.json": "420189bb4c06a8db74c9a12081334058a8245021fdcd93683b8e820565f5f40c"
+  }
+}

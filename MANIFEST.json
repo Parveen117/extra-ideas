@@ -44,7 +44,7 @@
       "standalone_document": false
     }
   ],
-  "status": "R11: spectral blindness is connected to native curvature, flat tangent quotients and exact finite return. Minimal cross-sector banks recover the declared hidden family; cubic marker excitation equals the visible excursion trace.",
+  "status": "R12: a native event experiment jointly derives its future observer quotient and unique tagged operational metric; balanced nilpotent sheet cost derives the positive quadratic EMK-G1 warp and its metric jets.",
   "repository": "Parveen117/extra-ideas",
   "visibility": "public",
   "developments": [
@@ -467,6 +467,62 @@
       "physical_validation": false,
       "physical_probe_or_metric_selected": false,
       "general_spectral_observer_theorems_newly_discovered": false
+    },
+    {
+      "id": "R12",
+      "date": "2026-10-01",
+      "title": "Observer and metric from a native event response law",
+      "proof": "02-relational-response/OBSERVER_METRIC_FOUNDATION_R12.md",
+      "implementation": "04-operator-evolution/observer_metric_foundation.py",
+      "native_adapter": "04-operator-evolution/r12_native_observer_metric_probe.cjs",
+      "verifier": "04-operator-evolution/verify_r12.py",
+      "verification": "04-operator-evolution/R12_VERIFICATION.json",
+      "native_certificate": "04-operator-evolution/R12_NATIVE_CERTIFICATE.json",
+      "source_pins": "04-operator-evolution/R12_SOURCE_PINS.json",
+      "test_count": 28,
+      "validation_status": "PASS_EXACT_OBSERVER_METRIC_FOUNDATION",
+      "finite_case_counts": {
+        "balanced_sheet_parameter_cases": 27,
+        "independent_EMKG1_geometry_comparisons": 18,
+        "positive_calibration_and_event_law_cases": 9,
+        "finite_event_apertures": 5,
+        "rank_changing_points": 2,
+        "native_observer_catalogues": 4
+      },
+      "native_equalities_replayed": 8,
+      "native_distinctness_replays": 1,
+      "canonical_observer_completions": 4,
+      "math_mutations_rejected": 6,
+      "native_alterations_rejected": 3,
+      "canonical_engine_home": "Parveen117/Recognition-Kernel-Framework/operator_foundation",
+      "source_runtime_reused_unchanged": true,
+      "engine_implementation_copied": false,
+      "results": [
+        "G=(1-r)D^TWD+r sum_a p_a T_a^T G T_a uniquely selects the stable tagged experiment metric.",
+        "ker G is the complete future response kernel, hence selects the existing N03 minimum observer quotient.",
+        "The balanced square-zero sheet law derives g=diag(1+kappa*v^2,1), kappa=c^2*r/(1-r).",
+        "Metric first and second jets follow by differentiating the same selection equation and match unchanged EMK-G1 geometry.",
+        "Balanced linear curvature can vanish while the tagged second-moment metric has nonzero Gaussian curvature.",
+        "Actual event-tag erasure at zero displacement loses the seam warp with an exact positive Fisher-information ledger.",
+        "R10 distortion separates the derived metric from the original native connection; a full compatible descent can supply a Riemann special sector."
+      ],
+      "assumptions": [
+        "admitted finite real native representation with invertible permitted moves",
+        "Gaussian terminal response likelihood with calibrated positive noise precision",
+        "positive state-independent event probabilities and geometric stopping law",
+        "verified strict stability inequality for the complete experiment",
+        "admitted constant tangent map; a family of local anchored contrast experiments",
+        "untagged mean-score formula applies only where all conditional Gaussian means coincide"
+      ],
+      "conditional_observer_and_operational_metric_derived": true,
+      "gaussian_noise_or_event_law_derived_from_bare_algebra": false,
+      "universal_physical_metric_selected": false,
+      "lorentz_signature_selected": false,
+      "original_native_connection_forced_to_be_levi_civita": false,
+      "recorded_R1_R11_and_master_review_hashes_preserved": true,
+      "general_Fisher_Stein_or_observer_theorems_newly_discovered": false,
+      "new_Lean_formalization": false,
+      "physical_validation": false
     }
   ],
   "lineage_assessment": "CROSS_REPO_LINEAGE.md",
@@ -494,5 +550,6 @@
   "r8_lineage_addendum": "02-relational-response/CURVATURE_OBSERVATION_R8.md#7-what-is-added-and-what-already-existed",
   "r9_lineage_addendum": "02-relational-response/CURVATURE_BALANCE_R9.md#8-evidence-lineage-and-reproduction",
   "r10_lineage_addendum": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md#source-and-result-lineage",
-  "r11_lineage_addendum": "02-relational-response/SPECTRAL_CURVATURE_OBSERVER_R11.md#source-links-and-reading-scope"
+  "r11_lineage_addendum": "02-relational-response/SPECTRAL_CURVATURE_OBSERVER_R11.md#source-links-and-reading-scope",
+  "r12_lineage_addendum": "02-relational-response/OBSERVER_METRIC_FOUNDATION_R12.md#9-certification-and-lineage"
 }

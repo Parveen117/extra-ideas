@@ -22,7 +22,11 @@ For a proposed Jacobian, check the compatibility conditions needed for it to ari
 
 ## Next target
 
-Continue from the existing EMK master before physical response laws. The [master review](EMK_MASTER_TENSOR_REVIEW.md) credits its advanced metric, tensor/time, holonomy and information layers and identifies three consistency corrections. R7–R10 provide typed transport, observation, conditional balance and exact tangent descent. [R11](SPECTRAL_CURVATURE_OBSERVER_R11.md) connects both spectral papers to a minimal cross-sector curvature bank. Next identify a specific native response sector's permitted catalogue, distinguish response reading from transport intervention, and carry its feedback through the R10 excursion correction. Physical observer and metric selection remain explicit.
+Continue from the existing EMK master and [R12](OBSERVER_METRIC_FOUNDATION_R12.md). A native event experiment now derives the future observer quotient, operational metric and positive quadratic seam warp together. Next select its preparation, noise likelihood and event law from a specific native response sector, rather than introduce an independent metric. Retain the [master review](EMK_MASTER_TENSOR_REVIEW.md) corrections, R11's reading/intervention distinction and R10's complete connection descent gate.
+
+## R12 observer and metric foundation
+
+[OBSERVER_METRIC_FOUNDATION_R12.md](OBSERVER_METRIC_FOUNDATION_R12.md) derives the observer kernel from future distinguishability and its positive metric from the tagged response likelihood. A balanced square-zero sheet law yields \(g=(1+\kappa v^2)du^2+dv^2\) with \(\kappa=c^2r/(1-r)\), including independently derived metric jets and EMK-G1 agreement. Tag erasure at the common zero state loses the warp; balanced linear curvature alone does not. [R12_VERIFICATION.json](../04-operator-evolution/R12_VERIFICATION.json) records 28 exact tests, nine native replays, four canonical N03 completions and nine rejected alterations. Physical response-law selection remains explicit.
 
 ## R11 spectral blindness and curvature recovery
 

@@ -26,7 +26,19 @@ For evolution, specify whether the generator is bounded, an unbounded semigroup 
 
 ## Next target
 
-Follow the [EMK master review](../02-relational-response/EMK_MASTER_TENSOR_REVIEW.md) and [R11](../02-relational-response/SPECTRAL_CURVATURE_OBSERVER_R11.md): instantiate its cross-sector bank in a specified native response sector and test the permitted catalogue, gain and error bounds. When a probe is admitted as a transport intervention, track its R10 excursion rather than silently preserving the earlier tangent quotient. Retain the upstream corrections and separate metric/lambda selection obligation. Finite moves, infinitesimal curvature and sheet memory remain separately typed.
+Follow [R12](../02-relational-response/OBSERVER_METRIC_FOUNDATION_R12.md): the allowed event experiment derives its future observer and metric through a positive Stein selection equation. Next justify the response/noise/event contract from a specific native sector and carry the derived metric through the full R10 connection law. Keep R11 marker reading and transport intervention distinct, and retain the upstream master-review corrections.
+
+## R12 observer/metric selection certificates
+
+[observer_metric_foundation.py](observer_metric_foundation.py) derives the tagged Fisher form, future observer quotient, descended transports, tag-erasure ledger, transport-derived metric two-jet and quadratic seam geometry. [r12_native_observer_metric_probe.cjs](r12_native_observer_metric_probe.cjs) calls unchanged RKF routines for nine algebra replays and four N03 observer completions.
+
+~~~bash
+python3.12 -B 04-operator-evolution/verify_r12.py \
+  --publications-root ../Publications \
+  --rkf-root ../Recognition-Kernel-Framework
+~~~
+
+[R12_VERIFICATION.json](R12_VERIFICATION.json) records 28 tests, six rejected mathematical mutations, three rejected native alterations and preserved R1–R11/master hashes. See the [proof](../02-relational-response/OBSERVER_METRIC_FOUNDATION_R12.md), [pins](R12_SOURCE_PINS.json) and [native packet](R12_NATIVE_CERTIFICATE.json). The operational metric is derived within its supplied event/noise law; universal physical metric and clock selection remain open.
 
 ## R11 spectral curvature observer certificates
 

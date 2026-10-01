@@ -1,0 +1,4169 @@
+{
+  "input": {
+    "schema": "extra-ideas.r12-observer-metric.v1",
+    "presentation": {
+      "tokens": [
+        "P",
+        "N",
+        "D",
+        "Q"
+      ],
+      "rules": [
+        {
+          "id": "PP",
+          "lhs": [
+            "P",
+            "P"
+          ],
+          "rhs": [
+            [
+              [
+                "P"
+              ],
+              1
+            ]
+          ],
+          "source": "Hidden projector P^2=P"
+        },
+        {
+          "id": "PN",
+          "lhs": [
+            "P",
+            "N"
+          ],
+          "rhs": [
+            [
+              [
+                "N"
+              ],
+              1
+            ]
+          ],
+          "source": "Native one-way record P N=N"
+        },
+        {
+          "id": "NP",
+          "lhs": [
+            "N",
+            "P"
+          ],
+          "rhs": [],
+          "source": "Native one-way record N P=0"
+        },
+        {
+          "id": "NN",
+          "lhs": [
+            "N",
+            "N"
+          ],
+          "rhs": [],
+          "source": "Nilpotent native record N^2=0"
+        },
+        {
+          "id": "DP",
+          "lhs": [
+            "D",
+            "P"
+          ],
+          "rhs": [
+            [
+              [
+                "D"
+              ],
+              1
+            ]
+          ],
+          "source": "D represents the admitted transpose of N"
+        },
+        {
+          "id": "PD",
+          "lhs": [
+            "P",
+            "D"
+          ],
+          "rhs": [],
+          "source": "Adjoint record has visible output"
+        },
+        {
+          "id": "DD",
+          "lhs": [
+            "D",
+            "D"
+          ],
+          "rhs": [],
+          "source": "Transpose of N is also square-zero"
+        }
+      ]
+    },
+    "tasks": [
+      {
+        "name": "opposite_sheet_transports_are_exact_inverses",
+        "left": {
+          "op": "multiply",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "word": []
+                },
+                {
+                  "op": "scale",
+                  "coefficient": [
+                    "2/3",
+                    "0"
+                  ],
+                  "value": {
+                    "word": [
+                      "N"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "op": "add",
+              "args": [
+                {
+                  "word": []
+                },
+                {
+                  "op": "scale",
+                  "coefficient": [
+                    "-2/3",
+                    "0"
+                  ],
+                  "value": {
+                    "word": [
+                      "N"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "right": {
+          "word": []
+        },
+        "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+      },
+      {
+        "name": "balanced_first_moment_is_identity",
+        "left": {
+          "op": "scale",
+          "coefficient": [
+            "1/2",
+            "0"
+          ],
+          "value": {
+            "op": "add",
+            "args": [
+              {
+                "op": "add",
+                "args": [
+                  {
+                    "word": []
+                  },
+                  {
+                    "op": "scale",
+                    "coefficient": [
+                      "2/3",
+                      "0"
+                    ],
+                    "value": {
+                      "word": [
+                        "N"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "op": "add",
+                "args": [
+                  {
+                    "word": []
+                  },
+                  {
+                    "op": "scale",
+                    "coefficient": [
+                      "-2/3",
+                      "0"
+                    ],
+                    "value": {
+                      "word": [
+                        "N"
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "right": {
+          "word": []
+        },
+        "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+      },
+      {
+        "name": "second_moment_retains_the_hidden_record",
+        "left": {
+          "op": "scale",
+          "coefficient": [
+            "1/2",
+            "0"
+          ],
+          "value": {
+            "op": "add",
+            "args": [
+              {
+                "op": "multiply",
+                "args": [
+                  {
+                    "op": "add",
+                    "args": [
+                      {
+                        "word": []
+                      },
+                      {
+                        "op": "scale",
+                        "coefficient": [
+                          "2/3",
+                          "0"
+                        ],
+                        "value": {
+                          "word": [
+                            "D"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "word": [
+                      "Q"
+                    ]
+                  },
+                  {
+                    "op": "add",
+                    "args": [
+                      {
+                        "word": []
+                      },
+                      {
+                        "op": "scale",
+                        "coefficient": [
+                          "2/3",
+                          "0"
+                        ],
+                        "value": {
+                          "word": [
+                            "N"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "op": "multiply",
+                "args": [
+                  {
+                    "op": "add",
+                    "args": [
+                      {
+                        "word": []
+                      },
+                      {
+                        "op": "scale",
+                        "coefficient": [
+                          "-2/3",
+                          "0"
+                        ],
+                        "value": {
+                          "word": [
+                            "D"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "word": [
+                      "Q"
+                    ]
+                  },
+                  {
+                    "op": "add",
+                    "args": [
+                      {
+                        "word": []
+                      },
+                      {
+                        "op": "scale",
+                        "coefficient": [
+                          "-2/3",
+                          "0"
+                        ],
+                        "value": {
+                          "word": [
+                            "N"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "right": {
+          "op": "add",
+          "args": [
+            {
+              "word": [
+                "Q"
+              ]
+            },
+            {
+              "op": "scale",
+              "coefficient": [
+                "4/9",
+                "0"
+              ],
+              "value": {
+                "op": "multiply",
+                "args": [
+                  {
+                    "word": [
+                      "D"
+                    ]
+                  },
+                  {
+                    "word": [
+                      "Q"
+                    ]
+                  },
+                  {
+                    "word": [
+                      "N"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+      },
+      {
+        "name": "square_zero_stabilizes_the_recursive_record_cost",
+        "left": {
+          "op": "multiply",
+          "args": [
+            {
+              "word": [
+                "D"
+              ]
+            },
+            {
+              "op": "add",
+              "args": [
+                {
+                  "word": [
+                    "Q"
+                  ]
+                },
+                {
+                  "op": "scale",
+                  "coefficient": [
+                    "4/9",
+                    "0"
+                  ],
+                  "value": {
+                    "op": "multiply",
+                    "args": [
+                      {
+                        "word": [
+                          "D"
+                        ]
+                      },
+                      {
+                        "word": [
+                          "Q"
+                        ]
+                      },
+                      {
+                        "word": [
+                          "N"
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "word": [
+                "N"
+              ]
+            }
+          ]
+        },
+        "right": {
+          "op": "multiply",
+          "args": [
+            {
+              "word": [
+                "D"
+              ]
+            },
+            {
+              "word": [
+                "Q"
+              ]
+            },
+            {
+              "word": [
+                "N"
+              ]
+            }
+          ]
+        },
+        "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+      },
+      {
+        "name": "derived_metric_solves_the_tagged_event_selection_equation",
+        "left": {
+          "op": "add",
+          "args": [
+            {
+              "word": [
+                "Q"
+              ]
+            },
+            {
+              "op": "scale",
+              "coefficient": [
+                "4/9",
+                "0"
+              ],
+              "value": {
+                "op": "multiply",
+                "args": [
+                  {
+                    "word": [
+                      "D"
+                    ]
+                  },
+                  {
+                    "word": [
+                      "Q"
+                    ]
+                  },
+                  {
+                    "word": [
+                      "N"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "right": {
+          "op": "add",
+          "args": [
+            {
+              "op": "scale",
+              "coefficient": [
+                "1/2",
+                "0"
+              ],
+              "value": {
+                "word": [
+                  "Q"
+                ]
+              }
+            },
+            {
+              "op": "scale",
+              "coefficient": [
+                "1/4",
+                "0"
+              ],
+              "value": {
+                "op": "multiply",
+                "args": [
+                  {
+                    "op": "add",
+                    "args": [
+                      {
+                        "word": []
+                      },
+                      {
+                        "op": "scale",
+                        "coefficient": [
+                          "2/3",
+                          "0"
+                        ],
+                        "value": {
+                          "word": [
+                            "D"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "op": "add",
+                    "args": [
+                      {
+                        "word": [
+                          "Q"
+                        ]
+                      },
+                      {
+                        "op": "scale",
+                        "coefficient": [
+                          "4/9",
+                          "0"
+                        ],
+                        "value": {
+                          "op": "multiply",
+                          "args": [
+                            {
+                              "word": [
+                                "D"
+                              ]
+                            },
+                            {
+                              "word": [
+                                "Q"
+                              ]
+                            },
+                            {
+                              "word": [
+                                "N"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "op": "add",
+                    "args": [
+                      {
+                        "word": []
+                      },
+                      {
+                        "op": "scale",
+                        "coefficient": [
+                          "2/3",
+                          "0"
+                        ],
+                        "value": {
+                          "word": [
+                            "N"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "op": "scale",
+              "coefficient": [
+                "1/4",
+                "0"
+              ],
+              "value": {
+                "op": "multiply",
+                "args": [
+                  {
+                    "op": "add",
+                    "args": [
+                      {
+                        "word": []
+                      },
+                      {
+                        "op": "scale",
+                        "coefficient": [
+                          "-2/3",
+                          "0"
+                        ],
+                        "value": {
+                          "word": [
+                            "D"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "op": "add",
+                    "args": [
+                      {
+                        "word": [
+                          "Q"
+                        ]
+                      },
+                      {
+                        "op": "scale",
+                        "coefficient": [
+                          "4/9",
+                          "0"
+                        ],
+                        "value": {
+                          "op": "multiply",
+                          "args": [
+                            {
+                              "word": [
+                                "D"
+                              ]
+                            },
+                            {
+                              "word": [
+                                "Q"
+                              ]
+                            },
+                            {
+                              "word": [
+                                "N"
+                              ]
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "op": "add",
+                    "args": [
+                      {
+                        "word": []
+                      },
+                      {
+                        "op": "scale",
+                        "coefficient": [
+                          "-2/3",
+                          "0"
+                        ],
+                        "value": {
+                          "word": [
+                            "N"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+      },
+      {
+        "name": "native_record_curvature_is_cut_odd",
+        "left": {
+          "op": "multiply",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "word": []
+                },
+                {
+                  "op": "scale",
+                  "coefficient": -2,
+                  "value": {
+                    "word": [
+                      "P"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "word": [
+                "N"
+              ]
+            },
+            {
+              "op": "add",
+              "args": [
+                {
+                  "word": []
+                },
+                {
+                  "op": "scale",
+                  "coefficient": -2,
+                  "value": {
+                    "word": [
+                      "P"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "right": {
+          "op": "scale",
+          "coefficient": -1,
+          "value": {
+            "word": [
+              "N"
+            ]
+          }
+        },
+        "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+      },
+      {
+        "name": "balanced_linear_curvature_disappears_in_this_sector",
+        "left": {
+          "op": "scale",
+          "coefficient": [
+            "1/2",
+            "0"
+          ],
+          "value": {
+            "op": "add",
+            "args": [
+              {
+                "word": [
+                  "N"
+                ]
+              },
+              {
+                "op": "multiply",
+                "args": [
+                  {
+                    "op": "add",
+                    "args": [
+                      {
+                        "word": []
+                      },
+                      {
+                        "op": "scale",
+                        "coefficient": -2,
+                        "value": {
+                          "word": [
+                            "P"
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "word": [
+                      "N"
+                    ]
+                  },
+                  {
+                    "op": "add",
+                    "args": [
+                      {
+                        "word": []
+                      },
+                      {
+                        "op": "scale",
+                        "coefficient": -2,
+                        "value": {
+                          "word": [
+                            "P"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "right": {
+          "op": "scale",
+          "coefficient": 0,
+          "value": {
+            "word": []
+          }
+        },
+        "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+      },
+      {
+        "name": "every_nilpotent_sheet_history_adds_signed_record_amplitudes",
+        "left": {
+          "op": "multiply",
+          "args": [
+            {
+              "op": "add",
+              "args": [
+                {
+                  "word": []
+                },
+                {
+                  "op": "scale",
+                  "coefficient": [
+                    "1/3",
+                    "0"
+                  ],
+                  "value": {
+                    "word": [
+                      "N"
+                    ]
+                  }
+                }
+              ]
+            },
+            {
+              "op": "add",
+              "args": [
+                {
+                  "word": []
+                },
+                {
+                  "op": "scale",
+                  "coefficient": [
+                    "2/5",
+                    "0"
+                  ],
+                  "value": {
+                    "word": [
+                      "N"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "right": {
+          "op": "add",
+          "args": [
+            {
+              "word": []
+            },
+            {
+              "op": "scale",
+              "coefficient": [
+                "11/15",
+                "0"
+              ],
+              "value": {
+                "word": [
+                  "N"
+                ]
+              }
+            }
+          ]
+        },
+        "expected": "EQUAL_IN_DECLARED_QUOTIENT"
+      },
+      {
+        "name": "balanced_mean_does_not_determine_the_tagged_metric",
+        "left": {
+          "op": "add",
+          "args": [
+            {
+              "word": [
+                "Q"
+              ]
+            },
+            {
+              "op": "scale",
+              "coefficient": [
+                "4/9",
+                "0"
+              ],
+              "value": {
+                "op": "multiply",
+                "args": [
+                  {
+                    "word": [
+                      "D"
+                    ]
+                  },
+                  {
+                    "word": [
+                      "Q"
+                    ]
+                  },
+                  {
+                    "word": [
+                      "N"
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "right": {
+          "word": [
+            "Q"
+          ]
+        },
+        "expected": "DISTINCT_IN_DECLARED_QUOTIENT"
+      }
+    ],
+    "observer_cases": [
+      {
+        "name": "future_depth",
+        "seed": [
+          [
+            1,
+            1
+          ]
+        ],
+        "actions": [
+          [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              "1/2"
+            ]
+          ]
+        ],
+        "expected_rank": 2
+      },
+      {
+        "name": "paired_sheet_with_one_invisible_mode",
+        "seed": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ]
+        ],
+        "actions": [
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              "2/3",
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              "-2/3",
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        ],
+        "expected_rank": 3
+      },
+      {
+        "name": "lower_record_without_reverse_feedback",
+        "seed": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        "actions": [
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              -1,
+              0,
+              1
+            ]
+          ]
+        ],
+        "expected_rank": 2
+      },
+      {
+        "name": "both_reverse_markers_admitted_as_transport",
+        "seed": [
+          [
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ]
+        ],
+        "actions": [
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              -1,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              -1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0,
+              -1,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              -1
+            ],
+            [
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1
+            ]
+          ]
+        ],
+        "expected_rank": 4
+      }
+    ]
+  },
+  "input_sha256": "15d48486d82eab1947835d878473ab903db473fb588608e7655dfba113ee522b",
+  "presentation_sha256": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+  "audit": {
+    "protocol": "NATIVE_CRITICAL_PAIR_AUDIT_V1",
+    "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+    "status": "CONFLUENT_BY_CHECKED_DIAMONDS",
+    "termination": "strict degree-lex decrease",
+    "criticalPairs": 17,
+    "resolutions": [
+      {
+        "word": [
+          "P",
+          "P",
+          "P"
+        ],
+        "first": [
+          0,
+          0
+        ],
+        "second": [
+          0,
+          1
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "P",
+                  "P"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "P",
+                "P"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "PP",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "P"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "P",
+                  "P"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "P",
+                "P"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "PP",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "P"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "word": [
+          "P",
+          "P",
+          "N"
+        ],
+        "first": [
+          0,
+          0
+        ],
+        "second": [
+          1,
+          1
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "P",
+                  "N"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "P",
+                "N"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "PN",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "N"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "P",
+                  "N"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "P",
+                "N"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "PN",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "N"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "word": [
+          "N",
+          "P",
+          "P"
+        ],
+        "first": [
+          0,
+          1
+        ],
+        "second": [
+          2,
+          0
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "N",
+                  "P"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "N",
+                "P"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "NP",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      {
+        "word": [
+          "D",
+          "P",
+          "P"
+        ],
+        "first": [
+          0,
+          1
+        ],
+        "second": [
+          4,
+          0
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "D",
+                  "P"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "D",
+                "P"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "DP",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "D"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "D",
+                  "P"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "D",
+                "P"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "DP",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "D"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "word": [
+          "P",
+          "P",
+          "D"
+        ],
+        "first": [
+          0,
+          0
+        ],
+        "second": [
+          5,
+          1
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "P",
+                  "D"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "P",
+                "D"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "PD",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      {
+        "word": [
+          "N",
+          "P",
+          "N"
+        ],
+        "first": [
+          1,
+          1
+        ],
+        "second": [
+          2,
+          0
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "N",
+                  "N"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "N",
+                "N"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "NN",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      {
+        "word": [
+          "P",
+          "N",
+          "P"
+        ],
+        "first": [
+          1,
+          0
+        ],
+        "second": [
+          2,
+          1
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "N",
+                  "P"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "N",
+                "P"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "NP",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      {
+        "word": [
+          "P",
+          "N",
+          "N"
+        ],
+        "first": [
+          1,
+          0
+        ],
+        "second": [
+          3,
+          1
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "N",
+                  "N"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "N",
+                "N"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "NN",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      {
+        "word": [
+          "D",
+          "P",
+          "N"
+        ],
+        "first": [
+          1,
+          1
+        ],
+        "second": [
+          4,
+          0
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "D",
+                  "N"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "D",
+                  "N"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "D",
+                  "N"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "D",
+                  "N"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "word": [
+          "N",
+          "N",
+          "P"
+        ],
+        "first": [
+          2,
+          1
+        ],
+        "second": [
+          3,
+          0
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      {
+        "word": [
+          "N",
+          "P",
+          "D"
+        ],
+        "first": [
+          2,
+          0
+        ],
+        "second": [
+          5,
+          1
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      {
+        "word": [
+          "N",
+          "N",
+          "N"
+        ],
+        "first": [
+          3,
+          0
+        ],
+        "second": [
+          3,
+          1
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      {
+        "word": [
+          "P",
+          "D",
+          "P"
+        ],
+        "first": [
+          4,
+          1
+        ],
+        "second": [
+          5,
+          0
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "P",
+                  "D"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "P",
+                "D"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "PD",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      {
+        "word": [
+          "D",
+          "P",
+          "D"
+        ],
+        "first": [
+          4,
+          0
+        ],
+        "second": [
+          5,
+          1
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "D",
+                  "D"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "D",
+                "D"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "DD",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      {
+        "word": [
+          "D",
+          "D",
+          "P"
+        ],
+        "first": [
+          4,
+          1
+        ],
+        "second": [
+          6,
+          0
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "D",
+                  "D"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "D",
+                "D"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "DD",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      {
+        "word": [
+          "P",
+          "D",
+          "D"
+        ],
+        "first": [
+          5,
+          0
+        ],
+        "second": [
+          6,
+          1
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      {
+        "word": [
+          "D",
+          "D",
+          "D"
+        ],
+        "first": [
+          6,
+          0
+        ],
+        "second": [
+          6,
+          1
+        ],
+        "kind": "overlap",
+        "closed": true,
+        "left": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        },
+        "right": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      }
+    ],
+    "open": []
+  },
+  "results": [
+    {
+      "name": "opposite_sheet_transports_are_exact_inverses",
+      "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "N",
+                  "N"
+                ],
+                [
+                  "-4/9",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "N",
+                "N"
+              ],
+              "coefficient": [
+                "-4/9",
+                "0"
+              ],
+              "rule": "NN",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "balanced_first_moment_is_identity",
+      "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "second_moment_retains_the_hidden_record",
+      "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "square_zero_stabilizes_the_recursive_record_cost",
+      "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "D",
+                  "D",
+                  "Q",
+                  "N",
+                  "N"
+                ],
+                [
+                  "4/9",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "D",
+                "D",
+                "Q",
+                "N",
+                "N"
+              ],
+              "coefficient": [
+                "4/9",
+                "0"
+              ],
+              "rule": "NN",
+              "position": 3
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "derived_metric_solves_the_tagged_event_selection_equation",
+      "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "D",
+                  "D",
+                  "Q",
+                  "N",
+                  "N"
+                ],
+                [
+                  "-8/81",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "D",
+                "D",
+                "Q",
+                "N",
+                "N"
+              ],
+              "coefficient": [
+                "-8/81",
+                "0"
+              ],
+              "rule": "NN",
+              "position": 3
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "native_record_curvature_is_cut_odd",
+      "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "N"
+                ],
+                [
+                  "2",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "P",
+                  "N"
+                ],
+                [
+                  "-2",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "N",
+                  "P"
+                ],
+                [
+                  "-2",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "P",
+                  "N",
+                  "P"
+                ],
+                [
+                  "4",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "P",
+                "N",
+                "P"
+              ],
+              "coefficient": [
+                "4",
+                "0"
+              ],
+              "rule": "PN",
+              "position": 0
+            },
+            {
+              "word": [
+                "N",
+                "P"
+              ],
+              "coefficient": [
+                "2",
+                "0"
+              ],
+              "rule": "NP",
+              "position": 0
+            },
+            {
+              "word": [
+                "P",
+                "N"
+              ],
+              "coefficient": [
+                "-2",
+                "0"
+              ],
+              "rule": "PN",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "balanced_linear_curvature_disappears_in_this_sector",
+      "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "N"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "P",
+                  "N"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "N",
+                  "P"
+                ],
+                [
+                  "-1",
+                  "0"
+                ]
+              ],
+              [
+                [
+                  "P",
+                  "N",
+                  "P"
+                ],
+                [
+                  "2",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "P",
+                "N",
+                "P"
+              ],
+              "coefficient": [
+                "2",
+                "0"
+              ],
+              "rule": "PN",
+              "position": 0
+            },
+            {
+              "word": [
+                "N",
+                "P"
+              ],
+              "coefficient": [
+                "1",
+                "0"
+              ],
+              "rule": "NP",
+              "position": 0
+            },
+            {
+              "word": [
+                "P",
+                "N"
+              ],
+              "coefficient": [
+                "-1",
+                "0"
+              ],
+              "rule": "PN",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "every_nilpotent_sheet_history_adds_signed_record_amplitudes",
+      "expected": "EQUAL_IN_DECLARED_QUOTIENT",
+      "result": {
+        "status": "EQUAL_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "N",
+                  "N"
+                ],
+                [
+                  "2/15",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [
+            {
+              "word": [
+                "N",
+                "N"
+              ],
+              "coefficient": [
+                "2/15",
+                "0"
+              ],
+              "rule": "NN",
+              "position": 0
+            }
+          ],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": []
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "name": "balanced_mean_does_not_determine_the_tagged_metric",
+      "expected": "DISTINCT_IN_DECLARED_QUOTIENT",
+      "result": {
+        "status": "DISTINCT_IN_DECLARED_QUOTIENT",
+        "certificate": {
+          "protocol": "NATIVE_REWRITE_WITNESS_V1",
+          "presentation": "11e790b6b1c6c0b7f6437bd8d98361eea92f4cf416daa7269a16401c669092f8",
+          "input": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "D",
+                  "Q",
+                  "N"
+                ],
+                [
+                  "4/9",
+                  "0"
+                ]
+              ]
+            ]
+          },
+          "steps": [],
+          "output": {
+            "from": "*",
+            "to": "*",
+            "terms": [
+              [
+                [
+                  "D",
+                  "Q",
+                  "N"
+                ],
+                [
+                  "4/9",
+                  "0"
+                ]
+              ]
+            ]
+          }
+        }
+      },
+      "replay": "REPLAY_MATCH"
+    }
+  ],
+  "observers": [
+    {
+      "name": "future_depth",
+      "result": {
+        "observer": [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ],
+        "rank": 2,
+        "ranks": [
+          1,
+          2
+        ],
+        "extra": 1
+      },
+      "descended_actions": [
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1/2",
+              "0"
+            ]
+          ]
+        ]
+      ],
+      "expected_rank": 2
+    },
+    {
+      "name": "paired_sheet_with_one_invisible_mode",
+      "result": {
+        "observer": [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        "rank": 3,
+        "ranks": [
+          3
+        ],
+        "extra": 0
+      },
+      "descended_actions": [
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "2/3",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "-2/3",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ]
+      ],
+      "expected_rank": 3
+    },
+    {
+      "name": "lower_record_without_reverse_feedback",
+      "result": {
+        "observer": [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        "rank": 2,
+        "ranks": [
+          2
+        ],
+        "extra": 0
+      },
+      "descended_actions": [
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ]
+      ],
+      "expected_rank": 2
+    },
+    {
+      "name": "both_reverse_markers_admitted_as_transport",
+      "result": {
+        "observer": [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ],
+        "rank": 4,
+        "ranks": [
+          2,
+          4
+        ],
+        "extra": 2
+      },
+      "descended_actions": [
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "-1",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ]
+        ]
+      ],
+      "expected_rank": 4
+    }
+  ],
+  "algebra_replays_assume_finite_carrier": false,
+  "observer_completions_are_finite": true,
+  "negative_controls": {
+    "altered_input_rejected": true,
+    "altered_rewrite_rejected": true,
+    "altered_future_observer_rejected": true
+  },
+  "status": "PASS_NATIVE_OBSERVER_METRIC_REPLAYS"
+}
