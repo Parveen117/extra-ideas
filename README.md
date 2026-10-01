@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R36's derivation ledger](04-operator-evolution/R36_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R37's derivation ledger](04-operator-evolution/R37_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,14 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R37: compact native packets and reliable arrival
+
+[R37](02-relational-response/NATIVE_PACKET_FLIGHT_R37.md) constructs finite-support packets of the actual R35 source. Native rational carriers give drifts `2/3, 12/17, 408/577, ...`, approaching `1/sqrt(2)` component counts per eight-event block. A source-derived corrector cancels the entire first-difference error; a three-box count profile supplies exact finite norm and difference bounds. Finite product telescoping then controls every event count without a Fourier, stationary-phase or stochastic premise.
+
+With profile width parameter `L^2` and flight time `L^3`, the relative matching-norm error is `O(1/L)`. At any fixed positive matching-fraction threshold, the packet has a reliable arrival window whose relative duration tends to zero. R36's complete curvature observer preserves the detector fraction and packet error exactly. This proves achievable localized source flights; a universal upper bound for all packets and physical light/rod/clock identification remain open, and the faster exact support front survives.
+
+[Verification](04-operator-evolution/R37_VERIFICATION.json) binds seven written proofs, nine exact groups, fourteen native replays, fifteen rejected alternatives and nine graph mutations. The [ledger](04-operator-evolution/R37_DERIVATION_LEDGER.json) inherits the R1–R33 reading register and distinguishes native packet/detector definitions from physical selection. All 285 prior non-navigation files and the frozen R36 chain are preserved.
 
 ## R36: curvature-complete observation, information geometry and current
 

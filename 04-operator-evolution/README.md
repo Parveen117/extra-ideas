@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R37 compact native packet-flight verification
+
+[native_packet_flight.cjs](native_packet_flight.cjs) reconstructs the unchanged source and checks rational carrier bands, the complete corrected Laurent remainder, compact profile counts, finite binomial identities, literal packet evolution, rational arrival bounds, the approaching speed family and curvature-observer detector equality.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r37.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R37_VERIFICATION.json](R37_VERIFICATION.json) binds seven written proofs, nine exact groups, fourteen native replays, fifteen false alternatives and nine graph mutations. It checks three complete carrier/corrector instances, 32 compact-profile checks, 120 finite moment identities, 38 complete integer-shift checks and eight literal packet evolutions with telescoping and norm/error checks. Large-flight examples are exact rational bounds, not simulated enormous packets. [Source pins](R37_SOURCE_PINS.json) preserve all 285 prior non-navigation files and replay the frozen R36 chain. The [ledger](R37_DERIVATION_LEDGER.json) retains the positive-threshold, limit-order, faster-front and physical-calibration boundaries.
+
 ## R36 curvature-observer geometry and current verification
 
 [native_curvature_observer.cjs](native_curvature_observer.cjs) reuses the unchanged native engine and reconstructs the source envelope from the pinned role tags. It checks the response Gram and dual metric, curvature products and area law, complete cut observer, exact paired wave, hidden-memory recurrence, information-current deficit, finite curvature correction and transported frames.

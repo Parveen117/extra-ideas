@@ -1,0 +1,1099 @@
+{
+  "schema": "extra-ideas.r37.derivation-ledger.v1",
+  "date": "2026-10-02",
+  "source_commit": "011b8224c92d95f7f726eb56bab3e8d8e6f7280c",
+  "no_classical_premise_rule": true,
+  "rule": "Use pinned native count roles, matching, completion, local Euler phases, actual R35 source and R36 observer. Derive compact corrected packets and finite error/arrival bounds inside explicitly constructed targets. Exclude Fourier, stationary-phase, stochastic, smooth/Riemann and physical adapters from proof paths. Metadata auditing is not semantic proof verification.",
+  "certified_claims": [
+    "R37.1",
+    "R37.2",
+    "R37.3",
+    "R37.4",
+    "R37.5",
+    "R37.6",
+    "R37.7"
+  ],
+  "claims": [
+    {
+      "id": "R37.1",
+      "title": "Rational native carriers realize two actual bands and a derived drift",
+      "written_section_sha256": "119bf2d8609cf0672952dfbc289c2d9d2c98374bd79d5ab57b458db6ccf742fc",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_rational_carriers_have_actual_bands_and_derived_drifts"
+      ],
+      "scope_boundary": "Rational native carrier choices have exact source bands, cuts and first-jet drifts. The drift is derived after declaring the carrier probe; physical carrier selection, a global argument angle and a Fourier representation of arbitrary fields are not assumed."
+    },
+    {
+      "id": "R37.2",
+      "title": "A finite source corrector removes the entire first-difference error",
+      "written_section_sha256": "a4de964b1146a71f639c9b19a43ac6af7f46ff9289d987a7da8494900dcf375a",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "a_source_corrector_removes_every_first_difference_error"
+      ],
+      "scope_boundary": "The derived finite corrector removes all first jets and the residual has a complete coefficientwise second-difference factorization. The finite matrix-mass bounds are conservative; an exactly translating packet or optimal corrector is not claimed."
+    },
+    {
+      "id": "R37.3",
+      "title": "Compact native count profiles have exact norm and difference bounds",
+      "written_section_sha256": "499180903540dcb37d5c901ae4ca450c249f57721dfbbce787aaadcdf0b49b2c",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "compact_three_box_counts_derive_exact_norm_and_difference_bounds"
+      ],
+      "scope_boundary": "Three convolutions of finite count boxes construct a compact profile and yield exact all-M norms and difference bounds. The preparation is explicit, not a selected physical state, Gaussian or probability distribution."
+    },
+    {
+      "id": "R37.4",
+      "title": "Finite products give an all-event bound on rigid packet flight",
+      "written_section_sha256": "1546280d3343db83bdd7530d65046bbed4ae65a9e9faf243702f22765faef74b",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_binomial_counts_control_rigid_drift_without_a_probability_premise",
+        "literal_finite_packets_satisfy_the_source_and_residual_telescoping"
+      ],
+      "scope_boundary": "An all-event written proof bounds the unchanged unitary source against a rigid translate by finite product telescoping and native binomial counts. Direct exact evolutions cover small finite packets; the averaging operator is only a comparison estimate and does not postulate a physical stochastic law."
+    },
+    {
+      "id": "R37.5",
+      "title": "Compact information signals have reliable finite arrival windows",
+      "written_section_sha256": "0dcfbb610a4286fe7b617791c09bee4cae940fb14aeed41145ac049896747ebd",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "literal_finite_packets_satisfy_the_source_and_residual_telescoping",
+        "finite_rational_bounds_certify_reliable_localized_arrival_windows"
+      ],
+      "scope_boundary": "For fixed carrier, width parameter L^2 and flight L^3 give norm error O(1/L) and a shrinking relative arrival window at each fixed positive matching-fraction threshold. This is a family of reliable native information readouts, not zero-threshold arrival or a universal all-packet ballistic upper theorem."
+    },
+    {
+      "id": "R37.6",
+      "title": "The reliable packet-speed family approaches the native coefficient with controlled limit order",
+      "written_section_sha256": "82a2b359979a54cb4be6edc34f8cfab3772b6c05b239b3fd580b7d2cfeb9d754",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "native_rational_carriers_have_actual_bands_and_derived_drifts",
+        "a_native_rational_speed_family_approaches_the_sharp_count_coefficient"
+      ],
+      "scope_boundary": "Native rational carriers and adequately enlarged compact packets approach 1/sqrt(2). Corrector constants depend on the closing band gap and must be controlled when taking joint limits. No nonzero carrier attains the supremum and no empirical constant is fitted."
+    },
+    {
+      "id": "R37.7",
+      "title": "The curvature observer reads the same flight and the event ledger calibrates its counts",
+      "written_section_sha256": "aa22a7e57ba75b40a1305736b000191e4d442e0c0426c549483b075907a1c8c8",
+      "evidence": "WRITTEN_NATIVE_PROOF_WITH_SCOPED_EXACT_CHECKS",
+      "exact_check_groups": [
+        "the_curvature_complete_observer_preserves_the_packet_and_detector_reading",
+        "carrier_threshold_and_exact_front_boundaries_reject_false_signal_claims"
+      ],
+      "scope_boundary": "The complete curvature observer preserves pointwise matching, detector fractions and flight errors. Event, address and information-length conversions are explicit source counts. The faster exact support front survives; physical light, material rods/clocks, independent-field universality, h and alpha are not selected."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "source_roles",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C3-C7",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Native marked roles, signed/refined coefficients, H/K and matching pairing. Finite counting, equality and induction remain the stated metamathematical infrastructure."
+    },
+    {
+      "id": "source_completion",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C8",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Native cut-Cauchy scalar completion and positive square-root construction."
+    },
+    {
+      "id": "source_history",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+        "section": "C1, C13",
+        "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+      },
+      "scope": "Full native finite word identities remain distinct from their coefficient evaluations."
+    },
+    {
+      "id": "source_transport",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+        "section": "R18.1-R18.4",
+        "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+      },
+      "scope": "Unchanged equal H/K transport on the constructed address target. Physical time and unique transport selection not supplied."
+    },
+    {
+      "id": "source_native_replay",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles"
+      ],
+      "source": {
+        "home": "rkf",
+        "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "section": "Native finite equality and replay",
+        "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5"
+      },
+      "scope": "Scoped identities in the unchanged canonical native engine; no whole-engine or formal proof-assistant claim."
+    },
+    {
+      "id": "comparison_clock_free_cut",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "theorum/24_clock_free_recognition_seam_cut_calculus.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "3d7d70f5cd213378c32e90e3c88eb195b48a7ea9e69297353c2eaafd04dbb8b8"
+      },
+      "scope": "Declared event lift/cut/arrow calculus; attribution only. Required role-block identities rederived in R28."
+    },
+    {
+      "id": "comparison_cut_curvature",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "theorum/48_emk_algebra_cut_graded_curvature_theorem.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "e447ea282bd47ccbc62e718a8d9aab912d926a9239a662d2e02c5f58fa7563f1"
+      },
+      "scope": "Prior exact EMK commutator and grading; source candidate certificate is not rerun or upgraded."
+    },
+    {
+      "id": "comparison_odd_exchange",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "theorum/51_odd_channel_exchange_law_theorem.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "c515d45334e1010c75750f15c1f5b1518bc4817e4956b01a55dbbec6952e48e4"
+      },
+      "scope": "Prior native scalar-turn Cayley exchange; different grading from the present role cut."
+    },
+    {
+      "id": "comparison_zero_cut",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "mp_gold/07_zero_as_cut_topology.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "sha256": "47c08643b69bbea870f89a3f0cb70518cb98fad96502370cb71794f174d9780a"
+      },
+      "scope": "Declared circle/torus homology ledger, proved model cut/join identity and user-local qualified numerical evidence. No topology or physical vacuum premise imported."
+    },
+    {
+      "id": "comparison_riemann_adapter",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md",
+        "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+        "sha256": "e0ebefb163d2ae2deb4acd2dbd7084a9f16e441b643f412a01661a7097763ce4"
+      },
+      "scope": "Admitted smooth/tangent/metric adapter for Riemann special case; excluded from every new proof path."
+    },
+    {
+      "id": "comparison_information_response",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/uncut-cut-measurement/NATIVE_RESPONSE_TENSOR_AND_CUT_LEDGER.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "sha256": "3ee3183f14e5f0a5978c1d591720c7bfb499528d71677ddb722ecbe8a19d1fbe"
+      },
+      "scope": "Prior response/Gram/seam construction on a declared real carrier, and separate supplied classical ensemble weights in U32. Attribution only; no such weights or ordinary complex chart enter R28."
+    },
+    {
+      "id": "source_curvature_bridge",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_transport",
+        "source_native_replay"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_CUT_CURVATURE_PROPAGATION_R28.md",
+        "commit": "9ed6ae27d3ddb005ed7f4f3f27417036729698fd",
+        "section": "R28.1-R28.6",
+        "sha256": "7c1909146b16710895e536cfb62dc85a09ea13816a69d1345266cd8f246f54a2"
+      },
+      "scope": "Native cut curvature, signed preparation, hidden transition exchange and the existing wave target. Physical vacuum/EM and unique dynamics are not selected."
+    },
+    {
+      "id": "source_paired_fields",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_transport",
+        "source_curvature_bridge"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_PAIRED_FIELD_DYNAMICS_R29.md",
+        "commit": "16602a29c469ac96001977432fcf5fc4b548970b",
+        "section": "R29.1-R29.7",
+        "sha256": "930c3d613d4098e31c31000bd07eef9fd2ffc20f9f46dfa44f709c1b3b65b0e1"
+      },
+      "scope": "Native V/N factorization, paired induction and source compatibility, positive field form, local current and boundary residue on explicit readouts. Physical EM, vacuum and coupling selection remain open."
+    },
+    {
+      "id": "comparison_native_reciprocal_frames",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_MEMORY_RESIDUE_R26.md",
+        "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+        "section": "R26.1",
+        "sha256": "2a8b300ce78707cddad7163e8a2830dbea285892d6cc02abfeba8a9cc2fabd85"
+      },
+      "scope": "Native-derived prior attribution: reciprocal-record cancellation. R30.6 independently writes the two-label frame-cancellation proof, so this attribution is not a proof dependency or a physical gauge selection."
+    },
+    {
+      "id": "source_directional_loops",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_transport",
+        "source_curvature_bridge",
+        "source_paired_fields"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_DIRECTIONAL_LOOP_INTERACTION_R30.md",
+        "commit": "7ac5b3e5baba4dafb51f4330bfe84d001a9ab1d4",
+        "section": "R30.1-R30.8",
+        "sha256": "e3badb8ad9ae8f74e57d52339ce33a93297aa199ed3b8f725483f98932b59314"
+      },
+      "scope": "Exact directional source/loop response, dual continuation, paired-loop drive and cyclic observation kernel within explicit mathematical targets. Physical force, EM, metric and spatial dimension are not selected."
+    },
+    {
+      "id": "comparison_native_observer_rank",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/FUTURE_RESPONSE_QUOTIENT_R23.md",
+        "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+        "section": "R23.1-R23.9",
+        "sha256": "927641e6b6b3e4ec27ca0ad5c2735431bba83c9316f604c932b23a890a700a06"
+      },
+      "scope": "Native prior attribution: finite complete response quotients and observer ranks. R31.7 independently proves the complete block-increment target; no fixed physical observer count is imported."
+    },
+    {
+      "id": "source_native_tuples",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_history"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RECORD_INTERACTION_R20.md",
+        "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+        "section": "Tuple construction and R20.1-R20.2",
+        "sha256": "6139b16bfcb5be9c07f9c32c17e82e616c10a7b7d3a3f7113c8bc9bf4e33e7a7"
+      },
+      "scope": "Finite marked-role tuples, product matching pairing and specified record/readout gates; no Hilbert, physical tensor or probability premise is supplied."
+    },
+    {
+      "id": "source_reciprocal_memory",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_transport",
+        "source_native_tuples"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_MEMORY_RESIDUE_R26.md",
+        "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+        "section": "R26.1-R26.4",
+        "sha256": "2a8b300ce78707cddad7163e8a2830dbea285892d6cc02abfeba8a9cc2fabd85"
+      },
+      "scope": "Native reciprocal frame cancellation, order-sensitive source response and finite-field norm completion. The existing one-direction propagation gap is not a physical mass or Yang-Mills claim."
+    },
+    {
+      "id": "source_record_law",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_native_tuples",
+        "source_reciprocal_memory"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_REPLICA_SELECTION_R27.md",
+        "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+        "section": "R27.1-R27.2",
+        "sha256": "d4ed6c9940127c04fe8fbc12bfdc18d6e1183bab6b09e468db73941bdc433d91"
+      },
+      "scope": "The source-normalized finite real signed record derives anticommutation and a minimum two-role factor. Physical interface and record-control selection remain separate."
+    },
+    {
+      "id": "source_flat_propagation",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_directional_loops",
+        "source_paired_fields"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_PROPAGATION_GEOMETRY_R31.md",
+        "commit": "63d040f031b6b36c36a4fa0475f5ce26ec765caf",
+        "section": "R31.1-R31.7",
+        "sha256": "1b26aea521095c2a9f501d7230c944cf70b2a80c111ae3a97fbca16e2700e2f9"
+      },
+      "scope": "Explicit flat-target local unmixing, count propagation and increment observer. The earlier native proofs are retained; no physical force/metric/c/alpha claim is promoted."
+    },
+    {
+      "id": "source_retained_loop",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion",
+        "source_native_tuples",
+        "source_record_law",
+        "source_directional_loops"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_RETAINED_LOOP_GAP_R32.md",
+        "commit": "1105a43209b144bd34a81bfbb99acc7876948e95",
+        "section": "R32.1-R32.7, especially the central polynomial and increment Gram",
+        "sha256": "93ed77cbc91a902e471a244eb614709ca486331060f7511443f0bda94a89c5e1"
+      },
+      "scope": "Native retained-record loop, increment Gram, norm bounds, completed inverse and localized count kernel. R32 reciprocal edge interface is explicitly constructed; it is not a selected physical vacuum or electromagnetic law."
+    },
+    {
+      "id": "comparison_native_alpha_selection",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "publications",
+        "path": "papers/native-alpha-selection/THEOREM.md",
+        "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+        "section": "AS-1-AS-5, especially the AS-3 admitted adapter",
+        "sha256": "54152003202564b83b90dfa875731905bda242458b9e8d7887c3fdfbf4dce54c"
+      },
+      "scope": "Mixed premises: AS-1/AS-2 supply positive cell weights and a probe; AS-3 admits a positive physical quadratic adapter and electromagnetic normalization. Comparison only, never a proof premise. Numerical physical alpha is not derived there."
+    },
+    {
+      "id": "source_interaction_memory",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_retained_loop",
+        "source_completion",
+        "source_native_tuples"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_INTERACTION_MEMORY_R33.md",
+        "commit": "5ddce4544de7111a80c93a8ade7cf2399c7c90f3",
+        "section": "R33.1-R33.2, R33.5-R33.7",
+        "sha256": "154cab0aca7fa8a597f9f9014ff9aa320dc39472e65a61e90de52c5ffc4ff2fe"
+      },
+      "scope": "Native completed inverse elimination and its observation/scale/boundary distinctions. The source interface and readout are explicit constructed targets, not physical alpha selection."
+    },
+    {
+      "id": "comparison_quarter_decoder",
+      "kind": "COMPARISON_ONLY",
+      "depends_on": [],
+      "source": {
+        "home": "rkf",
+        "path": "theorum/43_bilateral_jet_flow_recognition_capstone_theorem.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "section": "Sections 2, 8, 11 and the analytic claim boundary",
+        "sha256": "3322a037bd238a933d8c5fbfbe2add845ce1b8c0d76e47de599df357cfd8269a"
+      },
+      "scope": "The abstract T43 statement admits Hilbert spaces and a bounded generator. Its beta=1/4 example has identity observer and target e4/2. Comparison only, excluded from native proof dependencies. No global RH or repository beta is certified by that example."
+    },
+    {
+      "id": "source_native_euler",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_roles",
+        "source_completion"
+      ],
+      "source": {
+        "home": "rkf",
+        "path": "theorems/foundation/F00E_NATIVE_EULER_FROM_IOTA_COMPLEX.md",
+        "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+        "section": "Sections 1-5: factorial construction, unit circle and derivative",
+        "sha256": "2654b5cab54e5f103b01471ffc06ca5e32eb56b11444744ffdf7edadb27daf8c"
+      },
+      "scope": "Written native Euler theorem on the earned completed cut field, supplied here by R16. Its finite F00/E audit is inherited through the frozen chain; infinite completion and differentiation are written proofs, not formal-assistant verification. No ordinary exponential, Fourier theorem or physical phase law is assumed."
+    },
+    {
+      "id": "source_signed_envelope",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_retained_loop",
+        "source_completion",
+        "source_native_tuples",
+        "source_native_euler"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_SIGNED_ENVELOPE_R35.md",
+        "commit": "9c13e1752263c756d356dcf5851ac873d2e0d102",
+        "section": "R35.1-R35.7",
+        "sha256": "3439544e62f978a5fa9209098414f5e77e878114b7cbceee35878308d656c1a9"
+      },
+      "scope": "Native source-derived signed envelope, full-rank principal generators, exact scalar response Gram, native phase bands and sharp slopes, modewise error and exact-front/count-calibration boundary. The carrier/interface and phase observation are explicit native targets; no physical field or universal causal cone is selected."
+    },
+    {
+      "id": "source_curvature_observer",
+      "kind": "NATIVE_SOURCE",
+      "depends_on": [
+        "source_signed_envelope",
+        "source_curvature_bridge",
+        "source_native_tuples"
+      ],
+      "source": {
+        "home": "local",
+        "path": "02-relational-response/NATIVE_CURVATURE_OBSERVER_R36.md",
+        "commit": "011b8224c92d95f7f726eb56bab3e8d8e6f7280c",
+        "section": "R36.1, R36.3-R36.7",
+        "sha256": "a627f85c6c35e36bfc44ef4bb78eec9d3c42a09a67d7d7c8d9e8d0a33ec64c94"
+      },
+      "scope": "Native response-dual count length, complete curvature-cut observation and exact reconstruction, paired source dynamics, leading information-current cone and transported frames. The Riemann comparison adapter and physical field/rod/clock selection remain outside these proof premises."
+    },
+    {
+      "id": "native_carrier_packet_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_signed_envelope",
+        "source_completion",
+        "source_native_euler"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Construct rational native carrier phases from a positive rational a with a^2>2. Use the actual branch projector of the source; derive the drift and gap corrector. This declares a source probe and does not select a physical carrier or import a wave-packet theorem."
+    },
+    {
+      "id": "native_compact_packet_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "source_roles",
+        "source_history",
+        "source_completion",
+        "source_signed_envelope"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Construct h_M by three finite convolutions of the M-address count box, take its product in the two source directions and apply the derived carrier corrector. Matching size and finite differences are native finite sums; no probability or smooth profile is supplied."
+    },
+    {
+      "id": "native_arrival_detector_target",
+      "kind": "NATIVE_TARGET_CONSTRUCTION",
+      "depends_on": [
+        "native_compact_packet_target",
+        "source_curvature_observer"
+      ],
+      "physical_selection_proved": false,
+      "definition": "Read the matching-norm fraction in a finite translated address rectangle and select its first event above a declared fixed positive threshold. This is an explicit native instrument, distinct from an assumed physical Born rule or first-nonzero-amplitude detector."
+    },
+    {
+      "id": "R37.1",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "source_native_replay",
+        "native_carrier_packet_target"
+      ],
+      "written_section_sha256": "119bf2d8609cf0672952dfbc289c2d9d2c98374bd79d5ab57b458db6ccf742fc"
+    },
+    {
+      "id": "R37.2",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R37.1",
+        "source_native_tuples",
+        "source_completion"
+      ],
+      "written_section_sha256": "a4de964b1146a71f639c9b19a43ac6af7f46ff9289d987a7da8494900dcf375a"
+    },
+    {
+      "id": "R37.3",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R37.2",
+        "native_compact_packet_target"
+      ],
+      "written_section_sha256": "499180903540dcb37d5c901ae4ca450c249f57721dfbbce787aaadcdf0b49b2c"
+    },
+    {
+      "id": "R37.4",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R37.1",
+        "R37.2",
+        "R37.3",
+        "source_signed_envelope"
+      ],
+      "written_section_sha256": "1546280d3343db83bdd7530d65046bbed4ae65a9e9faf243702f22765faef74b"
+    },
+    {
+      "id": "R37.5",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R37.3",
+        "R37.4",
+        "native_arrival_detector_target"
+      ],
+      "written_section_sha256": "0dcfbb610a4286fe7b617791c09bee4cae940fb14aeed41145ac049896747ebd"
+    },
+    {
+      "id": "R37.6",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R37.1",
+        "R37.2",
+        "R37.5",
+        "source_completion"
+      ],
+      "written_section_sha256": "82a2b359979a54cb4be6edc34f8cfab3772b6c05b239b3fd580b7d2cfeb9d754"
+    },
+    {
+      "id": "R37.7",
+      "kind": "NATIVE_DERIVED",
+      "claim_class": "MATHEMATICAL_DERIVATION",
+      "depends_on": [
+        "R37.4",
+        "R37.5",
+        "R37.6",
+        "source_curvature_observer",
+        "source_directional_loops"
+      ],
+      "written_section_sha256": "aa22a7e57ba75b40a1305736b000191e4d442e0c0426c549483b075907a1c8c8"
+    }
+  ],
+  "inherited_combined_reading_register": [
+    {
+      "paper": "R1",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "01-intrinsic-numbers/COORDINATE_TRANSPORT_R1.md",
+          "sha256": "fb100328d78a13e4868fba129c5a9c64e3a8ab715bf1f84552d6fa004dddce74",
+          "git_blob_sha": "cbf0ee41e97bb2a593e6214ed94bf8eba3d6d2e8"
+        },
+        {
+          "path": "02-relational-response/RESPONSE_RETURNS_R1.md",
+          "sha256": "5c38027d236d6649e3b3a0daab76ae50e22e61d922262aa4409c0313bcd1cbdd",
+          "git_blob_sha": "c2ca45bf35f18b5fee0995a9b0e390e414f7cda9"
+        },
+        {
+          "path": "03-lambda-reference/RETURN_INVARIANTS_R1.md",
+          "sha256": "ba40a1f9a341700460d68991c83bfe0581becbebc7d5236b7c586d28ce34a975",
+          "git_blob_sha": "8ebb5186c085e5dca0d8e6094d5fb0a3426ba244"
+        }
+      ]
+    },
+    {
+      "paper": "R2",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "01-intrinsic-numbers/AGHORA_MODES_R2.md",
+          "sha256": "de8eb1c19f0a636e1a50935be63f9cb0543e12892c5051840f05445e5ca1d182",
+          "git_blob_sha": "487730866fc913d57372b26e976f99dce1a530c4"
+        },
+        {
+          "path": "02-relational-response/PROJECTED_RESPONSE_R2.md",
+          "sha256": "22b43a29c62a48701e7afccb563c8f05e72526dc066dfcef2a4aa9e1a796673f",
+          "git_blob_sha": "37fc1da568d27aeea9dcbc160bb77ab38d023470"
+        },
+        {
+          "path": "03-lambda-reference/AGHORA_RETURN_R2.md",
+          "sha256": "9f2bfec1f2c758c8e942660e17ace0e67804b5dff41f23261d4f83171f437ae1",
+          "git_blob_sha": "e7f6910b74ce0504e52da836649c2c9ec5dd9534"
+        }
+      ]
+    },
+    {
+      "paper": "R3",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "01-intrinsic-numbers/SEAM_COMPLEX_COORDINATES_R3.md",
+          "sha256": "919b3b7c8156feb3cde6d751cbebe97e5dd02a6d4cdaf3d1c7f637d0dddb4adb",
+          "git_blob_sha": "dd33b762fc778ad645c4e96b7a4f3cf7a6f14808"
+        },
+        {
+          "path": "02-relational-response/TYPED_SEAM_R3.md",
+          "sha256": "fe7c6a3ef19910389ed60d176e27191cab86a88c17180de23dbd50dd2fcb4266",
+          "git_blob_sha": "293e7a76fc8a65e52e047c0cf84be965667b2936"
+        },
+        {
+          "path": "03-lambda-reference/SEAM_BOND_COMPLEX_STRUCTURE_R3.md",
+          "sha256": "8b1f53a5ed82c5e4dd164899d1b3fe241c8b7d521badd3d4568456a043d9ab0f",
+          "git_blob_sha": "2e78f7c7ed98ab26a28b7301c4e510a83f53d0f4"
+        }
+      ]
+    },
+    {
+      "paper": "R4",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "03-lambda-reference/NATIVE_BOND_BRIDGE_R4.md",
+          "sha256": "6ec394c508e5077aa430961536ad7209f03410b5a51e2555bb74fe8e325e2597",
+          "git_blob_sha": "e97ce6a58a30e54f7b1847d30973eda9a61ff582"
+        }
+      ]
+    },
+    {
+      "paper": "R5",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "03-lambda-reference/PROFILE_RECOVERY_R5.md",
+          "sha256": "5dac82fe95bc5a5653305aef78acc170a018efda479c05c55709032168645b9a",
+          "git_blob_sha": "3e32550a961b2b42dd3a2ffd24eace8501d18a27"
+        }
+      ]
+    },
+    {
+      "paper": "R6",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "03-lambda-reference/INTERVAL_PROFILE_RECOVERY_R6.md",
+          "sha256": "3112cdac16a01efd9a6eca2cb75f87e3234f707087ab5eefdb95c2bb50c31974",
+          "git_blob_sha": "32a770568dde18b89dc2a2d3422ecd1472b32b72"
+        }
+      ]
+    },
+    {
+      "paper": "R7",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/EMK_TENSOR_CALCULUS_R7.md",
+          "sha256": "17a4b63150760bb17435a36421d4dad42d0a6b437aee32fce9f63533509f706e",
+          "git_blob_sha": "7c94de69476094fe4fabab2096bd515868e66f94"
+        },
+        {
+          "path": "02-relational-response/EMK_VAULT_SOURCE_AUDIT_R7.md",
+          "sha256": "dcf3b83ee15420cffa0da1f52dc24df5df7104dd9f1a6ca64da7bbc68d3825c1",
+          "git_blob_sha": "f88ec3a6994c9f079a8a504c0ea6efb805036e6c"
+        }
+      ]
+    },
+    {
+      "paper": "R8",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/CURVATURE_OBSERVATION_R8.md",
+          "sha256": "b61a90f6e33c2f752b0b0eee28c5afd6918ce938207310e89503ce1407998459",
+          "git_blob_sha": "bcd5b2fc1f67b8a6a599a979dd776b7c3537bef9"
+        }
+      ]
+    },
+    {
+      "paper": "R9",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/CURVATURE_BALANCE_R9.md",
+          "sha256": "67905cfeeacf4d487d41541e7e73fb49d21c0edc58a99ed094c3c413dbc1ab79",
+          "git_blob_sha": "3d34166f39e8bf785664b1302d6c0c6d266575b5"
+        }
+      ]
+    },
+    {
+      "paper": "R10",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md",
+          "sha256": "e0ebefb163d2ae2deb4acd2dbd7084a9f16e441b643f412a01661a7097763ce4",
+          "git_blob_sha": "c4c2cd046343ab4382d2400d8039f13f64eafe17"
+        }
+      ]
+    },
+    {
+      "paper": "R11",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/SPECTRAL_CURVATURE_OBSERVER_R11.md",
+          "sha256": "ad51757e5b44316c839026adc55d6de7ef3de9255c838b23fb70f1d70b7da801",
+          "git_blob_sha": "d003e6f8513ca36b7a9b17dbf8b8ffd6b1d6545c"
+        }
+      ]
+    },
+    {
+      "paper": "R12",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/OBSERVER_METRIC_FOUNDATION_R12.md",
+          "sha256": "2da79f4ceaeb2cdace775f6f40dacd80c37460dda7b7bf69f1dff7bac29ae2dc",
+          "git_blob_sha": "246fc0f9fd40e2c4af08eb61a00c0acd9b3c34ab"
+        }
+      ]
+    },
+    {
+      "paper": "R13",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/COMPLEMENT_MEMORY_NOISE_R13.md",
+          "sha256": "18f8e00f8f0d89482daea53af78deb66b688a745933e7faf0c8cb9d199b3a516",
+          "git_blob_sha": "5b06c2b35461564693d0da438b7995e6647505aa"
+        }
+      ]
+    },
+    {
+      "paper": "R14",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/DERIVATION_SOURCE_LEDGER_R14.md",
+          "sha256": "8356adc3fb372e5d210405e4485c6428570963d1408a932e9332aa59c66afe43",
+          "git_blob_sha": "708d3d0ec5a6f5cae665250bb81df5cb9337397e"
+        },
+        {
+          "path": "02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md",
+          "sha256": "ba735a02c84a25018f79c3cf2ab796404c6aadaf631dbb0165fc3af7cb246755",
+          "git_blob_sha": "7fd8f2795222153f4b175bbc56b6e21d5c8234b0"
+        },
+        {
+          "path": "02-relational-response/R14_SCOPE_CORRECTION.md",
+          "sha256": "786c1f01d7521cfd9a9aa379c19a17e97314522f143a2984c0f1f6b4e90662f3",
+          "git_blob_sha": "9f8f1f8741d5829bdaaebf06dfe83a9254644059"
+        }
+      ]
+    },
+    {
+      "paper": "R15",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/EMK_TOPOLOGY_R15.md",
+          "sha256": "dc3b7fc1bb0ed7ec7a93f9e21ed358873df61909b00c01f9e634d1312fe23a6c",
+          "git_blob_sha": "24f87e5b2322d9f43e957e35ac2a7bcaa6d3e8bc"
+        },
+        {
+          "path": "02-relational-response/emk_topology_verified_R15.tex",
+          "sha256": "2a595a66a3f8db10d7a95b95c500da0cafe27172341e6372824a5253995a41d4",
+          "git_blob_sha": "cfb9a31d8e3f6ac04312ab099801ae27bb5074a7"
+        }
+      ]
+    },
+    {
+      "paper": "R16",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+          "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c",
+          "git_blob_sha": "87d95f6c5547cf75dd779f949f7c24f364c545d6"
+        }
+      ]
+    },
+    {
+      "paper": "R17",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/CUT_HISTORY_MEMORY_R17.md",
+          "sha256": "c915375894f3baecb062754f26466f35cb04032ec201ceeaa0ed2c265fb98cc9",
+          "git_blob_sha": "bb67eca56689e2c9775e05134a5e10f58c932fbb"
+        }
+      ]
+    },
+    {
+      "paper": "R18",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+          "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75",
+          "git_blob_sha": "defb9c17992cf4d0984254db231e4435c880eea1"
+        }
+      ]
+    },
+    {
+      "paper": "R19",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/CURRENT_MEMORY_RETENTION_R19.md",
+          "sha256": "d353a7f8eef831785ddf6d1168a6d1b9d9031e5b53bad68d6a7ff3548dfa82b7",
+          "git_blob_sha": "5bc56a12dd2ce881c6d817e7070c239255ceeedb"
+        }
+      ]
+    },
+    {
+      "paper": "R20",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/NATIVE_RECORD_INTERACTION_R20.md",
+          "sha256": "6139b16bfcb5be9c07f9c32c17e82e616c10a7b7d3a3f7113c8bc9bf4e33e7a7",
+          "git_blob_sha": "0d540ec3cc810d9595eba52e9a0f20a8e4c24eb2"
+        }
+      ]
+    },
+    {
+      "paper": "R21",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/RECORD_IDENTITY_CONTINUATION_R21.md",
+          "sha256": "2714c898ef0fcdbe7dbba10edfb8d5b77a9666a0db3afd20471ca99052102e6c",
+          "git_blob_sha": "feed3a3d2d93ccff23056574e39c7b358e92a818"
+        }
+      ]
+    },
+    {
+      "paper": "R22",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/MEETING_GEOMETRY_R22.md",
+          "sha256": "0406896fa70a1ae7820a23fd06bee8ca5b3597525f8677f3c93532fab41a1617",
+          "git_blob_sha": "65e647591cf10e68bee666c7a172da3980e2f2ea"
+        }
+      ]
+    },
+    {
+      "paper": "R23",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/FUTURE_RESPONSE_QUOTIENT_R23.md",
+          "sha256": "927641e6b6b3e4ec27ca0ad5c2735431bba83c9316f604c932b23a890a700a06",
+          "git_blob_sha": "9f542b61c7df67368114f2036efb9c3e99bbf93b"
+        }
+      ]
+    },
+    {
+      "paper": "R24",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/NATIVE_RETURN_COUPLING_R24.md",
+          "sha256": "8846db56ecef6e2e8c53415a6e514516da8e4d4f2839f6f29ce46ee474755949",
+          "git_blob_sha": "f5a5714f9574177f0cf1bed49a110d9aeae03af8"
+        }
+      ]
+    },
+    {
+      "paper": "R25",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/NATIVE_RETURN_FEEDBACK_R25.md",
+          "sha256": "2278400c91ab94fd0d3506a5f25580d9f913e9af6b62edbdf788508eb79af0b7",
+          "git_blob_sha": "301274fdc39f20f74dbbba58d9f99e83ab682942"
+        }
+      ]
+    },
+    {
+      "paper": "R26",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/NATIVE_MEMORY_RESIDUE_R26.md",
+          "sha256": "2a8b300ce78707cddad7163e8a2830dbea285892d6cc02abfeba8a9cc2fabd85",
+          "git_blob_sha": "bdeced771a716053c48d8d754235d1cfeb753b09"
+        }
+      ]
+    },
+    {
+      "paper": "R27",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/NATIVE_REPLICA_SELECTION_R27.md",
+          "sha256": "d4ed6c9940127c04fe8fbc12bfdc18d6e1183bab6b09e468db73941bdc433d91",
+          "git_blob_sha": "5e87abba3d6580ae4f573eb029c425828ca017cd"
+        }
+      ]
+    },
+    {
+      "paper": "R28",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/NATIVE_CUT_CURVATURE_PROPAGATION_R28.md",
+          "sha256": "7c1909146b16710895e536cfb62dc85a09ea13816a69d1345266cd8f246f54a2",
+          "git_blob_sha": "c5e0892f5d939f9121bc6d18ae837c5210d498f3"
+        }
+      ]
+    },
+    {
+      "paper": "R29",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/NATIVE_PAIRED_FIELD_DYNAMICS_R29.md",
+          "sha256": "930c3d613d4098e31c31000bd07eef9fd2ffc20f9f46dfa44f709c1b3b65b0e1",
+          "git_blob_sha": "773611b9f0ec6ea0aedf23bde64bd48260b370a0"
+        }
+      ]
+    },
+    {
+      "paper": "R30",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/NATIVE_DIRECTIONAL_LOOP_INTERACTION_R30.md",
+          "sha256": "e3badb8ad9ae8f74e57d52339ce33a93297aa199ed3b8f725483f98932b59314",
+          "git_blob_sha": "973340f46e98dffbfc8d098b428364629c0fe274"
+        }
+      ]
+    },
+    {
+      "paper": "R31",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/NATIVE_PROPAGATION_GEOMETRY_R31.md",
+          "sha256": "1b26aea521095c2a9f501d7230c944cf70b2a80c111ae3a97fbca16e2700e2f9",
+          "git_blob_sha": "e755ba68fe64ebd3377f9cb881a753e3d0e821dc"
+        }
+      ]
+    },
+    {
+      "paper": "R32",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/NATIVE_RETAINED_LOOP_GAP_R32.md",
+          "sha256": "93ed77cbc91a902e471a244eb614709ca486331060f7511443f0bda94a89c5e1",
+          "git_blob_sha": "84adab65a54715160412d3911db1a22bb17e44f6"
+        }
+      ]
+    },
+    {
+      "paper": "R33",
+      "source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+      "status": "READ_FOR_SYNTHESIS_NOT_AUTOMATIC_PROOF_PREMISE",
+      "files": [
+        {
+          "path": "02-relational-response/NATIVE_INTERACTION_MEMORY_R33.md",
+          "sha256": "154cab0aca7fa8a597f9f9014ff9aa320dc39472e65a61e90de52c5ffc4ff2fe",
+          "git_blob_sha": "1453e2a9d4baed12d1863d2563a23538de5f9236"
+        }
+      ]
+    }
+  ],
+  "inherited_reading_source_commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+  "current_packet_and_observer_reading": {
+    "source_commit": "011b8224c92d95f7f726eb56bab3e8d8e6f7280c",
+    "files": [
+      {
+        "path": "02-relational-response/NATIVE_RETAINED_LOOP_GAP_R32.md",
+        "sha256": "93ed77cbc91a902e471a244eb614709ca486331060f7511443f0bda94a89c5e1",
+        "git_blob_sha": "84adab65a54715160412d3911db1a22bb17e44f6"
+      },
+      {
+        "path": "02-relational-response/NATIVE_SIGNED_ENVELOPE_R35.md",
+        "sha256": "3439544e62f978a5fa9209098414f5e77e878114b7cbceee35878308d656c1a9",
+        "git_blob_sha": "8276c1f95d540eb30afcf9ea8cd83cb75dc49ab0"
+      },
+      {
+        "path": "02-relational-response/NATIVE_CURVATURE_OBSERVER_R36.md",
+        "sha256": "a627f85c6c35e36bfc44ef4bb78eec9d3c42a09a67d7d7c8d9e8d0a33ec64c94",
+        "git_blob_sha": "715e54270950f02c8600ccf1c696770da5cfd029"
+      }
+    ],
+    "scope": "The actual retained source, derived signed envelope and complete curvature observer are reused with their original target/physical boundaries. Their declared native status is retained, not promoted to external physical validation."
+  },
+  "native_carrier_and_packet_corrector_derived": true,
+  "native_finite_packet_error_derived": true,
+  "native_localized_arrival_and_speed_family_derived": true,
+  "native_curvature_observed_flight_derived": true,
+  "physical_vacuum_identified": false,
+  "electromagnetism_derived": false,
+  "physical_metric_c_alpha_derived": false,
+  "physical_electric_charge_or_particle_mass_identified": false,
+  "physical_spatial_dimension_or_gauge_group_selected": false,
+  "primitive_physical_force_derived": false,
+  "formal_proof_assistant_verified": false,
+  "origin_gate_checks_declared_metadata_not_arbitrary_prose": true
+}

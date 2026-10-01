@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R37 compact native packet flight and reliable arrival
+
+[NATIVE_PACKET_FLIGHT_R37.md](NATIVE_PACKET_FLIGHT_R37.md) derives rational source carriers, their drift and a finite correction that removes every first-difference error. Three finite count-box convolutions give compact profiles with exact norm identities. The actual source evolution remains close to a rigid translation with an explicit all-event error, obtained from finite telescoping and native binomial sums.
+
+For width parameter `L^2` and flight `L^3`, relative norm error is `O(1/L)` and a fixed positive information threshold gives a shrinking relative arrival window. The drift family `2/3, 12/17, 408/577, ...` approaches `1/sqrt(2)` with carrier-dependent correction costs retained. The complete R36 curvature observer reads the same detector fractions. Physical c, h, alpha, a universal all-packet upper bound and zero-threshold arrival are not inferred.
+
+[Verification](../04-operator-evolution/R37_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays. The [ledger](../04-operator-evolution/R37_DERIVATION_LEDGER.json) labels finite packet and detector constructions explicitly and excludes comparison adapters from proof paths. The unchanged frozen R36 chain is replayed.
+
 ## R36 native curvature observer and information-current cone
 
 [NATIVE_CURVATURE_OBSERVER_R36.md](NATIVE_CURVATURE_OBSERVER_R36.md) derives a preparation-independent phase-response metric and dual count length from R35. Its response operators also give an oriented curvature and area law. For the derived cut P and turn J, the readings `a=Pu`, `b=-PJu` have the exact decoder `u=a+Jb`. The curvature contrast supplies precisely the omitted cut; signed readings and their intensities remain different observations.
