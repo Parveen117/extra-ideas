@@ -1,0 +1,1324 @@
+{
+  "schema": "extra-ideas.current-manifest.v1",
+  "project": "Extra Ideas",
+  "updated_date": "2026-10-02",
+  "latest_development": "R45",
+  "latest_research_commit": "452fbe05797d642bd3c72fefb631c1ad61db78a9",
+  "research_snapshot": {
+    "commit": "452fbe05797d642bd3c72fefb631c1ad61db78a9",
+    "tree": "3cfc4c6555bf00ec0ca87bc29ae8d72fdeb61ae8"
+  },
+  "source": {
+    "filename": "4ways.tex",
+    "sha256": "ace9e45fedf6154f2d872ae762c47a1d852ff93a373f6e30d99c33031cdf8234",
+    "preserved_verbatim": true
+  },
+  "research_folders": [
+    "01-intrinsic-numbers",
+    "02-relational-response",
+    "03-lambda-reference",
+    "04-operator-evolution"
+  ],
+  "current_navigation_files": [
+    "README.md",
+    "CURRENT_MANIFEST.json",
+    "CURRENT_STATUS.md",
+    "02-relational-response/README.md",
+    "04-operator-evolution/README.md"
+  ],
+  "historical_manifest": {
+    "path": "MANIFEST.json",
+    "git_blob_sha": "bfc7630c11cd22bccc6259b1ba9471f1c18c25b8",
+    "through_development": "R13",
+    "role": "Frozen historical evidence; current register is CURRENT_MANIFEST.json."
+  },
+  "integrated_branches": [
+    {
+      "branch": "agent/emk-topology-foundation",
+      "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+      "role": "R16 foundation ancestor of main"
+    },
+    {
+      "branch": "r38-native-propagation-upper-bound",
+      "commit": "b6eac9264f20757af386ea67c474af923ef83b92",
+      "role": "Historical working note; superseded by certified R38 on main"
+    }
+  ],
+  "integrated_historical_note": {
+    "path": "02-relational-response/R38_WORKING_NATIVE_PROPAGATION_BOUND.md",
+    "git_blob_sha": "9eeb0793dce3b4482773efc45b5c1d066180ff77",
+    "status": "HISTORICAL_WORKING_NOTE_NOT_A_CURRENT_UNCERTIFIED_TARGET",
+    "superseded_by": "R38"
+  },
+  "ci": {
+    "workflow": ".github/workflows/certificates.yml",
+    "runner": "04-operator-evolution/verify_repository.py",
+    "live_status_url": "https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml",
+    "scope": "R1-R45 registered evidence integrity; full R16 scoped foundation checker; R17-R45 unchanged native application replays, written-section bindings and available derivation-graph mutation controls. R1-R15 historical runtimes and legacy recursive navigation-pinned entry points are not rerun."
+  },
+  "formal_proof_assistant_verified": false,
+  "physical_constants_selected": false,
+  "developments": [
+    {
+      "id": "R1",
+      "title": "Reference-independent return multipliers",
+      "proof": {
+        "path": "03-lambda-reference/RETURN_INVARIANTS_R1.md",
+        "git_blob_sha": "8ebb5186c085e5dca0d8e6094d5fb0a3426ba244"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R1_VERIFICATION.json",
+        "git_blob_sha": "43c218bc62bfe2d8169966e1dad6d212d4370ba7",
+        "status": "PASS_EXACT_FINITE_CHECKS"
+      },
+      "scope": "Finite reproducible examples and counterexamples. General claims are proved in RETURN_INVARIANTS_R1.md; this run is not a formal proof assistant or physical validation.",
+      "recorded_counts": {
+        "tests_run": 13
+      }
+    },
+    {
+      "id": "R2",
+      "title": "Aghora return law and the effect of a projection",
+      "proof": {
+        "path": "03-lambda-reference/AGHORA_RETURN_R2.md",
+        "git_blob_sha": "e7f6910b74ce0504e52da836649c2c9ec5dd9534"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R2_VERIFICATION.json",
+        "git_blob_sha": "5e3b18bd00d5dc324f7acb42a3f2ff0714115a5e",
+        "status": "PASS_EXACT_FINITE_CHECKS"
+      },
+      "scope": "Exact finite examples and hypothesis counterexamples. General exponential-flow and projection identities are proved in AGHORA_RETURN_R2.md. No numerical exponential approximation or physical experiment.",
+      "recorded_counts": {
+        "tests_run": 15
+      }
+    },
+    {
+      "id": "R3",
+      "title": "A typed seam, its bond, and a linear complex structure",
+      "proof": {
+        "path": "03-lambda-reference/SEAM_BOND_COMPLEX_STRUCTURE_R3.md",
+        "git_blob_sha": "2e78f7c7ed98ab26a28b7301c4e510a83f53d0f4"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R3_VERIFICATION.json",
+        "git_blob_sha": "01f14a1321b2903d81812f6c80780d27f25c1671",
+        "status": "PASS_EXACT_FINITE_CHECKS"
+      },
+      "scope": "Exact two-mode examples, coordinate covariance, and hypothesis counterexamples. General identities are proved in SEAM_BOND_COMPLEX_STRUCTURE_R3.md. No approximate exponential or physical experiment.",
+      "recorded_counts": {
+        "tests_run": 18
+      }
+    },
+    {
+      "id": "R4",
+      "title": "Native bond bridge and raw closure diagnostics",
+      "proof": {
+        "path": "03-lambda-reference/NATIVE_BOND_BRIDGE_R4.md",
+        "git_blob_sha": "e97ce6a58a30e54f7b1847d30973eda9a61ff582"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R4_VERIFICATION.json",
+        "git_blob_sha": "e92438827a2a4e0fc7593232ebc5991d4c6459db",
+        "status": "PASS_EXACT_SOURCE_BRIDGE_CHECKS"
+      },
+      "recorded_counts": {
+        "tests_run": 12,
+        "native_polynomial_replay_count": 16
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R4_SOURCE_PINS.json",
+        "git_blob_sha": "0b1e3827d837bb4bc2d983114877682470bc3d5b"
+      }
+    },
+    {
+      "id": "R5",
+      "title": "Recoverable depth prefixes and equal-cut source ambiguity",
+      "proof": {
+        "path": "03-lambda-reference/PROFILE_RECOVERY_R5.md",
+        "git_blob_sha": "3e32550a961b2b42dd3a2ffd24eace8501d18a27"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R5_VERIFICATION.json",
+        "git_blob_sha": "8eb4eec531c98b9008a3f5f6236f673e1aaece1a",
+        "status": "PASS_EXACT_PROFILE_RECOVERY_CHECKS"
+      },
+      "recorded_counts": {
+        "tests_run": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R5_SOURCE_PINS.json",
+        "git_blob_sha": "477fc0114b47e15bc34f0dff25d93b26a7217e46"
+      }
+    },
+    {
+      "id": "R6",
+      "title": "Interval-certified depth recovery and uncertain-source predictions",
+      "proof": {
+        "path": "03-lambda-reference/INTERVAL_PROFILE_RECOVERY_R6.md",
+        "git_blob_sha": "32a770568dde18b89dc2a2d3422ecd1472b32b72"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R6_VERIFICATION.json",
+        "git_blob_sha": "1336864e242862e7f7a63ad1a9fa2ab2960bdc6e",
+        "status": "PASS_CERTIFIED_INTERVAL_PROFILE_CHECKS"
+      },
+      "recorded_counts": {
+        "tests_run": 10
+      }
+    },
+    {
+      "id": "R7",
+      "title": "Typed EMK tensor foundation before physics",
+      "proof": {
+        "path": "02-relational-response/EMK_TENSOR_CALCULUS_R7.md",
+        "git_blob_sha": "7c94de69476094fe4fabab2096bd515868e66f94"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R7_VERIFICATION.json",
+        "git_blob_sha": "6390246540c4764147295d9112a4f03f8703f781",
+        "status": "PASS_EXACT_TYPED_EMK_TENSOR_CHECKS"
+      },
+      "scope": "central characteristic-zero scalar field; exact Q implementation; admitted named finite-dimensional carriers and their duals; invertible ordered transport; projectors are separately typed maps; integer direct-product winding sector and preregistered lawful ledgers; optional smooth sector requires differentiable base and bundles",
+      "recorded_counts": {
+        "tests_run": 16
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R7_SOURCE_PINS.json",
+        "git_blob_sha": "772c72d11bba419168515bc6f6a960eab6fe0c93"
+      }
+    },
+    {
+      "id": "R8",
+      "title": "Curvature observation correction and native recovery certificates",
+      "proof": {
+        "path": "02-relational-response/CURVATURE_OBSERVATION_R8.md",
+        "git_blob_sha": "bcd5b2fc1f67b8a6a599a979dd776b7c3537bef9"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R8_VERIFICATION.json",
+        "git_blob_sha": "0b1589debc98054f542f273618c1f34b5712b82d",
+        "status": "PASS_EXACT_CURVATURE_OBSERVATION_CERTIFICATES"
+      },
+      "scope": "lawfully comparable actions on a declared common carrier; idempotent compression; constant projector in the connection-jet adapter; characteristic-zero central field; exact rational coordinate examples; two fixed linear channels on the KIR odd target, broader future contract stated separately; coordinate connection jets and constant affine base/reference transformations; constant linear response only for the Onsager equivalence; R7 direct-product integer sheet and preregistered ledger policy",
+      "recorded_counts": {
+        "tests_run": 23
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R8_SOURCE_PINS.json",
+        "git_blob_sha": "c5d73760ee4d825e83b71c96d45cee6d6354c2e8"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R8_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "ad24e7bb0797f11afc7bad61a015a9a00704e57e"
+      }
+    },
+    {
+      "id": "R9",
+      "title": "Native curvature balance and the information ledger",
+      "proof": {
+        "path": "02-relational-response/CURVATURE_BALANCE_R9.md",
+        "git_blob_sha": "3d34166f39e8bf785664b1302d6c0c6d266575b5"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R9_VERIFICATION.json",
+        "git_blob_sha": "e286823395f7cb4d70b64a0e9962f4c78e995276",
+        "status": "PASS_EXACT_NATIVE_CURVATURE_BALANCE"
+      },
+      "scope": "derived K cut-swap and lawful composition on the native carrier; characteristic-zero central scalar field and nontrivial cut action; declared convex two-branch recognition and branch-exchange invariance for endpoint selection; Hermitian/unitary two-mode cut for positive-state channel statements; full-rank local QTH-1 axis family with |m|<1 and complete state/derivative pushforward; state-independent recorded branch weights for the flagged-information ledger; finite positive complete one-copy qubit effects for the joint information bound",
+      "recorded_counts": {
+        "tests_run": 24
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R9_SOURCE_PINS.json",
+        "git_blob_sha": "acc6e569b09e7b90fb379fac731d24397c8e33c6"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R9_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "a6c672ae49aeca53230440157f2064f56415bfa9"
+      }
+    },
+    {
+      "id": "R10",
+      "title": "Native curvature conservation and the classical tangent sector",
+      "proof": {
+        "path": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md",
+        "git_blob_sha": "c4c2cd046343ab4382d2400d8039f13f64eafe17"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R10_VERIFICATION.json",
+        "git_blob_sha": "7ef1fe02b9db27d28636792176ebb5725bb1e9ce",
+        "status": "PASS_EXACT_NATIVE_CURVATURE_DESCENT"
+      },
+      "scope": "Lawfully typed associative composition and characteristic-zero central scalars.; Constant involutive cut for the graded Bianchi law; commuting coordinate partials.; Admitted smooth coordinate connection; exact finite values and derivative jets.; Admitted nondegenerate symmetric tangent metric and its consistent first/second jets.; Constant surjective observer in the executable adapter, with complete first derivative intertwining.; Declared visible/hidden splitting for the block decomposition.; Finite path composition and independent integer sheet memory are not automatically identified with local infinitesimal geometry.",
+      "recorded_counts": {
+        "tests_run": 25
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R10_SOURCE_PINS.json",
+        "git_blob_sha": "5541d17b8dbae5a03a9f4f3f8f98e7a9f2af4d16"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R10_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "b86dcd167e0f09032e0748ee7621f344e7aa402a"
+      }
+    },
+    {
+      "id": "R11",
+      "title": "Spectral blindness and the native curvature observer",
+      "proof": {
+        "path": "02-relational-response/SPECTRAL_CURVATURE_OBSERVER_R11.md",
+        "git_blob_sha": "d003e6f8513ca36b7a9b17dbf8b8ffd6b1d6545c"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R11_VERIFICATION.json",
+        "git_blob_sha": "bea53e4a6fcaa9452155d1a027b031d3cf3353a6",
+        "status": "PASS_EXACT_SPECTRAL_CURVATURE_OBSERVER"
+      },
+      "scope": "Finite rational admitted carrier with two visible tangent modes and h hidden modes.; Constant connection A_u=P_hidden, A_v=N_L and exact local jet descent.; Finite reversible protocol I+aP and I+bN with a different from -1.; Declared trace insertion markers before spectral compression and model-relative full lower-block target.; Minimum count applies to linear scalar channels, not universal physical device counts.; Known nonzero determinant gain and supplied deterministic error bound for stable decisions.; Response coordinate Gram is not identified with a physical spacetime metric.; Endpoint markers do not reconstruct previously erased history or independent sheet records.",
+      "recorded_counts": {
+        "tests_run": 31
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R11_SOURCE_PINS.json",
+        "git_blob_sha": "fc02468f674844f1044434e2ff79df683601a308"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R11_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "318d892bc0a1452707b03edfd9204e03797e4cbf"
+      }
+    },
+    {
+      "id": "R12",
+      "title": "Observer and metric from a native event response law",
+      "proof": {
+        "path": "02-relational-response/OBSERVER_METRIC_FOUNDATION_R12.md",
+        "git_blob_sha": "246fc0f9fd40e2c4af08eb61a00c0acd9b3c34ab"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R12_VERIFICATION.json",
+        "git_blob_sha": "fdafee9547574ba0e5e76a626bb07c5a3878feda",
+        "status": "PASS_EXACT_OBSERVER_METRIC_FOUNDATION"
+      },
+      "scope": "admitted finite real native representation with invertible permitted moves; Gaussian terminal response likelihood with calibrated positive noise precision; positive state-independent event probabilities and geometric stopping law; verified strict stability inequality for the complete experiment; admitted constant tangent map; a family of local anchored contrast experiments; untagged mean-score formula applies only where all conditional Gaussian means coincide",
+      "recorded_counts": {
+        "tests_run": 28
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R12_SOURCE_PINS.json",
+        "git_blob_sha": "4d1aee26ddc6d12c4ba40e08fb93429e4155151b"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R12_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "3e0235917746dc939c2c95fcbfc8a11debb24b85"
+      }
+    },
+    {
+      "id": "R13",
+      "title": "Complementary native memory generates noise, events and information geometry",
+      "proof": {
+        "path": "02-relational-response/COMPLEMENT_MEMORY_NOISE_R13.md",
+        "git_blob_sha": "5b06c2b35461564693d0da438b7995e6647505aa"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R13_VERIFICATION.json",
+        "git_blob_sha": "660882b23c6287f7d40e429cfdbfd194ea15efd0",
+        "status": "PASS_EXACT_COMPLEMENT_MEMORY_NOISE_FOUNDATION"
+      },
+      "scope": "admitted positive native cut-amplitude chart and lawful invertible transports; specified visible/complementary cut and known unit-norm balanced preparation; nonnegative additive branch-norm weights interpreted as event frequencies; monitored first-exit policy distinguished from coherent retention; product preparation of balanced native binary meters and normalized contrast coordinates; matched sheet gain equal to the monitored sine leg; anchored zero contrast and admitted tangent chart",
+      "recorded_counts": {
+        "tests_run": 31
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R13_SOURCE_PINS.json",
+        "git_blob_sha": "3006d83e6ba7fea4f48ed48cda2bcc197656bd62"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R13_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "6c8924a100d005ce7ab55f74347a1f0d49a539fa"
+      }
+    },
+    {
+      "id": "R14",
+      "title": "scalar specialization and cross-repository derivation ledger",
+      "proof": {
+        "path": "02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md",
+        "git_blob_sha": "7fd8f2795222153f4b175bbc56b6e21d5c8234b0"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R14_VERIFICATION.json",
+        "git_blob_sha": "7657e3be3809ea06c1617dc9a4c7148b6a0fbbf6",
+        "status": "PASS_R14_FINITE_NATIVE_SOURCE_FOUNDATION"
+      },
+      "recorded_counts": {
+        "test_count": 30
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R14_SOURCE_PINS.json",
+        "git_blob_sha": "57d9c83aab9ab261c343e3fd8cf7b571ecc35a48"
+      },
+      "scope_correction": {
+        "path": "02-relational-response/R14_SCOPE_CORRECTION.md",
+        "git_blob_sha": "9f8f1f8741d5829bdaaebf06dfe83a9254644059"
+      }
+    },
+    {
+      "id": "R15",
+      "title": "cut/operator foundation and uploaded topology certification",
+      "proof": {
+        "path": "02-relational-response/EMK_TOPOLOGY_R15.md",
+        "git_blob_sha": "24f87e5b2322d9f43e957e35ac2a7bcaa6d3e8bc"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R15_VERIFICATION.json",
+        "git_blob_sha": "05a6c5ed7c466487fddef27d739c55b3bc50a041",
+        "status": "SCOPED_CHECKS_PASS_ORIGINAL_NOT_CERTIFIED"
+      },
+      "scope": "Written constructive proofs, exact finite checks, original-claim audit, native operator replay and UGD-1 reuse. No three-axiom universal sufficiency or physical validation.",
+      "recorded_counts": {
+        "native_symbolic_replays": 10
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/certificates/r15/SOURCE_PINS.json",
+        "git_blob_sha": "ad24dd4787576a865050cc89512c3c97127f0c5f"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R15_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "2ab9bd117e028c298ca486941af6c68e277c992f"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/certificates/r15/CLAIM_LEDGER.json",
+        "git_blob_sha": "588ebcdd3353b13afa2731885ca0272cbcd17fef"
+      },
+      "whole_original_manuscript_certified": false
+    },
+    {
+      "id": "R16",
+      "title": "the integrated constructive cut foundation",
+      "proof": {
+        "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+        "git_blob_sha": "87d95f6c5547cf75dd779f949f7c24f364c545d6"
+      },
+      "verification": {
+        "path": "02-relational-response/emk-topology-foundation/certificate/VERIFICATION.json",
+        "git_blob_sha": "769c06b1f07c459edbb5da9fb12b73ceda193082",
+        "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE"
+      },
+      "recorded_counts": {
+        "written_core_statements": 14
+      },
+      "source_pins": {
+        "path": "02-relational-response/emk-topology-foundation/certificate/SOURCE_PINS.json",
+        "git_blob_sha": "5066712de0dd8525799ba8fad5bc772cbb19eb77"
+      },
+      "native_certificate": {
+        "path": "02-relational-response/emk-topology-foundation/certificate/NATIVE_REPLAY.json",
+        "git_blob_sha": "7ac20c73232a4493fdf259be9e9d6c39379f7de2"
+      },
+      "ledger": {
+        "path": "02-relational-response/emk-topology-foundation/certificate/CORE_LEDGER.json",
+        "git_blob_sha": "e31b8360de4ed66a48da7d2871abc8db47a38fb9"
+      },
+      "whole_original_manuscript_certified": false
+    },
+    {
+      "id": "R17",
+      "title": "source-count noise, curvature and signed memory return",
+      "proof": {
+        "path": "02-relational-response/CUT_HISTORY_MEMORY_R17.md",
+        "git_blob_sha": "bb67eca56689e2c9775e05134a5e10f58c932fbb"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R17_VERIFICATION.json",
+        "git_blob_sha": "00b605303569a0a29fb5f288acc0185d9d5f21a2",
+        "status": "PASS_R17_SOURCE_COUNT_MEMORY"
+      },
+      "scope": "Free typed cut-history census, derived signed role actions and seam aperture. Exact identities and written all-depth proofs; not a universal physical noise law or complete UGD-state replacement.",
+      "recorded_counts": {
+        "new_written_theorems": 10,
+        "exact_check_groups": 12,
+        "native_symbolic_replays": 15
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R17_SOURCE_PINS.json",
+        "git_blob_sha": "d134ccf2e064e8c7e8df914fe37ce217d27d332e"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R17_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "3875d55c52a6287d3423d31d96db1888f21b5ce0"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R17_CLAIM_LEDGER.json",
+        "git_blob_sha": "dd6004d96186148e54489ab7cf3b5106882919f7"
+      }
+    },
+    {
+      "id": "R18",
+      "title": "cut-address transport toward physical metric selection",
+      "proof": {
+        "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+        "git_blob_sha": "defb9c17992cf4d0984254db231e4435c880eea1"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R18_VERIFICATION.json",
+        "git_blob_sha": "7eebe44c4ab63524ae8bea6498a256b5b5ad77c4",
+        "status": "PASS_R18_CUT_ADDRESS_TRANSPORT"
+      },
+      "scope": "Native cut-address construction; exact finite signed transport, wave stencil and formal jets. Physical protocol selection, large-scale convergence and rod/clock calibration remain open.",
+      "recorded_counts": {
+        "written_results": 9,
+        "exact_check_groups": 10,
+        "native_symbolic_replays": 8
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R18_SOURCE_PINS.json",
+        "git_blob_sha": "7d1d002433a7bfad75055276e8805e41c9aded02"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R18_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "b1536b56a9a43bf597b201d49e60656605d52d02"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R18_CLAIM_LEDGER.json",
+        "git_blob_sha": "03dff090eb5ba99e606a78d7d127c51a9ca7f614"
+      }
+    },
+    {
+      "id": "R19",
+      "title": "native current retention and returning pair memory",
+      "proof": {
+        "path": "02-relational-response/CURRENT_MEMORY_RETENTION_R19.md",
+        "git_blob_sha": "5bc56a12dd2ce881c6d817e7070c239255ceeedb"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R19_VERIFICATION.json",
+        "git_blob_sha": "26d65f2c1ad441ba21e86423797c24443af69ce9",
+        "status": "PASS_R19_NATIVE_CURRENT_RETENTION"
+      },
+      "scope": "Native pair-record propagation and memory derived from the inherited R18 target. Written arbitrary-horizon proofs and exact finite checks. The origin gate audits declared dependencies; it is not an automated semantic proof or physical selection.",
+      "recorded_counts": {
+        "written_results": 9,
+        "exact_check_groups": 11,
+        "native_symbolic_replays": 9
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R19_SOURCE_PINS.json",
+        "git_blob_sha": "6e8cafa41b576d6beef597a8e15db7e663a2a811"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R19_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "cbed2f6f145b1acb4d273ee0705e0fdd8880b062"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R19_DERIVATION_LEDGER.json",
+        "git_blob_sha": "d437737f4cf82796d2e594c4699473d2547a09c1"
+      }
+    },
+    {
+      "id": "R20",
+      "title": "native record-writing interaction and its exact readout",
+      "proof": {
+        "path": "02-relational-response/NATIVE_RECORD_INTERACTION_R20.md",
+        "git_blob_sha": "0d540ec3cc810d9595eba52e9a0f20a8e4c24eb2"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R20_VERIFICATION.json",
+        "git_blob_sha": "8a0c1d30f66099e64f109d12ea904d1979a50544",
+        "status": "PASS_R20_NATIVE_RECORD_INTERACTION"
+      },
+      "scope": "Source-constructed tuple gate and finite pairing readout. Fresh, reused, coarse and decoded record protocols derived exactly. Written arbitrary-depth proofs plus finite checks; no physical protocol selection or full-UGD reduction.",
+      "recorded_counts": {
+        "written_results": 9,
+        "exact_check_groups": 13,
+        "native_symbolic_replays": 10
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R20_SOURCE_PINS.json",
+        "git_blob_sha": "8e43a83b7a51d9a475a014897f899f9d1c142b9a"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R20_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "ce275e8db242f365eab343f08352a44245b7bb33"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R20_DERIVATION_LEDGER.json",
+        "git_blob_sha": "f472085390643d3852fe611d71337a84cf8bb849"
+      }
+    },
+    {
+      "id": "R21",
+      "title": "record identity from current and native continuation",
+      "proof": {
+        "path": "02-relational-response/RECORD_IDENTITY_CONTINUATION_R21.md",
+        "git_blob_sha": "feed3a3d2d93ccff23056574e39c7b358e92a818"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R21_VERIFICATION.json",
+        "git_blob_sha": "6734340274cd02f7f6db86046076aec2975e18a8",
+        "status": "PASS_R21_NATIVE_RECORD_IDENTITY"
+      },
+      "scope": "Native slot-allocation identity from exact current and H contrasts. Closed exchange moments, live-slot continuation, native sector decomposition and tagged return gates. Written arbitrary-depth proofs and finite checks; identification is not physical allocation selection.",
+      "recorded_counts": {
+        "written_results": 9,
+        "exact_check_groups": 12,
+        "native_symbolic_replays": 12
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R21_SOURCE_PINS.json",
+        "git_blob_sha": "01b50fc96561adbd0f338c634a4c1b5063252f9f"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R21_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "41cc7b32d65914091c02dbc8628fb3406073c324"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R21_DERIVATION_LEDGER.json",
+        "git_blob_sha": "cb0e11c3231123c649478ea7efda94b56bad98d2"
+      }
+    },
+    {
+      "id": "R22",
+      "title": "native meeting geometry and one-bit record reconstruction",
+      "proof": {
+        "path": "02-relational-response/MEETING_GEOMETRY_R22.md",
+        "git_blob_sha": "65e647591cf10e68bee666c7a172da3980e2f2ea"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R22_VERIFICATION.json",
+        "git_blob_sha": "21c48008b898ed8ec9cbf7d9f17a95c3a2daeb29",
+        "status": "PASS_R22_NATIVE_MEETING_GEOMETRY"
+      },
+      "scope": "Native fixed-word meeting capacity, complete-catalogue event distance, endpoint metric and address-carried parity compression. First-reuse onset and signed cancellation remain distinct. Written arbitrary-depth proofs and finite checks; physical metric or catalogue selection is not proved.",
+      "recorded_counts": {
+        "written_results": 9,
+        "exact_check_groups": 10,
+        "native_symbolic_replays": 10
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R22_SOURCE_PINS.json",
+        "git_blob_sha": "e1d6595c70ef33542f126ca365e2d6fc0806dd74"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R22_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "944e484d7de06bf1610318f84cbf73060992d326"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R22_DERIVATION_LEDGER.json",
+        "git_blob_sha": "c85c532d0c2f42b7aae39c0777ab84561b626ec9"
+      }
+    },
+    {
+      "id": "R23",
+      "title": "future-response equivalence and native observer completion",
+      "proof": {
+        "path": "02-relational-response/FUTURE_RESPONSE_QUOTIENT_R23.md",
+        "git_blob_sha": "9f542b61c7df67368114f2036efb9c3e99bbf93b"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R23_VERIFICATION.json",
+        "git_blob_sha": "0d162ff587f05f98fa0627c43a635de67d8eda18",
+        "status": "PASS_R23_NATIVE_FUTURE_RESPONSE"
+      },
+      "scope": "Native translation symmetry and future-response quotient on the real signed pair target. Complete exchange-probe rank, minimum finite-catalogue observer, initial-role return, endpoint decoding and native record-probe completion. Meeting geometry does not determine signed response. Written proofs and exact finite checks; no physical observer or metric selection.",
+      "recorded_counts": {
+        "written_results": 9,
+        "exact_check_groups": 10,
+        "native_symbolic_replays": 12
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R23_SOURCE_PINS.json",
+        "git_blob_sha": "a672541363b3c11dd1be46c482b29691ab993e5d"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R23_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "80ba12ea90c4b36c0d7ce98bb09c99274e3701d8"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R23_DERIVATION_LEDGER.json",
+        "git_blob_sha": "7f8b73ae9df53bbbad9b710c3a58b73e806c6448"
+      }
+    },
+    {
+      "id": "R24",
+      "title": "fixed native return coefficients and record coupling",
+      "proof": {
+        "path": "02-relational-response/NATIVE_RETURN_COUPLING_R24.md",
+        "git_blob_sha": "f5a5714f9574177f0cf1bed49a110d9aeae03af8"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R24_VERIFICATION.json",
+        "git_blob_sha": "8ffebef0f3d450a7f5bb6c1d652d7f379339cabc",
+        "status": "PASS_R24_NATIVE_RETURN_COUPLING"
+      },
+      "scope": "Native first-return grammar, fixed coherent scale, retained arrival-energy coefficient, normalized record overlap and full return-controlled gate. Eight written all-depth/completion proofs, exact finite checks and rational tail enclosures. Alternate native word memory changes the coupling. No physical source/interface or c/alpha identification.",
+      "recorded_counts": {
+        "written_results": 8,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 10
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R24_SOURCE_PINS.json",
+        "git_blob_sha": "19685f7f63a5de1fef0510a424128f612ed941eb"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R24_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "69f579c900845ad97fb5978a2dfef055c80f43ad"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R24_DERIVATION_LEDGER.json",
+        "git_blob_sha": "18a2ccee331af991eac76e533c956688bf696ac1"
+      }
+    },
+    {
+      "id": "R25",
+      "title": "native return feedback and terminal-boundary selection",
+      "proof": {
+        "path": "02-relational-response/NATIVE_RETURN_FEEDBACK_R25.md",
+        "git_blob_sha": "301274fdc39f20f74dbbba58d9f99e83ab682942"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R25_VERIFICATION.json",
+        "git_blob_sha": "91860b38dd6232a239bcfb0af71b21f43a1c6147",
+        "status": "PASS_R25_NATIVE_RETURN_FEEDBACK"
+      },
+      "scope": "Declared native origin-return feedback with retained arrival memory. Eight written results derive the pulse, exact four-component memory, full finite-event recurrence, unique completed response, admissible terminal-boundary independence and event-horizon error. Full word memory gives a different native limit. No physical memory interface or alpha selection.",
+      "recorded_counts": {
+        "written_results": 8,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 12
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R25_SOURCE_PINS.json",
+        "git_blob_sha": "031285d23828d9929a6657d1e608e9c7c94a119b"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R25_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "d7aec851683749335efa33c33e82772be9f50659"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R25_DERIVATION_LEDGER.json",
+        "git_blob_sha": "a37818b10ea29e15ce7d10361fb4e5c97fb04c3f"
+      }
+    },
+    {
+      "id": "R26",
+      "title": "reused native memory, a propagation gap and a fixed channel ratio",
+      "proof": {
+        "path": "02-relational-response/NATIVE_MEMORY_RESIDUE_R26.md",
+        "git_blob_sha": "bdeced771a716053c48d8d754235d1cfeb753b09"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R26_VERIFICATION.json",
+        "git_blob_sha": "d676cac50311d9af22b8bdf19cd7ebca5833466e",
+        "status": "PASS_R26_NATIVE_MEMORY_RESIDUE"
+      },
+      "scope": "Nine written native results: flat memory equivalence, commutator response, reused H/K record factorization, a two-event propagation defect, new return grammar and rigorous tail, coherent sqrt3 map, parity feedback, exact channel ratio three and flag normalization. Native constructions do not select a physical memory interface, mass, charge or alpha.",
+      "recorded_counts": {
+        "written_results": 9,
+        "exact_check_groups": 12,
+        "native_symbolic_replays": 16
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R26_SOURCE_PINS.json",
+        "git_blob_sha": "cbf9a2beb6cb3bc090780a7146c96bbcdf83f882"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R26_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "5c61ebb88086a52fe48a53f1f5461f6fbfeae3f3"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R26_DERIVATION_LEDGER.json",
+        "git_blob_sha": "f916b636be4901110096879fb5de330612900922"
+      }
+    },
+    {
+      "id": "R27",
+      "title": "source-law memory selection and retained-copy parity",
+      "proof": {
+        "path": "02-relational-response/NATIVE_REPLICA_SELECTION_R27.md",
+        "git_blob_sha": "5e87abba3d6580ae4f573eb029c425828ca017cd"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R27_VERIFICATION.json",
+        "git_blob_sha": "d67377ea20af6480e7d6708335133c13f14d5853",
+        "status": "PASS_R27_NATIVE_REPLICA_SELECTION"
+      },
+      "scope": "Seven written native proofs: source-law record normalization and mixed law, explicit finite record normal form, general propagation defect, universal R26 responses, minimum factorized operator-copy compensator, two copy-parity response classes and native counterfamilies. Mathematical target selection is not physical interaction, mass, charge or alpha selection.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 10,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R27_SOURCE_PINS.json",
+        "git_blob_sha": "fc9bb729c4d771c0419388e0d21fde6897d5e437"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R27_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "aa72c29f9b17dcf323678c2b4274b271c1f93fa2"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R27_DERIVATION_LEDGER.json",
+        "git_blob_sha": "47d3fc5ff189c7b32859eb8dba68d65799dc55b4"
+      }
+    },
+    {
+      "id": "R28",
+      "title": "native cut curvature, hidden response and propagation",
+      "proof": {
+        "path": "02-relational-response/NATIVE_CUT_CURVATURE_PROPAGATION_R28.md",
+        "git_blob_sha": "c5e0892f5d939f9121bc6d18ae837c5210d498f3"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R28_VERIFICATION.json",
+        "git_blob_sha": "407008205ff13f9c45244ea4b37bb0101669538d",
+        "status": "PASS_R28_NATIVE_CUT_CURVATURE_PROPAGATION"
+      },
+      "scope": "Six written proofs bind native cut curvature, transition exchange, exact hidden-memory kernel, signed response wave, chart-free cyclic ledger and non-uniqueness of dynamics from algebra alone. Eight finite exact groups and ten native word replays support this scope; no physical vacuum/EM/c/alpha or proof-assistant claim.",
+      "recorded_counts": {
+        "written_results": 6,
+        "exact_check_groups": 8,
+        "native_symbolic_replays": 10
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R28_SOURCE_PINS.json",
+        "git_blob_sha": "a852f7361f73bcdb36afe96dccfc1a7d243ca8c1"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R28_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "26e957a7a7ac13ad2734fced2f0444c6a2d93af8"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R28_DERIVATION_LEDGER.json",
+        "git_blob_sha": "76dccb397246a1dd70a3447243102d68d6fabb4c"
+      }
+    },
+    {
+      "id": "R29",
+      "title": "native paired fields, constitutive closure and boundary residue",
+      "proof": {
+        "path": "02-relational-response/NATIVE_PAIRED_FIELD_DYNAMICS_R29.md",
+        "git_blob_sha": "773611b9f0ec6ea0aedf23bde64bd48260b370a0"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R29_VERIFICATION.json",
+        "git_blob_sha": "e7f70942239e6bc89deaf1d5e94bf7540861355a",
+        "status": "PASS_R29_NATIVE_PAIRED_FIELD_DYNAMICS"
+      },
+      "scope": "Seven written proofs: native constitutive relation, reversible paired induction, source-sector constraint, positive conserved form, local current and defect source, uniform stationary backgrounds and conserved boundary interfaces. Exact checks support the native target; no physical EM/vacuum/charge/c/alpha/mass or proof-assistant identification.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 8,
+        "native_symbolic_replays": 10
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R29_SOURCE_PINS.json",
+        "git_blob_sha": "95ab87d886735a6db2957a3517a512b1d9342920"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R29_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "29183a082e82445a677b2210ae4060e5e79ee47a"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R29_DERIVATION_LEDGER.json",
+        "git_blob_sha": "8147ddde66baf453e6a8e255ff48976e53f2cbd2"
+      }
+    },
+    {
+      "id": "R30",
+      "title": "native directional loops and closed field interaction",
+      "proof": {
+        "path": "02-relational-response/NATIVE_DIRECTIONAL_LOOP_INTERACTION_R30.md",
+        "git_blob_sha": "973340f46e98dffbfc8d098b428364629c0fe274"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R30_VERIFICATION.json",
+        "git_blob_sha": "21fcc3553790b3ec42f66db36d42a5e781f6b2fc",
+        "status": "PASS_R30_NATIVE_DIRECTIONAL_LOOP_INTERACTION"
+      },
+      "scope": "Eight written proofs: source-count directions, exact order/loop curvature, dual continuation, interface corners, closed loop-driven paired fields, local native frame covariance, complete cyclic blindness/reconstruction and positive interaction quotient. Scoped native identities and explicit response targets; no physical EM/vacuum/charge/c/alpha/mass/dimension/gauge-group or proof-assistant identification.",
+      "recorded_counts": {
+        "written_results": 8,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 12
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R30_SOURCE_PINS.json",
+        "git_blob_sha": "92f5b30c7e4a81597f485e1409a82b8878263276"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R30_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "b1cf76705478d31bbc4bec1ebdd95d18b5407771"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R30_DERIVATION_LEDGER.json",
+        "git_blob_sha": "4b786832ec84cc01178957b35578afdfa9fabb5d"
+      }
+    },
+    {
+      "id": "R31",
+      "title": "native propagation geometry and a complete increment observer",
+      "proof": {
+        "path": "02-relational-response/NATIVE_PROPAGATION_GEOMETRY_R31.md",
+        "git_blob_sha": "e755ba68fe64ebd3377f9cb881a753e3d0e821dc"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R31_VERIFICATION.json",
+        "git_blob_sha": "7341023af54f01e70b38ca4cec265249a257b153",
+        "status": "PASS_R31_NATIVE_PROPAGATION_GEOMETRY"
+      },
+      "scope": "Seven written proofs: simultaneous local unmixing, full source energy and bounded drive, two-direction wave/count cone, positive factorization and finite-pairing stationary sector, quartic directional response and rank-one count jet, finite-count gap bound and complete increment reconstruction. Native target mathematics; no primitive physical force/EM/c/alpha/mass/metric selection or proof-assistant identification.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 12
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R31_SOURCE_PINS.json",
+        "git_blob_sha": "36a04292799e3056d4402b3c6f94eb9701a1d185"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R31_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "9a438c9f16437264a7053202e2a24e5ba7d2b07f"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R31_DERIVATION_LEDGER.json",
+        "git_blob_sha": "fcbc72342e333e38f7d02f950d0f165b79d4b559"
+      }
+    },
+    {
+      "id": "R32",
+      "title": "retained native loop, propagation gap and localized inverse",
+      "proof": {
+        "path": "02-relational-response/NATIVE_RETAINED_LOOP_GAP_R32.md",
+        "git_blob_sha": "84adab65a54715160412d3911db1a22bb17e44f6"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R32_VERIFICATION.json",
+        "git_blob_sha": "e506dcbaaa289dc336aac3a73088e40cbfb0bf61",
+        "status": "PASS_R32_NATIVE_RETAINED_LOOP_GAP"
+      },
+      "scope": "Seven written proofs: reciprocal record-loop obstruction, literal source edge-memory transport, area-parity source response, gapped paired wave, obstruction to flat similarity and uniform 48-event cycle, complete retained-increment reconstruction and localized native inverse tail. Staggered factorization remains available; no physical force/EM/mass/c/alpha selection or proof-assistant identification.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R32_SOURCE_PINS.json",
+        "git_blob_sha": "7a6f0f011862a23090392ae0b111a325822d890f"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R32_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "13e81aaf823cd368d7070d2592ecb4ca622a5725"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R32_DERIVATION_LEDGER.json",
+        "git_blob_sha": "7cd2fd78551d427690fd4db0d792524475c42977"
+      }
+    },
+    {
+      "id": "R33",
+      "title": "interaction memory after unresolved continuation",
+      "proof": {
+        "path": "02-relational-response/NATIVE_INTERACTION_MEMORY_R33.md",
+        "git_blob_sha": "1453e2a9d4baed12d1863d2563a23538de5f9236"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R33_VERIFICATION.json",
+        "git_blob_sha": "c8c307fa721c6dcffa98813f75acdade7d17af49",
+        "status": "PASS_R33_NATIVE_INTERACTION_MEMORY"
+      },
+      "scope": "Seven written proofs: increment-derived cut elimination, preparation-independent two-cut roundtrip, closed feedback, release/coarsening law, complete spatial spread fraction, finite extraction and cyclic boundaries, and readout/aperture/holonomy selection counterexamples. No physical alpha, electromagnetic normalization or measured constant is supplied.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R33_SOURCE_PINS.json",
+        "git_blob_sha": "a0a8f9f8e634e05cb44bf5d8113cbd861437a365"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R33_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "60e2be88dffe4df4abb3d29fd87c97242dc53e8c"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R33_DERIVATION_LEDGER.json",
+        "git_blob_sha": "2b601322d72a8689643a3bcd93543f563a2be3d0"
+      }
+    },
+    {
+      "id": "R34",
+      "title": "native decoder burden and a balanced observer reduction",
+      "proof": {
+        "path": "02-relational-response/NATIVE_DECODER_BURDEN_R34.md",
+        "git_blob_sha": "bdc8cb9a762ef6b2cac38f436aeb7caa5092cc82"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R34_VERIFICATION.json",
+        "git_blob_sha": "325300dacaddbae41971f05d59a71c14b3ca561f",
+        "status": "PASS_R34_NATIVE_DECODER_BURDEN"
+      },
+      "scope": "Six written proofs: native minimum decoder, current full/local burdens, optimal balanced two-increment bank, exact local count enclosure, sharp gain and event-cost audit, and target/duplicate/inherited-error boundaries. No repository-wide beta, physical noise law, clock or alpha identification is supplied.",
+      "recorded_counts": {
+        "written_results": 6,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R34_SOURCE_PINS.json",
+        "git_blob_sha": "84cc59cb77b4c629547cb31534b3ba00ac1179b4"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R34_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "2fac985871dc13d398dbc6c843e4c12b682b8f16"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R34_DERIVATION_LEDGER.json",
+        "git_blob_sha": "46bba0849f547a37b69147bfe3a1869e70d73a79"
+      }
+    },
+    {
+      "id": "R35",
+      "title": "a signed envelope and isotropic propagation coefficient",
+      "proof": {
+        "path": "02-relational-response/NATIVE_SIGNED_ENVELOPE_R35.md",
+        "git_blob_sha": "8276c1f95d540eb30afcf9ea8cd83cb75dc49ab0"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R35_VERIFICATION.json",
+        "git_blob_sha": "cd0a3f2d0e1c738a736f2bd1ec1591dcee7aed7f",
+        "status": "PASS_R35_NATIVE_SIGNED_ENVELOPE"
+      },
+      "scope": "Seven written proofs: native signed carrier, full-rank principal roles, actual native phase bands, sharp phase-gradient bound, modewise error, record-law universality, and exact front/count-unit boundary. No physical c, h, alpha, electromagnetic field or universal continuum dynamics is identified.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R35_SOURCE_PINS.json",
+        "git_blob_sha": "979ffa5121500f5040f7cd8eace5c21dce46c31a"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R35_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "efc19d5765242c563b28c296072f9c6e85962783"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R35_DERIVATION_LEDGER.json",
+        "git_blob_sha": "6cd366f44ebdbfe0701861dcaee0cf89ed6452b8"
+      }
+    },
+    {
+      "id": "R36",
+      "title": "curvature-complete observation, information geometry and current",
+      "proof": {
+        "path": "02-relational-response/NATIVE_CURVATURE_OBSERVER_R36.md",
+        "git_blob_sha": "715e54270950f02c8600ccf1c696770da5cfd029"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R36_VERIFICATION.json",
+        "git_blob_sha": "e5909f34e575818ed2783ac3fef0546e88025330",
+        "status": "PASS_R36_NATIVE_CURVATURE_OBSERVER"
+      },
+      "scope": "Seven written proofs: native response metric and oriented curvature, minimal complete curvature observer, exact paired dynamics and memory, sharp information-current cone and coherence deficit, controlled modewise flow, and frame/Riemann/physical boundaries. The constructed fields are readouts of one source, not independently identified physical fields.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R36_SOURCE_PINS.json",
+        "git_blob_sha": "43eaaa5606c24edb8db536a1c9c9cdd55e5ce570"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R36_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "592d025f840fcf8f83eb1c55e77aca325b7c9492"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R36_DERIVATION_LEDGER.json",
+        "git_blob_sha": "a9cbea6cf175c764583b7af4c9e56cc15f74e8c0"
+      }
+    },
+    {
+      "id": "R37",
+      "title": "compact native packets and reliable arrival",
+      "proof": {
+        "path": "02-relational-response/NATIVE_PACKET_FLIGHT_R37.md",
+        "git_blob_sha": "a4b1c4bd0453233860344b345ccb7cf529149c40"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R37_VERIFICATION.json",
+        "git_blob_sha": "11a3ebc5a2cca59495103415af74183dabae9844",
+        "status": "PASS_R37_NATIVE_PACKET_FLIGHT"
+      },
+      "scope": "Seven written proofs: native rational carriers, complete finite packet corrector, compact count profiles, all-n drift error, reliable localized arrival, the sharp approaching speed family, and curvature-observer/event-calibration boundaries. No universal all-packet ballistic bound, zero-threshold front or physical c, h or alpha is identified.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R37_SOURCE_PINS.json",
+        "git_blob_sha": "aa1515a88315feb62dc4a67d5423a8bcf8c34044"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R37_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "aa4d1f87d6489645f1e7ef29b36fe1c855cfadca"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R37_DERIVATION_LEDGER.json",
+        "git_blob_sha": "0b227d89fe5054845ffca9aa44c69a8d4d0c6edd"
+      }
+    },
+    {
+      "id": "R38",
+      "title": "the sharp cone for all localized native signals",
+      "proof": {
+        "path": "02-relational-response/NATIVE_UNIVERSAL_SIGNAL_CONE_R38.md",
+        "git_blob_sha": "212eab3688c7e1b3ac6c2dd834201c1e1fe08597"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R38_VERIFICATION.json",
+        "git_blob_sha": "5e6370270652f46c90bd6eb88f103ef87c9d1dd7",
+        "status": "PASS_R38_NATIVE_UNIVERSAL_SIGNAL_CONE"
+      },
+      "scope": "Seven written proofs: native finite phase resolution, uniform block displacement bound, positive count tilt, all-packet half-space estimate, universal localized radial cone, sharp fixed-threshold arrival speed and curvature/front/calibration boundaries. Universal means all admissibly localized preparations of the pinned source; no physical c, h, alpha or universality across different source laws is identified.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R38_SOURCE_PINS.json",
+        "git_blob_sha": "faf70d60bf686e4db55dd9e9262d52f861b00a58"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R38_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "5e448186c9b0ca25ab996ad624f35fb8cfd076ef"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R38_DERIVATION_LEDGER.json",
+        "git_blob_sha": "0d1187df89d83a1fe2cab9d65e15b8f4a7840a7d"
+      }
+    },
+    {
+      "id": "R39",
+      "title": "local source reversal, echo clock and distance reading",
+      "proof": {
+        "path": "02-relational-response/NATIVE_ECHO_CLOCK_R39.md",
+        "git_blob_sha": "d6961aa1148afb9bb70932b69ebc5bd4144dfd9e"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R39_VERIFICATION.json",
+        "git_blob_sha": "a44ab01fdeefc1e5dbddb598cdd0e3934c2d69cb",
+        "status": "PASS_R39_NATIVE_ECHO_CLOCK"
+      },
+      "scope": "Seven written native proofs: full local reversal, exact echo and finite window gates, high-retention remote trigger, return timestamp and distance error, repeatable scheduled clock and marked record capacity, information-length calibration and sharp echo speed, and curvature-complete observation. Reversal controls are derived available arrows with explicit count accounting; an autonomous physical mirror, material clock and c, h, alpha are not selected.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R39_SOURCE_PINS.json",
+        "git_blob_sha": "db88a81d0d824fde3062654a06de5a599798ef47"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R39_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "3f135e8e14011b5fcf39b8d94e3f5a80b34f0d1d"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R39_DERIVATION_LEDGER.json",
+        "git_blob_sha": "4400c0e87fa68f90d4d450f77006cbc97b2cad18"
+      }
+    },
+    {
+      "id": "R40",
+      "title": "one autonomous native echo, controller and tick evolution",
+      "proof": {
+        "path": "02-relational-response/NATIVE_AUTONOMOUS_ECHO_R40.md",
+        "git_blob_sha": "a808d67938475a8a21839f3be0c75d96f161fbb9"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R40_VERIFICATION.json",
+        "git_blob_sha": "54e86ac875c3e25c725a502ea33ce5a2b5e6cb36",
+        "status": "PASS_R40_NATIVE_AUTONOMOUS_ECHO"
+      },
+      "scope": "Seven written native proofs: scheduled echo with sharper error, one fixed local joint controller arrow, exact prefix and cycle formulas, coherent phase error, marked elapsed-count capacity, control refinement and information-length calibration, complete curvature observation and hidden controller memory, and a nondisturbing threshold obstruction. Autonomous means a constructed time-independent joint arrow; the program, preparation, control alphabet and physical-selection boundary remain explicit.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R40_SOURCE_PINS.json",
+        "git_blob_sha": "84a4bcfd80b4363a6adc630be238d034b94daf76"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R40_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "24c07d6206a4e8c9e81d9e7fefe5dda5b415a200"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R40_DERIVATION_LEDGER.json",
+        "git_blob_sha": "c4bd337efb683ee3e840802af50ce098ab11a3ce"
+      }
+    },
+    {
+      "id": "R41",
+      "title": "native relational evolution, clock curvature and a sharp uncertainty scale",
+      "proof": {
+        "path": "02-relational-response/NATIVE_RELATIONAL_CLOCK_R41.md",
+        "git_blob_sha": "014980394bb4bcb7b6cfea283eabd4c032192aae"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R41_VERIFICATION.json",
+        "git_blob_sha": "27ade167b0067f576d1c399c99c02253f9766031",
+        "status": "PASS_R41_NATIVE_RELATIONAL_CLOCK"
+      },
+      "scope": "Seven written native proofs: autonomous tick-coupled process evolution, native histories and unresolved-clock readouts, clock phase curvature and the wrap-corrected count-response commutator, a sharp covariance inequality, finite binary-word profile moments, a joint clock-error and stationary-history limit approaching the native half scale, and complete observation with affine calibration. The process and readouts are explicit native constructions; physical energy, action and time calibration remain unselected.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R41_SOURCE_PINS.json",
+        "git_blob_sha": "b0f77c847132b6ac7a107fc0d3c55e781d593c3d"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R41_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "42de450f33fd56f986e1a64ce9e4eb0d435cc9ce"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R41_DERIVATION_LEDGER.json",
+        "git_blob_sha": "cc849bbd7730649046dbc06a39e0f76f2f152937"
+      }
+    },
+    {
+      "id": "R42",
+      "title": "native phase generator, exact interpolation and response geometry",
+      "proof": {
+        "path": "02-relational-response/NATIVE_PHASE_GENERATOR_R42.md",
+        "git_blob_sha": "8d4ae729115b3c0b196c5d2c2e67a7b3a0e705b8"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R42_VERIFICATION.json",
+        "git_blob_sha": "8eec4b7002697dd7adfd1f150dc189208d766c33",
+        "status": "PASS_R42_NATIVE_PHASE_GENERATOR"
+      },
+      "scope": "Seven written native proofs: cut-complete process reconstruction, phase integration by native count sums, exact factorial interpolation with finite enclosures, conserved generator moments and response geometry, a finite path-residue variational rule, autonomous-clock conservation and complete observation, and phase-branch and action-calibration boundaries. The finite process, interpolation branch and mismatch functional are explicit native constructions; physical energy, time and h-bar remain unselected.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R42_SOURCE_PINS.json",
+        "git_blob_sha": "cd56209a3c298e6fa755a0a55f41fd44fb1fe7ab"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R42_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "7e5d9b871ce09de30a581d2b93c987f0aa384980"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R42_DERIVATION_LEDGER.json",
+        "git_blob_sha": "963de0f4ecc6a115623f02724e5c18c71eb309d3"
+      }
+    },
+    {
+      "id": "R43",
+      "title": "native exchange, relative calibration and interaction memory",
+      "proof": {
+        "path": "02-relational-response/NATIVE_EXCHANGE_CALIBRATION_R43.md",
+        "git_blob_sha": "79e5397e4c474acd7ab53b82a9507b29d4942061"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R43_VERIFICATION.json",
+        "git_blob_sha": "d972434e08884e9b51a854b7c37ef0b686ff9ff1",
+        "status": "PASS_R43_NATIVE_EXCHANGE_CALIBRATION"
+      },
+      "scope": "Seven written native proofs: source-controlled exchange, additive phase history with retained branch memory, balanced transfer and relative readout calibration, hidden pair currents, distinguishability phase cost, exact reduced-pair memory laws, and autonomous-clock conservation with a remaining common action scale. The identical ledgers, interaction branch and readout targets are explicit native constructions; physical energy, material time, h-bar and alpha remain unselected.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R43_SOURCE_PINS.json",
+        "git_blob_sha": "ba3c1dfa90d2a1ddcbe0e9b0d4728b21c4464ab9"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R43_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "f120ffb047c5a35fa481c3358b68de6b48a0748c"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R43_DERIVATION_LEDGER.json",
+        "git_blob_sha": "9a2fcce98b0199f84e148fb35ce573a8c46c8818"
+      }
+    },
+    {
+      "id": "R44",
+      "title": "collective exchange, calibration geometry and higher memory",
+      "proof": {
+        "path": "02-relational-response/NATIVE_COLLECTIVE_EXCHANGE_R44.md",
+        "git_blob_sha": "f0f80066b0f70cf52950bed4d4f68151f8dca693"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R44_VERIFICATION.json",
+        "git_blob_sha": "9bcb51ba04273b0ab117e446c00a8890572775ac",
+        "status": "PASS_R44_NATIVE_COLLECTIVE_EXCHANGE"
+      },
+      "scope": "Seven written native proofs: count-refined collective exchange, connected-component calibration, local current balance, pair-blind three-ledger memory and cycle curvature, shared single-cut difference geometry, cyclic phase modes and distance tails, and actual-clock conservation with complete observation. Edge lists, equal allocations and count interpolation are explicit native targets. Finite words retain their cost and conservation boundaries; physical constants and material identifications remain unselected.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R44_SOURCE_PINS.json",
+        "git_blob_sha": "e00c7bbbdc54ef8c7f76a13653f4e387645d2d9b"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R44_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "4e59ae4f84814aea6d29b3374ab828f346756a54"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R44_DERIVATION_LEDGER.json",
+        "git_blob_sha": "4b90f065b6eaedd1ccee857ae8552bb668dab8ea"
+      }
+    },
+    {
+      "id": "R45",
+      "title": "curvature-generated flow and recovery of phase direction",
+      "proof": {
+        "path": "02-relational-response/NATIVE_CURVATURE_FLOW_R45.md",
+        "git_blob_sha": "301a70fc20389bd131e722dacaa8d3e805f22333"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R45_VERIFICATION.json",
+        "git_blob_sha": "dc186e73380cf94b5b5a56dd6bdfd1f1b38f2a41",
+        "status": "PASS_R45_NATIVE_CURVATURE_FLOW"
+      },
+      "scope": "Seven written native proofs: exact balanced-loop residue, controlled quadratic-count curvature flow, oriented transfer with memory and metric, collective loop synthesis and cyclic factorization, cubic phase rates and count gap, cost-curvature reconstruction of mode direction, and actual refined-clock/complete-observer transport. Finite words, completion, declared targets, full-state coherence, refinement cost and physical calibration remain distinct.",
+      "recorded_counts": {
+        "written_results": 7,
+        "exact_check_groups": 9,
+        "native_symbolic_replays": 14
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/R45_SOURCE_PINS.json",
+        "git_blob_sha": "87786c8c43424aa0c466ea32215572cb329e533a"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/R45_NATIVE_CERTIFICATE.json",
+        "git_blob_sha": "063b50704f29d4a8a554675ab6757213e135dfff"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/R45_DERIVATION_LEDGER.json",
+        "git_blob_sha": "5b418ce3009739de4ebaea94b7151326f6ed22b9"
+      }
+    }
+  ]
+}

@@ -6,6 +6,12 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
+Current register: [R1–R45 manifest](CURRENT_MANIFEST.json) and [current results, branch integration and CI scope](CURRENT_STATUS.md). The historical `MANIFEST.json` remains frozen through R13 because later certificates hash it as prior evidence.
+
+Common mathematical development now follows [Publications' Morphic/EMK/UGD foundation route](https://github.com/Parveen117/Publications/blob/main/MATHEMATICAL_FOUNDATION.md). Physical applications continue here, using the canonical RKF engine and preserving the existing research evidence.
+
+[![Native certificates](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml/badge.svg?branch=main)](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml)
+
 **Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R45's derivation ledger](04-operator-evolution/R45_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
@@ -666,24 +672,28 @@ See [R1_VERIFICATION.json](04-operator-evolution/R1_VERIFICATION.json) for the r
 
 ## Research judgment
 
-**Way-4 currently offers the strongest working machinery. Way-3 offers an ambitious foundational question, but its constant has not yet been determined by the draft.** Way-2 is the bridge to response predictions; Way-1 supplies the coordinate algebra.
+**Way-4's native operator machinery and Way-2's response/observer structure now form the strongest working part of the program.** R16–R45 connect constructive cut roles to retained histories, memory, propagation, clocks, exchange and curvature-generated evolution. Way-1 supplies descendant coordinate descriptions; Way-3 retains the question of universal scale selection.
 
-The proposed development priority is to investigate Way-3 using Way-4, then express the resulting invariant in Way-2. In particular, distinguish a fixed reference from a uniquely selected constant. With unrestricted coefficients, writing `X_i = n_i lambda_*^{k_i}` alone does not select `lambda_*`.
+The current task is to connect the derived native invariants and count/readout geometry to an independently selected physical protocol and calibration. A fixed reference and a uniquely selected physical constant remain distinct targets. With unrestricted coefficients, writing `X_i = n_i lambda_*^{k_i}` alone does not select `lambda_*`.
 
-See [ASSESSMENT.md](ASSESSMENT.md) for the reasoning and corrections, and [the lambda identifiability note](03-lambda-reference/IDENTIFIABILITY.md) for an exact rescaling argument and a concrete next research target.
+See [CURRENT_STATUS.md](CURRENT_STATUS.md) for the current synthesis. [ASSESSMENT.md](ASSESSMENT.md) and [the lambda identifiability note](03-lambda-reference/IDENTIFIABILITY.md) retain their historical scopes and exact rescaling arguments; they do not replace the later native construction.
 
 ## Status of claims
 
 This is a research workspace. The source manuscript is preserved byte for byte, including its original theorem labels, wording, and placeholder bibliography. Preservation is not an endorsement of every claim. Several statements require additional hypotheses, and some have explicit counterexamples.
 
-The unrestricted four-way equivalence remains a proposal. R1 now supplies an explicit correspondence for a specified finite scalar transport model, with normalization retaining its reference class. No value of a physical constant or experimentally validated new physical law is established.
+The unrestricted four-way equivalence remains a proposal. R1 supplies a correspondence for a specified scalar transport model. R16 constructs a native cut/operator foundation, and R17–R45 prove scoped consequences in explicitly declared history, observer and process targets. R14's scalar scope correction and R15's original-manuscript audit remain active. Physical constants and experimental identification are not supplied by these mathematical certificates.
 
 ## Selection milestone
 
-R1 specifies a scalar model, its reference changes, and its complete return invariants. R2 instantiates the existing cut-graded return and compression calculus. R3 supplies an explicit conditional seam/bond realization. R4 connects it to an existing native exact-cut response and checks closure without discarding its amplitude or aperture dependence. R5 determines the recoverable depth prefix from calibrated response coefficients and proves that a finite jet plus exact closure still leaves deeper source freedom. Next supply an independent source law, or an observation protocol with warranted calibration and error bounds. Invariance, identification from data, and universal value selection remain separate claims.
+R16 derives signed source roles, matching and completion before a scalar chart. R17–R27 derive source-history noise, returning current/record memory, response quotients and observer completion. R28–R38 derive cut curvature, paired propagation, retained-loop interaction and a sharp localized native signal cone. R39–R45 add echo/relational clocks, sharp count-response uncertainty, phase generators, exchange calibration, higher memory and curvature-generated flow with mode-direction recovery.
+
+Native dimensionless coefficients are now derived in these targets. Material time/length/readout calibration, a universal interaction or topology, and physical h-bar, c and alpha remain open selection obligations. R45 also preserves finite-word residue, growing refinement cost and the distinction between mode recovery and arbitrary-state coherence.
 
 The name `lambda` currently serves several roles. Use `lambda_*` for the fixed reference, `chi_XY` for a response derivative, `gamma` for a decay rate, and `epsilon` for observational resolution until a theorem relates them.
 
 ## Provenance
 
-[MANIFEST.json](MANIFEST.json) records the original source checksum and the line ranges of the excerpts. R4 and R5 execute a pinned upstream implementation from a separate checkout; its source files are referenced rather than duplicated here. [CROSS_REPO_LINEAGE.md](CROSS_REPO_LINEAGE.md) records the R1–R4 assessment; the R5 proof adds its own scoped comparison without changing that earlier evidence.
+[CURRENT_MANIFEST.json](CURRENT_MANIFEST.json) anchors every R1–R45 proof and recorded verification by Git blob identity, including R15's qualified verdict and R14's scope correction. [MANIFEST.json](MANIFEST.json) retains the original checksum, excerpt ranges and historical R1–R13 register as frozen evidence.
+
+The [current CI runner](04-operator-evolution/verify_repository.py) checks registered evidence, executes the complete R16 scoped foundation checker and replays the unchanged R17–R45 native applications. [CURRENT_STATUS.md](CURRENT_STATUS.md) states the exact runtime scope and links the live GitHub checks. The canonical engine stays in its pinned separate RKF checkout. [CROSS_REPO_LINEAGE.md](CROSS_REPO_LINEAGE.md) retains the historical R1–R4 assessment; later proofs carry their own premise-labelled source comparisons.
