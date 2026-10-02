@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R43 native exchange, calibration and memory verification
+
+[native_exchange_calibration.cjs](native_exchange_calibration.cjs) uses the unchanged native engine to compile exchange controls, retain additive phase branches and derive calibration defects, transfer currents, product phase costs and complete reduced-pair memory laws. Checks include 256 exact cost-memory identities, 35 relative-calibration defects, fifteen completed-phase enclosures and twenty-four actual clock intertwinings.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r43.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R43_VERIFICATION.json](R43_VERIFICATION.json) binds seven written results, nine exact groups and fourteen native replays, with fifteen boundary controls and nine rejected graph mutations. [Source pins](R43_SOURCE_PINS.json) preserve all 327 prior non-navigation files and replay frozen R42. The [ledger](R43_DERIVATION_LEDGER.json) retains native target definitions, the chosen branch and the remaining common calibration. Rational phase bounds support written completed-field proofs; physical energy, h-bar, alpha and formal-assistant verification are not claimed.
+
 ## R42 native phase generator and response verification
 
 [native_phase_generator.cjs](native_phase_generator.cjs) uses the unchanged native engine to construct kernel cuts and recover nine complete finite processes. It checks rational phase integrands, count-sum bounds, eighteen factorial reconstruction enclosures, conserved moments, variance response geometry, finite path minima, midpoint/reversal residue identities and twenty-four actual clock intertwinings.

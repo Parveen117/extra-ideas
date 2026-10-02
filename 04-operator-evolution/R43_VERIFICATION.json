@@ -1,0 +1,760 @@
+{
+  "schema": "extra-ideas.r43.verification.v1",
+  "date": "2026-10-02",
+  "status": "PASS_R43_NATIVE_EXCHANGE_CALIBRATION",
+  "inherited_combined_reading_papers": 33,
+  "written_results": 7,
+  "exact_check_groups": 9,
+  "native_symbolic_replays": 14,
+  "counters": {
+    "source_control_words_construct_complete_tuple_exchange": {
+      "source_control_factors_per_exchange": 3,
+      "source_H_combined_process_factors": 5,
+      "tuple_cut_counts": [
+        {
+          "roles_per_ledger": 2,
+          "symmetric_cut_rank": 3,
+          "antisymmetric_cut_rank": 1
+        },
+        {
+          "roles_per_ledger": 3,
+          "symmetric_cut_rank": 6,
+          "antisymmetric_cut_rank": 3
+        },
+        {
+          "roles_per_ledger": 4,
+          "symmetric_cut_rank": 10,
+          "antisymmetric_cut_rank": 6
+        },
+        {
+          "roles_per_ledger": 5,
+          "symmetric_cut_rank": 15,
+          "antisymmetric_cut_rank": 10
+        }
+      ],
+      "exact_fractional_exchange_instances": 32,
+      "half_tick_native_arrow": [
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1/2",
+            "-1/2"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1/2",
+            "-1/2"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      ],
+      "particle_statistics_assumed": false,
+      "physical_interaction_selected": false
+    },
+    "native_phase_additivity_retains_composition_branch_memory": {
+      "arbitrary_source_readout_intertwinings": 4,
+      "identical_native_process_pairs": 4,
+      "lifted_generator_coefficients": [
+        0,
+        1,
+        2
+      ],
+      "phase_branch_difference": "2 theta_- (Q_11+P_-)",
+      "endpoint_generator_is_automatically_additive": false,
+      "fractional_branch_witness": [
+        [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1/2",
+            "-1/2"
+          ],
+          [
+            "1/2",
+            "-1/2"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "1/2",
+            "-1/2"
+          ],
+          [
+            "-1/2",
+            "-1/2"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-1",
+            "0"
+          ]
+        ]
+      ]
+    },
+    "exchange_conservation_derives_current_and_relative_calibration": {
+      "complete_readout_balance_identities": 7,
+      "exact_calibration_defect_instances": 35,
+      "source_count_calibrations": [
+        {
+          "factor_A": "1",
+          "factor_B": "1",
+          "exchange_defect_square": "0"
+        },
+        {
+          "factor_A": "1",
+          "factor_B": "2",
+          "exchange_defect_square": "2"
+        },
+        {
+          "factor_A": "2/3",
+          "factor_B": "2/3",
+          "exchange_defect_square": "0"
+        },
+        {
+          "factor_A": "1/2",
+          "factor_B": "5/3",
+          "exchange_defect_square": "49/18"
+        },
+        {
+          "factor_A": "7/4",
+          "factor_B": "2/5",
+          "exchange_defect_square": "729/200"
+        }
+      ],
+      "nonconstant_identical_readout_requires_equal_factors": true,
+      "constant_readout_determines_relative_scale": false,
+      "common_factor_or_offsets_selected": false
+    },
+    "two_role_exchange_requires_the_hidden_pair_current": {
+      "exact_closed_oscillator_instances": 40,
+      "source_transfer_turns": 8,
+      "opposite_current_with_same_local_pairs": {
+        "plus": "1",
+        "minus": "-1"
+      },
+      "half_tick_count_A": "1/2",
+      "full_tick_count_A": "1",
+      "one_local_count_or_current_alone_is_complete": false,
+      "two_readouts_claimed_to_reconstruct_full_joint_state": false
+    },
+    "exchange_phase_cost_equals_native_distinguishability": {
+      "exact_product_cost_instances": 48,
+      "local_metric_coefficient_checks": 12,
+      "product_cost_examples": [
+        {
+          "input_A": 0,
+          "input_B": 0,
+          "overlap_square": "1",
+          "interaction_cost_over_half_turn": "0"
+        },
+        {
+          "input_A": 0,
+          "input_B": 1,
+          "overlap_square": "0",
+          "interaction_cost_over_half_turn": "1/2"
+        },
+        {
+          "input_A": 0,
+          "input_B": 2,
+          "overlap_square": "1/5",
+          "interaction_cost_over_half_turn": "2/5"
+        },
+        {
+          "input_A": 0,
+          "input_B": 3,
+          "overlap_square": "2/3",
+          "interaction_cost_over_half_turn": "1/6"
+        }
+      ],
+      "product_cost_ceiling": "theta_-/2",
+      "full_state_cost_ceiling": "theta_-",
+      "antisymmetric_cost_over_half_turn": "1",
+      "product_cost_formula_claimed_for_all_joint_states": false
+    },
+    "partial_exchange_pair_readouts_derive_memory_deficits": {
+      "exact_two_ledger_pair_readouts": 256,
+      "exact_cost_memory_identities": 256,
+      "half_tick_examples": [
+        {
+          "preparation": "orthogonal",
+          "interaction_cost_over_half_turn": "1/2",
+          "half_tick_memory_deficit": "1/2"
+        },
+        {
+          "preparation": "overlapping",
+          "interaction_cost_over_half_turn": "1/4",
+          "half_tick_memory_deficit": "1/8"
+        },
+        {
+          "preparation": "parallel",
+          "interaction_cost_over_half_turn": "0",
+          "half_tick_memory_deficit": "0"
+        }
+      ],
+      "omitted_commutator_defect_square": "1/8",
+      "correlated_input_memory_at_zero_tick": "1/2",
+      "random_selection_or_partial_trace_axiom_assumed": false,
+      "product_memory_law_claimed_for_correlated_inputs": false
+    },
+    "finite_phase_enclosures_bind_the_interpolated_exchange": {
+      "native_phase_reconstruction_enclosures": [
+        {
+          "kind": "exchange",
+          "count_terms": 8,
+          "tick_parameter": "1/2",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/16",
+          "factorial_tail": "2/28976091157705106532176625004892578125",
+          "residual_entry_norm_square_sha256": "cdff81662e739dfe8510cdae2af18c89934075e2024fab7caa3a349a26a5aca8",
+          "residual_entry_norm_square_bound": "839613858779636060952989254754463977253317889323995746305897571022353516649/53735286961896707900991312304285694425526275534775611407781988525390625000000"
+        },
+        {
+          "kind": "exchange",
+          "count_terms": 8,
+          "tick_parameter": "1",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/8",
+          "factorial_tail": "17592186044416/110109146399279404822271175018591796875",
+          "residual_entry_norm_square_sha256": "5b56c4529360cfcf0e69e34146db3a9da5fc1a5ce41eae8902a0d39def8e561e",
+          "residual_entry_norm_square_bound": "12124024120777944720161195831623878172141799086921521590379110445311645753209/193984385932447115522578637418471356876149854680539957182092978576660156250000"
+        },
+        {
+          "kind": "exchange",
+          "count_terms": 8,
+          "tick_parameter": "2",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/4",
+          "factorial_tail": "38685626227668133590597632/98518709936197362209400525016634765625",
+          "residual_entry_norm_square_sha256": "897ec2e2d1fc08fce6d49874161ddfa43b1dcf5ff34e2a96884fdd43a3830aae",
+          "residual_entry_norm_square_bound": "9705936207523082928528770016856804959242088824495877438088556370693465759409/38823744829970371458466223139846414222442734073875379242122486709594726562500"
+        },
+        {
+          "kind": "lifted_process",
+          "count_terms": 8,
+          "tick_parameter": "1/2",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/8",
+          "factorial_tail": "17592186044416/110109146399279404822271175018591796875",
+          "residual_entry_norm_square_sha256": "aa72f6e2c6b780338248b9788c8ae35195c1159a73d0030816ad9612c30dae6a",
+          "residual_entry_norm_square_bound": "12124024120777944720161195831623878172141799086921521590379110445311645753209/193984385932447115522578637418471356876149854680539957182092978576660156250000"
+        },
+        {
+          "kind": "lifted_process",
+          "count_terms": 8,
+          "tick_parameter": "1",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/4",
+          "factorial_tail": "38685626227668133590597632/98518709936197362209400525016634765625",
+          "residual_entry_norm_square_sha256": "fab8b42b5bb25229e344eb2573861930233fc5201c4dd1b45372e17a45f63d1b",
+          "residual_entry_norm_square_bound": "9705936207523082928528770016856804959242088824495877438088556370693465759409/38823744829970371458466223139846414222442734073875379242122486709594726562500"
+        },
+        {
+          "kind": "exchange",
+          "count_terms": 16,
+          "tick_parameter": "1/2",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/32",
+          "factorial_tail": "2/28976091157705106532176625004892578125",
+          "residual_entry_norm_square_sha256": "b5edf02f6f784d8347cb2bd69890c0dccb82259d6348c67ca14799e5d73ed395",
+          "residual_entry_norm_square_bound": "839613858779636060952989254754463979107787723417122564365201571335478519721/214941147847586831603965249217142777702105102139102445631127954101562500000000"
+        },
+        {
+          "kind": "exchange",
+          "count_terms": 16,
+          "tick_parameter": "1",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/16",
+          "factorial_tail": "17592186044416/110109146399279404822271175018591796875",
+          "residual_entry_norm_square_sha256": "5080f5752c4a4a4eaa356e9a6be7f6610e8353bf9976e549c884e54f5c576732",
+          "residual_entry_norm_square_bound": "12124024120777944720161226824593296539524232256348909938134541898378803715961/775937543729788462090314549673885427504599418722159828728371914306640625000000"
+        },
+        {
+          "kind": "exchange",
+          "count_terms": 16,
+          "tick_parameter": "2",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/8",
+          "factorial_tail": "38685626227668133590597632/98518709936197362209400525016634765625",
+          "residual_entry_norm_square_sha256": "40b854480f10b605f0aaa2844653415ea96f2c2156efecba63f80edbb5455b7a",
+          "residual_entry_norm_square_bound": "9705936207553572992441032139237658421900317828867508512808479149585818115761/155294979319881485833864892559385656889770936295501516968489946838378906250000"
+        },
+        {
+          "kind": "lifted_process",
+          "count_terms": 16,
+          "tick_parameter": "1/2",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/16",
+          "factorial_tail": "17592186044416/110109146399279404822271175018591796875",
+          "residual_entry_norm_square_sha256": "06b1cf3060a48d09f50390feea02e924d64bfd7165e8111344dc684f4e5441c5",
+          "residual_entry_norm_square_bound": "12124024120777944720161226824593296539524232256348909938134541898378803715961/775937543729788462090314549673885427504599418722159828728371914306640625000000"
+        },
+        {
+          "kind": "lifted_process",
+          "count_terms": 16,
+          "tick_parameter": "1",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/8",
+          "factorial_tail": "38685626227668133590597632/98518709936197362209400525016634765625",
+          "residual_entry_norm_square_sha256": "6751899e9db39b67b0d405364346588a516c238f0a80ec0ff301b067518e21d2",
+          "residual_entry_norm_square_bound": "9705936207553572992441032139237658421900317828867508512808479149585818115761/155294979319881485833864892559385656889770936295501516968489946838378906250000"
+        },
+        {
+          "kind": "exchange",
+          "count_terms": 32,
+          "tick_parameter": "1/2",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/64",
+          "factorial_tail": "2/28976091157705106532176625004892578125",
+          "residual_entry_norm_square_sha256": "ec93b57dee6b071423461231effd249fdaf342d4f788b4b66346dbaec399df0c",
+          "residual_entry_norm_square_bound": "839613858779636060952989254754463982816727391603376200483809571961728532009/859764591390347326415860996868571110808420408556409782524511816406250000000000"
+        },
+        {
+          "kind": "exchange",
+          "count_terms": 32,
+          "tick_parameter": "1",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/32",
+          "factorial_tail": "17592186044416/110109146399279404822271175018591796875",
+          "residual_entry_norm_square_sha256": "5d5ad25ee366e0ffa026b07a9e39cd0ce44cb0fb604b80fe07b2a4fb405e4190",
+          "residual_entry_norm_square_bound": "12124024120777944720161288810532133274289098595322528877416801310903435566969/3103750174919153848361258198695541710018397674888639314913487657226562500000000"
+        },
+        {
+          "kind": "exchange",
+          "count_terms": 32,
+          "tick_parameter": "2",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/16",
+          "factorial_tail": "38685626227668133590597632/98518709936197362209400525016634765625",
+          "residual_entry_norm_square_sha256": "709d58aad953f77b99288bfa119eba73442f366b0f3fb183d2c0074b7dac06c8",
+          "residual_entry_norm_square_bound": "9705936207614553120265700055456321524297246932644566003734288964163227541169/621179917279525943335459570237542627559083745182006067873959787353515625000000"
+        },
+        {
+          "kind": "lifted_process",
+          "count_terms": 32,
+          "tick_parameter": "1/2",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/32",
+          "factorial_tail": "17592186044416/110109146399279404822271175018591796875",
+          "residual_entry_norm_square_sha256": "826b16acbddad4d14bc9ae2466260a34b49af518eb679fe9895c8ca3f500ea0a",
+          "residual_entry_norm_square_bound": "12124024120777944720161288810532133274289098595322528877416801310903435566969/3103750174919153848361258198695541710018397674888639314913487657226562500000000"
+        },
+        {
+          "kind": "lifted_process",
+          "count_terms": 32,
+          "tick_parameter": "1",
+          "factorial_degree": 40,
+          "phase_error_bound": "1/16",
+          "factorial_tail": "38685626227668133590597632/98518709936197362209400525016634765625",
+          "residual_entry_norm_square_sha256": "9bfe5e9a7d7411c185ff7f49ab8e7c9184f20720760e3aeb7c11516d81756447",
+          "residual_entry_norm_square_bound": "9705936207614553120265700055456321524297246932644566003734288964163227541169/621179917279525943335459570237542627559083745182006067873959787353515625000000"
+        }
+      ],
+      "exact_R42_half_turn_bounds_reused": true,
+      "phase_enclosure_instances": 15,
+      "finite_rational_phase_claimed_equal_to_completed_phase": false,
+      "huge_clock_or_packet_arrays_directly_simulated": false
+    },
+    "actual_clock_and_complete_curvature_observer_preserve_exchange": {
+      "actual_source_clock_exchange_intertwinings": 24,
+      "actual_clock_prefix_count_readings": 11,
+      "complete_carried_process_pair_preserved": true,
+      "carried_half_tick_memory_deficit": "1/2",
+      "source_H_process_word_factors_retained": 5,
+      "clock_carrier_return_error_becomes_exchange_balance_error": false,
+      "instantaneous_remote_control_claimed": false
+    },
+    "physical_scope_and_false_mixing_controls_keep_native_types_distinct": {
+      "all_readout_sums_conserved_under_additional_free_evolution": false,
+      "commutator_free_mixing_is_universal": false,
+      "product_input_memory_law_is_universal": false,
+      "relative_multipliers_selected_for_nonconstant_identical_readout": true,
+      "remaining_common_calibrations": [
+        {
+          "time_scale": "2",
+          "common_readout_scale": "3",
+          "remaining_action_scale": "6"
+        },
+        {
+          "time_scale": "1/2",
+          "common_readout_scale": "5/3",
+          "remaining_action_scale": "5/6"
+        },
+        {
+          "time_scale": "7/4",
+          "common_readout_scale": "2/5",
+          "remaining_action_scale": "7/10"
+        }
+      ],
+      "absolute_action_scale_or_physical_hbar_selected": false,
+      "exchange_phase_cost_identified_with_R33_spatial_alpha": false,
+      "material_interaction_or_particle_statistics_selected": false,
+      "ordinary_complex_or_random_measurement_premise": false
+    }
+  },
+  "rejected_false_alternatives": {
+    "ordinary_complex_field_was_primitive": true,
+    "the_compiled_exchange_has_zero_source_control_cost": true,
+    "exchange_cuts_select_physical_particle_statistics": true,
+    "endpoint_phase_is_automatically_additive": true,
+    "a_constant_readout_determines_relative_calibration": true,
+    "relative_calibration_selects_common_factor_and_offsets": true,
+    "one_local_count_or_current_alone_predicts_every_exchange": true,
+    "two_current_readouts_reconstruct_the_full_joint_state": true,
+    "the_product_cost_formula_covers_all_joint_states": true,
+    "random_selection_or_a_partial_trace_axiom_was_assumed": true,
+    "the_product_memory_law_covers_correlated_inputs": true,
+    "rational_phase_approximants_are_exact_completed_phases": true,
+    "clock_carrier_error_destroys_exchange_balance": true,
+    "a_commutator_free_mixing_law_is_universal": true,
+    "native_exchange_cost_selects_physical_hbar_or_spatial_alpha": true
+  },
+  "derivation_graph": {
+    "status": "PASS_DECLARED_NATIVE_DERIVATION_GRAPH",
+    "certified_claims": 7,
+    "proof_path_nodes": 31,
+    "imported_classical_premises_on_proof_paths": 0,
+    "comparison_references_excluded_from_proof_paths": [
+      "comparison_clock_free_cut",
+      "comparison_cut_curvature",
+      "comparison_information_response",
+      "comparison_native_alpha_selection",
+      "comparison_native_observer_rank",
+      "comparison_native_reciprocal_frames",
+      "comparison_odd_exchange",
+      "comparison_quarter_decoder",
+      "comparison_riemann_adapter",
+      "comparison_spatial_interaction_cost",
+      "comparison_zero_cut"
+    ],
+    "target_definitions_retained_as_definitions": [
+      "native_additive_exchange_history_target",
+      "native_exchange_readout_target",
+      "native_exchange_target"
+    ],
+    "automatic_semantic_or_formal_proof_verification": false
+  },
+  "derivation_graph_mutations_rejected": {
+    "reject_imported_classical_premise": true,
+    "reject_admitted_input_premise": true,
+    "reject_open_premise": true,
+    "reject_comparison_only_premise": true,
+    "reject_physical_claim_promotion": true,
+    "reject_protocol_definition_promotion": true,
+    "reject_dependency_cycle": true,
+    "reject_unpinned_source": true,
+    "reject_wrong_citation_commit": true
+  },
+  "altered_source_rejected": true,
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "wrong_r42_certificate_pin_rejected": true,
+  "previous_source_replayed": {
+    "commit": "0354de8bc1c3474568b1bb8f363c757a1cefcbf6",
+    "status": "PASS_R42_NATIVE_PHASE_GENERATOR",
+    "native_certificate_sha256": "4e184a4dce7898484a79b3a981787e7f5a0a9eb91363056e858b8d4591c8f661",
+    "old_certificate_or_source_pin_modified": false,
+    "earlier_source_chain": {
+      "commit": "f0d8f254416dd05e8a837871e190ec905f0b0d26",
+      "status": "PASS_R41_NATIVE_RELATIONAL_CLOCK",
+      "native_certificate_sha256": "a748318807c8423c4db7396e36e0b8d2a3871c44a7405ca60f23adafc9f4f9f2",
+      "old_certificate_or_source_pin_modified": false,
+      "earlier_source_chain": {
+        "commit": "6d49cdccaeea324119c4a873f3b9d422f013cebd",
+        "status": "PASS_R40_NATIVE_AUTONOMOUS_ECHO",
+        "native_certificate_sha256": "477e49abc142fe7591f79c5e1cb12815d3b07dffcb1e57d61486db49a8e77b66",
+        "old_certificate_or_source_pin_modified": false,
+        "earlier_source_chain": {
+          "commit": "eca6af32637bc803dca14508b596f271a9f61389",
+          "status": "PASS_R39_NATIVE_ECHO_CLOCK",
+          "native_certificate_sha256": "812364a31f6c43b07a8fa9fcc6f53f61a6e7a5285a383b12984ae62e7167de5f",
+          "old_certificate_or_source_pin_modified": false,
+          "earlier_source_chain": {
+            "commit": "79a4c4c2e15aad1391f7633ab0ab0b65ce580111",
+            "status": "PASS_R38_NATIVE_UNIVERSAL_SIGNAL_CONE",
+            "native_certificate_sha256": "98a13bb72a486eac8ad9fc321d59faa7759aae3c0d59d30575852c0a03d736e5",
+            "old_certificate_or_source_pin_modified": false,
+            "earlier_source_chain": {
+              "commit": "f06932dd63a4f0827a31583bc42dfaa979ddc663",
+              "status": "PASS_R37_NATIVE_PACKET_FLIGHT",
+              "native_certificate_sha256": "a16607e7156f17693327900dafae7e9d22c19a20b0dca288cfa34bb180bf45c7",
+              "old_certificate_or_source_pin_modified": false,
+              "earlier_source_chain": {
+                "commit": "011b8224c92d95f7f726eb56bab3e8d8e6f7280c",
+                "status": "PASS_R36_NATIVE_CURVATURE_OBSERVER",
+                "native_certificate_sha256": "5e6dec9433b1e74aa8debc709f66326e6f25ed800d9b3a418d65e66f7cab79d8",
+                "old_certificate_or_source_pin_modified": false,
+                "earlier_source_chain": {
+                  "commit": "9c13e1752263c756d356dcf5851ac873d2e0d102",
+                  "status": "PASS_R35_NATIVE_SIGNED_ENVELOPE",
+                  "native_certificate_sha256": "29c605502759c8af517dd3f6f4f337e4295a5f3243a33aebf543b72d9fb3b4d5",
+                  "old_certificate_or_source_pin_modified": false,
+                  "earlier_source_chain": {
+                    "commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+                    "status": "PASS_R34_NATIVE_DECODER_BURDEN",
+                    "native_certificate_sha256": "8468d57f3ac1617b3ab9fbf506994a8a253ae31dbe5ead45d414ccb804d6b0c9",
+                    "old_certificate_or_source_pin_modified": false,
+                    "earlier_source_chain": {
+                      "commit": "5ddce4544de7111a80c93a8ade7cf2399c7c90f3",
+                      "status": "PASS_R33_NATIVE_INTERACTION_MEMORY",
+                      "native_certificate_sha256": "c3a63c35889a9f8fed1763ecf55eb6ef84f9fa1c559589bc4e3332faf330621f",
+                      "old_certificate_or_source_pin_modified": false,
+                      "earlier_source_chain": {
+                        "commit": "1105a43209b144bd34a81bfbb99acc7876948e95",
+                        "status": "PASS_R32_NATIVE_RETAINED_LOOP_GAP",
+                        "native_certificate_sha256": "9ac51385f5b5084237c442678a8e686c89c50de7022c40667f6c0ac3ac4c39c5",
+                        "old_certificate_or_source_pin_modified": false,
+                        "earlier_source_chain": {
+                          "commit": "63d040f031b6b36c36a4fa0475f5ce26ec765caf",
+                          "status": "PASS_R31_NATIVE_PROPAGATION_GEOMETRY",
+                          "native_certificate_sha256": "f3cf920cdd3cb1d48d68cde3170a0a0ed64b66f00cd2f9ce18874bf9379beb7e",
+                          "old_certificate_or_source_pin_modified": false,
+                          "earlier_source_chain": {
+                            "commit": "7ac5b3e5baba4dafb51f4330bfe84d001a9ab1d4",
+                            "status": "PASS_R30_NATIVE_DIRECTIONAL_LOOP_INTERACTION",
+                            "native_certificate_sha256": "3a913a511ce03b76ee7f8e6697b8d0ae79d9eaaa655992999a6b76da4fba060c",
+                            "old_certificate_or_source_pin_modified": false,
+                            "earlier_source_chain": {
+                              "commit": "16602a29c469ac96001977432fcf5fc4b548970b",
+                              "status": "PASS_R29_NATIVE_PAIRED_FIELD_DYNAMICS",
+                              "native_certificate_sha256": "59a8ed58355297764315daeb39cb950dc48b038c29c2a934aa7935ca3ca4361d",
+                              "old_certificate_or_source_pin_modified": false,
+                              "earlier_source_chain": {
+                                "commit": "9ed6ae27d3ddb005ed7f4f3f27417036729698fd",
+                                "status": "PASS_R28_NATIVE_CUT_CURVATURE_PROPAGATION",
+                                "native_certificate_sha256": "dbfd38615437b0726f1ad70b31d393178c08a61bf674607beb69775ffe3cea11",
+                                "old_certificate_or_source_pin_modified": false,
+                                "earlier_source_chain": {
+                                  "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+                                  "status": "PASS_R27_NATIVE_REPLICA_SELECTION",
+                                  "native_certificate_sha256": "f5b6b9427f7484b793d78619527353ae758b0261e871662ce84516e963edc872",
+                                  "old_certificate_or_source_pin_modified": false,
+                                  "earlier_source_chain": {
+                                    "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+                                    "status": "PASS_R26_NATIVE_MEMORY_RESIDUE",
+                                    "native_certificate_sha256": "5d0df3fc203d393d1a4f58902a1f3f82e4c5ab7dfb60ffb40e380a7b96de2146",
+                                    "old_certificate_or_source_pin_modified": false,
+                                    "earlier_source_chain": {
+                                      "commit": "d4f1ae2481a72a04c465f1c17b37d154a6122eff",
+                                      "status": "PASS_R25_NATIVE_RETURN_FEEDBACK",
+                                      "native_certificate_sha256": "456f5c5d4bf9857b1604bb6024c346b1a6d499abd833b59a0b414a7bad0fb8d5",
+                                      "old_certificate_or_source_pin_modified": false,
+                                      "earlier_source_chain": {
+                                        "commit": "d660bbf026e1de818fcb3dd61d46346a4ad618ae",
+                                        "status": "PASS_R24_NATIVE_RETURN_COUPLING",
+                                        "native_certificate_sha256": "ae0c88451e3e0a7933dd42cecca67b0cc1254a81cc418da77b94843eaf1d2fbe",
+                                        "old_certificate_or_source_pin_modified": false,
+                                        "earlier_source_chain": {
+                                          "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+                                          "status": "PASS_R23_NATIVE_FUTURE_RESPONSE",
+                                          "native_certificate_sha256": "69b4e6d43db5bad0a10b797f7b7f788bb8091e4486bf0689960882d22b19295a",
+                                          "old_certificate_or_source_pin_modified": false,
+                                          "earlier_source_chain": {
+                                            "commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+                                            "status": "PASS_R22_NATIVE_MEETING_GEOMETRY",
+                                            "native_certificate_sha256": "ad6ac9d802b77c67ec33e8c023c147300994576207014eb9cd81014f6924b98f",
+                                            "old_certificate_or_source_pin_modified": false,
+                                            "earlier_source_chain": {
+                                              "commit": "2888aa2a9ea1c63a89b3d695256c8b9405dbd7cc",
+                                              "status": "PASS_R21_NATIVE_RECORD_IDENTITY",
+                                              "native_certificate_sha256": "1d857541e8497dfb4c33b532c7d50ee629f5d8e92698a080307b7ae039794464",
+                                              "old_certificate_or_source_pin_modified": false,
+                                              "earlier_source_chain": {
+                                                "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+                                                "status": "PASS_R20_NATIVE_RECORD_INTERACTION",
+                                                "native_certificate_sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+                                                "old_certificate_or_source_pin_modified": false,
+                                                "earlier_source_chain": {
+                                                  "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+                                                  "status": "PASS_R19_NATIVE_CURRENT_RETENTION",
+                                                  "native_certificate_sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+                                                  "old_certificate_or_source_pin_modified": false,
+                                                  "earlier_source_chain": {
+                                                    "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+                                                    "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+                                                    "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+                                                    "historical_navigation_inputs_restored_in_temporary_snapshot": 3,
+                                                    "old_certificate_or_source_pin_modified": false,
+                                                    "earlier_source_chain": {
+                                                      "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+                                                      "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+                                                      "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+                                                      "foundation": {
+                                                        "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+                                                        "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+                                                        "written_statements": 14,
+                                                        "native_replays": 13,
+                                                        "analytic_replays": [
+                                                          {
+                                                            "id": "F00_F00E_EULER_V0_1",
+                                                            "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+                                                            "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+                                                            "checks": 14,
+                                                            "negative_controls": 6,
+                                                            "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+                                                          },
+                                                          {
+                                                            "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+                                                            "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+                                                            "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+                                                            "checks": 20,
+                                                            "negative_controls": 7,
+                                                            "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+                                                          }
+                                                        ],
+                                                        "original_universal_claim_certified": false
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 34,
+  "preserved_prior_files": 327,
+  "source_pins_sha256": "e9e18a04a4816ccc109e157b739892327efba1579186bf26320a87726591c275",
+  "native_certificate_sha256": "410936fde55edc589f8e7da04fd6e747c8ead3bf63a6d3f0c52c037841effe07",
+  "comparison_references_are_proof_dependencies": false,
+  "comparison_source_certificates_rerun": false,
+  "native_exchange_and_additive_phase_history_derived": true,
+  "native_relative_exchange_calibration_derived": true,
+  "native_exchange_cost_memory_relation_derived": true,
+  "native_clock_carried_exchange_balance_derived": true,
+  "physical_vacuum_identified": false,
+  "electromagnetism_derived": false,
+  "physical_metric_c_alpha_derived": false,
+  "physical_electric_charge_or_particle_mass_identified": false,
+  "physical_spatial_dimension_or_gauge_group_selected": false,
+  "primitive_physical_force_derived": false,
+  "formal_proof_assistant_verified": false,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Seven written native proofs: source-controlled exchange, additive phase history with retained branch memory, balanced transfer and relative readout calibration, hidden pair currents, distinguishability phase cost, exact reduced-pair memory laws, and autonomous-clock conservation with a remaining common action scale. The identical ledgers, interaction branch and readout targets are explicit native constructions; physical energy, material time, h-bar and alpha remain unselected.",
+  "canonical_report_sha256": "611d476d589da0a665eb7c3cdcd0c5d45940387fdc7ed20bc1b1bfa21e557ac4"
+}

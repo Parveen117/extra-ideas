@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R42's derivation ledger](04-operator-evolution/R42_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R43's derivation ledger](04-operator-evolution/R43_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,14 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R43: native exchange, relative calibration and interaction memory
+
+[R43](02-relational-response/NATIVE_EXCHANGE_CALIBRATION_R43.md) constructs two-role exchange from three native record controls and couples two identical R42 process histories. The resulting additive generator conserves total phase readout and retains composition information that a fresh endpoint-only phase choice can lose. For a nonconstant identical readout, all-state exchange conservation forces equal relative calibration factors; the common factor remains free.
+
+For normalized product inputs with native squared overlap `kappa`, the interaction phase cost is `I/theta_-=(1-kappa)/2`. Matching out one ledger gives the full local pair, including its necessary commutator term, and the deficit `M=2 sin_Sigma^2(theta_- tau)(I/theta_-)^2`. At the half tick this becomes `M=2(I/theta_-)^2`; full exchange restores zero product-input deficit. Identical local pairs can hide opposite transfer currents, providing an explicit predictive-memory witness. These quantities are not identified with physical energy, entropy, h-bar or alpha.
+
+[Verification](04-operator-evolution/R43_VERIFICATION.json) binds seven written results, nine exact groups and fourteen native replays, including 256 cost-memory identities, 35 calibration defects, fifteen phase enclosures and twenty-four actual clock intertwinings. The [ledger](04-operator-evolution/R43_DERIVATION_LEDGER.json) retains the R1–R33 register and labels the identical-ledger, interaction-branch and readout targets. Frozen R42 and all 327 prior non-navigation files are preserved.
 
 ## R42: native phase generator, exact interpolation and response geometry
 

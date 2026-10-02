@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R43 native exchange, relative calibration and cost-memory response
+
+[NATIVE_EXCHANGE_CALIBRATION_R43.md](NATIVE_EXCHANGE_CALIBRATION_R43.md) derives exchange from existing native record controls, its positive half-turn phase generator, and additive two-process histories with explicit branch memory. Exchange balances the two process readouts and fixes their relative multiplicative calibration for a nonconstant identical generator.
+
+Native matching links product-input distinguishability to interaction phase cost and to the exact reduced-pair deficit. The local-pair formula retains a necessary commutator term. A closed current oscillator and preparations with identical local pairs but opposite slopes expose the required pair memory. The actual autonomous clock and complete curvature observer preserve the exchange invariants; a common physical action scale remains open.
+
+[Verification](../04-operator-evolution/R43_VERIFICATION.json) binds seven written results, nine exact groups and fourteen native replays. The [ledger](../04-operator-evolution/R43_DERIVATION_LEDGER.json) labels the identical-ledger, phase-branch and readout constructions. Frozen R42 and all 327 earlier non-navigation files are preserved; the R33 spatial cost remains a distinct comparison target.
+
 ## R42 native phase generators, response geometry and path residue
 
 [NATIVE_PHASE_GENERATOR_R42.md](NATIVE_PHASE_GENERATOR_R42.md) derives complete process recovery from its midpoint generator and reversal cut, then constructs an exact phase generator by native count integration. Its factorial evolution interpolates the original tick process exactly, preserves generator moments and yields a variance response metric and sharp readout-speed bound.
