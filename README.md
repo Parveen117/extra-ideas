@@ -16,12 +16,12 @@ completion. Its [gauge/gravity interface](02-relational-response/NATIVE_GAUGE_GR
 is a conditional application, with classical, quantum and continuum gates kept
 distinct. It does not add an unverified R47 or change the R1–R46 register.
 
-Latest upstream step: **YM-44** constructs the full interacting time-refinement
-limit at every fixed finite spatial width, with an explicit operator-norm
-error for every source and content. The ingredient map links its proof,
-certificate and remaining volume-uniform fine-step gap target. The functional
-carrier and linear trajectory remain declared. Verification uses Python 3.12
-only; physical measure identification and the interacting continuum remain open.
+Latest upstream step: **YM-45** proves a positive all-source gap rate uniform
+in finite spatial width and fine time step for abs(theta)<1/1680 on the
+declared heat-functional chain. The same rate survives YM-44's fixed-width
+time limit. The ingredient map pins the proof/certificate and names the next
+infinite-volume state/observable construction. Verification uses Python 3.12
+only; native measure/NCG identification and the full 4D continuum remain open.
 
 [![Native certificates](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml/badge.svg?branch=main)](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml)
 
