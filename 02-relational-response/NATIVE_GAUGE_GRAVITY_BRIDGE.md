@@ -122,12 +122,16 @@ fresh whole-MG/LR/SM rerun or a new physical certificate.
 The gauge/observable dictionary remains a separate quantum target. Existing
 YM-12 already supplies square-sourced transfer positivity; a common SU(2)
 algebra does not yet identify its measure and transfer with this NCG module.
-The latest YM-42 continuation instead advances the named three-rail silence
-step and proves why spatial contraction alone cannot establish the time gap.
-The next estimate must control the actual time-transfer operator on all
-vacuum-orthogonal sources. The [mission map](../PHYSICS_INGREDIENTS.md) links
-its commit-pinned proof/certificate and tracks quantum matter, gravity
-constraints, E4D-C and the interacting continuum at their actual scopes.
+The preceding YM-42 result advances the three-rail silence step and proves
+why spatial contraction alone cannot establish the time gap. YM-43 now
+supplies the separate arbitrary-source time-transfer bound on the full
+heat-kernel chain, uniformly in finite spatial width, at three certified
+coarse parameter cells. Its positive reference functional remains admitted.
+Time-refinement and the native measure/NCG dictionary are the next distinct
+targets. The [mission map](../PHYSICS_INGREDIENTS.md) links the commit-pinned
+proof/certificate and tracks quantum matter, gravity constraints, E4D-C and
+the interacting continuum at their actual scopes. Current YM verification
+uses Python 3.12 only.
 
 [ncg]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/THEOREM.md
 [cert]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/CERTIFICATE.json
