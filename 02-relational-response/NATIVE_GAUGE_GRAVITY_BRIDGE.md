@@ -134,8 +134,11 @@ abs(theta)<1/1680 and kappa=theta a, and transports its positive rate to
 every fixed-width time limit. YM-46 then constructs the positive infinite-volume
 local-observable state and normalized time map at each fixed a, including the
 actual square-sourced ordering, its gap and regulated reflection positivity.
-The remaining distinct targets are a joint volume/time-cutoff Cauchy
-construction and the native measure/NCG dictionary. The
+YM-47 now joins those local vacuum history limits at arbitrary relative
+cutoff rates, with both iterated limits equal. The positive history
+functional retains the correlation gap and reflection positivity.
+The remaining distinct targets are an infinite-volume continuous-time
+map/generator construction and the native measure/NCG dictionary. The
 [mission map](../PHYSICS_INGREDIENTS.md) links the commit-pinned proof/certificate
 and tracks quantum matter, gravity constraints, the original Wilson E4D-C
 problem and 4D continuum at their actual scopes. The small bridge window
