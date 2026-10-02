@@ -131,12 +131,16 @@ YM-44 now constructs the full interacting time limit at every fixed finite
 width, with an explicit operator-norm error on the declared linear trajectory.
 YM-45 supplies the width/fine-time uniform gap on that full heat chain for
 abs(theta)<1/1680 and kappa=theta a, and transports its positive rate to
-every fixed-width time limit. The remaining distinct targets are the
-infinite-volume state/observable construction and native measure/NCG
-dictionary. The [mission map](../PHYSICS_INGREDIENTS.md) links the commit-pinned
-proof/certificate and tracks quantum matter, gravity constraints, the original
-Wilson E4D-C problem and 4D continuum at their actual scopes. The smaller
-bridge window is not an AF trajectory or a primitive-derived measure.
+every fixed-width time limit. YM-46 then constructs the positive infinite-volume
+local-observable state and normalized time map at each fixed a, including the
+actual square-sourced ordering, its gap and regulated reflection positivity.
+The remaining distinct targets are a joint volume/time-cutoff Cauchy
+construction and the native measure/NCG dictionary. The
+[mission map](../PHYSICS_INGREDIENTS.md) links the commit-pinned proof/certificate
+and tracks quantum matter, gravity constraints, the original Wilson E4D-C
+problem and 4D continuum at their actual scopes. The small bridge window
+remains a declared trajectory; its positive state is not a primitive-derived
+measure or a physical real-time quantum-gravity construction.
 Current YM verification uses Python 3.12 only.
 
 [ncg]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/THEOREM.md

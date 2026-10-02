@@ -11,15 +11,15 @@ non-Abelian source/Gauss result to the conditional gravity sector, and record
 the remaining quantum/continuum targets. They are application/navigation
 documents, not a new primitive-only R-stage; the register remains R1–R46.
 
-Latest upstream continuation: **Publications YM-45** proves an all-source,
-all-content gap rate independent of finite width and fine time step on
-the declared heat-functional chain for abs(theta)<1/1680, kappa=theta a.
-The same rate survives YM-44's fixed-width time limit. The next construction
-is the infinite-volume state/observable limit; native measure/NCG and
-4D continuum obligations remain open. The old theta=1/16 example and
-original Wilson problem are outside this certificate. Verification uses
-Python 3.12 only. The Extra Ideas register remains R1–R46; this is an
-upstream update, with its proof and certificate pinned in the mission map.
+Latest upstream continuation: **Publications YM-46** constructs the positive
+infinite-volume local-observable state and normalized time map at fixed a
+on the declared heat-functional chain for abs(theta)<1/1680, kappa=theta a.
+The actual square-sourced ordering retains YM-45's gap and regulated
+reflection positivity. A joint Cauchy construction connecting this volume
+limit to YM-44's time limit remains open, as do native measure/NCG and
+4D continuum obligations. Verification uses Python 3.12 only. The Extra
+Ideas register remains R1–R46; upstream YM-46 is distinct from this repo's
+R46 return-port result. Its proof and certificate are pinned in the mission map.
 
 ## R46: physical readout for an existing native prediction
 
