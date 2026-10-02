@@ -1,0 +1,460 @@
+{
+  "schema": "extra-ideas.r38.verification.v1",
+  "date": "2026-10-02",
+  "status": "PASS_R38_NATIVE_UNIVERSAL_SIGNAL_CONE",
+  "inherited_combined_reading_papers": 33,
+  "written_results": 7,
+  "exact_check_groups": 9,
+  "native_symbolic_replays": 14,
+  "counters": {
+    "native_dyadic_turn_counts_derive_finite_phase_resolution": {
+      "root_witnesses": [
+        {
+          "period": 2,
+          "unit_and_primitive": true
+        },
+        {
+          "period": 4,
+          "unit_and_primitive": true
+        },
+        {
+          "period": 8,
+          "unit_and_primitive": true
+        }
+      ],
+      "primitive_power_checks": 11,
+      "finite_orthogonality_sums": 14,
+      "finite_inverse_checks": 20,
+      "finite_source_intertwiners": 20,
+      "finite_norm_identities": 2,
+      "period_eight_witness": "native matrix realization of tau^2=1/2; both conjugates checked, positive scalar root selected in the written proof",
+      "infinite_transform_or_circle_measure_assumed": false
+    },
+    "the_complete_source_ledger_and_block_displacement_product_rule_match": {
+      "complete_source_coefficient_sums": [
+        "68",
+        "64",
+        "88"
+      ],
+      "source_unitary_identity": 1,
+      "complete_block_derivative_identities": 9,
+      "zero_gap_direct_jet_identities": 9,
+      "uniform_written_bound": "m/sqrt(2) + 176 sqrt(m)",
+      "block_counts_checked": [
+        1,
+        2,
+        3
+      ]
+    },
+    "native_band_cancellation_controls_the_long_block_derivative": {
+      "complete_positive_speed_polynomial": 1,
+      "phase_pairs": 9,
+      "branch_split_identities": 54,
+      "diagonal_speed_square_identities": 27,
+      "exact_geometric_block_derivatives": 81,
+      "rejected_commuting_derivative_instances": 54,
+      "single_block_unit_direction_response_squared": "1629/3250",
+      "single_block_response_is_not_a_universal_instantaneous_speed_bound": true
+    },
+    "finite_native_count_tilts_preserve_products_and_control_the_remainder_budget": {
+      "complete_positive_tilt_product_identities": 3,
+      "complete_second_tilt_jet_identities": 9,
+      "coefficient_mass_rows": [
+        {
+          "blocks": 1,
+          "coefficient_mass": "68",
+          "second_moment": "88",
+          "bound": "272"
+        },
+        {
+          "blocks": 2,
+          "coefficient_mass": "381/4",
+          "second_moment": "1305/4",
+          "bound": "73984"
+        },
+        {
+          "blocks": 3,
+          "coefficient_mass": "4527/32",
+          "second_moment": "6519/8",
+          "bound": "11319552"
+        }
+      ],
+      "factorial_remainder_budget": "sum_(j>=2) 1/j! <= 1, finite sum plus native geometric tail",
+      "tilted_block_bound": "Exp_Sigma(beta m [1/sqrt(2)+176/sqrt(m)+4m 68^m beta])",
+      "positive_weights_are_source_dynamics": false
+    },
+    "explicit_native_parameter_budgets_give_a_uniform_half_space_bound": {
+      "exact_parameter_budgets": [
+        {
+          "eta": "1/4",
+          "k": "2816",
+          "m": "7929856",
+          "q": "1/507510784",
+          "beta": {
+            "coefficient": "1/507510784",
+            "base": "68",
+            "integer_exponent": "-7929856"
+          },
+          "direction_grid": 5,
+          "expanded_large_power": false
+        },
+        {
+          "eta": "1/2",
+          "k": "1408",
+          "m": "1982464",
+          "q": "1/63438848",
+          "beta": {
+            "coefficient": "1/63438848",
+            "base": "68",
+            "integer_exponent": "-1982464"
+          },
+          "direction_grid": 4,
+          "expanded_large_power": false
+        },
+        {
+          "eta": "1",
+          "k": "704",
+          "m": "495616",
+          "q": "1/7929856",
+          "beta": {
+            "coefficient": "1/7929856",
+            "base": "68",
+            "integer_exponent": "-495616"
+          },
+          "direction_grid": 3,
+          "expanded_large_power": false
+        },
+        {
+          "eta": "2",
+          "k": "352",
+          "m": "123904",
+          "q": "1/991232",
+          "beta": {
+            "coefficient": "1/991232",
+            "base": "68",
+            "integer_exponent": "-123904"
+          },
+          "direction_grid": 3,
+          "expanded_large_power": false
+        },
+        {
+          "eta": "16",
+          "k": "44",
+          "m": "1936",
+          "q": "1/3872",
+          "beta": {
+            "coefficient": "1/3872",
+            "base": "68",
+            "integer_exponent": "-1936"
+          },
+          "direction_grid": 3,
+          "expanded_large_power": false
+        }
+      ],
+      "half_space_squared_norm_bound": "C^2 Exp_Sigma(-2 beta [d-R-(c_Sigma+eta/2)n])",
+      "large_block_powers_are_exact_expressions": true,
+      "large_blocks_directly_simulated": false,
+      "constants_are_optimized": false
+    },
+    "literal_fields_obey_weighted_conjugation_and_detected_tail_inequalities": {
+      "literal_weighted_source_intertwiners": 8,
+      "positive_weight_tail_checks": 40,
+      "native_conservation_checks": 8,
+      "largest_direct_block_count": 3,
+      "uniform_exponential_asymptotic_theorem_is_written": true
+    },
+    "native_integer_direction_counts_cover_the_radial_detector": {
+      "finite_direction_counts": 4,
+      "exact_rounded_cover_witnesses": 32,
+      "complete_count_formula": "(2Q+1)^2-1",
+      "normalized_tail_bound": "sqrt(D_Q) C Exp_Sigma(-beta eta n/8) + q_n",
+      "admissible_initial_localization": "R_n/n -> 0 and initial outside relative norm q_n -> 0",
+      "preparation_is_allowed_to_depend_on_scale": true
+    },
+    "the_curvature_observer_and_previous_native_packets_share_the_sharp_signal_bound": {
+      "pointwise_curvature_reconstructions_and_norms": 62,
+      "complete_tail_detector_identity": 1,
+      "reused_native_sharpness_cuts": 7,
+      "sharp_operational_speed_supremum": "1/sqrt(2)",
+      "dual_information_length_speed": "1",
+      "fine_count_speed_squared_per_original_event": "1/8",
+      "physical_field_or_rod_clock_identified": false
+    },
+    "fast_front_and_localization_witnesses_reject_overstated_cone_claims": {
+      "exact_fast_front_witnesses": 4,
+      "vanishing_threshold_counterexamples": [
+        {
+          "blocks": 1,
+          "component_address": [
+            1,
+            1
+          ],
+          "relative_threshold": "1/256",
+          "squared_speed": "2"
+        },
+        {
+          "blocks": 2,
+          "component_address": [
+            2,
+            2
+          ],
+          "relative_threshold": "1/65536",
+          "squared_speed": "2"
+        },
+        {
+          "blocks": 3,
+          "component_address": [
+            3,
+            3
+          ],
+          "relative_threshold": "1/16777216",
+          "squared_speed": "2"
+        },
+        {
+          "blocks": 4,
+          "component_address": [
+            4,
+            4
+          ],
+          "relative_threshold": "1/4294967296",
+          "squared_speed": "2"
+        }
+      ],
+      "missing_initial_localization_counterexample": true,
+      "zero_gap_inverse_rejected": true,
+      "all_thresholds_or_exact_support_cone_claimed": false,
+      "all_source_laws_or_physical_fields_covered": false
+    }
+  },
+  "rejected_false_alternatives": {
+    "ordinary_complex_field_was_primitive": true,
+    "phase_resolution_was_an_imported_transform": true,
+    "small_phase_sampling_is_the_universal_proof": true,
+    "a_block_derivative_is_m_times_a_commuting_term": true,
+    "the_single_block_response_always_has_speed_square_at_most_half": true,
+    "the_band_gap_can_be_inverted_at_the_touching_point": true,
+    "the_tilt_changes_the_native_source_law": true,
+    "huge_certified_blocks_were_directly_simulated": true,
+    "the_conservative_tail_constants_are_optimized": true,
+    "the_upper_theorem_only_covers_fixed_carriers": true,
+    "localization_of_the_preparation_can_be_dropped": true,
+    "complete_curvature_readout_changes_the_tail": true,
+    "the_exact_faster_front_was_removed": true,
+    "the_same_cone_holds_for_vanishing_thresholds": true,
+    "one_native_source_selects_all_physical_fields": true
+  },
+  "derivation_graph": {
+    "status": "PASS_DECLARED_NATIVE_DERIVATION_GRAPH",
+    "certified_claims": 7,
+    "proof_path_nodes": 26,
+    "imported_classical_premises_on_proof_paths": 0,
+    "comparison_references_excluded_from_proof_paths": [
+      "comparison_clock_free_cut",
+      "comparison_cut_curvature",
+      "comparison_information_response",
+      "comparison_native_alpha_selection",
+      "comparison_native_observer_rank",
+      "comparison_native_reciprocal_frames",
+      "comparison_odd_exchange",
+      "comparison_quarter_decoder",
+      "comparison_riemann_adapter",
+      "comparison_zero_cut"
+    ],
+    "target_definitions_retained_as_definitions": [
+      "native_count_weight_target",
+      "native_finite_phase_resolution_target",
+      "native_localized_signal_target"
+    ],
+    "automatic_semantic_or_formal_proof_verification": false
+  },
+  "derivation_graph_mutations_rejected": {
+    "reject_imported_classical_premise": true,
+    "reject_admitted_input_premise": true,
+    "reject_open_premise": true,
+    "reject_comparison_only_premise": true,
+    "reject_physical_claim_promotion": true,
+    "reject_protocol_definition_promotion": true,
+    "reject_dependency_cycle": true,
+    "reject_unpinned_source": true,
+    "reject_wrong_citation_commit": true
+  },
+  "altered_source_rejected": true,
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "wrong_r37_certificate_pin_rejected": true,
+  "previous_source_replayed": {
+    "commit": "f06932dd63a4f0827a31583bc42dfaa979ddc663",
+    "status": "PASS_R37_NATIVE_PACKET_FLIGHT",
+    "native_certificate_sha256": "a16607e7156f17693327900dafae7e9d22c19a20b0dca288cfa34bb180bf45c7",
+    "old_certificate_or_source_pin_modified": false,
+    "earlier_source_chain": {
+      "commit": "011b8224c92d95f7f726eb56bab3e8d8e6f7280c",
+      "status": "PASS_R36_NATIVE_CURVATURE_OBSERVER",
+      "native_certificate_sha256": "5e6dec9433b1e74aa8debc709f66326e6f25ed800d9b3a418d65e66f7cab79d8",
+      "old_certificate_or_source_pin_modified": false,
+      "earlier_source_chain": {
+        "commit": "9c13e1752263c756d356dcf5851ac873d2e0d102",
+        "status": "PASS_R35_NATIVE_SIGNED_ENVELOPE",
+        "native_certificate_sha256": "29c605502759c8af517dd3f6f4f337e4295a5f3243a33aebf543b72d9fb3b4d5",
+        "old_certificate_or_source_pin_modified": false,
+        "earlier_source_chain": {
+          "commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+          "status": "PASS_R34_NATIVE_DECODER_BURDEN",
+          "native_certificate_sha256": "8468d57f3ac1617b3ab9fbf506994a8a253ae31dbe5ead45d414ccb804d6b0c9",
+          "old_certificate_or_source_pin_modified": false,
+          "earlier_source_chain": {
+            "commit": "5ddce4544de7111a80c93a8ade7cf2399c7c90f3",
+            "status": "PASS_R33_NATIVE_INTERACTION_MEMORY",
+            "native_certificate_sha256": "c3a63c35889a9f8fed1763ecf55eb6ef84f9fa1c559589bc4e3332faf330621f",
+            "old_certificate_or_source_pin_modified": false,
+            "earlier_source_chain": {
+              "commit": "1105a43209b144bd34a81bfbb99acc7876948e95",
+              "status": "PASS_R32_NATIVE_RETAINED_LOOP_GAP",
+              "native_certificate_sha256": "9ac51385f5b5084237c442678a8e686c89c50de7022c40667f6c0ac3ac4c39c5",
+              "old_certificate_or_source_pin_modified": false,
+              "earlier_source_chain": {
+                "commit": "63d040f031b6b36c36a4fa0475f5ce26ec765caf",
+                "status": "PASS_R31_NATIVE_PROPAGATION_GEOMETRY",
+                "native_certificate_sha256": "f3cf920cdd3cb1d48d68cde3170a0a0ed64b66f00cd2f9ce18874bf9379beb7e",
+                "old_certificate_or_source_pin_modified": false,
+                "earlier_source_chain": {
+                  "commit": "7ac5b3e5baba4dafb51f4330bfe84d001a9ab1d4",
+                  "status": "PASS_R30_NATIVE_DIRECTIONAL_LOOP_INTERACTION",
+                  "native_certificate_sha256": "3a913a511ce03b76ee7f8e6697b8d0ae79d9eaaa655992999a6b76da4fba060c",
+                  "old_certificate_or_source_pin_modified": false,
+                  "earlier_source_chain": {
+                    "commit": "16602a29c469ac96001977432fcf5fc4b548970b",
+                    "status": "PASS_R29_NATIVE_PAIRED_FIELD_DYNAMICS",
+                    "native_certificate_sha256": "59a8ed58355297764315daeb39cb950dc48b038c29c2a934aa7935ca3ca4361d",
+                    "old_certificate_or_source_pin_modified": false,
+                    "earlier_source_chain": {
+                      "commit": "9ed6ae27d3ddb005ed7f4f3f27417036729698fd",
+                      "status": "PASS_R28_NATIVE_CUT_CURVATURE_PROPAGATION",
+                      "native_certificate_sha256": "dbfd38615437b0726f1ad70b31d393178c08a61bf674607beb69775ffe3cea11",
+                      "old_certificate_or_source_pin_modified": false,
+                      "earlier_source_chain": {
+                        "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+                        "status": "PASS_R27_NATIVE_REPLICA_SELECTION",
+                        "native_certificate_sha256": "f5b6b9427f7484b793d78619527353ae758b0261e871662ce84516e963edc872",
+                        "old_certificate_or_source_pin_modified": false,
+                        "earlier_source_chain": {
+                          "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+                          "status": "PASS_R26_NATIVE_MEMORY_RESIDUE",
+                          "native_certificate_sha256": "5d0df3fc203d393d1a4f58902a1f3f82e4c5ab7dfb60ffb40e380a7b96de2146",
+                          "old_certificate_or_source_pin_modified": false,
+                          "earlier_source_chain": {
+                            "commit": "d4f1ae2481a72a04c465f1c17b37d154a6122eff",
+                            "status": "PASS_R25_NATIVE_RETURN_FEEDBACK",
+                            "native_certificate_sha256": "456f5c5d4bf9857b1604bb6024c346b1a6d499abd833b59a0b414a7bad0fb8d5",
+                            "old_certificate_or_source_pin_modified": false,
+                            "earlier_source_chain": {
+                              "commit": "d660bbf026e1de818fcb3dd61d46346a4ad618ae",
+                              "status": "PASS_R24_NATIVE_RETURN_COUPLING",
+                              "native_certificate_sha256": "ae0c88451e3e0a7933dd42cecca67b0cc1254a81cc418da77b94843eaf1d2fbe",
+                              "old_certificate_or_source_pin_modified": false,
+                              "earlier_source_chain": {
+                                "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+                                "status": "PASS_R23_NATIVE_FUTURE_RESPONSE",
+                                "native_certificate_sha256": "69b4e6d43db5bad0a10b797f7b7f788bb8091e4486bf0689960882d22b19295a",
+                                "old_certificate_or_source_pin_modified": false,
+                                "earlier_source_chain": {
+                                  "commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+                                  "status": "PASS_R22_NATIVE_MEETING_GEOMETRY",
+                                  "native_certificate_sha256": "ad6ac9d802b77c67ec33e8c023c147300994576207014eb9cd81014f6924b98f",
+                                  "old_certificate_or_source_pin_modified": false,
+                                  "earlier_source_chain": {
+                                    "commit": "2888aa2a9ea1c63a89b3d695256c8b9405dbd7cc",
+                                    "status": "PASS_R21_NATIVE_RECORD_IDENTITY",
+                                    "native_certificate_sha256": "1d857541e8497dfb4c33b532c7d50ee629f5d8e92698a080307b7ae039794464",
+                                    "old_certificate_or_source_pin_modified": false,
+                                    "earlier_source_chain": {
+                                      "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+                                      "status": "PASS_R20_NATIVE_RECORD_INTERACTION",
+                                      "native_certificate_sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+                                      "old_certificate_or_source_pin_modified": false,
+                                      "earlier_source_chain": {
+                                        "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+                                        "status": "PASS_R19_NATIVE_CURRENT_RETENTION",
+                                        "native_certificate_sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+                                        "old_certificate_or_source_pin_modified": false,
+                                        "earlier_source_chain": {
+                                          "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+                                          "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+                                          "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+                                          "historical_navigation_inputs_restored_in_temporary_snapshot": 3,
+                                          "old_certificate_or_source_pin_modified": false,
+                                          "earlier_source_chain": {
+                                            "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+                                            "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+                                            "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+                                            "foundation": {
+                                              "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+                                              "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+                                              "written_statements": 14,
+                                              "native_replays": 13,
+                                              "analytic_replays": [
+                                                {
+                                                  "id": "F00_F00E_EULER_V0_1",
+                                                  "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+                                                  "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+                                                  "checks": 14,
+                                                  "negative_controls": 6,
+                                                  "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+                                                },
+                                                {
+                                                  "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+                                                  "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+                                                  "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+                                                  "checks": 20,
+                                                  "negative_controls": 7,
+                                                  "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+                                                }
+                                              ],
+                                              "original_universal_claim_certified": false
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 34,
+  "preserved_prior_files": 292,
+  "source_pins_sha256": "a7660d664d2b94c3cf6c88077caf4d9ad5735751b6dec11d87b47b3250951ad8",
+  "native_certificate_sha256": "98a13bb72a486eac8ad9fc321d59faa7759aae3c0d59d30575852c0a03d736e5",
+  "comparison_references_are_proof_dependencies": false,
+  "comparison_source_certificates_rerun": false,
+  "native_finite_phase_resolution_derived": true,
+  "native_uniform_block_and_tail_bound_derived": true,
+  "native_universal_localized_signal_cone_derived": true,
+  "native_sharp_operational_speed_derived": true,
+  "physical_vacuum_identified": false,
+  "electromagnetism_derived": false,
+  "physical_metric_c_alpha_derived": false,
+  "physical_electric_charge_or_particle_mass_identified": false,
+  "physical_spatial_dimension_or_gauge_group_selected": false,
+  "primitive_physical_force_derived": false,
+  "formal_proof_assistant_verified": false,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Seven written proofs: native finite phase resolution, uniform block displacement bound, positive count tilt, all-packet half-space estimate, universal localized radial cone, sharp fixed-threshold arrival speed and curvature/front/calibration boundaries. Universal means all admissibly localized preparations of the pinned source; no physical c, h, alpha or universality across different source laws is identified.",
+  "canonical_report_sha256": "7e91a69c6b3bbaef190814a866ee762d11cd8db62fa6aa90619581df55b21366"
+}

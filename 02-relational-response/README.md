@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R38 universal localized signal cone and sharp arrival speed
+
+[NATIVE_UNIVERSAL_SIGNAL_CONE_R38.md](NATIVE_UNIVERSAL_SIGNAL_CONE_R38.md) derives finite phase resolution from native dyadic turns and count cancellation, then bounds the displacement derivative of every source block uniformly through the touching phase. Positive count weights yield an explicit half-space tail estimate; a finite integer-direction covering gives the radial cone for every initially localized preparation, including scale-dependent profiles and roles.
+
+The fixed-positive-threshold arrival-speed supremum is exactly `1/sqrt(2)` in component counts per eight-event block: R38 proves the upper bound and R37 provides approaching signals. Complete curvature observation preserves it. The exact source counterexamples retain a faster vanishing-threshold front and a single-block response above the asymptotic squared coefficient. Physical c, h, alpha and other source laws are not identified by this theorem.
+
+[Verification](../04-operator-evolution/R38_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays. The [ledger](../04-operator-evolution/R38_DERIVATION_LEDGER.json) distinguishes written universal results from finite checks and symbolic large-event bounds. The frozen R37 chain and all prior non-navigation evidence are preserved.
+
 ## R37 compact native packet flight and reliable arrival
 
 [NATIVE_PACKET_FLIGHT_R37.md](NATIVE_PACKET_FLIGHT_R37.md) derives rational source carriers, their drift and a finite correction that removes every first-difference error. Three finite count-box convolutions give compact profiles with exact norm identities. The actual source evolution remains close to a rigid translation with an explicit all-event error, obtained from finite telescoping and native binomial sums.

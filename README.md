@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R37's derivation ledger](04-operator-evolution/R37_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R38's derivation ledger](04-operator-evolution/R38_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,14 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R38: the sharp cone for all localized native signals
+
+[R38](02-relational-response/NATIVE_UNIVERSAL_SIGNAL_CONE_R38.md) proves that every preparation localized on a sublinear count scale has vanishing matching norm outside radius `(1/sqrt(2)+eta)n`, for each fixed eta>0. Preparations may change with scale and carry arbitrary source roles, carriers and profiles. Native dyadic turns and geometric count cancellation derive the finite phase resolution used in the proof; repeated source blocks then give explicit positive-weight tail estimates.
+
+At any fixed positive fraction-of-prepared-norm detection threshold, asymptotic arrival speed is at most `1/sqrt(2)` component counts per eight-event block. R37 supplies sharpness as an approachable supremum. R36's complete curvature observer preserves this result. A single-block directional response can exceed the squared coefficient `1/2`, and the faster exact support front survives at vanishing thresholds; neither is silently promoted into the fixed-threshold flight theorem. Universality is over localized preparations of this pinned source, with physical fields and rod/clock identification still separate.
+
+[Verification](04-operator-evolution/R38_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays, with fifteen boundary controls and nine rejected graph mutations. The [ledger](04-operator-evolution/R38_DERIVATION_LEDGER.json) retains the R1–R33 reading register and explicit source/target boundaries. All 292 prior non-navigation files and the frozen R37 chain are preserved.
 
 ## R37: compact native packets and reliable arrival
 

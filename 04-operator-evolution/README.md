@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R38 universal localized signal-cone verification
+
+[native_universal_signal_cone.cjs](native_universal_signal_cone.cjs) uses the unchanged canonical native engine. It checks dyadic root witnesses, finite reconstruction and norm resolution, complete source/block derivatives, branch cancellation, positive count tilts, explicit parameter budgets, direction covering, curvature detection and surviving fast fronts.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r38.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R38_VERIFICATION.json](R38_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays. Checks include 14 finite orthogonality sums, 20 inverse and 20 source-intertwining identities, nine complete block derivatives, 81 exact branch-cancelled derivatives, 27 diagonal speed squares, nine complete second tilt jets, 40 weighted detector bounds and 32 rounded-direction witnesses. Fifteen boundary controls and nine graph mutations protect claim scope. [Source pins](R38_SOURCE_PINS.json) preserve all 292 prior non-navigation files and replay frozen R37. The [ledger](R38_DERIVATION_LEDGER.json) keeps finite computations, written universal proofs, conservative symbolic budgets and physical identification separate.
+
 ## R37 compact native packet-flight verification
 
 [native_packet_flight.cjs](native_packet_flight.cjs) reconstructs the unchanged source and checks rational carrier bands, the complete corrected Laurent remainder, compact profile counts, finite binomial identities, literal packet evolution, rational arrival bounds, the approaching speed family and curvature-observer detector equality.
