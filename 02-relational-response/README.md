@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R39 local reversal, native echo clock and distance reading
+
+[NATIVE_ECHO_CLOCK_R39.md](NATIVE_ECHO_CLOCK_R39.md) derives the exact local reversal `C^2=I`, `C Z C=Z^dagger` from the source factors. Its finite paired-link gate preserves matching norm and bounds reversal error by missed information. R37 packets then give high-retention remote echoes, return-count windows, midpoint timestamps and distance intervals with explicit aperture and packet errors.
+
+A scheduled echo cycle has controlled error under repetition; native marked records distinguish its ticks and expose finite-counter wrap. In the sharp packet-speed limit, half the round-trip flight count converges to the native information length `sqrt(2) d`. Complete curvature observation transports the whole protocol, with a new commuting-turn factorization of the leading reverser and the earlier bare-curvature defect retained. Added controls are recorded separately from free source events; autonomous physical clocks, mirrors and c, h, alpha remain unselected.
+
+[Verification](../04-operator-evolution/R39_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays. The [ledger](../04-operator-evolution/R39_DERIVATION_LEDGER.json) labels source-derived controls, norm-trigger definitions, marked-record capacity and physical boundaries. Frozen R38 and all 299 earlier non-navigation files are preserved.
+
 ## R38 universal localized signal cone and sharp arrival speed
 
 [NATIVE_UNIVERSAL_SIGNAL_CONE_R38.md](NATIVE_UNIVERSAL_SIGNAL_CONE_R38.md) derives finite phase resolution from native dyadic turns and count cancellation, then bounds the displacement derivative of every source block uniformly through the touching phase. Positive count weights yield an explicit half-space tail estimate; a finite integer-direction covering gives the radial cone for every initially localized preparation, including scale-dependent profiles and roles.

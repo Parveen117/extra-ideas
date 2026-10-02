@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R38's derivation ledger](04-operator-evolution/R38_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R39's derivation ledger](04-operator-evolution/R39_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,14 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R39: local source reversal, echo clock and distance reading
+
+[R39](02-relational-response/NATIVE_ECHO_CLOCK_R39.md) derives a local self-dagger involution C from the retained H/K source, with `C Z C = Z^dagger`. Equal outbound and return counts recover every signed source field. Confining the operation through a source-derived paired-link cut preserves norm and gives an echo error bounded by the uncaptured information; naive address clipping has an explicit norm-loss counterexample.
+
+R37 packets now supply a remote reversal trigger, a return tick and finite error intervals for the midpoint timestamp and distance reading. A fixed scheduled echo cycle repeats k times with error at most `3 k epsilon`; distinct elapsed ticks require additional marked history labels. In the controlled sharp-speed limit, half the round-trip flight count agrees with the native information length `sqrt(2) d`. R36's complete curvature observer preserves the protocol, while its bare-curvature finite reversal defect remains. Free source blocks, two added control arrows and their record are counted separately. A physical mirror, autonomous material clock and c, h, alpha are not identified.
+
+[Verification](04-operator-evolution/R39_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays, with fifteen boundary controls and nine rejected graph mutations. The [ledger](04-operator-evolution/R39_DERIVATION_LEDGER.json) retains the R1–R33 reading register and labels the constructed protocol and physical-selection boundary. All 299 prior non-navigation files and the frozen R38 chain are preserved.
 
 ## R38: the sharp cone for all localized native signals
 

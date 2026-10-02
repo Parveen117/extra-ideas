@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R39 native reversal, echo clock and distance verification
+
+[native_echo_clock.cjs](native_echo_clock.cjs) uses the unchanged canonical native engine. It checks the complete Laurent reversal, signed equal/mismatched-count echoes, unitary finite paired-link gates, clipping-error bounds, literal local echoes, exact large-packet timing budgets, repeated cycles, marked-counter orbits and complete curvature transport. Native matrix root witnesses check both algebraic conjugates; the written source construction fixes the positive scalar root.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r39.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R39_VERIFICATION.json](R39_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays, with fifteen boundary controls and nine rejected graph mutations. [Source pins](R39_SOURCE_PINS.json) preserve all 299 prior non-navigation files and replay frozen R38. The [ledger](R39_DERIVATION_LEDGER.json) separates available control arrows, free-block counts, first return versus scheduled reset, marked tick memory and physical selection. Large count budgets are rational bounds rather than huge-packet simulations; finite checks are not formal-assistant verification.
+
 ## R38 universal localized signal-cone verification
 
 [native_universal_signal_cone.cjs](native_universal_signal_cone.cjs) uses the unchanged canonical native engine. It checks dyadic root witnesses, finite reconstruction and norm resolution, complete source/block derivatives, branch cancellation, positive count tilts, explicit parameter budgets, direction covering, curvature detection and surviving fast fronts.
