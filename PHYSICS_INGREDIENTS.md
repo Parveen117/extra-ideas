@@ -7,12 +7,18 @@ existing results at their actual scopes. Native states, cuts, composition,
 observers and memory precede geometric, probabilistic and physical adapters.
 The historical R1–R46 register and its frozen evidence remain unchanged.
 
-The latest Yang–Mills continuation is **[YM-43][ym43]**. On the existing
-YM-19 coarse heat-kernel chain it derives a bound on every vacuum-orthogonal
-source, uniform in all finite spatial widths and all transfer powers, within
-the declared positive-functional carrier. Its three certified cells admit
-ratios 1/2, 1/4 and 1/64. The reference functional is still an admitted
-adapter; this does not derive the physical measure or the continuum theory.
+The latest Yang–Mills continuation is **[YM-44][ym44]**. It constructs the
+full interacting time-refinement limit on the declared trajectory
+kappa(a)=theta a. At every fixed finite spatial width, the operator-norm
+error is at most 3 b t Exp(b t) sqrt(mesh), with b=|theta|(m-1), for all
+sources and contents. A normalized gap-transport gate is proved, conditional
+on a separate uniform fine-step gap. The reference functional and trajectory
+remain admitted; the physical measure and interacting continuum are open.
+
+[YM-43][ym43] supplies the preceding full time-gap bound in three coarse
+heat-kernel cells: ratios 1/2, 1/4 and 1/64, uniform in finite width and
+transfer powers. YM-44's counterexample prevents transporting those coarse
+numbers to finer steps by assuming exact interacting subdivision.
 
 [YM-42][ym42] remains the preceding three-rail spatial-contraction result.
 Its counterexample correctly prevents inferring a time gap from spatial
@@ -62,7 +68,7 @@ flatness is classical flatness' or 'observation always removes curvature'.
 | Cosmology and perturbations | Advanced branch coupled and anisotropic cosmology; stated matter/stability sectors | These explicit sectors are not the full inhomogeneous Einstein–matter Cauchy problem or quantized gravity |
 | Quantum equations at a regulator | Thermo paper section 06c; exact identities for a coercive finite-dimensional Euclidean action | Coercivity, regulator and ℏ are supplied; the theorem does not prove them for the native gravitational action |
 | Positive free quantum continuum | Thermo paper section 06d; Gaussian measure, regulator removal, reflection positivity and reconstruction | Positive constraint-projected ultrastatic Hessian and a strict gap are hypotheses; nonlinear interacting gravity/gauge completion is open |
-| Yang–Mills finite/transfer tools | Publications YM-1–43/NG-1; YM-12 square-sourced positivity, YM-42 structural t=3 silence, YM-43 arbitrary-source time bound in three coarse heat-kernel cells; RKF T74–76 | Original truncated Wilson family, time-refinement/cutoff uniformity, native measure/NCG intertwiner and interacting continuum remain open |
+| Yang–Mills finite/transfer tools | Publications YM-1–44/NG-1; YM-12 positivity, YM-42 t=3 silence, YM-43 coarse-cell time gap, YM-44 full fixed-width time refinement with a norm tail; RKF T74–76 | Uniform fine-step gap as width grows, original truncated Wilson family, physical trajectory, native measure/NCG intertwiner and interacting continuum remain open |
 | Operational comparison | R46's native return port and existing separate empirical repositories | Constructed ideal circuit values are not measurements; existing validation of other models is not quantum-gravity evidence |
 
 Advanced branch sources are pinned at
@@ -78,7 +84,7 @@ NCG's checked research commit is `7b34bc657883272f58dc74e9e511ae5c568266ff`.
 | 1. Gauge carrier/observable identification | Reuse existing YM-12 positivity and the established transfers; identify the new compact carrier with a specified existing family | An explicit measure/observable/transfer intertwiner and physical-sector Ward identities; common Lie brackets alone do not provide it |
 | 2. Physical quantum matter | Quantization of a declared matter sector compatible with that gauge construction | CAR/fermion grading, positive physical energy and the relevant anomaly checks; the commuting classical SM action is not silently relabelled a quantum fermion |
 | 3. Dynamical geometry constraints | A concrete coupled gauge/metric constraint formulation and its physical reduction | First-class closure or a precisely controlled regulator deformation, removal of gauge/negative directions, and propagation of all constraints; NCG's gauge Gauss identity closes only the classical gauge subtask |
-| 4. YM uniformity — current continuation | YM-43 controls every complementary source and every transfer power in three coarse heat-kernel cells; next derive a time-refinement estimate | Retain operator control as the heat kernel sharpens and along the required cutoff family; specify per-step versus per-unit-a normalization. The original Wilson-family target and its content budgets remain separate |
+| 4. YM uniformity — current continuation | YM-43 controls three coarse cells; YM-44 constructs the full interacting time limit at fixed width; next derive a volume-uniform fine-step gap | A normalized complementary ratio bounded by Exp(-a gamma), with gamma>0 independent of width and sufficiently small a. YM-44 then transports it to the time limit; its existence theorem alone does not supply gamma |
 | 5. Continuum and dictionary | A nontrivial interacting regulator limit and identification of its physical observables | Cutoff/volume/time estimates, measure control, reflection positivity or another valid unitary construction, and the declared native-to-continuum intertwiner |
 | 6. Physical selection and prediction | A native process selector or an independently calibrated, falsifiable model | Why this module/action/trajectory is selected; dimensionless observable predictions without fitting the target answer; physical G, ℏ, c, α and masses remain separately tracked |
 
@@ -87,13 +93,14 @@ has been exhausted. A restricted candidate quantum-gravity theory can be
 attempted before deriving the entire Standard Model, provided its actual field
 content, observables and boundaries are stated.
 
-The immediate continuation is priority 4's **time-refinement estimate**:
-retain arbitrary-source control as the heat kernel sharpens. YM-43's
-single-site overlap budget cannot establish that limit. A temporal-block or
-content-sensitive estimate must supply the missing bound, with per-step and
-per-unit-a rates kept distinct. Priority 1 remains the separate native
-gauge/measure identification task. Reuse the already established positivity,
-coefficient and contraction machinery rather than rebuilding it.
+The immediate continuation is priority 4's **volume-uniform fine-step gap**.
+The full fixed-width time limit now exists by YM-44, with explicit memory
+error; its construction need not be repeated. A justified temporal-block or
+content-sensitive estimate must control every complementary source as the
+heat kernel sharpens, with per-step and per-unit-a rates kept distinct.
+Priority 1 remains the separate native gauge/measure identification task.
+Reuse the established positivity, coefficient, contraction and refinement
+machinery.
 
 ## Yang–Mills ledger precision
 
@@ -108,6 +115,13 @@ a full time-operator bound on the separate full heat-kernel chain at
 use T75's declared Gram tail and is not identified with the truncated Wilson
 instances. The cutoff trajectory and native-to-Clay dictionary remain open.
 
+YM-44 closes a different cutoff obligation: the full time-refinement limit
+at fixed spatial width, not a uniform gap in the joint width/cutoff family.
+Its generator on the finite-content core is -L+theta M_V. The order residue
+of heat and interaction is explicitly retained. A slow-spectator witness
+also shows why nonzero order curvature alone cannot certify a positive
+uniform gap; it is not automatically NCG gauge curvature or Riemann curvature.
+
 The official Clay problem requires a nontrivial four-dimensional quantum
 Yang–Mills theory with the required axiomatic properties and a strictly
 positive mass gap for every compact simple gauge group. See
@@ -118,6 +132,13 @@ actual quantum theory of dynamical geometry, not only an Einstein equation or
 a formal effective-action derivative.
 
 ## Evidence attached to this update
+
+[YM-44's certificate][ym44cert] binds six written results, 136 moment
+enclosures, 30 ordered-word identities, 60 refinement cases, 48 independent
+exponential-entry comparisons, unequal-partition and normalized-gap controls,
+and ten refusal groups. Ten new targeted tests pass on Python 3.12 only.
+The two-state fixtures are independent finite controls, not an SU(2) model
+replacement or a mechanical proof of the infinite theorem.
 
 [YM-43's certificate][ym43cert] binds seven written results, 2,964 temporal
 barrier checks, 64 local common-part coupling cases, an exact joint-update
@@ -144,6 +165,8 @@ There is no new formal-assistant or empirical certificate. This mission map
 is navigation and scope control, not another certificate or R-stage.
 
 [ncg]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/THEOREM.md
+[ym44]: https://github.com/Parveen117/Publications/blob/b91c34a624257910fe8a950e02d8d21f09683b26/papers/yang-mills-certified-benchmark/YM44_INTERACTING_TIME_REFINEMENT.md
+[ym44cert]: https://github.com/Parveen117/Publications/blob/b91c34a624257910fe8a950e02d8d21f09683b26/papers/yang-mills-certified-benchmark/certificates/YM44_RESULT.json
 [ym43]: https://github.com/Parveen117/Publications/blob/ebdf896887e67b3f6b5a66d23cf9c37723ae9b02/papers/yang-mills-certified-benchmark/YM43_NATIVE_TIME_TRANSFER_BOUND.md
 [ym43cert]: https://github.com/Parveen117/Publications/blob/ebdf896887e67b3f6b5a66d23cf9c37723ae9b02/papers/yang-mills-certified-benchmark/certificates/YM43_RESULT.json
 [ym42]: https://github.com/Parveen117/Publications/blob/bad8d5975c687d843ff6b247b24510683f289d14/papers/yang-mills-certified-benchmark/YM42_SILENCE_TIME_LADDER.md
