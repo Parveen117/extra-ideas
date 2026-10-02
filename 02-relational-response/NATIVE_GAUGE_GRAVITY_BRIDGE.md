@@ -129,10 +129,14 @@ heat-kernel chain, uniformly in finite spatial width, at three certified
 coarse parameter cells. Its positive reference functional remains admitted.
 YM-44 now constructs the full interacting time limit at every fixed finite
 width, with an explicit operator-norm error on the declared linear trajectory.
-The remaining distinct targets are the volume-uniform fine-step gap and the
-native measure/NCG dictionary. The [mission map](../PHYSICS_INGREDIENTS.md)
-links the commit-pinned proof/certificate and tracks quantum matter, gravity
-constraints, E4D-C and the interacting continuum at their actual scopes.
+YM-45 supplies the width/fine-time uniform gap on that full heat chain for
+abs(theta)<1/1680 and kappa=theta a, and transports its positive rate to
+every fixed-width time limit. The remaining distinct targets are the
+infinite-volume state/observable construction and native measure/NCG
+dictionary. The [mission map](../PHYSICS_INGREDIENTS.md) links the commit-pinned
+proof/certificate and tracks quantum matter, gravity constraints, the original
+Wilson E4D-C problem and 4D continuum at their actual scopes. The smaller
+bridge window is not an AF trajectory or a primitive-derived measure.
 Current YM verification uses Python 3.12 only.
 
 [ncg]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/THEOREM.md

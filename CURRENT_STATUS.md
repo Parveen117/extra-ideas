@@ -11,14 +11,15 @@ non-Abelian source/Gauss result to the conditional gravity sector, and record
 the remaining quantum/continuum targets. They are application/navigation
 documents, not a new primitive-only R-stage; the register remains R1–R46.
 
-Latest upstream continuation: **Publications YM-44** constructs the full
-interacting time-refinement limit at every fixed finite width, with an
-all-source/all-content operator-norm error. Its declared functional carrier
-and linear trajectory remain explicit. The next gap target is uniformity
-across width and fine time steps; native measure/NCG and continuum obligations
-remain open. YM-43's coarse-cell bound, YM-42's spatial result and T75's
-two-rail/declared-tail scope remain distinct. Verification uses Python 3.12
-only. The Extra Ideas register remains R1–R46; this is an upstream update.
+Latest upstream continuation: **Publications YM-45** proves an all-source,
+all-content gap rate independent of finite width and fine time step on
+the declared heat-functional chain for abs(theta)<1/1680, kappa=theta a.
+The same rate survives YM-44's fixed-width time limit. The next construction
+is the infinite-volume state/observable limit; native measure/NCG and
+4D continuum obligations remain open. The old theta=1/16 example and
+original Wilson problem are outside this certificate. Verification uses
+Python 3.12 only. The Extra Ideas register remains R1–R46; this is an
+upstream update, with its proof and certificate pinned in the mission map.
 
 ## R46: physical readout for an existing native prediction
 
