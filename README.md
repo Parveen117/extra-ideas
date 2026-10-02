@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R40's derivation ledger](04-operator-evolution/R40_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R41's derivation ledger](04-operator-evolution/R41_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,14 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R41: native relational evolution, clock curvature and a sharp uncertainty scale
+
+[R41](02-relational-response/NATIVE_RELATIONAL_CLOCK_R41.md) makes R40's retained tick drive an explicitly constructed native process. The fixed joint arrow gives exact process evolution relative to ticks and retains the clock-carrier error. A native history preserves full matching; ignoring its count marks gives a derived unresolved process readout, while cyclic closure retains the exact winding residue.
+
+The actual reversible tick T defines its signed contrast `P=iota(T-T^dagger)/2`. Retained count N then obeys `[N,P]=iota R`, with the finite wrap term derived inside R. Expanding the native matching norm proves `Var(N) Var(P)-Cov(N,P)^2 >= <R>^2/4`; a three-mark witness proves the coefficient sharp. Finite stay/advance word counts give exact moments, response `s/(s+1)` and squared history defect `2/(s+1)`. A common growing family makes clock-carrier error and history defect vanish while the uncertainty product approaches `1/2`. Finite products retain the response correction and can be below `1/2`. The sharp scale is dimensionless; physical energy, action, h-bar and material time calibration remain open.
+
+[Verification](04-operator-evolution/R41_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays, with fifteen boundary controls and nine rejected graph mutations. The [ledger](04-operator-evolution/R41_DERIVATION_LEDGER.json) retains the R1–R33 reading register and explicit process/readout definitions. Frozen R40 and all 313 prior non-navigation files are preserved.
 
 ## R40: one autonomous native echo, controller and tick evolution
 

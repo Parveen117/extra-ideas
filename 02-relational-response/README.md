@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R41 relational clocks, native phase curvature and sharp count-response uncertainty
+
+[NATIVE_RELATIONAL_CLOCK_R41.md](NATIVE_RELATIONAL_CLOCK_R41.md) couples a native process to the actual R40 tick. It derives every process prefix, linear count histories, their cyclic winding residue and the unresolved-clock pair readout. The native phase loop has an explicit record-size-dependent curvature.
+
+Retained count and forward/reverse joint tick contrast give an exact commutator with its wrap correction. Native matching then derives a sharp covariance inequality. Finite binary-word counts supply exact profile variances and a stationary-history defect; one growing family suppresses the clock error and approaches the native uncertainty product `1/2`. The result concerns the joint response, with an explicit counterexample to replacing it by the bare clock shift. Complete curvature observation preserves the law; affine calibration leaves physical action and time units unselected.
+
+[Verification](../04-operator-evolution/R41_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays. The [ledger](../04-operator-evolution/R41_DERIVATION_LEDGER.json) labels the process, history and readout constructions and their physical boundaries. Frozen R40 and all 313 earlier non-navigation files are preserved.
+
 ## R40 autonomous native echo, controller memory and tick capacity
 
 [NATIVE_AUTONOMOUS_ECHO_R40.md](NATIVE_AUTONOMOUS_ECHO_R40.md) derives a fixed local joint arrow that executes a complete echo program and retains phase/tick marks. Its inverse, complete run and cycle residue follow from native matching and ordered source products. A known packet horizon supplies a scheduled echo with one-cycle error at most `2 epsilon`, without a runtime norm-threshold command.

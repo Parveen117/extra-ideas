@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R41 native relational clock and uncertainty verification
+
+[native_relational_clock.cjs](native_relational_clock.cjs) reuses the unchanged native engine for coupled source/process prefixes, history winding, complete clock commutators and covariance bounds. Checks include 72 finite word-count profiles, a nonzero sharpness witness, an actual echo-carrier history, exact joint-limit budgets and complete curvature observation with affine calibration.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r41.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R41_VERIFICATION.json](R41_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays, with fifteen boundary controls and nine rejected graph mutations. [Source pins](R41_SOURCE_PINS.json) preserve all 313 prior non-navigation files and replay frozen R40. The [ledger](R41_DERIVATION_LEDGER.json) retains process/readout choices, finite wrap correction and physical calibration boundaries. Root matrices check both algebraic conjugates; large scales are exact rational budgets. This is scoped written-proof and exact-check evidence, not formal-assistant verification or a determination of physical h-bar.
+
 ## R40 autonomous native echo and controller verification
 
 [native_autonomous_echo.cjs](native_autonomous_echo.cjs) uses the unchanged canonical native engine to compile the local echo word and run source fields with retained controller marks. It checks six complete word/inverse instances, 48 marked-sector inverse/norm instances, 42 complete run prefixes, prefix-frame transport, coherent phase error, 600 exact count decodings, word refinement, large rational budgets, complete curvature observation and native threshold/memory counterexamples.
