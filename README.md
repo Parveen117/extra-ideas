@@ -16,6 +16,11 @@ completion. Its [gauge/gravity interface](02-relational-response/NATIVE_GAUGE_GR
 is a conditional application, with classical, quantum and continuum gates kept
 distinct. It does not add an unverified R47 or change the R1–R46 register.
 
+Latest upstream step: **YM-42** certifies the existing three-rail silence
+carrier with a structural memory-tail bound. The ingredient map links its
+proof/certificate and the next time-transfer operator estimate; spatial
+contraction and a physical mass gap retain distinct claims.
+
 [![Native certificates](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml/badge.svg?branch=main)](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml)
 
 **Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R45's derivation ledger](04-operator-evolution/R45_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.

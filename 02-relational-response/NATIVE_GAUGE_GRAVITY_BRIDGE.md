@@ -119,12 +119,15 @@ replays and 23 rejected alternatives. The metric/torsion paragraph above is a
 written conditional application of the cited prior variations; it is not a
 fresh whole-MG/LR/SM rerun or a new physical certificate.
 
-The immediate quantum task is an explicit positive gauge-invariant transfer
-and its observable dictionary, consuming the existing YM constructions. A
-common SU(2) algebra is only the first interface: identifying a measure and
-transfer requires a theorem. The [mission map](../PHYSICS_INGREDIENTS.md)
-tracks that target, physical quantum matter, gravity constraints, E4D-C and the
-interacting continuum without calling this classical bridge quantum gravity.
+The gauge/observable dictionary remains a separate quantum target. Existing
+YM-12 already supplies square-sourced transfer positivity; a common SU(2)
+algebra does not yet identify its measure and transfer with this NCG module.
+The latest YM-42 continuation instead advances the named three-rail silence
+step and proves why spatial contraction alone cannot establish the time gap.
+The next estimate must control the actual time-transfer operator on all
+vacuum-orthogonal sources. The [mission map](../PHYSICS_INGREDIENTS.md) links
+its commit-pinned proof/certificate and tracks quantum matter, gravity
+constraints, E4D-C and the interacting continuum at their actual scopes.
 
 [ncg]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/THEOREM.md
 [cert]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/CERTIFICATE.json

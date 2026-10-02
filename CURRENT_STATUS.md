@@ -11,6 +11,12 @@ non-Abelian source/Gauss result to the conditional gravity sector, and record
 the remaining quantum/continuum targets. They are application/navigation
 documents, not a new primitive-only R-stage; the register remains R1–R46.
 
+Latest upstream continuation: **Publications YM-42** certifies structural
+silence contraction on the existing three-rail carrier, with a geometric tail
+for every spatial step. The mission map now points to the remaining time
+operator estimate and retains T75's two-rail/declared-tail qualifications.
+Existing transfer positivity is reused; this is not a new Extra Ideas R-stage.
+
 ## R46: physical readout for an existing native prediction
 
 The [R46 proof](02-relational-response/NATIVE_RETURN_PORT_R46.md) supplies a finite positive-path adapter and an explicit ideal DC resistor-ladder realization of RKF R2. A two-bank component control implements the native probe; the previously derived Publications third response receives finite-length and component-error bounds. The example is constructed, not measured.

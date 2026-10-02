@@ -7,7 +7,14 @@ existing results at their actual scopes. Native states, cuts, composition,
 observers and memory precede geometric, probabilistic and physical adapters.
 The historical R1–R46 register and its frozen evidence remain unchanged.
 
-The current mathematical advance is [NCG-1–NCG-8][ncg], the native compact
+The latest Yang–Mills continuation is **[YM-42][ym42]**, consuming the existing
+YM-37/38/41 and RKF T74 machinery. It gives a structural silence ball and an
+explicit all-spatial-step memory tail, certified on the 52-dimensional
+three-rail carrier. Its positive-model counterexample also proves why spatial
+contraction alone does not establish a time gap. The next estimate must
+control the actual time-transfer operator on all vacuum-orthogonal sources.
+
+The compact-gauge mathematical ingredient is [NCG-1–NCG-8][ncg], the native compact
 gauge completion in Publications. Its [physics interface](02-relational-response/NATIVE_GAUGE_GRAVITY_BRIDGE.md)
 connects the existing massive U(1) source to a native U(2)/SU(2) coefficient
 sector, with an actual non-Abelian source and Gauss identity. This is a
@@ -50,7 +57,7 @@ flatness is classical flatness' or 'observation always removes curvature'.
 | Cosmology and perturbations | Advanced branch coupled and anisotropic cosmology; stated matter/stability sectors | These explicit sectors are not the full inhomogeneous Einstein–matter Cauchy problem or quantized gravity |
 | Quantum equations at a regulator | Thermo paper section 06c; exact identities for a coercive finite-dimensional Euclidean action | Coercivity, regulator and ℏ are supplied; the theorem does not prove them for the native gravitational action |
 | Positive free quantum continuum | Thermo paper section 06d; Gaussian measure, regulator removal, reflection positivity and reconstruction | Positive constraint-projected ultrastatic Hessian and a strict gap are hypotheses; nonlinear interacting gravity/gauge completion is open |
-| Yang–Mills finite/transfer tools | Publications YM-1–41/NG-1; RKF T74–76 | A common SU(2) algebra alone does not identify the measure, transfer operator, continuum theory or Clay target |
+| Yang–Mills finite/transfer tools | Publications YM-1–42/NG-1; YM-12 already supplies square-sourced positivity; YM-42 adds the structural t=3 silence step; RKF T74–76 | Finite three-rail spatial contraction does not establish a uniform time gap; the native measure/NCG intertwiner, full operator estimate and continuum remain open |
 | Operational comparison | R46's native return port and existing separate empirical repositories | Constructed ideal circuit values are not measurements; existing validation of other models is not quantum-gravity evidence |
 
 Advanced branch sources are pinned at
@@ -63,10 +70,10 @@ NCG's checked research commit is `7b34bc657883272f58dc74e9e511ae5c568266ff`.
 
 | Priority | Deliverable | What must be demonstrated before marking it closed |
 | --- | --- | --- |
-| 1. Positive quantum gauge dynamics | A specific native finite gauge-invariant transfer/observable construction using the new compact carrier and existing YM tools | A positive functional/transfer, gauge-invariant physical sector, exact Ward identities and an explicit intertwiner to the chosen existing benchmark; not merely the same Lie brackets |
+| 1. Gauge carrier/observable identification | Reuse existing YM-12 positivity and the established transfers; identify the new compact carrier with a specified existing family | An explicit measure/observable/transfer intertwiner and physical-sector Ward identities; common Lie brackets alone do not provide it |
 | 2. Physical quantum matter | Quantization of a declared matter sector compatible with that gauge construction | CAR/fermion grading, positive physical energy and the relevant anomaly checks; the commuting classical SM action is not silently relabelled a quantum fermion |
 | 3. Dynamical geometry constraints | A concrete coupled gauge/metric constraint formulation and its physical reduction | First-class closure or a precisely controlled regulator deformation, removal of gauge/negative directions, and propagation of all constraints; NCG's gauge Gauss identity closes only the classical gauge subtask |
-| 4. YM uniformity | Resume the actual YM-42 time-ladder/operator-bound target | A bound on arbitrary superpositions, uniform in time order, compatible with the existing column/content contracts; finite t=2,3 numbers cannot establish it |
+| 4. YM uniformity — current continuation | YM-42's structural t=3 step is certified; derive the next time-observable/operator estimate | A bound on every vacuum-orthogonal source, uniform in time order and the declared family, plus the required higher-rail/content budgets; finite t=2,3 numbers cannot establish it |
 | 5. Continuum and dictionary | A nontrivial interacting regulator limit and identification of its physical observables | Cutoff/volume/time estimates, measure control, reflection positivity or another valid unitary construction, and the declared native-to-continuum intertwiner |
 | 6. Physical selection and prediction | A native process selector or an independently calibrated, falsifiable model | Why this module/action/trajectory is selected; dimensionless observable predictions without fitting the target answer; physical G, ℏ, c, α and masses remain separately tracked |
 
@@ -75,21 +82,24 @@ has been exhausted. A restricted candidate quantum-gravity theory can be
 attempted before deriving the entire Standard Model, provided its actual field
 content, observables and boundaries are stated.
 
-The immediate next construction is priority 1: use the **same** compact native
-carrier in a specified positive gauge transfer, then prove exactly which
-existing YM family it represents. Reuse YM-12/20/37–41 and RKF T74–76 first;
-do not rebuild their square-sourcing, rational moments or content grading.
-This is where a new quantum ingredient would be gained beyond another
-classical action variation.
+The immediate continuation is priority 4's **time-observable/operator
+estimate**, following the completed finite YM-42 step. The norm bound must
+hold for arbitrary vacuum-orthogonal sources, not just one insertion or the
+spatial complement. Priority 1 remains a separate native gauge/measure
+identification task; generic positive transfer construction was already
+available and should not be advertised or rebuilt as a missing theorem.
+Reuse YM-12/20/30/37–42 and RKF T74–76, with their existing scope conditions.
 
 ## Yang–Mills ledger precision
 
-YM-41/NG-1 names the t-direction as the remaining operator wall **inside the
-declared column/content contract**. RKF T75 explicitly retains a declared
-Gram-uniform tail component above content level 2. Thus 'content delivered'
-does not mean every untruncated analytic estimate is unconditional. The true
-chain upper bound on all superpositions, asymptotically-free cutoff trajectory
-and native-to-Clay dictionary remain distinct obligations.
+YM-42 explicitly corrects the older 'content gone / t only' shorthand.
+RKF T75's release is **two-rail** and retains a declared Gram-uniform tail
+above content level 2. YM-42 does not promote it to a three-rail or t-uniform
+release. Its t=3 contraction ceilings are 0.007132026236, 0.028765231931 and
+0.118984522771 at kappa=1/8,1/4,1/2, on the declared truncated rational
+instances. They govern spatial normalized convergence. The true chain upper
+bound on all superpositions, time-uniform estimates, the asymptotically-free
+cutoff trajectory and native-to-Clay dictionary remain distinct obligations.
 
 The official Clay problem requires a nontrivial four-dimensional quantum
 Yang–Mills theory with the required axiomatic properties and a strictly
@@ -102,6 +112,13 @@ a formal effective-action derivative.
 
 ## Evidence attached to this update
 
+[YM-42's certificate][ym42cert] binds five written results, all six t=2/3
+instances, 1,483 native grading/moment checks, 126 exact recurrence/tail checks
+and nine checks against the prior restriction/doubled-ceiling route. Eight
+refusal groups, wrong-theta controls and the explicit space/time witness
+guard the stated scope. Its proof and exact checks are not an all-time gap
+theorem, formal-assistant certification or experimental measurement.
+
 [NCG's certificate][cert] reports 1,357 exact native checks, 1,073 independent
 rational checks, 15 word-proof replays and 23 rejected false alternatives.
 Its eight written proofs and exhaustive finite linear classifications are
@@ -111,6 +128,8 @@ There is no new formal-assistant or empirical certificate. This mission map
 is navigation and scope control, not another certificate or R-stage.
 
 [ncg]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/THEOREM.md
+[ym42]: https://github.com/Parveen117/Publications/blob/bad8d5975c687d843ff6b247b24510683f289d14/papers/yang-mills-certified-benchmark/YM42_SILENCE_TIME_LADDER.md
+[ym42cert]: https://github.com/Parveen117/Publications/blob/bad8d5975c687d843ff6b247b24510683f289d14/papers/yang-mills-certified-benchmark/certificates/YM42_RESULT.json
 [cert]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/CERTIFICATE.json
 [nt]: https://github.com/Parveen117/Publications/blob/d98c2644ab1512024861e12d5468f32028903cdf/papers/native-thermodynamic-curvature/THEOREM.md
 [mg]: https://github.com/Parveen117/Publications/blob/f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56/papers/ugd-kahler-propagation/NATIVE_METRIC_DYNAMICS.md
