@@ -2,6 +2,19 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## Current repository CI
+
+[verify_repository.py](verify_repository.py) validates the [R1–R45 register](../CURRENT_MANIFEST.json), current/frozen evidence hashes and integrated branch ancestry. It executes the complete R16 scoped foundation checker and replays the unchanged R17–R45 native applications, matching every frozen native certificate and written-section binding and rerunning available graph mutation controls. [Live GitHub Actions](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml) runs this check on main pushes and pull requests.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_repository.py \
+  --rkf-root ../Recognition-Kernel-Framework \
+  --publications-root ../Publications \
+  --output /tmp/extra-ideas-ci.json
+```
+
+Use the exact upstream commits in R45's source pins. [CURRENT_STATUS.md](../CURRENT_STATUS.md) explains runtime scope, the historical R38 note and the frozen R13 manifest. Historical recursive entry points below retain their own stage's navigation pins; current CI reuses their hash-checked native command expressions without rewriting those records. R1–R15 historical runtimes are hash-checked rather than reexecuted by this workflow.
+
 ## R45 curvature flow, cyclic direction and refined-clock verification
 
 [native_curvature_flow.cjs](native_curvature_flow.cjs) uses the unchanged native engine to expand the universal balanced-word residue, enclose local and network curvature flows, verify exact cycle transfer and memory, factor cyclic curvature, reconstruct oriented translation and preserve the complete process pair. Checks include twelve local and six network enclosures, nine translation reconstructions, twenty-five coherence-blind polynomial moments and forty-eight actual clock intertwinings.

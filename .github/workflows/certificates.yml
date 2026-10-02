@@ -1,0 +1,110 @@
+name: Native certificates
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: native-certificates-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  native-certificates:
+    name: Evidence integrity and native replays
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout current repository and branch ancestry
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: extra-ideas
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Checkout pinned canonical engine and source references
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: Parveen117/Recognition-Kernel-Framework
+          ref: 3cc5a33b05c16d59c90994ddda69dedc0d392424
+          path: rkf
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            certificates/foundation/F00GHI_LOG_ARITHMETIC_ZETA_V0_1/README.md
+            certificates/foundation/F00GHI_LOG_ARITHMETIC_ZETA_V0_1/result.json
+            certificates/foundation/F00GHI_LOG_ARITHMETIC_ZETA_V0_1/spec.json
+            certificates/foundation/F00GHI_LOG_ARITHMETIC_ZETA_V0_1/verify.py
+            certificates/foundation/F00_F00E_EULER_V0_1/README.md
+            certificates/foundation/F00_F00E_EULER_V0_1/result.json
+            certificates/foundation/F00_F00E_EULER_V0_1/spec.json
+            certificates/foundation/F00_F00E_EULER_V0_1/verify.py
+            certificates/foundation/NUMERICAL_PROOF_PROTOCOL.md
+            operator_foundation/CANONICAL_HOME.json
+            operator_foundation/README.md
+            operator_foundation/core/dependency_gate.cjs
+            operator_foundation/core/native_laurent.cjs
+            operator_foundation/core/native_operator.cjs
+            operator_foundation/core/native_paths.cjs
+            operator_foundation/core/paninian_operator.cjs
+            operator_foundation/core/weighted_completion.cjs
+            operator_foundation/core/workbench.cjs
+            operator_foundation/examples/emk_job.json
+            operator_foundation/theory/01_NATIVE_ALGEBRA.md
+            operator_foundation/theory/02_COMPLETION_AND_MEMORY.md
+            operator_foundation/theory/AUTOMATIC_REGULAR_MODEL.md
+            operator_foundation/theory/NATIVE_PRIMITIVE_ORDER.md
+            operator_foundation/theory/PANINIAN_OPERATOR_COMPILER.md
+            src/rh_framework/native_summability.py
+            theorems/foundation/F00E_NATIVE_EULER_FROM_IOTA_COMPLEX.md
+            theorems/foundation/F00G_NATIVE_LOGARITHM_AND_POWERS.md
+            theorems/foundation/F00H_NATIVE_NATURAL_ARITHMETIC_AND_PRIME_FACTORIZATION.md
+            theorems/foundation/F00I_NATIVE_DIRICHLET_ZETA_EULER_PRODUCT.md
+            theorum/24_clock_free_recognition_seam_cut_calculus.md
+            theorum/48_emk_algebra_cut_graded_curvature_theorem.md
+            theorum/51_odd_channel_exchange_law_theorem.md
+            mp_gold/07_zero_as_cut_topology.md
+            theorum/43_bilateral_jet_flow_recognition_capstone_theorem.md
+
+      - name: Checkout pinned comparison references
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: Parveen117/Publications
+          ref: f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56
+          path: publications
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            papers/native-alpha-selection/THEOREM.md
+            papers/native-return-identification/THEOREM.md
+            papers/native-ugd-propagation/README.md
+            papers/native-ugd-propagation/THEOREM.md
+            papers/ugd-kahler-propagation/NATIVE_PROPAGATION_ACTION.md
+            papers/ugd-kahler-propagation/SPEED_AND_CALIBRATION.md
+            papers/ugd-kahler-propagation/THERMO_GAUGE_COMPLETION.md
+            papers/uncut-cut-measurement/ADMISSIBLE_CONTINUATION.md
+            papers/uncut-cut-measurement/NATIVE_GRADING_AND_SEAM_MEMORY.md
+            papers/uncut-cut-measurement/NATIVE_INTERACTION_AND_LAWFUL_CUTS.md
+            papers/uncut-cut-measurement/NATIVE_RESPONSE_TENSOR_AND_CUT_LEDGER.md
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+
+      - name: Set up pinned Node runtime
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24.19.0'
+          package-manager-cache: false
+
+      - name: Verify register, frozen evidence, branch ancestry and native applications
+        run: |
+          python -B extra-ideas/04-operator-evolution/verify_repository.py \
+            --rkf-root rkf \
+            --publications-root publications \
+            --output "${{ runner.temp }}/extra-ideas-ci.json"

@@ -2,6 +2,8 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+Current navigation: [R1–R45 results and branch/CI status](../CURRENT_STATUS.md), [current manifest](../CURRENT_MANIFEST.json), and [live native CI](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml). The R38 working note is integrated as historical context; its target is superseded by the certified R38 proof below. Frozen source documents and certificates retain their recorded bytes.
+
 ## R45 native curvature flow, directed transfer and phase recovery
 
 [NATIVE_CURVATURE_FLOW_R45.md](NATIVE_CURVATURE_FLOW_R45.md) derives a controlled curvature flow from eight native exchange factors, keeping the full finite residue and inverse-count error. Its exact cycle arrow gives oriented cut transfer, local matching deficits and metric `1/8`. The first direction-sensitive count term is cubic.
