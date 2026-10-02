@@ -7,19 +7,23 @@ existing results at their actual scopes. Native states, cuts, composition,
 observers and memory precede geometric, probabilistic and physical adapters.
 The historical R1–R46 register and its frozen evidence remain unchanged.
 
-The latest Yang–Mills continuation is **[YM-46][ym46]**. Spatial/time
-boundary tails construct the infinite-volume positive local-observable state
-and normalized time map at each fixed 0<a<=1, for abs(theta)<1/1680 on
-the declared full heat chain. The actual square-sourced S ordering is
-included through a normalized half-step bridge. The all-source gap and
-regulated site/bond reflection positivity survive the volume limit.
+The latest Yang–Mills continuation is **[YM-47][ym47]**. Local vacuum history
+readouts have a joint spatial-volume/time-refinement limit at arbitrary
+relative cutoff rates, and both iterated limits coincide. This applies to
+the actual square-sourced S chain throughout abs(theta)<1/1680. The positive
+history functional retains the correlation gap and reflection positivity.
+Its proof normalizes each step before accumulation, controls the vacuum,
+sums one-boundary extension errors and crops large intervals explicitly.
+
+[YM-46][ym46] supplies the preceding fixed-step infinite-volume local state
+and normalized discrete time map, including the actual S ordering.
 
 [YM-45][ym45] supplies the inherited rate, independent of finite width and
 time step on kappa(a)=theta a. At abs(theta)=1/4096 it is at least
-0.005137179865 per unit heat parameter. YM-46's state-error constants,
-however, depend on a. Connecting the infinite-volume construction to the
-continuous-time limit remains open, along with native measure/NCG
-identification and the full 4D continuum.
+0.005137179865 per unit heat parameter. YM-47 handles YM-46's a-dependent
+boundary budget for local history readouts. An infinite-volume strongly
+continuous time map/generator, native measure/NCG identification and the
+full 4D continuum remain open.
 
 [YM-44][ym44] already supplies that full fixed-width time limit and its
 operator-norm refinement error 3 b t Exp(b t) sqrt(mesh), b=|theta|(m-1).
@@ -95,7 +99,7 @@ NCG's checked research commit is `7b34bc657883272f58dc74e9e511ae5c568266ff`.
 | 1. Gauge carrier/observable identification | Reuse existing YM-12 positivity and the established transfers; identify the new compact carrier with a specified existing family | An explicit measure/observable/transfer intertwiner and physical-sector Ward identities; common Lie brackets alone do not provide it |
 | 2. Physical quantum matter | Quantization of a declared matter sector compatible with that gauge construction | CAR/fermion grading, positive physical energy and the relevant anomaly checks; the commuting classical SM action is not silently relabelled a quantum fermion |
 | 3. Dynamical geometry constraints | A concrete coupled gauge/metric constraint formulation and its physical reduction | First-class closure or a precisely controlled regulator deformation, removal of gauge/negative directions, and propagation of all constraints; NCG's gauge Gauss identity closes only the classical gauge subtask |
-| 4. YM joint volume/time-cutoff construction — current continuation | YM-44 constructs time refinement at finite width; YM-45 supplies a uniform rate; YM-46 constructs the infinite-volume positive local state and normalized discrete time map at fixed a | A common local-observable Cauchy bound connecting the two limits, with compatible state and time action. YM-46's boundary budgets grow with 1/a; fixed-volume refinement or a uniform gap alone does not justify interchanging limits |
+| 4. YM continuous-time action — current continuation | YM-47 joins local vacuum history limits at arbitrary relative cutoff rates; positivity, correlation gap and reflection positivity are retained | Construct an infinite-volume strongly continuous normalized time map, prove composition and time-collision continuity on the declared completed carrier, and identify its generator/domain. A weak readout limit alone does not prove composition |
 | 5. Continuum and dictionary | A nontrivial interacting regulator limit and identification of its physical observables | Cutoff/volume/time estimates, measure control, reflection positivity or another valid unitary construction, and the declared native-to-continuum intertwiner |
 | 6. Physical selection and prediction | A native process selector or an independently calibrated, falsifiable model | Why this module/action/trajectory is selected; dimensionless observable predictions without fitting the target answer; physical G, ℏ, c, α and masses remain separately tracked |
 
@@ -104,12 +108,12 @@ has been exhausted. A restricted candidate quantum-gravity theory can be
 attempted before deriving the entire Standard Model, provided its actual field
 content, observables and boundaries are stated.
 
-The immediate continuation is priority 4's **joint local-observable Cauchy
-construction within the proved small-bridge window**. Reuse YM-46's actual
-state/time maps, YM-45's gap and YM-44's refinement error. Control the spatial
-truncation and time-step errors together on a common observable carrier,
-including the vacuum normalization. Priority 1 remains the separate native
-gauge/measure identification task.
+The immediate continuation is priority 4's **continuous-time action and
+generator on the completed infinite-volume carrier**. Reuse YM-47's common
+history limit, YM-46's actual fixed-step maps, YM-45's gap and the canonical
+completion tools. Prove composition and continuity at coincident times;
+do not infer them from selected correlations. Priority 1 remains the
+separate native gauge/measure identification task.
 
 ## Yang–Mills ledger precision
 
@@ -140,9 +144,13 @@ additional spatial weights and explicit local boundary tails.
 YM-46's state is a normalized positive functional on local histories and
 their uniform completion. Its normalized transfer evolution is discrete;
 physical unitary real-time evolution is not claimed. The fixed-a state
-construction and regulated reflection positivity provide ingredients for
-the remaining joint-limit/reconstruction problem. They do not derive the
-reference measure from Phi_Sigma or identify it with the NCG action.
+construction and regulated reflection positivity provide inputs to YM-47's
+joint local-history proof. That proof now identifies both iterated limits
+and the unrestricted joint limit, with an explicit error. It does not yet
+construct the continuous-time operator action, derive the reference measure
+from Phi_Sigma or identify it with the NCG action. Remote time endpoints
+are already removed in these vacuum histories; arbitrary finite temporal
+padding and the physical spatial continuum are separate limits.
 
 The official Clay problem requires a nontrivial four-dimensional quantum
 Yang–Mills theory with the required axiomatic properties and a strictly
@@ -154,6 +162,17 @@ actual quantum theory of dynamical geometry, not only an Einstein equation or
 a formal effective-action derivative.
 
 ## Evidence attached to this update
+
+[YM-47's certificate][ym47cert] binds eight written results, four parameter
+cells, 16 spatial budgets, six rational vacuum comparisons, eight independent
+three-time readouts, 17 positive-contraction inequalities, 27 off-grid time
+roundings, 54 exact tail identities, 490 asymmetric crops, 1,120 one-face
+width checks and ten refusal groups. Twelve new and 52 related tests pass
+on Python 3.12. Canonical certificate SHA-256:
+0474126e076afdde9e29d449f66ada0df18dcf805c13713a4c6c46ad030fde52.
+The proof preserves all 46 upstream source hashes and explicitly clarifies
+the missing plus in YM-46's displayed boundary formula, without changing
+its frozen evidence. Finite controls are not mechanical formalization.
 
 [YM-46's certificate][ym46cert] binds eight written results, four joint
 parameter cells and four explicit Cauchy boxes, 27 weighted layouts,
@@ -224,3 +243,6 @@ is navigation and scope control, not another certificate or R-stage.
 [mg]: https://github.com/Parveen117/Publications/blob/f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56/papers/ugd-kahler-propagation/NATIVE_METRIC_DYNAMICS.md
 [lr]: https://github.com/Parveen117/Publications/blob/f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56/papers/ugd-kahler-propagation/NATIVE_LOOP_CURVATURE.md
 [sm]: https://github.com/Parveen117/Publications/blob/f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56/papers/ugd-kahler-propagation/NATIVE_MASSIVE_MATTER.md
+
+[ym47]: https://github.com/Parveen117/Publications/blob/c29ef3a8a961201c59673f82a19dd5c5ab98b94b/papers/yang-mills-certified-benchmark/YM47_JOINT_LOCAL_HISTORY_LIMIT.md
+[ym47cert]: https://github.com/Parveen117/Publications/blob/c29ef3a8a961201c59673f82a19dd5c5ab98b94b/papers/yang-mills-certified-benchmark/certificates/YM47_RESULT.json

@@ -11,15 +11,16 @@ non-Abelian source/Gauss result to the conditional gravity sector, and record
 the remaining quantum/continuum targets. They are application/navigation
 documents, not a new primitive-only R-stage; the register remains R1–R46.
 
-Latest upstream continuation: **Publications YM-46** constructs the positive
-infinite-volume local-observable state and normalized time map at fixed a
-on the declared heat-functional chain for abs(theta)<1/1680, kappa=theta a.
-The actual square-sourced ordering retains YM-45's gap and regulated
-reflection positivity. A joint Cauchy construction connecting this volume
-limit to YM-44's time limit remains open, as do native measure/NCG and
-4D continuum obligations. Verification uses Python 3.12 only. The Extra
-Ideas register remains R1–R46; upstream YM-46 is distinct from this repo's
-R46 return-port result. Its proof and certificate are pinned in the mission map.
+Latest upstream continuation: **Publications YM-47** joins the volume and
+time limits of local vacuum histories on the declared heat-functional chain
+for abs(theta)<1/1680, kappa=theta a. Arbitrary relative cutoff rates and both
+iterated limits give the same positive history functional, with correlation
+gap and reflection positivity retained. The infinite-volume continuous-time
+map/generator, native measure/NCG dictionary and 4D continuum remain open.
+Twelve new and 52 related tests pass on Python 3.12 only. The Extra Ideas
+register stays R1–R46: this upstream mathematics is consumed by reference,
+not introduced as a new R47 result. Its proof and certificate are pinned
+in the mission map.
 
 ## R46: physical readout for an existing native prediction
 
