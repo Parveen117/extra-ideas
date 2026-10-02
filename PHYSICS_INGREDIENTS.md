@@ -7,7 +7,17 @@ existing results at their actual scopes. Native states, cuts, composition,
 observers and memory precede geometric, probabilistic and physical adapters.
 The historical R1–R46 register and its frozen evidence remain unchanged.
 
-The latest Yang–Mills continuation is **[YM-47][ym47]**. Local vacuum history
+The latest Yang–Mills continuation is **[YM-48][ym48]**. The reflected
+completion of the joint history state now has a strongly continuous positive
+time action and a nonnegative self-adjoint generator. Its domain, graph core,
+resolvent tails and inherited all-source gap are explicit.
+A local Casimir/Leibniz energy identity supplies a time-zero coefficient-row
+embedding. A centered single-site character at heat time 1/4 has reflected
+norm squared at least 5/32, so the interacting carrier has a nonzero
+excitation. This is not a separately established gauge-invariant physical
+particle, material energy scale or Clay nontriviality certificate.
+
+The preceding **[YM-47][ym47]** proves that local vacuum history
 readouts have a joint spatial-volume/time-refinement limit at arbitrary
 relative cutoff rates, and both iterated limits coincide. This applies to
 the actual square-sourced S chain throughout abs(theta)<1/1680. The positive
@@ -21,8 +31,9 @@ and normalized discrete time map, including the actual S ordering.
 [YM-45][ym45] supplies the inherited rate, independent of finite width and
 time step on kappa(a)=theta a. At abs(theta)=1/4096 it is at least
 0.005137179865 per unit heat parameter. YM-47 handles YM-46's a-dependent
-boundary budget for local history readouts. An infinite-volume strongly
-continuous time map/generator, native measure/NCG identification and the
+boundary budget for local history readouts. YM-48 now constructs the
+continuous-time generator on their reflected completion. Full
+instantaneous-row/observable identification, native measure/NCG and the
 full 4D continuum remain open.
 
 [YM-44][ym44] already supplies that full fixed-width time limit and its
@@ -99,7 +110,7 @@ NCG's checked research commit is `7b34bc657883272f58dc74e9e511ae5c568266ff`.
 | 1. Gauge carrier/observable identification | Reuse existing YM-12 positivity and the established transfers; identify the new compact carrier with a specified existing family | An explicit measure/observable/transfer intertwiner and physical-sector Ward identities; common Lie brackets alone do not provide it |
 | 2. Physical quantum matter | Quantization of a declared matter sector compatible with that gauge construction | CAR/fermion grading, positive physical energy and the relevant anomaly checks; the commuting classical SM action is not silently relabelled a quantum fermion |
 | 3. Dynamical geometry constraints | A concrete coupled gauge/metric constraint formulation and its physical reduction | First-class closure or a precisely controlled regulator deformation, removal of gauge/negative directions, and propagation of all constraints; NCG's gauge Gauss identity closes only the classical gauge subtask |
-| 4. YM continuous-time action — current continuation | YM-47 joins local vacuum history limits at arbitrary relative cutoff rates; positivity, correlation gap and reflection positivity are retained | Construct an infinite-volume strongly continuous normalized time map, prove composition and time-collision continuity on the declared completed carrier, and identify its generator/domain. A weak readout limit alone does not prove composition |
+| 4. YM instantaneous-row and observable identification — current continuation | YM-48 constructs reflected continuous-time action, its self-adjoint generator/domain/core and gap, plus an isometric coefficient-row embedding and nonzero source | Determine whether the row embedding exhausts the history carrier and is time-invariant, or identify its retained memory complement; prove the required bounded observable action. Reflection-null histories are not automatically a multiplication ideal |
 | 5. Continuum and dictionary | A nontrivial interacting regulator limit and identification of its physical observables | Cutoff/volume/time estimates, measure control, reflection positivity or another valid unitary construction, and the declared native-to-continuum intertwiner |
 | 6. Physical selection and prediction | A native process selector or an independently calibrated, falsifiable model | Why this module/action/trajectory is selected; dimensionless observable predictions without fitting the target answer; physical G, ℏ, c, α and masses remain separately tracked |
 
@@ -108,12 +119,12 @@ has been exhausted. A restricted candidate quantum-gravity theory can be
 attempted before deriving the entire Standard Model, provided its actual field
 content, observables and boundaries are stated.
 
-The immediate continuation is priority 4's **continuous-time action and
-generator on the completed infinite-volume carrier**. Reuse YM-47's common
-history limit, YM-46's actual fixed-step maps, YM-45's gap and the canonical
-completion tools. Prove composition and continuity at coincident times;
-do not infer them from selected correlations. Priority 1 remains the
-separate native gauge/measure identification task.
+The immediate continuation is priority 4's **instantaneous-row recovery and
+observable action**. Reuse YM-48's isometric embedding and reflected generator,
+YM-46's actual fixed-step maps, and the existing recognition/memory contracts.
+Prove onto/invariance and the observable bounds, or retain and characterize
+the extra history memory. Priority 1 remains the separate native gauge/measure
+identification task; a Hilbert-space construction alone does not select it.
 
 ## Yang–Mills ledger precision
 
@@ -146,9 +157,11 @@ their uniform completion. Its normalized transfer evolution is discrete;
 physical unitary real-time evolution is not claimed. The fixed-a state
 construction and regulated reflection positivity provide inputs to YM-47's
 joint local-history proof. That proof now identifies both iterated limits
-and the unrestricted joint limit, with an explicit error. It does not yet
-construct the continuous-time operator action, derive the reference measure
-from Phi_Sigma or identify it with the NCG action. Remote time endpoints
+and the unrestricted joint limit, with an explicit error. YM-48 now
+constructs continuous-time operator action on the reflected history carrier,
+with a generator/domain and coefficient-row embedding. It does not prove
+full instantaneous-row closure, derive the reference measure from Phi_Sigma
+or identify it with the NCG action. Remote time endpoints
 are already removed in these vacuum histories; arbitrary finite temporal
 padding and the physical spatial continuum are separate limits.
 
@@ -162,6 +175,18 @@ actual quantum theory of dynamical geometry, not only an Einstein equation or
 a formal effective-action derivative.
 
 ## Evidence attached to this update
+
+[YM-48's certificate][ym48cert] binds nine written results, 48 independent
+reflected path identities, 30 mixed-source gap/composition controls, four
+null translations, eight two-sided inverse checks, six resolvent identities,
+24 generator/domain/gap checks, twelve outward quadratures, 35 coefficient
+identities, 108 integration-by-parts checks, twelve weighted energy controls
+and twelve refusal groups. Fourteen new and 66 related tests pass on
+Python 3.12. Canonical certificate SHA-256:
+52e847eb0c70a1e61685fc63080086391c2eb15678bae650fb80ea48cf1605af.
+All 53 upstream source hashes and the canonical RKF engine are preserved.
+The general infinite proof is written, not mechanically formalized; the
+finite product-chain and polynomial fixtures have their stated control scopes.
 
 [YM-47's certificate][ym47cert] binds eight written results, four parameter
 cells, 16 spatial budgets, six rational vacuum comparisons, eight independent
@@ -246,3 +271,6 @@ is navigation and scope control, not another certificate or R-stage.
 
 [ym47]: https://github.com/Parveen117/Publications/blob/c29ef3a8a961201c59673f82a19dd5c5ab98b94b/papers/yang-mills-certified-benchmark/YM47_JOINT_LOCAL_HISTORY_LIMIT.md
 [ym47cert]: https://github.com/Parveen117/Publications/blob/c29ef3a8a961201c59673f82a19dd5c5ab98b94b/papers/yang-mills-certified-benchmark/certificates/YM47_RESULT.json
+
+[ym48]: https://github.com/Parveen117/Publications/blob/ced24dae286376891dbd0c31566e674262ae390a/papers/yang-mills-certified-benchmark/YM48_REFLECTED_TIME_GENERATOR.md
+[ym48cert]: https://github.com/Parveen117/Publications/blob/ced24dae286376891dbd0c31566e674262ae390a/papers/yang-mills-certified-benchmark/certificates/YM48_RESULT.json
