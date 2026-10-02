@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-Current register: [R1–R45 manifest](CURRENT_MANIFEST.json) and [current results, branch integration and CI scope](CURRENT_STATUS.md). The historical `MANIFEST.json` remains frozen through R13 because later certificates hash it as prior evidence.
+Current register: [R1–R46 manifest](CURRENT_MANIFEST.json) and [current results, branch integration and CI scope](CURRENT_STATUS.md). The historical `MANIFEST.json` remains frozen through R13 because later certificates hash it as prior evidence.
 
 Common mathematical development now follows [Publications' Morphic/EMK/UGD foundation route](https://github.com/Parveen117/Publications/blob/main/MATHEMATICAL_FOUNDATION.md). Physical applications continue here, using the canonical RKF engine and preserving the existing research evidence.
 
@@ -24,6 +24,12 @@ Common mathematical development now follows [Publications' Morphic/EMK/UGD found
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R46: a measurable port for the existing native return
+
+[R46](02-relational-response/NATIVE_RETURN_PORT_R46.md) constructs a positive finite-path readout for the unchanged RKF R2 return and gives its explicit ideal resistor-ladder interface. Scaling each series resistance as `1/z` and each shunt resistance as `z` realizes the common native paired-cell probe. The existing Publications third-probe prediction now has a component table, current readout, finite-length enclosure and tolerance budget.
+
+The 20-section constructed fixture predicts an ideal third current near **112.160635 microampere** at 0.1 V with a 1000-ohm reference. This is a computed design value, not a measurement. [Verification](04-operator-evolution/R46_VERIFICATION.json) records five written results, 11 exact groups, 80 independent node solves, 80 power balances, eight native replays and 16 rejected false alternatives. The [source audit](04-operator-evolution/r46-return-port/SOURCE_AUDIT.md) credits the earlier mathematics and distinguishes the physical interface from a primitive-only derivation. [R46 CI](https://github.com/Parveen117/extra-ideas/actions/workflows/r46-return-port.yml) verifies this application separately from the unchanged R16–R45 runtime campaign.
 
 ## R45: curvature-generated flow and recovery of phase direction
 

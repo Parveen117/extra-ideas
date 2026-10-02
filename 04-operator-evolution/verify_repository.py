@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Check the current register and replay frozen native applications without changing evidence.
 
-Scope: R1--R45 recorded evidence integrity, the complete R16 foundation
+Scope: the current recorded register, the complete R16 foundation
 checker, and R17--R45 native application/claim-graph replays. Historical
 recursive verifier entry points also pin navigation at their own stage;
 this runner uses their unchanged native command construction blocks instead.
@@ -65,11 +65,15 @@ def check_file(home, row):
 
 def verify_register(book):
     rows = book['developments']
-    require([row['id'] for row in rows] == [f'R{n}' for n in range(1, 46)],
-            'Current register must cover R1--R45 in order')
+    latest = book['latest_development']
+    require(re.fullmatch(r'R[1-9][0-9]*', latest) is not None, 'Invalid latest development')
+    last = int(latest[1:])
+    require(last >= 45, 'The preserved R1--R45 register may not be truncated')
+    require([row['id'] for row in rows] == [f'R{n}' for n in range(1, last + 1)],
+            'Current register must cover every stage in order')
     actual = {int(re.search(r'R(\d+)_VERIFICATION', p.name)[1])
               for p in HERE.glob('R*_VERIFICATION.json')}
-    require(actual | {16} == set(range(1, 46)), 'Unregistered development report')
+    require(actual | {16} == set(range(1, last + 1)), 'Unregistered development report')
     for row in rows:
         for key in ['proof', 'verification', 'source_pins', 'native_certificate', 'ledger', 'scope_correction']:
             if key in row:
@@ -88,7 +92,7 @@ def verify_register(book):
             value = dict(record)
             expected = value.pop('canonical_report_sha256')
             require(digest(canonical(value)) == expected, 'Report digest mismatch: ' + row['id'])
-    require(book['latest_development'] == 'R45', 'Changed latest development')
+    require(rows[-1]['id'] == latest, 'Changed latest development')
     require(book['formal_proof_assistant_verified'] is False and
             book['physical_constants_selected'] is False, 'Physical/formal claim promotion')
     check_anchor(book['historical_manifest'])

@@ -2,7 +2,7 @@
   "schema": "extra-ideas.current-manifest.v1",
   "project": "Extra Ideas",
   "updated_date": "2026-10-02",
-  "latest_development": "R45",
+  "latest_development": "R46",
   "latest_research_commit": "452fbe05797d642bd3c72fefb631c1ad61db78a9",
   "research_snapshot": {
     "commit": "452fbe05797d642bd3c72fefb631c1ad61db78a9",
@@ -54,7 +54,14 @@
     "workflow": ".github/workflows/certificates.yml",
     "runner": "04-operator-evolution/verify_repository.py",
     "live_status_url": "https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml",
-    "scope": "R1-R45 registered evidence integrity; full R16 scoped foundation checker; R17-R45 unchanged native application replays, written-section bindings and available derivation-graph mutation controls. R1-R15 historical runtimes and legacy recursive navigation-pinned entry points are not rerun."
+    "scope": "R1-R46 registered evidence integrity; full R16 scoped foundation checker; unchanged R17-R45 native runtime replays; dedicated R46 workflow checks its port application, source pins and frozen evidence. Earlier historical runtime limits remain unchanged.",
+    "application_workflows": [
+      {
+        "result": "R46",
+        "workflow": ".github/workflows/r46-return-port.yml",
+        "runner": "04-operator-evolution/r46-return-port/verify.cjs"
+      }
+    ]
   },
   "formal_proof_assistant_verified": false,
   "physical_constants_selected": false,
@@ -1318,6 +1325,38 @@
       "ledger": {
         "path": "04-operator-evolution/R45_DERIVATION_LEDGER.json",
         "git_blob_sha": "5b418ce3009739de4ebaea94b7151326f6ed22b9"
+      }
+    },
+    {
+      "id": "R46",
+      "title": "Native return port and physical probe mapping",
+      "proof": {
+        "path": "02-relational-response/NATIVE_RETURN_PORT_R46.md",
+        "git_blob_sha": "85c06cb965868ff75f1d987efde33a8c2acee48a"
+      },
+      "verification": {
+        "path": "04-operator-evolution/R46_VERIFICATION.json",
+        "git_blob_sha": "1ac77834f3f7e66e3ba870ad9621208d5df17b1c",
+        "status": "PASS_R46_NATIVE_RETURN_PORT_ADAPTER"
+      },
+      "source_pins": {
+        "path": "04-operator-evolution/r46-return-port/SOURCE_PINS.json",
+        "git_blob_sha": "8f8a409d4b198ba05294f72a535f3efb100222bf"
+      },
+      "native_certificate": {
+        "path": "04-operator-evolution/r46-return-port/CERTIFICATE.json",
+        "git_blob_sha": "0e988142418b0a4f052ece327b8731d790378d4b"
+      },
+      "ledger": {
+        "path": "04-operator-evolution/r46-return-port/DERIVATION_LEDGER.json",
+        "git_blob_sha": "bfdbdf9271050021ebf8dde7c7933880af411d01"
+      },
+      "scope": "Five written application proofs, exact finite target/port comparisons and explicit ideal electrical interface; no measured device result.",
+      "recorded_counts": {
+        "written_results": 5,
+        "exact_check_groups": 11,
+        "native_symbolic_replays": 8,
+        "negative_controls_rejected": 16
       }
     }
   ]

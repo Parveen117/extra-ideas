@@ -4,6 +4,10 @@ Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.t
 
 Current navigation: [R1–R45 results and branch/CI status](../CURRENT_STATUS.md), [current manifest](../CURRENT_MANIFEST.json), and [live native CI](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml). The R38 working note is integrated as historical context; its target is superseded by the certified R38 proof below. Frozen source documents and certificates retain their recorded bytes.
 
+## R46 native return port and physical probe mapping
+
+[NATIVE_RETURN_PORT_R46.md](NATIVE_RETURN_PORT_R46.md) reuses RKF R2 and Publications NI/CR to realize the return coefficient through a positive finite-path target and an explicit ideal electrical port. The component control law, independent node/power checks, finite-tail bounds and tolerance intervals make the earlier third-probe prediction operational. The constructed fixture is not laboratory evidence or a new fundamental constant.
+
 ## R45 native curvature flow, directed transfer and phase recovery
 
 [NATIVE_CURVATURE_FLOW_R45.md](NATIVE_CURVATURE_FLOW_R45.md) derives a controlled curvature flow from eight native exchange factors, keeping the full finite residue and inverse-count error. Its exact cycle arrow gives oriented cut transfer, local matching deficits and metric `1/8`. The first direction-sensitive count term is cubic.

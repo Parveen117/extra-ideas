@@ -4,7 +4,7 @@ Source: the section of that name in [4ways.tex](../4ways.tex), with later shared
 
 ## Current repository CI
 
-[verify_repository.py](verify_repository.py) validates the [R1–R45 register](../CURRENT_MANIFEST.json), current/frozen evidence hashes and integrated branch ancestry. It executes the complete R16 scoped foundation checker and replays the unchanged R17–R45 native applications, matching every frozen native certificate and written-section binding and rerunning available graph mutation controls. [Live GitHub Actions](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml) runs this check on main pushes and pull requests.
+[verify_repository.py](verify_repository.py) validates the [R1–R46 register](../CURRENT_MANIFEST.json), current/frozen evidence hashes and integrated branch ancestry. It executes the complete R16 scoped foundation checker and replays the unchanged R17–R45 native applications, matching every frozen native certificate and written-section binding and rerunning available graph mutation controls. [Live GitHub Actions](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml) runs this check on main pushes and pull requests.
 
 ```bash
 python3.12 -B 04-operator-evolution/verify_repository.py \
@@ -14,6 +14,20 @@ python3.12 -B 04-operator-evolution/verify_repository.py \
 ```
 
 Use the exact upstream commits in R45's source pins. [CURRENT_STATUS.md](../CURRENT_STATUS.md) explains runtime scope, the historical R38 note and the frozen R13 manifest. Historical recursive entry points below retain their own stage's navigation pins; current CI reuses their hash-checked native command expressions without rewriting those records. R1–R15 historical runtimes are hash-checked rather than reexecuted by this workflow.
+
+## R46 native return port verification
+
+[r46-return-port/verify.cjs](r46-return-port/verify.cjs) imports the canonical R2 solver unchanged and compares it with independent finite node elimination. It checks 80 node solves and power balances, 36 tail controls, all 16 two-section tolerance corners, eight native word replays and 16 negative controls. The frozen [protocol](r46-return-port/PROTOCOL.json) labels its values as a constructed ideal-component fixture.
+
+```bash
+node 04-operator-evolution/r46-return-port/verify.cjs \
+  --rkf-root ../Recognition-Kernel-Framework \
+  --publications-root ../Publications \
+  --materials-root ../EMK-material-response-public \
+  --thermo-root ../Thermodynamics-Reproducibility --check
+```
+
+Use the exact commits in [SOURCE_PINS.json](r46-return-port/SOURCE_PINS.json). Check mode is read-only; `--write` explicitly regenerates only this packet's new evidence. [R46 CI](https://github.com/Parveen117/extra-ideas/actions/workflows/r46-return-port.yml) runs this application in addition to the historical runtime campaign above.
 
 ## R45 curvature flow, cyclic direction and refined-clock verification
 

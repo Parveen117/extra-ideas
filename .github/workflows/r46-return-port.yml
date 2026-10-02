@@ -1,0 +1,84 @@
+name: R46 native return port
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: r46-return-port-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  return-port:
+    name: Native return and independent port verification
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout application
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: extra-ideas
+          persist-credentials: false
+      - name: Checkout unchanged native engine and return theorem
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: Parveen117/Recognition-Kernel-Framework
+          ref: 3cc5a33b05c16d59c90994ddda69dedc0d392424
+          path: rkf
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            operator_foundation/core/native_operator.cjs
+            operator_foundation/core/paninian_operator.cjs
+            research/recognition_return/return_solver.cjs
+            research/recognition_return/r2/variable_return.cjs
+            research/recognition_return/r2/THEOREM.md
+      - name: Checkout earlier identification and prediction proofs
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: Parveen117/Publications
+          ref: f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56
+          path: publications
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            papers/native-return-identification/THEOREM.md
+            papers/native-critical-response/THEOREM.md
+      - name: Checkout materials comparison sources
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: Parveen117/EMK-material-response-public
+          ref: 5dfd7f2cbdcd7fe7559ae2334c495dea947fa175
+          path: materials
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            README.md
+            docs/ASSUMPTIONS_AND_LIMITATIONS.md
+            src/emk_lambda_material_response_v1.py
+      - name: Checkout thermodynamics comparison sources
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: Parveen117/Thermodynamics-Reproducibility
+          ref: 118596980f3dfd72329a3966c867867bf51fb99a
+          path: thermo
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            results/T02_RESULT.md
+            protocols/T01_MEASUREMENT_CONTRACT.md
+      - name: Set up pinned Node runtime
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: '24.19.0'
+          package-manager-cache: false
+      - name: Check source pins, proofs, circuit identities and frozen evidence
+        run: |
+          node extra-ideas/04-operator-evolution/r46-return-port/verify.cjs \
+            --rkf-root rkf --publications-root publications \
+            --materials-root materials --thermo-root thermo --check
