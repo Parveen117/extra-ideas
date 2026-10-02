@@ -1,6 +1,6 @@
 # Current Extra Ideas status
 
-Updated: 2 October 2026. Latest research result: **R46**, the [native return port](02-relational-response/NATIVE_RETURN_PORT_R46.md). The preceding R45 source remains pinned at [452fbe0](https://github.com/Parveen117/extra-ideas/commit/452fbe05797d642bd3c72fefb631c1ad61db78a9).
+Updated: 3 October 2026. Latest research result: **R46**, the [native return port](02-relational-response/NATIVE_RETURN_PORT_R46.md). The preceding R45 source remains pinned at [452fbe0](https://github.com/Parveen117/extra-ideas/commit/452fbe05797d642bd3c72fefb631c1ad61db78a9).
 
 [CURRENT_MANIFEST.json](CURRENT_MANIFEST.json) is the current R1–R46 register. [MANIFEST.json](MANIFEST.json) is a frozen historical manifest through R13: later certificates hash it as prior evidence. The original manuscript, historical route guides, source pins and certificates retain their recorded bytes. Current navigation uses the root, relational-response and operator-evolution guides plus this page and the current manifest.
 
@@ -11,11 +11,13 @@ non-Abelian source/Gauss result to the conditional gravity sector, and record
 the remaining quantum/continuum targets. They are application/navigation
 documents, not a new primitive-only R-stage; the register remains R1–R46.
 
-Latest upstream continuation: **Publications YM-42** certifies structural
-silence contraction on the existing three-rail carrier, with a geometric tail
-for every spatial step. The mission map now points to the remaining time
-operator estimate and retains T75's two-rail/declared-tail qualifications.
-Existing transfer positivity is reused; this is not a new Extra Ideas R-stage.
+Latest upstream continuation: **Publications YM-43** proves an arbitrary-source
+time-transfer bound for the full heat-kernel chain at three certified coarse
+parameter cells, within its declared positive-functional carrier. The mission
+map now targets time-refinement while retaining the native measure/NCG and
+continuum obligations. YM-42's spatial result and T75's two-rail/declared-tail
+scope remain distinct. Current YM verification uses Python 3.12 only. The
+Extra Ideas register remains R1–R46; this is an upstream application update.
 
 ## R46: physical readout for an existing native prediction
 

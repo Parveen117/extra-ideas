@@ -16,10 +16,11 @@ completion. Its [gauge/gravity interface](02-relational-response/NATIVE_GAUGE_GR
 is a conditional application, with classical, quantum and continuum gates kept
 distinct. It does not add an unverified R47 or change the R1–R46 register.
 
-Latest upstream step: **YM-42** certifies the existing three-rail silence
-carrier with a structural memory-tail bound. The ingredient map links its
-proof/certificate and the next time-transfer operator estimate; spatial
-contraction and a physical mass gap retain distinct claims.
+Latest upstream step: **YM-43** proves an arbitrary-source time-transfer bound
+in three coarse heat-kernel parameter cells, using the declared positive
+reference functional. The ingredient map links its proof/certificate and the
+next time-refinement target. Current verification uses Python 3.12 only;
+physical measure identification and the interacting continuum remain open.
 
 [![Native certificates](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml/badge.svg?branch=main)](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml)
 
