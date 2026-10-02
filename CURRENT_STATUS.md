@@ -4,6 +4,13 @@ Updated: 2 October 2026. Latest research result: **R46**, the [native return por
 
 [CURRENT_MANIFEST.json](CURRENT_MANIFEST.json) is the current R1–R46 register. [MANIFEST.json](MANIFEST.json) is a frozen historical manifest through R13: later certificates hash it as prior evidence. The original manuscript, historical route guides, source pins and certificates retain their recorded bytes. Current navigation uses the root, relational-response and operator-evolution guides plus this page and the current manifest.
 
+The current mission also has a [physics ingredient map](PHYSICS_INGREDIENTS.md)
+and [native compact-gauge/gravity interface](02-relational-response/NATIVE_GAUGE_GRAVITY_BRIDGE.md).
+They consume Publications NCG-1–NCG-8 by commit and certificate, connect its
+non-Abelian source/Gauss result to the conditional gravity sector, and record
+the remaining quantum/continuum targets. They are application/navigation
+documents, not a new primitive-only R-stage; the register remains R1–R46.
+
 ## R46: physical readout for an existing native prediction
 
 The [R46 proof](02-relational-response/NATIVE_RETURN_PORT_R46.md) supplies a finite positive-path adapter and an explicit ideal DC resistor-ladder realization of RKF R2. A two-bank component control implements the native probe; the previously derived Publications third response receives finite-length and component-error bounds. The example is constructed, not measured.

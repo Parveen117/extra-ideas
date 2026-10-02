@@ -10,6 +10,12 @@ Current register: [R1–R46 manifest](CURRENT_MANIFEST.json) and [current result
 
 Common mathematical development now follows [Publications' Morphic/EMK/UGD foundation route](https://github.com/Parveen117/Publications/blob/main/MATHEMATICAL_FOUNDATION.md). Physical applications continue here, using the canonical RKF engine and preserving the existing research evidence.
 
+The [quantum-gravity/Yang–Mills ingredient map](PHYSICS_INGREDIENTS.md) now audits
+the existing physical sectors and consumes the new native compact-gauge
+completion. Its [gauge/gravity interface](02-relational-response/NATIVE_GAUGE_GRAVITY_BRIDGE.md)
+is a conditional application, with classical, quantum and continuum gates kept
+distinct. It does not add an unverified R47 or change the R1–R46 register.
+
 [![Native certificates](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml/badge.svg?branch=main)](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml)
 
 **Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R45's derivation ledger](04-operator-evolution/R45_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
