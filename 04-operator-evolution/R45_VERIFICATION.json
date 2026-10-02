@@ -1,0 +1,974 @@
+{
+  "schema": "extra-ideas.r45.verification.v1",
+  "date": "2026-10-02",
+  "status": "PASS_R45_NATIVE_CURVATURE_FLOW",
+  "inherited_combined_reading_papers": 33,
+  "written_results": 7,
+  "exact_check_groups": 9,
+  "native_symbolic_replays": 14,
+  "counters": {
+    "native_balanced_loop_has_exact_fourth_order_residue": {
+      "universal_residue_terms": 17,
+      "residue_degrees": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ],
+      "residue_gain_bound": "355/256",
+      "exact_balanced_words": 10,
+      "finite_curvature_commutator_square": "4374/390625",
+      "finite_word_is_pure_curvature_flow": false,
+      "finite_word_conserves_cycle_activity": true,
+      "finite_word_conserves_signed_curvature": false,
+      "finite_half_loop_cycle_radial": "5/8",
+      "phase_of_finite_half_loop_discarded": false
+    },
+    "native_quadratic_count_refinement_encloses_curvature_flow": {
+      "exact_refinement_enclosures": [
+        {
+          "quadratic_parameter": "1/8",
+          "loop_count": 1,
+          "edge_factor_count": 8,
+          "rational_step": "1/4",
+          "flow_gain_error_bound": "643/65536",
+          "factorial_tail": "1/19615528388229052391451041697872613875859282984960000000",
+          "residual_square_sha256": "d7eedac0f36ebc6a3c1315ac721ccfaf3276de7dd2fd738a42904cb8b8b7704b",
+          "residual_square_bound": "37039243439546247449434949330429007856159160569535211270474030567137877869788093540386824334040104960000001/128256317983139948639248952957204464873080409608735672093336500572180442630144463962747255862067200000000000000"
+        },
+        {
+          "quadratic_parameter": "1/8",
+          "loop_count": 4,
+          "edge_factor_count": 32,
+          "rational_step": "1/8",
+          "flow_gain_error_bound": "643/262144",
+          "factorial_tail": "1/19615528388229052391451041697872613875859282984960000000",
+          "residual_square_sha256": "b950dd2b362492beeda3d50cb82a24c344c4d3ff58804e5d211322fee1064a47",
+          "residual_square_bound": "2314952714971640465589684333151812991009947535595950776575560177837020960133124703078589680310026240000001/128256317983139948639248952957204464873080409608735672093336500572180442630144463962747255862067200000000000000"
+        },
+        {
+          "quadratic_parameter": "1/8",
+          "loop_count": 16,
+          "edge_factor_count": 128,
+          "rational_step": "1/16",
+          "flow_gain_error_bound": "643/1048576",
+          "factorial_tail": "1/19615528388229052391451041697872613875859282984960000000",
+          "residual_square_sha256": "ea79928db7b499e46faf7aa4a2d72bce0e85b7aed0a735ad34a67f43a6326820",
+          "residual_square_bound": "144684544685727529099355270821988311938121720974746941578705827962539708326162508143515144877506560000001/128256317983139948639248952957204464873080409608735672093336500572180442630144463962747255862067200000000000000"
+        },
+        {
+          "quadratic_parameter": "1/8",
+          "loop_count": 64,
+          "edge_factor_count": 512,
+          "rational_step": "1/32",
+          "flow_gain_error_bound": "643/4194304",
+          "factorial_tail": "1/19615528388229052391451041697872613875859282984960000000",
+          "residual_square_sha256": "4a95a6b747509b9c9940480c09ac4f1ff246b49432b5a61c786b6640e16dc6d9",
+          "residual_square_bound": "9042784042857970568709704426374269496132607560921688359352443459590206349845710309245519019376640000001/128256317983139948639248952957204464873080409608735672093336500572180442630144463962747255862067200000000000000"
+        },
+        {
+          "quadratic_parameter": "1/2",
+          "loop_count": 1,
+          "edge_factor_count": 8,
+          "rational_step": "1/2",
+          "flow_gain_error_bound": "643/4096",
+          "factorial_tail": "1/17296146193352704639191716947034112000000",
+          "residual_square_sha256": "aabcceccf2c11cbf45c644107551c746a188091d8ecaa067dde61080e9172327",
+          "residual_square_bound": "7372261724103460535734143336407030441014165483768085971913001458353569792000001/99718891047276418417980969301220879018031894858357072168664430542848000000000000"
+        },
+        {
+          "quadratic_parameter": "1/2",
+          "loop_count": 4,
+          "edge_factor_count": 32,
+          "rational_step": "1/4",
+          "flow_gain_error_bound": "643/16384",
+          "factorial_tail": "1/17296146193352704639191716947034112000000",
+          "residual_square_sha256": "717ed1539d7d133f9f79a0775cd712a5409c6b6ac1b3478a3608b49a7da49018",
+          "residual_square_bound": "460766357756466283483383958525439402564403539329956586844690790060392448000001/99718891047276418417980969301220879018031894858357072168664430542848000000000000"
+        },
+        {
+          "quadratic_parameter": "1/2",
+          "loop_count": 16,
+          "edge_factor_count": 128,
+          "rational_step": "1/8",
+          "flow_gain_error_bound": "643/65536",
+          "factorial_tail": "1/17296146193352704639191716947034112000000",
+          "residual_square_sha256": "e35fae976159fdd0af130eb9bebe36afbcb36f3f946a65c5c2dd19539d331ccb",
+          "residual_square_bound": "28797897359779142717711497407839962660529770356735090077825224107098112000001/99718891047276418417980969301220879018031894858357072168664430542848000000000000"
+        },
+        {
+          "quadratic_parameter": "1/2",
+          "loop_count": 64,
+          "edge_factor_count": 512,
+          "rational_step": "1/16",
+          "flow_gain_error_bound": "643/262144",
+          "factorial_tail": "1/17296146193352704639191716947034112000000",
+          "residual_square_sha256": "6e0b1179389ef2fff2b71b9311d289722502a13ec7602fd55a135770e3a44455",
+          "residual_square_bound": "1799868584986196419856968587989997666346747934449143979872088938774528000001/99718891047276418417980969301220879018031894858357072168664430542848000000000000"
+        },
+        {
+          "quadratic_parameter": "2",
+          "loop_count": 1,
+          "edge_factor_count": 8,
+          "rational_step": "1",
+          "flow_gain_error_bound": "643/256",
+          "factorial_tail": "1/14914625041664409600000000",
+          "residual_square_sha256": "02baa891230af18d358c167442d586e6b2190f16c1387de0c68c48839280b348",
+          "residual_square_bound": "1403352246812925916446889401720316172736057600000001/74148680044481030598907675772190720000000000000000"
+        },
+        {
+          "quadratic_parameter": "2",
+          "loop_count": 4,
+          "edge_factor_count": 32,
+          "rational_step": "1/2",
+          "flow_gain_error_bound": "643/1024",
+          "factorial_tail": "1/14914625041664409600000000",
+          "residual_square_sha256": "87372311e6d85c0254aa5347f1f5e826036b4c8f274e9361a28cc33ce75f654f",
+          "residual_square_bound": "87709515425807869777930601655523523184014400000001/74148680044481030598907675772190720000000000000000"
+        },
+        {
+          "quadratic_parameter": "2",
+          "loop_count": 16,
+          "edge_factor_count": 128,
+          "rational_step": "1/4",
+          "flow_gain_error_bound": "643/4096",
+          "factorial_tail": "1/14914625041664409600000000",
+          "residual_square_sha256": "a63be0519f8e4adc3901e9ebcfb752eeea8ac78bf6f9e9238b4bf2f451da450b",
+          "residual_square_bound": "5481844714112991861120666115471160796003600000001/74148680044481030598907675772190720000000000000000"
+        },
+        {
+          "quadratic_parameter": "2",
+          "loop_count": 64,
+          "edge_factor_count": 512,
+          "rational_step": "1/8",
+          "flow_gain_error_bound": "643/16384",
+          "factorial_tail": "1/14914625041664409600000000",
+          "residual_square_sha256": "ad70810e2c5d03aaceccc52fb7dbe78f2f9e40d568d7b76a0f707551d8be2c56",
+          "residual_square_bound": "342615294632061991320042510217182699000900000001/74148680044481030598907675772190720000000000000000"
+        }
+      ],
+      "enclosure_count": 12,
+      "constructed_root_brackets": [
+        {
+          "count": 4,
+          "lower": "27/16",
+          "upper": "7/4"
+        },
+        {
+          "count": 8,
+          "lower": "443/256",
+          "upper": "111/64"
+        },
+        {
+          "count": 16,
+          "lower": "113511/65536",
+          "upper": "14189/8192"
+        }
+      ],
+      "square_root_assumed_primitive": false,
+      "general_limit_proved_in_written_section": true,
+      "finite_count_identified_with_exact_limit": false,
+      "quadratic_parameter_identified_as_physical_duration": false
+    },
+    "native_cycle_cut_determines_closed_curvature_arrows": {
+      "exact_closed_flow_instances": 18,
+      "native_phase_coordinate_cases": [
+        {
+          "c": "1",
+          "v": "0"
+        },
+        {
+          "c": "61/67",
+          "v": "64/67"
+        },
+        {
+          "c": "13/19",
+          "v": "32/19"
+        },
+        {
+          "c": "1/7",
+          "v": "16/7"
+        },
+        {
+          "c": "-1/2",
+          "v": "2"
+        },
+        {
+          "c": "13/19",
+          "v": "-32/19"
+        },
+        {
+          "c": "-1/2",
+          "v": "2"
+        },
+        {
+          "c": "-1/2",
+          "v": "-2"
+        },
+        {
+          "c": "-1",
+          "v": "0"
+        }
+      ],
+      "oriented_cycle_transfer_exact": true,
+      "curvature_square_coefficient": "3/16",
+      "cycle_phase_period": "8 theta_- / sqrt_native(3)",
+      "phase_cuts_require_constructed_native_root": true
+    },
+    "oriented_transfer_derives_memory_metric_and_cubic_count": {
+      "exact_orbit_cases": 9,
+      "reflection_readings": [
+        {
+          "ledger": 0,
+          "count": "1/9",
+          "deficit": "16/81"
+        },
+        {
+          "ledger": 1,
+          "count": "4/9",
+          "deficit": "40/81"
+        },
+        {
+          "ledger": 2,
+          "count": "4/9",
+          "deficit": "40/81"
+        }
+      ],
+      "response_metric": "1/8",
+      "directional_count_cubic": "1/32",
+      "directional_count_quintic": "-3/2048",
+      "direction_detected_in_quadratic_count": false,
+      "memory_requires_random_mixture": false,
+      "positive_activity_identified_with_signed_curvature": false
+    },
+    "native_network_loops_factor_the_cyclic_curvature": {
+      "ring_factorization_cases": [
+        {
+          "ledgers": 3,
+          "local_oriented_pairs": 3
+        },
+        {
+          "ledgers": 4,
+          "local_oriented_pairs": 4
+        },
+        {
+          "ledgers": 5,
+          "local_oriented_pairs": 5
+        },
+        {
+          "ledgers": 6,
+          "local_oriented_pairs": 6
+        },
+        {
+          "ledgers": 7,
+          "local_oriented_pairs": 7
+        },
+        {
+          "ledgers": 8,
+          "local_oriented_pairs": 8
+        },
+        {
+          "ledgers": 9,
+          "local_oriented_pairs": 9
+        }
+      ],
+      "exact_network_enclosures": [
+        {
+          "ledgers": 3,
+          "loop_count": 4,
+          "edge_factor_count": 96,
+          "flow_gain_error_bound": "265125/15990784",
+          "residual_square_sha256": "65a8b5a42e0421c3849ba1a00810f397061d923acbaa8232810851e8d9a5315c",
+          "residual_square_bound": "7604187390018995187846508811058633790201993649652490502341532805214017114195737403/9220823451786854999601561147842956676863982363144398983348961899435309767065600000000"
+        },
+        {
+          "ledgers": 3,
+          "loop_count": 16,
+          "edge_factor_count": 384,
+          "flow_gain_error_bound": "1077861/265289728",
+          "residual_square_sha256": "29bfad399de8e62c1937b50c53608e50f0ad9cff6c5f912ea32bc2308f5bb269",
+          "residual_square_bound": "7855195195677581842051013874124349893069069951961759387634463095829309418375916987/158617492159479925200079636525740342362103371965200170525445767863734142133862400000000"
+        },
+        {
+          "ledgers": 4,
+          "loop_count": 4,
+          "edge_factor_count": 128,
+          "flow_gain_error_bound": "26029/983040",
+          "residual_square_sha256": "48c9b207d57bcbcaf9487a64de8a97c0c40a5a0a1dba76a6961bd1da37c9ef7d",
+          "residual_square_bound": "15635980987168318678899767409070307747340099577085555939151088019496188889956329/5575612138274771230610995050429092320060188206685003416429767340427155865600000000"
+        },
+        {
+          "ledgers": 4,
+          "loop_count": 16,
+          "edge_factor_count": 512,
+          "flow_gain_error_bound": "106045/16515072",
+          "residual_square_sha256": "b370be6c123b2248a10706458be72a1b03f6d37235b0ac6a54bc9f3fba3969ee",
+          "residual_square_bound": "8275886115895368140747430563629219525711104832665671931402341806211351979654961/50180509244472941075498955453861830880541693860165030747867906063844402790400000000"
+        },
+        {
+          "ledgers": 5,
+          "loop_count": 4,
+          "edge_factor_count": 160,
+          "flow_gain_error_bound": "599285/15466496",
+          "residual_square_sha256": "99a45d3c9c0f09276e68fd1ae6b2839dc7531579d5ab019a6438f2c641de167d",
+          "residual_square_bound": "12950812265668796988669888643568270639657158553650421517293460159682950508275690361/1725218298074175880333944335159437365878179124219599723785957343291282628280320000000"
+        },
+        {
+          "ledgers": 5,
+          "loop_count": 16,
+          "edge_factor_count": 640,
+          "flow_gain_error_bound": "2445365/263192576",
+          "residual_square_sha256": "012da15eb3515728fb3c8013f3279de913d4e32c4b1e9625ef37b6c5b1ffe423",
+          "residual_square_bound": "13477135478366094455834636157106524557731079065462738567790242370249681644488639481/31223923584306565537753182148629621800543281529721057798977046419044555261214720000000"
+        }
+      ],
+      "orientation_and_list_are_explicit_native_targets": true,
+      "physical_handedness_selected": false,
+      "cyclic_factorization_claimed_for_every_graph": false,
+      "continuum_derivative_premise": false
+    },
+    "native_curvature_modes_have_cubic_count_scaling": {
+      "exact_squared_eigenspaces": 7,
+      "exact_spectra": [
+        {
+          "ledgers": 3,
+          "squared_phase_rates_and_multiplicities": [
+            [
+              0,
+              1
+            ],
+            [
+              "27/16",
+              2
+            ]
+          ]
+        },
+        {
+          "ledgers": 4,
+          "squared_phase_rates_and_multiplicities": [
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ]
+          ]
+        },
+        {
+          "ledgers": 6,
+          "squared_phase_rates_and_multiplicities": [
+            [
+              0,
+              2
+            ],
+            [
+              "3/16",
+              2
+            ],
+            [
+              "27/16",
+              2
+            ]
+          ]
+        }
+      ],
+      "kernel_dimensions": [
+        {
+          "ledgers": 3,
+          "dimension": 1
+        },
+        {
+          "ledgers": 4,
+          "dimension": 2
+        },
+        {
+          "ledgers": 5,
+          "dimension": 1
+        },
+        {
+          "ledgers": 6,
+          "dimension": 2
+        },
+        {
+          "ledgers": 7,
+          "dimension": 1
+        },
+        {
+          "ledgers": 8,
+          "dimension": 2
+        },
+        {
+          "ledgers": 9,
+          "dimension": 1
+        },
+        {
+          "ledgers": 10,
+          "dimension": 2
+        },
+        {
+          "ledgers": 11,
+          "dimension": 1
+        }
+      ],
+      "native_four_mode_checks": 4,
+      "alternating_coefficient_comparisons": 15,
+      "rational_phase_brackets": [
+        {
+          "rational_phase": "1/8",
+          "lower": "1222377332858060105519236957899079/1256615379634958028238730803512606720",
+          "upper": "6648442573763293354475799731/6834661412836333608754583961600"
+        },
+        {
+          "rational_phase": "1/4",
+          "lower": "1355461174166431056170742643/176235560758668959594997350400",
+          "upper": "14323283382581781807509/1862297443072818649497600"
+        },
+        {
+          "rational_phase": "1/2",
+          "lower": "83844969011268341027891/1428606287430463940198400",
+          "upper": "1459290048232879787/24864353373546086400"
+        },
+        {
+          "rational_phase": "1",
+          "lower": "52701638129530867/136242512457891840",
+          "upper": "18345042512369/47424990412800"
+        }
+      ],
+      "general_count_scaling_budgets": [
+        {
+          "ledgers": 8,
+          "scaled_gap_lower": "3/4",
+          "scaled_gap_upper": "1"
+        },
+        {
+          "ledgers": 16,
+          "scaled_gap_lower": "15/16",
+          "scaled_gap_upper": "1"
+        },
+        {
+          "ledgers": 32,
+          "scaled_gap_lower": "63/64",
+          "scaled_gap_upper": "1"
+        },
+        {
+          "ledgers": 64,
+          "scaled_gap_lower": "255/256",
+          "scaled_gap_upper": "1"
+        },
+        {
+          "ledgers": 128,
+          "scaled_gap_lower": "1023/1024",
+          "scaled_gap_upper": "1"
+        }
+      ],
+      "cubic_phase_leading_coefficient": "1/2",
+      "cubic_phase_next_coefficient": "-1/8",
+      "even_curvature_kernel_contains_alternating_mode": true,
+      "finite_target_gap_identified_as_physical_mass_gap": false,
+      "irrational_spectrum_claimed_exactly_enumerated_by_rational_tests": false
+    },
+    "native_cost_and_curvature_reconstruct_oriented_translation": {
+      "exact_translation_reconstructions": [
+        {
+          "ledgers": 3,
+          "cost_nullity": 1,
+          "inverse_keeps_constant_cut": true
+        },
+        {
+          "ledgers": 4,
+          "cost_nullity": 1,
+          "inverse_keeps_constant_cut": true
+        },
+        {
+          "ledgers": 5,
+          "cost_nullity": 1,
+          "inverse_keeps_constant_cut": true
+        },
+        {
+          "ledgers": 6,
+          "cost_nullity": 1,
+          "inverse_keeps_constant_cut": true
+        },
+        {
+          "ledgers": 7,
+          "cost_nullity": 1,
+          "inverse_keeps_constant_cut": true
+        },
+        {
+          "ledgers": 8,
+          "cost_nullity": 1,
+          "inverse_keeps_constant_cut": true
+        },
+        {
+          "ledgers": 9,
+          "cost_nullity": 1,
+          "inverse_keeps_constant_cut": true
+        },
+        {
+          "ledgers": 10,
+          "cost_nullity": 1,
+          "inverse_keeps_constant_cut": true
+        },
+        {
+          "ledgers": 11,
+          "cost_nullity": 1,
+          "inverse_keeps_constant_cut": true
+        }
+      ],
+      "native_four_mode_labels": [
+        {
+          "mode": 0,
+          "cost": 0,
+          "curvature": 0,
+          "phase": [
+            "1",
+            "0"
+          ]
+        },
+        {
+          "mode": 1,
+          "cost": 1,
+          "curvature": 1,
+          "phase": [
+            "0",
+            "1"
+          ]
+        },
+        {
+          "mode": 2,
+          "cost": 2,
+          "curvature": 0,
+          "phase": [
+            "-1",
+            "0"
+          ]
+        },
+        {
+          "mode": 3,
+          "cost": 1,
+          "curvature": -1,
+          "phase": [
+            "0",
+            "-1"
+          ]
+        }
+      ],
+      "zero_cost_mode_divided_away": false,
+      "pair_of_mode_readings_is_injective": true,
+      "two_expectations_claimed_to_recover_arbitrary_state": false
+    },
+    "native_commuting_readouts_retain_coherence_and_cost_boundaries": {
+      "identical_mode_weights": [
+        [
+          [
+            "1/2",
+            "0"
+          ],
+          [
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ],
+        [
+          [
+            "1/2",
+            "0"
+          ],
+          [
+            "1/2",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      ],
+      "exact_equal_polynomial_moments": 25,
+      "distinct_local_profiles": [
+        [
+          "1/2",
+          "1/4",
+          "0",
+          "1/4"
+        ],
+        [
+          "0",
+          "1/4",
+          "1/2",
+          "1/4"
+        ]
+      ],
+      "all_polynomial_moments_equality_proved_in_written_section": true,
+      "mode_readout_is_full_state_tomography": false,
+      "retained_refinement_cost": [
+        {
+          "loop_count": 1,
+          "quadratic_parameter": "1/8",
+          "edge_factors": 8,
+          "total_native_phase_lower": "191/96",
+          "total_native_phase_upper": "2"
+        },
+        {
+          "loop_count": 4,
+          "quadratic_parameter": "1/8",
+          "edge_factors": 32,
+          "total_native_phase_lower": "767/192",
+          "total_native_phase_upper": "4"
+        },
+        {
+          "loop_count": 16,
+          "quadratic_parameter": "1/8",
+          "edge_factors": 128,
+          "total_native_phase_lower": "3071/384",
+          "total_native_phase_upper": "8"
+        },
+        {
+          "loop_count": 64,
+          "quadratic_parameter": "1/8",
+          "edge_factors": 512,
+          "total_native_phase_lower": "12287/768",
+          "total_native_phase_upper": "16"
+        },
+        {
+          "loop_count": 256,
+          "quadratic_parameter": "1/8",
+          "edge_factors": 2048,
+          "total_native_phase_lower": "49151/1536",
+          "total_native_phase_upper": "32"
+        },
+        {
+          "loop_count": 1024,
+          "quadratic_parameter": "1/8",
+          "edge_factors": 8192,
+          "total_native_phase_lower": "196607/3072",
+          "total_native_phase_upper": "64"
+        }
+      ],
+      "quadratic_parameter_erases_phase_cost": false,
+      "remaining_common_calibrations": [
+        {
+          "time_scale": "2",
+          "readout_scale": "3",
+          "action_scale": "6"
+        },
+        {
+          "time_scale": "1/2",
+          "readout_scale": "5/3",
+          "action_scale": "5/6"
+        },
+        {
+          "time_scale": "7/4",
+          "readout_scale": "2/5",
+          "action_scale": "7/10"
+        }
+      ],
+      "physical_hbar_c_alpha_or_mass_selected": false
+    },
+    "actual_refined_clock_preserves_activity_and_complete_observation": {
+      "actual_source_stages": 8,
+      "appended_exchange_factors": 8,
+      "actual_refined_controller_phases": 16,
+      "actual_inverse_roundtrips": 16,
+      "actual_readout_intertwinings": 48,
+      "actual_prefix_checks": 20,
+      "complete_process_pair_witnesses": 3,
+      "full_cycle_equals_actual_source_echo_and_balanced_loop": true,
+      "cycle_activity_conserved_at_every_inner_stage": true,
+      "signed_curvature_claimed_conserved_by_finite_word": false,
+      "source_observer_preserves_cross_mode_coherence": true,
+      "carrier_return_error_becomes_invariant_error": false
+    }
+  },
+  "rejected_false_alternatives": {
+    "ordinary_complex_field_was_primitive": true,
+    "finite_balanced_word_equals_pure_curvature_flow": true,
+    "conserving_activity_is_conserving_signed_curvature": true,
+    "finite_half_loop_phase_can_be_discarded": true,
+    "positive_square_root_is_an_imported_primitive": true,
+    "a_finite_count_certificate_proves_exact_equality_to_the_limit": true,
+    "leading_quadratic_count_already_determines_direction": true,
+    "native_pair_memory_requires_random_mixing": true,
+    "the_ordered_target_selects_physical_handedness": true,
+    "cyclic_factorization_holds_on_every_network": true,
+    "every_zero_curvature_mode_is_constant": true,
+    "cubic_finite_target_gap_is_physical_mass_gap": true,
+    "mode_label_recovery_is_full_state_tomography": true,
+    "fixed_quadratic_parameter_erases_refinement_cost": true,
+    "common_physical_action_speed_and_coupling_are_selected": true
+  },
+  "derivation_graph": {
+    "status": "PASS_DECLARED_NATIVE_DERIVATION_GRAPH",
+    "certified_claims": 7,
+    "proof_path_nodes": 33,
+    "imported_classical_premises_on_proof_paths": 0,
+    "comparison_references_excluded_from_proof_paths": [
+      "comparison_clock_free_cut",
+      "comparison_cut_curvature",
+      "comparison_information_response",
+      "comparison_native_alpha_selection",
+      "comparison_native_fixed_word_front",
+      "comparison_native_observer_rank",
+      "comparison_native_reciprocal_frames",
+      "comparison_odd_exchange",
+      "comparison_quarter_decoder",
+      "comparison_riemann_adapter",
+      "comparison_spatial_interaction_cost",
+      "comparison_zero_cut"
+    ],
+    "target_definitions_retained_as_definitions": [
+      "native_curvature_loop_target",
+      "native_cyclic_curvature_target",
+      "native_phase_direction_target"
+    ],
+    "automatic_semantic_or_formal_proof_verification": false
+  },
+  "derivation_graph_mutations_rejected": {
+    "reject_imported_classical_premise": true,
+    "reject_admitted_input_premise": true,
+    "reject_open_premise": true,
+    "reject_comparison_only_premise": true,
+    "reject_physical_claim_promotion": true,
+    "reject_protocol_definition_promotion": true,
+    "reject_dependency_cycle": true,
+    "reject_unpinned_source": true,
+    "reject_wrong_citation_commit": true
+  },
+  "altered_source_rejected": true,
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "wrong_r44_certificate_pin_rejected": true,
+  "previous_source_replayed": {
+    "commit": "384e6944d9623ab210fb56bb9a7ef9757fa96dd5",
+    "status": "PASS_R44_NATIVE_COLLECTIVE_EXCHANGE",
+    "native_certificate_sha256": "6861b1bfc4686752b89f604368c1655a4214799d5d8f0bf131635a5b8c365e3a",
+    "old_certificate_or_source_pin_modified": false,
+    "earlier_source_chain": {
+      "commit": "8aa356cda8707e740cb713a680dc0f6aa2f8428f",
+      "status": "PASS_R43_NATIVE_EXCHANGE_CALIBRATION",
+      "native_certificate_sha256": "410936fde55edc589f8e7da04fd6e747c8ead3bf63a6d3f0c52c037841effe07",
+      "old_certificate_or_source_pin_modified": false,
+      "earlier_source_chain": {
+        "commit": "0354de8bc1c3474568b1bb8f363c757a1cefcbf6",
+        "status": "PASS_R42_NATIVE_PHASE_GENERATOR",
+        "native_certificate_sha256": "4e184a4dce7898484a79b3a981787e7f5a0a9eb91363056e858b8d4591c8f661",
+        "old_certificate_or_source_pin_modified": false,
+        "earlier_source_chain": {
+          "commit": "f0d8f254416dd05e8a837871e190ec905f0b0d26",
+          "status": "PASS_R41_NATIVE_RELATIONAL_CLOCK",
+          "native_certificate_sha256": "a748318807c8423c4db7396e36e0b8d2a3871c44a7405ca60f23adafc9f4f9f2",
+          "old_certificate_or_source_pin_modified": false,
+          "earlier_source_chain": {
+            "commit": "6d49cdccaeea324119c4a873f3b9d422f013cebd",
+            "status": "PASS_R40_NATIVE_AUTONOMOUS_ECHO",
+            "native_certificate_sha256": "477e49abc142fe7591f79c5e1cb12815d3b07dffcb1e57d61486db49a8e77b66",
+            "old_certificate_or_source_pin_modified": false,
+            "earlier_source_chain": {
+              "commit": "eca6af32637bc803dca14508b596f271a9f61389",
+              "status": "PASS_R39_NATIVE_ECHO_CLOCK",
+              "native_certificate_sha256": "812364a31f6c43b07a8fa9fcc6f53f61a6e7a5285a383b12984ae62e7167de5f",
+              "old_certificate_or_source_pin_modified": false,
+              "earlier_source_chain": {
+                "commit": "79a4c4c2e15aad1391f7633ab0ab0b65ce580111",
+                "status": "PASS_R38_NATIVE_UNIVERSAL_SIGNAL_CONE",
+                "native_certificate_sha256": "98a13bb72a486eac8ad9fc321d59faa7759aae3c0d59d30575852c0a03d736e5",
+                "old_certificate_or_source_pin_modified": false,
+                "earlier_source_chain": {
+                  "commit": "f06932dd63a4f0827a31583bc42dfaa979ddc663",
+                  "status": "PASS_R37_NATIVE_PACKET_FLIGHT",
+                  "native_certificate_sha256": "a16607e7156f17693327900dafae7e9d22c19a20b0dca288cfa34bb180bf45c7",
+                  "old_certificate_or_source_pin_modified": false,
+                  "earlier_source_chain": {
+                    "commit": "011b8224c92d95f7f726eb56bab3e8d8e6f7280c",
+                    "status": "PASS_R36_NATIVE_CURVATURE_OBSERVER",
+                    "native_certificate_sha256": "5e6dec9433b1e74aa8debc709f66326e6f25ed800d9b3a418d65e66f7cab79d8",
+                    "old_certificate_or_source_pin_modified": false,
+                    "earlier_source_chain": {
+                      "commit": "9c13e1752263c756d356dcf5851ac873d2e0d102",
+                      "status": "PASS_R35_NATIVE_SIGNED_ENVELOPE",
+                      "native_certificate_sha256": "29c605502759c8af517dd3f6f4f337e4295a5f3243a33aebf543b72d9fb3b4d5",
+                      "old_certificate_or_source_pin_modified": false,
+                      "earlier_source_chain": {
+                        "commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+                        "status": "PASS_R34_NATIVE_DECODER_BURDEN",
+                        "native_certificate_sha256": "8468d57f3ac1617b3ab9fbf506994a8a253ae31dbe5ead45d414ccb804d6b0c9",
+                        "old_certificate_or_source_pin_modified": false,
+                        "earlier_source_chain": {
+                          "commit": "5ddce4544de7111a80c93a8ade7cf2399c7c90f3",
+                          "status": "PASS_R33_NATIVE_INTERACTION_MEMORY",
+                          "native_certificate_sha256": "c3a63c35889a9f8fed1763ecf55eb6ef84f9fa1c559589bc4e3332faf330621f",
+                          "old_certificate_or_source_pin_modified": false,
+                          "earlier_source_chain": {
+                            "commit": "1105a43209b144bd34a81bfbb99acc7876948e95",
+                            "status": "PASS_R32_NATIVE_RETAINED_LOOP_GAP",
+                            "native_certificate_sha256": "9ac51385f5b5084237c442678a8e686c89c50de7022c40667f6c0ac3ac4c39c5",
+                            "old_certificate_or_source_pin_modified": false,
+                            "earlier_source_chain": {
+                              "commit": "63d040f031b6b36c36a4fa0475f5ce26ec765caf",
+                              "status": "PASS_R31_NATIVE_PROPAGATION_GEOMETRY",
+                              "native_certificate_sha256": "f3cf920cdd3cb1d48d68cde3170a0a0ed64b66f00cd2f9ce18874bf9379beb7e",
+                              "old_certificate_or_source_pin_modified": false,
+                              "earlier_source_chain": {
+                                "commit": "7ac5b3e5baba4dafb51f4330bfe84d001a9ab1d4",
+                                "status": "PASS_R30_NATIVE_DIRECTIONAL_LOOP_INTERACTION",
+                                "native_certificate_sha256": "3a913a511ce03b76ee7f8e6697b8d0ae79d9eaaa655992999a6b76da4fba060c",
+                                "old_certificate_or_source_pin_modified": false,
+                                "earlier_source_chain": {
+                                  "commit": "16602a29c469ac96001977432fcf5fc4b548970b",
+                                  "status": "PASS_R29_NATIVE_PAIRED_FIELD_DYNAMICS",
+                                  "native_certificate_sha256": "59a8ed58355297764315daeb39cb950dc48b038c29c2a934aa7935ca3ca4361d",
+                                  "old_certificate_or_source_pin_modified": false,
+                                  "earlier_source_chain": {
+                                    "commit": "9ed6ae27d3ddb005ed7f4f3f27417036729698fd",
+                                    "status": "PASS_R28_NATIVE_CUT_CURVATURE_PROPAGATION",
+                                    "native_certificate_sha256": "dbfd38615437b0726f1ad70b31d393178c08a61bf674607beb69775ffe3cea11",
+                                    "old_certificate_or_source_pin_modified": false,
+                                    "earlier_source_chain": {
+                                      "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+                                      "status": "PASS_R27_NATIVE_REPLICA_SELECTION",
+                                      "native_certificate_sha256": "f5b6b9427f7484b793d78619527353ae758b0261e871662ce84516e963edc872",
+                                      "old_certificate_or_source_pin_modified": false,
+                                      "earlier_source_chain": {
+                                        "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+                                        "status": "PASS_R26_NATIVE_MEMORY_RESIDUE",
+                                        "native_certificate_sha256": "5d0df3fc203d393d1a4f58902a1f3f82e4c5ab7dfb60ffb40e380a7b96de2146",
+                                        "old_certificate_or_source_pin_modified": false,
+                                        "earlier_source_chain": {
+                                          "commit": "d4f1ae2481a72a04c465f1c17b37d154a6122eff",
+                                          "status": "PASS_R25_NATIVE_RETURN_FEEDBACK",
+                                          "native_certificate_sha256": "456f5c5d4bf9857b1604bb6024c346b1a6d499abd833b59a0b414a7bad0fb8d5",
+                                          "old_certificate_or_source_pin_modified": false,
+                                          "earlier_source_chain": {
+                                            "commit": "d660bbf026e1de818fcb3dd61d46346a4ad618ae",
+                                            "status": "PASS_R24_NATIVE_RETURN_COUPLING",
+                                            "native_certificate_sha256": "ae0c88451e3e0a7933dd42cecca67b0cc1254a81cc418da77b94843eaf1d2fbe",
+                                            "old_certificate_or_source_pin_modified": false,
+                                            "earlier_source_chain": {
+                                              "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+                                              "status": "PASS_R23_NATIVE_FUTURE_RESPONSE",
+                                              "native_certificate_sha256": "69b4e6d43db5bad0a10b797f7b7f788bb8091e4486bf0689960882d22b19295a",
+                                              "old_certificate_or_source_pin_modified": false,
+                                              "earlier_source_chain": {
+                                                "commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+                                                "status": "PASS_R22_NATIVE_MEETING_GEOMETRY",
+                                                "native_certificate_sha256": "ad6ac9d802b77c67ec33e8c023c147300994576207014eb9cd81014f6924b98f",
+                                                "old_certificate_or_source_pin_modified": false,
+                                                "earlier_source_chain": {
+                                                  "commit": "2888aa2a9ea1c63a89b3d695256c8b9405dbd7cc",
+                                                  "status": "PASS_R21_NATIVE_RECORD_IDENTITY",
+                                                  "native_certificate_sha256": "1d857541e8497dfb4c33b532c7d50ee629f5d8e92698a080307b7ae039794464",
+                                                  "old_certificate_or_source_pin_modified": false,
+                                                  "earlier_source_chain": {
+                                                    "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+                                                    "status": "PASS_R20_NATIVE_RECORD_INTERACTION",
+                                                    "native_certificate_sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+                                                    "old_certificate_or_source_pin_modified": false,
+                                                    "earlier_source_chain": {
+                                                      "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+                                                      "status": "PASS_R19_NATIVE_CURRENT_RETENTION",
+                                                      "native_certificate_sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+                                                      "old_certificate_or_source_pin_modified": false,
+                                                      "earlier_source_chain": {
+                                                        "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+                                                        "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+                                                        "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+                                                        "historical_navigation_inputs_restored_in_temporary_snapshot": 3,
+                                                        "old_certificate_or_source_pin_modified": false,
+                                                        "earlier_source_chain": {
+                                                          "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+                                                          "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+                                                          "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+                                                          "foundation": {
+                                                            "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+                                                            "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+                                                            "written_statements": 14,
+                                                            "native_replays": 13,
+                                                            "analytic_replays": [
+                                                              {
+                                                                "id": "F00_F00E_EULER_V0_1",
+                                                                "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+                                                                "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+                                                                "checks": 14,
+                                                                "negative_controls": 6,
+                                                                "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+                                                              },
+                                                              {
+                                                                "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+                                                                "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+                                                                "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+                                                                "checks": 20,
+                                                                "negative_controls": 7,
+                                                                "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+                                                              }
+                                                            ],
+                                                            "original_universal_claim_certified": false
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 34,
+  "preserved_prior_files": 341,
+  "source_pins_sha256": "4ce5bd2c085a77c753a5bbb2ee010ae43d949d75064c586a55c423a8559bebe2",
+  "native_certificate_sha256": "5421ef42757fc8c3b247beb18fc34da5e97e23e7dc742573dda554c336768966",
+  "comparison_references_are_proof_dependencies": false,
+  "comparison_source_certificates_rerun": false,
+  "native_loop_generated_curvature_flow_derived": true,
+  "native_oriented_transfer_memory_metric_derived": true,
+  "native_cubic_curvature_modes_derived": true,
+  "native_cost_curvature_direction_reconstruction_derived": true,
+  "physical_vacuum_identified": false,
+  "electromagnetism_derived": false,
+  "physical_metric_c_alpha_derived": false,
+  "physical_electric_charge_or_particle_mass_identified": false,
+  "physical_spatial_dimension_or_gauge_group_selected": false,
+  "primitive_physical_force_derived": false,
+  "formal_proof_assistant_verified": false,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Seven written native proofs: exact balanced-loop residue, controlled quadratic-count curvature flow, oriented transfer with memory and metric, collective loop synthesis and cyclic factorization, cubic phase rates and count gap, cost-curvature reconstruction of mode direction, and actual refined-clock/complete-observer transport. Finite words, completion, declared targets, full-state coherence, refinement cost and physical calibration remain distinct.",
+  "canonical_report_sha256": "f631fd9f0ccf4e94ebe1894a85fb7ae33772f6b9857bc32e7fbe246fe25d0a5b"
+}

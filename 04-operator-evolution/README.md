@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R45 curvature flow, cyclic direction and refined-clock verification
+
+[native_curvature_flow.cjs](native_curvature_flow.cjs) uses the unchanged native engine to expand the universal balanced-word residue, enclose local and network curvature flows, verify exact cycle transfer and memory, factor cyclic curvature, reconstruct oriented translation and preserve the complete process pair. Checks include twelve local and six network enclosures, nine translation reconstructions, twenty-five coherence-blind polynomial moments and forty-eight actual clock intertwinings.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r45.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R45_VERIFICATION.json](R45_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays, with fifteen boundary controls and nine rejected graph mutations. [Source pins](R45_SOURCE_PINS.json) preserve all 341 prior non-navigation files and replay frozen R44. The [ledger](R45_DERIVATION_LEDGER.json) distinguishes quadratic loop count, native completion, cyclic direction, arbitrary-state coherence and retained control cost. Finite exact evidence and written general proofs do not assert formal-assistant or physical validation.
+
 ## R44 collective exchange, higher memory and cyclic-mode verification
 
 [native_collective_exchange.cjs](native_collective_exchange.cjs) uses the unchanged native engine for lifted control words, count-refinement bounds, collective calibration defects, subset-current balance, pair-blind three-ledger preparations, cycle-cut curvature and single-cut propagation. Exact checks include 113 calibration identities, 152 subset balances, nine refinement enclosures, 196 shortest-route coefficients and twenty-four actual clock intertwinings.

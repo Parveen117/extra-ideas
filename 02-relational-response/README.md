@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R45 native curvature flow, directed transfer and phase recovery
+
+[NATIVE_CURVATURE_FLOW_R45.md](NATIVE_CURVATURE_FLOW_R45.md) derives a controlled curvature flow from eight native exchange factors, keeping the full finite residue and inverse-count error. Its exact cycle arrow gives oriented cut transfer, local matching deficits and metric `1/8`. The first direction-sensitive count term is cubic.
+
+On the cyclic single-cut target, `Omega_N=D_N G_N`; cost and curvature together recover the oriented shift and single-mode phase label. Native circle modes give a cubic phase law and count-size gap. Full-state coherence, the even-ring extra zero mode, finite-word conservation and divergent refinement phase cost remain explicit. The actual source clock counts all eight added stages and the complete observer preserves the full process pair. Physical constants remain open.
+
+[Verification](../04-operator-evolution/R45_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays. The [ledger](../04-operator-evolution/R45_DERIVATION_LEDGER.json) records native loop, cyclic and observer target definitions. Frozen R44 and all 341 earlier non-navigation files are preserved.
+
 ## R44 collective exchange, calibration geometry and higher memory
 
 [NATIVE_COLLECTIVE_EXCHANGE_R44.md](NATIVE_COLLECTIVE_EXCHANGE_R44.md) derives a collective flow by native exchange refinement. An exact coefficient-norm identity fixes relative calibration on connected components. Local current balance, its higher response hierarchy and the single-cut endpoint-difference generator follow from the same native tuple operations.

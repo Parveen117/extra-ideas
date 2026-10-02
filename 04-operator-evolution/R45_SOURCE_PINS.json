@@ -1,0 +1,2234 @@
+{
+  "schema": "extra-ideas.r45.source-pins.v1",
+  "date": "2026-10-02",
+  "source_repository": "Parveen117/extra-ideas",
+  "source_commit": "384e6944d9623ab210fb56bb9a7ef9757fa96dd5",
+  "source_tree": "431d0f84b1313176003bf1e6f210f3ef68fec207",
+  "native_input_sha256": "539ef68fb21119a6d723da7612d1668eb427f882f41efe995bdcad656360bd81",
+  "native_input_path": "04-operator-evolution/R17_NATIVE_INPUT.json",
+  "r44_native_certificate_sha256": "6861b1bfc4686752b89f604368c1655a4214799d5d8f0bf131635a5b8c365e3a",
+  "rkf": {
+    "repository": "Parveen117/Recognition-Kernel-Framework",
+    "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+    "files": [
+      {
+        "path": "certificates/foundation/F00GHI_LOG_ARITHMETIC_ZETA_V0_1/README.md",
+        "sha256": "daef4110c5c43aa10f6e60962473c5ca60d7bbfdada22d864330bd68ff4514c2",
+        "git_blob_sha": "919c4cb0565255867e65f6edf0e585970025619e"
+      },
+      {
+        "path": "certificates/foundation/F00GHI_LOG_ARITHMETIC_ZETA_V0_1/result.json",
+        "sha256": "4250fe4865fd2213a70ee6be4bafa12ebb253becad6ff9115678f46b9897f008",
+        "git_blob_sha": "33cd4c7edb5be6315de4f1e96a1e7372fdabac79"
+      },
+      {
+        "path": "certificates/foundation/F00GHI_LOG_ARITHMETIC_ZETA_V0_1/spec.json",
+        "sha256": "32c94a385e0ca36f1924774c8c1ad170c723466e769a28de810e08937482c78e",
+        "git_blob_sha": "a02c97d274e7416187efe414fe3f56aff33f7a8d"
+      },
+      {
+        "path": "certificates/foundation/F00GHI_LOG_ARITHMETIC_ZETA_V0_1/verify.py",
+        "sha256": "4b81ae6aeb4d6d10ba344b2ea9a219c62c47a70dd7a8c2b095362ece748c1cdd",
+        "git_blob_sha": "600ea93e55ab23697b83c7c754e09c0482fe3e55"
+      },
+      {
+        "path": "certificates/foundation/F00_F00E_EULER_V0_1/README.md",
+        "sha256": "5c86becf7aa98d7cacd728fdfd5286281c336b4f9e6d7336f2baafa43b939b7a",
+        "git_blob_sha": "fd58105e919fa6a7b8fd4f475e4bb4c296022847"
+      },
+      {
+        "path": "certificates/foundation/F00_F00E_EULER_V0_1/result.json",
+        "sha256": "0ee615c19e2a9d5d5b3a2943f5f18b4b1fc8b43ec821547ac39505bb8ab61ddd",
+        "git_blob_sha": "2ec53f7641d0c300bf4a7961d0a93ecd2fc40d03"
+      },
+      {
+        "path": "certificates/foundation/F00_F00E_EULER_V0_1/spec.json",
+        "sha256": "f66d4f30118d7cceffd5cd6789d56298a98bcc6757f523ec736d9f315140eeba",
+        "git_blob_sha": "f3dd832f9a53e531f083c37108d2499269fb21e3"
+      },
+      {
+        "path": "certificates/foundation/F00_F00E_EULER_V0_1/verify.py",
+        "sha256": "cab615f1ce6d74cf0b4859895aea6f16e1b5a2a882c91a7cde75708ed6ed825d",
+        "git_blob_sha": "e7c4cfe3b02134f2b556835c292f563ccfdb54ab"
+      },
+      {
+        "path": "certificates/foundation/NUMERICAL_PROOF_PROTOCOL.md",
+        "sha256": "88b42ab7316de31f5adbd777272acd446a1f620698675da9b10118407c1ea008",
+        "git_blob_sha": "f5784526dff9bb1287d3e228b8383ef0e5bfe4cf"
+      },
+      {
+        "path": "operator_foundation/CANONICAL_HOME.json",
+        "sha256": "6c5a7756ff220e7a9afa7fdb72151781f1777e2099880788f21a1e1b780ced39",
+        "git_blob_sha": "f22847fe52944214912fa66524d0edb1fc2448a4"
+      },
+      {
+        "path": "operator_foundation/README.md",
+        "sha256": "5fa13d4df90b33597e3c72d1860258d0492d8680583e7b7e3b2e13dddfc6bbc9",
+        "git_blob_sha": "1776107510b5d35788144a0fc43316cb304ffba1"
+      },
+      {
+        "path": "operator_foundation/core/dependency_gate.cjs",
+        "sha256": "9a3bbecd03c159536dc17ca827d24d6e644d527adbf6da332460efbb45dbc8d1",
+        "git_blob_sha": "88a1143c62bdc28ec4ffc9a17752a6209ba78be8"
+      },
+      {
+        "path": "operator_foundation/core/native_laurent.cjs",
+        "sha256": "fc84abf52311f89ee3a7bb8c6883412e5f64a65812b0031804b44a2e660c0c8a",
+        "git_blob_sha": "f3d18833fb6ced3b154182f57c1f54eb9bc975c7"
+      },
+      {
+        "path": "operator_foundation/core/native_operator.cjs",
+        "sha256": "304963cccf4320d76dd36147e5c15ad579e9d0496c86fb1f942543bc692e06a3",
+        "git_blob_sha": "7b188defee82aa0edafc586eb3091baf0ceb6900"
+      },
+      {
+        "path": "operator_foundation/core/native_paths.cjs",
+        "sha256": "cc59550c541c078a8b4643e8602691e147179db780e232a53162f604e812e14f",
+        "git_blob_sha": "6222f41d35d18ebcda1223fc08b29398dd39df52"
+      },
+      {
+        "path": "operator_foundation/core/paninian_operator.cjs",
+        "sha256": "9a30c72f4e89d0a15697c99095ed8e0f015bb8c64fda4ded9897394945886fd8",
+        "git_blob_sha": "39d0cc2d2c0b42db319b02f4cd29c045910edbbc"
+      },
+      {
+        "path": "operator_foundation/core/weighted_completion.cjs",
+        "sha256": "a32af89f0ee013b918eaae67131b7b3c6e7cf39129fafb64c037cf30ac192f4b",
+        "git_blob_sha": "98241db9d940b7eaac9628491b8995fe249978eb"
+      },
+      {
+        "path": "operator_foundation/core/workbench.cjs",
+        "sha256": "c12a3138cc326604a1149bc306b8cc338b9e9161516b610504ddbc7d59a1ea6d",
+        "git_blob_sha": "b9c8579e0c301b17c96bfe96320f88aa9723dded"
+      },
+      {
+        "path": "operator_foundation/examples/emk_job.json",
+        "sha256": "fd3c9e50cb51050acb9c36b3123fbc4664870c621e5d73bb8763b1050b30c763",
+        "git_blob_sha": "7a6eb17ecc8ddefc145645cd9bbfdf66361c6ecb"
+      },
+      {
+        "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+        "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5",
+        "git_blob_sha": "86366ede2f152f19cbdf0d1dbf06b2e4c0971dad"
+      },
+      {
+        "path": "operator_foundation/theory/02_COMPLETION_AND_MEMORY.md",
+        "sha256": "d205729945231c81a035889709f0a217b5a0979ce5299bdf6ed2ea30a5b9c817",
+        "git_blob_sha": "df4ebc098f9a59cbf40de178c61796fe857a7bae"
+      },
+      {
+        "path": "operator_foundation/theory/AUTOMATIC_REGULAR_MODEL.md",
+        "sha256": "838a285acf97b05517eb1d3ac7602d249cacd735647c61adb67479797ec41b91",
+        "git_blob_sha": "802b2cdc4065ad803fa9691f5894a99101b0441d"
+      },
+      {
+        "path": "operator_foundation/theory/NATIVE_PRIMITIVE_ORDER.md",
+        "sha256": "f1f2fa357d41745445bcaf403784edbec6a17cbd78bc400cbd1229aa682c0fd9",
+        "git_blob_sha": "1ac91cb1e7b0081de4d6c1eec0d7dd6891ccbad6"
+      },
+      {
+        "path": "operator_foundation/theory/PANINIAN_OPERATOR_COMPILER.md",
+        "sha256": "cbeb9fd821bc134f4510408623fb1c723ab59a00237aa5b505d09cd4621c4eca",
+        "git_blob_sha": "a1dc6c6c2f211e27f9db6154733d1c141d415ed7"
+      },
+      {
+        "path": "src/rh_framework/native_summability.py",
+        "sha256": "c35b67e5eeedcb4dfc3532cc7073c30d889113cbf1421cef1cfc753d9d3843b7",
+        "git_blob_sha": "77011e37ebfe42d916ab465cfe5666038a4ad7cb"
+      },
+      {
+        "path": "theorems/foundation/F00E_NATIVE_EULER_FROM_IOTA_COMPLEX.md",
+        "sha256": "2654b5cab54e5f103b01471ffc06ca5e32eb56b11444744ffdf7edadb27daf8c",
+        "git_blob_sha": "9ea9c78aa12d8fa0db5b4c87b9463d64a4751f41"
+      },
+      {
+        "path": "theorems/foundation/F00G_NATIVE_LOGARITHM_AND_POWERS.md",
+        "sha256": "488eabd5bf14952b503a725c45afcc244be613dcb31838e597115821b34fc0a3",
+        "git_blob_sha": "04e67b84d2b21b87380a0373c99f70a7af19aab6"
+      },
+      {
+        "path": "theorems/foundation/F00H_NATIVE_NATURAL_ARITHMETIC_AND_PRIME_FACTORIZATION.md",
+        "sha256": "96609c90d9d9ec608e933e30ee226bd6a331e980da2031455f2713763160632e",
+        "git_blob_sha": "5fc483464b3a14ba5bb8e9a9e3c6233173ed3cd6"
+      },
+      {
+        "path": "theorems/foundation/F00I_NATIVE_DIRICHLET_ZETA_EULER_PRODUCT.md",
+        "sha256": "b39fb8aa888e2e81b25333e2c2caaaf74c4a3293dfabca73cf73fdde563d7db9",
+        "git_blob_sha": "0b50bdebfc6c8e52a1c6918b3bf81bb4c77a9747"
+      },
+      {
+        "path": "theorum/24_clock_free_recognition_seam_cut_calculus.md",
+        "sha256": "3d7d70f5cd213378c32e90e3c88eb195b48a7ea9e69297353c2eaafd04dbb8b8",
+        "git_blob_sha": "f596ca3c9f9540465b3ad55fd8baf2ea33e9ab26"
+      },
+      {
+        "path": "theorum/48_emk_algebra_cut_graded_curvature_theorem.md",
+        "sha256": "e447ea282bd47ccbc62e718a8d9aab912d926a9239a662d2e02c5f58fa7563f1",
+        "git_blob_sha": "34e34fe7ce04bacfcb474aefbec6606bcdca54a3"
+      },
+      {
+        "path": "theorum/51_odd_channel_exchange_law_theorem.md",
+        "sha256": "c515d45334e1010c75750f15c1f5b1518bc4817e4956b01a55dbbec6952e48e4",
+        "git_blob_sha": "d23e384f79b81512b8a19303f0c6f27fd63f9af9"
+      },
+      {
+        "path": "mp_gold/07_zero_as_cut_topology.md",
+        "sha256": "47c08643b69bbea870f89a3f0cb70518cb98fad96502370cb71794f174d9780a",
+        "git_blob_sha": "3527107a1e44d35dc7a3b02a17a90d339aecc25f"
+      },
+      {
+        "path": "theorum/43_bilateral_jet_flow_recognition_capstone_theorem.md",
+        "sha256": "3322a037bd238a933d8c5fbfbe2add845ce1b8c0d76e47de599df357cfd8269a",
+        "git_blob_sha": "95a83b98f79005cc00a2d718f717bad575196af3"
+      }
+    ]
+  },
+  "publications_comparison_only": {
+    "repository": "Parveen117/Publications",
+    "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+    "status": "PINNED_COMPARISON_NOT_IMPORTED_PROPAGATION_LAW",
+    "files": [
+      {
+        "path": "papers/native-alpha-selection/THEOREM.md",
+        "sha256": "54152003202564b83b90dfa875731905bda242458b9e8d7887c3fdfbf4dce54c",
+        "git_blob_sha": "d8780e3931c4dad9a4f621fd4979628f889da070"
+      },
+      {
+        "path": "papers/native-return-identification/THEOREM.md",
+        "sha256": "5f960f4434d9203a56a8d43518d021fcf60b59785dace8ecebdf2dc19a9a2a35",
+        "git_blob_sha": "8f88fae98506cef2a62f765a740a7fa5a1801047"
+      },
+      {
+        "path": "papers/native-ugd-propagation/README.md",
+        "sha256": "9aff385ccbffc4afc9f7ca050701a536fa485631b9b4e0edc7c78cd55f9060b4",
+        "git_blob_sha": "3f281fda2af31c33d10ae670978ceee61b38aef7"
+      },
+      {
+        "path": "papers/native-ugd-propagation/THEOREM.md",
+        "sha256": "8c452ed73cbd6af7c73a3c4509fe722b71c3241f16483655e84b46326f6a82da",
+        "git_blob_sha": "bcfcf40a02bc57da5933c23b8814999677f51934"
+      },
+      {
+        "path": "papers/ugd-kahler-propagation/NATIVE_PROPAGATION_ACTION.md",
+        "sha256": "6e96e62b7b15c63fba32122c2addfc2984c3007e08cf69cd5b08f4dbd08b3345",
+        "git_blob_sha": "368212d54b3956d0a7e8886cda3dd8050ca3a997"
+      },
+      {
+        "path": "papers/ugd-kahler-propagation/SPEED_AND_CALIBRATION.md",
+        "sha256": "c967deda00b62f524a73744b7a0d77d18f59dd0c43ba6f812708c71a5709835d",
+        "git_blob_sha": "273ad8745b49a98491a6479f44fce4419e7697d6"
+      },
+      {
+        "path": "papers/ugd-kahler-propagation/THERMO_GAUGE_COMPLETION.md",
+        "sha256": "9ac35f4e6bd1fc4262ba9e3d6b1f5c7d251684618975380d29abc81f0ace9068",
+        "git_blob_sha": "04f8f3e092796712082396e717cc21d3559e3d09"
+      },
+      {
+        "path": "papers/uncut-cut-measurement/ADMISSIBLE_CONTINUATION.md",
+        "sha256": "dd71c56c3bb1593d5cc5afb5fe66c118216be94c933b7961e3bb52cce445a3c5",
+        "git_blob_sha": "22a5acf3f901e85b2d33487f7b42cabfcb9f7e7a"
+      },
+      {
+        "path": "papers/uncut-cut-measurement/NATIVE_GRADING_AND_SEAM_MEMORY.md",
+        "sha256": "247c3f652cabacfaf9338c4900037baf8c5d6941fbdd56134ecace532174a051",
+        "git_blob_sha": "803faa558498531e6d26a47e671431336a7c7a3d"
+      },
+      {
+        "path": "papers/uncut-cut-measurement/NATIVE_INTERACTION_AND_LAWFUL_CUTS.md",
+        "sha256": "ac37333fb1aa315ffe41f6ad821bd1437ddb4a2270cc065f65820b270bb4ea69",
+        "git_blob_sha": "c72763d2ad7f01d356a74a92f3a29a56268e4903"
+      },
+      {
+        "path": "papers/uncut-cut-measurement/NATIVE_RESPONSE_TENSOR_AND_CUT_LEDGER.md",
+        "sha256": "3ee3183f14e5f0a5978c1d591720c7bfb499528d71677ddb722ecbe8a19d1fbe",
+        "git_blob_sha": "5251019b4d5417f49cb8aa8f48a36d32efe2ddae"
+      }
+    ],
+    "scope": "Premise-labelled comparison only. Prior declared physics/partial-domain/identification models are not proof dependencies and their certificates are not rerun."
+  },
+  "source_citation_bindings": [
+    {
+      "home": "local",
+      "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+      "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+      "section": "C1, C3-C7",
+      "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+      "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+      "section": "C8",
+      "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+      "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+      "section": "C1, C13",
+      "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+      "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+      "section": "R18.1-R18.4",
+      "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75"
+    },
+    {
+      "home": "rkf",
+      "path": "operator_foundation/theory/01_NATIVE_ALGEBRA.md",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "section": "Native finite equality and replay",
+      "sha256": "ea07ab9f0f8a47e63f8ee973638669f596308cec4ed234ced7497a5f7539ecf5"
+    },
+    {
+      "home": "rkf",
+      "path": "theorum/24_clock_free_recognition_seam_cut_calculus.md",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "sha256": "3d7d70f5cd213378c32e90e3c88eb195b48a7ea9e69297353c2eaafd04dbb8b8"
+    },
+    {
+      "home": "rkf",
+      "path": "theorum/48_emk_algebra_cut_graded_curvature_theorem.md",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "sha256": "e447ea282bd47ccbc62e718a8d9aab912d926a9239a662d2e02c5f58fa7563f1"
+    },
+    {
+      "home": "rkf",
+      "path": "theorum/51_odd_channel_exchange_law_theorem.md",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "sha256": "c515d45334e1010c75750f15c1f5b1518bc4817e4956b01a55dbbec6952e48e4"
+    },
+    {
+      "home": "rkf",
+      "path": "mp_gold/07_zero_as_cut_topology.md",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "sha256": "47c08643b69bbea870f89a3f0cb70518cb98fad96502370cb71794f174d9780a"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md",
+      "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+      "sha256": "e0ebefb163d2ae2deb4acd2dbd7084a9f16e441b643f412a01661a7097763ce4"
+    },
+    {
+      "home": "publications",
+      "path": "papers/uncut-cut-measurement/NATIVE_RESPONSE_TENSOR_AND_CUT_LEDGER.md",
+      "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+      "sha256": "3ee3183f14e5f0a5978c1d591720c7bfb499528d71677ddb722ecbe8a19d1fbe"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_CUT_CURVATURE_PROPAGATION_R28.md",
+      "commit": "9ed6ae27d3ddb005ed7f4f3f27417036729698fd",
+      "section": "R28.1-R28.6",
+      "sha256": "7c1909146b16710895e536cfb62dc85a09ea13816a69d1345266cd8f246f54a2"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_PAIRED_FIELD_DYNAMICS_R29.md",
+      "commit": "16602a29c469ac96001977432fcf5fc4b548970b",
+      "section": "R29.1-R29.7",
+      "sha256": "930c3d613d4098e31c31000bd07eef9fd2ffc20f9f46dfa44f709c1b3b65b0e1"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_MEMORY_RESIDUE_R26.md",
+      "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+      "section": "R26.1",
+      "sha256": "2a8b300ce78707cddad7163e8a2830dbea285892d6cc02abfeba8a9cc2fabd85"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_DIRECTIONAL_LOOP_INTERACTION_R30.md",
+      "commit": "7ac5b3e5baba4dafb51f4330bfe84d001a9ab1d4",
+      "section": "R30.1-R30.8",
+      "sha256": "e3badb8ad9ae8f74e57d52339ce33a93297aa199ed3b8f725483f98932b59314"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/FUTURE_RESPONSE_QUOTIENT_R23.md",
+      "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+      "section": "R23.1-R23.9",
+      "sha256": "927641e6b6b3e4ec27ca0ad5c2735431bba83c9316f604c932b23a890a700a06"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_RECORD_INTERACTION_R20.md",
+      "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+      "section": "Tuple construction and R20.1-R20.2",
+      "sha256": "6139b16bfcb5be9c07f9c32c17e82e616c10a7b7d3a3f7113c8bc9bf4e33e7a7"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_MEMORY_RESIDUE_R26.md",
+      "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+      "section": "R26.1-R26.4",
+      "sha256": "2a8b300ce78707cddad7163e8a2830dbea285892d6cc02abfeba8a9cc2fabd85"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_REPLICA_SELECTION_R27.md",
+      "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+      "section": "R27.1-R27.2",
+      "sha256": "d4ed6c9940127c04fe8fbc12bfdc18d6e1183bab6b09e468db73941bdc433d91"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_PROPAGATION_GEOMETRY_R31.md",
+      "commit": "63d040f031b6b36c36a4fa0475f5ce26ec765caf",
+      "section": "R31.1-R31.7",
+      "sha256": "1b26aea521095c2a9f501d7230c944cf70b2a80c111ae3a97fbca16e2700e2f9"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_RETAINED_LOOP_GAP_R32.md",
+      "commit": "1105a43209b144bd34a81bfbb99acc7876948e95",
+      "section": "R32.1-R32.7, especially the central polynomial and increment Gram",
+      "sha256": "93ed77cbc91a902e471a244eb614709ca486331060f7511443f0bda94a89c5e1"
+    },
+    {
+      "home": "publications",
+      "path": "papers/native-alpha-selection/THEOREM.md",
+      "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+      "section": "AS-1-AS-5, especially the AS-3 admitted adapter",
+      "sha256": "54152003202564b83b90dfa875731905bda242458b9e8d7887c3fdfbf4dce54c"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_INTERACTION_MEMORY_R33.md",
+      "commit": "5ddce4544de7111a80c93a8ade7cf2399c7c90f3",
+      "section": "R33.1-R33.2, R33.5-R33.7",
+      "sha256": "154cab0aca7fa8a597f9f9014ff9aa320dc39472e65a61e90de52c5ffc4ff2fe"
+    },
+    {
+      "home": "rkf",
+      "path": "theorum/43_bilateral_jet_flow_recognition_capstone_theorem.md",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "section": "Sections 2, 8, 11 and the analytic claim boundary",
+      "sha256": "3322a037bd238a933d8c5fbfbe2add845ce1b8c0d76e47de599df357cfd8269a"
+    },
+    {
+      "home": "rkf",
+      "path": "theorems/foundation/F00E_NATIVE_EULER_FROM_IOTA_COMPLEX.md",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "section": "Sections 1-5: factorial construction, unit circle and derivative",
+      "sha256": "2654b5cab54e5f103b01471ffc06ca5e32eb56b11444744ffdf7edadb27daf8c"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_SIGNED_ENVELOPE_R35.md",
+      "commit": "9c13e1752263c756d356dcf5851ac873d2e0d102",
+      "section": "R35.1-R35.7",
+      "sha256": "3439544e62f978a5fa9209098414f5e77e878114b7cbceee35878308d656c1a9"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_CURVATURE_OBSERVER_R36.md",
+      "commit": "011b8224c92d95f7f726eb56bab3e8d8e6f7280c",
+      "section": "R36.1, R36.3-R36.7",
+      "sha256": "a627f85c6c35e36bfc44ef4bb78eec9d3c42a09a67d7d7c8d9e8d0a33ec64c94"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_PACKET_FLIGHT_R37.md",
+      "commit": "f06932dd63a4f0827a31583bc42dfaa979ddc663",
+      "section": "R37.1-R37.7",
+      "sha256": "b3f0e63779b13a2f4d75973c2e0a78a821472db7ae278eabd67e14c7cc0d0a52"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_UNIVERSAL_SIGNAL_CONE_R38.md",
+      "commit": "79a4c4c2e15aad1391f7633ab0ab0b65ce580111",
+      "section": "R38.1-R38.7",
+      "sha256": "9f8d2e8bd045dbd8c5dc4c4ec7b8c40743e7aee178a4045a9048660e79b9382a"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_ECHO_CLOCK_R39.md",
+      "commit": "eca6af32637bc803dca14508b596f271a9f61389",
+      "section": "R39.1-R39.7",
+      "sha256": "4f51c5ac1ef97b0c412164ee51b9dfc1e986312e2a024ac454936ef4f8c17ef2"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_AUTONOMOUS_ECHO_R40.md",
+      "commit": "6d49cdccaeea324119c4a873f3b9d422f013cebd",
+      "section": "R40.1-R40.7",
+      "sha256": "cf563db65b5055185affb10e52ed5e5e85340e1bad2ca42d359782f1cccbe6fe"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_RELATIONAL_CLOCK_R41.md",
+      "commit": "f0d8f254416dd05e8a837871e190ec905f0b0d26",
+      "section": "R41.1-R41.7",
+      "sha256": "54a010db712bb741d509ef2eb97d1e58b6c706c277db665ad87eb8f862b3f03c"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_PHASE_GENERATOR_R42.md",
+      "commit": "0354de8bc1c3474568b1bb8f363c757a1cefcbf6",
+      "section": "R42.1-R42.7",
+      "sha256": "e029b585e732110870647489eff708b4ad097c6beef68bdd3df5f9227d52c261"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_INTERACTION_MEMORY_R33.md",
+      "commit": "5ddce4544de7111a80c93a8ade7cf2399c7c90f3",
+      "section": "R33.1-R33.2, R33.5-R33.7",
+      "sha256": "154cab0aca7fa8a597f9f9014ff9aa320dc39472e65a61e90de52c5ffc4ff2fe"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_EXCHANGE_CALIBRATION_R43.md",
+      "commit": "8aa356cda8707e740cb713a680dc0f6aa2f8428f",
+      "section": "R43.1-R43.7",
+      "sha256": "0707e612220e105910244aa5304a22e7608c68e6b1c8bc440fd6b0edf734ae34"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_UNIVERSAL_SIGNAL_CONE_R38.md",
+      "commit": "79a4c4c2e15aad1391f7633ab0ab0b65ce580111",
+      "section": "R38.1-R38.7",
+      "sha256": "9f8d2e8bd045dbd8c5dc4c4ec7b8c40743e7aee178a4045a9048660e79b9382a"
+    },
+    {
+      "home": "local",
+      "path": "02-relational-response/NATIVE_COLLECTIVE_EXCHANGE_R44.md",
+      "commit": "384e6944d9623ab210fb56bb9a7ef9757fa96dd5",
+      "section": "R44.1-R44.7",
+      "sha256": "722128f3adb67490f5f9419c68948b1518b5ff8afa1bb2f0d9ce86f83037452a"
+    }
+  ],
+  "local_inputs": [
+    {
+      "path": "02-relational-response/NATIVE_CURVATURE_FLOW_R45.md",
+      "sha256": "eeedbdd2442f2b6ade72f0558e4b0a054029491ce7d4f1f5598f285a87201740",
+      "git_blob_sha": "301a70fc20389bd131e722dacaa8d3e805f22333"
+    },
+    {
+      "path": "04-operator-evolution/native_curvature_flow.cjs",
+      "sha256": "f8ba6a81d27bd2558cc2d07d315250e4bec065adbfbcde2512df56c2b600c130",
+      "git_blob_sha": "48abb22891db5eb981cb5813883d19eab684603d"
+    },
+    {
+      "path": "04-operator-evolution/verify_r45.py",
+      "sha256": "fe8c5e74e7b7178ebd8bca38f052732709695c79c4ba4ea84f8de63028c554f2",
+      "git_blob_sha": "3dd32326f3396c7cb7e892d9b90b4109d81384ed"
+    },
+    {
+      "path": "04-operator-evolution/R45_DERIVATION_LEDGER.json",
+      "sha256": "81751116eea0dd45b486cb78dc370d12174d5319b4ecf087f7e97e07b00a919f",
+      "git_blob_sha": "5b418ce3009739de4ebaea94b7151326f6ed22b9"
+    }
+  ],
+  "preserved_evidence": [
+    {
+      "path": ".gitignore",
+      "sha256": "24d41c1477efae88f704bbc3d0537bb41cedee24552e7148c8bca091bcfdc857",
+      "git_blob_sha": "8fa8002415dfabbc40c5dc79e7150f46c3f2a1ed"
+    },
+    {
+      "path": "01-intrinsic-numbers/AGHORA_MODES_R2.md",
+      "sha256": "de8eb1c19f0a636e1a50935be63f9cb0543e12892c5051840f05445e5ca1d182",
+      "git_blob_sha": "487730866fc913d57372b26e976f99dce1a530c4"
+    },
+    {
+      "path": "01-intrinsic-numbers/COORDINATE_TRANSPORT_R1.md",
+      "sha256": "fb100328d78a13e4868fba129c5a9c64e3a8ab715bf1f84552d6fa004dddce74",
+      "git_blob_sha": "cbf0ee41e97bb2a593e6214ed94bf8eba3d6d2e8"
+    },
+    {
+      "path": "01-intrinsic-numbers/README.md",
+      "sha256": "91ff95ede2450cbf21794b3468dc213a59b0f79c77bd3159a7c57bcf14cf0a56",
+      "git_blob_sha": "89128af8f125db01fba7d7ebe2f04e1f1b4e31e0"
+    },
+    {
+      "path": "01-intrinsic-numbers/SEAM_COMPLEX_COORDINATES_R3.md",
+      "sha256": "919b3b7c8156feb3cde6d751cbebe97e5dd02a6d4cdaf3d1c7f637d0dddb4adb",
+      "git_blob_sha": "dd33b762fc778ad645c4e96b7a4f3cf7a6f14808"
+    },
+    {
+      "path": "01-intrinsic-numbers/source-excerpt.tex",
+      "sha256": "3d448cd59ccf980082a3b33898abbab65cba86befd42263ad7d431692adfe4f2",
+      "git_blob_sha": "f1ff2470ebe7f76d6a1b43dda3e0397de9eda512"
+    },
+    {
+      "path": "02-relational-response/COMPLEMENT_MEMORY_NOISE_R13.md",
+      "sha256": "18f8e00f8f0d89482daea53af78deb66b688a745933e7faf0c8cb9d199b3a516",
+      "git_blob_sha": "5b06c2b35461564693d0da438b7995e6647505aa"
+    },
+    {
+      "path": "02-relational-response/CURRENT_MEMORY_RETENTION_R19.md",
+      "sha256": "d353a7f8eef831785ddf6d1168a6d1b9d9031e5b53bad68d6a7ff3548dfa82b7",
+      "git_blob_sha": "5bc56a12dd2ce881c6d817e7070c239255ceeedb"
+    },
+    {
+      "path": "02-relational-response/CURVATURE_BALANCE_R9.md",
+      "sha256": "67905cfeeacf4d487d41541e7e73fb49d21c0edc58a99ed094c3c413dbc1ab79",
+      "git_blob_sha": "3d34166f39e8bf785664b1302d6c0c6d266575b5"
+    },
+    {
+      "path": "02-relational-response/CURVATURE_OBSERVATION_R8.md",
+      "sha256": "b61a90f6e33c2f752b0b0eee28c5afd6918ce938207310e89503ce1407998459",
+      "git_blob_sha": "bcd5b2fc1f67b8a6a599a979dd776b7c3537bef9"
+    },
+    {
+      "path": "02-relational-response/CUT_HISTORY_MEMORY_R17.md",
+      "sha256": "c915375894f3baecb062754f26466f35cb04032ec201ceeaa0ed2c265fb98cc9",
+      "git_blob_sha": "bb67eca56689e2c9775e05134a5e10f58c932fbb"
+    },
+    {
+      "path": "02-relational-response/CUT_TRANSPORT_METRIC_R18.md",
+      "sha256": "a0a57c30bfd5669969ae1b224057daf780dbe9569ba39928ece3a4572283ff75",
+      "git_blob_sha": "defb9c17992cf4d0984254db231e4435c880eea1"
+    },
+    {
+      "path": "02-relational-response/DERIVATION_SOURCE_LEDGER_R14.md",
+      "sha256": "8356adc3fb372e5d210405e4485c6428570963d1408a932e9332aa59c66afe43",
+      "git_blob_sha": "708d3d0ec5a6f5cae665250bb81df5cb9337397e"
+    },
+    {
+      "path": "02-relational-response/EMK_MASTER_TENSOR_REVIEW.md",
+      "sha256": "41f8a2760fc40e1a86af85d6179e66c73693edf7cdcc5daa629ff1fe8c93fbd8",
+      "git_blob_sha": "ed017c603076a87f9a55cae1ef22524a72abf5a7"
+    },
+    {
+      "path": "02-relational-response/EMK_TENSOR_CALCULUS_R7.md",
+      "sha256": "17a4b63150760bb17435a36421d4dad42d0a6b437aee32fce9f63533509f706e",
+      "git_blob_sha": "7c94de69476094fe4fabab2096bd515868e66f94"
+    },
+    {
+      "path": "02-relational-response/EMK_TOPOLOGY_R15.md",
+      "sha256": "dc3b7fc1bb0ed7ec7a93f9e21ed358873df61909b00c01f9e634d1312fe23a6c",
+      "git_blob_sha": "24f87e5b2322d9f43e957e35ac2a7bcaa6d3e8bc"
+    },
+    {
+      "path": "02-relational-response/EMK_VAULT_SOURCE_AUDIT_R7.md",
+      "sha256": "dcf3b83ee15420cffa0da1f52dc24df5df7104dd9f1a6ca64da7bbc68d3825c1",
+      "git_blob_sha": "f88ec3a6994c9f079a8a504c0ea6efb805036e6c"
+    },
+    {
+      "path": "02-relational-response/FUTURE_RESPONSE_QUOTIENT_R23.md",
+      "sha256": "927641e6b6b3e4ec27ca0ad5c2735431bba83c9316f604c932b23a890a700a06",
+      "git_blob_sha": "9f542b61c7df67368114f2036efb9c3e99bbf93b"
+    },
+    {
+      "path": "02-relational-response/MEETING_GEOMETRY_R22.md",
+      "sha256": "0406896fa70a1ae7820a23fd06bee8ca5b3597525f8677f3c93532fab41a1617",
+      "git_blob_sha": "65e647591cf10e68bee666c7a172da3980e2f2ea"
+    },
+    {
+      "path": "02-relational-response/NATIVE_AUTONOMOUS_ECHO_R40.md",
+      "sha256": "cf563db65b5055185affb10e52ed5e5e85340e1bad2ca42d359782f1cccbe6fe",
+      "git_blob_sha": "a808d67938475a8a21839f3be0c75d96f161fbb9"
+    },
+    {
+      "path": "02-relational-response/NATIVE_COLLECTIVE_EXCHANGE_R44.md",
+      "sha256": "722128f3adb67490f5f9419c68948b1518b5ff8afa1bb2f0d9ce86f83037452a",
+      "git_blob_sha": "f0f80066b0f70cf52950bed4d4f68151f8dca693"
+    },
+    {
+      "path": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md",
+      "sha256": "e0ebefb163d2ae2deb4acd2dbd7084a9f16e441b643f412a01661a7097763ce4",
+      "git_blob_sha": "c4c2cd046343ab4382d2400d8039f13f64eafe17"
+    },
+    {
+      "path": "02-relational-response/NATIVE_CURVATURE_OBSERVER_R36.md",
+      "sha256": "a627f85c6c35e36bfc44ef4bb78eec9d3c42a09a67d7d7c8d9e8d0a33ec64c94",
+      "git_blob_sha": "715e54270950f02c8600ccf1c696770da5cfd029"
+    },
+    {
+      "path": "02-relational-response/NATIVE_CUT_CURVATURE_PROPAGATION_R28.md",
+      "sha256": "7c1909146b16710895e536cfb62dc85a09ea13816a69d1345266cd8f246f54a2",
+      "git_blob_sha": "c5e0892f5d939f9121bc6d18ae837c5210d498f3"
+    },
+    {
+      "path": "02-relational-response/NATIVE_DECODER_BURDEN_R34.md",
+      "sha256": "975358b8511882bfb45e0f0435ee539959bebb8770f41191ea321c82300c1125",
+      "git_blob_sha": "bdc8cb9a762ef6b2cac38f436aeb7caa5092cc82"
+    },
+    {
+      "path": "02-relational-response/NATIVE_DIRECTIONAL_LOOP_INTERACTION_R30.md",
+      "sha256": "e3badb8ad9ae8f74e57d52339ce33a93297aa199ed3b8f725483f98932b59314",
+      "git_blob_sha": "973340f46e98dffbfc8d098b428364629c0fe274"
+    },
+    {
+      "path": "02-relational-response/NATIVE_ECHO_CLOCK_R39.md",
+      "sha256": "4f51c5ac1ef97b0c412164ee51b9dfc1e986312e2a024ac454936ef4f8c17ef2",
+      "git_blob_sha": "d6961aa1148afb9bb70932b69ebc5bd4144dfd9e"
+    },
+    {
+      "path": "02-relational-response/NATIVE_EXCHANGE_CALIBRATION_R43.md",
+      "sha256": "0707e612220e105910244aa5304a22e7608c68e6b1c8bc440fd6b0edf734ae34",
+      "git_blob_sha": "79e5397e4c474acd7ab53b82a9507b29d4942061"
+    },
+    {
+      "path": "02-relational-response/NATIVE_INTERACTION_MEMORY_R33.md",
+      "sha256": "154cab0aca7fa8a597f9f9014ff9aa320dc39472e65a61e90de52c5ffc4ff2fe",
+      "git_blob_sha": "1453e2a9d4baed12d1863d2563a23538de5f9236"
+    },
+    {
+      "path": "02-relational-response/NATIVE_MEMORY_RESIDUE_R26.md",
+      "sha256": "2a8b300ce78707cddad7163e8a2830dbea285892d6cc02abfeba8a9cc2fabd85",
+      "git_blob_sha": "bdeced771a716053c48d8d754235d1cfeb753b09"
+    },
+    {
+      "path": "02-relational-response/NATIVE_PACKET_FLIGHT_R37.md",
+      "sha256": "b3f0e63779b13a2f4d75973c2e0a78a821472db7ae278eabd67e14c7cc0d0a52",
+      "git_blob_sha": "a4b1c4bd0453233860344b345ccb7cf529149c40"
+    },
+    {
+      "path": "02-relational-response/NATIVE_PAIRED_FIELD_DYNAMICS_R29.md",
+      "sha256": "930c3d613d4098e31c31000bd07eef9fd2ffc20f9f46dfa44f709c1b3b65b0e1",
+      "git_blob_sha": "773611b9f0ec6ea0aedf23bde64bd48260b370a0"
+    },
+    {
+      "path": "02-relational-response/NATIVE_PHASE_GENERATOR_R42.md",
+      "sha256": "e029b585e732110870647489eff708b4ad097c6beef68bdd3df5f9227d52c261",
+      "git_blob_sha": "8d4ae729115b3c0b196c5d2c2e67a7b3a0e705b8"
+    },
+    {
+      "path": "02-relational-response/NATIVE_PROPAGATION_GEOMETRY_R31.md",
+      "sha256": "1b26aea521095c2a9f501d7230c944cf70b2a80c111ae3a97fbca16e2700e2f9",
+      "git_blob_sha": "e755ba68fe64ebd3377f9cb881a753e3d0e821dc"
+    },
+    {
+      "path": "02-relational-response/NATIVE_RECORD_INTERACTION_R20.md",
+      "sha256": "6139b16bfcb5be9c07f9c32c17e82e616c10a7b7d3a3f7113c8bc9bf4e33e7a7",
+      "git_blob_sha": "0d540ec3cc810d9595eba52e9a0f20a8e4c24eb2"
+    },
+    {
+      "path": "02-relational-response/NATIVE_RELATIONAL_CLOCK_R41.md",
+      "sha256": "54a010db712bb741d509ef2eb97d1e58b6c706c277db665ad87eb8f862b3f03c",
+      "git_blob_sha": "014980394bb4bcb7b6cfea283eabd4c032192aae"
+    },
+    {
+      "path": "02-relational-response/NATIVE_REPLICA_SELECTION_R27.md",
+      "sha256": "d4ed6c9940127c04fe8fbc12bfdc18d6e1183bab6b09e468db73941bdc433d91",
+      "git_blob_sha": "5e87abba3d6580ae4f573eb029c425828ca017cd"
+    },
+    {
+      "path": "02-relational-response/NATIVE_RETAINED_LOOP_GAP_R32.md",
+      "sha256": "93ed77cbc91a902e471a244eb614709ca486331060f7511443f0bda94a89c5e1",
+      "git_blob_sha": "84adab65a54715160412d3911db1a22bb17e44f6"
+    },
+    {
+      "path": "02-relational-response/NATIVE_RETURN_COUPLING_R24.md",
+      "sha256": "8846db56ecef6e2e8c53415a6e514516da8e4d4f2839f6f29ce46ee474755949",
+      "git_blob_sha": "f5a5714f9574177f0cf1bed49a110d9aeae03af8"
+    },
+    {
+      "path": "02-relational-response/NATIVE_RETURN_FEEDBACK_R25.md",
+      "sha256": "2278400c91ab94fd0d3506a5f25580d9f913e9af6b62edbdf788508eb79af0b7",
+      "git_blob_sha": "301274fdc39f20f74dbbba58d9f99e83ab682942"
+    },
+    {
+      "path": "02-relational-response/NATIVE_SIGNED_ENVELOPE_R35.md",
+      "sha256": "3439544e62f978a5fa9209098414f5e77e878114b7cbceee35878308d656c1a9",
+      "git_blob_sha": "8276c1f95d540eb30afcf9ea8cd83cb75dc49ab0"
+    },
+    {
+      "path": "02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md",
+      "sha256": "ba735a02c84a25018f79c3cf2ab796404c6aadaf631dbb0165fc3af7cb246755",
+      "git_blob_sha": "7fd8f2795222153f4b175bbc56b6e21d5c8234b0"
+    },
+    {
+      "path": "02-relational-response/NATIVE_UNIVERSAL_SIGNAL_CONE_R38.md",
+      "sha256": "9f8d2e8bd045dbd8c5dc4c4ec7b8c40743e7aee178a4045a9048660e79b9382a",
+      "git_blob_sha": "212eab3688c7e1b3ac6c2dd834201c1e1fe08597"
+    },
+    {
+      "path": "02-relational-response/OBSERVER_METRIC_FOUNDATION_R12.md",
+      "sha256": "2da79f4ceaeb2cdace775f6f40dacd80c37460dda7b7bf69f1dff7bac29ae2dc",
+      "git_blob_sha": "246fc0f9fd40e2c4af08eb61a00c0acd9b3c34ab"
+    },
+    {
+      "path": "02-relational-response/PROJECTED_RESPONSE_R2.md",
+      "sha256": "22b43a29c62a48701e7afccb563c8f05e72526dc066dfcef2a4aa9e1a796673f",
+      "git_blob_sha": "37fc1da568d27aeea9dcbc160bb77ab38d023470"
+    },
+    {
+      "path": "02-relational-response/R14_SCOPE_CORRECTION.md",
+      "sha256": "786c1f01d7521cfd9a9aa379c19a17e97314522f143a2984c0f1f6b4e90662f3",
+      "git_blob_sha": "9f8f1f8741d5829bdaaebf06dfe83a9254644059"
+    },
+    {
+      "path": "02-relational-response/RECORD_IDENTITY_CONTINUATION_R21.md",
+      "sha256": "2714c898ef0fcdbe7dbba10edfb8d5b77a9666a0db3afd20471ca99052102e6c",
+      "git_blob_sha": "feed3a3d2d93ccff23056574e39c7b358e92a818"
+    },
+    {
+      "path": "02-relational-response/RESPONSE_RETURNS_R1.md",
+      "sha256": "5c38027d236d6649e3b3a0daab76ae50e22e61d922262aa4409c0313bcd1cbdd",
+      "git_blob_sha": "c2ca45bf35f18b5fee0995a9b0e390e414f7cda9"
+    },
+    {
+      "path": "02-relational-response/SPECTRAL_CURVATURE_OBSERVER_R11.md",
+      "sha256": "ad51757e5b44316c839026adc55d6de7ef3de9255c838b23fb70f1d70b7da801",
+      "git_blob_sha": "d003e6f8513ca36b7a9b17dbf8b8ffd6b1d6545c"
+    },
+    {
+      "path": "02-relational-response/TYPED_SEAM_R3.md",
+      "sha256": "fe7c6a3ef19910389ed60d176e27191cab86a88c17180de23dbd50dd2fcb4266",
+      "git_blob_sha": "293e7a76fc8a65e52e047c0cf84be965667b2936"
+    },
+    {
+      "path": "02-relational-response/emk-topology-foundation/README.md",
+      "sha256": "f12f79e6ca8bf2c574a75f0892a1a660255e4f49a3ce760d49eefae0477d531f",
+      "git_blob_sha": "1471413d5bb6a027bee7b63f224d5ddcf587ccaa"
+    },
+    {
+      "path": "02-relational-response/emk-topology-foundation/certificate/CORE_LEDGER.json",
+      "sha256": "c166ac64b8ef1041e8582542f070255bd896d3f51b438f4ceca8a570008cf689",
+      "git_blob_sha": "e31b8360de4ed66a48da7d2871abc8db47a38fb9"
+    },
+    {
+      "path": "02-relational-response/emk-topology-foundation/certificate/NATIVE_REPLAY.json",
+      "sha256": "3aa9b5ad55b0a7af0496ceb43b4840efc65dffd19fd08ac3e81212f688bfe168",
+      "git_blob_sha": "7ac20c73232a4493fdf259be9e9d6c39379f7de2"
+    },
+    {
+      "path": "02-relational-response/emk-topology-foundation/certificate/ORIGINAL_CLAIM_LEDGER.json",
+      "sha256": "472e2e09a41154c12e9a14788575e3f4e1d30f9ab7b3fc14f87bb6cc4c0ec7a7",
+      "git_blob_sha": "3ba0a976fc6bd4f41a4512df70156df01f6737ca"
+    },
+    {
+      "path": "02-relational-response/emk-topology-foundation/certificate/SOURCE_PINS.json",
+      "sha256": "a7604972cf93bb919d281e76bb770d74e8f97fc7e2366f2d10a2ae685a625b90",
+      "git_blob_sha": "5066712de0dd8525799ba8fad5bc772cbb19eb77"
+    },
+    {
+      "path": "02-relational-response/emk-topology-foundation/certificate/VERIFICATION.json",
+      "sha256": "a352e7ee04ff865578a17cf5eb9d4e2c8a307139b8257c991d96015fdb14521d",
+      "git_blob_sha": "769c06b1f07c459edbb5da9fb12b73ceda193082"
+    },
+    {
+      "path": "02-relational-response/emk-topology-foundation/certificate/checks.py",
+      "sha256": "d1f019a6f1343a16ae4a361bd13561b032c0f74709b75fe22f21338fc47bfef9",
+      "git_blob_sha": "ccf6ae42a3f89c3b99525f696fe1141e60fa19ad"
+    },
+    {
+      "path": "02-relational-response/emk-topology-foundation/certificate/native_bridge.cjs",
+      "sha256": "5b4f89312b27a142459344dcf8f41f1df8145cef6ddbab4195ac3557e5bf120d",
+      "git_blob_sha": "0378b866e52c6b0bb563b6d67d2efa6b53c35f1f"
+    },
+    {
+      "path": "02-relational-response/emk-topology-foundation/certificate/verify.py",
+      "sha256": "d4a6180e1d9025a009925d3a6971484259e46faa46c764d1011aa7f15d871ee0",
+      "git_blob_sha": "5315900220a3245ac3c59581b7bcff4b87e6d856"
+    },
+    {
+      "path": "02-relational-response/emk-topology-foundation/claim_dispositions.tex",
+      "sha256": "06016233566fc840323c465e3a8d9135a0c9bb56cdf2bf95fd930998283f3a5a",
+      "git_blob_sha": "af2475a5a1f9935929e5e8c555fc466d69285db4"
+    },
+    {
+      "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.pdf",
+      "sha256": "b6596d9ad4403abe6564fa06dbc08a2833b4b1e9b20869016b42ef2402737484",
+      "git_blob_sha": "cb59ad5ac88aa65d81ee5ed655d6dce672daceaa"
+    },
+    {
+      "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+      "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c",
+      "git_blob_sha": "87d95f6c5547cf75dd779f949f7c24f364c545d6"
+    },
+    {
+      "path": "02-relational-response/emk-topology-foundation/source/emk_topology.original.tex",
+      "sha256": "55f449e7eb3a2bde9e77193f595a6a5eeff3923da2bea076d00f0e9907b8cebd",
+      "git_blob_sha": "764019fbe922e6e34dc4bee4b4ba2e8f9c2b1b64"
+    },
+    {
+      "path": "02-relational-response/emk_topology_verified_R15.tex",
+      "sha256": "2a595a66a3f8db10d7a95b95c500da0cafe27172341e6372824a5253995a41d4",
+      "git_blob_sha": "cfb9a31d8e3f6ac04312ab099801ae27bb5074a7"
+    },
+    {
+      "path": "02-relational-response/source-excerpt.tex",
+      "sha256": "5bb62268a2fff9a9d802d7fd2c565191aafe7d918c67f2744fd874e219732e62",
+      "git_blob_sha": "bc730da28cf52a5f6a3b24c22b763ed5b7f44782"
+    },
+    {
+      "path": "03-lambda-reference/AGHORA_RETURN_R2.md",
+      "sha256": "9f2bfec1f2c758c8e942660e17ace0e67804b5dff41f23261d4f83171f437ae1",
+      "git_blob_sha": "e7f6910b74ce0504e52da836649c2c9ec5dd9534"
+    },
+    {
+      "path": "03-lambda-reference/IDENTIFIABILITY.md",
+      "sha256": "81c41beccf98671742b5c743e8f5089c974425880b7b92848289f49595c73f68",
+      "git_blob_sha": "99cf69c492a1e752aaf3c4b9a272cfe744ba6b94"
+    },
+    {
+      "path": "03-lambda-reference/INTERVAL_PROFILE_RECOVERY_R6.md",
+      "sha256": "3112cdac16a01efd9a6eca2cb75f87e3234f707087ab5eefdb95c2bb50c31974",
+      "git_blob_sha": "32a770568dde18b89dc2a2d3422ecd1472b32b72"
+    },
+    {
+      "path": "03-lambda-reference/NATIVE_BOND_BRIDGE_R4.md",
+      "sha256": "6ec394c508e5077aa430961536ad7209f03410b5a51e2555bb74fe8e325e2597",
+      "git_blob_sha": "e97ce6a58a30e54f7b1847d30973eda9a61ff582"
+    },
+    {
+      "path": "03-lambda-reference/PROFILE_RECOVERY_R5.md",
+      "sha256": "5dac82fe95bc5a5653305aef78acc170a018efda479c05c55709032168645b9a",
+      "git_blob_sha": "3e32550a961b2b42dd3a2ffd24eace8501d18a27"
+    },
+    {
+      "path": "03-lambda-reference/README.md",
+      "sha256": "04881a29767477fe83133a5a15bfe2b356b3d457b5b3443f220eda4dc25ce2c8",
+      "git_blob_sha": "308dbb44dd6924bc3522e0c90c5799b226a91f23"
+    },
+    {
+      "path": "03-lambda-reference/RETURN_INVARIANTS_R1.md",
+      "sha256": "ba40a1f9a341700460d68991c83bfe0581becbebc7d5236b7c586d28ce34a975",
+      "git_blob_sha": "8ebb5186c085e5dca0d8e6094d5fb0a3426ba244"
+    },
+    {
+      "path": "03-lambda-reference/SEAM_BOND_COMPLEX_STRUCTURE_R3.md",
+      "sha256": "8b1f53a5ed82c5e4dd164899d1b3fe241c8b7d521badd3d4568456a043d9ab0f",
+      "git_blob_sha": "2e78f7c7ed98ab26a28b7301c4e510a83f53d0f4"
+    },
+    {
+      "path": "03-lambda-reference/source-excerpt.tex",
+      "sha256": "c5d2873308a06c8e153e549865e486ec1a4e7fb3ae4902eb9eef1df00507eca1",
+      "git_blob_sha": "04c3fc30897e355315b8dea8a6f340d3c30b97b7"
+    },
+    {
+      "path": "04-operator-evolution/EMK_MASTER_REVIEW_SOURCE_PINS.json",
+      "sha256": "0cde2e63fab799dd4a23aa15b022d6c3a44f2338a1fa4eb76ae2fa8424a38915",
+      "git_blob_sha": "417b5f310b66496741ab268fbf1c6a04ea608565"
+    },
+    {
+      "path": "04-operator-evolution/EMK_MASTER_REVIEW_VERIFICATION.json",
+      "sha256": "420189bb4c06a8db74c9a12081334058a8245021fdcd93683b8e820565f5f40c",
+      "git_blob_sha": "c4025848c7d5b095591556900fda8ef2745438db"
+    },
+    {
+      "path": "04-operator-evolution/R10_NATIVE_CERTIFICATE.json",
+      "sha256": "9a169807aecb21d144f88a68f7928415794484ec64a278bd251011df058dd97e",
+      "git_blob_sha": "b86dcd167e0f09032e0748ee7621f344e7aa402a"
+    },
+    {
+      "path": "04-operator-evolution/R10_SOURCE_PINS.json",
+      "sha256": "0cad929c22792c706b56d71faaa912453943bb22f459677508942e0031f78a27",
+      "git_blob_sha": "5541d17b8dbae5a03a9f4f3f8f98e7a9f2af4d16"
+    },
+    {
+      "path": "04-operator-evolution/R10_VERIFICATION.json",
+      "sha256": "864d0db362c4fd85afd7ef3fc209ec699b2f3e4fe0063577831894c8024c8edd",
+      "git_blob_sha": "7ef1fe02b9db27d28636792176ebb5725bb1e9ce"
+    },
+    {
+      "path": "04-operator-evolution/R11_NATIVE_CERTIFICATE.json",
+      "sha256": "78503117c1bab88d25ecc7d5d2af6d9c1e2d3b279575d62ef6d69d67d6e3b453",
+      "git_blob_sha": "318d892bc0a1452707b03edfd9204e03797e4cbf"
+    },
+    {
+      "path": "04-operator-evolution/R11_SOURCE_PINS.json",
+      "sha256": "45f82c045f2526784a5ded70161dddec702ff47658f9a0bd0b22c6691481a784",
+      "git_blob_sha": "fc02468f674844f1044434e2ff79df683601a308"
+    },
+    {
+      "path": "04-operator-evolution/R11_VERIFICATION.json",
+      "sha256": "e8ec82efdd42e5ae6b6fac9e01e3d95df9b7d986505530daaf1b7078487f4dec",
+      "git_blob_sha": "bea53e4a6fcaa9452155d1a027b031d3cf3353a6"
+    },
+    {
+      "path": "04-operator-evolution/R12_NATIVE_CERTIFICATE.json",
+      "sha256": "a95dceace1967f9348968fb3a84b3036fdece21089122f169a99919861c8879f",
+      "git_blob_sha": "3e0235917746dc939c2c95fcbfc8a11debb24b85"
+    },
+    {
+      "path": "04-operator-evolution/R12_SOURCE_PINS.json",
+      "sha256": "89f40459baddcf6e3b40bace6368d61e3d1ffcac58793b13a8eb17099a2f4fb1",
+      "git_blob_sha": "4d1aee26ddc6d12c4ba40e08fb93429e4155151b"
+    },
+    {
+      "path": "04-operator-evolution/R12_VERIFICATION.json",
+      "sha256": "bbf94213c61cdd1158dc3c4a6c5ce19ac56efe35f58649fe86409a41647ff8bf",
+      "git_blob_sha": "fdafee9547574ba0e5e76a626bb07c5a3878feda"
+    },
+    {
+      "path": "04-operator-evolution/R13_NATIVE_CERTIFICATE.json",
+      "sha256": "7c2d21f8e7b64978d8039d4e3f28cf882be9b355741a69ce8b80981b9b562dd2",
+      "git_blob_sha": "6c8924a100d005ce7ab55f74347a1f0d49a539fa"
+    },
+    {
+      "path": "04-operator-evolution/R13_SOURCE_PINS.json",
+      "sha256": "4f01c4dad7c51ecd7a7af0456cf6decd795d2b27b13815b8f6e32e43cc9edf75",
+      "git_blob_sha": "3006d83e6ba7fea4f48ed48cda2bcc197656bd62"
+    },
+    {
+      "path": "04-operator-evolution/R13_VERIFICATION.json",
+      "sha256": "5cb38f1751190e943bfcad5ce903a1562b9b5c94cee9675021db5362413e25ff",
+      "git_blob_sha": "660882b23c6287f7d40e429cfdbfd194ea15efd0"
+    },
+    {
+      "path": "04-operator-evolution/R14_SOURCE_PINS.json",
+      "sha256": "cbfa0082e93a94a4dc59b71c2ed278ea29be36d5d28fa7a19e4b3aa2ef8179a2",
+      "git_blob_sha": "57d9c83aab9ab261c343e3fd8cf7b571ecc35a48"
+    },
+    {
+      "path": "04-operator-evolution/R14_UPSTREAM_REPLAYS.json",
+      "sha256": "fe50e9839db1c1381a882638939ffd9f639328d623f9ce0fff56f56342ce3e64",
+      "git_blob_sha": "dbaf9fd36965ed75550b5f051f03bf494685f9f3"
+    },
+    {
+      "path": "04-operator-evolution/R14_VERIFICATION.json",
+      "sha256": "ba591e46ec532d9df84881374248d6f9ce9fb022d231f4c38b374a53988fe43b",
+      "git_blob_sha": "7657e3be3809ea06c1617dc9a4c7148b6a0fbbf6"
+    },
+    {
+      "path": "04-operator-evolution/R15_NATIVE_CERTIFICATE.json",
+      "sha256": "75fb340b2635728c08553fbceaab70727ef7dd47d94237c2cbab42befc63a3bd",
+      "git_blob_sha": "2ab9bd117e028c298ca486941af6c68e277c992f"
+    },
+    {
+      "path": "04-operator-evolution/R15_VERIFICATION.json",
+      "sha256": "2dc8983c4b5498b112891d4e35812613cfc22decb80374c5eed02770fcfa4dd9",
+      "git_blob_sha": "05a6c5ed7c466487fddef27d739c55b3bc50a041"
+    },
+    {
+      "path": "04-operator-evolution/R17_CLAIM_LEDGER.json",
+      "sha256": "ec196842f23335c512d4ee185c2ba936e4354ad12ba3e82330f348c03b52d5c4",
+      "git_blob_sha": "dd6004d96186148e54489ab7cf3b5106882919f7"
+    },
+    {
+      "path": "04-operator-evolution/R17_NATIVE_CERTIFICATE.json",
+      "sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+      "git_blob_sha": "3875d55c52a6287d3423d31d96db1888f21b5ce0"
+    },
+    {
+      "path": "04-operator-evolution/R17_NATIVE_INPUT.json",
+      "sha256": "43e39dab22a6eb00842cf5e8b334c3e1bfbdde55ee51dd024c042d06ed34dfa4",
+      "git_blob_sha": "f81b6dac7fcc751edab20f5c379aaa8086a41028"
+    },
+    {
+      "path": "04-operator-evolution/R17_SOURCE_PINS.json",
+      "sha256": "7f67412ca7e573b4cd37f9b0ff654030d15cca7992649521dd66419f673b355f",
+      "git_blob_sha": "d134ccf2e064e8c7e8df914fe37ce217d27d332e"
+    },
+    {
+      "path": "04-operator-evolution/R17_VERIFICATION.json",
+      "sha256": "4b0f492a8f3b605f42d8e0481fa7f14bf87f632f4010d471e6294edca2f778f6",
+      "git_blob_sha": "00b605303569a0a29fb5f288acc0185d9d5f21a2"
+    },
+    {
+      "path": "04-operator-evolution/R18_CLAIM_LEDGER.json",
+      "sha256": "cb8446adef9620beea927c2e4f8b448a9b9eb47895ca3318dec8cc74b7ce147c",
+      "git_blob_sha": "03dff090eb5ba99e606a78d7d127c51a9ca7f614"
+    },
+    {
+      "path": "04-operator-evolution/R18_NATIVE_CERTIFICATE.json",
+      "sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+      "git_blob_sha": "b1536b56a9a43bf597b201d49e60656605d52d02"
+    },
+    {
+      "path": "04-operator-evolution/R18_SOURCE_PINS.json",
+      "sha256": "713c2fc0b4460ff4bff4aca3addac80adbc1629df7848bf4c3ec3371d4b9345b",
+      "git_blob_sha": "7d1d002433a7bfad75055276e8805e41c9aded02"
+    },
+    {
+      "path": "04-operator-evolution/R18_VERIFICATION.json",
+      "sha256": "b6a10c0515fe9677c17e37e4c869ed452429453a2a9bc65722e64643c03e985c",
+      "git_blob_sha": "7eebe44c4ab63524ae8bea6498a256b5b5ad77c4"
+    },
+    {
+      "path": "04-operator-evolution/R19_DERIVATION_LEDGER.json",
+      "sha256": "36fbe5b5f981a6ed30c3691d8dfafa804465ea0b56c2f2d6d8ff223fe12cb515",
+      "git_blob_sha": "d437737f4cf82796d2e594c4699473d2547a09c1"
+    },
+    {
+      "path": "04-operator-evolution/R19_HISTORICAL_REPLAY_INPUTS.json",
+      "sha256": "63e8b097b0f491da55bea8085c0393f1d15aeab87709c8a110af5974afa08fc7",
+      "git_blob_sha": "6df06ec4a88dad069f3e88ae2aed9601b375938f"
+    },
+    {
+      "path": "04-operator-evolution/R19_NATIVE_CERTIFICATE.json",
+      "sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+      "git_blob_sha": "cbed2f6f145b1acb4d273ee0705e0fdd8880b062"
+    },
+    {
+      "path": "04-operator-evolution/R19_SOURCE_PINS.json",
+      "sha256": "771d955e690e5906f56faa6f5ec481c7119dd3d9dbdde4342a6876b29d7eac56",
+      "git_blob_sha": "6e8cafa41b576d6beef597a8e15db7e663a2a811"
+    },
+    {
+      "path": "04-operator-evolution/R19_VERIFICATION.json",
+      "sha256": "2cd7f0982a8cfad6340830d2f3934504f3acb30b39a90638616b8cca11e978f9",
+      "git_blob_sha": "26d65f2c1ad441ba21e86423797c24443af69ce9"
+    },
+    {
+      "path": "04-operator-evolution/R1_VERIFICATION.json",
+      "sha256": "c1b24ba12cb54af5d33ce443af0691165ccab8d40e345f3c2afc84669e9cea34",
+      "git_blob_sha": "43c218bc62bfe2d8169966e1dad6d212d4370ba7"
+    },
+    {
+      "path": "04-operator-evolution/R20_DERIVATION_LEDGER.json",
+      "sha256": "4de4cf2ec5a6d3b3d76a8ce4c463364549e7de845e91e968d6b0936bb189533c",
+      "git_blob_sha": "f472085390643d3852fe611d71337a84cf8bb849"
+    },
+    {
+      "path": "04-operator-evolution/R20_NATIVE_CERTIFICATE.json",
+      "sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+      "git_blob_sha": "ce275e8db242f365eab343f08352a44245b7bb33"
+    },
+    {
+      "path": "04-operator-evolution/R20_SOURCE_PINS.json",
+      "sha256": "d22b02e5787273bfa2a439c194f40ab1e8eef42471526dc72676a519e2d8dc36",
+      "git_blob_sha": "8e43a83b7a51d9a475a014897f899f9d1c142b9a"
+    },
+    {
+      "path": "04-operator-evolution/R20_VERIFICATION.json",
+      "sha256": "013978e2220b6f546a3349ece196e662143fc64fbea17d17e80126c111032a9f",
+      "git_blob_sha": "8a0c1d30f66099e64f109d12ea904d1979a50544"
+    },
+    {
+      "path": "04-operator-evolution/R21_DERIVATION_LEDGER.json",
+      "sha256": "d5cfd3cf663c2e6b387c1cba0d7689fb56d5c23e220189b1a1032dc5f82827d9",
+      "git_blob_sha": "cb0e11c3231123c649478ea7efda94b56bad98d2"
+    },
+    {
+      "path": "04-operator-evolution/R21_NATIVE_CERTIFICATE.json",
+      "sha256": "1d857541e8497dfb4c33b532c7d50ee629f5d8e92698a080307b7ae039794464",
+      "git_blob_sha": "41cc7b32d65914091c02dbc8628fb3406073c324"
+    },
+    {
+      "path": "04-operator-evolution/R21_SOURCE_PINS.json",
+      "sha256": "6c14926b6111f0e65769d6010c4b7e02af54ccc45bfaad7bbd51ccf5e200969e",
+      "git_blob_sha": "01b50fc96561adbd0f338c634a4c1b5063252f9f"
+    },
+    {
+      "path": "04-operator-evolution/R21_VERIFICATION.json",
+      "sha256": "6f987be301619747b922828162a66523d934633904f1d9986a3e24052e0e28a4",
+      "git_blob_sha": "6734340274cd02f7f6db86046076aec2975e18a8"
+    },
+    {
+      "path": "04-operator-evolution/R22_DERIVATION_LEDGER.json",
+      "sha256": "486984ca8117a88fcdec9acf6877870eec166b4d2d1a3a9d77a90f8fded17224",
+      "git_blob_sha": "c85c532d0c2f42b7aae39c0777ab84561b626ec9"
+    },
+    {
+      "path": "04-operator-evolution/R22_NATIVE_CERTIFICATE.json",
+      "sha256": "ad6ac9d802b77c67ec33e8c023c147300994576207014eb9cd81014f6924b98f",
+      "git_blob_sha": "944e484d7de06bf1610318f84cbf73060992d326"
+    },
+    {
+      "path": "04-operator-evolution/R22_SOURCE_PINS.json",
+      "sha256": "48cb5b94556073b371e8614855d6182ee491782f52f9c1e0bd0e66f0c05de3d2",
+      "git_blob_sha": "e1d6595c70ef33542f126ca365e2d6fc0806dd74"
+    },
+    {
+      "path": "04-operator-evolution/R22_VERIFICATION.json",
+      "sha256": "3c862a853e27c499605ef2fc6371e90760d0e8f35cab3f04b6c81fc641b14efa",
+      "git_blob_sha": "21c48008b898ed8ec9cbf7d9f17a95c3a2daeb29"
+    },
+    {
+      "path": "04-operator-evolution/R23_DERIVATION_LEDGER.json",
+      "sha256": "d1040e838d5dc49f937a18629729c6d4bd0b781c2cf3f442d615993692d0a5a7",
+      "git_blob_sha": "7f8b73ae9df53bbbad9b710c3a58b73e806c6448"
+    },
+    {
+      "path": "04-operator-evolution/R23_NATIVE_CERTIFICATE.json",
+      "sha256": "69b4e6d43db5bad0a10b797f7b7f788bb8091e4486bf0689960882d22b19295a",
+      "git_blob_sha": "80ba12ea90c4b36c0d7ce98bb09c99274e3701d8"
+    },
+    {
+      "path": "04-operator-evolution/R23_SOURCE_PINS.json",
+      "sha256": "e4548f4232ceaf7cc1d794d220363b9d0659e04eabab31597c971c621574e7b8",
+      "git_blob_sha": "a672541363b3c11dd1be46c482b29691ab993e5d"
+    },
+    {
+      "path": "04-operator-evolution/R23_VERIFICATION.json",
+      "sha256": "e663a1e7fcb204e2e367be57f2350690dc098d787aa1c54fb20b1b88398d776f",
+      "git_blob_sha": "0d162ff587f05f98fa0627c43a635de67d8eda18"
+    },
+    {
+      "path": "04-operator-evolution/R24_DERIVATION_LEDGER.json",
+      "sha256": "0d65c0ddcc0a0a8a6757ad45693d285a04a35d4cfe76c9480bf1f64fd8be3596",
+      "git_blob_sha": "18a2ccee331af991eac76e533c956688bf696ac1"
+    },
+    {
+      "path": "04-operator-evolution/R24_NATIVE_CERTIFICATE.json",
+      "sha256": "ae0c88451e3e0a7933dd42cecca67b0cc1254a81cc418da77b94843eaf1d2fbe",
+      "git_blob_sha": "69f579c900845ad97fb5978a2dfef055c80f43ad"
+    },
+    {
+      "path": "04-operator-evolution/R24_SOURCE_PINS.json",
+      "sha256": "387e032240d96527019e2da39706f053f3852727afb82237d68c36ca2b96fa44",
+      "git_blob_sha": "19685f7f63a5de1fef0510a424128f612ed941eb"
+    },
+    {
+      "path": "04-operator-evolution/R24_VERIFICATION.json",
+      "sha256": "83c8a0c73c71aeb3a2e816478f03b91c2b4e7225125647b7df76311e9368cb81",
+      "git_blob_sha": "8ffebef0f3d450a7f5bb6c1d652d7f379339cabc"
+    },
+    {
+      "path": "04-operator-evolution/R25_DERIVATION_LEDGER.json",
+      "sha256": "2f36025fb1919710f7500efe007ed29e6f9694f552e667eaba77422b14b13d51",
+      "git_blob_sha": "a37818b10ea29e15ce7d10361fb4e5c97fb04c3f"
+    },
+    {
+      "path": "04-operator-evolution/R25_NATIVE_CERTIFICATE.json",
+      "sha256": "456f5c5d4bf9857b1604bb6024c346b1a6d499abd833b59a0b414a7bad0fb8d5",
+      "git_blob_sha": "d7aec851683749335efa33c33e82772be9f50659"
+    },
+    {
+      "path": "04-operator-evolution/R25_SOURCE_PINS.json",
+      "sha256": "1d4e0197a92fe549a46d42aebeb88d121be2a221c35851c325afc6257083bd23",
+      "git_blob_sha": "031285d23828d9929a6657d1e608e9c7c94a119b"
+    },
+    {
+      "path": "04-operator-evolution/R25_VERIFICATION.json",
+      "sha256": "be51fa89aef17240b050305a432387bd7c4163170261c8408bdaa09d4bb2131f",
+      "git_blob_sha": "91860b38dd6232a239bcfb0af71b21f43a1c6147"
+    },
+    {
+      "path": "04-operator-evolution/R26_DERIVATION_LEDGER.json",
+      "sha256": "a3fdec24a0c185f9cd8159b7c0fd95363a13cf19e64e251b3cc918472ba70823",
+      "git_blob_sha": "f916b636be4901110096879fb5de330612900922"
+    },
+    {
+      "path": "04-operator-evolution/R26_NATIVE_CERTIFICATE.json",
+      "sha256": "5d0df3fc203d393d1a4f58902a1f3f82e4c5ab7dfb60ffb40e380a7b96de2146",
+      "git_blob_sha": "5c61ebb88086a52fe48a53f1f5461f6fbfeae3f3"
+    },
+    {
+      "path": "04-operator-evolution/R26_SOURCE_PINS.json",
+      "sha256": "a1e62fe58c5a1387938190392e60df0b967091cb7a35587111d8fa4753631f7a",
+      "git_blob_sha": "cbf9a2beb6cb3bc090780a7146c96bbcdf83f882"
+    },
+    {
+      "path": "04-operator-evolution/R26_VERIFICATION.json",
+      "sha256": "cfeaea4eedee5dc1fb71662b1ea9d575f879ff3edee51d2f2b160b4b9dcbf5b2",
+      "git_blob_sha": "d676cac50311d9af22b8bdf19cd7ebca5833466e"
+    },
+    {
+      "path": "04-operator-evolution/R27_DERIVATION_LEDGER.json",
+      "sha256": "f9f26a0a1b361ca18f006380e617500be20efaedaf2952f73ef3857df5ee0715",
+      "git_blob_sha": "47d3fc5ff189c7b32859eb8dba68d65799dc55b4"
+    },
+    {
+      "path": "04-operator-evolution/R27_NATIVE_CERTIFICATE.json",
+      "sha256": "f5b6b9427f7484b793d78619527353ae758b0261e871662ce84516e963edc872",
+      "git_blob_sha": "aa72c29f9b17dcf323678c2b4274b271c1f93fa2"
+    },
+    {
+      "path": "04-operator-evolution/R27_SOURCE_PINS.json",
+      "sha256": "e534af621b26d6eab42f9bcae3cdaa72f6179be5c0c851d848a1fe64e9ff4d72",
+      "git_blob_sha": "fc9bb729c4d771c0419388e0d21fde6897d5e437"
+    },
+    {
+      "path": "04-operator-evolution/R27_VERIFICATION.json",
+      "sha256": "4efb5bf6dc9825b53eec852101b79b57ae5d720543665032dc4ec1b97876694d",
+      "git_blob_sha": "d67377ea20af6480e7d6708335133c13f14d5853"
+    },
+    {
+      "path": "04-operator-evolution/R28_DERIVATION_LEDGER.json",
+      "sha256": "5263481ad02786c01c8fe25cf1c927cfea4382a216677033717928cc4da8e374",
+      "git_blob_sha": "76dccb397246a1dd70a3447243102d68d6fabb4c"
+    },
+    {
+      "path": "04-operator-evolution/R28_NATIVE_CERTIFICATE.json",
+      "sha256": "dbfd38615437b0726f1ad70b31d393178c08a61bf674607beb69775ffe3cea11",
+      "git_blob_sha": "26e957a7a7ac13ad2734fced2f0444c6a2d93af8"
+    },
+    {
+      "path": "04-operator-evolution/R28_SOURCE_PINS.json",
+      "sha256": "54560ceeb7349d18f66ea3dc809fb67c43a791185cf7191a4731e12cfa461a5a",
+      "git_blob_sha": "a852f7361f73bcdb36afe96dccfc1a7d243ca8c1"
+    },
+    {
+      "path": "04-operator-evolution/R28_VERIFICATION.json",
+      "sha256": "0613e9e8efb8de21d80c0862afd98eeaca10b6ffccbaa4ff9c16e667b5f778f3",
+      "git_blob_sha": "407008205ff13f9c45244ea4b37bb0101669538d"
+    },
+    {
+      "path": "04-operator-evolution/R29_DERIVATION_LEDGER.json",
+      "sha256": "ba443bfb84b507b06f6912ffd50ee8e4145d8940168d869d971d9985c82c32d8",
+      "git_blob_sha": "8147ddde66baf453e6a8e255ff48976e53f2cbd2"
+    },
+    {
+      "path": "04-operator-evolution/R29_NATIVE_CERTIFICATE.json",
+      "sha256": "59a8ed58355297764315daeb39cb950dc48b038c29c2a934aa7935ca3ca4361d",
+      "git_blob_sha": "29183a082e82445a677b2210ae4060e5e79ee47a"
+    },
+    {
+      "path": "04-operator-evolution/R29_SOURCE_PINS.json",
+      "sha256": "103d5e1f8e468f9933d25f6860449e3ab551cb2475b20f85df3399566d7d3d05",
+      "git_blob_sha": "95ab87d886735a6db2957a3517a512b1d9342920"
+    },
+    {
+      "path": "04-operator-evolution/R29_VERIFICATION.json",
+      "sha256": "fbb8b4cd6b2b1592bfc6106ab2db4dc806a63bf9413a96c30939670a1bca8f04",
+      "git_blob_sha": "e7f70942239e6bc89deaf1d5e94bf7540861355a"
+    },
+    {
+      "path": "04-operator-evolution/R2_VERIFICATION.json",
+      "sha256": "f6051c6baec50f124ec5ac3ab7adc6e82dbba47f77571b590a72927de60d83e5",
+      "git_blob_sha": "5e3b18bd00d5dc324f7acb42a3f2ff0714115a5e"
+    },
+    {
+      "path": "04-operator-evolution/R30_DERIVATION_LEDGER.json",
+      "sha256": "2150de2e8a6e37e4a2e26721742b8d72db65d52aba334a96f270ddfc73d68901",
+      "git_blob_sha": "4b786832ec84cc01178957b35578afdfa9fabb5d"
+    },
+    {
+      "path": "04-operator-evolution/R30_NATIVE_CERTIFICATE.json",
+      "sha256": "3a913a511ce03b76ee7f8e6697b8d0ae79d9eaaa655992999a6b76da4fba060c",
+      "git_blob_sha": "b1cf76705478d31bbc4bec1ebdd95d18b5407771"
+    },
+    {
+      "path": "04-operator-evolution/R30_SOURCE_PINS.json",
+      "sha256": "462de1fc879d9fa7da671ab4ce124c4d1b4ae22af0b46f01399481fe5d7cdcd3",
+      "git_blob_sha": "92f5b30c7e4a81597f485e1409a82b8878263276"
+    },
+    {
+      "path": "04-operator-evolution/R30_VERIFICATION.json",
+      "sha256": "3cefbea8352526f55f206761be664fac9c3b28f059175b3b02daf204d418b32e",
+      "git_blob_sha": "21fcc3553790b3ec42f66db36d42a5e781f6b2fc"
+    },
+    {
+      "path": "04-operator-evolution/R31_DERIVATION_LEDGER.json",
+      "sha256": "a2d7da6ef5cbd365193871fdf8a4fc415fef72fa66919a4700b90e92ed02de79",
+      "git_blob_sha": "fcbc72342e333e38f7d02f950d0f165b79d4b559"
+    },
+    {
+      "path": "04-operator-evolution/R31_NATIVE_CERTIFICATE.json",
+      "sha256": "f3cf920cdd3cb1d48d68cde3170a0a0ed64b66f00cd2f9ce18874bf9379beb7e",
+      "git_blob_sha": "9a438c9f16437264a7053202e2a24e5ba7d2b07f"
+    },
+    {
+      "path": "04-operator-evolution/R31_SOURCE_PINS.json",
+      "sha256": "a4dbf3c1018631cfdfd314cc3e88fcf03d67fc7bc4e610035d07e64186356e14",
+      "git_blob_sha": "36a04292799e3056d4402b3c6f94eb9701a1d185"
+    },
+    {
+      "path": "04-operator-evolution/R31_VERIFICATION.json",
+      "sha256": "89399a384ab8f5622a8021888603fe7d4c09897d9fb4d9e2cedff393b264d1a1",
+      "git_blob_sha": "7341023af54f01e70b38ca4cec265249a257b153"
+    },
+    {
+      "path": "04-operator-evolution/R32_DERIVATION_LEDGER.json",
+      "sha256": "51daede5fb15f141c1584877cc837d6fab0434ae3653ad7579efa443a885dc5d",
+      "git_blob_sha": "7cd2fd78551d427690fd4db0d792524475c42977"
+    },
+    {
+      "path": "04-operator-evolution/R32_NATIVE_CERTIFICATE.json",
+      "sha256": "9ac51385f5b5084237c442678a8e686c89c50de7022c40667f6c0ac3ac4c39c5",
+      "git_blob_sha": "13e81aaf823cd368d7070d2592ecb4ca622a5725"
+    },
+    {
+      "path": "04-operator-evolution/R32_SOURCE_PINS.json",
+      "sha256": "f1ee3a5d5665d7c49780f0d5c683693834803c267b6e122e8261ab970f8de04a",
+      "git_blob_sha": "7a6f0f011862a23090392ae0b111a325822d890f"
+    },
+    {
+      "path": "04-operator-evolution/R32_VERIFICATION.json",
+      "sha256": "4d9e88cd2ce73e7574345f4ae0077e751523acaf6e46f9e9ad23aabbafa5a8fa",
+      "git_blob_sha": "e506dcbaaa289dc336aac3a73088e40cbfb0bf61"
+    },
+    {
+      "path": "04-operator-evolution/R33_DERIVATION_LEDGER.json",
+      "sha256": "0bbceaffe556ad89a006f0c1563066fd2a0bf708b6c613ed46815a86929e90d3",
+      "git_blob_sha": "2b601322d72a8689643a3bcd93543f563a2be3d0"
+    },
+    {
+      "path": "04-operator-evolution/R33_NATIVE_CERTIFICATE.json",
+      "sha256": "c3a63c35889a9f8fed1763ecf55eb6ef84f9fa1c559589bc4e3332faf330621f",
+      "git_blob_sha": "60e2be88dffe4df4abb3d29fd87c97242dc53e8c"
+    },
+    {
+      "path": "04-operator-evolution/R33_SOURCE_PINS.json",
+      "sha256": "7f8c355056844c339998a234a06d92c9ef3e34397d53399479391806b811102d",
+      "git_blob_sha": "a0a8f9f8e634e05cb44bf5d8113cbd861437a365"
+    },
+    {
+      "path": "04-operator-evolution/R33_VERIFICATION.json",
+      "sha256": "8f993e18db03641813167cc07dd0695750eb3aa52b62397ad0dcd315a0fa6aac",
+      "git_blob_sha": "c8c307fa721c6dcffa98813f75acdade7d17af49"
+    },
+    {
+      "path": "04-operator-evolution/R34_DERIVATION_LEDGER.json",
+      "sha256": "b974fab766e822d47903a2fdfb5436dd4a78b1b9c484704c6ac1440c07e812d0",
+      "git_blob_sha": "46bba0849f547a37b69147bfe3a1869e70d73a79"
+    },
+    {
+      "path": "04-operator-evolution/R34_NATIVE_CERTIFICATE.json",
+      "sha256": "8468d57f3ac1617b3ab9fbf506994a8a253ae31dbe5ead45d414ccb804d6b0c9",
+      "git_blob_sha": "2fac985871dc13d398dbc6c843e4c12b682b8f16"
+    },
+    {
+      "path": "04-operator-evolution/R34_SOURCE_PINS.json",
+      "sha256": "0bdb9633b6a8a1e9cdb3d10bd911be9f38bb3ac5586bb3b79fb2f1b6b0d97d54",
+      "git_blob_sha": "84cc59cb77b4c629547cb31534b3ba00ac1179b4"
+    },
+    {
+      "path": "04-operator-evolution/R34_VERIFICATION.json",
+      "sha256": "b0feeb8d082977828b2eece7db0a9e07dc26e44e5fd97cc5c67f7b5aa52dddc1",
+      "git_blob_sha": "325300dacaddbae41971f05d59a71c14b3ca561f"
+    },
+    {
+      "path": "04-operator-evolution/R35_DERIVATION_LEDGER.json",
+      "sha256": "79d179313fc556ef2359db4103eefe8d9dab774d2090f6d98da0cc87caae5b9d",
+      "git_blob_sha": "6cd366f44ebdbfe0701861dcaee0cf89ed6452b8"
+    },
+    {
+      "path": "04-operator-evolution/R35_NATIVE_CERTIFICATE.json",
+      "sha256": "29c605502759c8af517dd3f6f4f337e4295a5f3243a33aebf543b72d9fb3b4d5",
+      "git_blob_sha": "efc19d5765242c563b28c296072f9c6e85962783"
+    },
+    {
+      "path": "04-operator-evolution/R35_SOURCE_PINS.json",
+      "sha256": "a11e0084f949787ac4344949daa47efc014789d96cebcada5aca437d66670a0b",
+      "git_blob_sha": "979ffa5121500f5040f7cd8eace5c21dce46c31a"
+    },
+    {
+      "path": "04-operator-evolution/R35_VERIFICATION.json",
+      "sha256": "cfc47f8e8e4261ffa4e5e6cb9169d236e05b282931314017cec687fa481c5eed",
+      "git_blob_sha": "cd0a3f2d0e1c738a736f2bd1ec1591dcee7aed7f"
+    },
+    {
+      "path": "04-operator-evolution/R36_DERIVATION_LEDGER.json",
+      "sha256": "d169d3340058c313196e6f3058162f6300a8f66c53a915a8197514b0af97aa03",
+      "git_blob_sha": "a9cbea6cf175c764583b7af4c9e56cc15f74e8c0"
+    },
+    {
+      "path": "04-operator-evolution/R36_NATIVE_CERTIFICATE.json",
+      "sha256": "5e6dec9433b1e74aa8debc709f66326e6f25ed800d9b3a418d65e66f7cab79d8",
+      "git_blob_sha": "592d025f840fcf8f83eb1c55e77aca325b7c9492"
+    },
+    {
+      "path": "04-operator-evolution/R36_SOURCE_PINS.json",
+      "sha256": "a66e87ed1ac998abf560fd609448c36d77741f7ba50b2bfc05aba35df68daca4",
+      "git_blob_sha": "43eaaa5606c24edb8db536a1c9c9cdd55e5ce570"
+    },
+    {
+      "path": "04-operator-evolution/R36_VERIFICATION.json",
+      "sha256": "b8021d5cadbbf6cdac51cb36e5381af646726fd01e7212050afb33b52392ab69",
+      "git_blob_sha": "e5909f34e575818ed2783ac3fef0546e88025330"
+    },
+    {
+      "path": "04-operator-evolution/R37_DERIVATION_LEDGER.json",
+      "sha256": "e35ee809b131a68b2af0d3cac8447b306b09b6b7370263a9dd08fe3564668418",
+      "git_blob_sha": "0b227d89fe5054845ffca9aa44c69a8d4d0c6edd"
+    },
+    {
+      "path": "04-operator-evolution/R37_NATIVE_CERTIFICATE.json",
+      "sha256": "a16607e7156f17693327900dafae7e9d22c19a20b0dca288cfa34bb180bf45c7",
+      "git_blob_sha": "aa4d1f87d6489645f1e7ef29b36fe1c855cfadca"
+    },
+    {
+      "path": "04-operator-evolution/R37_SOURCE_PINS.json",
+      "sha256": "04422a688fb3634865fda0a7a5a0e0d8816f5dd181cf847058a8d1be8199cb84",
+      "git_blob_sha": "aa1515a88315feb62dc4a67d5423a8bcf8c34044"
+    },
+    {
+      "path": "04-operator-evolution/R37_VERIFICATION.json",
+      "sha256": "efbaec123935b0b6c2c88706ee9620117ea6b04b5108a4e848623c27933f7ae2",
+      "git_blob_sha": "11a3ebc5a2cca59495103415af74183dabae9844"
+    },
+    {
+      "path": "04-operator-evolution/R38_DERIVATION_LEDGER.json",
+      "sha256": "c9ec068b91f7110c1ed50a0fc2640ebf48e6e50e3ef8bcde1046ab1318a9e17c",
+      "git_blob_sha": "0d1187df89d83a1fe2cab9d65e15b8f4a7840a7d"
+    },
+    {
+      "path": "04-operator-evolution/R38_NATIVE_CERTIFICATE.json",
+      "sha256": "98a13bb72a486eac8ad9fc321d59faa7759aae3c0d59d30575852c0a03d736e5",
+      "git_blob_sha": "5e448186c9b0ca25ab996ad624f35fb8cfd076ef"
+    },
+    {
+      "path": "04-operator-evolution/R38_SOURCE_PINS.json",
+      "sha256": "a7660d664d2b94c3cf6c88077caf4d9ad5735751b6dec11d87b47b3250951ad8",
+      "git_blob_sha": "faf70d60bf686e4db55dd9e9262d52f861b00a58"
+    },
+    {
+      "path": "04-operator-evolution/R38_VERIFICATION.json",
+      "sha256": "9546ee047fa22924db39f8160b574b97542299ea3e149fedd6cf6ac6c6beef0e",
+      "git_blob_sha": "5e6370270652f46c90bd6eb88f103ef87c9d1dd7"
+    },
+    {
+      "path": "04-operator-evolution/R39_DERIVATION_LEDGER.json",
+      "sha256": "6aa08f7c99ebcefc7e75474b5426c9ca5a09ea1e3b7facf31dd3ca938368d1fa",
+      "git_blob_sha": "4400c0e87fa68f90d4d450f77006cbc97b2cad18"
+    },
+    {
+      "path": "04-operator-evolution/R39_NATIVE_CERTIFICATE.json",
+      "sha256": "812364a31f6c43b07a8fa9fcc6f53f61a6e7a5285a383b12984ae62e7167de5f",
+      "git_blob_sha": "3f135e8e14011b5fcf39b8d94e3f5a80b34f0d1d"
+    },
+    {
+      "path": "04-operator-evolution/R39_SOURCE_PINS.json",
+      "sha256": "e6353b6c7582c61fe2749d9d791c8a2a667d4aa992259590af08e5a0d5fd2061",
+      "git_blob_sha": "db88a81d0d824fde3062654a06de5a599798ef47"
+    },
+    {
+      "path": "04-operator-evolution/R39_VERIFICATION.json",
+      "sha256": "ace3976c3ed6e9bcca4701b6aa8441b46f75607236b849f1605f5f62a979a2c5",
+      "git_blob_sha": "a44ab01fdeefc1e5dbddb598cdd0e3934c2d69cb"
+    },
+    {
+      "path": "04-operator-evolution/R3_VERIFICATION.json",
+      "sha256": "0b48e868e53dd429100fdf15b81240d1b9cddf12e10b856d05f8f319a72ca2dd",
+      "git_blob_sha": "01f14a1321b2903d81812f6c80780d27f25c1671"
+    },
+    {
+      "path": "04-operator-evolution/R40_DERIVATION_LEDGER.json",
+      "sha256": "6a5b0ddd0720dfdba22116ed8cb8d59761c7d002e9465394a949a7c1ae4253b8",
+      "git_blob_sha": "c4bd337efb683ee3e840802af50ce098ab11a3ce"
+    },
+    {
+      "path": "04-operator-evolution/R40_NATIVE_CERTIFICATE.json",
+      "sha256": "477e49abc142fe7591f79c5e1cb12815d3b07dffcb1e57d61486db49a8e77b66",
+      "git_blob_sha": "24c07d6206a4e8c9e81d9e7fefe5dda5b415a200"
+    },
+    {
+      "path": "04-operator-evolution/R40_SOURCE_PINS.json",
+      "sha256": "6c416f829e4219a2cc94ce085079966aeb3b982863be4bc9aed060b7c5384b3c",
+      "git_blob_sha": "84a4bcfd80b4363a6adc630be238d034b94daf76"
+    },
+    {
+      "path": "04-operator-evolution/R40_VERIFICATION.json",
+      "sha256": "64d0a677a3f90e0c0e88ab3418a7fc2ff394976f980580df08bc34653d3ad1ee",
+      "git_blob_sha": "54e86ac875c3e25c725a502ea33ce5a2b5e6cb36"
+    },
+    {
+      "path": "04-operator-evolution/R41_DERIVATION_LEDGER.json",
+      "sha256": "d8f7e08f16e5964adac79aab82b0367300036563e2140248c9423461025a29b0",
+      "git_blob_sha": "cc849bbd7730649046dbc06a39e0f76f2f152937"
+    },
+    {
+      "path": "04-operator-evolution/R41_NATIVE_CERTIFICATE.json",
+      "sha256": "a748318807c8423c4db7396e36e0b8d2a3871c44a7405ca60f23adafc9f4f9f2",
+      "git_blob_sha": "42de450f33fd56f986e1a64ce9e4eb0d435cc9ce"
+    },
+    {
+      "path": "04-operator-evolution/R41_SOURCE_PINS.json",
+      "sha256": "d01c58c2ee14e2d86ab876b8567630e2bd8fc84424385c33c132993c1d8a37ac",
+      "git_blob_sha": "b0f77c847132b6ac7a107fc0d3c55e781d593c3d"
+    },
+    {
+      "path": "04-operator-evolution/R41_VERIFICATION.json",
+      "sha256": "15f0c54d39d27c6b1a137a62504d26a327529e89981f72fca6d4ee142a115557",
+      "git_blob_sha": "27ade167b0067f576d1c399c99c02253f9766031"
+    },
+    {
+      "path": "04-operator-evolution/R42_DERIVATION_LEDGER.json",
+      "sha256": "55216ee25c6a7373501758db96b46e4ee61e8d591523b095341233d05f2f6f57",
+      "git_blob_sha": "963de0f4ecc6a115623f02724e5c18c71eb309d3"
+    },
+    {
+      "path": "04-operator-evolution/R42_NATIVE_CERTIFICATE.json",
+      "sha256": "4e184a4dce7898484a79b3a981787e7f5a0a9eb91363056e858b8d4591c8f661",
+      "git_blob_sha": "7e5d9b871ce09de30a581d2b93c987f0aa384980"
+    },
+    {
+      "path": "04-operator-evolution/R42_SOURCE_PINS.json",
+      "sha256": "e201ad12570029123de05631cb91bcbe8ecd4e47b4432e5f5dcf03e35a3902ed",
+      "git_blob_sha": "cd56209a3c298e6fa755a0a55f41fd44fb1fe7ab"
+    },
+    {
+      "path": "04-operator-evolution/R42_VERIFICATION.json",
+      "sha256": "53aef66f5f6c303b0fa8319bab832e2a7603f34578078721a6afc179b7af7f63",
+      "git_blob_sha": "8eec4b7002697dd7adfd1f150dc189208d766c33"
+    },
+    {
+      "path": "04-operator-evolution/R43_DERIVATION_LEDGER.json",
+      "sha256": "ce5f10165714817770bcfb627608ef897321c551cf42a7eecaa3ed6ec83943f0",
+      "git_blob_sha": "9a2fcce98b0199f84e148fb35ce573a8c46c8818"
+    },
+    {
+      "path": "04-operator-evolution/R43_NATIVE_CERTIFICATE.json",
+      "sha256": "410936fde55edc589f8e7da04fd6e747c8ead3bf63a6d3f0c52c037841effe07",
+      "git_blob_sha": "f120ffb047c5a35fa481c3358b68de6b48a0748c"
+    },
+    {
+      "path": "04-operator-evolution/R43_SOURCE_PINS.json",
+      "sha256": "e9e18a04a4816ccc109e157b739892327efba1579186bf26320a87726591c275",
+      "git_blob_sha": "ba3c1dfa90d2a1ddcbe0e9b0d4728b21c4464ab9"
+    },
+    {
+      "path": "04-operator-evolution/R43_VERIFICATION.json",
+      "sha256": "1c92a1368cf5c1e25c23d90b91e67c2320a06fb74c5953251121a82082ff57ea",
+      "git_blob_sha": "d972434e08884e9b51a854b7c37ef0b686ff9ff1"
+    },
+    {
+      "path": "04-operator-evolution/R44_DERIVATION_LEDGER.json",
+      "sha256": "7fb945653f6cede1f8e512adb13971e47200868d4c96d7d9f3776ca1f79afe0b",
+      "git_blob_sha": "4b90f065b6eaedd1ccee857ae8552bb668dab8ea"
+    },
+    {
+      "path": "04-operator-evolution/R44_NATIVE_CERTIFICATE.json",
+      "sha256": "6861b1bfc4686752b89f604368c1655a4214799d5d8f0bf131635a5b8c365e3a",
+      "git_blob_sha": "4e59ae4f84814aea6d29b3374ab828f346756a54"
+    },
+    {
+      "path": "04-operator-evolution/R44_SOURCE_PINS.json",
+      "sha256": "a0958890912a873c68b2db27e4c45d617c8eae58163e9ca78a3190e727c79307",
+      "git_blob_sha": "e00c7bbbdc54ef8c7f76a13653f4e387645d2d9b"
+    },
+    {
+      "path": "04-operator-evolution/R44_VERIFICATION.json",
+      "sha256": "65bff12a8269e233bd5dcdfac01380fbaa3e836331f94c6d224effd47ec38c20",
+      "git_blob_sha": "9bcb51ba04273b0ab117e446c00a8890572775ac"
+    },
+    {
+      "path": "04-operator-evolution/R4_SOURCE_PINS.json",
+      "sha256": "88fd2864427593241d905e65af70494c9c7c5289afb8e519ce854d4dfb2fef49",
+      "git_blob_sha": "0b1e3827d837bb4bc2d983114877682470bc3d5b"
+    },
+    {
+      "path": "04-operator-evolution/R4_VERIFICATION.json",
+      "sha256": "1b646bf98c396af0404381f5c23564f94d05b80b0c5d1fb19332a4848fbb6dbb",
+      "git_blob_sha": "e92438827a2a4e0fc7593232ebc5991d4c6459db"
+    },
+    {
+      "path": "04-operator-evolution/R5_SOURCE_PINS.json",
+      "sha256": "89fd0c3c479009fc89ee58bf9c8c5a1625c117e85e57d589de44ab4b1243e90c",
+      "git_blob_sha": "477fc0114b47e15bc34f0dff25d93b26a7217e46"
+    },
+    {
+      "path": "04-operator-evolution/R5_VERIFICATION.json",
+      "sha256": "525ebbf96054046177617f82fa84162fff51d8116251344770c01df5f376cf63",
+      "git_blob_sha": "8eb4eec531c98b9008a3f5f6236f673e1aaece1a"
+    },
+    {
+      "path": "04-operator-evolution/R6_VERIFICATION.json",
+      "sha256": "ec53dfbd8d7c2fab225c3d5f5d2f2cdb73435d0bb3f74420f5baa9ed16a2f53d",
+      "git_blob_sha": "1336864e242862e7f7a63ad1a9fa2ab2960bdc6e"
+    },
+    {
+      "path": "04-operator-evolution/R7_SOURCE_PINS.json",
+      "sha256": "3551fdba7076f81cb87636b8a0bdd2bad4fe7478a4135e5bc7d1697bbb406abe",
+      "git_blob_sha": "772c72d11bba419168515bc6f6a960eab6fe0c93"
+    },
+    {
+      "path": "04-operator-evolution/R7_VERIFICATION.json",
+      "sha256": "063dd9abc530a102867597dab47d1eb8701c91b2505a1d4877d51ffce53bc25a",
+      "git_blob_sha": "6390246540c4764147295d9112a4f03f8703f781"
+    },
+    {
+      "path": "04-operator-evolution/R8_NATIVE_CERTIFICATE.json",
+      "sha256": "7ca8f17eed2cb630e85c65acb3578be7d47f4eb2b49881c8e3f7c530ade4f554",
+      "git_blob_sha": "ad24e7bb0797f11afc7bad61a015a9a00704e57e"
+    },
+    {
+      "path": "04-operator-evolution/R8_SOURCE_PINS.json",
+      "sha256": "7610b5db63154f968b21ea5a07c4c0deb3762c3add93116ecb3b5f6ece093bc0",
+      "git_blob_sha": "c5d73760ee4d825e83b71c96d45cee6d6354c2e8"
+    },
+    {
+      "path": "04-operator-evolution/R8_VERIFICATION.json",
+      "sha256": "76e9704e7177772ff053fa424c7772468a6537f380d2994c14511b3641100af8",
+      "git_blob_sha": "0b1589debc98054f542f273618c1f34b5712b82d"
+    },
+    {
+      "path": "04-operator-evolution/R9_NATIVE_CERTIFICATE.json",
+      "sha256": "b1a08020f012ab4a83626b0a5c2e99d1790cc1bfb31341654f2d789a24fcd375",
+      "git_blob_sha": "a6c672ae49aeca53230440157f2064f56415bfa9"
+    },
+    {
+      "path": "04-operator-evolution/R9_SOURCE_PINS.json",
+      "sha256": "a4688f293dbcbd55fcf424fb8549b8def2864db964d9085f7e7297c42c5b4a9f",
+      "git_blob_sha": "acc6e569b09e7b90fb379fac731d24397c8e33c6"
+    },
+    {
+      "path": "04-operator-evolution/R9_VERIFICATION.json",
+      "sha256": "5670d64a389a7c9488bf6cf614a37baf3804a5ce31bfc3ecec5defd2fc075cee",
+      "git_blob_sha": "e286823395f7cb4d70b64a0e9962f4c78e995276"
+    },
+    {
+      "path": "04-operator-evolution/aghora_return.py",
+      "sha256": "17e1bb9681f9d5e766c4f294765c1273ba6716a64e8d125196fd36f10fb06e7c",
+      "git_blob_sha": "031e70bf34a0278e5d80b4692d3b166949fc6a85"
+    },
+    {
+      "path": "04-operator-evolution/certificates/r15/CLAIM_LEDGER.json",
+      "sha256": "3f4dcfe8d19a96a2113358f42ce5d6740f8a4e361a70d3c5eb0bb46069f60df4",
+      "git_blob_sha": "588ebcdd3353b13afa2731885ca0272cbcd17fef"
+    },
+    {
+      "path": "04-operator-evolution/certificates/r15/SOURCE_PINS.json",
+      "sha256": "96c04e67b9292fafb325a3559fca58582241481b5f304637532101a616ed0634",
+      "git_blob_sha": "ad24dd4787576a865050cc89512c3c97127f0c5f"
+    },
+    {
+      "path": "04-operator-evolution/certificates/r15/emk_topology.original.tex",
+      "sha256": "55f449e7eb3a2bde9e77193f595a6a5eeff3923da2bea076d00f0e9907b8cebd",
+      "git_blob_sha": "764019fbe922e6e34dc4bee4b4ba2e8f9c2b1b64"
+    },
+    {
+      "path": "04-operator-evolution/complement_memory_noise.py",
+      "sha256": "dfbfa940ba8d740fa3c69f02c8f58f374ce92329dc78cc799748f303b9783d4a",
+      "git_blob_sha": "7ae089d9e6ba245f6e0b0e5a8641926be27cbe84"
+    },
+    {
+      "path": "04-operator-evolution/current_memory_retention.cjs",
+      "sha256": "fc9c1673bb34c807495c768308c99c6932178776ebb1bc19146a153bf90ea09c",
+      "git_blob_sha": "e81dda8357d7cd5f4549c253d967b2de9600a3e3"
+    },
+    {
+      "path": "04-operator-evolution/cut_history_dynamics.cjs",
+      "sha256": "703b4885a71a8564266b71b89bae300fd5c32cb024b12a85c347e1541d357cd6",
+      "git_blob_sha": "dea87657ba1301b8dfdc60781bc4386dbf35a48a"
+    },
+    {
+      "path": "04-operator-evolution/cut_transport.cjs",
+      "sha256": "e849b1643fef7168b656af07a88dd43f40f9955c191463ee6008517da38b1350",
+      "git_blob_sha": "719857d533985a2afc277d65842005ee3a459224"
+    },
+    {
+      "path": "04-operator-evolution/emk_curvature_balance.py",
+      "sha256": "6c922c02ea4681e7e3b6abe3b842e876b73e2324f15b78ac1ed79b5bcfc969ec",
+      "git_blob_sha": "f56930a565d59d57b9cf41d7e5cc940a92ec1cba"
+    },
+    {
+      "path": "04-operator-evolution/emk_curvature_observation.py",
+      "sha256": "91059138ba60d02a7da154692e51af15dd0ed5461598ee6b80564de0639e6a62",
+      "git_blob_sha": "2872e4941c421c902a7fcaa3864f4dedc482227b"
+    },
+    {
+      "path": "04-operator-evolution/emk_tensor_calculus.py",
+      "sha256": "04d0e4d3754c165a0c54a2c40b837530d56780048732b168c95dfe1cca07887e",
+      "git_blob_sha": "2bac5208e6545cd019f7e0ece4a8b4845ce946b4"
+    },
+    {
+      "path": "04-operator-evolution/emk_topology_core.py",
+      "sha256": "44a1b89290cea811d8e865dafe1a3e5c788b0489492291563e953ddd3ee02acf",
+      "git_blob_sha": "5f939117c0d16e011c87b3776de1d9654aca3bd7"
+    },
+    {
+      "path": "04-operator-evolution/future_response_quotient.cjs",
+      "sha256": "a68419bc72dbe6eba16557b3cf81f6486633033fcdbe21548ba1f93dfbdd3e60",
+      "git_blob_sha": "aee3cc8cd8b070f8e7f7071a8a79c436f595c062"
+    },
+    {
+      "path": "04-operator-evolution/interval_profile_recovery.py",
+      "sha256": "97400de74b6769d7ba5dd95cbb556aa25cd0a9516298c0b352eb59e12d754c7a",
+      "git_blob_sha": "1c2cae9f08c8ce959410e1908f00115e1260224f"
+    },
+    {
+      "path": "04-operator-evolution/meeting_geometry.cjs",
+      "sha256": "6158b499b33cd5d71df464a18163f472e3e29edf8a53d6a33029865516fac6a3",
+      "git_blob_sha": "59e55adea234950b57ef8c8c5f60001534b9e550"
+    },
+    {
+      "path": "04-operator-evolution/native_autonomous_echo.cjs",
+      "sha256": "2ff9bfd62ed9e76dbfa64f58ba430f534f0a668042b202cedbd0c794c5c0e2b3",
+      "git_blob_sha": "8c393011056276a185c990cca7bcbec9b1bde49f"
+    },
+    {
+      "path": "04-operator-evolution/native_bond_bridge.py",
+      "sha256": "f2069247fbeadd47f37dab37da453ad75e9586e76115c1261d851d7540528986",
+      "git_blob_sha": "7bc6b526be524a1d968418e7df8858fdf274921f"
+    },
+    {
+      "path": "04-operator-evolution/native_bond_probe.cjs",
+      "sha256": "04a4431b4247d368b35df44687924df24190fa909cbe3c391df0dcbce723d3b4",
+      "git_blob_sha": "445106da2783558de97d47ec76ed12e98ed03a49"
+    },
+    {
+      "path": "04-operator-evolution/native_collective_exchange.cjs",
+      "sha256": "878e1556b3de0d600a1e26c8bc4f0ae801e190c938e334981f1bc6805c6d05ae",
+      "git_blob_sha": "12ff8dc53b81368ef633b0748366fc9eb15c44b3"
+    },
+    {
+      "path": "04-operator-evolution/native_curvature_descent.py",
+      "sha256": "0398d844b7675e97d3d1b99507421ee5c4370b1cbc611cbb1827428d789a50a4",
+      "git_blob_sha": "aa17de2358ec825b437d7e7981ee9ae5301ae571"
+    },
+    {
+      "path": "04-operator-evolution/native_curvature_observer.cjs",
+      "sha256": "f519e37fdca904755c59568cd72406364385879ff479200076cc277fd3d068fe",
+      "git_blob_sha": "d05f77b2cb7f9141227816be43c090d2422b6b7a"
+    },
+    {
+      "path": "04-operator-evolution/native_cut_curvature_propagation.cjs",
+      "sha256": "a42e37193627c7019b39ca22b4965517555bfa5f263c34a2d2b8133398720d42",
+      "git_blob_sha": "bc7fd340909b4d17ed777d460f667f94e40e79fd"
+    },
+    {
+      "path": "04-operator-evolution/native_decoder_burden.cjs",
+      "sha256": "125a192faa65adfbf8432a7430d58597243340362a9c6e1ad6902d7df6239be8",
+      "git_blob_sha": "e0e436f6e059734655a6f4c1e5e5fa637023d8b4"
+    },
+    {
+      "path": "04-operator-evolution/native_directional_loop_interaction.cjs",
+      "sha256": "6a1429d4a73925af449e046672e41ceee49d794cce1308b60d7bcc2f3a988732",
+      "git_blob_sha": "aebb2d1a78e6b84577c22440873de52234d54832"
+    },
+    {
+      "path": "04-operator-evolution/native_echo_clock.cjs",
+      "sha256": "6b32b19c3b7f4e4c97e098b3d1c617369cce6663f1e45d0a0b774ef5eefc4909",
+      "git_blob_sha": "3d9232ee6d9504f1d1db0dd8a60fe89a3334fe3e"
+    },
+    {
+      "path": "04-operator-evolution/native_exchange_calibration.cjs",
+      "sha256": "9edf9ae2708ef1e28620a17240cd6526c65f04c83bc928b7e452c8f7e36e8041",
+      "git_blob_sha": "5d7019b9969efa9b433ba57d5d697180c1ad1748"
+    },
+    {
+      "path": "04-operator-evolution/native_interaction_memory.cjs",
+      "sha256": "e8f6e55d2c00b72a4ce6ae56dc2aeaed45d7a0d9cea9d463edc68d7199aabe54",
+      "git_blob_sha": "db9f96929b5edeb71f859172e1a61de5e184adf3"
+    },
+    {
+      "path": "04-operator-evolution/native_memory_residue.cjs",
+      "sha256": "6b11e7b122b6a55db78927b6118809f88fbf28300f9b48fcec8d2b8e6ca50d6f",
+      "git_blob_sha": "4b2d6e406530b61646547213430ff1bb9fd98599"
+    },
+    {
+      "path": "04-operator-evolution/native_packet_flight.cjs",
+      "sha256": "a5dd90fb60850c000d68d87a759d08a8ebe7492bb8ef16d3b7b1fb5fa8b289f1",
+      "git_blob_sha": "2eca0fab15a2a25d1e043613bffe59b758b0414f"
+    },
+    {
+      "path": "04-operator-evolution/native_paired_field_dynamics.cjs",
+      "sha256": "1ece0464fa71dd0a8b221ba68d0d9d592c533ebbcaad13b27a210c83ca1f566a",
+      "git_blob_sha": "a48f13520d449f334770bb66b6508058efc1c945"
+    },
+    {
+      "path": "04-operator-evolution/native_phase_generator.cjs",
+      "sha256": "efb9ccd3875f10e625bf288753436aede2b098ba84e3056d9e8a723a2f363d92",
+      "git_blob_sha": "e05225c06917bd47bdb271e87ad8cf0948a78683"
+    },
+    {
+      "path": "04-operator-evolution/native_profile_probe.cjs",
+      "sha256": "c568c9332986ff5d36676f9664bb4dd3f10125ca9112d730d295161f06ea0238",
+      "git_blob_sha": "ab8ca0d219a383be9ab662e63d87b24f5c874b28"
+    },
+    {
+      "path": "04-operator-evolution/native_propagation_geometry.cjs",
+      "sha256": "f343a2a194c23bba9c80fc0a5f3f71b2726afb032297d8a01d5c82ee66c74624",
+      "git_blob_sha": "3ac29acc2904f36047290a42487f3be308be84cc"
+    },
+    {
+      "path": "04-operator-evolution/native_record_interaction.cjs",
+      "sha256": "908b2db2bd114fdfa5236a0af1969063a561258868e299be6c660a5a5d025e82",
+      "git_blob_sha": "43f86a10eeae4dac2e16e4d2036e59fafe407109"
+    },
+    {
+      "path": "04-operator-evolution/native_relational_clock.cjs",
+      "sha256": "44e3e58017c546ffc78590732aaaae5ea1da9d7a1f1aceee873990ee74eed22f",
+      "git_blob_sha": "fb80d38d34e19ab5b1fcf4934dda899b7c6b9a74"
+    },
+    {
+      "path": "04-operator-evolution/native_replica_selection.cjs",
+      "sha256": "2ca88e351cd73d52369e337120d21575176d6830cce544e8fee695a787f02d6e",
+      "git_blob_sha": "66223d18f4e99facf790e9a1ce449b08ed5282f9"
+    },
+    {
+      "path": "04-operator-evolution/native_retained_loop_gap.cjs",
+      "sha256": "f36d305e6e2c6da235581d3557ef4446da94b5651eec710768ecc0992544b076",
+      "git_blob_sha": "296ed7b3c552bdfbede6d9f62dc8470a27e49d05"
+    },
+    {
+      "path": "04-operator-evolution/native_return_coupling.cjs",
+      "sha256": "fa2fc128cd67f14acc610d9791cfbf3c6f326b2a2fdab3cfc5b46eebdc195659",
+      "git_blob_sha": "52e0ff2f52be87337ac1778b79fbc6e110b7fb1a"
+    },
+    {
+      "path": "04-operator-evolution/native_return_feedback.cjs",
+      "sha256": "d4e29e8b1a37400a6e0ba891dbc654b6375e31ab106cc61729dcacc095fffa64",
+      "git_blob_sha": "a6db9d7e9ab368b406fe0dfdaf22bd2f1929cb3e"
+    },
+    {
+      "path": "04-operator-evolution/native_signed_envelope.cjs",
+      "sha256": "2bc20893d0bad5096eb8cab682be7b7787fabb48ad493985b9ea36092875f774",
+      "git_blob_sha": "25595f56da260b349e078f2753d06d43c2780afa"
+    },
+    {
+      "path": "04-operator-evolution/native_source_foundation.cjs",
+      "sha256": "34528062a29b218037af145501ea8832390337529c2970a3b6e0e8674499df61",
+      "git_blob_sha": "a82674b6222ca9dae8214e9746a0f67f19c89e89"
+    },
+    {
+      "path": "04-operator-evolution/native_universal_signal_cone.cjs",
+      "sha256": "b59122ce82c9f89260b9c2187d5eed80647515e2a82f1cfd50f73eb28b618543",
+      "git_blob_sha": "d241d8a0c41a03c514143fda26cb7444ccf64ca9"
+    },
+    {
+      "path": "04-operator-evolution/observer_metric_foundation.py",
+      "sha256": "d6ba25b514db4ff058b83c8dc5b7f4f0b341a4c6a2294f6a666b4d93f09ff8fd",
+      "git_blob_sha": "a37abb9dbfefb3ab398a506af1a9ae84a28e0d1d"
+    },
+    {
+      "path": "04-operator-evolution/profile_recovery.py",
+      "sha256": "10d76f49d14fbc1c543ff811f5485d1e09a53b1c5766e16862397a659af71306",
+      "git_blob_sha": "6339ef3f8153105768b04d89258a3da0101cb96b"
+    },
+    {
+      "path": "04-operator-evolution/r10_native_curvature_probe.cjs",
+      "sha256": "c5d809ab0c6c83b2e9436913c48886646659d47818458dc4884f59fcdf2d5041",
+      "git_blob_sha": "de2e8333d73d9d79b1107bb9052ed7648196996c"
+    },
+    {
+      "path": "04-operator-evolution/r11_native_spectral_probe.cjs",
+      "sha256": "854b8931531de26251c162553f641d34931770a74e8ce9472161e01767b1120e",
+      "git_blob_sha": "d2d9762b64ddb3d8409a7d88a7cbf3aeb194e640"
+    },
+    {
+      "path": "04-operator-evolution/r12_native_observer_metric_probe.cjs",
+      "sha256": "75cabb4fc4802a07a8e3cf0f0eb06e14ea18b82cdf4d9d5a39c6947cff4e94b3",
+      "git_blob_sha": "1cd34370bc5b924b1998916085f41ed96b8d0299"
+    },
+    {
+      "path": "04-operator-evolution/r13_native_complement_probe.cjs",
+      "sha256": "250a9901294ea726a17f159f33064df76f9d7c6a6172145dd326478c77afe0b2",
+      "git_blob_sha": "d781241878f678017752356190766b973f74d814"
+    },
+    {
+      "path": "04-operator-evolution/r15_native_topology_probe.cjs",
+      "sha256": "05926ecd5c223c06dbadad644c8e789a7f43c7e02e2c9b983666449665b60e04",
+      "git_blob_sha": "e7b620aa4bc4aa1d0d1159f313823d5c8e7a2964"
+    },
+    {
+      "path": "04-operator-evolution/r8_native_curvature_probe.cjs",
+      "sha256": "97ba8ae360d64d5b4fbe56d9b43c9a9d3d922d10ac5edf439a3d19234c51ff84",
+      "git_blob_sha": "3ed9f2c022c1603d6a8894849bea86b6bb1d1258"
+    },
+    {
+      "path": "04-operator-evolution/r9_native_balance_probe.cjs",
+      "sha256": "7c915b3a1b1e4279613a09d47029f3bfaf9e853ef6f746a333b452fe6eca6bd6",
+      "git_blob_sha": "f205ec6d176b9d7ba22ad6c56e3d21ccae0de74d"
+    },
+    {
+      "path": "04-operator-evolution/record_identity_continuation.cjs",
+      "sha256": "6951cb2184ae9dc5c90da6890c785868426a23b0b0fd52437aa03674084c17ea",
+      "git_blob_sha": "7b3ef57ef747e5f1c55c8e3bd4d7ce4cdf098e1b"
+    },
+    {
+      "path": "04-operator-evolution/response_transport.py",
+      "sha256": "f5da144d3f5138fee00bf452ec3bb2f535851facbb232584223167744c76fa56",
+      "git_blob_sha": "e792216df19f490540f39001dcdbd6ac2f7c57d2"
+    },
+    {
+      "path": "04-operator-evolution/seam_bond.py",
+      "sha256": "4b0870ef718b8f89003f480a5a5146e5624f917dc30466a976177b1dfcb498c0",
+      "git_blob_sha": "9fbdabf0b0f50d302672712f6a8a02d205f31aaf"
+    },
+    {
+      "path": "04-operator-evolution/source-excerpt.tex",
+      "sha256": "b1d3fdc2fe172517263ed64769e8d7676bf852c8a0a340233fa773622f7679fe",
+      "git_blob_sha": "d3dbbd13b9083db2bdcc56d7596ed491e3d5d03b"
+    },
+    {
+      "path": "04-operator-evolution/spectral_curvature_observer.py",
+      "sha256": "6c1b067f8b7ac137d61a43871d7962fc6758f4a33bed30ebeb6f721063e641c6",
+      "git_blob_sha": "ec82e6ccbea71e5185ec96e70c9a61c9ba5e2739"
+    },
+    {
+      "path": "04-operator-evolution/test_aghora_return.py",
+      "sha256": "309e9f96914d1fe587f3689e156ec1127c43aee2ec037ca631daa4ada6d2b223",
+      "git_blob_sha": "163fe9f83bbad008cb456cba457d2618842d3ae7"
+    },
+    {
+      "path": "04-operator-evolution/test_complement_memory_noise.py",
+      "sha256": "7ea12154d1eccfeecbda6565303b83cdd2e16e77ae51613d73674faa769a5832",
+      "git_blob_sha": "628e94fde22c646fed3deaeb9c220853ddb53d2d"
+    },
+    {
+      "path": "04-operator-evolution/test_emk_curvature_balance.py",
+      "sha256": "5c0d5dc3172cf835659028959f04cb2a954060922419e703ba6160dd0137c081",
+      "git_blob_sha": "9a3bdf24e3b0d2b32a152af6d1f58690099457dc"
+    },
+    {
+      "path": "04-operator-evolution/test_emk_curvature_observation.py",
+      "sha256": "d5d235d56877189392f288da0b7c00d60c274b7b9803b3a3299cec9a105662d4",
+      "git_blob_sha": "27b96a802c903f878d69a256701145d1847cea2b"
+    },
+    {
+      "path": "04-operator-evolution/test_emk_tensor_calculus.py",
+      "sha256": "dde3c351857cdffd3835d8492dc1f676dc11ec33ee8489b99b6cd7c515827434",
+      "git_blob_sha": "8b66fb2615d148e95e012d41eeb11474ec8bb0cc"
+    },
+    {
+      "path": "04-operator-evolution/test_interval_profile_recovery.py",
+      "sha256": "81fc7a115e9b852169cc12e70024e2c3d14cd548ae9859ca6ce6ff4bdc8a4a5f",
+      "git_blob_sha": "7b094b05a0cd5f80801023a1a9b3a1e4dc0d938d"
+    },
+    {
+      "path": "04-operator-evolution/test_native_bond_bridge.py",
+      "sha256": "3802df1f0bcb4e35670013e228012af23e37696bd3dc52068ee78b1fc30a0da7",
+      "git_blob_sha": "fc08b77af0ac549e98fb9bcedfd235be552d844c"
+    },
+    {
+      "path": "04-operator-evolution/test_native_curvature_descent.py",
+      "sha256": "47ba7d2c2ecfc040d32f692525247084de43689ea1b463ee8c269b57f0319e73",
+      "git_blob_sha": "4e785ec4972ac1336afb4588d755843932bb440d"
+    },
+    {
+      "path": "04-operator-evolution/test_native_source_foundation.cjs",
+      "sha256": "580474ab6fdef885293cc1a362dbc14f23bda3f097f7d7b08df93d8923ccccf2",
+      "git_blob_sha": "05a1c424b098629ef022409798b72efe145b49ba"
+    },
+    {
+      "path": "04-operator-evolution/test_observer_metric_foundation.py",
+      "sha256": "87bbb561673bce6598c18d79e9d7161704746a41ccd7be269c7092f27b89e3c7",
+      "git_blob_sha": "462fdbd8995942219b5eae9a77e2d2e55448281b"
+    },
+    {
+      "path": "04-operator-evolution/test_profile_recovery.py",
+      "sha256": "c16bd3d808b33dac08bc66dea2d1f2f735e13b3de5150b46f945ce26854a266a",
+      "git_blob_sha": "e973b5c9c57b456f2133e8cbd3160892c5b77b34"
+    },
+    {
+      "path": "04-operator-evolution/test_response_transport.py",
+      "sha256": "83cc123584c669895f7f39a66fb47896f916ea89e49e15ccab4ff537aa839c6a",
+      "git_blob_sha": "005e70ee4441645439e32a1c6fcc961bdb4713e8"
+    },
+    {
+      "path": "04-operator-evolution/test_seam_bond.py",
+      "sha256": "7bce40c74c34daccf8bf7b3a082f27483e718e6aecf0ca0a5a63414ecaff063e",
+      "git_blob_sha": "7c8dd004fbbf2e2da0b1a1cc73b94a66a8d68432"
+    },
+    {
+      "path": "04-operator-evolution/test_spectral_curvature_observer.py",
+      "sha256": "5401ea76333ca1d0509777be2cb530a3658d19ddfccf3b40ff90db3bed3119df",
+      "git_blob_sha": "ef6376bb2ca65f774677ea688ed1e701a53a0446"
+    },
+    {
+      "path": "04-operator-evolution/verify_emk_master_review.py",
+      "sha256": "a7beaea3634f2f2794e1c506cff9cebe3803f0b71e8e715c999108374d93ff67",
+      "git_blob_sha": "0ea7baced1c0d920e2a7ddd3eeb2c0f37ac9ef1e"
+    },
+    {
+      "path": "04-operator-evolution/verify_r1.py",
+      "sha256": "7bd754859e91231924386af145d24f8e5267129dbf462d7bed9af0869e83fe83",
+      "git_blob_sha": "74eb3ee24d66ecc6a5a229a5638bdbd3d7ed898d"
+    },
+    {
+      "path": "04-operator-evolution/verify_r10.py",
+      "sha256": "bc5917d1c0d5a59a017a0726c9823a5ef11a70b34045e02588ce8f4f28e06b03",
+      "git_blob_sha": "fab49f0263fb8fb1f5b6224fdc210a839f5eb775"
+    },
+    {
+      "path": "04-operator-evolution/verify_r11.py",
+      "sha256": "5406faa28da4223e9849b98ba03f841737a48a0b34fb85b7d341ec8a18ed4499",
+      "git_blob_sha": "f88608895c5062a7f1993f9b3adfa1431c6294f7"
+    },
+    {
+      "path": "04-operator-evolution/verify_r12.py",
+      "sha256": "4be113071026e8d3f27a3d648c36dafe256c6d1055b034d09404c6d9087921db",
+      "git_blob_sha": "9fa161773d84d601dc9355b873122ad38ada2fcd"
+    },
+    {
+      "path": "04-operator-evolution/verify_r13.py",
+      "sha256": "f4c2f97a86daa609ced2f169aac29780688b569dfafe85edc9ebaf6e16824a4d",
+      "git_blob_sha": "7644f8d6be8fad5f540824130efec614a583287b"
+    },
+    {
+      "path": "04-operator-evolution/verify_r14.cjs",
+      "sha256": "fc63f4c5ffc12422745f74f853e11adc41db9d0eb75ab10e813f9280cbf0f13e",
+      "git_blob_sha": "0ef355f138f34361255723665d3409eee226aace"
+    },
+    {
+      "path": "04-operator-evolution/verify_r15.py",
+      "sha256": "382c5509d988c0b4a9e74386607a77f281e78d66a8490405dbb4006099101807",
+      "git_blob_sha": "d0673de8b91f9a5cad352e18f64cb6ea69dd4d3f"
+    },
+    {
+      "path": "04-operator-evolution/verify_r17.py",
+      "sha256": "e3ab6e9ef912da2ac8f2042de556b2ef960c5a1d72227ca985009a2a3a8777ca",
+      "git_blob_sha": "d45e70493f23c76b51b6c8a62114b49e92b7c88f"
+    },
+    {
+      "path": "04-operator-evolution/verify_r18.py",
+      "sha256": "147a2591f2988c08b5382850871853a0ff0a24a235bdcffdfe95dbb439018e00",
+      "git_blob_sha": "97ca5d7bd8d6b60d24ceb0ed134ed5e3d597ab75"
+    },
+    {
+      "path": "04-operator-evolution/verify_r19.py",
+      "sha256": "f535c9d60ebc54ff304d4177c2388f2dbe0e97c74c83aa903d830579ee52b6ee",
+      "git_blob_sha": "bb9300c4c473911b639e4de2c1906c4624bdde58"
+    },
+    {
+      "path": "04-operator-evolution/verify_r2.py",
+      "sha256": "47c5ac2ef088bdc85542afb0b2747fae0aff3a85b59afc82531cb1e2f4a744a4",
+      "git_blob_sha": "513e3891a29f4b375bd5a74a02a2a5120f7ce386"
+    },
+    {
+      "path": "04-operator-evolution/verify_r20.py",
+      "sha256": "90584792f8a084939dbc5566943bfe1f4dac76338bbd860c474957ac4010345d",
+      "git_blob_sha": "99968f2b7a02e439e9c8b314142076253f488550"
+    },
+    {
+      "path": "04-operator-evolution/verify_r21.py",
+      "sha256": "5ac7c4f4f1f880ac2c8fa5b6f3864cf901afd10fd4737cacf8c781f674b97acd",
+      "git_blob_sha": "fa2a636a24c95fb2eed63ceec6e0b378e34e2410"
+    },
+    {
+      "path": "04-operator-evolution/verify_r22.py",
+      "sha256": "ea86d838a3ae7b7b2b8ef5dfbfe410560e78254525bfc8e069d18620e54579d7",
+      "git_blob_sha": "82ac280d62bca71e13dff2e8237f2ad18019a815"
+    },
+    {
+      "path": "04-operator-evolution/verify_r23.py",
+      "sha256": "95740d22ac7959e7f4ce09f790d7158cfcef8efdd07f4e93a6881f33daded4ab",
+      "git_blob_sha": "4f20a29d23e712080215f073dc2e330683828893"
+    },
+    {
+      "path": "04-operator-evolution/verify_r24.py",
+      "sha256": "faf3d5724e853919654eee4c8366bd81027dc4afb081da902537248e80593c61",
+      "git_blob_sha": "5e10857e46ecb63c4993928c81fdd244e21cc807"
+    },
+    {
+      "path": "04-operator-evolution/verify_r25.py",
+      "sha256": "0b642550a6c3e27d7400ab49cc7bedda1bf66e98563d7cbddfc1dee8fd3247ac",
+      "git_blob_sha": "35554ddd0aa0dd411a3032e9f5e9c54225e94ba1"
+    },
+    {
+      "path": "04-operator-evolution/verify_r26.py",
+      "sha256": "ff146baa3cd506f6031f8bdf2c3fdec7ff380994606811668fcf0b72d7564ccd",
+      "git_blob_sha": "9c005226873a9dea55f8eb0ac4961e0d7bff0d2d"
+    },
+    {
+      "path": "04-operator-evolution/verify_r27.py",
+      "sha256": "79761eccd3d3ebb19c52effe4571debf71d31c6eaf21e4aa9a255275fbb42148",
+      "git_blob_sha": "a36fabfce7396be2269d88185b7d510ede66c5ff"
+    },
+    {
+      "path": "04-operator-evolution/verify_r28.py",
+      "sha256": "422866460927ef8153dbbd2c1affd8e04d4f480841f439b60a51c02e400e1682",
+      "git_blob_sha": "1eb9b204289e431c8b8cb0c780638ef8b6fb893a"
+    },
+    {
+      "path": "04-operator-evolution/verify_r29.py",
+      "sha256": "15f22e92b936fffef36d8a494250b88d3ab5ada2dc3c70f0cc9f522f09c478b1",
+      "git_blob_sha": "f09c2bfa4f127b4cbb802e3f71dd3c4165d18d25"
+    },
+    {
+      "path": "04-operator-evolution/verify_r3.py",
+      "sha256": "c6694f54b8a2eb352c101d02b1ee9f21d144deabdbe6b56ac169d04de5105185",
+      "git_blob_sha": "4f6ac68651013e19516083babead817f7a7a619b"
+    },
+    {
+      "path": "04-operator-evolution/verify_r30.py",
+      "sha256": "28a71a537057a656db00b00e4a367c072c6bd7bcb8a7bfdc68f758ebc50082ba",
+      "git_blob_sha": "417682172a7f5facacae571064be00cb5a911e58"
+    },
+    {
+      "path": "04-operator-evolution/verify_r31.py",
+      "sha256": "7fda00e9e16c283aecaaa132c921b428a43af0b5c71a808e07ef2c59307cc0b5",
+      "git_blob_sha": "b41fbe5c2008919dd8385a6dcf2ef1f6d514a0ed"
+    },
+    {
+      "path": "04-operator-evolution/verify_r32.py",
+      "sha256": "2ec23cdf4d50432f0090f2686c3410e6a5650e0ba4ffc1769019a1c02277b810",
+      "git_blob_sha": "1b84610607236981556189f8f29eb0e51ec26e6f"
+    },
+    {
+      "path": "04-operator-evolution/verify_r33.py",
+      "sha256": "d0d983588b0e3b7250d9ac534ff1babba32a0cc29a1fb77df307a8a3d0a8399d",
+      "git_blob_sha": "5be7786a5db2c4c738283ccb7bc221ca9b7e61b7"
+    },
+    {
+      "path": "04-operator-evolution/verify_r34.py",
+      "sha256": "79b30e200ff0542b87790372224de4c974accf688ee42fdacda17826189c6a2c",
+      "git_blob_sha": "d2f6d489fdc1ebcc27b214a0f7db6b668d44a1cf"
+    },
+    {
+      "path": "04-operator-evolution/verify_r35.py",
+      "sha256": "01399289ea68d6bfe3b80fb54dd8f5e457224f5225b180937c56048f2ef49981",
+      "git_blob_sha": "a5d2983b76f30dd6258180e55a2f1c7ed19899bc"
+    },
+    {
+      "path": "04-operator-evolution/verify_r36.py",
+      "sha256": "f92c5edfad70fe8cf6daabc7c8dc77349dec10d5fac67476896d2aeb3fbb14c7",
+      "git_blob_sha": "ef273d4981edc136275d55dcaf2c5d73f263feb9"
+    },
+    {
+      "path": "04-operator-evolution/verify_r37.py",
+      "sha256": "84622927a457e9c985352239adf64fea5749097a65b313b8ceceeb46d63728e2",
+      "git_blob_sha": "250f5bba6a5cf0271268da95b741bcf94ae512c9"
+    },
+    {
+      "path": "04-operator-evolution/verify_r38.py",
+      "sha256": "1d68bc93b79d61c17b199eb11e240a26e1d345364cf8edf5c6355893d56876fe",
+      "git_blob_sha": "5cd760c15347542543a6115977b22ddfa12f5233"
+    },
+    {
+      "path": "04-operator-evolution/verify_r39.py",
+      "sha256": "3f5b745671633199b0a4e12b08b5088397f9d0ea9d8449d683f991850742fd29",
+      "git_blob_sha": "994e1afa591d937fcfbb80a93a7bfde31e88344b"
+    },
+    {
+      "path": "04-operator-evolution/verify_r4.py",
+      "sha256": "acf1b845d41a4e23e25276457e1e85e18e533d25ac3c109b4f3a48e318c35a7a",
+      "git_blob_sha": "11648118cbe4a29fad66b4b768e0d4076234075c"
+    },
+    {
+      "path": "04-operator-evolution/verify_r40.py",
+      "sha256": "28b88e1c7d3e441632946cc651a0edad19e3c6641aba991b2be095f74337a0b9",
+      "git_blob_sha": "554f97049cd510c1dab085abda54901b77b15dda"
+    },
+    {
+      "path": "04-operator-evolution/verify_r41.py",
+      "sha256": "4ca9090c1448dae28f92444c27987732b062f7ae526a2b5d508e14137ca93101",
+      "git_blob_sha": "17d503b40188173acbb4f8220d9cd0ddb790cd26"
+    },
+    {
+      "path": "04-operator-evolution/verify_r42.py",
+      "sha256": "f5ac78f2cfbab89a8a3357cf5265599c25783f4a8e3ecc759de0e06f0e5e14d4",
+      "git_blob_sha": "12e41a00d0784a42249a39b1940d1be1a313d25f"
+    },
+    {
+      "path": "04-operator-evolution/verify_r43.py",
+      "sha256": "d2d9b4d08c41a073c17722b83e3dc964eca571a46e4f9d41b0914d300ed0ebba",
+      "git_blob_sha": "01e520cd174e12aad00ee95be60a6867d5f36c33"
+    },
+    {
+      "path": "04-operator-evolution/verify_r44.py",
+      "sha256": "7c7ebb20689d6a61e0b0271fcc6af310aa926f5e629d9510821b5a6ea301d092",
+      "git_blob_sha": "638018800044d7f0e77b79995b177d346f1d4626"
+    },
+    {
+      "path": "04-operator-evolution/verify_r5.py",
+      "sha256": "e9d1ba0011f6ed0871d32c5ba6cd90994914a241ef6ead2642adc105161449f9",
+      "git_blob_sha": "35fdd0f7d4511fb30cc82154de82fe346f7954dd"
+    },
+    {
+      "path": "04-operator-evolution/verify_r6.py",
+      "sha256": "e78e868d2f18a8598c25d805afcbd8a71ff2460fa975dd9cca63d1859d7976e7",
+      "git_blob_sha": "b5dbd0fcdac1295b1d38c9331487935a5850f04f"
+    },
+    {
+      "path": "04-operator-evolution/verify_r7.py",
+      "sha256": "79eccc082445e02db69b5d41abffa4773691dff57a8697a3e4cf03b95f7630d6",
+      "git_blob_sha": "822275ee0b90cdb0823dfce4f1877381d5b23d93"
+    },
+    {
+      "path": "04-operator-evolution/verify_r8.py",
+      "sha256": "baab0bfefdc293a783e6a99f82778bab896f36d441c0377ccfaf84de18197f27",
+      "git_blob_sha": "effff0ab3a76d403276ffe9f63c679404b857916"
+    },
+    {
+      "path": "04-operator-evolution/verify_r9.py",
+      "sha256": "8118a6e8fd9aff52c1d80b78e43e3c4fd26f6eca32bb44764244acb72d2b2757",
+      "git_blob_sha": "fbc4273502fae9a55f1a46c9b801f639d4e5d3b7"
+    },
+    {
+      "path": "4ways.tex",
+      "sha256": "ace9e45fedf6154f2d872ae762c47a1d852ff93a373f6e30d99c33031cdf8234",
+      "git_blob_sha": "34e93f06c8d6c50c2ef9d668b038587d0e14ad97"
+    },
+    {
+      "path": "ASSESSMENT.md",
+      "sha256": "a86312a3495bc4d7368e7dacfc18058153dd89ef7330c0a2623251330f79bcc5",
+      "git_blob_sha": "fdc4331a5ead640b39bf17a8aabb6dd82a029ddc"
+    },
+    {
+      "path": "CROSS_REPO_LINEAGE.md",
+      "sha256": "d747edf79668448859121eba793cc44e87bbdf9fb7206f53e107584d219ff8cc",
+      "git_blob_sha": "7ab4116b9c7e3bd502e49f839705fa3054b1835f"
+    },
+    {
+      "path": "MANIFEST.json",
+      "sha256": "738e6939e31316668a19ec66a900078cb979f5a73981277daf58a5426c0e9ade",
+      "git_blob_sha": "bfc7630c11cd22bccc6259b1ba9471f1c18c25b8"
+    }
+  ],
+  "scope": "All 341 prior non-navigation files preserved. Seven native proofs derive loop-generated curvature flow, oriented transfer and memory, cubic cyclic modes and cost-curvature direction recovery. Finite words retain activity, correction and refinement cost; complete observation retains coherence. Physical constants remain unselected."
+}

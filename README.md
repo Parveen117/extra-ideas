@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R44's derivation ledger](04-operator-evolution/R44_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R45's derivation ledger](04-operator-evolution/R45_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,14 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R45: curvature-generated flow and recovery of phase direction
+
+[R45](02-relational-response/NATIVE_CURVATURE_FLOW_R45.md) builds a curvature flow from a balanced eight-factor word of native exchanges. Its full rational residue gives the explicit error `643 t^2/(1024 n)` for quadratic count refinement. The completed flow transfers a retained cut around the native three-cycle with exact direction, local matching memory and response metric `1/8`. A finite word preserves cycle activity but need not conserve signed curvature.
+
+On a cyclic single-cut target, `Omega_N=D_N G_N`. The cost and curvature responses reconstruct the oriented shift through `T^(-1)=I-G_N+iota Omega_N G_N^#`, with the constant cut retained explicitly. Native modes have phase rate `sin_Sigma(k)(1-cos_Sigma(k))`, beginning at `k^3/2`, and a proved cubic finite-count gap scale. Mode direction is recoverable; an exact counterexample keeps arbitrary-state coherence distinct. Refinement counts and total phase cost remain visible, and physical h-bar, c and alpha remain unselected.
+
+[Verification](04-operator-evolution/R45_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native word replays. Checks include twelve local refinement enclosures, six network enclosures, nine oriented-shift reconstructions and forty-eight actual clock intertwinings. The [ledger](04-operator-evolution/R45_DERIVATION_LEDGER.json) retains the R1–R33 register and labels the loop, cyclic and observer targets. Frozen R44 and all 341 prior non-navigation files are preserved.
 
 ## R44: collective exchange, calibration geometry and higher memory
 
