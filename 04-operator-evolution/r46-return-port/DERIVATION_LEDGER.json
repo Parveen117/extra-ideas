@@ -1,0 +1,66 @@
+{
+  "schema": "extra-ideas.r46.derivation-ledger.v1",
+  "native_engine_modified": false,
+  "evidence_scope": "WRITTEN_APPLICATION_PROOFS_AND_EXACT_FINITE_CHECKS_NOT_FORMAL_VERIFICATION",
+  "physical_interface": {
+    "status": "ASSUMED_INTERFACE_NOT_NATIVE_DERIVED",
+    "experimental_validation": false,
+    "assumptions": [
+      "Positive ideal ohmic components",
+      "Steady DC and stated terminal load",
+      "Declared reference resistance and measured input voltage/current",
+      "No unmodelled loading, offsets or varying readout gain"
+    ]
+  },
+  "claims": [
+    {
+      "id": "R46.1",
+      "title": "A positive finite-path target realizes the paired native return",
+      "written_section_sha256": "352a4d7d0481cd739f74720bc6631bb71481fc4ede88d889f103d22a1f8dc194",
+      "dependencies": [
+        "RKF_R2"
+      ],
+      "status": "PROVED_ON_DECLARED_TARGET"
+    },
+    {
+      "id": "R46.2",
+      "title": "The native common probe has a definite electrical control law",
+      "written_section_sha256": "7d71028abf37550d574733d076d22053e932624c48539bf49be70b3c16bb4fa3",
+      "dependencies": [
+        "RKF_R2"
+      ],
+      "status": "PROVED_ON_DECLARED_TARGET"
+    },
+    {
+      "id": "R46.3",
+      "title": "Finite length and component intervals remain explicit",
+      "written_section_sha256": "ff255594920117924172cedbe53e8e13e76701a984a3652bc3b9cba2e1b139bb",
+      "dependencies": [
+        "RKF_R2"
+      ],
+      "status": "PROVED_ON_DECLARED_TARGET"
+    },
+    {
+      "id": "R46.4",
+      "title": "The existing third prediction becomes a finite port prediction",
+      "written_section_sha256": "d25fb017e030b8498b96a9d43c69b26c7af9d84eff2982d1540a0b9af88ba934",
+      "dependencies": [
+        "RKF_R2",
+        "PUBLICATIONS_NI",
+        "PUBLICATIONS_CR"
+      ],
+      "status": "PROVED_ON_DECLARED_TARGET"
+    },
+    {
+      "id": "R46.5",
+      "title": "Target faithfulness does not turn an inverse pole into port divergence",
+      "written_section_sha256": "89db7cee1374a631378c6ccae63f0eb8fed6e9e866807907ace82baaf9549207",
+      "dependencies": [
+        "RKF_R2",
+        "PUBLICATIONS_NI",
+        "PUBLICATIONS_CR"
+      ],
+      "status": "PROVED_ON_DECLARED_TARGET"
+    }
+  ]
+}

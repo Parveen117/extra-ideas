@@ -1,10 +1,16 @@
 # Current Extra Ideas status
 
-Updated: 2 October 2026. Latest research result: **R45** at [452fbe0](https://github.com/Parveen117/extra-ideas/commit/452fbe05797d642bd3c72fefb631c1ad61db78a9).
+Updated: 2 October 2026. Latest research result: **R46**, the [native return port](02-relational-response/NATIVE_RETURN_PORT_R46.md). The preceding R45 source remains pinned at [452fbe0](https://github.com/Parveen117/extra-ideas/commit/452fbe05797d642bd3c72fefb631c1ad61db78a9).
 
-[CURRENT_MANIFEST.json](CURRENT_MANIFEST.json) is the current R1–R45 register. [MANIFEST.json](MANIFEST.json) is a frozen historical manifest through R13: later certificates hash it as prior evidence. The original manuscript, historical route guides, source pins and certificates retain their recorded bytes. Current navigation uses the root, relational-response and operator-evolution guides plus this page and the current manifest.
+[CURRENT_MANIFEST.json](CURRENT_MANIFEST.json) is the current R1–R46 register. [MANIFEST.json](MANIFEST.json) is a frozen historical manifest through R13: later certificates hash it as prior evidence. The original manuscript, historical route guides, source pins and certificates retain their recorded bytes. Current navigation uses the root, relational-response and operator-evolution guides plus this page and the current manifest.
 
-## What the latest result establishes
+## R46: physical readout for an existing native prediction
+
+The [R46 proof](02-relational-response/NATIVE_RETURN_PORT_R46.md) supplies a finite positive-path adapter and an explicit ideal DC resistor-ladder realization of RKF R2. A two-bank component control implements the native probe; the previously derived Publications third response receives finite-length and component-error bounds. The example is constructed, not measured.
+
+Its [verification record](04-operator-evolution/R46_VERIFICATION.json) binds five written results, 11 exact groups, 80 node/power checks, eight native replays and 16 negative controls. The general native engine and prior prediction proofs are unchanged. [Dedicated CI](https://github.com/Parveen117/extra-ideas/actions/workflows/r46-return-port.yml) reruns this application and its pinned comparison-source audit.
+
+## Preserved R45 result
 
 [R45's seven written proofs](02-relational-response/NATIVE_CURVATURE_FLOW_R45.md) connect native exchange loops, curvature, directed transfer, local matching memory, response geometry and phase-direction recovery.
 
@@ -38,7 +44,7 @@ The foundation branch `agent/emk-topology-foundation` at `4cc46d1` is already an
 
 [GitHub Actions reports current CI here](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml). CI runs on pushes to main and pull requests targeting main. A stored PASS record and a green GitHub run are separate evidence; the workflow page is authoritative for run status.
 
-The [current runner](04-operator-evolution/verify_repository.py) checks all 45 registered stage records, the 345 local inputs preserved by R45, and its 45 pinned upstream files. It executes the full R16 scoped foundation checker, then replays the unchanged R17–R45 native applications, matches each frozen native certificate, binds written proof sections and reruns available derivation-graph mutation controls. It also rejects wrong native input/parent pins and checks the integrated branch ancestry.
+The [current runner](04-operator-evolution/verify_repository.py) checks all 46 registered stage records, the 345 local inputs preserved by R45, and its 45 pinned upstream files. It executes the full R16 scoped foundation checker, then replays the unchanged R17–R45 native applications, matches each frozen native certificate, binds written proof sections and reruns available derivation-graph mutation controls. It also rejects wrong native input/parent pins and checks the integrated branch ancestry.
 
 ```bash
 python3.12 -B 04-operator-evolution/verify_repository.py \
@@ -104,3 +110,4 @@ Statuses below are copied from the anchored records, including R15's qualified v
 | [R43](02-relational-response/NATIVE_EXCHANGE_CALIBRATION_R43.md) | native exchange, relative calibration and interaction memory | [PASS_R43_NATIVE_EXCHANGE_CALIBRATION](04-operator-evolution/R43_VERIFICATION.json) |
 | [R44](02-relational-response/NATIVE_COLLECTIVE_EXCHANGE_R44.md) | collective exchange, calibration geometry and higher memory | [PASS_R44_NATIVE_COLLECTIVE_EXCHANGE](04-operator-evolution/R44_VERIFICATION.json) |
 | [R45](02-relational-response/NATIVE_CURVATURE_FLOW_R45.md) | curvature-generated flow and recovery of phase direction | [PASS_R45_NATIVE_CURVATURE_FLOW](04-operator-evolution/R45_VERIFICATION.json) |
+| [R46](02-relational-response/NATIVE_RETURN_PORT_R46.md) | native return port, physical probe mapping and finite error | [PASS_R46_NATIVE_RETURN_PORT_ADAPTER](04-operator-evolution/R46_VERIFICATION.json) |

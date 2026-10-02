@@ -1,0 +1,287 @@
+{
+  "schema": "extra-ideas.r46.return-port-certificate.v1",
+  "status": "PASS_R46_NATIVE_RETURN_PORT_ADAPTER",
+  "data_kind": "DECLARED_IDEAL_COMPONENT_FIXTURE_NOT_MEASUREMENTS",
+  "source_pins_sha256": "f5de97e0d32fa1af39dd19999c64f26cc19bade0203b33d6c25d3479bea3b037",
+  "protocol_sha256": "6e09b4060fd7f4e1ebac9942bafce1247d6fd76f7f9c27eec55aacf838dc55a4",
+  "written_results": 5,
+  "exact_checks": [
+    {
+      "name": "native_pair_identities_replayed_without_engine_fork",
+      "passed": true
+    },
+    {
+      "name": "independent_node_elimination_matches_native_apertures",
+      "passed": true
+    },
+    {
+      "name": "open_short_and_finite_loads_have_correct_endpoint_parity",
+      "passed": true
+    },
+    {
+      "name": "physical_units_and_common_cell_control_are_exact",
+      "passed": true
+    },
+    {
+      "name": "component_interval_encloses_every_two_section_corner",
+      "passed": true
+    },
+    {
+      "name": "source_amplitude_changes_current_but_not_return_coefficient",
+      "passed": true
+    },
+    {
+      "name": "prior_two_probe_fixture_and_third_polynomial_are_consumed",
+      "passed": true
+    },
+    {
+      "name": "finite_baseline_and_gain_ratio_error_are_retained",
+      "passed": true
+    },
+    {
+      "name": "port_is_finite_at_the_native_inverse_pole",
+      "passed": true
+    },
+    {
+      "name": "false_physical_controls_and_readout_shortcuts_are_rejected",
+      "passed": true
+    },
+    {
+      "name": "source_and_claim_status_mutations_are_rejected",
+      "passed": true
+    }
+  ],
+  "check_count": 11,
+  "counts": {
+    "nodal_solves": 80,
+    "node_balance_checks": 282,
+    "power_balance_checks": 80,
+    "component_corners": 16,
+    "tail_controls": 36
+  },
+  "symbolic_replays": [
+    {
+      "cell": "12/7",
+      "tail": "5/12",
+      "identity": "schur",
+      "sha256": "75e174075f67859c41de1f5f36b33c0d0ace4297bcf2bb39debad8bff2bc889f",
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "cell": "12/7",
+      "tail": "5/12",
+      "identity": "leftInverse",
+      "sha256": "75e174075f67859c41de1f5f36b33c0d0ace4297bcf2bb39debad8bff2bc889f",
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "cell": "12/7",
+      "tail": "5/12",
+      "identity": "rightInverse",
+      "sha256": "75e174075f67859c41de1f5f36b33c0d0ace4297bcf2bb39debad8bff2bc889f",
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "cell": "12/7",
+      "tail": "5/12",
+      "identity": "response",
+      "sha256": "ab7f6c55d419988da15f22bf5106674735de8b4eb6443eb8b403709278ac5744",
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "cell": "5/7",
+      "tail": "1",
+      "identity": "schur",
+      "sha256": "75e174075f67859c41de1f5f36b33c0d0ace4297bcf2bb39debad8bff2bc889f",
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "cell": "5/7",
+      "tail": "1",
+      "identity": "leftInverse",
+      "sha256": "75e174075f67859c41de1f5f36b33c0d0ace4297bcf2bb39debad8bff2bc889f",
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "cell": "5/7",
+      "tail": "1",
+      "identity": "rightInverse",
+      "sha256": "75e174075f67859c41de1f5f36b33c0d0ace4297bcf2bb39debad8bff2bc889f",
+      "replay": "REPLAY_MATCH"
+    },
+    {
+      "cell": "5/7",
+      "tail": "1",
+      "identity": "response",
+      "sha256": "d2cbb528161e322acf5b613227180fb70126bc3c68757c86529b5f16d4c94046",
+      "replay": "REPLAY_MATCH"
+    }
+  ],
+  "symbolic_replay_count": 8,
+  "rejected_false_alternatives": {
+    "altered_native_witness_12/7": true,
+    "altered_native_witness_5/7": true,
+    "uniform_resistor_scaling_is_not_native_common_probe": true,
+    "voltage_only_probe_does_not_change_admittance": true,
+    "wrong_common_product_units": true,
+    "finite_port_is_not_exact_completed_cut": true,
+    "odd_and_even_tail_bounds_may_not_be_swapped": true,
+    "additive_offset_does_not_cancel_like_gain": true,
+    "configuration_gain_drift_does_not_cancel": true,
+    "negative_component": true,
+    "invalid_tolerance": true,
+    "wrong_source_pin": true,
+    "source_path_escape": true,
+    "physical_assumption_promoted_to_native_result": true,
+    "altered_written_proof_binding": true,
+    "constructed_fixture_promoted_to_measurement": true
+  },
+  "predictions": [
+    {
+      "id": "reference",
+      "z": "1",
+      "sections": 20,
+      "series_ohm": "1750/3",
+      "shunt_ohm": "5000/7",
+      "finite_open_response": "10374858126840603819445085520612739042294836/10374858126840612914392103249895118192685461",
+      "completed_enclosure": {
+        "lower": "10374858126840603819445085520612739042294836/10374858126840612914392103249895118192685461",
+        "upper": "864571510570052137276494005907537416936028/864571510570050318287090460051061586857903",
+        "width": "26734989077687468135677691953152000000000000000000000000000000000000000/8969806762672551414110379958601021539426947882795812109630163256772804820660581048283"
+      },
+      "completed_decimal_enclosure": {
+        "lower": "999999999999/1000000000000",
+        "upper": "1000000000001/1000000000000",
+        "decimal_places": 12
+      },
+      "ideal_current_microamp": {
+        "lower": "999999999999/10000000000",
+        "upper": "1000000000001/10000000000",
+        "decimal_places": 10
+      },
+      "component_current_microamp": {
+        "lower": "999000999/10000000",
+        "upper": "10010010011/100000000",
+        "decimal_places": 8
+      },
+      "finite_reference_ratio": "1",
+      "completed_ratio_error_bound": "2883185096613355379942432527921499848716108317603357136249542236328125/747483896889378629239858190485095126681635544191254640847645939463207172364313557409",
+      "component_ratio_enclosure": {
+        "lower": "499000999/500000000",
+        "upper": "10020020021/10000000000",
+        "decimal_places": 10
+      }
+    },
+    {
+      "id": "minus",
+      "z": "1/4",
+      "sections": 20,
+      "series_ohm": "7000/3",
+      "shunt_ohm": "1250/7",
+      "finite_open_response": "41464996203525045533524462371133267879486083984/103662490508812613833811155927833169698715209961",
+      "completed_enclosure": {
+        "lower": "41464996203525045533524462371133267879486083984/103662490508812613833811155927833169698715209961",
+        "upper": "1382166540117501517784148745704442262649536133/3455416350293753794460371864261105656623840332",
+        "width": "22114664641880024284546379931271076202392578125/358197064616322174857763240763664301291541656180573344805303894420962507183503475971519947052"
+      },
+      "completed_decimal_enclosure": {
+        "lower": "399999999999/1000000000000",
+        "upper": "400000000001/1000000000000",
+        "decimal_places": 12
+      },
+      "ideal_current_microamp": {
+        "lower": "399999999999/10000000000",
+        "upper": "400000000001/10000000000",
+        "decimal_places": 10
+      },
+      "component_current_microamp": {
+        "lower": "999000999/25000000",
+        "upper": "800800801/20000000",
+        "decimal_places": 8
+      },
+      "finite_reference_ratio": "136813790747900369231728612014463556843935575556546243063368093404066027281396300292/342034476869750623240479655246750353070769590301317546869658872144438912292700225993",
+      "completed_ratio_error_bound": "2616693433406909575278428774464138690933690458853246067129170113389653334867479371211472584036528132855892181396484375/7462336800893773109814370219934797722458516364604933855573837126637102858669713125866284592029369513430155406125354356470024617054264",
+      "component_ratio_enclosure": {
+        "lower": "499000999/1250000000",
+        "upper": "4008008009/10000000000",
+        "decimal_places": 10
+      }
+    },
+    {
+      "id": "plus",
+      "z": "7/4",
+      "sections": 20,
+      "series_ohm": "1000/3",
+      "shunt_ohm": "1250",
+      "finite_open_response": "6821210254178712690070096368/5684341890639926034115342441",
+      "completed_enclosure": {
+        "lower": "6821210254178712690070096368/5684341890639926034115342441",
+        "upper": "682121027849404360818395397/568434187848226057505841364",
+        "width": "22114664641880024284546379931271076202392578125/3231174266057556176355293866769373886890200490682529524"
+      },
+      "completed_decimal_enclosure": {
+        "lower": "1199999997433/1000000000000",
+        "upper": "600000002139/500000000000",
+        "decimal_places": 12
+      },
+      "ideal_current_microamp": {
+        "lower": "1199999997433/10000000000",
+        "upper": "600000002139/5000000000",
+        "decimal_places": 10
+      },
+      "component_current_microamp": {
+        "lower": "5994005981/50000000",
+        "upper": "12012011987/100000000",
+        "decimal_places": 8
+      },
+      "finite_reference_ratio": "157546123831143955512158447255091023533663021321869507354112825988/131288436806752774867505797454057203372693151274931125381781477631",
+      "completed_ratio_error_bound": "460715950696775811407350915778452737726421691037287293630337444483302533626556396484375/67315210026998915882132253640201224758158129662244847850070878593674847171222479314344076872968",
+      "component_ratio_enclosure": {
+        "lower": "239520479/200000000",
+        "upper": "12024023999/10000000000",
+        "decimal_places": 10
+      }
+    },
+    {
+      "id": "third",
+      "z": "11/8",
+      "sections": 20,
+      "series_ohm": "14000/33",
+      "shunt_ohm": "6875/7",
+      "finite_open_response": "45180073854534912466226178807023136230857665759795190674128202660131232/40281578130310597868147636576452383131521686636191003964775887121587841",
+      "completed_enclosure": {
+        "lower": "45180073854534912466226178807023136230857665759795190674128202660131232/40281578130310597868147636576452383131521686636191003964775887121587841",
+        "upper": "383895892196562509708928652189864868379178147855190336859399139267527/342273286776779639895652869750175274476194437574205989955516686819176",
+        "width": "411815307253751428209796565935905446404658217877552255359376223998012349160227342621733887579554100177119835279881954193115234375/13787308143217054287446758524528624907468514253299561885663086801930341406359991464806139311335280516671690862368144750758693998928767239016"
+      },
+      "completed_decimal_enclosure": {
+        "lower": "560803175441/500000000000",
+        "upper": "1121606350913/1000000000000",
+        "decimal_places": 12
+      },
+      "ideal_current_microamp": {
+        "lower": "560803175441/5000000000",
+        "upper": "1121606350913/10000000000",
+        "decimal_places": 10
+      },
+      "component_current_microamp": {
+        "lower": "224097173/2000000",
+        "upper": "28068227/250000",
+        "decimal_places": 8
+      },
+      "finite_reference_ratio": "12372950490998327317765717200448919970456663913551421359937965757769757776248415448616667088206039985064638328/11031455448928773139739322650730440422486262395917161902770617666627750800834103214840064304236692394376749939",
+      "completed_ratio_error_bound": "64737364104008897246175761401821876134134549042567684397929559021548301582525829744296235829096592020554257092954469277569255392853535938121642175246961414813995361328125/2167293423286531686984162552625691855812732755728761443626292958350611395126672854232783380932493861990059506667996376712417235950091169690717647274597128355300800249451680005371536",
+      "component_ratio_enclosure": {
+        "lower": "11193653791/10000000000",
+        "upper": "11238518091/10000000000",
+        "decimal_places": 10
+      }
+    }
+  ],
+  "native_engine_modified": false,
+  "physical_experiment_performed": false,
+  "physical_interface": "Ideal steady-DC ohmic interpretation; target equations proved separately",
+  "full_emk_hardware_realization": false,
+  "physical_constants_selected": false,
+  "formal_proof_assistant_verified": false
+}

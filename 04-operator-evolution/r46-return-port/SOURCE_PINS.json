@@ -1,0 +1,125 @@
+{
+  "schema": "extra-ideas.r46.source-pins.v1",
+  "sources": {
+    "local": {
+      "repository": "Parveen117/extra-ideas",
+      "prior_commit": "f7d07099b6e1ca20eaba9b8797caeeb778754293",
+      "files": [
+        {
+          "path": "02-relational-response/NATIVE_RETURN_PORT_R46.md",
+          "sha256": "e8c893ce4de099c775a7ada1e8600a2e36bbcc6d42871654d49348092620c940",
+          "git_blob_sha": "85c06cb965868ff75f1d987efde33a8c2acee48a"
+        },
+        {
+          "path": "04-operator-evolution/r46-return-port/PROTOCOL.json",
+          "sha256": "6e09b4060fd7f4e1ebac9942bafce1247d6fd76f7f9c27eec55aacf838dc55a4",
+          "git_blob_sha": "e23c5f845772425da2467ab92f8090cea3825b15"
+        },
+        {
+          "path": "04-operator-evolution/r46-return-port/SOURCE_AUDIT.md",
+          "sha256": "e97342d312f20a8cc9e4fc486c8e26c9b598758f827a897849b741e468927b82",
+          "git_blob_sha": "bae3b6c9b25bfa31ca013ed256b2c157ea0d2018"
+        },
+        {
+          "path": "04-operator-evolution/r46-return-port/DERIVATION_LEDGER.json",
+          "sha256": "ecaa13e118bfd96b414650f5042a39ce32eaced4e39a93989433b8576b030f29",
+          "git_blob_sha": "bfdbdf9271050021ebf8dde7c7933880af411d01"
+        },
+        {
+          "path": "04-operator-evolution/r46-return-port/verify.cjs",
+          "sha256": "1ed4662b3cf36458b4d04ba0dfeda0a119ae52d4c5608b1d9154efce4370d323",
+          "git_blob_sha": "063460fe4066e5b6477bb7e7affa88ae9ef6c73a"
+        },
+        {
+          "path": "04-operator-evolution/R45_VERIFICATION.json",
+          "sha256": "552d7f926170fd28abd846baadfe0d6569c8a19419946bdcdce0ce7e6aadfcde",
+          "git_blob_sha": "dc186e73380cf94b5b5a56dd6bdfd1f1b38f2a41"
+        }
+      ]
+    },
+    "rkf": {
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+      "files": [
+        {
+          "path": "operator_foundation/core/native_operator.cjs",
+          "sha256": "304963cccf4320d76dd36147e5c15ad579e9d0496c86fb1f942543bc692e06a3",
+          "git_blob_sha": "7b188defee82aa0edafc586eb3091baf0ceb6900"
+        },
+        {
+          "path": "operator_foundation/core/paninian_operator.cjs",
+          "sha256": "9a30c72f4e89d0a15697c99095ed8e0f015bb8c64fda4ded9897394945886fd8",
+          "git_blob_sha": "39d0cc2d2c0b42db319b02f4cd29c045910edbbc"
+        },
+        {
+          "path": "research/recognition_return/return_solver.cjs",
+          "sha256": "adfe2a69d04c387adf3a4809de0f9f57583843c249a87ba3ce7b9988d161009f",
+          "git_blob_sha": "92a2c4329759252051d840d75e16b941f9b31674"
+        },
+        {
+          "path": "research/recognition_return/r2/variable_return.cjs",
+          "sha256": "5f09ab7be28bf2ed24ddf525bc23d18aae8a19f2179c60d4ff8fd30f57c9fe73",
+          "git_blob_sha": "aa0d9416b01b90ded4825c61727c2ab695d603fe"
+        },
+        {
+          "path": "research/recognition_return/r2/THEOREM.md",
+          "sha256": "a37d51e38cf88fb65a7bc2239982a270bc59bdc4c6d4b6e10a6c369358d24bcc",
+          "git_blob_sha": "fa5999eec9d2cf3e7547df8e92cc758385bd1964"
+        }
+      ]
+    },
+    "publications": {
+      "repository": "Parveen117/Publications",
+      "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+      "files": [
+        {
+          "path": "papers/native-return-identification/THEOREM.md",
+          "sha256": "5f960f4434d9203a56a8d43518d021fcf60b59785dace8ecebdf2dc19a9a2a35",
+          "git_blob_sha": "8f88fae98506cef2a62f765a740a7fa5a1801047"
+        },
+        {
+          "path": "papers/native-critical-response/THEOREM.md",
+          "sha256": "2e7a00e6ef00cc3383802c17b834014a43f0a9da1e515d558c976df55c7ff353",
+          "git_blob_sha": "6706d6c8a9eb67199c38253a0e804e91f0f8cd27"
+        }
+      ]
+    },
+    "materials": {
+      "repository": "Parveen117/EMK-material-response-public",
+      "commit": "5dfd7f2cbdcd7fe7559ae2334c495dea947fa175",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "c37603d02d31a887b07a24e90f9381f6b3ae9ddeb2768abc35bbbf15f4d913c9",
+          "git_blob_sha": "ff9d4deb7d7319b33cff0debb6010ed7d8f48276"
+        },
+        {
+          "path": "docs/ASSUMPTIONS_AND_LIMITATIONS.md",
+          "sha256": "6607174fe5e80ddc4871a85eb72cfa725f20a40535c82e976d9ab610852cdf67",
+          "git_blob_sha": "d319df1885826b63ee367e431a94e67c2839b784"
+        },
+        {
+          "path": "src/emk_lambda_material_response_v1.py",
+          "sha256": "0a72eaf49cb09e127ff3d06f7335b987b8781c8657f2e60473c9458d40432b8b",
+          "git_blob_sha": "342a073db0905e832341b66dc36ed6af123ef6d7"
+        }
+      ]
+    },
+    "thermo": {
+      "repository": "Parveen117/Thermodynamics-Reproducibility",
+      "commit": "118596980f3dfd72329a3966c867867bf51fb99a",
+      "files": [
+        {
+          "path": "results/T02_RESULT.md",
+          "sha256": "a18d72b136f1fd54b758e1304308069ecf0a92c52d366983510e5e9e54278209",
+          "git_blob_sha": "c2853a1375a9891c549e9e3ecec438b93def554f"
+        },
+        {
+          "path": "protocols/T01_MEASUREMENT_CONTRACT.md",
+          "sha256": "594264a7cabf89ce62f09869593e001e7e955fb84e2923ea677a5c3946cc2886",
+          "git_blob_sha": "a730e9a86b2968fdfc2b2d676e08c2dae166d9ba"
+        }
+      ]
+    }
+  }
+}

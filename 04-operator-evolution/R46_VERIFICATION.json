@@ -1,0 +1,22 @@
+{
+  "schema": "extra-ideas.r46.verification.v1",
+  "status": "PASS_R46_NATIVE_RETURN_PORT_ADAPTER",
+  "written_results": 5,
+  "source_pins_sha256": "f5de97e0d32fa1af39dd19999c64f26cc19bade0203b33d6c25d3479bea3b037",
+  "native_certificate_sha256": "9e0e651caf1d7224239f0fe08f1e12ad7ea1abc7f3bc22b74cf75ec8a3b1d05b",
+  "exact_check_groups": 11,
+  "counters": {
+    "nodal_solves": 80,
+    "node_balance_checks": 282,
+    "power_balance_checks": 80,
+    "component_corners": 16,
+    "tail_controls": 36
+  },
+  "native_symbolic_replays": 8,
+  "negative_controls_rejected": 16,
+  "native_engine_modified": false,
+  "physical_experiment_performed": false,
+  "physical_constants_selected": false,
+  "formal_proof_assistant_verified": false,
+  "scope": "Five written application proofs, exact finite target/port comparisons and explicit ideal electrical interface; no measured device result."
+}
