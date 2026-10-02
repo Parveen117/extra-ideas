@@ -11,13 +11,14 @@ non-Abelian source/Gauss result to the conditional gravity sector, and record
 the remaining quantum/continuum targets. They are application/navigation
 documents, not a new primitive-only R-stage; the register remains R1–R46.
 
-Latest upstream continuation: **Publications YM-43** proves an arbitrary-source
-time-transfer bound for the full heat-kernel chain at three certified coarse
-parameter cells, within its declared positive-functional carrier. The mission
-map now targets time-refinement while retaining the native measure/NCG and
-continuum obligations. YM-42's spatial result and T75's two-rail/declared-tail
-scope remain distinct. Current YM verification uses Python 3.12 only. The
-Extra Ideas register remains R1–R46; this is an upstream application update.
+Latest upstream continuation: **Publications YM-44** constructs the full
+interacting time-refinement limit at every fixed finite width, with an
+all-source/all-content operator-norm error. Its declared functional carrier
+and linear trajectory remain explicit. The next gap target is uniformity
+across width and fine time steps; native measure/NCG and continuum obligations
+remain open. YM-43's coarse-cell bound, YM-42's spatial result and T75's
+two-rail/declared-tail scope remain distinct. Verification uses Python 3.12
+only. The Extra Ideas register remains R1–R46; this is an upstream update.
 
 ## R46: physical readout for an existing native prediction
 

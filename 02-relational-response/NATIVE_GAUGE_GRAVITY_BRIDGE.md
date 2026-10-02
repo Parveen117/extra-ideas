@@ -127,11 +127,13 @@ why spatial contraction alone cannot establish the time gap. YM-43 now
 supplies the separate arbitrary-source time-transfer bound on the full
 heat-kernel chain, uniformly in finite spatial width, at three certified
 coarse parameter cells. Its positive reference functional remains admitted.
-Time-refinement and the native measure/NCG dictionary are the next distinct
-targets. The [mission map](../PHYSICS_INGREDIENTS.md) links the commit-pinned
-proof/certificate and tracks quantum matter, gravity constraints, E4D-C and
-the interacting continuum at their actual scopes. Current YM verification
-uses Python 3.12 only.
+YM-44 now constructs the full interacting time limit at every fixed finite
+width, with an explicit operator-norm error on the declared linear trajectory.
+The remaining distinct targets are the volume-uniform fine-step gap and the
+native measure/NCG dictionary. The [mission map](../PHYSICS_INGREDIENTS.md)
+links the commit-pinned proof/certificate and tracks quantum matter, gravity
+constraints, E4D-C and the interacting continuum at their actual scopes.
+Current YM verification uses Python 3.12 only.
 
 [ncg]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/THEOREM.md
 [cert]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/CERTIFICATE.json
