@@ -16,14 +16,15 @@ completion. Its [gauge/gravity interface](02-relational-response/NATIVE_GAUGE_GR
 is a conditional application, with classical, quantum and continuum gates kept
 distinct. It does not add an unverified R47 or change the R1–R46 register.
 
-Latest upstream step: **YM-48** constructs continuous heat-time action on
-the reflected history completion, with a self-adjoint generator, explicit
-domain/core and inherited all-source gap. Local coefficient rows embed
-at time zero; a centered source has squared norm at least 5/32, proving
-a nonzero excitation in the declared chain carrier. The ingredient map
-pins the proof/certificate. Full instantaneous-row/observable identification,
-native measure/NCG and the 4D continuum remain open; no physical particle
-claim is made. Verification uses Python 3.12 only.
+Latest upstream step: **YM-49** constructs bounded time-zero coefficient
+observables on the reflected history carrier, with product/dagger laws and
+ordered readouts. Its positive two-time defect measures the exact leakage
+from the instantaneous row; RKF's retained-memory equation now has
+gap-controlled tails on this carrier. A same-chain source proves that time
+and observable action do not commute. The ingredient map pins the proof
+and certificate. The actual chain's row defect, native measure/NCG, physical
+gauge-observable selection and 4D continuum remain open.
+Seventeen new and 83 related tests pass on Python 3.12 only.
 
 [![Native certificates](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml/badge.svg?branch=main)](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml)
 

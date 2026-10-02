@@ -140,9 +140,16 @@ functional retains the correlation gap and reflection positivity.
 YM-48 now constructs a strongly continuous time action and self-adjoint
 generator on the reflected history completion, retaining the all-source gap.
 Its local coefficient row embedding and nonzero source do not yet identify
-the full physical observable sector.
-The remaining distinct targets are full instantaneous-row/observable
-identification and the native measure/NCG dictionary. The
+the full physical observable sector. YM-49 now constructs bounded time-zero
+coefficient observable action, its product/dagger laws and ordered readouts.
+The positive defect C(2t)-C(t)^2=L(t)^dagger L(t) characterizes closure
+of the coefficient-history sector on its row. RKF's exact memory equation
+has a gap-controlled remainder on the retained complement.
+The actual chain's row defect remains unevaluated; finite closing/nonclosing
+observers are controls, not a verdict on it. The nonzero time/observable
+commutator is not automatically NCG gauge curvature.
+The remaining distinct targets include this row-closure calculation,
+physical gauge-observable selection and the native measure/NCG dictionary. The
 [mission map](../PHYSICS_INGREDIENTS.md) links the commit-pinned proof/certificate
 and tracks quantum matter, gravity constraints, the original Wilson E4D-C
 problem and 4D continuum at their actual scopes. The small bridge window

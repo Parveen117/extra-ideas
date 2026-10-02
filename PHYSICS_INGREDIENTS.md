@@ -7,7 +7,18 @@ existing results at their actual scopes. Native states, cuts, composition,
 observers and memory precede geometric, probabilistic and physical adapters.
 The historical R1–R46 register and its frozen evidence remain unchanged.
 
-The latest Yang–Mills continuation is **[YM-48][ym48]**. The reflected
+The latest Yang–Mills continuation is **[YM-49][ym49]**. Bounded time-zero
+coefficient observables now act on the reflected history carrier, with
+proved norm, product and dagger laws and ordered-history readouts.
+Its instantaneous-row compression satisfies the exact positive identity
+C(2t)-C(t)^2=L(t)^dagger L(t). Vanishing at every time is equivalent to
+closure of the coefficient-history sector; otherwise the retained
+complement follows RKF's exact memory equation with gap-controlled tails.
+A same-chain source proves noncommutation of time and observable action.
+The actual infinite-chain row defect remains unevaluated. The finite
+observer controls do not settle it or select physical gauge observables.
+
+The preceding **[YM-48][ym48]** supplies the reflected carrier. The
 completion of the joint history state now has a strongly continuous positive
 time action and a nonnegative self-adjoint generator. Its domain, graph core,
 resolvent tails and inherited all-source gap are explicit.
@@ -31,10 +42,10 @@ and normalized discrete time map, including the actual S ordering.
 [YM-45][ym45] supplies the inherited rate, independent of finite width and
 time step on kappa(a)=theta a. At abs(theta)=1/4096 it is at least
 0.005137179865 per unit heat parameter. YM-47 handles YM-46's a-dependent
-boundary budget for local history readouts. YM-48 now constructs the
-continuous-time generator on their reflected completion. Full
-instantaneous-row/observable identification, native measure/NCG and the
-full 4D continuum remain open.
+boundary budget for local history readouts. YM-48 constructs the
+continuous-time generator, and YM-49 supplies time-zero coefficient
+observable action on its carrier. Actual row closure, native measure/NCG,
+physical observable identification and the full 4D continuum remain open.
 
 [YM-44][ym44] already supplies that full fixed-width time limit and its
 operator-norm refinement error 3 b t Exp(b t) sqrt(mesh), b=|theta|(m-1).
@@ -110,7 +121,7 @@ NCG's checked research commit is `7b34bc657883272f58dc74e9e511ae5c568266ff`.
 | 1. Gauge carrier/observable identification | Reuse existing YM-12 positivity and the established transfers; identify the new compact carrier with a specified existing family | An explicit measure/observable/transfer intertwiner and physical-sector Ward identities; common Lie brackets alone do not provide it |
 | 2. Physical quantum matter | Quantization of a declared matter sector compatible with that gauge construction | CAR/fermion grading, positive physical energy and the relevant anomaly checks; the commuting classical SM action is not silently relabelled a quantum fermion |
 | 3. Dynamical geometry constraints | A concrete coupled gauge/metric constraint formulation and its physical reduction | First-class closure or a precisely controlled regulator deformation, removal of gauge/negative directions, and propagation of all constraints; NCG's gauge Gauss identity closes only the classical gauge subtask |
-| 4. YM instantaneous-row and observable identification — current continuation | YM-48 constructs reflected continuous-time action, its self-adjoint generator/domain/core and gap, plus an isometric coefficient-row embedding and nonzero source | Determine whether the row embedding exhausts the history carrier and is time-invariant, or identify its retained memory complement; prove the required bounded observable action. Reflection-null histories are not automatically a multiplication ideal |
+| 4. YM instantaneous-row closure — current continuation | YM-49 supplies bounded time-zero coefficient observable action, ordered readouts, a positive closure defect and gap-controlled retained memory on YM-48's carrier | Uniformly evaluate the actual chain's defect C(2t)-C(t)^2. Its vanishing gives closure of the coefficient-history sector; a nonzero result requires the proved memory channel. Density in the larger bounded-history carrier and physical observable selection remain separate |
 | 5. Continuum and dictionary | A nontrivial interacting regulator limit and identification of its physical observables | Cutoff/volume/time estimates, measure control, reflection positivity or another valid unitary construction, and the declared native-to-continuum intertwiner |
 | 6. Physical selection and prediction | A native process selector or an independently calibrated, falsifiable model | Why this module/action/trajectory is selected; dimensionless observable predictions without fitting the target answer; physical G, ℏ, c, α and masses remain separately tracked |
 
@@ -119,12 +130,13 @@ has been exhausted. A restricted candidate quantum-gravity theory can be
 attempted before deriving the entire Standard Model, provided its actual field
 content, observables and boundaries are stated.
 
-The immediate continuation is priority 4's **instantaneous-row recovery and
-observable action**. Reuse YM-48's isometric embedding and reflected generator,
-YM-46's actual fixed-step maps, and the existing recognition/memory contracts.
-Prove onto/invariance and the observable bounds, or retain and characterize
-the extra history memory. Priority 1 remains the separate native gauge/measure
-identification task; a Hilbert-space construction alone does not select it.
+The immediate continuation is priority 4's **actual row-closure calculation**.
+Reuse YM-49's defect formula and time-zero observable action, YM-48's
+embedding/generator, and YM-46's fixed-step maps. Supply a uniform
+spatial/content bound showing zero defect, or a certified source showing
+nonzero retained memory. The algebraic criterion alone does not decide
+which occurs. Priority 1 remains the separate native gauge/measure and
+physical-observable identification task.
 
 ## Yang–Mills ledger precision
 
@@ -159,9 +171,11 @@ construction and regulated reflection positivity provide inputs to YM-47's
 joint local-history proof. That proof now identifies both iterated limits
 and the unrestricted joint limit, with an explicit error. YM-48 now
 constructs continuous-time operator action on the reflected history carrier,
-with a generator/domain and coefficient-row embedding. It does not prove
-full instantaneous-row closure, derive the reference measure from Phi_Sigma
-or identify it with the NCG action. Remote time endpoints
+with a generator/domain and coefficient-row embedding. YM-49 adds
+bounded time-zero coefficient observable action and an exact row-closure
+test, without evaluating that test on the actual infinite chain.
+Neither result derives the reference measure from Phi_Sigma or identifies
+it with the NCG action. Remote time endpoints
 are already removed in these vacuum histories; arbitrary finite temporal
 padding and the physical spatial continuum are separate limits.
 
@@ -175,6 +189,19 @@ actual quantum theory of dynamical geometry, not only an Einstein equation or
 a formal effective-action derivative.
 
 ## Evidence attached to this update
+
+[YM-49's certificate][ym49cert] binds eight written results, 48 independent
+time-zero path readouts, nine complex products, three dagger and three
+norm checks, three all-source form bounds, 18 weighted product-energy
+controls, 35 collision/Cauchy controls, nine mixed-time defects, twelve
+positive memory-coefficient bounds, 36 recursions, 108 memory-tail checks,
+three Schur inverses, twelve Schur tails and twelve refusal groups.
+Seventeen new and 83 related tests pass on Python 3.12. Certificate SHA-256:
+b7034ef3436e0003da27125cd6e295a0c014898bb74a2a3e00848acf6ff6d281.
+All 60 inherited source hashes and the canonical RKF engine are preserved.
+The written proof is not mechanically formalized. The exact four-state
+observer fixtures and S^3 test weights are controls, not an evaluation of
+the interacting chain's row defect. The R1–R46 register is unchanged.
 
 [YM-48's certificate][ym48cert] binds nine written results, 48 independent
 reflected path identities, 30 mixed-source gap/composition controls, four
@@ -274,3 +301,6 @@ is navigation and scope control, not another certificate or R-stage.
 
 [ym48]: https://github.com/Parveen117/Publications/blob/ced24dae286376891dbd0c31566e674262ae390a/papers/yang-mills-certified-benchmark/YM48_REFLECTED_TIME_GENERATOR.md
 [ym48cert]: https://github.com/Parveen117/Publications/blob/ced24dae286376891dbd0c31566e674262ae390a/papers/yang-mills-certified-benchmark/certificates/YM48_RESULT.json
+
+[ym49]: https://github.com/Parveen117/Publications/blob/72ca417e3c0b9309d2108f2740f3e7926b8f03bd/papers/yang-mills-certified-benchmark/YM49_TIME_ZERO_OBSERVABLES.md
+[ym49cert]: https://github.com/Parveen117/Publications/blob/72ca417e3c0b9309d2108f2740f3e7926b8f03bd/papers/yang-mills-certified-benchmark/certificates/YM49_RESULT.json
