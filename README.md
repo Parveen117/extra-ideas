@@ -16,14 +16,14 @@ completion. Its [gauge/gravity interface](02-relational-response/NATIVE_GAUGE_GR
 is a conditional application, with classical, quantum and continuum gates kept
 distinct. It does not add an unverified R47 or change the R1–R46 register.
 
-Latest upstream step: **YM-47** joins spatial volume and time refinement
-for local vacuum history readouts on the declared small-bridge heat chain.
-The actual square-sourced ordering has the same positive history limit at
-arbitrary relative cutoff rates and in both iterated orders, retaining the
-correlation gap and reflection positivity. The ingredient map pins the
-proof/certificate. Next is the continuous-time map/generator construction;
-native measure/NCG identification and the full 4D continuum remain open.
-Verification uses Python 3.12 only.
+Latest upstream step: **YM-48** constructs continuous heat-time action on
+the reflected history completion, with a self-adjoint generator, explicit
+domain/core and inherited all-source gap. Local coefficient rows embed
+at time zero; a centered source has squared norm at least 5/32, proving
+a nonzero excitation in the declared chain carrier. The ingredient map
+pins the proof/certificate. Full instantaneous-row/observable identification,
+native measure/NCG and the 4D continuum remain open; no physical particle
+claim is made. Verification uses Python 3.12 only.
 
 [![Native certificates](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml/badge.svg?branch=main)](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml)
 

@@ -11,16 +11,18 @@ non-Abelian source/Gauss result to the conditional gravity sector, and record
 the remaining quantum/continuum targets. They are application/navigation
 documents, not a new primitive-only R-stage; the register remains R1–R46.
 
-Latest upstream continuation: **Publications YM-47** joins the volume and
-time limits of local vacuum histories on the declared heat-functional chain
-for abs(theta)<1/1680, kappa=theta a. Arbitrary relative cutoff rates and both
-iterated limits give the same positive history functional, with correlation
-gap and reflection positivity retained. The infinite-volume continuous-time
-map/generator, native measure/NCG dictionary and 4D continuum remain open.
-Twelve new and 52 related tests pass on Python 3.12 only. The Extra Ideas
-register stays R1–R46: this upstream mathematics is consumed by reference,
-not introduced as a new R47 result. Its proof and certificate are pinned
-in the mission map.
+Latest upstream continuation: **Publications YM-48** constructs continuous
+heat-time action on the reflected completion of YM-47's histories, with a
+self-adjoint nonnegative generator, explicit domain/core and all-source gap.
+Local coefficient rows embed at time zero; a centered single-site source
+has squared reflected norm at least 5/32. The full abs(theta)<1/1680 window
+and admitted heat-functional carrier remain.
+Full instantaneous-row/observable identification, native measure/NCG and
+4D continuum remain open; the coefficient excitation is not a physical
+particle claim. Fourteen new and 66 related tests pass on Python 3.12 only.
+The Extra Ideas register stays R1–R46: this upstream mathematics is consumed
+by reference, not introduced as a new R-stage. Its proof and certificate
+are pinned in the mission map.
 
 ## R46: physical readout for an existing native prediction
 
