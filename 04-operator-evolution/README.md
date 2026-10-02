@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R42 native phase generator and response verification
+
+[native_phase_generator.cjs](native_phase_generator.cjs) uses the unchanged native engine to construct kernel cuts and recover nine complete finite processes. It checks rational phase integrands, count-sum bounds, eighteen factorial reconstruction enclosures, conserved moments, variance response geometry, finite path minima, midpoint/reversal residue identities and twenty-four actual clock intertwinings.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r42.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R42_VERIFICATION.json](R42_VERIFICATION.json) binds seven written results, nine exact groups and fourteen native replays, with fifteen boundary controls and nine rejected graph mutations. [Source pins](R42_SOURCE_PINS.json) preserve all 320 prior non-navigation files and replay frozen R41. The [ledger](R42_DERIVATION_LEDGER.json) keeps finite process choice, phase branch, mismatch functional and physical calibration distinct. Rational phase approximants have explicit enclosures; written completed-field proofs and exact finite checks remain separate from formal-assistant or physical validation.
+
 ## R41 native relational clock and uncertainty verification
 
 [native_relational_clock.cjs](native_relational_clock.cjs) reuses the unchanged native engine for coupled source/process prefixes, history winding, complete clock commutators and covariance bounds. Checks include 72 finite word-count profiles, a nonzero sharpness witness, an actual echo-carrier history, exact joint-limit budgets and complete curvature observation with affine calibration.

@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R41's derivation ledger](04-operator-evolution/R41_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R42's derivation ledger](04-operator-evolution/R42_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,14 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R42: native phase generator, exact interpolation and response geometry
+
+[R42](02-relational-response/NATIVE_PHASE_GENERATOR_R42.md) constructs a complete generator for R41's finite native process. A derived reversal cut repairs the information lost by the forward/reverse contrast. Native rational inverse sums and the earned completion then give a self-dagger phase generator E with `V=Exp_Sigma(-iota E)`. Its fractional-count evolution recovers every original integer tick exactly; generator moments are conserved even inside the actual autonomous clock.
+
+Differentiating native matching gives `iota dpsi/dtau=E psi`, readout derivative `iota <[E,A]>`, response metric `g=Var(E)` and the sharp speed bound `|d<A>/dtau| <= 2 sigma_E sigma_A`. A sum of native prediction-residue squares has the exact discrete history as its unique zero-cost path from a fixed initial state, with a closed formula for fixed-endpoint minima. The interpolation retains an explicit phase branch: the same integer ticks can have different fractional evolution. The internal generator also differs from R41's joint tick contrast. Physical energy, material time and the dimensional action product remain unselected.
+
+[Verification](04-operator-evolution/R42_VERIFICATION.json) binds seven written results, nine exact groups and fourteen native replays, including eighteen factorial reconstruction enclosures and twenty-four actual clock intertwinings. The [ledger](04-operator-evolution/R42_DERIVATION_LEDGER.json) retains the R1–R33 register and labels the finite process, interpolation branch and mismatch functional. Frozen R41 and all 320 prior non-navigation files are preserved.
 
 ## R41: native relational evolution, clock curvature and a sharp uncertainty scale
 

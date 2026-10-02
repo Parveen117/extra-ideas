@@ -1,0 +1,1152 @@
+{
+  "schema": "extra-ideas.r42.verification.v1",
+  "date": "2026-10-02",
+  "status": "PASS_R42_NATIVE_PHASE_GENERATOR",
+  "inherited_combined_reading_papers": 33,
+  "written_results": 7,
+  "exact_check_groups": 9,
+  "native_symbolic_replays": 14,
+  "counters": {
+    "native_complete_midpoint_generator_retains_the_reversal_cut": {
+      "complete_process_instances": [
+        {
+          "name": "identity",
+          "roles": 2,
+          "reversal_cut_rank": 0,
+          "midpoint_generator": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          "reversal_cut": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ]
+        },
+        {
+          "name": "full_reversal",
+          "roles": 2,
+          "reversal_cut_rank": 2,
+          "midpoint_generator": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          "reversal_cut": [
+            [
+              [
+                "1",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ]
+          ]
+        },
+        {
+          "name": "source_H",
+          "roles": 2,
+          "reversal_cut_rank": 1,
+          "midpoint_generator": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          "reversal_cut": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "1",
+                "0"
+              ]
+            ]
+          ]
+        },
+        {
+          "name": "source_K",
+          "roles": 2,
+          "reversal_cut_rank": 1,
+          "midpoint_generator": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          "reversal_cut": [
+            [
+              [
+                "1/2",
+                "0"
+              ],
+              [
+                "-1/2",
+                "0"
+              ]
+            ],
+            [
+              [
+                "-1/2",
+                "0"
+              ],
+              [
+                "1/2",
+                "0"
+              ]
+            ]
+          ]
+        },
+        {
+          "name": "source_R",
+          "roles": 2,
+          "reversal_cut_rank": 0,
+          "midpoint_generator": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "-2"
+              ]
+            ],
+            [
+              [
+                "0",
+                "2"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          "reversal_cut": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ]
+        },
+        {
+          "name": "rational_turn",
+          "roles": 2,
+          "reversal_cut_rank": 0,
+          "midpoint_generator": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "-1"
+              ]
+            ],
+            [
+              [
+                "0",
+                "1"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          "reversal_cut": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ]
+        },
+        {
+          "name": "same_contrast_other_step",
+          "roles": 2,
+          "reversal_cut_rank": 0,
+          "midpoint_generator": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "-4"
+              ]
+            ],
+            [
+              [
+                "0",
+                "4"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          "reversal_cut": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ]
+        },
+        {
+          "name": "mixed_reversal",
+          "roles": 3,
+          "reversal_cut_rank": 1,
+          "midpoint_generator": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "4/5"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "-3/5"
+              ]
+            ],
+            [
+              [
+                "0",
+                "-4/5"
+              ],
+              [
+                "0",
+                "3/5"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ],
+          "reversal_cut": [
+            [
+              [
+                "9/25",
+                "0"
+              ],
+              [
+                "12/25",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "12/25",
+                "0"
+              ],
+              [
+                "16/25",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ]
+        },
+        {
+          "name": "general_native_midpoint",
+          "roles": 2,
+          "reversal_cut_rank": 0,
+          "midpoint_generator": [
+            [
+              [
+                "1",
+                "0"
+              ],
+              [
+                "1",
+                "1"
+              ]
+            ],
+            [
+              [
+                "1",
+                "-1"
+              ],
+              [
+                "-2",
+                "0"
+              ]
+            ]
+          ],
+          "reversal_cut": [
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ],
+            [
+              [
+                "0",
+                "0"
+              ],
+              [
+                "0",
+                "0"
+              ]
+            ]
+          ]
+        }
+      ],
+      "finite_processes_checked": 9,
+      "forward_reverse_response_alone_is_complete": false,
+      "reversal_cut_can_be_discarded": false,
+      "primitive_spectral_decomposition_used": false
+    },
+    "native_resolvent_count_sums_construct_phase_with_bounds": {
+      "rational_resolvent_and_derivative_instances": 45,
+      "phase_count_bounds": [
+        {
+          "process": "identity",
+          "count_terms": 16,
+          "midpoint_gain_bound": "0",
+          "phase_gain_error_upper": "0",
+          "half_turn_lower": "8433721802668501026812613/2739607524040677403508200",
+          "half_turn_upper": "4388086371586792851125569/1369803762020338701754100",
+          "successive_approximation_difference_square": "0"
+        },
+        {
+          "process": "full_reversal",
+          "count_terms": 16,
+          "midpoint_gain_bound": "0",
+          "phase_gain_error_upper": "1/16",
+          "half_turn_lower": "8433721802668501026812613/2739607524040677403508200",
+          "half_turn_upper": "4388086371586792851125569/1369803762020338701754100",
+          "successive_approximation_difference_square": "677652043505967897467780169992159830416841/88821886222251962336300024645559395522691920000"
+        },
+        {
+          "process": "source_H",
+          "count_terms": 16,
+          "midpoint_gain_bound": "0",
+          "phase_gain_error_upper": "1/16",
+          "half_turn_lower": "8433721802668501026812613/2739607524040677403508200",
+          "half_turn_upper": "4388086371586792851125569/1369803762020338701754100",
+          "successive_approximation_difference_square": "677652043505967897467780169992159830416841/177643772444503924672600049291118791045383840000"
+        },
+        {
+          "process": "source_K",
+          "count_terms": 16,
+          "midpoint_gain_bound": "0",
+          "phase_gain_error_upper": "1/16",
+          "half_turn_lower": "8433721802668501026812613/2739607524040677403508200",
+          "half_turn_upper": "4388086371586792851125569/1369803762020338701754100",
+          "successive_approximation_difference_square": "677652043505967897467780169992159830416841/177643772444503924672600049291118791045383840000"
+        },
+        {
+          "process": "source_R",
+          "count_terms": 16,
+          "midpoint_gain_bound": "4",
+          "phase_gain_error_upper": "1",
+          "half_turn_lower": "8433721802668501026812613/2739607524040677403508200",
+          "half_turn_upper": "4388086371586792851125569/1369803762020338701754100",
+          "successive_approximation_difference_square": "40701796371687153255625395694007620050008601/22205471555562990584075006161389848880672980000"
+        },
+        {
+          "process": "rational_turn",
+          "count_terms": 16,
+          "midpoint_gain_bound": "2",
+          "phase_gain_error_upper": "1/8",
+          "half_turn_lower": "8433721802668501026812613/2739607524040677403508200",
+          "half_turn_upper": "4388086371586792851125569/1369803762020338701754100",
+          "successive_approximation_difference_square": "21174923758914134247644509769236394250139032960712630693417282161/300335075754420224707730300085586441472898900168838404960980006480000"
+        },
+        {
+          "process": "same_contrast_other_step",
+          "count_terms": 16,
+          "midpoint_gain_bound": "8",
+          "phase_gain_error_upper": "8",
+          "half_turn_lower": "8433721802668501026812613/2739607524040677403508200",
+          "half_turn_upper": "4388086371586792851125569/1369803762020338701754100",
+          "successive_approximation_difference_square": "311816273842396559765048655336613281/15987258814084384795788899784435380000"
+        },
+        {
+          "process": "mixed_reversal",
+          "count_terms": 16,
+          "midpoint_gain_bound": "14/5",
+          "phase_gain_error_upper": "811/2000",
+          "half_turn_lower": "8433721802668501026812613/2739607524040677403508200",
+          "half_turn_upper": "4388086371586792851125569/1369803762020338701754100",
+          "successive_approximation_difference_square": "512781807984644352714095526300948772577064293604821342740421496225453094490731/6899740441973507513776809867052433667053242820983074226404045500609174648025760000"
+        },
+        {
+          "process": "general_native_midpoint",
+          "count_terms": 16,
+          "midpoint_gain_bound": "7",
+          "phase_gain_error_upper": "343/64",
+          "half_turn_lower": "8433721802668501026812613/2739607524040677403508200",
+          "half_turn_upper": "4388086371586792851125569/1369803762020338701754100",
+          "successive_approximation_difference_square": "118896185596120505595872856308304848701522589965671723170067047165615512714396813658481315964888575755883898418325/44478014161157144342352622904094797569610426262705641616485791243038198015419374705004074145830734720400379305179392"
+        }
+      ],
+      "native_count_integration_imported": false,
+      "completed_phase_claimed_exactly_rational": false
+    },
+    "native_phase_exponential_enclosures_recover_the_original_step": {
+      "completed_phase_reconstruction_enclosures": [
+        {
+          "process": "identity",
+          "count_terms": 8,
+          "factorial_degree": 32,
+          "phase_error_bound": "0",
+          "factorial_gain_bound": "0",
+          "factorial_tail": "0",
+          "reconstruction_entry_norm_square_sha256": "98089e6d36f78e9766c9ea34d5acb3611f3a92cd81c5eb102095d924ffc7d08b",
+          "reconstruction_entry_norm_square_bound": "0"
+        },
+        {
+          "process": "identity",
+          "count_terms": 16,
+          "factorial_degree": 32,
+          "phase_error_bound": "0",
+          "factorial_gain_bound": "0",
+          "factorial_tail": "0",
+          "reconstruction_entry_norm_square_sha256": "98089e6d36f78e9766c9ea34d5acb3611f3a92cd81c5eb102095d924ffc7d08b",
+          "reconstruction_entry_norm_square_bound": "0"
+        },
+        {
+          "process": "identity",
+          "count_terms": 32,
+          "factorial_degree": 32,
+          "phase_error_bound": "0",
+          "factorial_gain_bound": "0",
+          "factorial_tail": "0",
+          "reconstruction_entry_norm_square_sha256": "98089e6d36f78e9766c9ea34d5acb3611f3a92cd81c5eb102095d924ffc7d08b",
+          "reconstruction_entry_norm_square_bound": "0"
+        },
+        {
+          "process": "full_reversal",
+          "count_terms": 8,
+          "factorial_degree": 32,
+          "phase_error_bound": "1/8",
+          "factorial_gain_bound": "7",
+          "factorial_tail": "3219905755813179726837607/2871959915083432581755043840000000",
+          "reconstruction_entry_norm_square_sha256": "3bb8c25644b5394584eb0bb302d92d0067f7414c678e59f830665179d2760369",
+          "reconstruction_entry_norm_square_bound": "128877404715704408219165901020914207223282888460106749635669486449/4124076876923018642908926755396829637124396640160972800000000000000"
+        },
+        {
+          "process": "full_reversal",
+          "count_terms": 16,
+          "factorial_degree": 32,
+          "phase_error_bound": "1/16",
+          "factorial_gain_bound": "7",
+          "factorial_tail": "3219905755813179726837607/2871959915083432581755043840000000",
+          "reconstruction_entry_norm_square_sha256": "710a0e1943ee3253afe96432a67778c98fd2715f82101037e58b27e7bc10243a",
+          "reconstruction_entry_norm_square_bound": "32219351756891126145753498393341467195976459276923343924309486449/4124076876923018642908926755396829637124396640160972800000000000000"
+        },
+        {
+          "process": "full_reversal",
+          "count_terms": 32,
+          "factorial_degree": 32,
+          "phase_error_bound": "1/32",
+          "factorial_gain_bound": "7",
+          "factorial_tail": "3219905755813179726837607/2871959915083432581755043840000000",
+          "reconstruction_entry_norm_square_sha256": "5e10da52a95f7ffe9c38110e1a8248436e421b1d7f543fad06c8fa4cf00ff744",
+          "reconstruction_entry_norm_square_bound": "8054838228205297469841789786958395837349006248774841068629486449/4124076876923018642908926755396829637124396640160972800000000000000"
+        },
+        {
+          "process": "source_H",
+          "count_terms": 8,
+          "factorial_degree": 32,
+          "phase_error_bound": "1/8",
+          "factorial_gain_bound": "4",
+          "factorial_tail": "34359738368/3567780759245220172733203125",
+          "reconstruction_entry_norm_square_sha256": "f79e0c981adea78dfdcecd4cde8e883bb5fc0733bbed45a35de50c17327a295c",
+          "reconstruction_entry_norm_square_bound": "12729059546040401670460705105545317919946217202433184761/407329905473292790689679681047764663276302778320312500000"
+        },
+        {
+          "process": "source_H",
+          "count_terms": 16,
+          "factorial_degree": 32,
+          "phase_error_bound": "1/16",
+          "factorial_gain_bound": "4",
+          "factorial_tail": "34359738368/3567780759245220172733203125",
+          "reconstruction_entry_norm_square_sha256": "f869b3088496fbd02c5cdb00fa2253ce0fd8835a727d5925f4487898806d4cd9",
+          "reconstruction_entry_norm_square_bound": "12729059546040403631868920178348141228235424411003442169/1629319621893171162758718724191058653105211113281250000000"
+        },
+        {
+          "process": "source_H",
+          "count_terms": 32,
+          "factorial_degree": 32,
+          "phase_error_bound": "1/32",
+          "factorial_gain_bound": "4",
+          "factorial_tail": "34359738368/3567780759245220172733203125",
+          "reconstruction_entry_norm_square_sha256": "5c032f5ed951c70d330fb4df77849227c64584b18a8ed756bc45bc26d7ea3a8e",
+          "reconstruction_entry_norm_square_bound": "12729059546040407554685350323954241191996194314084471801/6517278487572684651034874896764234612420844453125000000000"
+        },
+        {
+          "process": "source_K",
+          "count_terms": 8,
+          "factorial_degree": 32,
+          "phase_error_bound": "1/8",
+          "factorial_gain_bound": "7",
+          "factorial_tail": "3219905755813179726837607/2871959915083432581755043840000000",
+          "reconstruction_entry_norm_square_sha256": "f79e0c981adea78dfdcecd4cde8e883bb5fc0733bbed45a35de50c17327a295c",
+          "reconstruction_entry_norm_square_bound": "128877404715704408219165901020914207223282888460106749635669486449/4124076876923018642908926755396829637124396640160972800000000000000"
+        },
+        {
+          "process": "source_K",
+          "count_terms": 16,
+          "factorial_degree": 32,
+          "phase_error_bound": "1/16",
+          "factorial_gain_bound": "7",
+          "factorial_tail": "3219905755813179726837607/2871959915083432581755043840000000",
+          "reconstruction_entry_norm_square_sha256": "f869b3088496fbd02c5cdb00fa2253ce0fd8835a727d5925f4487898806d4cd9",
+          "reconstruction_entry_norm_square_bound": "32219351756891126145753498393341467195976459276923343924309486449/4124076876923018642908926755396829637124396640160972800000000000000"
+        },
+        {
+          "process": "source_K",
+          "count_terms": 32,
+          "factorial_degree": 32,
+          "phase_error_bound": "1/32",
+          "factorial_gain_bound": "7",
+          "factorial_tail": "3219905755813179726837607/2871959915083432581755043840000000",
+          "reconstruction_entry_norm_square_sha256": "5c032f5ed951c70d330fb4df77849227c64584b18a8ed756bc45bc26d7ea3a8e",
+          "reconstruction_entry_norm_square_bound": "8054838228205297469841789786958395837349006248774841068629486449/4124076876923018642908926755396829637124396640160972800000000000000"
+        },
+        {
+          "process": "source_R",
+          "count_terms": 8,
+          "factorial_degree": 32,
+          "phase_error_bound": "2",
+          "factorial_gain_bound": "4",
+          "factorial_tail": "34359738368/3567780759245220172733203125",
+          "reconstruction_entry_norm_square_sha256": "d4a7a3737e2b48d44adcdb4b436d423414a3710b97c947ab72e0a6efc7886557",
+          "reconstruction_entry_norm_square_bound": "101832476368323198653124027798342466497607950747700731848/12729059546040399709052490032742645727384461822509765625"
+        },
+        {
+          "process": "source_R",
+          "count_terms": 16,
+          "factorial_degree": 32,
+          "phase_error_bound": "1",
+          "factorial_gain_bound": "4",
+          "factorial_tail": "34359738368/3567780759245220172733203125",
+          "reconstruction_entry_norm_square_sha256": "7a5eaa34cfaffd333a6673b810bd3a603a19b23effee0da0cb5cd53180a5f252",
+          "reconstruction_entry_norm_square_bound": "25458119092080799908457033833685942974626672446242138098/12729059546040399709052490032742645727384461822509765625"
+        },
+        {
+          "process": "source_R",
+          "count_terms": 32,
+          "factorial_degree": 32,
+          "phase_error_bound": "1/2",
+          "factorial_gain_bound": "4",
+          "factorial_tail": "34359738368/3567780759245220172733203125",
+          "reconstruction_entry_norm_square_sha256": "0a10d0bb0044d36e0059af936cc8a30d3b0b8306cd28e998011c021fe2f6fb54",
+          "reconstruction_entry_norm_square_bound": "12729059546040400199404543800943299608425452058554979321/25458119092080799418104980065485291454768923645019531250"
+        },
+        {
+          "process": "rational_turn",
+          "count_terms": 8,
+          "factorial_degree": 32,
+          "phase_error_bound": "1/4",
+          "factorial_gain_bound": "2",
+          "factorial_tail": "1/951408202465392046062187500",
+          "reconstruction_entry_norm_square_sha256": "b0cc2134821984f7f678a234947318f2fdbb7be9b8496fc23c78bd829f5a536c",
+          "reconstruction_entry_norm_square_bound": "7071699747800222060584716744320038058189481669169922/56573597982401776484677733478856203232819830322265625"
+        },
+        {
+          "process": "rational_turn",
+          "count_terms": 16,
+          "factorial_degree": 32,
+          "phase_error_bound": "1/8",
+          "factorial_gain_bound": "2",
+          "factorial_tail": "1/951408202465392046062187500",
+          "reconstruction_entry_norm_square_sha256": "8b45befdeb9f97654bd105d12fd751d76ccb9068f304ffd124a3e6b20ab5dd70",
+          "reconstruction_entry_norm_square_bound": "56573597982401776484677734430264405698211876384453129/1810355135436856847509687471323398503450234570312500000"
+        },
+        {
+          "process": "rational_turn",
+          "count_terms": 32,
+          "factorial_degree": 32,
+          "phase_error_bound": "1/16",
+          "factorial_gain_bound": "2",
+          "factorial_tail": "1/951408202465392046062187500",
+          "reconstruction_entry_norm_square_sha256": "3da6e65ef31a8115299c92c21cc95f4775bc760e0d45487447d7fc6c35f64adf",
+          "reconstruction_entry_norm_square_bound": "56573597982401776484677735381672608163603922446640641/7241420541747427390038749885293594013800938281250000000"
+        }
+      ],
+      "half_tick_square_enclosure": true,
+      "finite_factorial_polynomial_claimed_exactly_unitary": false,
+      "midpoint_generator_claimed_equal_to_phase_generator": false
+    },
+    "native_generator_readouts_derive_conservation_and_response_geometry": {
+      "exact_conserved_moment_checks": 135,
+      "exact_response_metric_checks": 9,
+      "exact_readout_speed_checks": 27,
+      "sharp_speed_coefficient": 2,
+      "sharpness_scalar_factor": "theta = native integral of (1+s^2/4)^(-1)",
+      "rational_checks_are_phase_approximants_not_exact_completed_phase": true,
+      "common_phase_metric_witness": "zero"
+    },
+    "native_residue_action_has_exact_minima_and_boundary_equations": {
+      "fixed_endpoint_minima": 27,
+      "exact_square_completion_checks": 27,
+      "interior_stationary_checks": 45,
+      "interior_equation_alone_forces_first_order_history": false,
+      "path_vectors_silently_constrained_to_unit_norm": false,
+      "physical_least_action_postulate_used": false
+    },
+    "native_midpoint_action_retains_regular_and_reversal_residues": {
+      "exact_midpoint_residue_steps": 27,
+      "action_decompositions": [
+        {
+          "process": "identity",
+          "regular_residue": "22/3",
+          "reversal_residue": "0",
+          "total_residue": "22/3"
+        },
+        {
+          "process": "full_reversal",
+          "regular_residue": "0",
+          "reversal_residue": "100/3",
+          "total_residue": "100/3"
+        },
+        {
+          "process": "source_H",
+          "regular_residue": "67/18",
+          "reversal_residue": "425/18",
+          "total_residue": "82/3"
+        },
+        {
+          "process": "source_K",
+          "regular_residue": "58/9",
+          "reversal_residue": "41/9",
+          "total_residue": "11"
+        },
+        {
+          "process": "source_R",
+          "regular_residue": "65/3",
+          "reversal_residue": "0",
+          "total_residue": "65/3"
+        },
+        {
+          "process": "rational_turn",
+          "regular_residue": "68/5",
+          "reversal_residue": "0",
+          "total_residue": "68/5"
+        },
+        {
+          "process": "same_contrast_other_step",
+          "regular_residue": "146/5",
+          "reversal_residue": "0",
+          "total_residue": "146/5"
+        },
+        {
+          "process": "mixed_reversal",
+          "regular_residue": "14863/1125",
+          "reversal_residue": "13607/450",
+          "total_residue": "32587/750"
+        },
+        {
+          "process": "general_native_midpoint",
+          "regular_residue": "970/51",
+          "reversal_residue": "0",
+          "total_residue": "970/51"
+        }
+      ],
+      "reversal_residue_is_dropped": false
+    },
+    "the_actual_autonomous_clock_conserves_the_internal_generator": {
+      "actual_source_process_edge_intertwinings": 24,
+      "actual_autonomous_moment_checks": 30,
+      "unresolved_history_moment_checks": 3,
+      "clock_carrier_error_becomes_generator_conservation_error": false,
+      "completed_generator_transport_supported_by_commuting_count_limits": true
+    },
+    "complete_curvature_observation_and_phase_branch_witnesses": {
+      "complete_source_generator_pairings": 2,
+      "complete_path_residue_preserved": true,
+      "alias_full_tick": "I",
+      "selected_branch_half_tick": "I",
+      "alternative_branch_half_tick": "-H",
+      "integer_ticks_uniquely_determine_fractional_evolution": false,
+      "native_half_turn_identity_source": "R42.3 count integral and factorial product proof"
+    },
+    "calibration_and_count_response_controls_keep_physical_scope_exact": {
+      "count_internal_generator_commutator": "zero",
+      "joint_tick_contrast_equals_internal_generator": false,
+      "calibrations": [
+        {
+          "time_scale": "2",
+          "readout_scale": "3",
+          "action_scale": "6"
+        },
+        {
+          "time_scale": "1/2",
+          "readout_scale": "5/3",
+          "action_scale": "5/6"
+        },
+        {
+          "time_scale": "7/4",
+          "readout_scale": "2/5",
+          "action_scale": "7/10"
+        }
+      ],
+      "positive_action_multipliers_preserve_minimizers": true,
+      "finite_phase_branch_or_action_unit_uniquely_selected": false,
+      "physical_hbar_energy_time_or_action_identified": false,
+      "ordinary_operator_logarithm_or_spectral_theorem_used": false
+    }
+  },
+  "rejected_false_alternatives": {
+    "ordinary_complex_field_was_primitive": true,
+    "forward_reverse_contrast_alone_recovers_every_process": true,
+    "the_reversal_cut_can_be_discarded": true,
+    "a_spectral_decomposition_was_a_primitive_input": true,
+    "integration_was_imported_without_native_count_completion": true,
+    "rational_phase_approximants_are_exact_completed_generators": true,
+    "the_truncated_factorial_polynomial_is_exactly_unitary": true,
+    "midpoint_and_phase_generators_are_identical": true,
+    "common_phase_always_has_nonzero_response_metric": true,
+    "interior_stationarity_alone_selects_the_original_evolution": true,
+    "the_native_mismatch_functional_imports_a_physical_action_law": true,
+    "clock_carrier_error_breaks_the_conserved_generator": true,
+    "integer_ticks_uniquely_select_fractional_evolution": true,
+    "the_R41_tick_contrast_is_the_internal_phase_generator": true,
+    "a_physical_hbar_or_action_unit_has_been_selected": true
+  },
+  "derivation_graph": {
+    "status": "PASS_DECLARED_NATIVE_DERIVATION_GRAPH",
+    "certified_claims": 7,
+    "proof_path_nodes": 30,
+    "imported_classical_premises_on_proof_paths": 0,
+    "comparison_references_excluded_from_proof_paths": [
+      "comparison_clock_free_cut",
+      "comparison_cut_curvature",
+      "comparison_information_response",
+      "comparison_native_alpha_selection",
+      "comparison_native_observer_rank",
+      "comparison_native_reciprocal_frames",
+      "comparison_odd_exchange",
+      "comparison_quarter_decoder",
+      "comparison_riemann_adapter",
+      "comparison_zero_cut"
+    ],
+    "target_definitions_retained_as_definitions": [
+      "native_path_residue_target",
+      "native_phase_interpolation_target",
+      "native_process_generator_target"
+    ],
+    "automatic_semantic_or_formal_proof_verification": false
+  },
+  "derivation_graph_mutations_rejected": {
+    "reject_imported_classical_premise": true,
+    "reject_admitted_input_premise": true,
+    "reject_open_premise": true,
+    "reject_comparison_only_premise": true,
+    "reject_physical_claim_promotion": true,
+    "reject_protocol_definition_promotion": true,
+    "reject_dependency_cycle": true,
+    "reject_unpinned_source": true,
+    "reject_wrong_citation_commit": true
+  },
+  "altered_source_rejected": true,
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "wrong_r41_certificate_pin_rejected": true,
+  "previous_source_replayed": {
+    "commit": "f0d8f254416dd05e8a837871e190ec905f0b0d26",
+    "status": "PASS_R41_NATIVE_RELATIONAL_CLOCK",
+    "native_certificate_sha256": "a748318807c8423c4db7396e36e0b8d2a3871c44a7405ca60f23adafc9f4f9f2",
+    "old_certificate_or_source_pin_modified": false,
+    "earlier_source_chain": {
+      "commit": "6d49cdccaeea324119c4a873f3b9d422f013cebd",
+      "status": "PASS_R40_NATIVE_AUTONOMOUS_ECHO",
+      "native_certificate_sha256": "477e49abc142fe7591f79c5e1cb12815d3b07dffcb1e57d61486db49a8e77b66",
+      "old_certificate_or_source_pin_modified": false,
+      "earlier_source_chain": {
+        "commit": "eca6af32637bc803dca14508b596f271a9f61389",
+        "status": "PASS_R39_NATIVE_ECHO_CLOCK",
+        "native_certificate_sha256": "812364a31f6c43b07a8fa9fcc6f53f61a6e7a5285a383b12984ae62e7167de5f",
+        "old_certificate_or_source_pin_modified": false,
+        "earlier_source_chain": {
+          "commit": "79a4c4c2e15aad1391f7633ab0ab0b65ce580111",
+          "status": "PASS_R38_NATIVE_UNIVERSAL_SIGNAL_CONE",
+          "native_certificate_sha256": "98a13bb72a486eac8ad9fc321d59faa7759aae3c0d59d30575852c0a03d736e5",
+          "old_certificate_or_source_pin_modified": false,
+          "earlier_source_chain": {
+            "commit": "f06932dd63a4f0827a31583bc42dfaa979ddc663",
+            "status": "PASS_R37_NATIVE_PACKET_FLIGHT",
+            "native_certificate_sha256": "a16607e7156f17693327900dafae7e9d22c19a20b0dca288cfa34bb180bf45c7",
+            "old_certificate_or_source_pin_modified": false,
+            "earlier_source_chain": {
+              "commit": "011b8224c92d95f7f726eb56bab3e8d8e6f7280c",
+              "status": "PASS_R36_NATIVE_CURVATURE_OBSERVER",
+              "native_certificate_sha256": "5e6dec9433b1e74aa8debc709f66326e6f25ed800d9b3a418d65e66f7cab79d8",
+              "old_certificate_or_source_pin_modified": false,
+              "earlier_source_chain": {
+                "commit": "9c13e1752263c756d356dcf5851ac873d2e0d102",
+                "status": "PASS_R35_NATIVE_SIGNED_ENVELOPE",
+                "native_certificate_sha256": "29c605502759c8af517dd3f6f4f337e4295a5f3243a33aebf543b72d9fb3b4d5",
+                "old_certificate_or_source_pin_modified": false,
+                "earlier_source_chain": {
+                  "commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+                  "status": "PASS_R34_NATIVE_DECODER_BURDEN",
+                  "native_certificate_sha256": "8468d57f3ac1617b3ab9fbf506994a8a253ae31dbe5ead45d414ccb804d6b0c9",
+                  "old_certificate_or_source_pin_modified": false,
+                  "earlier_source_chain": {
+                    "commit": "5ddce4544de7111a80c93a8ade7cf2399c7c90f3",
+                    "status": "PASS_R33_NATIVE_INTERACTION_MEMORY",
+                    "native_certificate_sha256": "c3a63c35889a9f8fed1763ecf55eb6ef84f9fa1c559589bc4e3332faf330621f",
+                    "old_certificate_or_source_pin_modified": false,
+                    "earlier_source_chain": {
+                      "commit": "1105a43209b144bd34a81bfbb99acc7876948e95",
+                      "status": "PASS_R32_NATIVE_RETAINED_LOOP_GAP",
+                      "native_certificate_sha256": "9ac51385f5b5084237c442678a8e686c89c50de7022c40667f6c0ac3ac4c39c5",
+                      "old_certificate_or_source_pin_modified": false,
+                      "earlier_source_chain": {
+                        "commit": "63d040f031b6b36c36a4fa0475f5ce26ec765caf",
+                        "status": "PASS_R31_NATIVE_PROPAGATION_GEOMETRY",
+                        "native_certificate_sha256": "f3cf920cdd3cb1d48d68cde3170a0a0ed64b66f00cd2f9ce18874bf9379beb7e",
+                        "old_certificate_or_source_pin_modified": false,
+                        "earlier_source_chain": {
+                          "commit": "7ac5b3e5baba4dafb51f4330bfe84d001a9ab1d4",
+                          "status": "PASS_R30_NATIVE_DIRECTIONAL_LOOP_INTERACTION",
+                          "native_certificate_sha256": "3a913a511ce03b76ee7f8e6697b8d0ae79d9eaaa655992999a6b76da4fba060c",
+                          "old_certificate_or_source_pin_modified": false,
+                          "earlier_source_chain": {
+                            "commit": "16602a29c469ac96001977432fcf5fc4b548970b",
+                            "status": "PASS_R29_NATIVE_PAIRED_FIELD_DYNAMICS",
+                            "native_certificate_sha256": "59a8ed58355297764315daeb39cb950dc48b038c29c2a934aa7935ca3ca4361d",
+                            "old_certificate_or_source_pin_modified": false,
+                            "earlier_source_chain": {
+                              "commit": "9ed6ae27d3ddb005ed7f4f3f27417036729698fd",
+                              "status": "PASS_R28_NATIVE_CUT_CURVATURE_PROPAGATION",
+                              "native_certificate_sha256": "dbfd38615437b0726f1ad70b31d393178c08a61bf674607beb69775ffe3cea11",
+                              "old_certificate_or_source_pin_modified": false,
+                              "earlier_source_chain": {
+                                "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+                                "status": "PASS_R27_NATIVE_REPLICA_SELECTION",
+                                "native_certificate_sha256": "f5b6b9427f7484b793d78619527353ae758b0261e871662ce84516e963edc872",
+                                "old_certificate_or_source_pin_modified": false,
+                                "earlier_source_chain": {
+                                  "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+                                  "status": "PASS_R26_NATIVE_MEMORY_RESIDUE",
+                                  "native_certificate_sha256": "5d0df3fc203d393d1a4f58902a1f3f82e4c5ab7dfb60ffb40e380a7b96de2146",
+                                  "old_certificate_or_source_pin_modified": false,
+                                  "earlier_source_chain": {
+                                    "commit": "d4f1ae2481a72a04c465f1c17b37d154a6122eff",
+                                    "status": "PASS_R25_NATIVE_RETURN_FEEDBACK",
+                                    "native_certificate_sha256": "456f5c5d4bf9857b1604bb6024c346b1a6d499abd833b59a0b414a7bad0fb8d5",
+                                    "old_certificate_or_source_pin_modified": false,
+                                    "earlier_source_chain": {
+                                      "commit": "d660bbf026e1de818fcb3dd61d46346a4ad618ae",
+                                      "status": "PASS_R24_NATIVE_RETURN_COUPLING",
+                                      "native_certificate_sha256": "ae0c88451e3e0a7933dd42cecca67b0cc1254a81cc418da77b94843eaf1d2fbe",
+                                      "old_certificate_or_source_pin_modified": false,
+                                      "earlier_source_chain": {
+                                        "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+                                        "status": "PASS_R23_NATIVE_FUTURE_RESPONSE",
+                                        "native_certificate_sha256": "69b4e6d43db5bad0a10b797f7b7f788bb8091e4486bf0689960882d22b19295a",
+                                        "old_certificate_or_source_pin_modified": false,
+                                        "earlier_source_chain": {
+                                          "commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+                                          "status": "PASS_R22_NATIVE_MEETING_GEOMETRY",
+                                          "native_certificate_sha256": "ad6ac9d802b77c67ec33e8c023c147300994576207014eb9cd81014f6924b98f",
+                                          "old_certificate_or_source_pin_modified": false,
+                                          "earlier_source_chain": {
+                                            "commit": "2888aa2a9ea1c63a89b3d695256c8b9405dbd7cc",
+                                            "status": "PASS_R21_NATIVE_RECORD_IDENTITY",
+                                            "native_certificate_sha256": "1d857541e8497dfb4c33b532c7d50ee629f5d8e92698a080307b7ae039794464",
+                                            "old_certificate_or_source_pin_modified": false,
+                                            "earlier_source_chain": {
+                                              "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+                                              "status": "PASS_R20_NATIVE_RECORD_INTERACTION",
+                                              "native_certificate_sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+                                              "old_certificate_or_source_pin_modified": false,
+                                              "earlier_source_chain": {
+                                                "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+                                                "status": "PASS_R19_NATIVE_CURRENT_RETENTION",
+                                                "native_certificate_sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+                                                "old_certificate_or_source_pin_modified": false,
+                                                "earlier_source_chain": {
+                                                  "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+                                                  "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+                                                  "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+                                                  "historical_navigation_inputs_restored_in_temporary_snapshot": 3,
+                                                  "old_certificate_or_source_pin_modified": false,
+                                                  "earlier_source_chain": {
+                                                    "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+                                                    "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+                                                    "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+                                                    "foundation": {
+                                                      "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+                                                      "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+                                                      "written_statements": 14,
+                                                      "native_replays": 13,
+                                                      "analytic_replays": [
+                                                        {
+                                                          "id": "F00_F00E_EULER_V0_1",
+                                                          "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+                                                          "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+                                                          "checks": 14,
+                                                          "negative_controls": 6,
+                                                          "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+                                                        },
+                                                        {
+                                                          "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+                                                          "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+                                                          "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+                                                          "checks": 20,
+                                                          "negative_controls": 7,
+                                                          "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+                                                        }
+                                                      ],
+                                                      "original_universal_claim_certified": false
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 34,
+  "preserved_prior_files": 320,
+  "source_pins_sha256": "e201ad12570029123de05631cb91bcbe8ecd4e47b4432e5f5dcf03e35a3902ed",
+  "native_certificate_sha256": "4e184a4dce7898484a79b3a981787e7f5a0a9eb91363056e858b8d4591c8f661",
+  "comparison_references_are_proof_dependencies": false,
+  "comparison_source_certificates_rerun": false,
+  "native_complete_process_phase_generator_derived": true,
+  "native_exact_tick_interpolation_derived": true,
+  "native_generator_response_geometry_derived": true,
+  "native_path_residue_variational_rule_derived": true,
+  "physical_vacuum_identified": false,
+  "electromagnetism_derived": false,
+  "physical_metric_c_alpha_derived": false,
+  "physical_electric_charge_or_particle_mass_identified": false,
+  "physical_spatial_dimension_or_gauge_group_selected": false,
+  "primitive_physical_force_derived": false,
+  "formal_proof_assistant_verified": false,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Seven written native proofs: cut-complete process reconstruction, phase integration by native count sums, exact factorial interpolation with finite enclosures, conserved generator moments and response geometry, a finite path-residue variational rule, autonomous-clock conservation and complete observation, and phase-branch and action-calibration boundaries. The finite process, interpolation branch and mismatch functional are explicit native constructions; physical energy, time and h-bar remain unselected.",
+  "canonical_report_sha256": "d997f29684a4f3839ae18d29098f2f5e41608aa6b3984d11d1039ff8cfe02117"
+}

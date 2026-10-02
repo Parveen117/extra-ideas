@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R42 native phase generators, response geometry and path residue
+
+[NATIVE_PHASE_GENERATOR_R42.md](NATIVE_PHASE_GENERATOR_R42.md) derives complete process recovery from its midpoint generator and reversal cut, then constructs an exact phase generator by native count integration. Its factorial evolution interpolates the original tick process exactly, preserves generator moments and yields a variance response metric and sharp readout-speed bound.
+
+The native prediction-residue functional has exact path minima and complete midpoint/reversal equations. Autonomous clock coupling and the complete curvature observer preserve these structures. A commuting-cut witness retains the phase information absent from integer ticks; calibration leaves physical energy, time and action units open. Every analytic approximation carries an explicit count-sum or factorial bound.
+
+[Verification](../04-operator-evolution/R42_VERIFICATION.json) binds seven written results, nine exact groups and fourteen native replays. The [ledger](../04-operator-evolution/R42_DERIVATION_LEDGER.json) labels the process, phase branch and path target. Frozen R41 and all 320 earlier non-navigation files are preserved.
+
 ## R41 relational clocks, native phase curvature and sharp count-response uncertainty
 
 [NATIVE_RELATIONAL_CLOCK_R41.md](NATIVE_RELATIONAL_CLOCK_R41.md) couples a native process to the actual R40 tick. It derives every process prefix, linear count histories, their cyclic winding residue and the unresolved-clock pair readout. The native phase loop has an explicit record-size-dependent curvature.
