@@ -11,15 +11,18 @@ non-Abelian source/Gauss result to the conditional gravity sector, and record
 the remaining quantum/continuum targets. They are application/navigation
 documents, not a new primitive-only R-stage; the register remains R1–R46.
 
-Latest upstream continuation: **Publications YM-48** constructs continuous
-heat-time action on the reflected completion of YM-47's histories, with a
-self-adjoint nonnegative generator, explicit domain/core and all-source gap.
-Local coefficient rows embed at time zero; a centered single-site source
-has squared reflected norm at least 5/32. The full abs(theta)<1/1680 window
-and admitted heat-functional carrier remain.
-Full instantaneous-row/observable identification, native measure/NCG and
-4D continuum remain open; the coefficient excitation is not a physical
-particle claim. Fourteen new and 66 related tests pass on Python 3.12 only.
+Latest upstream continuation: **Publications YM-49** constructs bounded
+time-zero coefficient observable action on YM-48's reflected history
+carrier, including dagger/product laws and ordered readouts. The exact
+positive defect C(2t)-C(t)^2 measures row leakage and characterizes
+closure of the coefficient-history sector. RKF N09 supplies the retained
+memory equation, now with gap-controlled tails and a bounded Schur inverse.
+The same chain has a nonzero time/observable commutator.
+The admitted abs(theta)<1/1680 heat-functional carrier remains.
+The actual interacting-chain row defect is not evaluated by the finite
+observer controls. Full bounded-history density, native measure/NCG,
+physical gauge-observable selection and 4D continuum remain open.
+Seventeen new and 83 related tests pass on Python 3.12 only.
 The Extra Ideas register stays R1–R46: this upstream mathematics is consumed
 by reference, not introduced as a new R-stage. Its proof and certificate
 are pinned in the mission map.
