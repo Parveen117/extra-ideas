@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R40 autonomous native echo and controller verification
+
+[native_autonomous_echo.cjs](native_autonomous_echo.cjs) uses the unchanged canonical native engine to compile the local echo word and run source fields with retained controller marks. It checks six complete word/inverse instances, 48 marked-sector inverse/norm instances, 42 complete run prefixes, prefix-frame transport, coherent phase error, 600 exact count decodings, word refinement, large rational budgets, complete curvature observation and native threshold/memory counterexamples.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r40.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R40_VERIFICATION.json](R40_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays, with fifteen boundary controls and nine rejected graph mutations. [Source pins](R40_SOURCE_PINS.json) preserve all 306 prior non-navigation files and replay frozen R39. The [ledger](R40_DERIVATION_LEDGER.json) keeps fixed joint autonomy, explicit program preparation, marked storage, control cost and material realization distinct. Root matrices check both algebraic conjugates; large counts are exact budgets rather than enormous controller simulations. Finite verification is not a formal proof assistant.
+
 ## R39 native reversal, echo clock and distance verification
 
 [native_echo_clock.cjs](native_echo_clock.cjs) uses the unchanged canonical native engine. It checks the complete Laurent reversal, signed equal/mismatched-count echoes, unitary finite paired-link gates, clipping-error bounds, literal local echoes, exact large-packet timing budgets, repeated cycles, marked-counter orbits and complete curvature transport. Native matrix root witnesses check both algebraic conjugates; the written source construction fixes the positive scalar root.

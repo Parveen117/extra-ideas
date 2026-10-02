@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R39's derivation ledger](04-operator-evolution/R39_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R40's derivation ledger](04-operator-evolution/R40_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,14 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R40: one autonomous native echo, controller and tick evolution
+
+[R40](02-relational-response/NATIVE_AUTONOMOUS_ECHO_R40.md) constructs a single fixed local arrow on the source plus native phase/tick marks. Repeated application executes the free flight, both local reversals and the tick carry without another external gate command. Scheduling at the known R37 horizon improves the one-cycle packet error from `3 epsilon` to `2 epsilon`; k cycles have error at most `2 k epsilon`.
+
+The complete run has an exact prefix formula. A prefix observation places the retained cycle arrow on the controller wrap and gives the same error for correlated coherent phase histories. Phase/tick marks decode elapsed updates modulo their finite capacity. The explicit cycle contains `16 N` original free-source events, six native control arrows and `2 N + 6` controller updates; this accounting preserves the information-length calibration. Forgetting the controller produces an exact source-only memory witness. Native pairing also forbids an exact nondisturbing norm-threshold flag for all preparations, with an explicit disturbance lower bound. Autonomy is proved for this constructed joint arrow; a unique material clock or physical c, h, alpha is not selected.
+
+[Verification](04-operator-evolution/R40_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays, with fifteen boundary controls and nine rejected graph mutations. The [ledger](04-operator-evolution/R40_DERIVATION_LEDGER.json) retains the R1–R33 reading register and the controller/preparation/physical boundaries. All 306 prior non-navigation files and the frozen R39 chain are preserved.
 
 ## R39: local source reversal, echo clock and distance reading
 

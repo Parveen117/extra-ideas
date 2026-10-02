@@ -1,0 +1,551 @@
+{
+  "schema": "extra-ideas.r40.verification.v1",
+  "date": "2026-10-02",
+  "status": "PASS_R40_NATIVE_AUTONOMOUS_ECHO",
+  "inherited_combined_reading_papers": 33,
+  "written_results": 7,
+  "exact_check_groups": 9,
+  "native_symbolic_replays": 14,
+  "counters": {
+    "source_arrows_compile_the_local_echo_word_with_explicit_control_cost": {
+      "complete_native_arrow_identities": 4,
+      "compiled_word_and_inverse_instances": 6,
+      "literal_echo_error_bounds": 6,
+      "literal_examples": [
+        {
+          "N": 1,
+          "cycle_error_square": "5/2",
+          "missing_remote_norm_square": "29/32"
+        },
+        {
+          "N": 1,
+          "cycle_error_square": "5/2",
+          "missing_remote_norm_square": "29/32"
+        },
+        {
+          "N": 1,
+          "cycle_error_square": "605/32",
+          "missing_remote_norm_square": "307/32"
+        },
+        {
+          "N": 2,
+          "cycle_error_square": "10287/8192",
+          "missing_remote_norm_square": "13651/16384"
+        },
+        {
+          "N": 2,
+          "cycle_error_square": "10351/8192",
+          "missing_remote_norm_square": "13585/16384"
+        },
+        {
+          "N": 2,
+          "cycle_error_square": "148851/8192",
+          "missing_remote_norm_square": "154955/16384"
+        }
+      ],
+      "controls_per_cycle": 6,
+      "source_blocks_per_cycle": "2 N",
+      "source_events_per_cycle": "16 N",
+      "controller_updates": "2 N + 6",
+      "small_literal_fields_are_large_R37_packets": false,
+      "root_witness_is_positive_scalar_simulation": false
+    },
+    "one_fixed_joint_arrow_preserves_matching_and_has_a_local_inverse": {
+      "joint_basis_sector_inverse_and_norm_checks": 48,
+      "wrap_carry_checks": 6,
+      "coherent_joint_inverse_checks": 1,
+      "iteration_has_no_external_gate_selector": true,
+      "spatial_range_per_axis": 1,
+      "controller_marks_are_spatial_dimensions": false
+    },
+    "every_finite_program_prefix_matches_the_native_cycle_and_tick_formula": {
+      "full_joint_prefix_equalities": 42,
+      "programs": [
+        {
+          "N": 1,
+          "controller_period": 8,
+          "checked_updates": 19,
+          "final_field_sha256": "9ed2143d2bb66d3a1ca20160855b87c0f1c0ed9930ece5858e35a19a52a9f622"
+        },
+        {
+          "N": 2,
+          "controller_period": 10,
+          "checked_updates": 23,
+          "final_field_sha256": "5ffc3c1995f5fadb4425978c324ab73fd50b2cf629c4f893373de60bd1ca5eab"
+        }
+      ],
+      "source_fields_retained_with_signed_coefficients": true
+    },
+    "prefix_frames_isolate_the_cycle_residue_and_control_coherent_phase_error": {
+      "exact_prefix_frame_identities": 4,
+      "coherent_phase_error_equalities": [
+        {
+          "cycles": 1,
+          "joint_error_square": "5/2",
+          "source_cycle_error_square": "5/2"
+        },
+        {
+          "cycles": 2,
+          "joint_error_square": "1529/2048",
+          "source_cycle_error_square": "1529/2048"
+        }
+      ],
+      "exact_full_reverser_period_witnesses": 2,
+      "cycle_arrow_only_wrap_edge_in_prefix_coordinates": true,
+      "prefix_frame_is_pointwise_spatial": false,
+      "finite_window_cycle_claimed_identity_on_all_fields": false
+    },
+    "derived_packet_horizons_bound_autonomous_echo_error_and_record_capacity": {
+      "frozen_packet_sha256": "a16607e7156f17693327900dafae7e9d22c19a20b0dca288cfa34bb180bf45c7",
+      "scheduled_horizon_budgets": [
+        {
+          "L": "4096",
+          "N": "68719476736",
+          "controller_period": "137438953478",
+          "cycle_norm_error_upper": "307815377/1698688305",
+          "prior_trigger_bound": "307815377/1132458870"
+        },
+        {
+          "L": "16384",
+          "N": "4398046511104",
+          "controller_period": "8796093022214",
+          "cycle_norm_error_upper": "1231202513/27179085105",
+          "prior_trigger_bound": "1231202513/18119390070"
+        },
+        {
+          "L": "65536",
+          "N": "281474976710656",
+          "controller_period": "562949953421318",
+          "cycle_norm_error_upper": "4924751057/434865433905",
+          "prior_trigger_bound": "4924751057/289910289270"
+        }
+      ],
+      "growing_tick_budgets": [
+        {
+          "L": "16777216",
+          "ticks": "4096",
+          "tick_labels": "4097",
+          "phase_labels": "9444732965739290427398",
+          "phase_tick_labels": "38695070960633872881049606",
+          "minimum_packed_binary_marked_slots": 86,
+          "total_norm_error_upper": "5163955224645632/28499341391949105"
+        },
+        {
+          "L": "268435456",
+          "ticks": "16384",
+          "tick_labels": "16385",
+          "phase_labels": "38685626227668133590597638",
+          "phase_tick_labels": "633863985740342368881942298630",
+          "minimum_packed_binary_marked_slots": 100,
+          "total_norm_error_upper": "330493129544450048/7295831396340198705"
+        },
+        {
+          "L": "4294967296",
+          "ticks": "65536",
+          "tick_labels": "65537",
+          "phase_labels": "158456325028528675187087900678",
+          "phase_tick_labels": "10384752173394683785736179746734086",
+          "minimum_packed_binary_marked_slots": 114,
+          "total_norm_error_upper": "21151560271513321472/1867732837463092096305"
+        }
+      ],
+      "large_packet_or_controller_arrays_directly_simulated": false,
+      "minimum_storage_scope": "specified phase/tick marked alphabet"
+    },
+    "native_phase_tick_decoding_has_the_exact_finite_capacity_and_wrap": {
+      "exact_count_decodings": 600,
+      "finite_counters": [
+        {
+          "phase_labels": 8,
+          "tick_labels": 2,
+          "first_mark_wrap": 16,
+          "distinct_decoded_counts": 16,
+          "packed_binary_marked_slots": 4
+        },
+        {
+          "phase_labels": 8,
+          "tick_labels": 3,
+          "first_mark_wrap": 24,
+          "distinct_decoded_counts": 24,
+          "packed_binary_marked_slots": 5
+        },
+        {
+          "phase_labels": 8,
+          "tick_labels": 5,
+          "first_mark_wrap": 40,
+          "distinct_decoded_counts": 40,
+          "packed_binary_marked_slots": 6
+        },
+        {
+          "phase_labels": 10,
+          "tick_labels": 2,
+          "first_mark_wrap": 20,
+          "distinct_decoded_counts": 20,
+          "packed_binary_marked_slots": 5
+        },
+        {
+          "phase_labels": 10,
+          "tick_labels": 3,
+          "first_mark_wrap": 30,
+          "distinct_decoded_counts": 30,
+          "packed_binary_marked_slots": 5
+        },
+        {
+          "phase_labels": 10,
+          "tick_labels": 5,
+          "first_mark_wrap": 50,
+          "distinct_decoded_counts": 50,
+          "packed_binary_marked_slots": 6
+        },
+        {
+          "phase_labels": 12,
+          "tick_labels": 2,
+          "first_mark_wrap": 24,
+          "distinct_decoded_counts": 24,
+          "packed_binary_marked_slots": 5
+        },
+        {
+          "phase_labels": 12,
+          "tick_labels": 3,
+          "first_mark_wrap": 36,
+          "distinct_decoded_counts": 36,
+          "packed_binary_marked_slots": 6
+        },
+        {
+          "phase_labels": 12,
+          "tick_labels": 5,
+          "first_mark_wrap": 60,
+          "distinct_decoded_counts": 60,
+          "packed_binary_marked_slots": 6
+        }
+      ],
+      "incorrect_every_update_tick_carry_rejected": true,
+      "least_period_claim_requires_exact_full_reverser_cycle": true,
+      "arbitrary_coherent_encoding_dimension_bound_claimed": false
+    },
+    "word_refinement_preserves_echo_and_derives_the_count_calibration": {
+      "complete_refined_word_product_checks": 4,
+      "exact_cost_and_calibration_budgets": [
+        {
+          "L": "4096",
+          "constructed_distance": "45812984490",
+          "controller_period": "137438953478",
+          "raw_two_leg_speed": "45812984490/68719476739",
+          "control_overhead_fraction": "3/68719476736",
+          "free_source_events": "1099511627776"
+        },
+        {
+          "L": "16384",
+          "constructed_distance": "2932031007402",
+          "controller_period": "8796093022214",
+          "raw_two_leg_speed": "2932031007402/4398046511107",
+          "control_overhead_fraction": "3/4398046511104",
+          "free_source_events": "70368744177664"
+        },
+        {
+          "L": "65536",
+          "constructed_distance": "187649984473770",
+          "controller_period": "562949953421318",
+          "raw_two_leg_speed": "187649984473770/281474976710659",
+          "control_overhead_fraction": "3/281474976710656",
+          "free_source_events": "4503599627370496"
+        }
+      ],
+      "sharp_speed_family_cuts": 7,
+      "control_arrow_count": 6,
+      "refined_free_count_formula": "(q_prime - h)/(2 a) = N",
+      "calibrated_information_length_limit": "(q/2)/(sqrt(2) d) -> 1",
+      "physical_duration_per_controller_update_assigned": false,
+      "raw_period_is_invariant_under_identity_insertion": false
+    },
+    "complete_curvature_observation_preserves_the_controller_and_exposes_hidden_memory": {
+      "complete_joint_observer_checks": 8,
+      "source_only_nonclosure_witness": {
+        "initial_source_sha256": "3545cd99b01102478a7610dbaafed42b367d3dc744e34ae9367036b0a3e56201",
+        "free_phase": 0,
+        "control_phase": 1,
+        "next_nonzero_x_norm_square_free": "3/8",
+        "next_nonzero_x_norm_square_control": "0"
+      },
+      "controller_ignored_readout_is_complete": false,
+      "new_independent_physical_fields_claimed": false
+    },
+    "native_threshold_and_global_flatness_counterexamples_keep_autonomy_scope_exact": {
+      "nondisturbing_threshold_obstruction_witnesses": [
+        {
+          "native_input_pairing": "3/5",
+          "upper_cut_fraction": "16/25",
+          "requested_flagged_pairing": "0",
+          "maximum_output_norm_error_lower_bound": "3/10"
+        },
+        {
+          "native_input_pairing": "5/13",
+          "upper_cut_fraction": "144/169",
+          "requested_flagged_pairing": "0",
+          "maximum_output_norm_error_lower_bound": "5/26"
+        },
+        {
+          "native_input_pairing": "7/25",
+          "upper_cut_fraction": "576/625",
+          "requested_flagged_pairing": "0",
+          "maximum_output_norm_error_lower_bound": "7/50"
+        },
+        {
+          "native_input_pairing": "20/29",
+          "upper_cut_fraction": "441/841",
+          "requested_flagged_pairing": "0",
+          "maximum_output_norm_error_lower_bound": "10/29"
+        }
+      ],
+      "distant_field_echo_defect_square": "215/64",
+      "spatial_record_loop": "-I",
+      "threshold_obstruction_applies_to_every_adaptive_device": false,
+      "autonomous_means_one_fixed_joint_arrow": true,
+      "free_source_alone_selects_controller": false,
+      "material_clock_or_physical_constants_identified": false
+    }
+  },
+  "rejected_false_alternatives": {
+    "ordinary_complex_field_was_primitive": true,
+    "every_iteration_requires_an_external_gate_command": true,
+    "reversal_has_zero_control_arrow_cost": true,
+    "controller_marks_are_added_spatial_dimensions": true,
+    "matrix_root_witness_selects_the_positive_scalar_branch": true,
+    "huge_packet_and_controller_arrays_were_directly_simulated": true,
+    "the_finite_window_echo_is_identity_on_all_source_fields": true,
+    "prefix_readout_flattens_the_spatial_source_loop": true,
+    "the_counter_should_advance_on_every_program_edge": true,
+    "finite_phase_tick_marks_store_unbounded_elapsed_updates": true,
+    "the_mark_capacity_bound_covers_arbitrary_coherent_encodings": true,
+    "a_raw_controller_period_is_invariant_under_refinement": true,
+    "a_source_only_readout_is_closed_after_forgetting_the_controller": true,
+    "an_exact_nondisturbing_norm_threshold_flag_preserves_every_native_pairing": true,
+    "autonomous_native_construction_already_selects_a_material_clock": true
+  },
+  "derivation_graph": {
+    "status": "PASS_DECLARED_NATIVE_DERIVATION_GRAPH",
+    "certified_claims": 7,
+    "proof_path_nodes": 28,
+    "imported_classical_premises_on_proof_paths": 0,
+    "comparison_references_excluded_from_proof_paths": [
+      "comparison_clock_free_cut",
+      "comparison_cut_curvature",
+      "comparison_information_response",
+      "comparison_native_alpha_selection",
+      "comparison_native_observer_rank",
+      "comparison_native_reciprocal_frames",
+      "comparison_odd_exchange",
+      "comparison_quarter_decoder",
+      "comparison_riemann_adapter",
+      "comparison_zero_cut"
+    ],
+    "target_definitions_retained_as_definitions": [
+      "native_autonomous_program_target",
+      "native_controller_readout_target",
+      "native_scheduled_echo_target"
+    ],
+    "automatic_semantic_or_formal_proof_verification": false
+  },
+  "derivation_graph_mutations_rejected": {
+    "reject_imported_classical_premise": true,
+    "reject_admitted_input_premise": true,
+    "reject_open_premise": true,
+    "reject_comparison_only_premise": true,
+    "reject_physical_claim_promotion": true,
+    "reject_protocol_definition_promotion": true,
+    "reject_dependency_cycle": true,
+    "reject_unpinned_source": true,
+    "reject_wrong_citation_commit": true
+  },
+  "altered_source_rejected": true,
+  "altered_native_certificate_rejected": true,
+  "wrong_input_pin_rejected": true,
+  "wrong_r39_certificate_pin_rejected": true,
+  "previous_source_replayed": {
+    "commit": "eca6af32637bc803dca14508b596f271a9f61389",
+    "status": "PASS_R39_NATIVE_ECHO_CLOCK",
+    "native_certificate_sha256": "812364a31f6c43b07a8fa9fcc6f53f61a6e7a5285a383b12984ae62e7167de5f",
+    "old_certificate_or_source_pin_modified": false,
+    "earlier_source_chain": {
+      "commit": "79a4c4c2e15aad1391f7633ab0ab0b65ce580111",
+      "status": "PASS_R38_NATIVE_UNIVERSAL_SIGNAL_CONE",
+      "native_certificate_sha256": "98a13bb72a486eac8ad9fc321d59faa7759aae3c0d59d30575852c0a03d736e5",
+      "old_certificate_or_source_pin_modified": false,
+      "earlier_source_chain": {
+        "commit": "f06932dd63a4f0827a31583bc42dfaa979ddc663",
+        "status": "PASS_R37_NATIVE_PACKET_FLIGHT",
+        "native_certificate_sha256": "a16607e7156f17693327900dafae7e9d22c19a20b0dca288cfa34bb180bf45c7",
+        "old_certificate_or_source_pin_modified": false,
+        "earlier_source_chain": {
+          "commit": "011b8224c92d95f7f726eb56bab3e8d8e6f7280c",
+          "status": "PASS_R36_NATIVE_CURVATURE_OBSERVER",
+          "native_certificate_sha256": "5e6dec9433b1e74aa8debc709f66326e6f25ed800d9b3a418d65e66f7cab79d8",
+          "old_certificate_or_source_pin_modified": false,
+          "earlier_source_chain": {
+            "commit": "9c13e1752263c756d356dcf5851ac873d2e0d102",
+            "status": "PASS_R35_NATIVE_SIGNED_ENVELOPE",
+            "native_certificate_sha256": "29c605502759c8af517dd3f6f4f337e4295a5f3243a33aebf543b72d9fb3b4d5",
+            "old_certificate_or_source_pin_modified": false,
+            "earlier_source_chain": {
+              "commit": "b4c99ee88f068fc5ba4af7760333d722ff2502c9",
+              "status": "PASS_R34_NATIVE_DECODER_BURDEN",
+              "native_certificate_sha256": "8468d57f3ac1617b3ab9fbf506994a8a253ae31dbe5ead45d414ccb804d6b0c9",
+              "old_certificate_or_source_pin_modified": false,
+              "earlier_source_chain": {
+                "commit": "5ddce4544de7111a80c93a8ade7cf2399c7c90f3",
+                "status": "PASS_R33_NATIVE_INTERACTION_MEMORY",
+                "native_certificate_sha256": "c3a63c35889a9f8fed1763ecf55eb6ef84f9fa1c559589bc4e3332faf330621f",
+                "old_certificate_or_source_pin_modified": false,
+                "earlier_source_chain": {
+                  "commit": "1105a43209b144bd34a81bfbb99acc7876948e95",
+                  "status": "PASS_R32_NATIVE_RETAINED_LOOP_GAP",
+                  "native_certificate_sha256": "9ac51385f5b5084237c442678a8e686c89c50de7022c40667f6c0ac3ac4c39c5",
+                  "old_certificate_or_source_pin_modified": false,
+                  "earlier_source_chain": {
+                    "commit": "63d040f031b6b36c36a4fa0475f5ce26ec765caf",
+                    "status": "PASS_R31_NATIVE_PROPAGATION_GEOMETRY",
+                    "native_certificate_sha256": "f3cf920cdd3cb1d48d68cde3170a0a0ed64b66f00cd2f9ce18874bf9379beb7e",
+                    "old_certificate_or_source_pin_modified": false,
+                    "earlier_source_chain": {
+                      "commit": "7ac5b3e5baba4dafb51f4330bfe84d001a9ab1d4",
+                      "status": "PASS_R30_NATIVE_DIRECTIONAL_LOOP_INTERACTION",
+                      "native_certificate_sha256": "3a913a511ce03b76ee7f8e6697b8d0ae79d9eaaa655992999a6b76da4fba060c",
+                      "old_certificate_or_source_pin_modified": false,
+                      "earlier_source_chain": {
+                        "commit": "16602a29c469ac96001977432fcf5fc4b548970b",
+                        "status": "PASS_R29_NATIVE_PAIRED_FIELD_DYNAMICS",
+                        "native_certificate_sha256": "59a8ed58355297764315daeb39cb950dc48b038c29c2a934aa7935ca3ca4361d",
+                        "old_certificate_or_source_pin_modified": false,
+                        "earlier_source_chain": {
+                          "commit": "9ed6ae27d3ddb005ed7f4f3f27417036729698fd",
+                          "status": "PASS_R28_NATIVE_CUT_CURVATURE_PROPAGATION",
+                          "native_certificate_sha256": "dbfd38615437b0726f1ad70b31d393178c08a61bf674607beb69775ffe3cea11",
+                          "old_certificate_or_source_pin_modified": false,
+                          "earlier_source_chain": {
+                            "commit": "6035e66bd40fe4016eeded41a4d704ec4ff4b342",
+                            "status": "PASS_R27_NATIVE_REPLICA_SELECTION",
+                            "native_certificate_sha256": "f5b6b9427f7484b793d78619527353ae758b0261e871662ce84516e963edc872",
+                            "old_certificate_or_source_pin_modified": false,
+                            "earlier_source_chain": {
+                              "commit": "6773afc38caff84ff0b71ed35e3aa8c3a4adbd45",
+                              "status": "PASS_R26_NATIVE_MEMORY_RESIDUE",
+                              "native_certificate_sha256": "5d0df3fc203d393d1a4f58902a1f3f82e4c5ab7dfb60ffb40e380a7b96de2146",
+                              "old_certificate_or_source_pin_modified": false,
+                              "earlier_source_chain": {
+                                "commit": "d4f1ae2481a72a04c465f1c17b37d154a6122eff",
+                                "status": "PASS_R25_NATIVE_RETURN_FEEDBACK",
+                                "native_certificate_sha256": "456f5c5d4bf9857b1604bb6024c346b1a6d499abd833b59a0b414a7bad0fb8d5",
+                                "old_certificate_or_source_pin_modified": false,
+                                "earlier_source_chain": {
+                                  "commit": "d660bbf026e1de818fcb3dd61d46346a4ad618ae",
+                                  "status": "PASS_R24_NATIVE_RETURN_COUPLING",
+                                  "native_certificate_sha256": "ae0c88451e3e0a7933dd42cecca67b0cc1254a81cc418da77b94843eaf1d2fbe",
+                                  "old_certificate_or_source_pin_modified": false,
+                                  "earlier_source_chain": {
+                                    "commit": "dc985839f1c3d1ccbc29128b7aa76a06cc7a72ed",
+                                    "status": "PASS_R23_NATIVE_FUTURE_RESPONSE",
+                                    "native_certificate_sha256": "69b4e6d43db5bad0a10b797f7b7f788bb8091e4486bf0689960882d22b19295a",
+                                    "old_certificate_or_source_pin_modified": false,
+                                    "earlier_source_chain": {
+                                      "commit": "6ee16b317c341296459bdb9da5f8c8ce63f37d1e",
+                                      "status": "PASS_R22_NATIVE_MEETING_GEOMETRY",
+                                      "native_certificate_sha256": "ad6ac9d802b77c67ec33e8c023c147300994576207014eb9cd81014f6924b98f",
+                                      "old_certificate_or_source_pin_modified": false,
+                                      "earlier_source_chain": {
+                                        "commit": "2888aa2a9ea1c63a89b3d695256c8b9405dbd7cc",
+                                        "status": "PASS_R21_NATIVE_RECORD_IDENTITY",
+                                        "native_certificate_sha256": "1d857541e8497dfb4c33b532c7d50ee629f5d8e92698a080307b7ae039794464",
+                                        "old_certificate_or_source_pin_modified": false,
+                                        "earlier_source_chain": {
+                                          "commit": "c6d1810114129b6aa74addd05cceb9083de27dd5",
+                                          "status": "PASS_R20_NATIVE_RECORD_INTERACTION",
+                                          "native_certificate_sha256": "00fb629ec422d3d894bac2c0764249667eb08f1ce740b115c8aab740043901d9",
+                                          "old_certificate_or_source_pin_modified": false,
+                                          "earlier_source_chain": {
+                                            "commit": "f46316e4407a65bca1e07f43baf32a419048f67e",
+                                            "status": "PASS_R19_NATIVE_CURRENT_RETENTION",
+                                            "native_certificate_sha256": "fc681327e60e6337df34bcfe510abb6d1432eef0cdd5530acd3c9b0af00254a2",
+                                            "old_certificate_or_source_pin_modified": false,
+                                            "earlier_source_chain": {
+                                              "commit": "7afb4f745fc4ac64b9eaa4fe2939b55ed22d3699",
+                                              "status": "PASS_R18_CUT_ADDRESS_TRANSPORT",
+                                              "native_certificate_sha256": "26682d89b4ef5fcdd115732380158ab0b167559bec032a6f48afe9e3bb6e874a",
+                                              "historical_navigation_inputs_restored_in_temporary_snapshot": 3,
+                                              "old_certificate_or_source_pin_modified": false,
+                                              "earlier_source_chain": {
+                                                "commit": "f561681959f5af93389db6bc77763c6794d76a87",
+                                                "status": "PASS_R17_SOURCE_COUNT_MEMORY",
+                                                "native_certificate_sha256": "ecb8f8db81248d23ba2dcb0de82061b5fbc24df714196a43bec88b36c7c9fa72",
+                                                "foundation": {
+                                                  "commit": "4cc46d138c6e0610865ac3d92056cf9e5f7eb7ff",
+                                                  "status": "PASS_SCOPED_CONSTRUCTIVE_CERTIFICATE",
+                                                  "written_statements": 14,
+                                                  "native_replays": 13,
+                                                  "analytic_replays": [
+                                                    {
+                                                      "id": "F00_F00E_EULER_V0_1",
+                                                      "status": "PASS_F00_F00E_RIGOROUS_COMPUTATIONAL_AUDIT",
+                                                      "canonical_result_sha256": "edc07e6bed39874251c0b75bb0e806a393a9b61343351fb40d70034fa66a2af5",
+                                                      "checks": 14,
+                                                      "negative_controls": 6,
+                                                      "scope": "Foundational computational audit only; no completed-Weil sign, endpoint sign, or RH promotion."
+                                                    },
+                                                    {
+                                                      "id": "F00GHI_LOG_ARITHMETIC_ZETA_V0_1",
+                                                      "status": "PASS_F00GHI_LOG_ARITHMETIC_ZETA_AUDIT",
+                                                      "canonical_result_sha256": "672865d994b1111a876b160a80858f78d3133f400351f0792715a8d8bee142bd",
+                                                      "checks": 20,
+                                                      "negative_controls": 7,
+                                                      "scope": "Foundational exact and interval audit on declared packets; no analytic continuation, completed-Weil sign, endpoint sign, or RH promotion."
+                                                    }
+                                                  ],
+                                                  "original_universal_claim_certified": false
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "upstream_canonical_commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+  "upstream_files_verified": 34,
+  "preserved_prior_files": 306,
+  "source_pins_sha256": "6c416f829e4219a2cc94ce085079966aeb3b982863be4bc9aed060b7c5384b3c",
+  "native_certificate_sha256": "477e49abc142fe7591f79c5e1cb12815d3b07dffcb1e57d61486db49a8e77b66",
+  "comparison_references_are_proof_dependencies": false,
+  "comparison_source_certificates_rerun": false,
+  "native_scheduled_echo_error_derived": true,
+  "native_autonomous_local_joint_evolution_derived": true,
+  "native_program_cycle_and_tick_capacity_derived": true,
+  "native_controller_memory_and_calibration_derived": true,
+  "physical_vacuum_identified": false,
+  "electromagnetism_derived": false,
+  "physical_metric_c_alpha_derived": false,
+  "physical_electric_charge_or_particle_mass_identified": false,
+  "physical_spatial_dimension_or_gauge_group_selected": false,
+  "primitive_physical_force_derived": false,
+  "formal_proof_assistant_verified": false,
+  "runtime": {
+    "python": "3.12.14",
+    "node": "v24.19.0"
+  },
+  "scope": "Seven written native proofs: scheduled echo with sharper error, one fixed local joint controller arrow, exact prefix and cycle formulas, coherent phase error, marked elapsed-count capacity, control refinement and information-length calibration, complete curvature observation and hidden controller memory, and a nondisturbing threshold obstruction. Autonomous means a constructed time-independent joint arrow; the program, preparation, control alphabet and physical-selection boundary remain explicit.",
+  "canonical_report_sha256": "1f3bb9ceb27501393da0fac7f4715d91489a9f239273485aa973b5e5af747d5c"
+}

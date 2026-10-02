@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R40 autonomous native echo, controller memory and tick capacity
+
+[NATIVE_AUTONOMOUS_ECHO_R40.md](NATIVE_AUTONOMOUS_ECHO_R40.md) derives a fixed local joint arrow that executes a complete echo program and retains phase/tick marks. Its inverse, complete run and cycle residue follow from native matching and ordered source products. A known packet horizon supplies a scheduled echo with one-cycle error at most `2 epsilon`, without a runtime norm-threshold command.
+
+The construction derives coherent phase-history error, exact elapsed-count decoding, marked storage capacity and the six-arrow control overhead. The information-length calibration survives the controlled packet limit. Complete curvature observation transports the joint dynamics, while forgetting controller marks creates an explicit source-only nonclosure witness. A native pairing obstruction prevents silently importing a perfect nondisturbing threshold detector. The constructed word and preparation remain explicit; autonomous material selection and physical constants are not asserted.
+
+[Verification](../04-operator-evolution/R40_VERIFICATION.json) binds seven written proofs, nine exact groups and fourteen native replays. The [ledger](../04-operator-evolution/R40_DERIVATION_LEDGER.json) distinguishes the autonomous joint arrow, readout contracts and physical realization. Frozen R39 and all 306 earlier non-navigation files are preserved.
+
 ## R39 local reversal, native echo clock and distance reading
 
 [NATIVE_ECHO_CLOCK_R39.md](NATIVE_ECHO_CLOCK_R39.md) derives the exact local reversal `C^2=I`, `C Z C=Z^dagger` from the source factors. Its finite paired-link gate preserves matching norm and bounds reversal error by missed information. R37 packets then give high-retention remote echoes, return-count windows, midpoint timestamps and distance intervals with explicit aperture and packet errors.
