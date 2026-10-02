@@ -2,6 +2,18 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex), with later shared sections on canonical operators and unified evolution. [source-excerpt.tex](source-excerpt.tex) preserves the principal section verbatim as a LaTeX fragment.
 
+## R44 collective exchange, higher memory and cyclic-mode verification
+
+[native_collective_exchange.cjs](native_collective_exchange.cjs) uses the unchanged native engine for lifted control words, count-refinement bounds, collective calibration defects, subset-current balance, pair-blind three-ledger preparations, cycle-cut curvature and single-cut propagation. Exact checks include 113 calibration identities, 152 subset balances, nine refinement enclosures, 196 shortest-route coefficients and twenty-four actual clock intertwinings.
+
+```bash
+python3.12 -B 04-operator-evolution/verify_r44.py \
+  --rkf-root /path/to/Recognition-Kernel-Framework \
+  --publications-root /path/to/Publications
+```
+
+[R44_VERIFICATION.json](R44_VERIFICATION.json) binds seven written results, nine exact groups and fourteen native replays, with fifteen boundary controls and nine rejected graph mutations. [Source pins](R44_SOURCE_PINS.json) preserve all 334 prior non-navigation files and replay frozen R43. The [ledger](R44_DERIVATION_LEDGER.json) distinguishes edge-list and single-cut targets, finite ordered words, completed flow and physical calibration. Written general proofs, finite exact checks and formal/physical validation retain separate status.
+
 ## R43 native exchange, calibration and memory verification
 
 [native_exchange_calibration.cjs](native_exchange_calibration.cjs) uses the unchanged native engine to compile exchange controls, retain additive phase branches and derive calibration defects, transfer currents, product phase costs and complete reduced-pair memory laws. Checks include 256 exact cost-memory identities, 35 relative-calibration defects, fifteen completed-phase enclosures and twenty-four actual clock intertwinings.

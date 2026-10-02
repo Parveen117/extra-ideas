@@ -6,7 +6,7 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R43's derivation ledger](04-operator-evolution/R43_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
+**Certification rule for new derivations:** a classical law or mathematical structure may not be assumed as a proof premise; its required identity must be derived from the native source. Keep native definitions, proved consequences, comparison references and open physical selection separately labelled. A reference to an earlier conditional study does not certify its admitted inputs as derived. [R44's derivation ledger](04-operator-evolution/R44_DERIVATION_LEDGER.json) makes this rule executable for its declared proof graph.
 
 ## The four folders
 
@@ -18,6 +18,14 @@ Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-
 | [04-operator-evolution](04-operator-evolution/README.md) | Way-4: operator evolution | What transformations, compositions, and spectra does the structure support? |
 
 Each folder contains a route guide and a verbatim LaTeX excerpt of its principal section. The excerpts are fragments, not standalone papers. Shared foundations and applications remain in the complete [original manuscript](4ways.tex).
+
+## R44: collective exchange, calibration geometry and higher memory
+
+[R44](02-relational-response/NATIVE_COLLECTIVE_EXCHANGE_R44.md) joins R43 exchanges on a specified finite list of ledger pairs. Native count refinement derives the collective flow and explicit approximation errors. An exact sum of orthogonal edge defects proves that collective conservation fixes relative readout factors on each connected component. The same endpoint-difference form governs propagation and positive phase cost in the single-cut sector; the graph operator is derived from swaps.
+
+Local matching gives a continuity law and a current hierarchy. Four pure preparations with a retained record have identical complete two-ledger observations but opposite next-current or three-ledger curvature readouts. Their ordering curvature satisfies `Omega^2=(3/16) P_circ`, with the circulation cut derived from a three-cycle. Native ring modes have gap `2 theta_- sin_Sigma^2(theta_-/N)` and a proved quadratic count-size scale. The completed flow has controlled propagation tails; finite ordered words retain their distinct cost and conservation claims. Physical space, mass and universal constants remain unselected.
+
+[Verification](04-operator-evolution/R44_VERIFICATION.json) binds seven written results, nine exact groups and fourteen native replays, including 113 collective calibration identities, 152 subset-current balances, nine refinement enclosures and twenty-four actual clock intertwinings. The [ledger](04-operator-evolution/R44_DERIVATION_LEDGER.json) retains the R1–R33 register and labels the edge-list, calibration and single-cut targets. Frozen R43 and all 334 prior non-navigation files are preserved.
 
 ## R43: native exchange, relative calibration and interaction memory
 

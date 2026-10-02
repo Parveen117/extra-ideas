@@ -2,6 +2,14 @@
 
 Source: the section of that name in [4ways.tex](../4ways.tex). [source-excerpt.tex](source-excerpt.tex) preserves it verbatim as a LaTeX fragment.
 
+## R44 collective exchange, calibration geometry and higher memory
+
+[NATIVE_COLLECTIVE_EXCHANGE_R44.md](NATIVE_COLLECTIVE_EXCHANGE_R44.md) derives a collective flow by native exchange refinement. An exact coefficient-norm identity fixes relative calibration on connected components. Local current balance, its higher response hierarchy and the single-cut endpoint-difference generator follow from the same native tuple operations.
+
+An explicit retained-record witness has identical data for every process pair but different next-current or three-ledger curvature. The curvature square equals `3/16` times a derived circulation cut. Native circle counts give finite-ring phase modes and quadratic gap scaling; word counts give first propagation coefficients and factorial tails. The actual clock and complete curvature observer preserve the stated invariants. Finite words keep their own conservation boundary and physical calibration remains open.
+
+[Verification](../04-operator-evolution/R44_VERIFICATION.json) binds seven written results, nine exact groups and fourteen native replays. The [ledger](../04-operator-evolution/R44_DERIVATION_LEDGER.json) preserves native edge-list, readout and sector definitions. Frozen R43 and all 334 earlier non-navigation files are preserved.
+
 ## R43 native exchange, relative calibration and cost-memory response
 
 [NATIVE_EXCHANGE_CALIBRATION_R43.md](NATIVE_EXCHANGE_CALIBRATION_R43.md) derives exchange from existing native record controls, its positive half-turn phase generator, and additive two-process histories with explicit branch memory. Exchange balances the two process readouts and fixes their relative multiplicative calibration for a nonconstant identical generator.
