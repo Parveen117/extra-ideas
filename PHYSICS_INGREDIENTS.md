@@ -7,7 +7,18 @@ existing results at their actual scopes. Native states, cuts, composition,
 observers and memory precede geometric, probabilistic and physical adapters.
 The historical R1–R46 register and its frozen evidence remain unchanged.
 
-Latest upstream step: **[YM-54][ym54]** constructs four equally counted
+Latest upstream step: **[YM-55][ym55]** constructs the joint volume/time
+limit of local vacuum histories for a fixed native anisotropic interacting
+profile. A second-eigenvalue floor beta>0, a uniform trace ceiling M and
+abs(theta)<beta/2400 allow spatial exhaustion and heat refinement at
+independent rates. The limit retains positivity, heat-time reflection
+positivity and exponential centered correlation decay. YM54's curvature
+floor and response budget supply both tensor bounds. Seven written
+results, 22 new and 62 targeted predecessor tests use Python 3.12 only;
+117 upstream files are unchanged. Physical selection, moving interacting
+vacua, actual continuous-time row closure and 4D/Clay remain open.
+
+Previous upstream step: **[YM-54][ym54]** constructs four equally counted
 native compact turns from two frozen shape-response directions. Their
 protocol tensor obeys beta>=4 f^2/tau, where f is NT's existing curvature
 marker and tau is the trace-free response budget. Uniform |f|>=f0>0 and
@@ -15,8 +26,8 @@ tau<=T supply YM53's sufficient interacting window abs(theta)<f0^2/(600 T).
 The original curved thermo potential gives an exact example. Seven
 written results, twenty new and 171 related tests use Python 3.12 only.
 The response law, directions, equal counts, compact lift and clock remain
-declared choices; physical selection and anisotropic joint/volume limits
-remain open. This is an upstream mathematical bridge, with no new R-stage.
+declared choices. YM55 now supplies the fixed-profile joint history limit;
+physical selection remains open. This is an upstream mathematical bridge, with no new R-stage.
 
 Previous upstream step: **[YM-53][ym53]** extends the declared interacting
 chain to anisotropic native heat, including rank-two tensors with
@@ -25,8 +36,8 @@ and abs(theta)<beta/2400 give a full-source gap uniform in finite width
 and fine time step. The fixed-width time limit retains it, and the
 interacting ground-source weighted derivative energy has the same lower
 bound. Seven written results, eighteen new and 151 related tests use
-Python 3.12 only. The anisotropic volume/joint limit, actual row closure,
-physical selection and 4D/Clay remain open. This is an upstream
+Python 3.12 only. YM55 adds the fixed-profile joint history limit; actual
+row closure, physical selection and 4D/Clay remain open. This is an upstream
 mathematical result; the Extra Ideas register remains R1–R46.
 
 The preceding continuation is **[YM-52][ym52]**, a native energy, discarded-record
@@ -190,7 +201,7 @@ flatness is classical flatness' or 'observation always removes curvature'.
 | Cosmology and perturbations | Advanced branch coupled and anisotropic cosmology; stated matter/stability sectors | These explicit sectors are not the full inhomogeneous Einstein–matter Cauchy problem or quantized gravity |
 | Quantum equations at a regulator | Thermo paper section 06c; exact identities for a coercive finite-dimensional Euclidean action | Coercivity, regulator and ℏ are supplied; the theorem does not prove them for the native gravitational action |
 | Positive free quantum continuum | Thermo paper section 06d; Gaussian measure, regulator removal, reflection positivity and reconstruction | Positive constraint-projected ultrastatic Hessian and a strict gap are hypotheses; nonlinear interacting gravity/gauge completion is open |
-| Yang–Mills state/transfer tools | Publications YM-1–53/NG-1; fixed-protocol joint histories, native reference/heat bridge, free energy/noise/observer rates and an anisotropic rank-two interacting chain gap; RKF T74–76 | Physical observer objective and clock/action selection, anisotropic joint/volume limit, actual row closure, original Wilson family, general UGD, NCG quantum measure and 4D remain open |
+| Yang–Mills state/transfer tools | Publications YM-1–55/NG-1; native reference/heat bridge, energy/noise/observer rates, curvature-sourced anisotropic interaction and its stationary joint volume/time-history limit; RKF T74–76 | Physical observer objective and clock/action selection, moving interacting vacua, actual row closure, original Wilson family, general UGD, NCG quantum measure and 4D remain open |
 | Operational comparison | R46's native return port and existing separate empirical repositories | Constructed ideal circuit values are not measurements; existing validation of other models is not quantum-gravity evidence |
 
 Advanced branch sources are pinned at
@@ -207,7 +218,7 @@ NCG's checked research commit is `7b34bc657883272f58dc74e9e511ae5c568266ff`.
 | 2. Physical quantum matter | Quantization of a declared matter sector compatible with that gauge construction | CAR/fermion grading, positive physical energy and the relevant anomaly checks; the commuting classical SM action is not silently relabelled a quantum fermion |
 | 3. Dynamical geometry constraints | A concrete coupled gauge/metric constraint formulation and its physical reduction | First-class closure or a precisely controlled regulator deformation, removal of gauge/negative directions, and propagation of all constraints; NCG's gauge Gauss identity closes only the classical gauge subtask |
 | 4. YM instantaneous-row closure | YM-49 supplies the positive closure defect and gap-controlled retained memory; YM-50 supplies the compact native representation | Uniformly evaluate the actual chain's defect C(2t)-C(t)^2. Its vanishing gives closure of the coefficient-history sector; a nonzero result requires the proved memory channel. Density in the larger bounded-history carrier and physical observable selection remain separate |
-| 5. Continuum and dictionary | A nontrivial interacting regulator limit and identification of its physical observables | Cutoff/volume/time estimates, measure control, reflection positivity or another valid unitary construction, and the declared native-to-continuum intertwiner |
+| 5. Continuum and dictionary | YM55 supplies the fixed-profile anisotropic chain's joint volume/time local histories and heat-time reflection positivity; a physical gauge continuum remains | Remove spatial lattice spacing in the intended gauge family, establish its field/observable dictionary and reconstruction requirements, and control physical coupling/clock selection |
 | 6. Physical selection and prediction | A native process selector or an independently calibrated, falsifiable model | Why this module/action/trajectory is selected; dimensionless observable predictions without fitting the target answer; physical G, ℏ, c, α and masses remain separately tracked |
 
 These are parallel dependencies, not a claim that every other area of physics
@@ -237,13 +248,31 @@ therefore supplies a usable model family while leaving physical selection
 explicit. T51/T56/T75 operator roles are audited context, not extra
 unproved positivity or infinite-tail premises.
 
-For the mathematical YM route, **YM53 closes the finite-width anisotropic
-interacting step** under b_i>=beta>0 and abs(theta)<beta/2400. It derives
-the all-content coarse overlap, admissible-bridge comparison, weighted
-block estimate and norm time refinement; it does not substitute the free
-gap for an interacting proof. The next extension is to audit the spatial
-and joint-cutoff construction for this tensor family, with explicit
-control of any growing tensor traces. Actual row closure is still distinct.
+For the mathematical YM route, **[YM55][ym55] closes the stationary
+anisotropic joint-history extension** of YM53. A single fixed profile
+obeys b_i>=beta>0 and tr(C_i)<=M, with abs(theta)<beta/2400. Spatial
+exhaustion and time refinement may proceed at independent rates; the
+local vacuum histories have one positive, reflection-positive limit and
+retain the correlation-decay bound. Native response bounds supply both
+beta and M. The proof audits singular bridges and uses an explicit
+logarithmic crop rather than inferring a state from a finite-width gap.
+Actual row closure, moving interacting vacua and spatial-spacing removal
+remain distinct obligations.
+
+YM55 is pinned at research commit
+`4efb9dcdcee5685969f33b572ab04b1e94b8703d`:
+
+| Evidence | SHA-256 |
+| --- | --- |
+| [Written proof][ym55] | `103006933d7bd1e5fc94552256bdd1e64d3cd38c143ff3cdc791468efa922bca` |
+| [Exact result file][ym55cert] | `7b6c887a8295ebdd436750630af6ef8d43110d57e1c60cdd758599dd1a183977` |
+| [Source pins][ym55pins] | `a5604cbbd99067fa702ce83077b50ac0fccaf914a825407ef8ace5eb88d3c9d1` |
+
+The canonical result digest is
+`2f66863525a16ce0f6d3bcbbf7c210dc42cdc5771b0678815eb57f73154070a6`.
+Seven written results, 22 new tests and 62 targeted predecessor tests
+use Python 3.12 only. The physical and four-dimensional obligations
+above are not closed by this chain result.
 
 Priority 4 remains a separate mathematical task on the already declared
 family: use YM-49's defect formula, YM-48's embedding and YM-46's maps
@@ -494,3 +523,7 @@ is navigation and scope control, not another certificate or R-stage.
 [ym54]: https://github.com/Parveen117/Publications/blob/39a55f7995fe27fb9d3f515dca3bdeedce5b118d/papers/yang-mills-certified-benchmark/YM54_RESPONSE_CURVATURE_PROTOCOL_BRIDGE.md
 [ym54cert]: https://github.com/Parveen117/Publications/blob/39a55f7995fe27fb9d3f515dca3bdeedce5b118d/papers/yang-mills-certified-benchmark/certificates/YM54_RESULT.json
 [ym54pins]: https://github.com/Parveen117/Publications/blob/39a55f7995fe27fb9d3f515dca3bdeedce5b118d/papers/yang-mills-certified-benchmark/certificates/YM54_SOURCE_PINS.json
+
+[ym55]: https://github.com/Parveen117/Publications/blob/4efb9dcdcee5685969f33b572ab04b1e94b8703d/papers/yang-mills-certified-benchmark/YM55_ANISOTROPIC_JOINT_HISTORY_LIMIT.md
+[ym55cert]: https://github.com/Parveen117/Publications/blob/4efb9dcdcee5685969f33b572ab04b1e94b8703d/papers/yang-mills-certified-benchmark/certificates/YM55_RESULT.json
+[ym55pins]: https://github.com/Parveen117/Publications/blob/4efb9dcdcee5685969f33b572ab04b1e94b8703d/papers/yang-mills-certified-benchmark/certificates/YM55_SOURCE_PINS.json
