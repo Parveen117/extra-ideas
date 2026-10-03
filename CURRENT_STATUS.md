@@ -1,6 +1,15 @@
 # Current Extra Ideas status
 
-Updated: 3 October 2026. Latest research result: **R46**, the [native return port](02-relational-response/NATIVE_RETURN_PORT_R46.md). The preceding R45 source remains pinned at [452fbe0](https://github.com/Parveen117/extra-ideas/commit/452fbe05797d642bd3c72fefb631c1ad61db78a9).
+Active focus: **[Meta physics / MP-1](meta-physics/README.md)**, 3 October 2026.
+All 98 private-source PDFs (299 pages) have been read and catalogued.
+The first scoped development proves hidden frame sign, winding recovery,
+a universal error-tube bound and a sharp quarter-turn sampling condition.
+Seven written results, 23 exact tests and 6,561 perturbation cases have a
+[replayable certificate](meta-physics/mp1/VERIFICATION.json). This does not
+certify the full source PDFs or their proposed physical interpretations.
+Yang–Mills development is paused. MP stages are separate from R1–R46.
+
+Updated: 3 October 2026. Latest registered R-stage: **R46**, the [native return port](02-relational-response/NATIVE_RETURN_PORT_R46.md). The preceding R45 source remains pinned at [452fbe0](https://github.com/Parveen117/extra-ideas/commit/452fbe05797d642bd3c72fefb631c1ad61db78a9).
 
 [CURRENT_MANIFEST.json](CURRENT_MANIFEST.json) is the current R1–R46 register. [MANIFEST.json](MANIFEST.json) is a frozen historical manifest through R13: later certificates hash it as prior evidence. The original manuscript, historical route guides, source pins and certificates retain their recorded bytes. Current navigation uses the root, relational-response and operator-evolution guides plus this page and the current manifest.
 
