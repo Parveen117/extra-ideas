@@ -16,7 +16,18 @@ completion. Its [gauge/gravity interface](02-relational-response/NATIVE_GAUGE_GR
 is a conditional application, with classical, quantum and continuum gates kept
 distinct. It does not add an unverified R47 or change the R1–R46 register.
 
-Latest upstream step: **YM-52** derives the native heat protocol's energy,
+Latest upstream step: **[YM-53][ym53]** extends the declared interacting
+chain to anisotropic native heat, including rank-two tensors with
+site-dependent orientations. A uniform second-eigenvalue floor beta>0
+and abs(theta)<beta/2400 give a full-source gap uniform in finite width
+and fine time step. The fixed-width time limit retains it, and the
+interacting ground-source weighted derivative energy has the same lower
+bound. Seven written results, eighteen new and 151 related tests use
+Python 3.12 only. The anisotropic volume/joint limit, actual row closure,
+physical selection and 4D/Clay remain open. This is an upstream
+mathematical result; the Extra Ideas register remains R1–R46.
+
+Previous upstream step: **YM-52** derives the native heat protocol's energy,
 discarded-record variance and bounded-density entropy balances. The
 weighted order brackets construct cof(C). For eigenvalues a<=b<=c,
 the full centered rate is min(tr(C)/4,a+b); two noncommuting active
@@ -24,8 +35,8 @@ directions suffice on this compact carrier. A sign-insensitive observer
 has rate a+b. At fixed trace, maximizing that rate uniquely selects
 isotropy, while full-observer optimization leaves an anisotropic plateau.
 The known spectral formula is credited to Lauret. Physical energy/time
-units, the optimization objective and anisotropic interacting transfer
-remain open. Six written results, sixteen new and 133 related tests use
+units and the optimization objective remain open; YM53 supplies the
+declared anisotropic chain extension. Six written results, sixteen new and 133 related tests use
 Python 3.12 only. The mission map pins the proof and exact certificate.
 
 Previous upstream step: **YM-51** audits the tools used after the native
@@ -734,3 +745,5 @@ The name `lambda` currently serves several roles. Use `lambda_*` for the fixed r
 [CURRENT_MANIFEST.json](CURRENT_MANIFEST.json) anchors every R1–R45 proof and recorded verification by Git blob identity, including R15's qualified verdict and R14's scope correction. [MANIFEST.json](MANIFEST.json) retains the original checksum, excerpt ranges and historical R1–R13 register as frozen evidence.
 
 The [current CI runner](04-operator-evolution/verify_repository.py) checks registered evidence, executes the complete R16 scoped foundation checker and replays the unchanged R17–R45 native applications. [CURRENT_STATUS.md](CURRENT_STATUS.md) states the exact runtime scope and links the live GitHub checks. The canonical engine stays in its pinned separate RKF checkout. [CROSS_REPO_LINEAGE.md](CROSS_REPO_LINEAGE.md) retains the historical R1–R4 assessment; later proofs carry their own premise-labelled source comparisons.
+
+[ym53]: https://github.com/Parveen117/Publications/blob/eb98df28c3c22821de2ab859e9eb095492a614a2/papers/yang-mills-certified-benchmark/YM53_ANISOTROPIC_INTERACTING_GAP.md

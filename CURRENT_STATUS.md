@@ -11,7 +11,18 @@ non-Abelian source/Gauss result to the conditional gravity sector, and record
 the remaining quantum/continuum targets. They are application/navigation
 documents, not a new primitive-only R-stage; the register remains R1–R46.
 
-Latest upstream continuation: **Publications YM-52** supplies an energy,
+Latest upstream continuation: **[YM-53][ym53]** extends the declared interacting
+chain to anisotropic native heat, including rank-two tensors with
+site-dependent orientations. A uniform second-eigenvalue floor beta>0
+and abs(theta)<beta/2400 give a full-source gap uniform in finite width
+and fine time step. The fixed-width time limit retains it, and the
+interacting ground-source weighted derivative energy has the same lower
+bound. Seven written results, eighteen new and 151 related tests use
+Python 3.12 only. The anisotropic volume/joint limit, actual row closure,
+physical selection and 4D/Clay remain open. This is an upstream
+mathematical result; the Extra Ideas register remains R1–R46.
+
+Previous upstream continuation: **Publications YM-52** supplies an energy,
 noise and observer bridge for YM51's declared compact free protocol.
 Mean squared distinction plus discarded-record variance preserves the
 full averaged squared record. A bounded positive density has a proved
@@ -148,3 +159,5 @@ Statuses below are copied from the anchored records, including R15's qualified v
 | [R44](02-relational-response/NATIVE_COLLECTIVE_EXCHANGE_R44.md) | collective exchange, calibration geometry and higher memory | [PASS_R44_NATIVE_COLLECTIVE_EXCHANGE](04-operator-evolution/R44_VERIFICATION.json) |
 | [R45](02-relational-response/NATIVE_CURVATURE_FLOW_R45.md) | curvature-generated flow and recovery of phase direction | [PASS_R45_NATIVE_CURVATURE_FLOW](04-operator-evolution/R45_VERIFICATION.json) |
 | [R46](02-relational-response/NATIVE_RETURN_PORT_R46.md) | native return port, physical probe mapping and finite error | [PASS_R46_NATIVE_RETURN_PORT_ADAPTER](04-operator-evolution/R46_VERIFICATION.json) |
+
+[ym53]: https://github.com/Parveen117/Publications/blob/eb98df28c3c22821de2ab859e9eb095492a614a2/papers/yang-mills-certified-benchmark/YM53_ANISOTROPIC_INTERACTING_GAP.md
