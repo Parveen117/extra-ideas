@@ -11,7 +11,18 @@ non-Abelian source/Gauss result to the conditional gravity sector, and record
 the remaining quantum/continuum targets. They are application/navigation
 documents, not a new primitive-only R-stage; the register remains R1–R46.
 
-Latest upstream continuation: **[YM-53][ym53]** extends the declared interacting
+Latest upstream step: **[YM-54][ym54]** constructs four equally counted
+native compact turns from two frozen shape-response directions. Their
+protocol tensor obeys beta>=4 f^2/tau, where f is NT's existing curvature
+marker and tau is the trace-free response budget. Uniform |f|>=f0>0 and
+tau<=T supply YM53's sufficient interacting window abs(theta)<f0^2/(600 T).
+The original curved thermo potential gives an exact example. Seven
+written results, twenty new and 171 related tests use Python 3.12 only.
+The response law, directions, equal counts, compact lift and clock remain
+declared choices; physical selection and anisotropic joint/volume limits
+remain open. This is an upstream mathematical bridge, with no new R-stage.
+
+Previous upstream continuation: **[YM-53][ym53]** extends the declared interacting
 chain to anisotropic native heat, including rank-two tensors with
 site-dependent orientations. A uniform second-eigenvalue floor beta>0
 and abs(theta)<beta/2400 give a full-source gap uniform in finite width
@@ -161,3 +172,5 @@ Statuses below are copied from the anchored records, including R15's qualified v
 | [R46](02-relational-response/NATIVE_RETURN_PORT_R46.md) | native return port, physical probe mapping and finite error | [PASS_R46_NATIVE_RETURN_PORT_ADAPTER](04-operator-evolution/R46_VERIFICATION.json) |
 
 [ym53]: https://github.com/Parveen117/Publications/blob/eb98df28c3c22821de2ab859e9eb095492a614a2/papers/yang-mills-certified-benchmark/YM53_ANISOTROPIC_INTERACTING_GAP.md
+
+[ym54]: https://github.com/Parveen117/Publications/blob/39a55f7995fe27fb9d3f515dca3bdeedce5b118d/papers/yang-mills-certified-benchmark/YM54_RESPONSE_CURVATURE_PROTOCOL_BRIDGE.md
