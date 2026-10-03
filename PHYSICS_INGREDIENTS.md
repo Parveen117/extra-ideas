@@ -7,7 +7,20 @@ existing results at their actual scopes. Native states, cuts, composition,
 observers and memory precede geometric, probabilistic and physical adapters.
 The historical R1–R46 register and its frozen evidence remain unchanged.
 
-New observer-memory bridge: **[GE3 — native returning memory](https://github.com/Parveen117/Publications/blob/7b1b7edb5c20ade893b415a173eb751f2835b5f9/papers/generalized-euler-evolution/GE3_RETURNING_MEMORY.md)**.
+Latest mathematical support: **[GE4 — minimal observer-memory recovery](https://github.com/Parveen117/Publications/blob/6add222c960d539fa7f6a80a9974b0253310cf88/papers/generalized-euler-evolution/GE4_MINIMAL_OBSERVER_MEMORY.md)**.
+Native response moments now determine the smallest observable linear
+realization: a flat moment Gram matrix of rank r needs r-1 memory
+coordinates. With an independently warranted native generator ceiling,
+a three-derivative equality certifies GE3's complete one-memory law.
+A second actual native quadratic probe requires two memory coordinates.
+Approximate closure has an explicit error bound; invisible modes and
+the ambient gap cannot be recovered from this one observer.
+Four scoped written proofs, 14 new tests and 62 GE1–GE4 tests use
+Python 3.12 only, preserving 150 predecessor pins. Exact finite checks
+support the proofs; this is not formal or independent expert certification.
+Noisy derivative inference, the actual interacting row and 4D/Clay remain open.
+
+Previous observer-memory bridge: **[GE3 — native returning memory](https://github.com/Parveen117/Publications/blob/7b1b7edb5c20ade893b415a173eb751f2835b5f9/papers/generalized-euler-evolution/GE3_RETURNING_MEMORY.md)**.
 An extra observer cut applied to GE2's native heat generally retains
 memory. On a fixed finite native core, with generator blocks A, B, D,
 the visible law is x'=-Ax-B exp(-tau D)y0 plus the memory integral

@@ -1,6 +1,22 @@
 # Current Extra Ideas status
 
-Latest mathematical support: **[GE3 — native returning memory](https://github.com/Parveen117/Publications/blob/7b1b7edb5c20ade893b415a173eb751f2835b5f9/papers/generalized-euler-evolution/GE3_RETURNING_MEMORY.md)**.
+Latest mathematical support: **[GE4 — minimal observer-memory recovery](https://github.com/Parveen117/Publications/blob/6add222c960d539fa7f6a80a9974b0253310cf88/papers/generalized-euler-evolution/GE4_MINIMAL_OBSERVER_MEMORY.md)**.
+Native response moments now determine the smallest observable linear
+realization: a flat moment Gram matrix of rank r needs r-1 memory
+coordinates. With an independently warranted native generator ceiling,
+a three-derivative equality certifies GE3's complete one-memory law.
+A second actual native quadratic probe requires two memory coordinates.
+Approximate closure has an explicit error bound; invisible modes and
+the ambient gap cannot be recovered from this one observer.
+Four scoped written proofs, 14 new tests and 62 GE1–GE4 tests use
+Python 3.12 only, preserving 150 predecessor pins. Exact finite checks
+support the proofs; this is not formal or independent expert certification.
+Noisy derivative inference, the actual interacting row and 4D/Clay remain open.
+Canonical GE4 certificate:
+`fa182e2d7012eb21986d879ea18dc42047f9af147bfbbaea7be26f19b2f1b072`.
+R1–R46 and MP1/MP2 evidence remains unchanged.
+
+Previous mathematical support: **[GE3 — native returning memory](https://github.com/Parveen117/Publications/blob/7b1b7edb5c20ade893b415a173eb751f2835b5f9/papers/generalized-euler-evolution/GE3_RETURNING_MEMORY.md)**.
 The nonuniform clock-free memory word and GE2's internal-clock limit
 are connected on a fixed finite native core. An explicit quadratic cut
 has memory kernel exp(-3r/4)/16 and nonzero closure marker 1/16.
