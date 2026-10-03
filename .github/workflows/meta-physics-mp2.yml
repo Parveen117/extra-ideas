@@ -1,0 +1,43 @@
+name: MP2 evolving native response
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: meta-physics-mp2-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  mp2:
+    name: Protected curvature, moving work and exact records
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout Extra Ideas
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: extra-ideas
+          persist-credentials: false
+      - name: Checkout unchanged native dependencies
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          repository: Parveen117/Publications
+          ref: b7160ae47c76342088ca37334775a6e8458ed2c6
+          path: Publications
+          persist-credentials: false
+          sparse-checkout: |
+            papers/yang-mills-certified-benchmark
+            papers/native-thermodynamic-curvature
+      - name: Python 3.12 only
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Replay MP2, frozen MP1 and R1--R46 register
+        working-directory: extra-ideas
+        run: python -B meta-physics/mp2/verify.py --publications-root ../Publications --check

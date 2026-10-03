@@ -1,0 +1,102 @@
+{
+  "schema": "MP2-VERIFICATION-1",
+  "status": "PASS_SCOPED_WRITTEN_PROOFS_AND_EXACT_CHECKS",
+  "python": "3.12",
+  "written_results": 7,
+  "tests_passed": 22,
+  "prior_mp1_tests_passed": 23,
+  "cofactor_and_flow_grid_matrices": 624,
+  "universal_claim_basis": "Seven written proofs; finite tests do not prove the continuum claims",
+  "continuous_time_implemented_as_numeric_ode": false,
+  "chronological_contraction_test": "Exact ordered resolvent controls; heat limit is proved in T4",
+  "native_engines_copied": 0,
+  "integrity": {
+    "pinned_files": 59,
+    "runtime_modules": 28,
+    "frozen_r_stages": 46,
+    "mp1_tests_replayed": 23,
+    "mp1_certificate_sha256": "a3198a0bfbbcf9be5e0a69667d917b0d6cc3784485ec8d716a0944f5890aaf7b"
+  },
+  "examples": {
+    "initial": {
+      "d": "4",
+      "B": "17"
+    },
+    "pair_step": {
+      "V": [
+        [
+          "3/2",
+          "-32/25"
+        ],
+        [
+          "2",
+          "24/25"
+        ]
+      ],
+      "O": [
+        [
+          "3/5",
+          "-4/5"
+        ],
+        [
+          "4/5",
+          "3/5"
+        ]
+      ],
+      "m": "819/200",
+      "B": "881/100",
+      "d": "4"
+    },
+    "initial_recovered": true,
+    "full_floor": "8/17",
+    "moving_work": {
+      "energy": "1/24",
+      "work": "25/34",
+      "dissipation": "1/24",
+      "energy_dot": "283/408",
+      "squared_norm_dot": "-1/12"
+    },
+    "robust": {
+      "D": "699/200",
+      "B": "2601/100",
+      "even": "54289/231200",
+      "full": "54289/231200"
+    },
+    "balanced_full": "1",
+    "nearby_full": "881/800",
+    "optimal_full_squared": "4/3"
+  },
+  "idea_sources_developed_in_scope": [
+    "033",
+    "053",
+    "093"
+  ],
+  "complete_pdfs_certified": 0,
+  "formal_proof_assistant_verified": false,
+  "independently_peer_reviewed": false,
+  "physical_law_or_empirical_effect_certified": false,
+  "clay_mass_gap_proved": false,
+  "selections": [
+    "radial-relaxation projection at fixed oriented area",
+    "initial response source",
+    "optional frame rotation",
+    "four equally counted compact turns",
+    "heat clock"
+  ],
+  "open_gates": [
+    "physical selection and units",
+    "state-dependent protocol",
+    "retarded memory/passivity realization (source 051)",
+    "moving interacting ground source",
+    "four-dimensional continuum Yang--Mills"
+  ],
+  "input_sha256": {
+    "meta-physics/mp2/THEOREM.md": "d3a0713e8835d149947d111aff67af27cca404b5be702cde7372f0e0280009fa",
+    "meta-physics/mp2/evolving_response.py": "54e470c01a71e8200e27d34772e0d79320dfdc1a1bfd15caf302377cb2a22232",
+    "meta-physics/mp2/test_evolving_response.py": "22aec6f3bf428f281be8a1704d8864bddb3bfb029001f476f82cae61815d12b1",
+    "meta-physics/mp2/SOURCE_PINS.json": "315694cc9712eeb52d5bbd04eafce8d22673901c01ca4c2247b9e4310658bb52",
+    "meta-physics/mp2/verify.py": "56c3f06f81922088297942d6882701c1ad00ef05ad6c096aa80ec5e6dea0b00c",
+    ".github/workflows/meta-physics-mp2.yml": "65bcfb1ebc7c6ab693d6659de2cfe645d9ed1b255d4e7d0c2859d9094f8c8d2d"
+  },
+  "canonical_report_sha256": "999cebb8c4c2e42145206c80f6bb2ede6fb2fc45fff12193379eca696f1691b0"
+}
