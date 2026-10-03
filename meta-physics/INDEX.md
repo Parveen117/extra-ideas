@@ -35,8 +35,9 @@ objectives, not physical coupling constants.
 | 051: cross-time memory/passivity | No promotion; scalar account and instantaneous record variance are distinguished from a retarded kernel | An augmented memory realization with a passivity proof |
 
 The main source-law, clock and physical-unit choices stay declared.
-R1--R46 and MP-1 remain unchanged. Yang--Mills branch development is paused;
-its existing results are consumed as mathematical dependencies. MP-2
+R1--R46 and MP-1 remain unchanged. Yang--Mills development has resumed in
+[Publications YM55](https://github.com/Parveen117/Publications/blob/4efb9dcdcee5685969f33b572ab04b1e94b8703d/papers/yang-mills-certified-benchmark/YM55_ANISOTROPIC_JOINT_HISTORY_LIMIT.md),
+which supplies a stationary anisotropic joint-history limit. MP-2
 proves a nonautonomous free contraction estimate, not a stationary
 interacting mass gap or a four-dimensional Clay solution.
 

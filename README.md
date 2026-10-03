@@ -6,7 +6,8 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-Current focus: **[Meta physics / MP-2](meta-physics/INDEX.md)**. All 98 idea-vault
+Current focus: **[Yang–Mills / YM-55][ym55]**, resumed after the
+[MP-2 development](meta-physics/INDEX.md). All 98 idea-vault
 PDFs (299 pages) have a [frozen reading audit](meta-physics/SOURCE_AUDIT.md).
 [MP-2](meta-physics/mp2/THEOREM.md) develops an evolving native Hessian response:
 its selected flow preserves curvature, decreases the response budget and
@@ -14,8 +15,8 @@ retains a uniform free relaxation bound. Exact moving-work and record
 balances accompany seven written results and 22 tests on Python 3.12.
 The full and sign-blind observers have different optima at fixed curvature.
 The [MP-1](meta-physics/mp1/THEOREM.md) hidden-frame result stays unchanged.
-The private drafts are not copied here. Yang–Mills development is paused;
-its existing mathematics is reused, and the R1–R46 register is preserved.
+The private drafts are not copied here. Yang–Mills mathematical development
+continues in Publications; the R1–R46 register is preserved.
 
 Current register: [R1–R46 manifest](CURRENT_MANIFEST.json) and [current results, branch integration and CI scope](CURRENT_STATUS.md). The historical `MANIFEST.json` remains frozen through R13 because later certificates hash it as prior evidence.
 
@@ -27,7 +28,18 @@ completion. Its [gauge/gravity interface](02-relational-response/NATIVE_GAUGE_GR
 is a conditional application, with classical, quantum and continuum gates kept
 distinct. It does not add an unverified R47 or change the R1–R46 register.
 
-Latest upstream step: **[YM-54][ym54]** constructs four equally counted
+Latest upstream step: **[YM-55][ym55]** constructs the joint volume/time
+limit of local vacuum histories for a fixed native anisotropic interacting
+profile. A second-eigenvalue floor beta>0, a uniform trace ceiling M and
+abs(theta)<beta/2400 allow spatial exhaustion and heat refinement at
+independent rates. The limit retains positivity, heat-time reflection
+positivity and exponential centered correlation decay. YM54's curvature
+floor and response budget supply both tensor bounds. Seven written
+results, 22 new and 62 targeted predecessor tests use Python 3.12 only;
+117 upstream files are unchanged. Physical selection, moving interacting
+vacua, actual continuous-time row closure and 4D/Clay remain open.
+
+Previous upstream step: **[YM-54][ym54]** constructs four equally counted
 native compact turns from two frozen shape-response directions. Their
 protocol tensor obeys beta>=4 f^2/tau, where f is NT's existing curvature
 marker and tau is the trace-free response budget. Uniform |f|>=f0>0 and
@@ -35,8 +47,8 @@ tau<=T supply YM53's sufficient interacting window abs(theta)<f0^2/(600 T).
 The original curved thermo potential gives an exact example. Seven
 written results, twenty new and 171 related tests use Python 3.12 only.
 The response law, directions, equal counts, compact lift and clock remain
-declared choices; physical selection and anisotropic joint/volume limits
-remain open. This is an upstream mathematical bridge, with no new R-stage.
+declared choices. YM55 now supplies the fixed-profile joint history limit;
+physical selection remains open. This is an upstream mathematical bridge, with no new R-stage.
 
 Previous upstream step: **[YM-53][ym53]** extends the declared interacting
 chain to anisotropic native heat, including rank-two tensors with
@@ -45,8 +57,8 @@ and abs(theta)<beta/2400 give a full-source gap uniform in finite width
 and fine time step. The fixed-width time limit retains it, and the
 interacting ground-source weighted derivative energy has the same lower
 bound. Seven written results, eighteen new and 151 related tests use
-Python 3.12 only. The anisotropic volume/joint limit, actual row closure,
-physical selection and 4D/Clay remain open. This is an upstream
+Python 3.12 only. YM55 adds the fixed-profile joint history limit; actual
+row closure, physical selection and 4D/Clay remain open. This is an upstream
 mathematical result; the Extra Ideas register remains R1–R46.
 
 Previous upstream step: **YM-52** derives the native heat protocol's energy,
@@ -771,3 +783,5 @@ The [current CI runner](04-operator-evolution/verify_repository.py) checks regis
 [ym53]: https://github.com/Parveen117/Publications/blob/eb98df28c3c22821de2ab859e9eb095492a614a2/papers/yang-mills-certified-benchmark/YM53_ANISOTROPIC_INTERACTING_GAP.md
 
 [ym54]: https://github.com/Parveen117/Publications/blob/39a55f7995fe27fb9d3f515dca3bdeedce5b118d/papers/yang-mills-certified-benchmark/YM54_RESPONSE_CURVATURE_PROTOCOL_BRIDGE.md
+
+[ym55]: https://github.com/Parveen117/Publications/blob/4efb9dcdcee5685969f33b572ab04b1e94b8703d/papers/yang-mills-certified-benchmark/YM55_ANISOTROPIC_JOINT_HISTORY_LIMIT.md
