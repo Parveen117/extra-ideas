@@ -1,0 +1,31 @@
+name: MP1 certified axis memory
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: meta-physics-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  mp1:
+    name: Exact observer, winding and protection checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Python 3.12 only
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Exact tests, proof, source inventory and certificate integrity
+        run: python -B meta-physics/mp1/verify.py --check

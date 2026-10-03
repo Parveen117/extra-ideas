@@ -6,6 +6,14 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
+Current focus: **[Meta physics](meta-physics/README.md)**. All 98 idea-vault
+PDFs (299 pages) have a [reading audit and certification queue](meta-physics/SOURCE_AUDIT.md).
+[MP-1](meta-physics/mp1/THEOREM.md) develops hidden frame memory, exact winding,
+a universal perturbation margin and a sharp sampling gate for a declared
+native axis observer. Seven written results and 23 tests use Python 3.12.
+The private drafts are not copied here. Yang–Mills development is paused;
+its prior results and the R1–R46 register are preserved.
+
 Current register: [R1–R46 manifest](CURRENT_MANIFEST.json) and [current results, branch integration and CI scope](CURRENT_STATUS.md). The historical `MANIFEST.json` remains frozen through R13 because later certificates hash it as prior evidence.
 
 Common mathematical development now follows [Publications' Morphic/EMK/UGD foundation route](https://github.com/Parveen117/Publications/blob/main/MATHEMATICAL_FOUNDATION.md). Physical applications continue here, using the canonical RKF engine and preserving the existing research evidence.

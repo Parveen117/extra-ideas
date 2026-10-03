@@ -1,0 +1,62 @@
+{
+  "schema": "MP1-SOURCE-PINS-1",
+  "extra_ideas_commit": "6f131bab2b3b3cb813aed4d5c7d03b24bd1ae3d8",
+  "consumed_unchanged_files": [
+    {
+      "path": "04-operator-evolution/emk_tensor_calculus.py",
+      "sha256": "04d0e4d3754c165a0c54a2c40b837530d56780048732b168c95dfe1cca07887e",
+      "git_blob_sha1": "2bac5208e6545cd019f7e0ece4a8b4845ce946b4"
+    },
+    {
+      "path": "04-operator-evolution/aghora_return.py",
+      "sha256": "17e1bb9681f9d5e766c4f294765c1273ba6716a64e8d125196fd36f10fb06e7c",
+      "git_blob_sha1": "031e70bf34a0278e5d80b4692d3b166949fc6a85"
+    },
+    {
+      "path": "04-operator-evolution/verify_repository.py",
+      "sha256": "fce290279b9db0a6473fb5d8336e97e27038fe7938a27b9e0fe78516dbe0a6d9",
+      "git_blob_sha1": "31b36473071c194e69ad7be44b6db628b24ec1bf"
+    },
+    {
+      "path": "02-relational-response/EMK_TENSOR_CALCULUS_R7.md",
+      "sha256": "17a4b63150760bb17435a36421d4dad42d0a6b437aee32fce9f63533509f706e",
+      "git_blob_sha1": "7c94de69476094fe4fabab2096bd515868e66f94"
+    },
+    {
+      "path": "02-relational-response/NATIVE_SOURCE_FOUNDATION_R14.md",
+      "sha256": "ba735a02c84a25018f79c3cf2ab796404c6aadaf631dbb0165fc3af7cb246755",
+      "git_blob_sha1": "7fd8f2795222153f4b175bbc56b6e21d5c8234b0"
+    },
+    {
+      "path": "02-relational-response/EMK_TOPOLOGY_R15.md",
+      "sha256": "dc3b7fc1bb0ed7ec7a93f9e21ed358873df61909b00c01f9e634d1312fe23a6c",
+      "git_blob_sha1": "24f87e5b2322d9f43e957e35ac2a7bcaa6d3e8bc"
+    },
+    {
+      "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+      "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c",
+      "git_blob_sha1": "87d95f6c5547cf75dd779f949f7c24f364c545d6"
+    },
+    {
+      "path": "02-relational-response/NATIVE_ECHO_CLOCK_R39.md",
+      "sha256": "4f51c5ac1ef97b0c412164ee51b9dfc1e986312e2a024ac454936ef4f8c17ef2",
+      "git_blob_sha1": "d6961aa1148afb9bb70932b69ebc5bd4144dfd9e"
+    },
+    {
+      "path": "02-relational-response/NATIVE_PHASE_GENERATOR_R42.md",
+      "sha256": "e029b585e732110870647489eff708b4ad097c6beef68bdd3df5f9227d52c261",
+      "git_blob_sha1": "8d4ae729115b3c0b196c5d2c2e67a7b3a0e705b8"
+    },
+    {
+      "path": "CURRENT_MANIFEST.json",
+      "sha256": "88c199204a682d7a1e8076400a09c6db985e21e0446d362cb6fb8c798640a24f",
+      "git_blob_sha1": "6741816fac7f0eed6ce0e3e4d4ad31942e3b61f7"
+    }
+  ],
+  "rkf_prior_result": {
+    "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+    "path": "theorum/76_seam_flow_meter_theorem.md",
+    "git_blob_sha1": "1c516299af716200e64ae8138de93cfbd9f21cde",
+    "role": "read for attribution and duplication audit; not a runtime dependency"
+  }
+}

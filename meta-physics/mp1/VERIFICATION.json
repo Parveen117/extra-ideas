@@ -1,0 +1,115 @@
+{
+  "schema": "MP1-VERIFICATION-1",
+  "status": "PASS_SCOPED_WRITTEN_PROOFS_AND_EXACT_CHECKS",
+  "written_results": 7,
+  "python": "3.12",
+  "tests_passed": 23,
+  "finite_vertex_perturbations_checked": 6561,
+  "universal_protection_basis": "T4 written proof, not extrapolation from finite tests",
+  "formal_proof_assistant_verified": false,
+  "physical_law_or_empirical_effect_certified": false,
+  "integrity": {
+    "unchanged_dependencies": 10,
+    "frozen_registered_stages": 46
+  },
+  "inventory": {
+    "files_read": 98,
+    "pages_read": 299,
+    "distinct_extracted_texts": 95,
+    "scoped_development_sources": [
+      "017",
+      "078"
+    ],
+    "complete_pdfs_certified": 0,
+    "private_source_hashes_rechecked_by_public_ci": false
+  },
+  "exact_loop_examples": {
+    "-2": {
+      "winding": -2,
+      "relative_frame_sign": 1,
+      "clearance_squared": "1/2",
+      "tube_squared_bound": "0",
+      "tube_certified": true,
+      "scope": "closed rational polygon; continuous path only under declared tube contract"
+    },
+    "-1": {
+      "winding": -1,
+      "relative_frame_sign": -1,
+      "clearance_squared": "1/2",
+      "tube_squared_bound": "0",
+      "tube_certified": true,
+      "scope": "closed rational polygon; continuous path only under declared tube contract"
+    },
+    "0": {
+      "winding": 0,
+      "relative_frame_sign": 1,
+      "clearance_squared": "1",
+      "tube_squared_bound": "0",
+      "tube_certified": true,
+      "scope": "closed rational polygon; continuous path only under declared tube contract"
+    },
+    "1": {
+      "winding": 1,
+      "relative_frame_sign": -1,
+      "clearance_squared": "1/2",
+      "tube_squared_bound": "0",
+      "tube_certified": true,
+      "scope": "closed rational polygon; continuous path only under declared tube contract"
+    },
+    "2": {
+      "winding": 2,
+      "relative_frame_sign": 1,
+      "clearance_squared": "1/2",
+      "tube_squared_bound": "0",
+      "tube_certified": true,
+      "scope": "closed rational polygon; continuous path only under declared tube contract"
+    },
+    "3": {
+      "winding": 3,
+      "relative_frame_sign": -1,
+      "clearance_squared": "1/2",
+      "tube_squared_bound": "0",
+      "tube_certified": true,
+      "scope": "closed rational polygon; continuous path only under declared tube contract"
+    }
+  },
+  "noise_example": {
+    "winding": 1,
+    "relative_frame_sign": -1,
+    "clearance_squared": "1/2",
+    "tube_squared_bound": "1/8",
+    "tube_certified": true,
+    "scope": "closed rational polygon; continuous path only under declared tube contract"
+  },
+  "boundary_control": {
+    "winding": 1,
+    "relative_frame_sign": -1,
+    "clearance_squared": "1/2",
+    "tube_squared_bound": "1/2",
+    "tube_certified": false,
+    "scope": "closed rational polygon; continuous path only under declared tube contract"
+  },
+  "reference_probe": {
+    "1": "4",
+    "-1": "0"
+  },
+  "unresolved_gates": [
+    "physical observer/source selection",
+    "between-sample error bound",
+    "entropy cost",
+    "scalar event threshold",
+    "probabilistic noise law"
+  ],
+  "input_sha256": {
+    "meta-physics/README.md": "2c608e972f0438eb6c52c930567de8361e1bbffdd0a7357c473703b2f39ff9ea",
+    "meta-physics/SOURCE_AUDIT.md": "f962c3d0f1e63e2bc4f926e78c762be71db2ed7e45454070a8b672a82eedef3d",
+    "meta-physics/SOURCE_INVENTORY.json": "110e3bb7bc7637ebfa0821811a868395f4d7d3393f8f0c65f792b16a392fa154",
+    "meta-physics/mp1/THEOREM.md": "46b760862af0fb1775cb74ccd81902b912e0321d13e9401db5c95383753220e7",
+    "meta-physics/mp1/axis_memory.py": "9fb3c671e2885946aa0f86ba2492500e2e36c36003519484fdc35d6b5ce57916",
+    "meta-physics/mp1/test_axis_memory.py": "ebd0cded973361838d3596e4c7fbea40f04b5e4db79716173882b4901cdccede",
+    "meta-physics/mp1/SOURCE_PINS.json": "a12eae1c67f7b901d7beee420dc2b25d30c955fcb5203f569ff071fcc460954e",
+    "meta-physics/mp1/verify.py": "75eb97a607116d159479ce24fd143604579c6436657d8e58efb66f80a8ffadbe",
+    ".github/workflows/meta-physics.yml": "54f360ec3bda2b941958c9927df054f24846e14d25474857219053617812d223"
+  },
+  "canonical_report_sha256": "82f0292eb8c5c7393d894e70fedfbc6b7662a98d7a38416e9fa089894cbe8cad"
+}
