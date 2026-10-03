@@ -1,0 +1,398 @@
+{
+  "schema": "MP2-SOURCE-PINS-1",
+  "extra_ideas_commit": "e41e9e741ec42f72d32c9b7d487d83aaf37e1497",
+  "publications_commit": "b7160ae47c76342088ca37334775a6e8458ed2c6",
+  "runtime_modules": [
+    "ym15_chain_closed_form",
+    "ym16_chain_dock",
+    "ym19_dobrushin_dock",
+    "ym1_certified_gap",
+    "ym28_e4d_on_chain",
+    "ym2_theta_interacting_gap",
+    "ym30_recoupling_engine",
+    "ym31_uniform_floor",
+    "ym32_dressed_excitation",
+    "ym33_t_row_engine",
+    "ym37_space_transfer",
+    "ym3_crossing_direction",
+    "ym43_native_time_transfer",
+    "ym44_time_refinement",
+    "ym45_temporal_blocks",
+    "ym46_infinite_volume",
+    "ym47_joint_history",
+    "ym48_reflected_time",
+    "ym49_time_zero",
+    "ym4_symmetry_protected",
+    "ym50_native_reference",
+    "ym51_heat_selection",
+    "ym52_energy_observer",
+    "ym53_anisotropic_interaction",
+    "ym54_response_protocol",
+    "ym5_two_sided_gap",
+    "ym6_seam_integer_dock",
+    "ymf1_chain_fabric"
+  ],
+  "consumed_unchanged_files": [
+    {
+      "repository": "Publications",
+      "path": "papers/native-thermodynamic-curvature/THEOREM.md",
+      "sha256": "a01db1d145ad6155632aa2c7e239114c4e4c736dd2b814f059d5c3d3945fda29",
+      "git_blob_sha1": "980fab7844d990329c4390b5b52f55ffbb34de63"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/YM50_NATIVE_REFERENCE_HEAT_BRIDGE.md",
+      "sha256": "5298c9a686e64b5fafbade55f0eaa2a8271de534d679f16529d498807b14e898",
+      "git_blob_sha1": "01c376ca749d766152083ef087622ab5779ed7c6"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/YM51_TOOL_DEPENDENCY_AND_HEAT_SELECTION.md",
+      "sha256": "5b146b22e7e08bf724f3600a27441c831ce59c3db1e0e3ac994c0183ae4c9e2f",
+      "git_blob_sha1": "aab07470c22f483071edb41499aad92e8524b6e4"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/YM52_ENERGY_NOISE_AND_OBSERVER_GAP.md",
+      "sha256": "31f380cac4895f5a81da980f0e3c0d72a362e645af22fca5767d6cda8c1925ec",
+      "git_blob_sha1": "2e99801706383c8f1b40f5a19bf00e55fb6710f5"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/YM53_ANISOTROPIC_INTERACTING_GAP.md",
+      "sha256": "e6cf190c671c75f2e0f10a8619b562e09d575a289cc6de155e5958eaf605a712",
+      "git_blob_sha1": "363b4b053e51b5ba10bc4cebdc30c4684dae3ab2"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/YM54_RESPONSE_CURVATURE_PROTOCOL_BRIDGE.md",
+      "sha256": "d55e967839c744259dc483decb668ae49f03d85dbf266185f4083f1e8c8fc601",
+      "git_blob_sha1": "6400c6bf7a4f466a3afc67d644017c35996c6246"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/YM50_RESULT.json",
+      "sha256": "f878c930c1490d5236d7d17d8b67c52988ffb63afafd3d97ab98d6a84b527eaf",
+      "git_blob_sha1": "6670631146cd812bdcbf2b5e7be5dddcbc80c969"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/YM50_SOURCE_PINS.json",
+      "sha256": "e646b18eab0b04ee1d7a3ceef2cb229f1e69a9f4b6d4c82a10825fe39095b373",
+      "git_blob_sha1": "939e2e776b3ae78cd5b9220699a376275b76677b"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/YM51_RESULT.json",
+      "sha256": "960bc233d26fd41f5b23dd801a57368db641d8243df4cc8d54a5f45fa8d2482f",
+      "git_blob_sha1": "c4e2a7d4f7dfe2436e6e020fc1916cd2cb931caa"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/YM51_SOURCE_PINS.json",
+      "sha256": "38d89e1ed401fb5d7c1ec243ca560e8310f168a6186ca3831aa29faa15d2d961",
+      "git_blob_sha1": "200c13242958abaec3f7b62f8160393cbe7cebe0"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/YM52_RESULT.json",
+      "sha256": "ee9e3e17b55ac4c05821c8a21495808161ec9c04456333d894950230de589325",
+      "git_blob_sha1": "b1089c6502489a9017893279a0d5960e28cc67b1"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/YM52_SOURCE_PINS.json",
+      "sha256": "f359b0d6f6a3cfa36fec3d5f1ffd7074dd515f2c086f1a06f89f9692569e5feb",
+      "git_blob_sha1": "821f16113d9114b68e7dcf97a06699a56d152fe0"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/YM53_RESULT.json",
+      "sha256": "23ad5b289660b41ffc3ec82b818ca78c78bfbff975a42101023467aab14c60c0",
+      "git_blob_sha1": "1caaa352fbb944826b79ca47b166c08777a742c4"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/YM53_SOURCE_PINS.json",
+      "sha256": "34f5d543d8db0799f858d21e7e7bddc585ff2cfc74f3a63388c9e910a80fdda6",
+      "git_blob_sha1": "251cc664d1b04f66dab262d9bedff1c98a73c701"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/YM54_RESULT.json",
+      "sha256": "f4f704ccc77f9505c5adb8d9bf3b0fc9ee9aecbb341b0ff749d377a3c9c9a1c0",
+      "git_blob_sha1": "f7a3b4205818a76d08969b6503f7ce4db4d20a7d"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/YM54_SOURCE_PINS.json",
+      "sha256": "49d3e2d080d7faa04906b97a24b2bb509cca0fa40cf48379c259f3cab93a3f05",
+      "git_blob_sha1": "83405a1e5930fc24adc55d073e8c1cf40f9f81d8"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym15_chain_closed_form.py",
+      "sha256": "c802f3ddcee83f5ab0f4ab6087a68bc9d2f147091dd147943b374d52fcdb1e13",
+      "git_blob_sha1": "0440ab52121495767d946ab3e5b9d75e3ea0a804"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym16_chain_dock.py",
+      "sha256": "425489ae9f020f71fa8790fb5071878748c82e52c5f38e94ea7171939f1e9e43",
+      "git_blob_sha1": "079cf4a44a922243d4f9f328d9dfa5a95c75c21a"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym19_dobrushin_dock.py",
+      "sha256": "5dcea9a6b4d3eff098a460f7ea949740a2e8eb362e46377c0edb568dc982edab",
+      "git_blob_sha1": "43090df91fe19c7c76360aaac3bc7e54569160ab"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym1_certified_gap.py",
+      "sha256": "1c1e1631f6d1793735b3f2403427bca0231bb21c3622e70da4e9ba175f4c9bda",
+      "git_blob_sha1": "334bdb70b7dc85681f95d89b1cd6f8d7d966666a"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym28_e4d_on_chain.py",
+      "sha256": "85a5e235c5ba428726fe83bc3916198978bd5ca39231c40addb52a6898088dcf",
+      "git_blob_sha1": "fd3bb630b9880b0eba8df265e814d9139d0e6cfd"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym2_theta_interacting_gap.py",
+      "sha256": "7867a545fa0a06515b93ac57e96cbbf984410d97633705af38bc1924824aaa9a",
+      "git_blob_sha1": "3a2fa92abbd1290e63e0f9fdb509f07379fe0b65"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym30_recoupling_engine.py",
+      "sha256": "22762ca713b4c4c923c27ed43ba88880fd4efef9bc363c52eaa5f894cbbc4e0d",
+      "git_blob_sha1": "1477311e4e8db0b6e2bceec2f00af793d806e003"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym31_uniform_floor.py",
+      "sha256": "4781c1cd1bf619328068a4a8a67d91cfc1d70d7e0e1191ac2abf495acb723d08",
+      "git_blob_sha1": "c842fdca8c65f08dc3ff12c2909bb1272fa61e5e"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym32_dressed_excitation.py",
+      "sha256": "314673d124045be789f8b4313767d88c73dcd576790797830534ea7fc21a10cc",
+      "git_blob_sha1": "27007d544b5f41960855ce0c356aade96e57516c"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym33_t_row_engine.py",
+      "sha256": "b4d65d01c8ca7dd3c02f4372597d13f3a528286993c0b6a39adc61f698d65a89",
+      "git_blob_sha1": "a7f6d3a9cad6b4f6c2865ae906096b07ff6104d3"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym37_space_transfer.py",
+      "sha256": "b860dcc2510f533fcff04b1fb194974884e381b44417dcbbd109c47c780218b7",
+      "git_blob_sha1": "9afca44895d655a42a5b005be58c4b8f68730a95"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym3_crossing_direction.py",
+      "sha256": "9dae32ec90130bd192ee9fdca184b996311b0eb4350c8715755bb747c465922b",
+      "git_blob_sha1": "776d98654127dfd073578fd9d353570d15b3ca75"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym43_native_time_transfer.py",
+      "sha256": "b075f65e639d3ee90698178d39bb1658559a5b195babf107804c09834411c4c8",
+      "git_blob_sha1": "2ba63f73e6e70cc46fc63c635c5d4688b112a226"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym44_time_refinement.py",
+      "sha256": "96d93d76b6cca3d042f9daae98b4c54abbe23ec854bb05cb1775b9c9e1673069",
+      "git_blob_sha1": "6aa83cea8613406f7729b44ecbe014d8d2378972"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym45_temporal_blocks.py",
+      "sha256": "8aca5d66d1ca56929fde95c7c4ae418eb3c448d4b1dca6a12ac35f2ad62b5b25",
+      "git_blob_sha1": "a41126afae809956c7c3b0de4aa5611b4aef48d2"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym46_infinite_volume.py",
+      "sha256": "c83dcb525b35a8a862a10af2a1948579ba660c981e91f1d02ba28c7fd6bceb4d",
+      "git_blob_sha1": "9e756c8dc25e41e83f556538332775730c61a22d"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym47_joint_history.py",
+      "sha256": "1e9e4698d2ee5d0d3b2a96a1f198b4fef8588c8dd0f20b8e0c82409a70fb5d89",
+      "git_blob_sha1": "603516ddb9fcb60ecc88b7fc0b9f445a8625cd27"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym48_reflected_time.py",
+      "sha256": "e89b320e80413b6959558c440b9d1f45d45f7219d120fa0cc5a8625aeda71927",
+      "git_blob_sha1": "2192abc6f04b5ea5831cf8402b4d8557b673fdb6"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym49_time_zero.py",
+      "sha256": "499cef8132bdf29356fe9163c772dc519cc28cda77c2f6fdc1437933babb8834",
+      "git_blob_sha1": "07cf1a19e85c994e4c7c23ea6b6c203a82467ced"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym4_symmetry_protected.py",
+      "sha256": "a9e599c2fc4d5e50c88ee93aeb67a105f0e9bc98954655b5e9c82f0c19f7c13a",
+      "git_blob_sha1": "c9e0e24ab4b9968f79d94f6f2e452b695f2694f3"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym50_native_reference.py",
+      "sha256": "8f29d2e304977c7b9824285f81756b9be1b8f1497817ce6b681c015969cf7f49",
+      "git_blob_sha1": "b29cc27bbfd5567d3f31d704245ef4e5ee54d4ca"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym51_heat_selection.py",
+      "sha256": "8e993c39763e826cf1847703e023697bf0f99d6036e718f29c4677142719a846",
+      "git_blob_sha1": "88fcb5c4d2c99c94a17b642a74c6bf253e6ba3a2"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym52_energy_observer.py",
+      "sha256": "93f0ca18f5905ba324436f6482755df845f79d4c25c278db7fe9bb8c6ada4fb0",
+      "git_blob_sha1": "d401556537b9ed79b9f84f99aaf2f222ad3aafea"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym53_anisotropic_interaction.py",
+      "sha256": "27c6e88cfc0d5428ec5107be42cae4478bc79f60cfd179104a8317177addb284",
+      "git_blob_sha1": "3e6112d68a1ac95f9c384983cfd2f8cf45e3d61a"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym54_response_protocol.py",
+      "sha256": "4882adc8f63f4cb5e7b21f28c73a3e0a3d75d85c72b8f2ba71c8a0c53d30d1b6",
+      "git_blob_sha1": "ceb5350a97ce6945617222c1306355129d805873"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym5_two_sided_gap.py",
+      "sha256": "ac6389b6f9e396c44177d91c76bdc01188c5b2a1b49a6a38efb765fa9fcdbe80",
+      "git_blob_sha1": "80cb98197993011f1c9186ede0dd6f9c49635aa4"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym6_seam_integer_dock.py",
+      "sha256": "4e30b1a3d0bfe1c61c5b65237a291ff500a538589f820e1317d88cd716b8d037",
+      "git_blob_sha1": "a37877e6a2bead42c4b679084650c2b6eaf56716"
+    },
+    {
+      "repository": "Publications",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ymf1_chain_fabric.py",
+      "sha256": "205dcefde2b22f5bef17c2e920da8e7e37bf6e81abdf03fe6a278afac951d055",
+      "git_blob_sha1": "20754035bdb2de23e95116e15e4ab43a7c370a1f"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": ".github/workflows/meta-physics.yml",
+      "sha256": "54f360ec3bda2b941958c9927df054f24846e14d25474857219053617812d223",
+      "git_blob_sha1": "e2ae043853e7773360fde6f4c0e2c5a3d48040c9"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": "02-relational-response/NATIVE_CURVATURE_DESCENT_R10.md",
+      "sha256": "e0ebefb163d2ae2deb4acd2dbd7084a9f16e441b643f412a01661a7097763ce4",
+      "git_blob_sha1": "c4c2cd046343ab4382d2400d8039f13f64eafe17"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": "02-relational-response/NATIVE_PHASE_GENERATOR_R42.md",
+      "sha256": "e029b585e732110870647489eff708b4ad097c6beef68bdd3df5f9227d52c261",
+      "git_blob_sha1": "8d4ae729115b3c0b196c5d2c2e67a7b3a0e705b8"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": "02-relational-response/emk-topology-foundation/emk_topology_foundation.tex",
+      "sha256": "9d2462cca590d3ed054dc6cddef34b697d09beef71fd9f10e2022f10c0d6d02c",
+      "git_blob_sha1": "87d95f6c5547cf75dd779f949f7c24f364c545d6"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": "04-operator-evolution/verify_repository.py",
+      "sha256": "fce290279b9db0a6473fb5d8336e97e27038fe7938a27b9e0fe78516dbe0a6d9",
+      "git_blob_sha1": "31b36473071c194e69ad7be44b6db628b24ec1bf"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": "CURRENT_MANIFEST.json",
+      "sha256": "88c199204a682d7a1e8076400a09c6db985e21e0446d362cb6fb8c798640a24f",
+      "git_blob_sha1": "6741816fac7f0eed6ce0e3e4d4ad31942e3b61f7"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": "meta-physics/README.md",
+      "sha256": "2c608e972f0438eb6c52c930567de8361e1bbffdd0a7357c473703b2f39ff9ea",
+      "git_blob_sha1": "c79e4f203e93f548015b87a47cdd57c0e224d9b2"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": "meta-physics/SOURCE_AUDIT.md",
+      "sha256": "f962c3d0f1e63e2bc4f926e78c762be71db2ed7e45454070a8b672a82eedef3d",
+      "git_blob_sha1": "518eeabb0fe398cad091168ee5497dddfe4f6924"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": "meta-physics/SOURCE_INVENTORY.json",
+      "sha256": "110e3bb7bc7637ebfa0821811a868395f4d7d3393f8f0c65f792b16a392fa154",
+      "git_blob_sha1": "539df8c61bf6c6c6891e105872f8ade96ef225b3"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": "meta-physics/mp1/SOURCE_PINS.json",
+      "sha256": "a12eae1c67f7b901d7beee420dc2b25d30c955fcb5203f569ff071fcc460954e",
+      "git_blob_sha1": "a7ca1f4003f622f02ef33e2b81e71368ef55a01e"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": "meta-physics/mp1/THEOREM.md",
+      "sha256": "46b760862af0fb1775cb74ccd81902b912e0321d13e9401db5c95383753220e7",
+      "git_blob_sha1": "ae4b0edb46e37726c854c904f7b44c364ffef097"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": "meta-physics/mp1/VERIFICATION.json",
+      "sha256": "a3198a0bfbbcf9be5e0a69667d917b0d6cc3784485ec8d716a0944f5890aaf7b",
+      "git_blob_sha1": "2930dc49a196c9c262cd987171990d98f43cce1b"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": "meta-physics/mp1/axis_memory.py",
+      "sha256": "9fb3c671e2885946aa0f86ba2492500e2e36c36003519484fdc35d6b5ce57916",
+      "git_blob_sha1": "182b5e4e70270bdcc02bde2c254bb026a6b171ca"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": "meta-physics/mp1/test_axis_memory.py",
+      "sha256": "ebd0cded973361838d3596e4c7fbea40f04b5e4db79716173882b4901cdccede",
+      "git_blob_sha1": "af3c656b3ac305b90ef768664a874b9a52db7d45"
+    },
+    {
+      "repository": "extra-ideas",
+      "path": "meta-physics/mp1/verify.py",
+      "sha256": "75eb97a607116d159479ce24fd143604579c6436657d8e58efb66f80a8ffadbe",
+      "git_blob_sha1": "4bbd9d3246229e53d1e88abd88900124ca6425e4"
+    }
+  ],
+  "idea_sources": [
+    "033",
+    "053",
+    "093"
+  ],
+  "source_memory_kernel_still_open": "051",
+  "raw_private_pdfs_published": false
+}

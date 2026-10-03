@@ -1,13 +1,23 @@
 # Current Extra Ideas status
 
-Active focus: **[Meta physics / MP-1](meta-physics/README.md)**, 3 October 2026.
+Active focus: **[Meta physics / MP-2](meta-physics/INDEX.md)**, 3 October 2026.
 All 98 private-source PDFs (299 pages) have been read and catalogued.
-The first scoped development proves hidden frame sign, winding recovery,
-a universal error-tube bound and a sharp quarter-turn sampling condition.
-Seven written results, 23 exact tests and 6,561 perturbation cases have a
-[replayable certificate](meta-physics/mp1/VERIFICATION.json). This does not
-certify the full source PDFs or their proposed physical interpretations.
-Yang–Mills development is paused. MP stages are separate from R1–R46.
+The [new scoped development](meta-physics/mp2/THEOREM.md) selects a native
+response flow that preserves its curvature marker, reduces its response
+budget, accounts for paired loss, and retains a uniform time-ordered free
+relaxation bound. Moving work is essential in the derivative-energy balance.
+At fixed curvature the full observer prefers a 3:1 protocol-strength ratio;
+the sign-blind observer prefers balance. Seven written results, 22 exact
+tests and 624 matrix controls have a [replayable certificate](meta-physics/mp2/VERIFICATION.json).
+This is an admissible selected dynamics; physical source/clock selection,
+retarded memory and a moving interacting vacuum remain open.
+
+[MP-1](meta-physics/mp1/THEOREM.md), its 23 tests and its certificate remain
+unchanged. Its PDF audit/inventory are a frozen historical snapshot; the
+[live index](meta-physics/INDEX.md) records later scoped source developments.
+No complete PDF or physical interpretation is certified. Yang–Mills branch
+development is paused; existing native results are dependencies.
+MP stages are separate from the preserved R1–R46 register.
 
 Updated: 3 October 2026. Latest registered R-stage: **R46**, the [native return port](02-relational-response/NATIVE_RETURN_PORT_R46.md). The preceding R45 source remains pinned at [452fbe0](https://github.com/Parveen117/extra-ideas/commit/452fbe05797d642bd3c72fefb631c1ad61db78a9).
 

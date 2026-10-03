@@ -6,13 +6,16 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-Current focus: **[Meta physics](meta-physics/README.md)**. All 98 idea-vault
-PDFs (299 pages) have a [reading audit and certification queue](meta-physics/SOURCE_AUDIT.md).
-[MP-1](meta-physics/mp1/THEOREM.md) develops hidden frame memory, exact winding,
-a universal perturbation margin and a sharp sampling gate for a declared
-native axis observer. Seven written results and 23 tests use Python 3.12.
+Current focus: **[Meta physics / MP-2](meta-physics/INDEX.md)**. All 98 idea-vault
+PDFs (299 pages) have a [frozen reading audit](meta-physics/SOURCE_AUDIT.md).
+[MP-2](meta-physics/mp2/THEOREM.md) develops an evolving native Hessian response:
+its selected flow preserves curvature, decreases the response budget and
+retains a uniform free relaxation bound. Exact moving-work and record
+balances accompany seven written results and 22 tests on Python 3.12.
+The full and sign-blind observers have different optima at fixed curvature.
+The [MP-1](meta-physics/mp1/THEOREM.md) hidden-frame result stays unchanged.
 The private drafts are not copied here. Yang–Mills development is paused;
-its prior results and the R1–R46 register are preserved.
+its existing mathematics is reused, and the R1–R46 register is preserved.
 
 Current register: [R1–R46 manifest](CURRENT_MANIFEST.json) and [current results, branch integration and CI scope](CURRENT_STATUS.md). The historical `MANIFEST.json` remains frozen through R13 because later certificates hash it as prior evidence.
 
