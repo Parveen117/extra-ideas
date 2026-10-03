@@ -177,7 +177,25 @@ physical spatial isotropy or a gap for the alternative interacting laws.
 The mission map therefore tracks this selection gate separately from
 the old fixed-protocol gap and the actual row-closure question.
 
+[YM-52's energy and observer bridge][ym52] now derives the free protocol's
+mean/record-noise and bounded-density entropy balances. Its weighted frame
+brackets construct cof(C), with an exact centered rate
+min(tr(C)/4,a+b) for ordered tensor eigenvalues a<=b<=c. Rank-two active
+protocols can relax despite lacking one direct direction.
+These raw order brackets remain distinct from the connection curvature
+defined above.
+
+A sign-insensitive observer has rate a+b. Maximizing this rate at fixed
+trace uniquely selects isotropy and gives a sharp stability estimate;
+maximizing the full-observer rate leaves many anisotropic maximizers.
+The classical spectral formula is credited, and the native record
+construction and observer criterion are explicit. The physical criterion,
+energy/time calibration and transfer of these rates through interacting
+chains are separate remaining steps. The full-observer objective cannot
+be promoted into a unique physical isotropy principle.
+
 [ncg]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/THEOREM.md
 [cert]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/CERTIFICATE.json
 [ym50]: https://github.com/Parveen117/Publications/blob/ef4a0b53295456b13c905e31359212905dd5de3d/papers/yang-mills-certified-benchmark/YM50_NATIVE_REFERENCE_HEAT_BRIDGE.md
 [ym51]: https://github.com/Parveen117/Publications/blob/a0dee6e72f97a1cd03e652f853eacf763e7daf06/papers/yang-mills-certified-benchmark/YM51_TOOL_DEPENDENCY_AND_HEAT_SELECTION.md
+[ym52]: https://github.com/Parveen117/Publications/blob/fa87843c10220ee344d490db87ac15d376c52506/papers/yang-mills-certified-benchmark/YM52_ENERGY_NOISE_AND_OBSERVER_GAP.md

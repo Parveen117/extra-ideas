@@ -7,7 +7,31 @@ existing results at their actual scopes. Native states, cuts, composition,
 observers and memory precede geometric, probabilistic and physical adapters.
 The historical R1–R46 register and its frozen evidence remain unchanged.
 
-The latest Yang–Mills continuation is **[YM-51][ym51]**, a tool-dependency
+The latest continuation is **[YM-52][ym52]**, a native energy, discarded-record
+and observer-relaxation bridge. For YM51's specified compact free protocol,
+the mean's squared distinction and complementary record variance exactly
+sum to the total averaged squared record. The derivative energy controls
+this transfer and the dissipation of a defined relative entropy for
+bounded positive densities.
+
+Weighted native frame brackets construct cof(C). For eigenvalues
+0<=a<=b<=c the exact optimal centered rates are
+gamma_full=min(tr(C)/4,a+b), gamma_even=a+b and gamma_odd=tr(C)/4.
+Two independent active directions suffice; rank-one protocols retain
+nonconstant stationary information. The all-content proof is written,
+with exact finite controls; the known positive-definite spectral formulas
+are credited to Lauret. Frame order brackets are not relabelled as
+connection curvature or gauge field strength.
+
+At fixed trace s, full-observer optimization is maximal for every
+c<=3s/4, including anisotropic rank-two choices. The sign-insensitive
+observer's worst-case rate is maximal only at C=(s/3)I; a deficit epsilon
+controls operator-norm anisotropy by 2 epsilon. This supplies a conditional
+observer-based selector, not a derivation that nature optimizes that target.
+Physical energy/time units, the budget and anisotropic interacting
+transfer remain open.
+
+The preceding **[YM-51][ym51]** is a tool-dependency
 audit before further physical selection claims. Its
 [ledger][ym51ledger] records 29 dependencies, nine explicit choices and
 three open extensions. The existing tensor, curvature, observer, metric,
@@ -144,7 +168,7 @@ flatness is classical flatness' or 'observation always removes curvature'.
 | Cosmology and perturbations | Advanced branch coupled and anisotropic cosmology; stated matter/stability sectors | These explicit sectors are not the full inhomogeneous Einstein–matter Cauchy problem or quantized gravity |
 | Quantum equations at a regulator | Thermo paper section 06c; exact identities for a coercive finite-dimensional Euclidean action | Coercivity, regulator and ℏ are supplied; the theorem does not prove them for the native gravitational action |
 | Positive free quantum continuum | Thermo paper section 06d; Gaussian measure, regulator removal, reflection positivity and reconstruction | Positive constraint-projected ultrastatic Hessian and a strict gap are hypotheses; nonlinear interacting gravity/gauge completion is open |
-| Yang–Mills state/transfer tools | Publications YM-1–51/NG-1; fixed-protocol small-bridge gap, joint local-history limit, reflected observables, native reference/heat bridge and audited heat-selection boundary; RKF T74–76 | Fixed-law isotropy and clock/action selection, actual row closure, larger interaction range, original Wilson family, general UGD, NCG quantum measure and 4D remain open |
+| Yang–Mills state/transfer tools | Publications YM-1–52/NG-1; fixed-protocol interacting gap and joint histories, native reference/heat bridge, tool audit, free energy/noise/entropy balance and exact observer-sector relaxation; RKF T74–76 | Physical observer objective and clock/action selection, anisotropic interacting transfer, actual row closure, original Wilson family, general UGD, NCG quantum measure and 4D remain open |
 | Operational comparison | R46's native return port and existing separate empirical repositories | Constructed ideal circuit values are not measurements; existing validation of other models is not quantum-gravity evidence |
 
 Advanced branch sources are pinned at
@@ -157,7 +181,7 @@ NCG's checked research commit is `7b34bc657883272f58dc74e9e511ae5c568266ff`.
 
 | Priority | Deliverable | What must be demonstrated before marking it closed |
 | --- | --- | --- |
-| 1. Physical gauge/state/law identification | YM-50 gives the compact reference/transfer bridge; YM-51 identifies and tests the remaining symmetric protocol tensor C | Justify fixed-law internal isotropy or retain/recover non-isotropic C; select the physical state/action and establish its Ward laws. Covariance alone does not do this |
+| 1. Physical gauge/state/law identification | YM-50 gives the compact bridge; YM-51 recovers C; YM-52 supplies its energy and observer rates, with a conditional even-observer isotropy selector | Justify the physical observer objective or fixed-law symmetry, retain/recover C when needed, select the state/action and establish its Ward laws. Neither covariance nor full-gap maximization selects isotropy |
 | 2. Physical quantum matter | Quantization of a declared matter sector compatible with that gauge construction | CAR/fermion grading, positive physical energy and the relevant anomaly checks; the commuting classical SM action is not silently relabelled a quantum fermion |
 | 3. Dynamical geometry constraints | A concrete coupled gauge/metric constraint formulation and its physical reduction | First-class closure or a precisely controlled regulator deformation, removal of gauge/negative directions, and propagation of all constraints; NCG's gauge Gauss identity closes only the classical gauge subtask |
 | 4. YM instantaneous-row closure | YM-49 supplies the positive closure defect and gap-controlled retained memory; YM-50 supplies the compact native representation | Uniformly evaluate the actual chain's defect C(2t)-C(t)^2. Its vanishing gives closure of the coefficient-history sector; a nonzero result requires the proved memory channel. Density in the larger bounded-history carrier and physical observable selection remain separate |
@@ -169,11 +193,18 @@ has been exhausted. A restricted candidate quantum-gravity theory can be
 attempted before deriving the entire Standard Model, provided its actual field
 content, observables and boundaries are stated.
 
-After this audit, the next physical-selection gate is priority 1's
-**fixed-law isotropy or explicit recovery of C**, followed by a native
-clock/process coupling and the relative interaction theta/c. Existing
-R13/R36/R41 constructions are possible inputs; no theorem yet makes
-them select the present YM process.
+The next physical-selection gate is priority 1's **choice of observable
+target and process criterion**. YM51's fixed-law invariance and YM52's
+fixed-budget even-observer maximin condition are two precise routes to
+isotropy; neither condition is physically selected yet. Alternatively
+retain and recover general C. Native clock/process coupling and the
+relative interaction theta/c remain necessary. R13/R36/R41 and the
+existing source/thermo energies are inputs, not automatic selectors.
+
+For the mathematical YM route, the next new question is anisotropic
+interacting transfer: prove the required block-overlap and weighted
+estimates for a declared family with controlled constants. The exact
+free rate alone does not carry YM45's interacting theorem across.
 
 Priority 4 remains a separate mathematical task on the already declared
 family: use YM-49's defect formula, YM-48's embedding and YM-46's maps
@@ -234,6 +265,22 @@ actual quantum theory of dynamical geometry, not only an Einstein equation or
 a formal effective-action derivative.
 
 ## Evidence attached to this update
+
+[YM-52's certificate][ym52cert] binds six written results and the
+[source manifest][ym52pins]. Controls include 441 Leibniz/pairing
+identities, 63 energy derivatives, twelve independent word-variance
+replays, five cofactor factorizations, 110 bracket actions, 108 finite
+spin gap inequalities, forty polynomial energy matrices, 207 controls
+for each optimization/stability target and six rational entropy
+enclosures. Sixteen new and 133 related tests pass on Python 3.12 only.
+The density positivity gate and fresh read-only certificate were checked
+again after tightening the executable enclosure domain.
+Canonical certificate SHA-256:
+b11ef1ffff804d6722094b3a9390a19855142c830e1a48f8935fb72310685beb.
+All 96 pinned upstream sources remain unchanged. R18/R31 and the pinned
+CF/PF energy sections were read; their historical theorems are not
+recertified by YM52. General proofs are written, not mechanically formalized
+or externally expert-certified, and no physical units or 4D theory are claimed.
 
 [YM-51's certificate][ym51cert] binds six written results and the 29-entry
 dependency audit. Exact controls include 25 protocol factorizations,
@@ -382,6 +429,9 @@ is navigation and scope control, not another certificate or R-stage.
 [ym50]: https://github.com/Parveen117/Publications/blob/ef4a0b53295456b13c905e31359212905dd5de3d/papers/yang-mills-certified-benchmark/YM50_NATIVE_REFERENCE_HEAT_BRIDGE.md
 [ym50cert]: https://github.com/Parveen117/Publications/blob/ef4a0b53295456b13c905e31359212905dd5de3d/papers/yang-mills-certified-benchmark/certificates/YM50_RESULT.json
 [ym50origin]: https://github.com/Parveen117/Publications/blob/ef4a0b53295456b13c905e31359212905dd5de3d/papers/yang-mills-certified-benchmark/certificates/YM50_ORIGIN_LEDGER.json
+[ym52]: https://github.com/Parveen117/Publications/blob/fa87843c10220ee344d490db87ac15d376c52506/papers/yang-mills-certified-benchmark/YM52_ENERGY_NOISE_AND_OBSERVER_GAP.md
+[ym52cert]: https://github.com/Parveen117/Publications/blob/fa87843c10220ee344d490db87ac15d376c52506/papers/yang-mills-certified-benchmark/certificates/YM52_RESULT.json
+[ym52pins]: https://github.com/Parveen117/Publications/blob/fa87843c10220ee344d490db87ac15d376c52506/papers/yang-mills-certified-benchmark/certificates/YM52_SOURCE_PINS.json
 [ym51]: https://github.com/Parveen117/Publications/blob/a0dee6e72f97a1cd03e652f853eacf763e7daf06/papers/yang-mills-certified-benchmark/YM51_TOOL_DEPENDENCY_AND_HEAT_SELECTION.md
 [ym51cert]: https://github.com/Parveen117/Publications/blob/a0dee6e72f97a1cd03e652f853eacf763e7daf06/papers/yang-mills-certified-benchmark/certificates/YM51_RESULT.json
 [ym51ledger]: https://github.com/Parveen117/Publications/blob/a0dee6e72f97a1cd03e652f853eacf763e7daf06/papers/yang-mills-certified-benchmark/certificates/YM51_DEPENDENCY_LEDGER.json
