@@ -1,6 +1,6 @@
 # Physics interface for the native compact gauge completion
 
-Owner: Monty Dabas. 2 October 2026. Conditional application of Publications
+Owner: Monty Dabas. Updated: 3 October 2026. Conditional application of Publications
 [NCG-1–NCG-8][ncg], not a new primitive-only R47 certificate.
 
 The useful new ingredient is a compatible internal gauge sector and a source
@@ -119,14 +119,19 @@ replays and 23 rejected alternatives. The metric/torsion paragraph above is a
 written conditional application of the cited prior variations; it is not a
 fresh whole-MG/LR/SM rerun or a new physical certificate.
 
-The gauge/observable dictionary remains a separate quantum target. Existing
-YM-12 already supplies square-sourced transfer positivity; a common SU(2)
-algebra does not yet identify its measure and transfer with this NCG module.
+The physical gauge/state/action dictionary remains a separate quantum target.
+Existing YM-12 supplies square-sourced transfer positivity.
+[YM-50][ym50] now adds a proved compact reference/observable/transfer bridge
+using NCG's quaternion sector and specified normalized Phi_Sigma record
+readouts. Its coefficient recognition completion and symmetric native-turn
+heat law represent the former SU(2) reference objects. This does not
+identify the chain's interacting law with the full NCG quantum-field action.
 The preceding YM-42 result advances the three-rail silence step and proves
 why spatial contraction alone cannot establish the time gap. YM-43 now
 supplies the separate arbitrary-source time-transfer bound on the full
 heat-kernel chain, uniformly in finite spatial width, at three certified
-coarse parameter cells. Its positive reference functional remains admitted.
+coarse parameter cells. Its positive reference functional was admitted at
+that stage; YM-50 now supplies the above scoped native construction.
 YM-44 now constructs the full interacting time limit at every fixed finite
 width, with an explicit operator-norm error on the declared linear trajectory.
 YM-45 supplies the width/fine-time uniform gap on that full heat chain for
@@ -149,13 +154,17 @@ The actual chain's row defect remains unevaluated; finite closing/nonclosing
 observers are controls, not a verdict on it. The nonzero time/observable
 commutator is not automatically NCG gauge curvature.
 The remaining distinct targets include this row-closure calculation,
-physical gauge-observable selection and the native measure/NCG dictionary. The
+physical gauge/state selection, general UGD integration and NCG quantum measure. The
 [mission map](../PHYSICS_INGREDIENTS.md) links the commit-pinned proof/certificate
 and tracks quantum matter, gravity constraints, the original Wilson E4D-C
 problem and 4D continuum at their actual scopes. The small bridge window
-remains a declared trajectory; its positive state is not a primitive-derived
-measure or a physical real-time quantum-gravity construction.
+remains a declared trajectory. YM-50's native record protocol and isotropic
+clock are also specified choices, kept explicit in its origin ledger.
+Raw endpoint records are not recognition-Cauchy despite convergence of
+their scalar readouts. A compact representation theorem does not select
+the physical state or construct quantum gravity.
 Current YM verification uses Python 3.12 only.
 
 [ncg]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/THEOREM.md
 [cert]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/CERTIFICATE.json
+[ym50]: https://github.com/Parveen117/Publications/blob/ef4a0b53295456b13c905e31359212905dd5de3d/papers/yang-mills-certified-benchmark/YM50_NATIVE_REFERENCE_HEAT_BRIDGE.md
