@@ -190,12 +190,28 @@ trace uniquely selects isotropy and gives a sharp stability estimate;
 maximizing the full-observer rate leaves many anisotropic maximizers.
 The classical spectral formula is credited, and the native record
 construction and observer criterion are explicit. The physical criterion,
-energy/time calibration and transfer of these rates through interacting
-chains are separate remaining steps. The full-observer objective cannot
+energy/time calibration and identification of a physical interacting
+model remain separate steps; YM53 below proves a scoped chain extension. The full-observer objective cannot
 be promoted into a unique physical isotropy principle.
+
+[YM-53's anisotropic interacting extension][ym53] now proves a sufficient
+chain gap when each tensor's second eigenvalue is >=beta>0 and
+abs(theta)<beta/2400. Rank two and unequal site orientations are allowed.
+An all-content coarse heat bound drives temporal-block comparison,
+including lawful treatment of short bridges with zero normalizer. The
+actual square-sourced transfer, fixed-width norm time limit and weighted
+ground-source derivative energy inherit an explicit positive rate.
+
+This gives a mathematical route that retains general C instead of
+assuming isotropy. It does not derive local gauge Ward laws, pick a
+physical protocol/clock, or supply a four-dimensional gauge vacuum.
+The anisotropic volume/joint limit and actual row closure remain
+separate gates. R1–R46 and prior certificates retain their exact bytes.
 
 [ncg]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/THEOREM.md
 [cert]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/CERTIFICATE.json
 [ym50]: https://github.com/Parveen117/Publications/blob/ef4a0b53295456b13c905e31359212905dd5de3d/papers/yang-mills-certified-benchmark/YM50_NATIVE_REFERENCE_HEAT_BRIDGE.md
 [ym51]: https://github.com/Parveen117/Publications/blob/a0dee6e72f97a1cd03e652f853eacf763e7daf06/papers/yang-mills-certified-benchmark/YM51_TOOL_DEPENDENCY_AND_HEAT_SELECTION.md
 [ym52]: https://github.com/Parveen117/Publications/blob/fa87843c10220ee344d490db87ac15d376c52506/papers/yang-mills-certified-benchmark/YM52_ENERGY_NOISE_AND_OBSERVER_GAP.md
+
+[ym53]: https://github.com/Parveen117/Publications/blob/eb98df28c3c22821de2ab859e9eb095492a614a2/papers/yang-mills-certified-benchmark/YM53_ANISOTROPIC_INTERACTING_GAP.md
