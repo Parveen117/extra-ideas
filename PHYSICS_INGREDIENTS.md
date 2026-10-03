@@ -7,7 +7,18 @@ existing results at their actual scopes. Native states, cuts, composition,
 observers and memory precede geometric, probabilistic and physical adapters.
 The historical R1–R46 register and its frozen evidence remain unchanged.
 
-Latest upstream step: **[YM-53][ym53]** extends the declared interacting
+Latest upstream step: **[YM-54][ym54]** constructs four equally counted
+native compact turns from two frozen shape-response directions. Their
+protocol tensor obeys beta>=4 f^2/tau, where f is NT's existing curvature
+marker and tau is the trace-free response budget. Uniform |f|>=f0>0 and
+tau<=T supply YM53's sufficient interacting window abs(theta)<f0^2/(600 T).
+The original curved thermo potential gives an exact example. Seven
+written results, twenty new and 171 related tests use Python 3.12 only.
+The response law, directions, equal counts, compact lift and clock remain
+declared choices; physical selection and anisotropic joint/volume limits
+remain open. This is an upstream mathematical bridge, with no new R-stage.
+
+Previous upstream step: **[YM-53][ym53]** extends the declared interacting
 chain to anisotropic native heat, including rank-two tensors with
 site-dependent orientations. A uniform second-eigenvalue floor beta>0
 and abs(theta)<beta/2400 give a full-source gap uniform in finite width
@@ -192,7 +203,7 @@ NCG's checked research commit is `7b34bc657883272f58dc74e9e511ae5c568266ff`.
 
 | Priority | Deliverable | What must be demonstrated before marking it closed |
 | --- | --- | --- |
-| 1. Physical gauge/state/law identification | YM-50 gives the compact bridge; YM-51 recovers C; YM-52 supplies energy/observer rates; YM-53 permits a controlled anisotropic interacting family | Justify the physical observer objective or fixed-law symmetry, retain/recover C when needed, select the state/action and establish its Ward laws. Neither covariance nor full-gap maximization selects isotropy |
+| 1. Physical gauge/state/law identification | YM-50 gives the compact bridge; YM-51 recovers C; YM-52 supplies energy/observer rates; YM-53 permits a controlled anisotropic interacting family; YM-54 constructs C from a declared frozen response protocol | Justify the physical observer objective or fixed-law symmetry, retain/recover C when needed, select the state/action and establish its Ward laws. Neither covariance nor full-gap maximization selects isotropy |
 | 2. Physical quantum matter | Quantization of a declared matter sector compatible with that gauge construction | CAR/fermion grading, positive physical energy and the relevant anomaly checks; the commuting classical SM action is not silently relabelled a quantum fermion |
 | 3. Dynamical geometry constraints | A concrete coupled gauge/metric constraint formulation and its physical reduction | First-class closure or a precisely controlled regulator deformation, removal of gauge/negative directions, and propagation of all constraints; NCG's gauge Gauss identity closes only the classical gauge subtask |
 | 4. YM instantaneous-row closure | YM-49 supplies the positive closure defect and gap-controlled retained memory; YM-50 supplies the compact native representation | Uniformly evaluate the actual chain's defect C(2t)-C(t)^2. Its vanishing gives closure of the coefficient-history sector; a nonzero result requires the proved memory channel. Density in the larger bounded-history carrier and physical observable selection remain separate |
@@ -211,6 +222,20 @@ isotropy; neither condition is physically selected yet. Alternatively
 retain and recover general C. Native clock/process coupling and the
 relative interaction theta/c remain necessary. R13/R36/R41 and the
 existing source/thermo energies are inputs, not automatic selectors.
+
+**[YM54's response bridge][ym54]** now makes a concrete protocol candidate:
+NT's shape words, lifted by the existing central iota, supply the actual
+signed records and their tensor C. Its [certificate][ym54cert] and
+[source pins][ym54pins] retain the assumptions and negative controls.
+The existing thermo fixture gives beta_floor=5/234 and an interacting
+window abs(theta)<1/112320. With theta=1/262144, J=6 and R=5/4, the
+inherited chain rate exceeds 0.000079467076 in its declared heat clock.
+This is not a measured physical mass. Equal counts, frozen reference
+jets and observer directions remain choices; varying idle counts changes
+the heat rate without changing response curvature. The proposed bridge
+therefore supplies a usable model family while leaving physical selection
+explicit. T51/T56/T75 operator roles are audited context, not extra
+unproved positivity or infinite-tail premises.
 
 For the mathematical YM route, **YM53 closes the finite-width anisotropic
 interacting step** under b_i>=beta>0 and abs(theta)<beta/2400. It derives
@@ -465,3 +490,7 @@ is navigation and scope control, not another certificate or R-stage.
 [ym53]: https://github.com/Parveen117/Publications/blob/eb98df28c3c22821de2ab859e9eb095492a614a2/papers/yang-mills-certified-benchmark/YM53_ANISOTROPIC_INTERACTING_GAP.md
 [ym53cert]: https://github.com/Parveen117/Publications/blob/eb98df28c3c22821de2ab859e9eb095492a614a2/papers/yang-mills-certified-benchmark/certificates/YM53_RESULT.json
 [ym53pins]: https://github.com/Parveen117/Publications/blob/eb98df28c3c22821de2ab859e9eb095492a614a2/papers/yang-mills-certified-benchmark/certificates/YM53_SOURCE_PINS.json
+
+[ym54]: https://github.com/Parveen117/Publications/blob/39a55f7995fe27fb9d3f515dca3bdeedce5b118d/papers/yang-mills-certified-benchmark/YM54_RESPONSE_CURVATURE_PROTOCOL_BRIDGE.md
+[ym54cert]: https://github.com/Parveen117/Publications/blob/39a55f7995fe27fb9d3f515dca3bdeedce5b118d/papers/yang-mills-certified-benchmark/certificates/YM54_RESULT.json
+[ym54pins]: https://github.com/Parveen117/Publications/blob/39a55f7995fe27fb9d3f515dca3bdeedce5b118d/papers/yang-mills-certified-benchmark/certificates/YM54_SOURCE_PINS.json

@@ -208,6 +208,22 @@ physical protocol/clock, or supply a four-dimensional gauge vacuum.
 The anisotropic volume/joint limit and actual row closure remain
 separate gates. R1–R46 and prior certificates retain their exact bytes.
 
+[YM-54's response-curvature bridge][ym54] now constructs one concrete
+source for that tensor family. In NT's two-mode positive response sector,
+the trace-free Gram satisfies det G=16 f^2. The compact lift of two shape
+words gives four equally counted signed turns and derives
+C=VV^T/2, G=2V^TV, beta>=4 f^2/tau. Uniform source bounds |f|>=f0>0 and
+tau<=T then give YM53's sufficient window abs(theta)<f0^2/(600 T).
+
+The source curvature, raw turn bracket and gauge field strength retain
+their different types; the proved bridge is through the records and
+Gram identity. Each site's response jet is frozen before heat evolves
+its separate compact variable. This does not select a physical protocol,
+clock or state-dependent diffusion. Exact idle-record and growing-trace
+controls show why curvature alone cannot select the gap. The original
+thermo fixture now has an exact protocol and interaction example. The
+mission map pins its certificate; R1–R46 remains unchanged.
+
 [ncg]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/THEOREM.md
 [cert]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/CERTIFICATE.json
 [ym50]: https://github.com/Parveen117/Publications/blob/ef4a0b53295456b13c905e31359212905dd5de3d/papers/yang-mills-certified-benchmark/YM50_NATIVE_REFERENCE_HEAT_BRIDGE.md
@@ -215,3 +231,5 @@ separate gates. R1–R46 and prior certificates retain their exact bytes.
 [ym52]: https://github.com/Parveen117/Publications/blob/fa87843c10220ee344d490db87ac15d376c52506/papers/yang-mills-certified-benchmark/YM52_ENERGY_NOISE_AND_OBSERVER_GAP.md
 
 [ym53]: https://github.com/Parveen117/Publications/blob/eb98df28c3c22821de2ab859e9eb095492a614a2/papers/yang-mills-certified-benchmark/YM53_ANISOTROPIC_INTERACTING_GAP.md
+
+[ym54]: https://github.com/Parveen117/Publications/blob/39a55f7995fe27fb9d3f515dca3bdeedce5b118d/papers/yang-mills-certified-benchmark/YM54_RESPONSE_CURVATURE_PROTOCOL_BRIDGE.md

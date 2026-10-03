@@ -16,7 +16,18 @@ completion. Its [gauge/gravity interface](02-relational-response/NATIVE_GAUGE_GR
 is a conditional application, with classical, quantum and continuum gates kept
 distinct. It does not add an unverified R47 or change the R1–R46 register.
 
-Latest upstream step: **[YM-53][ym53]** extends the declared interacting
+Latest upstream step: **[YM-54][ym54]** constructs four equally counted
+native compact turns from two frozen shape-response directions. Their
+protocol tensor obeys beta>=4 f^2/tau, where f is NT's existing curvature
+marker and tau is the trace-free response budget. Uniform |f|>=f0>0 and
+tau<=T supply YM53's sufficient interacting window abs(theta)<f0^2/(600 T).
+The original curved thermo potential gives an exact example. Seven
+written results, twenty new and 171 related tests use Python 3.12 only.
+The response law, directions, equal counts, compact lift and clock remain
+declared choices; physical selection and anisotropic joint/volume limits
+remain open. This is an upstream mathematical bridge, with no new R-stage.
+
+Previous upstream step: **[YM-53][ym53]** extends the declared interacting
 chain to anisotropic native heat, including rank-two tensors with
 site-dependent orientations. A uniform second-eigenvalue floor beta>0
 and abs(theta)<beta/2400 give a full-source gap uniform in finite width
@@ -747,3 +758,5 @@ The name `lambda` currently serves several roles. Use `lambda_*` for the fixed r
 The [current CI runner](04-operator-evolution/verify_repository.py) checks registered evidence, executes the complete R16 scoped foundation checker and replays the unchanged R17–R45 native applications. [CURRENT_STATUS.md](CURRENT_STATUS.md) states the exact runtime scope and links the live GitHub checks. The canonical engine stays in its pinned separate RKF checkout. [CROSS_REPO_LINEAGE.md](CROSS_REPO_LINEAGE.md) retains the historical R1–R4 assessment; later proofs carry their own premise-labelled source comparisons.
 
 [ym53]: https://github.com/Parveen117/Publications/blob/eb98df28c3c22821de2ab859e9eb095492a614a2/papers/yang-mills-certified-benchmark/YM53_ANISOTROPIC_INTERACTING_GAP.md
+
+[ym54]: https://github.com/Parveen117/Publications/blob/39a55f7995fe27fb9d3f515dca3bdeedce5b118d/papers/yang-mills-certified-benchmark/YM54_RESPONSE_CURVATURE_PROTOCOL_BRIDGE.md
