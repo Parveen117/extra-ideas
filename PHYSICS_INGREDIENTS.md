@@ -7,7 +7,32 @@ existing results at their actual scopes. Native states, cuts, composition,
 observers and memory precede geometric, probabilistic and physical adapters.
 The historical R1–R46 register and its frozen evidence remain unchanged.
 
-New operator tool: **[GE1 — Generalized Euler domains and stable evolution](https://github.com/Parveen117/Publications/blob/ece4e4d6335c0b562ed5e401e0eca1ac381ef60f/papers/generalized-euler-evolution/THEOREM.md)**.
+New foundation bridge: **[GE2 — clock-free recognition generator](https://github.com/Parveen117/Publications/blob/ee7a338aa109263bb093fe2c9904ced07e5ca66c/papers/generalized-euler-evolution/GE2_CLOCK_FREE_RECOGNITION_GENERATOR.md)**.
+Rational native turns define arrows before an exponential or time parameter.
+For a declared symmetric independent record protocol, the typed cut law is
+Delta P = -(I-S^dagger S). Dividing by twice the arrow's quadratic budget
+recovers -L_C on the native polynomial core. The ledger tau is the sum of
+half the weighted squared turn sizes. Unequal-step products converge to
+the existing heat law, while deterministic refinement recovers the phase
+derivation. Heat's product defect remains 2 Gamma_C; the two generators
+are not interchangeable.
+
+For YM54's response trace T and native curvature marker f, normalized
+shape has kappa=64 f^2/T^2 and the inherited compact rate per unit ledger
+is min(1/4, (1-sqrt(1-kappa))/2). This is an explicit clock conversion of
+the existing free rate, not a new physical mass gap. Equal total budgets
+and equal integrated tensors can still produce different ordered dynamics.
+Returning-memory terms survive outside the no-feedback append model.
+
+The [GE2 evidence](https://github.com/Parveen117/Publications/blob/ee7a338aa109263bb093fe2c9904ced07e5ca66c/papers/generalized-euler-evolution/certificates/GE2_RESULT.json)
+has canonical digest
+`b8f4b4b19594dbf3c85e990dee04b55dcfd7ced0c05db949b54b00fbccb09131`.
+Six written results, 18 new and 17 GE1 tests use Python 3.12 only.
+The physical record law, observer and seconds calibration remain open,
+as do general feedback, interacting row closure and 4D/Clay. This consumes
+an upstream mathematical result and adds no R-stage or MP-stage.
+
+Previous operator tool: **[GE1 — Generalized Euler domains and stable evolution](https://github.com/Parveen117/Publications/blob/ece4e4d6335c0b562ed5e401e0eca1ac381ef60f/papers/generalized-euler-evolution/THEOREM.md)**.
 The existing free native heat law now has an explicit closed graph domain
 and a positive resolvent approximation `(I+t L_C/n)^(-n)` with core error
 at most `3 t^2 ||L_C^2 p||/(2 n)`. Strong convergence permits independent
