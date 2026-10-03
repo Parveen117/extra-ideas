@@ -11,21 +11,21 @@ non-Abelian source/Gauss result to the conditional gravity sector, and record
 the remaining quantum/continuum targets. They are application/navigation
 documents, not a new primitive-only R-stage; the register remains R1–R46.
 
-Latest upstream continuation: **Publications YM-50** constructs the compact
-reference functional from specified finite native Phi_Sigma record readouts.
-A solved polynomial equation gives its explicit convergence tail. Its
-positive recognition completion is proved to represent the old coefficient
-carrier, and symmetric native turns construct the same heat action.
-Bounded observables, declared finite-chain transfers and the closed
-coefficient-history sector are intertwined. Raw endpoint records themselves
-are proved not to be recognition-Cauchy.
-The specified sector/protocol/heat clock and interacting trajectory remain
-choices. General RH E5C/E6, physical state selection, NCG quantum measure,
-the actual YM-49 row defect and the 4D continuum remain open.
-Seventeen new and 100 related tests pass on Python 3.12 only.
+Latest upstream continuation: **Publications YM-51** audits 29 tool
+dependencies, with nine explicit selections and three open extensions.
+It reuses the existing tensor, connection, observer, metric, clock and
+completion results. Exact native protocols show that the same reference,
+brackets and all linear decay rates can hide arbitrarily slow quadratic
+decay. Covariance does not select isotropy; an additional fixed-law
+invariance condition forces C=cI, leaving the clock scale unselected.
+Six quadratic probes recover unrestricted symmetric C.
+YM-50's native reference bridge and the existing fixed isotropic
+interacting gap are preserved. General UGD, physical state/action/clock,
+NCG quantum measure, actual row closure and 4D/Clay remain open.
+Seventeen new and 117 related tests pass on Python 3.12 only.
 The Extra Ideas register stays R1–R46: this upstream mathematics is consumed
 by reference, not introduced as a new R-stage. Its proof and certificate
-and origin ledger are pinned in the mission map.
+and dependency ledger are pinned in the mission map.
 
 ## R46: physical readout for an existing native prediction
 

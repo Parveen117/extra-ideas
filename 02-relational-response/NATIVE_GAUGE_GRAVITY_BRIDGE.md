@@ -165,6 +165,19 @@ their scalar readouts. A compact representation theorem does not select
 the physical state or construct quantum gravity.
 Current YM verification uses Python 3.12 only.
 
+[YM-51's tool audit][ym51] now isolates a remaining selection step.
+Symmetric native protocols can preserve the quaternion brackets,
+reference functional and all linear decay while quadratic decay varies.
+The protocol second moment C is additional data. Covariance transforms
+C with the frame; only a separately required invariance of the fixed
+law forces C=cI. Six quadratic channels can recover general symmetric C.
+The remaining scale is a heat-clock choice and changes the relative
+interaction theta/c. This does not establish local gauge Ward identities,
+physical spatial isotropy or a gap for the alternative interacting laws.
+The mission map therefore tracks this selection gate separately from
+the old fixed-protocol gap and the actual row-closure question.
+
 [ncg]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/THEOREM.md
 [cert]: https://github.com/Parveen117/Publications/blob/7b34bc657883272f58dc74e9e511ae5c568266ff/papers/native-compact-gauge/CERTIFICATE.json
 [ym50]: https://github.com/Parveen117/Publications/blob/ef4a0b53295456b13c905e31359212905dd5de3d/papers/yang-mills-certified-benchmark/YM50_NATIVE_REFERENCE_HEAT_BRIDGE.md
+[ym51]: https://github.com/Parveen117/Publications/blob/a0dee6e72f97a1cd03e652f853eacf763e7daf06/papers/yang-mills-certified-benchmark/YM51_TOOL_DEPENDENCY_AND_HEAT_SELECTION.md
