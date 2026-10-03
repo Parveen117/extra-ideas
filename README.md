@@ -6,7 +6,17 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-New mathematical continuation: [GE2 — clock-free recognition generator](https://github.com/Parveen117/Publications/blob/ee7a338aa109263bb093fe2c9904ced07e5ca66c/papers/generalized-euler-evolution/GE2_CLOCK_FREE_RECOGNITION_GENERATOR.md)
+New mathematical continuation: [GE3 — returning memory under native refinement](https://github.com/Parveen117/Publications/blob/7b1b7edb5c20ade893b415a173eb751f2835b5f9/papers/generalized-euler-evolution/GE3_RETURNING_MEMORY.md)
+retains the hidden observer component through GE2's clock refinement.
+An actual native quadratic observer has retained evolution
+(exp(-tau/2)+exp(-tau))/2, while resetting memory after every step gives
+exp(-3 tau/4). The same first derivative therefore does not imply the
+same evolution. Four written results and 13 new tests bring the
+Generalized Euler total to 48 tests on Python 3.12 only. This observer is
+declared; the actual interacting row defect remains open. R and MP stages
+retain their evidence unchanged.
+
+Previous mathematical continuation: [GE2 — clock-free recognition generator](https://github.com/Parveen117/Publications/blob/ee7a338aa109263bb093fe2c9904ced07e5ca66c/papers/generalized-euler-evolution/GE2_CLOCK_FREE_RECOGNITION_GENERATOR.md)
 starts with rational native arrows and retained record cuts. The phase
 derivative and the heat generator are recovered in their respective limits;
 for symmetric independent records, heat is half the recognition-form loss

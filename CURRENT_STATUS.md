@@ -1,6 +1,18 @@
 # Current Extra Ideas status
 
-Latest mathematical support: **[GE2 — clock-free recognition generator](https://github.com/Parveen117/Publications/blob/ee7a338aa109263bb093fe2c9904ced07e5ca66c/papers/generalized-euler-evolution/GE2_CLOCK_FREE_RECOGNITION_GENERATOR.md)**.
+Latest mathematical support: **[GE3 — native returning memory](https://github.com/Parveen117/Publications/blob/7b1b7edb5c20ade893b415a173eb751f2835b5f9/papers/generalized-euler-evolution/GE3_RETURNING_MEMORY.md)**.
+The nonuniform clock-free memory word and GE2's internal-clock limit
+are connected on a fixed finite native core. An explicit quadratic cut
+has memory kernel exp(-3r/4)/16 and nonzero closure marker 1/16.
+Repeated reset changes its asymptotic rate from 1/2 to 3/4, despite the
+same first derivative. Four written results, 13 new tests and all 48
+Generalized Euler tests use Python 3.12 only, preserving 143 prior pins.
+Canonical certificate:
+`533c295b68c77c796d57086e7dfce0f0b83ab9b9ae8a794238d67f71532669b1`.
+The actual interacting row cut, arbitrary unbounded/moving cuts and
+4D/Clay remain open. No R-stage or MP-stage is added.
+
+Previous mathematical support: **[GE2 — clock-free recognition generator](https://github.com/Parveen117/Publications/blob/ee7a338aa109263bb093fe2c9904ced07e5ca66c/papers/generalized-euler-evolution/GE2_CLOCK_FREE_RECOGNITION_GENERATOR.md)**.
 The Recognition–Seam differential is now connected to the existing native
 phase and heat generators through rational arrows and a typed record lift.
 A quadratic history ledger supplies an internal parameter for unequal-step

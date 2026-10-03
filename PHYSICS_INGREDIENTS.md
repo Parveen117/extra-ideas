@@ -7,7 +7,30 @@ existing results at their actual scopes. Native states, cuts, composition,
 observers and memory precede geometric, probabilistic and physical adapters.
 The historical R1–R46 register and its frozen evidence remain unchanged.
 
-New foundation bridge: **[GE2 — clock-free recognition generator](https://github.com/Parveen117/Publications/blob/ee7a338aa109263bb093fe2c9904ced07e5ca66c/papers/generalized-euler-evolution/GE2_CLOCK_FREE_RECOGNITION_GENERATOR.md)**.
+New observer-memory bridge: **[GE3 — native returning memory](https://github.com/Parveen117/Publications/blob/7b1b7edb5c20ade893b415a173eb751f2835b5f9/papers/generalized-euler-evolution/GE3_RETURNING_MEMORY.md)**.
+An extra observer cut applied to GE2's native heat generally retains
+memory. On a fixed finite native core, with generator blocks A, B, D,
+the visible law is x'=-Ax-B exp(-tau D)y0 plus the memory integral
+with kernel K(r)=B exp(-rD)B^dagger. The second-order closure marker is
+B B^dagger; a defect divided only by the first power of the step can
+vanish even when the observer does not close.
+
+The actual native quadratic sector has blocks A=D=3/4 and B=-1/4.
+Retained visible evolution is (exp(-tau/2)+exp(-tau))/2; repeated reset
+gives exp(-3 tau/4). GE3 proves both unequal-step limits from the same
+rational native arrows and bounds the memory tail. This establishes a
+concrete native observer effect, not a new physical gap or evaluation
+of YM49's actual interacting row. Full heat and its existing gap remain
+unchanged; the selected cut determines the observed memory.
+
+The [GE3 evidence](https://github.com/Parveen117/Publications/blob/7b1b7edb5c20ade893b415a173eb751f2835b5f9/papers/generalized-euler-evolution/certificates/GE3_RESULT.json)
+has canonical digest
+`533c295b68c77c796d57086e7dfce0f0b83ab9b9ae8a794238d67f71532669b1`.
+Four written results, 13 new and 35 prior Generalized Euler tests use
+Python 3.12 only. Unbounded/moving cuts, physical selection and 4D/Clay
+remain open. The R1–R46 and MP1/MP2 evidence stays frozen.
+
+Previous foundation bridge: **[GE2 — clock-free recognition generator](https://github.com/Parveen117/Publications/blob/ee7a338aa109263bb093fe2c9904ced07e5ca66c/papers/generalized-euler-evolution/GE2_CLOCK_FREE_RECOGNITION_GENERATOR.md)**.
 Rational native turns define arrows before an exponential or time parameter.
 For a declared symmetric independent record protocol, the typed cut law is
 Delta P = -(I-S^dagger S). Dividing by twice the arrow's quadratic budget
