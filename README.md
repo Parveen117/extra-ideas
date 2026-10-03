@@ -16,16 +16,18 @@ completion. Its [gauge/gravity interface](02-relational-response/NATIVE_GAUGE_GR
 is a conditional application, with classical, quantum and continuum gates kept
 distinct. It does not add an unverified R47 or change the R1–R46 register.
 
-Latest upstream step: **YM-50** constructs a positive invariant reference
-functional from normalized native Phi_Sigma record readouts, then proves
-its coefficient/recognition representation and symmetric-turn heat bridge.
-The declared interacting transfers and coefficient-history sector agree
-with the previous carrier. Hilbert space is the representation of this
-constructed positive completion. The ingredient map pins the proof,
-certificate and origin ledger. The record protocol, heat clock and
-physical selection remain distinct; general UGD integration, the actual
-chain's row defect, NCG quantum measure and 4D/Clay remain open.
-Seventeen new and 100 related tests pass on Python 3.12 only.
+Latest upstream step: **YM-51** audits the tools used after the native
+curvature construction. Its 29-entry ledger retains nine explicit
+selection choices. Same native brackets, reference and linear decay can
+coexist with arbitrarily slow quadratic decay: curvature does not select
+the heat law or its gap. Fixed-law internal invariance selects isotropy
+up to a clock scale; covariance alone does not. Six quadratic channels
+recover the missing symmetric protocol tensor. The ingredient map pins
+the proof, certificate and dependency ledger.
+YM-50 and the old fixed-protocol gap remain unchanged. Physical
+isotropy/clock/action selection, general UGD, actual row closure, NCG
+quantum measure and 4D/Clay remain open.
+Seventeen new and 117 related tests pass on Python 3.12 only.
 
 [![Native certificates](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml/badge.svg?branch=main)](https://github.com/Parveen117/extra-ideas/actions/workflows/certificates.yml)
 
