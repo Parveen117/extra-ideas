@@ -11,7 +11,21 @@ non-Abelian source/Gauss result to the conditional gravity sector, and record
 the remaining quantum/continuum targets. They are application/navigation
 documents, not a new primitive-only R-stage; the register remains R1–R46.
 
-Latest upstream continuation: **Publications YM-51** audits 29 tool
+Latest upstream continuation: **Publications YM-52** supplies an energy,
+noise and observer bridge for YM51's declared compact free protocol.
+Mean squared distinction plus discarded-record variance preserves the
+full averaged squared record. A bounded positive density has a proved
+relative-entropy dissipation rate. Weighted native frame brackets produce
+cof(C), and rank-two protocols can have a positive centered relaxation rate.
+The exact full rate is min(tr(C)/4,a+b); the sign-insensitive rate is a+b.
+At fixed trace, only the even-observer maximin criterion uniquely selects
+isotropy. The criterion and physical units are not selected by this theorem.
+The classical positive-definite spectral formula is credited explicitly.
+Six written results, sixteen new and 133 related tests use Python 3.12 only.
+The proof and certificate are pinned in the mission map. R1–R46, prior
+certificates and the old isotropic interacting gap remain unchanged.
+
+Previous upstream continuation: **Publications YM-51** audits 29 tool
 dependencies, with nine explicit selections and three open extensions.
 It reuses the existing tensor, connection, observer, metric, clock and
 completion results. Exact native protocols show that the same reference,

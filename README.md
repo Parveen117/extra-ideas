@@ -16,7 +16,19 @@ completion. Its [gauge/gravity interface](02-relational-response/NATIVE_GAUGE_GR
 is a conditional application, with classical, quantum and continuum gates kept
 distinct. It does not add an unverified R47 or change the R1–R46 register.
 
-Latest upstream step: **YM-51** audits the tools used after the native
+Latest upstream step: **YM-52** derives the native heat protocol's energy,
+discarded-record variance and bounded-density entropy balances. The
+weighted order brackets construct cof(C). For eigenvalues a<=b<=c,
+the full centered rate is min(tr(C)/4,a+b); two noncommuting active
+directions suffice on this compact carrier. A sign-insensitive observer
+has rate a+b. At fixed trace, maximizing that rate uniquely selects
+isotropy, while full-observer optimization leaves an anisotropic plateau.
+The known spectral formula is credited to Lauret. Physical energy/time
+units, the optimization objective and anisotropic interacting transfer
+remain open. Six written results, sixteen new and 133 related tests use
+Python 3.12 only. The mission map pins the proof and exact certificate.
+
+Previous upstream step: **YM-51** audits the tools used after the native
 curvature construction. Its 29-entry ledger retains nine explicit
 selection choices. Same native brackets, reference and linear decay can
 coexist with arbitrarily slow quadratic decay: curvature does not select
