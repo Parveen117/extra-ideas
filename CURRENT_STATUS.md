@@ -1,6 +1,18 @@
 # Current Extra Ideas status
 
-Latest mathematical support: **[GE1 — Generalized Euler evolution](https://github.com/Parveen117/Publications/tree/ece4e4d6335c0b562ed5e401e0eca1ac381ef60f/papers/generalized-euler-evolution)**.
+Latest mathematical support: **[GE2 — clock-free recognition generator](https://github.com/Parveen117/Publications/blob/ee7a338aa109263bb093fe2c9904ced07e5ca66c/papers/generalized-euler-evolution/GE2_CLOCK_FREE_RECOGNITION_GENERATOR.md)**.
+The Recognition–Seam differential is now connected to the existing native
+phase and heat generators through rational arrows and a typed record lift.
+A quadratic history ledger supplies an internal parameter for unequal-step
+heat refinement. The selected independent symmetric record law and observer
+cut are explicit; no universal memory-to-generator inversion is asserted.
+Six written results, 18 new and 17 GE1 tests preserve 134 predecessor pins
+on Python 3.12 only. The canonical certificate digest is
+`b8f4b4b19594dbf3c85e990dee04b55dcfd7ced0c05db949b54b00fbccb09131`.
+Physical time/protocol selection, general returning memory and the
+interacting/4D/Clay boundary remain open. R1–R46 and MP1/MP2 are unchanged.
+
+Previous mathematical support: **[GE1 — Generalized Euler evolution](https://github.com/Parveen117/Publications/tree/ece4e4d6335c0b562ed5e401e0eca1ac381ef60f/papers/generalized-euler-evolution)**.
 Both uploaded LaTeX ideas and the actual RH Euler-scale source have been
 audited. The new scoped packet supplies generator domains, stable phase/heat
 approximations and a near-resonance example separating finite positivity

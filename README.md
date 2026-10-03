@@ -6,7 +6,17 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
-New mathematical tool: [GE1 — Generalized Euler evolution](https://github.com/Parveen117/Publications/tree/ece4e4d6335c0b562ed5e401e0eca1ac381ef60f/papers/generalized-euler-evolution)
+New mathematical continuation: [GE2 — clock-free recognition generator](https://github.com/Parveen117/Publications/blob/ee7a338aa109263bb093fe2c9904ced07e5ca66c/papers/generalized-euler-evolution/GE2_CLOCK_FREE_RECOGNITION_GENERATOR.md)
+starts with rational native arrows and retained record cuts. The phase
+derivative and the heat generator are recovered in their respective limits;
+for symmetric independent records, heat is half the recognition-form loss
+density per unit quadratic history budget. Unequal-step refinement and
+native-curvature clock normalization have explicit proofs. Six written
+results, 18 new and 17 predecessor tests use Python 3.12 only. The record
+law, observer and physical clock remain choices; general feedback and
+interacting/4D/Clay obligations stay open. Existing R and MP stages are unchanged.
+
+Previous mathematical tool: [GE1 — Generalized Euler evolution](https://github.com/Parveen117/Publications/tree/ece4e4d6335c0b562ed5e401e0eca1ac381ef60f/papers/generalized-euler-evolution)
 audits the two uploaded Euler/operator drafts, retains the RH source's existing
 Euler-scale carrier, and certifies scoped domains and stable approximations.
 Its [YM application](https://github.com/Parveen117/Publications/blob/ece4e4d6335c0b562ed5e401e0eca1ac381ef60f/papers/generalized-euler-evolution/YM_DOCK.md)
