@@ -7,6 +7,21 @@ existing results at their actual scopes. Native states, cuts, composition,
 observers and memory precede geometric, probabilistic and physical adapters.
 The historical R1–R46 register and its frozen evidence remain unchanged.
 
+New operator tool: **[GE1 — Generalized Euler domains and stable evolution](https://github.com/Parveen117/Publications/blob/ece4e4d6335c0b562ed5e401e0eca1ac381ef60f/papers/generalized-euler-evolution/THEOREM.md)**.
+The existing free native heat law now has an explicit closed graph domain
+and a positive resolvent approximation `(I+t L_C/n)^(-n)` with core error
+at most `3 t^2 ||L_C^2 p||/(2 n)`. Strong convergence permits independent
+growth of the polynomial cutoff and step count. This does not select the
+protocol or alter interacting transfers. Pure phase transport preserves norm;
+an exact near-resonant example has no uniform heat gap despite positive
+finite cutoffs. The torus, RH scale and YM quaternion carriers remain distinct.
+
+The [GE1 evidence](https://github.com/Parveen117/Publications/blob/ece4e4d6335c0b562ed5e401e0eca1ac381ef60f/papers/generalized-euler-evolution/certificates/GE1_RESULT.json)
+has canonical digest
+`3a237da112e4a52458425e05f1dcaddec4d6fedfaaf2afe12556ab78c7a70a75`.
+Six written results and 17 exact/adversarial tests use Python 3.12 only.
+This navigation entry adds no R-stage, MP-stage, physical mass or Clay claim.
+
 Latest upstream step: **[YM-55][ym55]** constructs the joint volume/time
 limit of local vacuum histories for a fixed native anisotropic interacting
 profile. A second-eigenvalue floor beta>0, a uniform trace ceiling M and

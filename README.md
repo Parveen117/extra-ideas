@@ -6,6 +6,13 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
+New mathematical tool: [GE1 — Generalized Euler evolution](https://github.com/Parveen117/Publications/tree/ece4e4d6335c0b562ed5e401e0eca1ac381ef60f/papers/generalized-euler-evolution)
+audits the two uploaded Euler/operator drafts, retains the RH source's existing
+Euler-scale carrier, and certifies scoped domains and stable approximations.
+Its [YM application](https://github.com/Parveen117/Publications/blob/ece4e4d6335c0b562ed5e401e0eca1ac381ef60f/papers/generalized-euler-evolution/YM_DOCK.md)
+uses the existing free compact heat generator. Six written results and 17
+tests use Python 3.12 only; no new interacting or four-dimensional gap is claimed.
+
 Current focus: **[Yang–Mills / YM-55][ym55]**, resumed after the
 [MP-2 development](meta-physics/INDEX.md). All 98 idea-vault
 PDFs (299 pages) have a [frozen reading audit](meta-physics/SOURCE_AUDIT.md).

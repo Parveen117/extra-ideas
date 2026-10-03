@@ -1,5 +1,13 @@
 # Current Extra Ideas status
 
+Latest mathematical support: **[GE1 — Generalized Euler evolution](https://github.com/Parveen117/Publications/tree/ece4e4d6335c0b562ed5e401e0eca1ac381ef60f/papers/generalized-euler-evolution)**.
+Both uploaded LaTeX ideas and the actual RH Euler-scale source have been
+audited. The new scoped packet supplies generator domains, stable phase/heat
+approximations and a near-resonance example separating finite positivity
+from a uniform gap. Six written results, 17 tests and 124 unchanged upstream
+pins use Python 3.12 only. It is a tool for the existing free compact YM
+law; the interacting chain remains at YM55's stated boundary below.
+
 Active focus: **[Yang–Mills / YM-55][ym55]**, 3 October 2026.
 The stationary anisotropic joint-history limit now extends the prior
 finite-width interacting result; see the upstream development below.
