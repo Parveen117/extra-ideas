@@ -131,6 +131,14 @@ at 3·r_s, the advance of a near-circular orbit by 3π·r_s/r per turn
 (1.751″ at the Sun). *[MO1 — proved from the form; the assumption is not
 derived, and nothing new is predicted]*
 
+## Place in the block (added with OB1, GB1)
+
+The static field of this thesis, as a block, is H = (1 + β r̂·C)/N: a
+self-dagger unit block at each place, acting on every reading alike by
+g ρ g†. Light acts through the algebra, weighted by the content q.
+Gravity as the scalar or volume part of the block is refused: light
+would bend by half the measured amount, or not at all. *[GB1 — proved]*
+
 ## Next
 
 1. Derive, or refuse, the assumption of MO1: do the locally pure frames

@@ -1,0 +1,91 @@
+{
+ "factors": [
+  {
+   "part": "phase turn",
+   "uncut": [
+    "26/3",
+    "26/3"
+   ],
+   "invariant": [
+    "80/9",
+    "80/9"
+   ],
+   "reading_changed": false
+  },
+  {
+   "part": "scale",
+   "uncut": [
+    "26/3",
+    "78"
+   ],
+   "invariant": [
+    "80/9",
+    "720"
+   ],
+   "reading_changed": true
+  },
+  {
+   "part": "unit block",
+   "uncut": [
+    "26/3",
+    "71/12"
+   ],
+   "invariant": [
+    "80/9",
+    "80/9"
+   ],
+   "reading_changed": true
+  }
+ ],
+ "light": {
+  "points": 3,
+  "clock_factor_only": "1/1000",
+  "common_factor": "0",
+  "form_of_MO1": "1/500",
+  "at_the_sun_arcsec": {
+   "clock_only": 0.8756216406841224,
+   "common_factor": 0.0,
+   "form_of_MO1": 1.7512432813682448
+  }
+ },
+ "field_block": [
+  {
+   "memory": "9/25",
+   "density": "5/4",
+   "proper_density": "3/4"
+  },
+  {
+   "memory": "16/25",
+   "density": "5/3",
+   "proper_density": "4/3"
+  },
+  {
+   "memory": "25/169",
+   "density": "13/12",
+   "proper_density": "5/12"
+  }
+ ],
+ "action": {
+  "light_change_by_content": {
+   "1": [
+    "-6",
+    "-6",
+    "14",
+    "2"
+   ],
+   "-1": [
+    "6",
+    "6",
+    "-14",
+    "-2"
+   ],
+   "2": [
+    "-12",
+    "-12",
+    "28",
+    "4"
+   ]
+  },
+  "group_action": "the same for every reading; invariant kept"
+ }
+}
