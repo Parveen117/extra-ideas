@@ -113,19 +113,31 @@ does.
 
 ```text
 the value of G, or any relation between G and c alone         refused (dimensional; ledger Theorem F)
-motion of bodies; bending of light; orbits                    not built
+motion of bodies; bending of light; orbits                    MO1, on one assumption
 anything time-dependent; waves                                not built
 field equations beyond one static function                    not claimed (ledger D3′)
 the remaining third of the gyroscope precession               not in the model
 a unit: ħ, k_B, the Planck scale                              open (QC2, QC5)
 ```
 
+## Motion (added with MO1)
+
+With one further assumption — the locally pure frames of statement 4
+share one flat space and one time — the count of a moving reading is
+dτ² = dt² − (dr + β·dt)² − r²dφ², β² = r_s/r, and its largest-count
+histories are the known orbits: the period law, the last stable circle
+at 3·r_s, the advance of a near-circular orbit by 3π·r_s/r per turn
+(Mercury: 42.98″ per century), and the deflection of light 2·r_s/b
+(1.751″ at the Sun). *[MO1 — proved from the form; the assumption is not
+derived, and nothing new is predicted]*
+
 ## Next
 
-1. Motion: a reading moving through the memory field — does the least
-   count (CL2) give the orbit?
+1. Derive, or refuse, the assumption of MO1: do the locally pure frames
+   fit together into one flat space with one time?
 2. R3: the record of two light-like readings as a source, exactly.
-3. The second-order term of the once-around turn against the cone value.
+3. The second-order term of the once-around turn, now with the full form
+   of MO1 instead of the static frames of GR2-G4.
 
 ## Reproduce
 

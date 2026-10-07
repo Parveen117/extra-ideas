@@ -1,0 +1,104 @@
+{
+ "form": [
+  {
+   "memory": "9/25",
+   "N": "4/5",
+   "count_at_rest": "4/5",
+   "count_with_the_frame": "1"
+  },
+  {
+   "memory": "16/25",
+   "N": "3/5",
+   "count_at_rest": "3/5",
+   "count_with_the_frame": "1"
+  },
+  {
+   "memory": "25/169",
+   "N": "12/13",
+   "count_at_rest": "12/13",
+   "count_with_the_frame": "1"
+  },
+  {
+   "memory": "64/289",
+   "N": "15/17",
+   "count_at_rest": "15/17",
+   "count_with_the_frame": "1"
+  }
+ ],
+ "radial_law_points": 12,
+ "circular": [
+  {
+   "memory": "1/9",
+   "omega_squared": "1/5832",
+   "count_factor_squared": "5/6",
+   "light_like": false
+  },
+  {
+   "memory": "3/25",
+   "omega_squared": "3/1250",
+   "count_factor_squared": "41/50",
+   "light_like": false
+  },
+  {
+   "memory": "2/9",
+   "omega_squared": "1/729",
+   "count_factor_squared": "2/3",
+   "light_like": false
+  },
+  {
+   "memory": "1/3",
+   "omega_squared": "1/216",
+   "count_factor_squared": "1/2",
+   "light_like": false
+  },
+  {
+   "memory": "2/3",
+   "omega_squared": "1/27",
+   "count_factor_squared": "0",
+   "light_like": true
+  }
+ ],
+ "orbit": {
+  "orbit_equation_points": 3,
+  "near_circular": [
+   {
+    "memory": "3/25",
+    "ratio": "4/5",
+    "advance_per_turn_over_2pi": "1/4",
+    "first_order": "9/50"
+   },
+   {
+    "memory": "1/4",
+    "ratio": "1/2",
+    "advance_per_turn_over_2pi": "1",
+    "first_order": "3/8"
+   },
+   {
+    "memory": "5/27",
+    "ratio": "2/3",
+    "advance_per_turn_over_2pi": "1/2",
+    "first_order": "5/18"
+   }
+  ]
+ },
+ "light": [
+  {
+   "r_s": "1",
+   "b": "100",
+   "deflection": "1/50",
+   "clock_only_value": "1/100"
+  },
+  {
+   "r_s": "3",
+   "b": "1000000",
+   "deflection": "3/500000",
+   "clock_only_value": "3/1000000"
+  }
+ ],
+ "illustration": {
+  "sun_r_s_m": 2953.3393820668784,
+  "mercury_advance_arcsec_per_century": 42.982061469529526,
+  "light_at_solar_limb_arcsec": 1.7512432813682448,
+  "earth_orbit_count_factor_minus_one": -1.4806180057153467e-08
+ }
+}

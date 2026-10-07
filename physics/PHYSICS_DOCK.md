@@ -36,6 +36,7 @@ what, if anything, is measurable beyond the classical statement.
 | FR1: channels Δ∥, Δ⊥ depend on the cut, only E survives every frame change; two anticommuting cuts over the rationals, three with ι, no fourth; mass with three cuts only through the conjugate sheet | frame dependence; three space directions; rest mass coupling a field to its conjugate | exact | geometry and dimension as properties of the frame's cuts; with three cuts MC1 gives 1/r |
 | IN1: reading tensor ρ = ½(n + r·C); single reading null: n² = Σr_i²; n² − r·r frame-independent; record: n² − r·r = 2p(1−p)(n₁n₂ − r₁·r₂) | energy–momentum with signature (1,3); invariant mass of two light-like momenta | exact | observed + lost = uncut in every frame; recoverable memory is held by complementary cuts; rest mass² is what no cut of the frame reads back |
 | GR2: static memory removed by one frame change; record invariant survives it; least-cost fluxes add; once-around turn 2π(1/N − 1) | equivalence principle; rest mass as source; superposition; precession of a transported frame | exact in the model; first order only for the turn | source = unrecoverable memory, field = recoverable memory; see GRAVITY_THESIS.md |
+| MO1: count form dτ² = dt² − (dr + βdt)² − r²dφ²; radial law; period law; last stable circle 3r_s; orbit advance 3πr_s/r; light deflection 2r_s/b | motion around a point mass | exact (first order for light) | the thesis plus one assumption (locally pure frames share one flat space and time) reproduces the known orbits; nothing new |
 
 ## Reading
 
