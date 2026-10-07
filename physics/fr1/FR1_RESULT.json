@@ -1,0 +1,155 @@
+{
+ "cuts": [
+  {
+   "block": "boost along K",
+   "invariant_sum": "1",
+   "readings": [
+    [
+     "1",
+     "0"
+    ],
+    [
+     "481/400",
+     "-81/400"
+    ],
+    [
+     "34/25",
+     "-9/25"
+    ],
+    [
+     "25/16",
+     "-9/16"
+    ],
+    [
+     "250/169",
+     "-81/169"
+    ]
+   ],
+   "cut_dependent": true
+  },
+  {
+   "block": "coin turn",
+   "invariant_sum": "1",
+   "readings": [
+    [
+     "9/25",
+     "16/25"
+    ],
+    [
+     "9/25",
+     "16/25"
+    ],
+    [
+     "9/25",
+     "16/25"
+    ],
+    [
+     "9/25",
+     "16/25"
+    ],
+    [
+     "9/25",
+     "16/25"
+    ]
+   ],
+   "cut_dependent": false
+  },
+  {
+   "block": "general unit block",
+   "invariant_sum": "1",
+   "readings": [
+    [
+     "-7/25",
+     "32/25"
+    ],
+    [
+     "-259/625",
+     "884/625"
+    ],
+    [
+     "-7/25",
+     "32/25"
+    ],
+    [
+     "1/5",
+     "4/5"
+    ],
+    [
+     "301/845",
+     "544/845"
+    ]
+   ],
+   "cut_dependent": true
+  },
+  {
+   "block": "response",
+   "invariant_sum": "23/9",
+   "readings": [
+    [
+     "32/9",
+     "-1"
+    ],
+    [
+     "611/225",
+     "-4/25"
+    ],
+    [
+     "64/25",
+     "-1/225"
+    ],
+    [
+     "3",
+     "-4/9"
+    ],
+    [
+     "32/9",
+     "-1"
+    ]
+   ],
+   "cut_dependent": true
+  }
+ ],
+ "frame": {
+  "scalar": "3/5",
+  "turn_component_before": "6/5",
+  "turn_component_after": "81/20"
+ },
+ "sheets": [
+  {
+   "element": "cut K",
+   "form": "1"
+  },
+  {
+   "element": "cut RK",
+   "form": "1"
+  },
+  {
+   "element": "turned cut",
+   "form": "1"
+  },
+  {
+   "element": "boosted cut",
+   "form": "1"
+  },
+  {
+   "element": "turn R",
+   "form": "-1"
+  },
+  {
+   "element": "boosted turn",
+   "form": "-1"
+  },
+  {
+   "element": "state tensor (traceless part)",
+   "form": "0"
+  }
+ ],
+ "counting": {
+  "real_block_cuts": 2,
+  "real_block_third_element": "R, a turn (square -1)",
+  "cut_complex_cuts": 3,
+  "linear_fourth": 0,
+  "conjugate_family": 2,
+  "square_law": "(sum xi_i C_i + g Jc)^2 = xi.xi - g^2"
+ }
+}

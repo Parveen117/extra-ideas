@@ -33,6 +33,7 @@ what, if anything, is measurable beyond the classical statement.
 | SY1: unit EMK block, E = scalar part, O = traceless part: E² − O² = I, three sectors, defect 2(1 − E), character χ_N, composition law, record variance 4p(1−p)O², null state tensor | EMK-1 determinant identity Δ∥ + Δ⊥; SL(2,ℝ) | exact | one carrier and one split behind PH, QC, PR, CL and MS; see SYNTHESIS.md |
 | GR1: static flow: ∂N = −2gN√m; with m = r_s/r as input: N = √(1 − r_s/r), share p = (1+N)/2, horizon = balanced share, acceleration r_s c²/(2r²N) | static clock factor and acceleration of a point mass; Newtonian potential | reproduced given the 1/r law | potential = −½c² × memory; no memory ⇒ no change; G/c² as memory length per mass; c–G relation refused |
 | MC1: least total variance between neighbouring shells: minimizer r^{−(d−2)}, unique, gradient × area constant; d = 3 with reading = memory ⇒ m = r_s/r | least-energy characterization of the Newtonian potential; flux through spheres | exact on scale-uniform shells | 1/r as minimum cost of spreading lost information; the conserved flux is the mass; needs memory (not N) as the reading |
+| FR1: channels Δ∥, Δ⊥ depend on the cut, only E survives every frame change; two anticommuting cuts over the rationals, three with ι, no fourth; mass with three cuts only through the conjugate sheet | frame dependence; three space directions; rest mass coupling a field to its conjugate | exact | geometry and dimension as properties of the frame's cuts; with three cuts MC1 gives 1/r |
 
 ## Reading
 
