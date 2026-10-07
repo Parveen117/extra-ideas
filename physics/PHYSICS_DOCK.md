@@ -50,6 +50,7 @@ what, if anything, is measurable beyond the classical statement.
 | TL1: turn carried through static time w_B = w_A N_A/N_B; units obey u_A N_A = u_B N_B (R43.3 with clock factors); no net heat flow ⇔ κN equal | equilibrium temperature law in a static field (T·clock factor constant); weight of heat | exact | bridge between the thermal side and gravity through energy; 1.09·10⁻¹⁶ per metre at the Earth; nothing new predicted |
 | EG1: field readings (u; −u, u, u), invariant part zero; memory r_s/r − q₂/r² has contracted curvature (q₂/r⁴)(1; −1, 1, 1); ρ + ½ = (rm)′/2m = k u r²/2m; potential follows the clock | field of a charged mass; stress of the light field; gravitational shift of potential | exact / symbolic | the native ratio's excess over −½ is the energy density of any kind; source is the whole reading (R3 correction confirmed); nothing new predicted |
 | DG1: observed = lost at r = 2r_s, N = 1/√2; there and only there orbit speed = fall speed and a circular history has zero binding; share law maximum ¼ at ½ | innermost bound circular orbit | exact | link of the equal share and the eight-mark clock to a place in the field |
+| WQ1: a wave mode is a pair of readings; A/2π = E/ω; recordable ⇔ A = 2πκn ⇔ E = nκω; ladder κω(n+½); count frame-independent | energy quantum hν; oscillator levels; adiabatic invariant E/ω | exact | counting that EM1 left open, supplied by QC1's silence; gravity waves not built |
 
 ## Reading
 
