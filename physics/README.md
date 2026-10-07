@@ -32,3 +32,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [HB1](hb1/HB1_UNIT_OF_THE_FRAME.md) — the unit of a frame: the least count × response is half the even part of the frame's own tick, i.e. one minus what it loses; equal to its cone speed.
 - [EM1](em1/EM1_WAVE_CUT.md) — the electromagnetic wave under a cut: electric and magnetic as the two sheets, u² − S² = ¼|F·F|², and what the wave does and does not give of Planck's constant.
 - [GB1](gb1/GB1_GRAVITY_IN_THE_BLOCK.md) — where gravity sits in the block: not the scalar/volume part (light would bend too little); a field of self-dagger unit blocks acting the same on every reading; the leftover part is scale.
+- [SC1](sc1/SC1_LOCAL_SCALE.md) — the scale factor made local: a rate of loss, refused as a field (the invariant would depend on history); scale is the unit, not a force.

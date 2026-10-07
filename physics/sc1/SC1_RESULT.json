@@ -1,0 +1,21 @@
+{
+ "balance": {
+  "scale_potential": "count changes at the rate -2 (w0 n + w.r)",
+  "phase_potential": "count kept"
+ },
+ "exact": {
+  "product_rule": true,
+  "exact_potential_field": "0",
+  "witness_field": "1 (constant, along the third cut)"
+ },
+ "histories": {
+  "two_histories": [
+   "6",
+   "2"
+  ],
+  "count_ratio": "9",
+  "invariant_ratio": "81",
+  "unit_block_histories": "invariant unchanged",
+  "single_reading": "null under any scale"
+ }
+}
