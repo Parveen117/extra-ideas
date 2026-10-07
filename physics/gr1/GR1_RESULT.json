@@ -1,0 +1,97 @@
+{
+ "local": [
+  {
+   "N": "8/17",
+   "memory": "225/289",
+   "flip_rate": "2",
+   "dN": "-480/289"
+  },
+  {
+   "N": "72/97",
+   "memory": "4225/9409",
+   "flip_rate": "1/3",
+   "dN": "-3120/9409"
+  },
+  {
+   "N": "4/5",
+   "memory": "9/25",
+   "flip_rate": "-1/2",
+   "dN": "12/25"
+  },
+  {
+   "N": "1",
+   "memory": "0",
+   "flip_rate": "7",
+   "dN": "0"
+  }
+ ],
+ "dictionary": [
+  {
+   "r_s_over_r": "9/25",
+   "N": "4/5",
+   "blueshift": "5/4",
+   "share": "9/10",
+   "proper_density": "3/4"
+  },
+  {
+   "r_s_over_r": "16/25",
+   "N": "3/5",
+   "blueshift": "5/3",
+   "share": "4/5",
+   "proper_density": "4/3"
+  },
+  {
+   "r_s_over_r": "25/169",
+   "N": "12/13",
+   "blueshift": "13/12",
+   "share": "25/26",
+   "proper_density": "5/12"
+  },
+  {
+   "r_s_over_r": "144/169",
+   "N": "5/13",
+   "blueshift": "13/5",
+   "share": "9/13",
+   "proper_density": "12/5"
+  },
+  {
+   "r_s_over_r": "64/289",
+   "N": "15/17",
+   "blueshift": "17/15",
+   "share": "16/17",
+   "proper_density": "8/15"
+  },
+  {
+   "r_s_over_r": "0",
+   "N": "1",
+   "blueshift": "1",
+   "share": "1",
+   "proper_density": "0"
+  }
+ ],
+ "horizon": {
+  "last_share": "1000002000001/2000000000002",
+  "last_memory_gap": "4000000000000/1000000000002000000000001"
+ },
+ "illustration": {
+  "two_G_over_c2_m_per_kg": 1.4852320538237331e-27,
+  "Earth surface": {
+   "memory": 1.3922156373309268e-09,
+   "N": 0.9999999993038922,
+   "share": 0.9999999996519461,
+   "acceleration_m_s2": 9.819973433060447
+  },
+  "Sun surface": {
+   "memory": 4.246264992173933e-06,
+   "N": 0.9999978768652501,
+   "share": 0.9999989384326251,
+   "acceleration_m_s2": 274.28207234823276
+  },
+  "neutron star 1.4 Msun, 12 km": {
+   "memory": 0.34464809808979724,
+   "N": 0.8095380793453776,
+   "share": 0.9047690396726888,
+   "acceleration_m_s2": 1594295309176.3904
+  }
+ }
+}
