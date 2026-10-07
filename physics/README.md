@@ -14,3 +14,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [QC4](qc4/QC4_RETURN_IS_MEMORY.md) — return is memory: curvature of shared flat readings = −variance; the compass law; the Wilson density and the field strength as record defect and record memory of the loop arrow.
 - [QC5](qc5/QC5_MOVING_SHARE.md) — a share that moves in scale between two flat gauge readings: gradient + variance, the logistic law, minimal cost 2 at every scale.
 - [PR1](pr1/PR1_SECTOR_SPEED_AND_MASS.md) — propagation: one coin turn fixes a sector's speed, rest turn and curvature (speed² + (curvature/2)² = 1); response space is velocity space; each sector has its own boost; mass and diffusion are the two parities of one flip.
+- [PR2](pr2/PR2_TWO_SHEETS_PAIR_OBSERVER.md) — mass and antimass as the two sheets of X² = −g²; the boosted mass is energy–momentum; the observer who reads both in equal weight reads only invariants.

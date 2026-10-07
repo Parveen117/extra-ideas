@@ -24,6 +24,7 @@ what, if anything, is measurable beyond the classical statement.
 | QC4: curvature of a mean of flat readings = −variance; compass law (U–G 1, F–H 0, four corners ½); loop arrow: Wilson density = record defect, field strength² = record memory | Yang–Mills action; thermodynamic potentials U, H, F, G | exact | one identity (return = memory) behind the fluid return, GE2's memory and the gauge action |
 | QC5: share p(r) between the trivial and winding readings: F = dp∧L − p(1−p)L∧L; self-dual iff velocity = variance; cost of changing reading ≥ 2, logistic law, scale free | self-dual gauge fields (one-instanton solution, half-charge configuration); action 8π² | exact | the share law lives in Yang–Mills between flat readings; the sector is invisible to any single reading |
 | PR1: coin-turn walk: speed² + (curvature/2)² = 1, rest turn θ; response space = velocity space; sector law ∂_t = cA∂_x + gR with own-boost covariance; D·2g = c² across parities | relativistic dispersion, velocity addition, boost rotation; diffusion ħ/2m | exact | speed, mass and curvature of a sector from one coin angle; each sector has its own relativity |
+| PR2: X² = x² + y² − t², two sheets; boosted mass generator = (energy, momentum); pair record mass + antimass: even part and memory scalar, odd part a vector, zero at equal weight | energy–momentum relation; particle and antiparticle; time-reversal pairing | exact | the balanced pair observer reads only frame-independent quantities (χ ≡ 1, δ𝓘 = 0); curvature and information both invariant |
 
 ## Reading
 
