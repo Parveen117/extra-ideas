@@ -23,6 +23,7 @@ what, if anything, is measurable beyond the classical statement.
 | QC3: even/odd split of one arrow, E² − O² = I, record memory = −O²; character law (rate q²); Casimir law for su(2) contents | phase vs heat generators; characters and Casimirs; the 3/4 and 5/4 of YM-9, YM-40 | exact at finite turn | quantum and thermal as the two parities of one arrow; strong-coupling gap = even part on the lowest content |
 | QC4: curvature of a mean of flat readings = −variance; compass law (U–G 1, F–H 0, four corners ½); loop arrow: Wilson density = record defect, field strength² = record memory | Yang–Mills action; thermodynamic potentials U, H, F, G | exact | one identity (return = memory) behind the fluid return, GE2's memory and the gauge action |
 | QC5: share p(r) between the trivial and winding readings: F = dp∧L − p(1−p)L∧L; self-dual iff velocity = variance; cost of changing reading ≥ 2, logistic law, scale free | self-dual gauge fields (one-instanton solution, half-charge configuration); action 8π² | exact | the share law lives in Yang–Mills between flat readings; the sector is invisible to any single reading |
+| PR1: coin-turn walk: speed² + (curvature/2)² = 1, rest turn θ; response space = velocity space; sector law ∂_t = cA∂_x + gR with own-boost covariance; D·2g = c² across parities | relativistic dispersion, velocity addition, boost rotation; diffusion ħ/2m | exact | speed, mass and curvature of a sector from one coin angle; each sector has its own relativity |
 
 ## Reading
 
@@ -36,6 +37,7 @@ what, if anything, is measurable beyond the classical statement.
 
 ## Open physics gates
 
+00. Release of stored curvature after a cut as a propagating ripple; why sectors would share one speed (PR1 §6).
 0. What fixes the scale λ of a moving share (QC5 §5). Yang–Mills gap per unit of loop ledger (QC4 §4). Calibration: the turn rate that converts 'real unit = half the squared circular unit' into a relation between physical constants (QC3 §6); the interacting case.
 1. Feasibility of the twin-cell protocol of PH3 (calorimetric control of E steps); a bench run of the PH2 chain.
 2. The argon versus krypton/xenon difference in Θ on one reduced cycle.

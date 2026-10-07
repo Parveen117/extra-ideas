@@ -1,0 +1,225 @@
+{
+ "walk": [
+  {
+   "cos_theta": "1",
+   "sin_theta": "0",
+   "cone_speed": "1",
+   "curvature_over_two": "0",
+   "rest_turn_even_part": "1",
+   "modes": [
+    {
+     "cos_k": "24/25",
+     "cos_w": "24/25",
+     "group_speed_squared": "1"
+    },
+    {
+     "cos_k": "4/5",
+     "cos_w": "4/5",
+     "group_speed_squared": "1"
+    },
+    {
+     "cos_k": "3/5",
+     "cos_w": "3/5",
+     "group_speed_squared": "1"
+    },
+    {
+     "cos_k": "0",
+     "cos_w": "0",
+     "group_speed_squared": "1"
+    },
+    {
+     "cos_k": "-5/13",
+     "cos_w": "-5/13",
+     "group_speed_squared": "1"
+    }
+   ]
+  },
+  {
+   "cos_theta": "4/5",
+   "sin_theta": "3/5",
+   "cone_speed": "4/5",
+   "curvature_over_two": "3/5",
+   "rest_turn_even_part": "4/5",
+   "modes": [
+    {
+     "cos_k": "24/25",
+     "cos_w": "96/125",
+     "group_speed_squared": "784/6409"
+    },
+    {
+     "cos_k": "4/5",
+     "cos_w": "16/25",
+     "group_speed_squared": "16/41"
+    },
+    {
+     "cos_k": "3/5",
+     "cos_w": "12/25",
+     "group_speed_squared": "256/481"
+    },
+    {
+     "cos_k": "0",
+     "cos_w": "0",
+     "group_speed_squared": "16/25"
+    },
+    {
+     "cos_k": "-5/13",
+     "cos_w": "-4/13",
+     "group_speed_squared": "256/425"
+    }
+   ]
+  },
+  {
+   "cos_theta": "3/5",
+   "sin_theta": "4/5",
+   "cone_speed": "3/5",
+   "curvature_over_two": "4/5",
+   "rest_turn_even_part": "3/5",
+   "modes": [
+    {
+     "cos_k": "24/25",
+     "cos_w": "72/125",
+     "group_speed_squared": "441/10441"
+    },
+    {
+     "cos_k": "4/5",
+     "cos_w": "12/25",
+     "group_speed_squared": "81/481"
+    },
+    {
+     "cos_k": "3/5",
+     "cos_w": "9/25",
+     "group_speed_squared": "9/34"
+    },
+    {
+     "cos_k": "0",
+     "cos_w": "0",
+     "group_speed_squared": "9/25"
+    },
+    {
+     "cos_k": "-5/13",
+     "cos_w": "-3/13",
+     "group_speed_squared": "81/250"
+    }
+   ]
+  },
+  {
+   "cos_theta": "5/13",
+   "sin_theta": "12/13",
+   "cone_speed": "5/13",
+   "curvature_over_two": "12/13",
+   "rest_turn_even_part": "5/13",
+   "modes": [
+    {
+     "cos_k": "24/25",
+     "cos_w": "24/65",
+     "group_speed_squared": "49/3649"
+    },
+    {
+     "cos_k": "4/5",
+     "cos_w": "4/13",
+     "group_speed_squared": "1/17"
+    },
+    {
+     "cos_k": "3/5",
+     "cos_w": "3/13",
+     "group_speed_squared": "1/10"
+    },
+    {
+     "cos_k": "0",
+     "cos_w": "0",
+     "group_speed_squared": "25/169"
+    },
+    {
+     "cos_k": "-5/13",
+     "cos_w": "-25/169",
+     "group_speed_squared": "25/194"
+    }
+   ]
+  },
+  {
+   "cos_theta": "0",
+   "sin_theta": "1",
+   "cone_speed": "0",
+   "curvature_over_two": "1",
+   "rest_turn_even_part": "0",
+   "modes": [
+    {
+     "cos_k": "24/25",
+     "cos_w": "0",
+     "group_speed_squared": "0"
+    },
+    {
+     "cos_k": "4/5",
+     "cos_w": "0",
+     "group_speed_squared": "0"
+    },
+    {
+     "cos_k": "3/5",
+     "cos_w": "0",
+     "group_speed_squared": "0"
+    },
+    {
+     "cos_k": "0",
+     "cos_w": "0",
+     "group_speed_squared": "0"
+    },
+    {
+     "cos_k": "-5/13",
+     "cos_w": "0",
+     "group_speed_squared": "0"
+    }
+   ]
+  }
+ ],
+ "hadamard": {
+  "cone_speed_squared": "1/2",
+  "curvature_over_two_squared": "1/2"
+ },
+ "velocity": {
+  "collinear_sum": "11/17",
+  "rotation_tangent": "26/127",
+  "composed_cosh": "25161/8449"
+ },
+ "sector": [
+  {
+   "speed": "1",
+   "mass_rate": "3/4",
+   "cosh_eta": "17/8",
+   "sinh_eta": "15/8",
+   "second_order": "d_t^2 = c^2 d_x^2 - g^2"
+  },
+  {
+   "speed": "1/3",
+   "mass_rate": "2",
+   "cosh_eta": "97/72",
+   "sinh_eta": "65/72",
+   "second_order": "d_t^2 = c^2 d_x^2 - g^2"
+  }
+ ],
+ "parity": [
+  {
+   "speed": "1",
+   "flip_rate": "4",
+   "wave_number": "3",
+   "frequency_squared": "25",
+   "diffusion_constant": "1/8",
+   "diffusion_times_two_flip_rate": "1"
+  },
+  {
+   "speed": "1",
+   "flip_rate": "5",
+   "wave_number": "3",
+   "frequency_squared": "34",
+   "diffusion_constant": "1/10",
+   "diffusion_times_two_flip_rate": "1"
+  },
+  {
+   "speed": "1/2",
+   "flip_rate": "10",
+   "wave_number": "1",
+   "frequency_squared": "401/4",
+   "diffusion_constant": "1/80",
+   "diffusion_times_two_flip_rate": "1/4"
+  }
+ ]
+}

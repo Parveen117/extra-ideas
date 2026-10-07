@@ -13,3 +13,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [QC3](qc3/QC3_EVEN_ODD_ARROW.md) — one arrow, two units: even part = heat, odd part = phase, E² − O² = I, record memory = −O²; character and Casimir laws; the Yang–Mills 3/4.
 - [QC4](qc4/QC4_RETURN_IS_MEMORY.md) — return is memory: curvature of shared flat readings = −variance; the compass law; the Wilson density and the field strength as record defect and record memory of the loop arrow.
 - [QC5](qc5/QC5_MOVING_SHARE.md) — a share that moves in scale between two flat gauge readings: gradient + variance, the logistic law, minimal cost 2 at every scale.
+- [PR1](pr1/PR1_SECTOR_SPEED_AND_MASS.md) — propagation: one coin turn fixes a sector's speed, rest turn and curvature (speed² + (curvature/2)² = 1); response space is velocity space; each sector has its own boost; mass and diffusion are the two parities of one flip.
