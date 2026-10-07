@@ -1,0 +1,39 @@
+{
+ "currents": {
+  "conserved": "d_t n = d_x j",
+  "residue": "d_t j - d_x n = -2 g sigma"
+ },
+ "frame": {
+  "residue_in_frame": "(1/rho) d_eta j - d_rho n = -2 g sigma"
+ },
+ "invariance": [
+  {
+   "share": "36/37",
+   "memory": "144/1369",
+   "sigma_over_n_squared": "144/1369"
+  },
+  {
+   "share": "1/226",
+   "memory": "225/12769",
+   "sigma_over_n_squared": "225/12769"
+  },
+  {
+   "share": "1",
+   "memory": "0",
+   "sigma_over_n_squared": "0"
+  }
+ ],
+ "uniqueness": {
+  "invariant_entries": [
+   "12",
+   "21"
+  ],
+  "bilinear": "multiple of sigma"
+ },
+ "sheet": {
+  "n": "even",
+  "j": "even",
+  "sigma": "odd",
+  "tau": "even"
+ }
+}

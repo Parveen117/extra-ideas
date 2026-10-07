@@ -16,3 +16,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [PR1](pr1/PR1_SECTOR_SPEED_AND_MASS.md) — propagation: one coin turn fixes a sector's speed, rest turn and curvature (speed² + (curvature/2)² = 1); response space is velocity space; each sector has its own boost; mass and diffusion are the two parities of one flip.
 - [PR2](pr2/PR2_TWO_SHEETS_PAIR_OBSERVER.md) — mass and antimass as the two sheets of X² = −g²; the boosted mass is energy–momentum; the observer who reads both in equal weight reads only invariants.
 - [PR3](pr3/PR3_ACCELERATED_FRAME.md) — the sector law in a uniformly accelerated frame: the split term is the half-density and is absorbed; acceleration only changes the unit of time, equally for both sheets.
+- [PR4](pr4/PR4_SOURCE_IS_MEMORY.md) — the source: the dual current's residue is τ = flip rate × proper density, and proper density² = density² × two-way memory; a law for the clock is identified as a candidate, not derived.
