@@ -42,3 +42,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [DG1](dg1/DG1_THE_DIAGONAL.md) — the diagonal: observed equals lost at r = 2 r_s, where the fall frame can orbit and binding is zero.
 - [WQ1](wq1/WQ1_WAVE_COUNT.md) — a wave is a pair of readings; the area it encloses comes in whole units, so its energy is n·hν; the count is the same in every frame.
 - [GW1](gw1/GW1_WAVES_OF_THE_FRAME.md) — waves of the frame's order defect: two waves at the cone speed, content two, each mode a pair with E = n·hν and the unit of light.
+- [JT1](jt1/JT1_TOWER_OF_THE_FRAME_WAVE.md) — the Jacobian tower of the frame wave: the law is the invariant square of X = G⁻¹∂G at every order; the tower is flat where the axis is rigid and curved, by sinh²σ, where it turns.

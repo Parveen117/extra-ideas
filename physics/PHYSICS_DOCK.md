@@ -52,6 +52,7 @@ what, if anything, is measurable beyond the classical statement.
 | DG1: observed = lost at r = 2r_s, N = 1/√2; there and only there orbit speed = fall speed and a circular history has zero binding; share law maximum ¼ at ½ | innermost bound circular orbit | exact | link of the equal share and the eight-mark clock to a place in the field |
 | WQ1: a wave mode is a pair of readings; A/2π = E/ω; recordable ⇔ A = 2πκn ⇔ E = nκω; ladder κω(n+½); count frame-independent | energy quantum hν; oscillator levels; adiabatic invariant E/ω | exact | counting that EM1 left open, supplied by QC1's silence; gravity waves not built |
 | GW1: TP1's law to second order on a flat frame: Q₂ = ½[(∂_t a)² − (∂_z a)² + …]; two waves at the cone speed; content two; a mode is a pair; E = nκω with the unit shared by exchange | gravitational waves, two polarisations, helicity two; graviton energy hν | exact (symbolic), second order | the count follows from TP1 + WQ1 + R43.3 rather than being assumed; not testable |
+| JT1: on a travelling frame Q = ¼[tr X_t² − tr X_z²] − volume term (X = G⁻¹∂G, all orders); closed form ½[σ_t² − σ_z² + sinh²σ(φ_t² − φ_z²)]; tower stops at second order iff the axis is rigid; source recognised at layer three | plane gravity waves: no self-action of one polarisation or of one-way waves; hyperbolic-plane form for two; equivalence principle and tidal curvature | exact (symbolic) on the family | nonlinearity = turning of the principal axis; Theorem 42's tower applied to the frame |
 
 ## Reading
 

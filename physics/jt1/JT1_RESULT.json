@@ -1,0 +1,27 @@
+{
+ "observer": {
+  "blind_at_layer_1": true,
+  "blind_at_layer_2": true,
+  "recognised_at_layer": 3,
+  "decoder": "r_s = m'' r0^3 / 2"
+ },
+ "wave": {
+  "law": "(Derivative(phi(T, Z), T)**2 - Derivative(phi(T, Z), Z)**2)*sinh(sigma(T, Z))**2/2 + Derivative(sigma(T, Z), T)**2/2 - Derivative(sigma(T, Z), Z)**2/2",
+  "rigid_law": "Derivative(sigma(T, Z), T)**2/2 - Derivative(sigma(T, Z), Z)**2/2",
+  "layers": {
+   "2": "1",
+   "4": "1/3",
+   "6": "2/45"
+  },
+  "one_way": "0",
+  "equations": [
+   "(Derivative(phi(T, Z), T)**2 - Derivative(phi(T, Z), Z)**2)*sinh(2*sigma(T, Z))/2 - Derivative(sigma(T, Z), (T, 2)) + Derivative(sigma(T, Z), (Z, 2))",
+   "-sinh(2*sigma(T, Z))*Derivative(phi(T, Z), T)*Derivative(sigma(T, Z), T) + sinh(2*sigma(T, Z))*Derivative(phi(T, Z), Z)*Derivative(sigma(T, Z), Z) - cosh(2*sigma(T, Z))*Derivative(phi(T, Z), (T, 2))/2 + cosh(2*sigma(T, Z))*Derivative(phi(T, Z), (Z, 2))/2 + Derivative(phi(T, Z), (T, 2))/2 - Derivative(phi(T, Z), (Z, 2))/2"
+  ]
+ },
+ "identity": [
+  "[[T*Z + 1, T], [T, Z**2 + 2]]",
+  "[[T + 2, -T + Z], [-T + Z, T*Z + 3]]",
+  "[[T**2 + 1, 0], [0, Z + 1]]"
+ ]
+}
