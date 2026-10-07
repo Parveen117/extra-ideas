@@ -81,6 +81,12 @@ def run():
     want_aa = -sp.sinh(p)**4/(4*r**4)
     if sp.simplify(s_ra - want_ra) != 0 or sp.simplify(s_ra2 - want_ra) != 0 or sp.simplify(s_aa - want_aa) != 0:
         raise ValueError('invariant sizes of the native curvature failed')
+    # N2b: this is RMG1's formula f = (1/4) sinh(l/2) dl ^ dphi with eigenvalue ratio e^l, l = 2 psi,
+    #      written per unit coordinate area r dr dphi
+    ell = 2*p
+    rmg1 = sp.Rational(1, 4)*sp.sinh(ell/2)*sp.diff(ell, r)/r
+    if sp.simplify(rmg1**2 - (-s_ra)) != 0:
+        raise ValueError('native size is not the pull-back of the hyperbolic area form (RMG1)')
     # N3: ratio law
     rs = sp.Symbol('r_s', positive=True)
     tt = sp.sqrt(rs/r)                                   # tanh(eta) of the field of CV1
@@ -140,7 +146,7 @@ def run():
         kap[reading] = k2
     mercury = 42.98
     advance = {name: float(mercury*(3 + 2*k)/3) for name, k in kap.items()}
-    return dict(nt3_on_field=True, radial_angular=str(s_ra), angular_angular=str(s_aa),
+    return dict(nt3_on_field=True, equals_rmg1_area_form=True, radial_angular=str(s_ra), angular_angular=str(s_aa),
                 ratio_of_field=str(ratio_gr), variational_residual_of_ratio_field=residuals,
                 second_order_coefficient='3/4', kappa={k: str(v) for k, v in kap.items()},
                 mercury_arcsec_per_century=dict(ratio_law=mercury, **advance))

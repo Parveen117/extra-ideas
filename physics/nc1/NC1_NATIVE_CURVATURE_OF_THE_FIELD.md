@@ -40,6 +40,15 @@ and one pure number between them,
 the ratio of radial to angular native curvature. It has no unit and does
 not depend on the frame — a ratio of the same kind as C_P/C_V.
 
+**N2b — it is the area form of RMG1.** With eigenvalue ratio e^ℓ, ℓ = 2ψ,
+the radial–angular size is exactly RMG1's f = ¼ sinh(ℓ/2) dℓ∧dφ: the
+native curvature of the gravity field is half the hyperbolic area swept
+by the response element as the place changes (the τ-form of RMG5). Two
+earlier results are then one statement. RMG1's Corollary 2.1 (spectral
+blindness: the eigenvalues fix ℓ and nothing else; curvature needs the
+principal axis to turn) is GB1's refusal of scalar-only gravity: the
+clock factor is the spectrum, and the bending of light needs the axis.
+
 In the response dictionary of NT-1 the same field read across a cut has
 C_V/C_P = 1 − tanh²η = 1 − m: the clock factor squared is the ratio
 C_V/C_P, and the memory is (C_P − C_V)/C_P.
