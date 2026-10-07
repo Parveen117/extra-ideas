@@ -10,3 +10,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [PH3](ph3/PH3_TWO_READINGS_TRANSPORT.md) — the fluid itself returns Θ when a probe is shared equally between two flat readings; share law 4λ(1−λ).
 - [QC1](qc1/QC1_READING_CONTENT_CLOSURE.md) — the two readings are a canonical pair and the return is their bracket; integers come from the content of the reading; the silent circles are the SL(2,ℝ) weight ladder.
 - [QC2](qc2/QC2_UNIT_OF_RETURN.md) — with the fluctuation scale κ the pair becomes operators (p ≙ κ∂/∂w), readings are counted by number and content, and the return generator has spectrum κ·q; entropy-representation returns.
+- [QC3](qc3/QC3_EVEN_ODD_ARROW.md) — one arrow, two units: even part = heat, odd part = phase, E² − O² = I, record memory = −O²; character and Casimir laws; the Yang–Mills 3/4.
