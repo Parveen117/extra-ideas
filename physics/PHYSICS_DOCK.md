@@ -27,6 +27,7 @@ what, if anything, is measurable beyond the classical statement.
 | PR2: X² = x² + y² − t², two sheets; boosted mass generator = (energy, momentum); pair record mass + antimass: even part and memory scalar, odd part a vector, zero at equal weight | energy–momentum relation; particle and antiparticle; time-reversal pairing | exact | the balanced pair observer reads only frame-independent quantities (χ ≡ 1, δ𝓘 = 0); curvature and information both invariant |
 | PR3: accelerated frame: split term A/(2ρ) = half-density, absorbed; law = inertial law with ∂_t → (1/ρ)∂_η; −G² factorizes; both sheets share the clock | wave equation in an accelerated frame; redshift; equal clock rates for particle and antiparticle | exact | acceleration is one position-dependent unit of time on the whole generator; critical-acceleration reading refused |
 | PR4: currents n, j; dual residue −2τ, τ = gσ; σ² = n² − j² = n²·4p(1−p); τ unique, sheet-even, frame-independent | conserved current; proper density; trace-type source | exact | the only scalar a sector offers the clock is flip rate × density × √memory; a law for the clock is not derived |
+| CL1: mass² = clock curvature 2 − ζ − ζ̄ (R41.3 ↔ PR1); speed = 1 − curvature/2; dyadic ladder Q = 2, 4, 8; [N, O_T] = E_T; varying coin exchange term; history residue | rest frequency as a clock; time–energy pair; position-dependent mass | exact | time is a count on histories — no native unit-of-time field; a sector's mass is the curvature of its clock |
 
 ## Reading
 

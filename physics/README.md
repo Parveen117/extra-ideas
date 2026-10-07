@@ -17,3 +17,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [PR2](pr2/PR2_TWO_SHEETS_PAIR_OBSERVER.md) — mass and antimass as the two sheets of X² = −g²; the boosted mass is energy–momentum; the observer who reads both in equal weight reads only invariants.
 - [PR3](pr3/PR3_ACCELERATED_FRAME.md) — the sector law in a uniformly accelerated frame: the split term is the half-density and is absorbed; acceleration only changes the unit of time, equally for both sheets.
 - [PR4](pr4/PR4_SOURCE_IS_MEMORY.md) — the source: the dual current's residue is τ = flip rate × proper density, and proper density² = density² × two-way memory; a law for the clock is identified as a candidate, not derived.
+- [CL1](cl1/CL1_CLOCK_CURVATURE_IS_MASS.md) — the native clock (T24, GE2, R39, R41) answers PR4: mass² is the curvature of the tick against its phase; speed = 1 − curvature/2; a unit-of-time field is not a native object.

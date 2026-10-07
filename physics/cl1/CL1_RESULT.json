@@ -1,0 +1,108 @@
+{
+ "mass_is_clock_curvature": [
+  {
+   "tick_phase": [
+    "3/5",
+    "4/5"
+   ],
+   "clock_curvature": "4/5",
+   "rest_defect": "4/5",
+   "cone_speed": "3/5"
+  },
+  {
+   "tick_phase": [
+    "4/5",
+    "3/5"
+   ],
+   "clock_curvature": "2/5",
+   "rest_defect": "2/5",
+   "cone_speed": "4/5"
+  },
+  {
+   "tick_phase": [
+    "5/13",
+    "12/13"
+   ],
+   "clock_curvature": "16/13",
+   "rest_defect": "16/13",
+   "cone_speed": "5/13"
+  },
+  {
+   "tick_phase": [
+    "1",
+    "0"
+   ],
+   "clock_curvature": "0",
+   "rest_defect": "0",
+   "cone_speed": "1"
+  },
+  {
+   "tick_phase": [
+    "0",
+    "1"
+   ],
+   "clock_curvature": "2",
+   "rest_defect": "2",
+   "cone_speed": "0"
+  }
+ ],
+ "tower": [
+  {
+   "marks": 2,
+   "clock_curvature": "4",
+   "cone_speed": "-1"
+  },
+  {
+   "marks": 4,
+   "clock_curvature": "2",
+   "cone_speed": "0"
+  },
+  {
+   "marks": 8,
+   "clock_curvature": "2 - sqrt(2)",
+   "cone_speed_squared": "1/2",
+   "relation": "(2 - curvature)^2 = 4 speed^2 = 2"
+  }
+ ],
+ "varying_coin": {
+  "exchange_term": "(s_x - s_{x-1}) psi_2(x-1) in component 1, (s_{x+1} - s_x) psi_1(x+1) in component 2",
+  "constant_coin": "no exchange term"
+ },
+ "count": {
+  "count_with_odd": "even part",
+  "count_with_even": "odd part"
+ },
+ "history": [
+  {
+   "turn": "quarter turn",
+   "residues": [
+    "2",
+    "2",
+    "2/3",
+    "0",
+    "2/5",
+    "2/3",
+    "2/7",
+    "0"
+   ],
+   "closes_at": [
+    4,
+    8
+   ]
+  },
+  {
+   "turn": "rational turn (3 + 4R)/5",
+   "residues": [
+    "4/5",
+    "32/25",
+    "484/375",
+    "576/625",
+    "6724/15625",
+    "3872/46875",
+    "3364/546875",
+    "56448/390625"
+   ],
+   "closes_at": []
+  }
+ ]
+}
