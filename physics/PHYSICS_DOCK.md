@@ -25,6 +25,7 @@ what, if anything, is measurable beyond the classical statement.
 | QC5: share p(r) between the trivial and winding readings: F = dp∧L − p(1−p)L∧L; self-dual iff velocity = variance; cost of changing reading ≥ 2, logistic law, scale free | self-dual gauge fields (one-instanton solution, half-charge configuration); action 8π² | exact | the share law lives in Yang–Mills between flat readings; the sector is invisible to any single reading |
 | PR1: coin-turn walk: speed² + (curvature/2)² = 1, rest turn θ; response space = velocity space; sector law ∂_t = cA∂_x + gR with own-boost covariance; D·2g = c² across parities | relativistic dispersion, velocity addition, boost rotation; diffusion ħ/2m | exact | speed, mass and curvature of a sector from one coin angle; each sector has its own relativity |
 | PR2: X² = x² + y² − t², two sheets; boosted mass generator = (energy, momentum); pair record mass + antimass: even part and memory scalar, odd part a vector, zero at equal weight | energy–momentum relation; particle and antiparticle; time-reversal pairing | exact | the balanced pair observer reads only frame-independent quantities (χ ≡ 1, δ𝓘 = 0); curvature and information both invariant |
+| PR3: accelerated frame: split term A/(2ρ) = half-density, absorbed; law = inertial law with ∂_t → (1/ρ)∂_η; −G² factorizes; both sheets share the clock | wave equation in an accelerated frame; redshift; equal clock rates for particle and antiparticle | exact | acceleration is one position-dependent unit of time on the whole generator; critical-acceleration reading refused |
 
 ## Reading
 
@@ -38,7 +39,7 @@ what, if anything, is measurable beyond the classical statement.
 
 ## Open physics gates
 
-00. Release of stored curvature after a cut as a propagating ripple; why sectors would share one speed (PR1 §6).
+00. A clock factor with N″ ≠ 0 and what sources it (PR3 §5). Release of stored curvature after a cut as a propagating ripple; why sectors would share one speed (PR1 §6).
 0. What fixes the scale λ of a moving share (QC5 §5). Yang–Mills gap per unit of loop ledger (QC4 §4). Calibration: the turn rate that converts 'real unit = half the squared circular unit' into a relation between physical constants (QC3 §6); the interacting case.
 1. Feasibility of the twin-cell protocol of PH3 (calorimetric control of E steps); a bench run of the PH2 chain.
 2. The argon versus krypton/xenon difference in Θ on one reduced cycle.

@@ -1,0 +1,28 @@
+{
+ "boost_only": {
+  "split_term": "A / (2 rho)",
+  "needed": true
+ },
+ "half_density": {
+  "split_term": "0",
+  "law": "(1/rho) d_eta chi = (A d_rho + g R) chi"
+ },
+ "square": {
+  "square": "d_s^2 - g^2 rho^2 - g rho K",
+  "well_depth": "1/4 at g rho = 1/2",
+  "factorized": "(-d_s + W)(d_s + W) and (d_s + W)(-d_s + W), W = g rho"
+ },
+ "antimass": {
+  "relation": "A G_g A = G_{-g}",
+  "clock_factor": "rho for both sheets"
+ },
+ "lapse": {
+  "lemma": "N^{1/2} d N^{1/2} = N d + N'/2",
+  "checked": "N = rho^n"
+ },
+ "redshift": {
+  "rest_turn_per_frame_time": "g rho",
+  "coordinate_speed": "rho",
+  "ratio_between_two_heights": "rho_1 / rho_2"
+ }
+}
