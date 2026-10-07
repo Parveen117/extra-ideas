@@ -1,0 +1,63 @@
+{
+ "stress": [
+  [
+   "5",
+   "25/2"
+  ],
+  [
+   "7/2",
+   "49/8"
+  ],
+  [
+   "1",
+   "1/2"
+  ]
+ ],
+ "curvature": {
+  "contracted": [
+   "q2/r**4",
+   "-q2/r**4",
+   "q2/r**4",
+   "q2/r**4"
+  ],
+  "energy_component": "(r*Derivative(m(r), r) + m(r))/r**2",
+  "ratio_excess_charged": "-q2/(2*(q2 - r*r_s))"
+ },
+ "dictionary": {
+  "potential": [
+   [
+    "12",
+    "9"
+   ],
+   [
+    "7/3",
+    "35/36"
+   ]
+  ],
+  "response": [
+   [
+    "2",
+    "8",
+    "1/16",
+    "4"
+   ],
+   [
+    "9/4",
+    "1",
+    "4/9",
+    "4/9"
+   ],
+   [
+    "1",
+    "1",
+    "1",
+    "1"
+   ]
+  ]
+ },
+ "illustration": {
+  "length_of_one_electron_charge_m": 1.3806784704588333e-36,
+  "length_of_one_coulomb_m": 8.617517202281414e-18,
+  "electron_r_s_m": 1.3529548661819437e-57
+ }
+}

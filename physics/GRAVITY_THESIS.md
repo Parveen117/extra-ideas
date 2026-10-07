@@ -201,3 +201,13 @@ radius. Making the total native curvature-square stationary instead
 gives the same field at first order and a different one at second order,
 with Mercury's advance 57.3″ or 32.2″ per century in place of 42.98″:
 that law is refused by observation. Why the ratio is −½ is not derived.
+
+## Sources of any kind (TL1, EG1)
+
+Heat enters as energy and is met by the clock factor: κ·N is constant in
+equilibrium (TL1). The light field enters the same way: a radial field
+reads (u; −u, u, u) through the cuts, its invariant part is zero, and
+the memory r_s/r − q₂/r² has exactly that pattern as contracted
+curvature (EG1). This confirms the correction to R3: the source is the
+whole reading. In the native ratio of NC1 the kinds are not
+distinguished: ρ + ½ = k u r²/2m.
