@@ -1,0 +1,60 @@
+{
+ "unit": [
+  {
+   "roles": 2,
+   "bracket": "17/2"
+  },
+  {
+   "roles": 3,
+   "bracket": "27/2"
+  }
+ ],
+ "memory": {
+  "cases": 27,
+  "largest_memory": "2654208/9765625",
+  "isolated_or_no_phase_memory": "0",
+  "example": {
+   "p": "9/25",
+   "q": "9/25",
+   "cos_delta": "3/5",
+   "memory": "165888/1953125"
+  }
+ },
+ "illustration": {
+  "two_masses": {
+   "mass_kg": 1e-14,
+   "split_m": 0.00025,
+   "centres_m": 0.00045,
+   "seconds": 2.5,
+   "delta_rad": -0.31393449257516837,
+   "memory": 0.012218512280095446
+  },
+  "clock_factor_phase_rate": 0.1406426526736754,
+  "direct_phase_rate": 0.14064265267367543,
+  "owner_example": {
+   "mass_kg": 1e-17,
+   "length_m": 1e-07,
+   "rate_scale_per_s": 0.0006328919370315394,
+   "rows": [
+    {
+     "seconds": 10.0,
+     "phase": 0.0063289193703153935,
+     "pair_memory": 5.006885836801062e-06,
+     "exponential_law_deficit": 0.0062890326206370695
+    },
+    {
+     "seconds": 100.0,
+     "phase": 0.06328919370315395,
+     "pair_memory": 0.0005005231501079374,
+     "exponential_law_deficit": 0.05944746035270926
+    },
+    {
+     "seconds": 1000.0,
+     "phase": 0.6328919370315393,
+     "pair_memory": 0.048419909435303984,
+     "exponential_law_deficit": 0.35899092861689086
+    }
+   ]
+  }
+ }
+}

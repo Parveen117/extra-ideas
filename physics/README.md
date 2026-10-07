@@ -33,3 +33,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [EM1](em1/EM1_WAVE_CUT.md) — the electromagnetic wave under a cut: electric and magnetic as the two sheets, u² − S² = ¼|F·F|², and what the wave does and does not give of Planck's constant.
 - [GB1](gb1/GB1_GRAVITY_IN_THE_BLOCK.md) — where gravity sits in the block: not the scalar/volume part (light would bend too little); a field of self-dagger unit blocks acting the same on every reading; the leftover part is scale.
 - [SC1](sc1/SC1_LOCAL_SCALE.md) — the scale factor made local: a rate of loss, refused as a field (the invariant would depend on history); scale is the unit, not a force.
+- [DC1](dc1/DC1_MEMORY_BETWEEN_MASSES.md) — one unit for all frames (R43.3) and what gravity does to a superposition: memory between two masses ½ sin²(Δ/2), none for one mass alone; a departure from the single-mass decay law of D4.

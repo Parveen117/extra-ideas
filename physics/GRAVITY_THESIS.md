@@ -103,6 +103,8 @@ R3  a source of gravity with no rest mass that this account cannot express as a 
     (two non-parallel light-like readings do have unrecoverable memory; a single one has none)
 R4  a certified derivation, inside the framework, that the least-cost quantity is not the memory
 R5  the once-around turn measured and found not to contain π r_s/r at first order
+R6  an isolated mass in superposition losing coherence exponentially at a rate set by its own gravity   (DC1)
+R7  two masses coupled only by gravity that never share memory                                          (DC1)
 ```
 
 R1 and R2 agree with what is known at present. R3 is the sharpest: the
