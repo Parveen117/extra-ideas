@@ -30,9 +30,8 @@ class FrameWaveTests(unittest.TestCase):
         I1, I2, I3 = y.tp.invariants(c)
         Q = sp.Rational(1, 4)*I1 + sp.Rational(1, 2)*I2 - I3
         q2 = sp.simplify(sp.series(sp.simplify(Q), y.eps, 0, 3).removeO().coeff(y.eps, 2))
-        eqs = euler_equations(q2, [phi], [T, Z])        # an identically satisfied equation is dropped by sympy
-        self.assertTrue(all(sp.simplify(e.lhs - e.rhs) == 0 for e in eqs if hasattr(e, 'lhs')))
-        self.assertNotEqual(sp.diff(q2, sp.diff(phi, T)) if q2 != 0 else 1, None)
+        el = sp.diff(q2, phi) - sp.diff(sp.diff(q2, sp.diff(phi, T)), T) - sp.diff(sp.diff(q2, sp.diff(phi, Z)), Z)
+        self.assertEqual(sp.simplify(el), 0)
 
     def test_illustration(self):
         ill = y.illustration()
