@@ -44,3 +44,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [GW1](gw1/GW1_WAVES_OF_THE_FRAME.md) — waves of the frame's order defect: two waves at the cone speed, content two, each mode a pair with E = n·hν and the unit of light.
 - [JT1](jt1/JT1_TOWER_OF_THE_FRAME_WAVE.md) — the Jacobian tower of the frame wave: the law is the invariant square of X = G⁻¹∂G at every order; the tower is flat where the axis is rigid and curved, by sinh²σ, where it turns.
 - [LT1](lt1/LT1_LAMBDA_TOWER_INWARD.md) — the λ-tower on the gravity field: each generation moves inward, the conformally flat and flat-space radii are consecutive levels, and at the end the element is a single null reading.
+- [BC1](bc1/BC1_BOUNDARY_AND_COUNT.md) — where whole numbers come from: an additive quantity (boundary sector) read as a turn (interior); on the boundary alone nothing is stepped.
