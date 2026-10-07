@@ -1,0 +1,166 @@
+{
+ "exact": {
+  "points": [
+   {
+    "point": [
+     "1/2",
+     "1/3"
+    ],
+    "commutator": [
+     [
+      "30450816/635292025",
+      "260216064/635292025"
+     ],
+     [
+      "-250988544/635292025",
+      "-30450816/635292025"
+     ]
+    ]
+   },
+   {
+    "point": [
+     "-2/5",
+     "3/4"
+    ],
+    "commutator": [
+     [
+      "-81902080000/2765871674281",
+      "1029288640000/2765871674281"
+     ],
+     [
+      "-507556640000/2765871674281",
+      "81902080000/2765871674281"
+     ]
+    ]
+   },
+   {
+    "point": [
+     "1",
+     "-1/7"
+    ],
+    "commutator": [
+     [
+      "1169363832/96999233809",
+      "22496332768/96999233809"
+     ],
+     [
+      "-42988041824/96999233809",
+      "-1169363832/96999233809"
+     ]
+    ]
+   }
+  ],
+  "share_values": [
+   "0",
+   "1/4",
+   "1/2",
+   "3/4",
+   "1"
+  ],
+  "polygon_vertices": 5,
+  "pure_readings_return_exactly": true
+ },
+ "fluid": "CarbonDioxide",
+ "cycle": "PH1 Table 1",
+ "theta_PH1": -0.926029712729505,
+ "alternation": [
+  {
+   "segments": 8,
+   "angle": -1.1521531406446641,
+   "orthogonality_defect": 1.521132617177511
+  },
+  {
+   "segments": 32,
+   "angle": -0.9528940895214149,
+   "orthogonality_defect": 0.41004751117247157
+  },
+  {
+   "segments": 128,
+   "angle": -0.9275435771778777,
+   "orthogonality_defect": 0.07927146349279296
+  },
+  {
+   "segments": 512,
+   "angle": -0.9261263407932545,
+   "orthogonality_defect": 0.02038320707657565
+  },
+  {
+   "segments": 2048,
+   "angle": -0.9260359506984056,
+   "orthogonality_defect": 0.005187226465515749
+  },
+  {
+   "segments": 16384,
+   "angle": -0.9260299573961778,
+   "orthogonality_defect": 0.0006440055003178759
+  }
+ ],
+ "share": [
+  {
+   "share": 0.0,
+   "law": 0.0,
+   "angle": -1.5060695468302642e-16,
+   "angle_over_theta": 1.626372810858381e-16,
+   "orthogonality_defect": 6.015261112393972e-16,
+   "small_cycle_ratio": 6.079745623670536e-15
+  },
+  {
+   "share": 0.1,
+   "law": 0.36000000000000004,
+   "angle": -0.3918483236101267,
+   "angle_over_theta": 0.4231487588612466,
+   "orthogonality_defect": 0.1816039941328514,
+   "small_cycle_ratio": 0.36025586851788466
+  },
+  {
+   "share": 0.25,
+   "law": 0.75,
+   "angle": -0.7370953285719906,
+   "angle_over_theta": 0.7959737343625577,
+   "orthogonality_defect": 0.2052403010034612,
+   "small_cycle_ratio": 0.7502081309312155
+  },
+  {
+   "share": 0.5,
+   "law": 1.0,
+   "angle": -0.926029712729505,
+   "angle_over_theta": 1.0,
+   "orthogonality_defect": 8.812204865551672e-07,
+   "small_cycle_ratio": 1.0
+  },
+  {
+   "share": 0.75,
+   "law": 0.75,
+   "angle": -0.7370957018467301,
+   "angle_over_theta": 0.795974137454094,
+   "orthogonality_defect": 0.20523852419667055,
+   "small_cycle_ratio": 0.7502081312629536
+  },
+  {
+   "share": 0.9,
+   "law": 0.35999999999999993,
+   "angle": -0.39184923469923616,
+   "angle_over_theta": 0.42314974272720346,
+   "orthogonality_defect": 0.18160230758502238,
+   "small_cycle_ratio": 0.36025586922377134
+  },
+  {
+   "share": 1.0,
+   "law": 0.0,
+   "angle": -1.752944380344674e-06,
+   "angle_over_theta": 1.892967748494602e-06,
+   "orthogonality_defect": 4.5924977238146195e-06,
+   "small_cycle_ratio": 1.0558257995030998e-09
+  }
+ ],
+ "probe": {
+  "start_offset": [
+   1.0,
+   0.0
+  ],
+  "end_offset_ds_J_per_kgK": -0.6070426781141768,
+  "end_offset_dv_m3_per_kg": -7.24198431658827e-06,
+  "second_order_energy_start": 0.1872836266789458,
+  "second_order_energy_end": 0.18728359224908317
+ }
+}

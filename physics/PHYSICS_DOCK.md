@@ -17,6 +17,7 @@ what, if anything, is measurable beyond the classical statement.
 | RMG6 | gravity | not derived | — |
 | YM-1…100 | lattice gauge theory | internal | no physical number |
 | PH2: return angle = rotation left by a cycle of pure strains | composition of non-collinear boosts; chains of partial polarizers; strain cycles | same structure | a programmed chain returns Θ: CO₂ cycle, 12 elements → 41.45°, limit 53.06° |
+| PH3: return = equal share of two flat readings (extensive-frozen, intensive-frozen); share law 4λ(1−λ) | linear response of a probe sample; dual flat connections | exact | a twin-cell protocol in which the fluid itself returns Θ; duty-cycle parabola, zero for either pure reading |
 
 ## Reading
 
@@ -30,7 +31,7 @@ what, if anything, is measurable beyond the classical statement.
 
 ## Open physics gates
 
-1. A process in which the fluid itself performs the chain of PH2; and a bench run of the programmed chain.
+1. Feasibility of the twin-cell protocol of PH3 (calorimetric control of E steps); a bench run of the PH2 chain.
 2. The argon versus krypton/xenon difference in Θ on one reduced cycle.
 3. Θ across the critical point and on the coexistence boundary.
 4. The n = 3 return (mixtures, or (s, v, composition)) with real data.
