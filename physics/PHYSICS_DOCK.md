@@ -18,6 +18,7 @@ what, if anything, is measurable beyond the classical statement.
 | YM-1…100 | lattice gauge theory | internal | no physical number |
 | PH2: return angle = rotation left by a cycle of pure strains | composition of non-collinear boosts; chains of partial polarizers; strain cycles | same structure | a programmed chain returns Θ: CO₂ cycle, 12 elements → 41.45°, limit 53.06° |
 | PH3: return = equal share of two flat readings (extensive-frozen, intensive-frozen); share law 4λ(1−λ) | linear response of a probe sample; dual flat connections | exact | a twin-cell protocol in which the fluid itself returns Θ; duty-cycle parabola, zero for either pure reading |
+| QC1: readings as a canonical pair, return = their bracket; content q silent iff qΘ ∈ 2πℤ; silent circles at heights k+n, k = q/2 | weight ladder of the SL(2,ℝ) discrete series; Bohr–Sommerfeld form | ladder matches | integers come from the reading's content, not the geometry; first covariance-silent CO₂ cycle near T_c + 0.021 K |
 
 ## Reading
 
@@ -31,6 +32,7 @@ what, if anything, is measurable beyond the classical statement.
 
 ## Open physics gates
 
+0. A scale for the pair (w, p): the fluctuation relation as the unit of return (QC1 §6).
 1. Feasibility of the twin-cell protocol of PH3 (calorimetric control of E steps); a bench run of the PH2 chain.
 2. The argon versus krypton/xenon difference in Θ on one reduced cycle.
 3. Θ across the critical point and on the coexistence boundary.
