@@ -29,3 +29,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [MO1](mo1/MO1_MOTION.md) — motion in the memory field: with one assumption the largest-count histories are the known orbits (Mercury 42.98″/century, light 1.751″).
 - [DM1](dm1/DM1_ONE_MORE_DIMENSION.md) — one more dimension reads the curvature: the uncut is the hypotenuse, a frame reads the cosine and meets the sine as mass; mass is the third momentum, its sign the sheet.
 - [HB1](hb1/HB1_UNIT_OF_THE_FRAME.md) — the unit of a frame: the least count × response is half the even part of the frame's own tick, i.e. one minus what it loses; equal to its cone speed.
+- [EM1](em1/EM1_WAVE_CUT.md) — the electromagnetic wave under a cut: electric and magnetic as the two sheets, u² − S² = ¼|F·F|², and what the wave does and does not give of Planck's constant.
