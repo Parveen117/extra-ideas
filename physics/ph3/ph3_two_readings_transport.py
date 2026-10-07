@@ -34,20 +34,28 @@ def field(x, y):
     H = [[12*x*x+2*y*y+2*x*y+4, 4*x*y+x*x], [4*x*y+x*x, 12*y*y+2*x*x+6]]
     Hx = [[24*x+2*y, 4*y+2*x], [4*y+2*x, 4*x]]
     Hy = [[4*y+2*x, 4*x], [4*x, 24*y]]
-    Hxy = [[F(2), F(4)], [F(4), F(0)]]
-    return H, Hx, Hy, Hxy
+    Hxy = [[F(2), F(4)], [F(4), F(0)]]          # d/dy of Hx
+    Hyx = [[F(2), F(4)], [F(4), F(0)]]          # d/dx of Hy
+    return H, Hx, Hy, Hxy, Hyx
 
 
 def exact_controls():
     rows = []
     for x, y in ((F(1, 2), F(1, 3)), (F(-2, 5), F(3, 4)), (F(1), F(-1, 7))):
-        H, Hx, Hy, Hxy = field(x, y)
+        H, Hx, Hy, Hxy, Hyx = field(x, y)
+        h = F(1, 3)
+        # H is quadratic, so central differences are exact: the tables are derivatives
+        checks = ((Hx, field(x+h, y)[0], field(x-h, y)[0]), (Hy, field(x, y+h)[0], field(x, y-h)[0]),
+                  (Hxy, field(x, y+h)[1], field(x, y-h)[1]), (Hyx, field(x+h, y)[2], field(x-h, y)[2]))
+        for table, plus, minus in checks:
+            if scal(1/(2*h), add(plus, minus, -1)) != table:
+                raise ValueError('derivative table is not the derivative of the field')
         if H[0][0] <= 0 or H[0][0]*H[1][1]-H[0][1]**2 <= 0:
             raise ValueError('response is not positive')
         Hi = inv(H)
         X, Y = mm(Hi, Hx), mm(Hi, Hy)
         dyX = add(mm(Hi, Hxy), mm(mm(Hi, Hy), mm(Hi, Hx)), -1)
-        dxY = add(mm(Hi, Hxy), mm(mm(Hi, Hx), mm(Hi, Hy)), -1)
+        dxY = add(mm(Hi, Hyx), mm(mm(Hi, Hx), mm(Hi, Hy)), -1)
         comm = add(mm(X, Y), mm(Y, X), -1)
         flat = add(add(dxY, dyX, -1), comm)
         if any(v for row in flat for v in row):
@@ -64,7 +72,7 @@ def exact_controls():
         rows.append(dict(point=[str(x), str(y)], commutator=[[str(v) for v in r] for r in comm]))
     # polygons: both pure readings return exactly
     pts = [(F(0), F(0)), (F(1, 2), F(0)), (F(3, 4), F(2, 3)), (F(-1, 5), F(1)), (F(-1, 2), F(1, 4))]
-    Hs = [field(*p)[0] for p in pts]
+    Hs = [field(*q)[0] for q in pts]
     W = [[F(1), F(0)], [F(0), F(1)]]
     for a, b in zip(Hs, Hs[1:]+Hs[:1]):
         W = mm(mm(inv(b), a), W)

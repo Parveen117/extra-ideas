@@ -45,8 +45,9 @@ For T4, F₁ = −∂_vX_s and F₂ = ∂_sX_v, whose sum is −[X_s, X_v]. ∎
 
 *Certificate.* T1, T3 (five shares) and T4 as exact rational identities at
 three points of a quartic convex energy; the M reading multiplied around
-a rational pentagon returns the identity matrix exactly; a field whose
-mixed derivative is not a derivative is rejected.
+a rational pentagon returns the identity matrix exactly; the derivative tables are checked
+against exact differences of the field, and unequal mixed derivatives are
+rejected.
 
 ## 2. The protocol
 
