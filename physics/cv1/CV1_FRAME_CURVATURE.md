@@ -110,7 +110,7 @@ CONTRACTED CURVATURE ZERO ⇔ m = r_s/r                                         
 UNCONTRACTED CURVATURE r_s/r³ (1, −½, −½); SQUARE 12 r_s²/r⁶                     PROVED
 R₀₀ = −½ × MC1's OPERATOR; CURVATURE LAW REMOVES THE CONSTANT                    PROVED
 CONSTANT-CURVATURE CASE                                                          PROVED
-WHY THE CONTRACTION AND NOT THE WHOLE CURVATURE                                  NOT DERIVED — information invariance in the
+WHY THE CONTRACTION AND NOT THE WHOLE CURVATURE                                  ANSWERED in TP1 (conditional on equivalence); originally: — information invariance in the
                                                                                  paper's sense (all loops closed) would force zero
                                                                                  curvature and no field at all
 SOURCES INSIDE MATTER; FRAMES THAT ARE NOT STATIC OR NOT ROUND                   NOT BUILT

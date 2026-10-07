@@ -1,0 +1,34 @@
+{
+ "turned_frame": {
+  "euler_expressions": 4,
+  "samples": 32,
+  "singular_values": [
+   272.98549726168727,
+   107.05935474502728,
+   1.3197254883662912e-14
+  ],
+  "null_direction": [
+   1.0,
+   2.0000000000000004,
+   -4.000000000000001
+  ],
+  "residual_on_1_2_minus4": 1.1113793747425387e-162,
+  "exact_zero_on_1_2_minus4": true,
+  "exact_rank_at_identity": 2
+ },
+ "fall_frame": {
+  "own_connection_flat": true,
+  "I1": "2*(r**2*Derivative(beta(r), r)**2 + 2*beta(r)**2 - 2 - 1/tan(theta)**2)/r**2",
+  "I2": "(r**2*Derivative(beta(r), r)**2 + 2*beta(r)**2 - 2 - 1/tan(theta)**2)/r**2",
+  "I3": "(r**2*Derivative(beta(r), r)**2 + 4*r*beta(r)*Derivative(beta(r), r) + 4*beta(r)**2 - 4 - 1/tan(theta)**2)/r**2",
+  "scalar_curvature": "-2*beta(r)*Derivative(beta(r), (r, 2)) - 2*Derivative(beta(r), r)**2 - 8*beta(r)*Derivative(beta(r), r)/r - 2*beta(r)**2/r**2",
+  "euler_of_Q_plus_R": "0",
+  "euler_of_Q_minus_R": "0",
+  "Q_plus_R_minus_k_div": {
+   "2": "4*(-r**2*(beta(r)*Derivative(beta(r), (r, 2)) + Derivative(beta(r), r)**2) - 6*r*beta(r)*Derivative(beta(r), r) - 2*beta(r)**2 + 1)/r**2",
+   "-2": "0"
+  },
+  "profile_condition": "9*r*(2*a1 + a2 + a3)/2",
+  "profile_condition_at_selected": "0"
+ }
+}

@@ -148,7 +148,7 @@ or by external review.
 the two pure numbers        the size of one unit of content for light (≈ 1/137); of gravity for a given mass
 the assumption of MO1       derive or refuse that the locally pure frames fit together
 many ledgers                when memory between systems becomes effectively permanent (R44)
-a block law for gravity     what D is for light
+a block law for gravity     found for the frame field (CV1, TP1): order defect, coefficients 1 : 2 : −4 by equivalence; sources not built
 an experiment               the programmed chain of PH2; the pair memory of DC1
 ```
 

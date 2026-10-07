@@ -177,3 +177,17 @@ the remaining components remove the constant that least variance alone
 allows. What every frame agrees on is the uncontracted curvature,
 r_s/r³ × (1, −½, −½). That the contraction, and not something else, is
 the law is taken here, not derived.
+
+## The law, in the frame's own connection (TP1)
+
+In the connection in which the frame field is constant, every loop
+closes (information invariance holds exactly) and the field is the order
+defect of the frame. Among the three-coefficient quadratic laws in that
+order defect, the requirement that any frame may be used at each place
+(GR2-G1 made exact) selects one combination, 1 : 2 : −4, and that
+combination equals the curvature law of CV1 up to a boundary term. So
+the open line of CV1 — why the contraction and not the whole curvature —
+is answered: the whole curvature is zero in the frame's own connection;
+the contraction is the same law in the torsion-free one. General
+relativity is the member of the family that equivalence selects; no
+prediction beyond it follows.
