@@ -30,6 +30,7 @@ what, if anything, is measurable beyond the classical statement.
 | CL1: mass² = clock curvature 2 − ζ − ζ̄ (R41.3 ↔ PR1); speed = 1 − curvature/2; dyadic ladder Q = 2, 4, 8; [N, O_T] = E_T; varying coin exchange term; history residue | rest frequency as a clock; time–energy pair; position-dependent mass | exact | time is a count on histories — no native unit-of-time field; a sector's mass is the curvature of its clock |
 | CL2: count of a leg = gτ; corner cost 2τ₁τ₂(cosh δ − 1); N legs: ratio N/χ_N, χ_N = sinh(Nb)/sinh(b) | proper time; the twin effect; accelerated clock | exact | rates differ between histories; the cost is the split-sector twin of the record defect; same ratios on both sheets |
 | MS1: state: speed² + memory = 1; static flow: speed = sech 2G, σ = j√(1−v²)/v; coins combine: speed c₁c₂ − s₁s₂, mass M₁E₂ + M₂E₁, N coins M₁χ_N | Lorentz factor; density in a slowed flow; mass defect of a bound system | exact | more speed, less mass; slowing loads a flow with memory; combined masses weigh less than their sum by the circular character |
+| SY1: unit EMK block, E = scalar part, O = traceless part: E² − O² = I, three sectors, defect 2(1 − E), character χ_N, composition law, record variance 4p(1−p)O², null state tensor | EMK-1 determinant identity Δ∥ + Δ⊥; SL(2,ℝ) | exact | one carrier and one split behind PH, QC, PR, CL and MS; see SYNTHESIS.md |
 
 ## Reading
 

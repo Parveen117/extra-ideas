@@ -1,0 +1,94 @@
+{
+ "grid_blocks": 1296,
+ "units": [
+  {
+   "sector": "circular",
+   "scalar": "3/5",
+   "O_squared": "-16/25",
+   "defect": "4/5"
+  },
+  {
+   "sector": "circular",
+   "scalar": "5/13",
+   "O_squared": "-144/169",
+   "defect": "16/13"
+  },
+  {
+   "sector": "circular",
+   "scalar": "3/5",
+   "O_squared": "-16/25",
+   "defect": "4/5"
+  },
+  {
+   "sector": "circular",
+   "scalar": "4/5",
+   "O_squared": "-9/25",
+   "defect": "2/5"
+  },
+  {
+   "sector": "split",
+   "scalar": "5/4",
+   "O_squared": "9/16",
+   "defect": "-1/2"
+  },
+  {
+   "sector": "split",
+   "scalar": "5/4",
+   "O_squared": "9/16",
+   "defect": "-1/2"
+  },
+  {
+   "sector": "split",
+   "scalar": "13/12",
+   "O_squared": "25/144",
+   "defect": "-1/6"
+  },
+  {
+   "sector": "split",
+   "scalar": "17/8",
+   "O_squared": "225/64",
+   "defect": "-9/4"
+  },
+  {
+   "sector": "dual",
+   "scalar": "1",
+   "O_squared": "0",
+   "defect": "0"
+  },
+  {
+   "sector": "dual",
+   "scalar": "1",
+   "O_squared": "0",
+   "defect": "0"
+  },
+  {
+   "sector": "dual",
+   "scalar": "1",
+   "O_squared": "0",
+   "defect": "0"
+  }
+ ],
+ "compositions": 121,
+ "cases": {
+  "PR1 speed^2 + (curvature/2)^2 = 1": [
+   "9/25",
+   "16/25"
+  ],
+  "CL1 mass^2 = clock curvature = det(I - coin)": "4/5",
+  "MS1 combined speed": "-33/65",
+  "CL2 corner cosh and split defect": [
+   "17/8",
+   "-9/4"
+  ],
+  "PH2 rotation tangent": "26/127",
+  "MS1 state: speed, memory": [
+   "35/37",
+   "144/1369"
+  ],
+  "RMG9 coupling r^2 and ratio D_par/det": [
+   "9/32",
+   "32/23"
+  ],
+  "PR2 form of a traceless block": "-23/36"
+ }
+}
