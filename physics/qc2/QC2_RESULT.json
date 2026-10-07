@@ -1,0 +1,110 @@
+{
+ "exact": {
+  "derivative": [
+   {
+    "identities": 42,
+    "mean_pairing": "2"
+   },
+   {
+    "identities": 42,
+    "mean_pairing": "4/3"
+   }
+  ],
+  "wick": [
+   {
+    "readings": 15,
+    "unit_per_quantum": "2",
+    "contents_by_number": {
+     "0": [
+      0
+     ],
+     "1": [
+      -1,
+      1
+     ],
+     "2": [
+      -2,
+      0,
+      2
+     ],
+     "3": [
+      -3,
+      -1,
+      1,
+      3
+     ],
+     "4": [
+      -4,
+      -2,
+      0,
+      2,
+      4
+     ]
+    }
+   },
+   {
+    "readings": 15,
+    "unit_per_quantum": "4/3",
+    "contents_by_number": {
+     "0": [
+      0
+     ],
+     "1": [
+      -1,
+      1
+     ],
+     "2": [
+      -2,
+      0,
+      2
+     ],
+     "3": [
+      -3,
+      -1,
+      1,
+      3
+     ],
+     "4": [
+      -4,
+      -2,
+      0,
+      2,
+      4
+     ]
+    }
+   }
+  ]
+ },
+ "fluid": [
+  {
+   "fluid": "CarbonDioxide",
+   "cycle": [
+    310.0,
+    350.0,
+    200.0,
+    700.0
+   ],
+   "theta_energy": -0.9260296267127414,
+   "theta_entropy": -1.0044606248904167,
+   "theta_entropy_transport": -1.004460016487666,
+   "theta_entropy_ideal_cv0": 6.839503172055398e-08,
+   "length_energy": 11.708780410920754,
+   "length_entropy": 11.15277437598044
+  },
+  {
+   "fluid": "Argon",
+   "cycle": [
+    155.0,
+    200.0,
+    250.0,
+    800.0
+   ],
+   "theta_energy": -1.0727839839458198,
+   "theta_entropy": -1.2444295264419227,
+   "theta_entropy_transport": -1.244428760142855,
+   "theta_entropy_ideal_cv0": 2.0039581777320698e-08,
+   "length_energy": 12.394667564274878,
+   "length_entropy": 11.471421655418379
+  }
+ ]
+}
