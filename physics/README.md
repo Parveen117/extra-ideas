@@ -12,3 +12,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [QC2](qc2/QC2_UNIT_OF_RETURN.md) — with the fluctuation scale κ the pair becomes operators (p ≙ κ∂/∂w), readings are counted by number and content, and the return generator has spectrum κ·q; entropy-representation returns.
 - [QC3](qc3/QC3_EVEN_ODD_ARROW.md) — one arrow, two units: even part = heat, odd part = phase, E² − O² = I, record memory = −O²; character and Casimir laws; the Yang–Mills 3/4.
 - [QC4](qc4/QC4_RETURN_IS_MEMORY.md) — return is memory: curvature of shared flat readings = −variance; the compass law; the Wilson density and the field strength as record defect and record memory of the loop arrow.
+- [QC5](qc5/QC5_MOVING_SHARE.md) — a share that moves in scale between two flat gauge readings: gradient + variance, the logistic law, minimal cost 2 at every scale.
