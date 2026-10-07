@@ -1,0 +1,270 @@
+{
+ "commutator": {
+  "open_marks": 3,
+  "cyclic_sizes": [
+   3,
+   4,
+   5
+  ]
+ },
+ "inequality": {
+  "states": [
+   {
+    "product": "5/36",
+    "bound": "1/9",
+    "ratio": "5/4"
+   },
+   {
+    "product": "247/1296",
+    "bound": "25/144",
+    "ratio": "247/225"
+   },
+   {
+    "product": "312/6859",
+    "bound": "0",
+    "ratio": "bound zero"
+   },
+   {
+    "product": "511/2916",
+    "bound": "25/324",
+    "ratio": "511/225"
+   },
+   {
+    "product": "6/35",
+    "bound": "4/25",
+    "ratio": "15/14"
+   }
+  ],
+  "sharp_instance": {
+   "var_count": "1",
+   "var_response": "1/4",
+   "covariance": "0",
+   "R": "-1"
+  }
+ },
+ "phase": [
+  {
+   "tick": [
+    "3/5",
+    "4/5"
+   ],
+   "profile": "box 4",
+   "overlap": "3/4",
+   "unit": "9/20",
+   "one_minus_curvature_half": "3/5"
+  },
+  {
+   "tick": [
+    "3/5",
+    "4/5"
+   ],
+   "profile": "box 12",
+   "overlap": "11/12",
+   "unit": "11/20",
+   "one_minus_curvature_half": "3/5"
+  },
+  {
+   "tick": [
+    "3/5",
+    "4/5"
+   ],
+   "profile": "triangle 5",
+   "overlap": "16/19",
+   "unit": "48/95",
+   "one_minus_curvature_half": "3/5"
+  },
+  {
+   "tick": [
+    "3/5",
+    "4/5"
+   ],
+   "profile": "binomial 8",
+   "overlap": "8/9",
+   "unit": "8/15",
+   "one_minus_curvature_half": "3/5"
+  },
+  {
+   "tick": [
+    "4/5",
+    "3/5"
+   ],
+   "profile": "box 4",
+   "overlap": "3/4",
+   "unit": "3/5",
+   "one_minus_curvature_half": "4/5"
+  },
+  {
+   "tick": [
+    "4/5",
+    "3/5"
+   ],
+   "profile": "box 12",
+   "overlap": "11/12",
+   "unit": "11/15",
+   "one_minus_curvature_half": "4/5"
+  },
+  {
+   "tick": [
+    "4/5",
+    "3/5"
+   ],
+   "profile": "triangle 5",
+   "overlap": "16/19",
+   "unit": "64/95",
+   "one_minus_curvature_half": "4/5"
+  },
+  {
+   "tick": [
+    "4/5",
+    "3/5"
+   ],
+   "profile": "binomial 8",
+   "overlap": "8/9",
+   "unit": "32/45",
+   "one_minus_curvature_half": "4/5"
+  },
+  {
+   "tick": [
+    "1",
+    "0"
+   ],
+   "profile": "box 4",
+   "overlap": "3/4",
+   "unit": "3/4",
+   "one_minus_curvature_half": "1"
+  },
+  {
+   "tick": [
+    "1",
+    "0"
+   ],
+   "profile": "box 12",
+   "overlap": "11/12",
+   "unit": "11/12",
+   "one_minus_curvature_half": "1"
+  },
+  {
+   "tick": [
+    "1",
+    "0"
+   ],
+   "profile": "triangle 5",
+   "overlap": "16/19",
+   "unit": "16/19",
+   "one_minus_curvature_half": "1"
+  },
+  {
+   "tick": [
+    "1",
+    "0"
+   ],
+   "profile": "binomial 8",
+   "overlap": "8/9",
+   "unit": "8/9",
+   "one_minus_curvature_half": "1"
+  },
+  {
+   "tick": [
+    "0",
+    "1"
+   ],
+   "profile": "box 4",
+   "overlap": "3/4",
+   "unit": "0",
+   "one_minus_curvature_half": "0"
+  },
+  {
+   "tick": [
+    "0",
+    "1"
+   ],
+   "profile": "box 12",
+   "overlap": "11/12",
+   "unit": "0",
+   "one_minus_curvature_half": "0"
+  },
+  {
+   "tick": [
+    "0",
+    "1"
+   ],
+   "profile": "triangle 5",
+   "overlap": "16/19",
+   "unit": "0",
+   "one_minus_curvature_half": "0"
+  },
+  {
+   "tick": [
+    "0",
+    "1"
+   ],
+   "profile": "binomial 8",
+   "overlap": "8/9",
+   "unit": "0",
+   "one_minus_curvature_half": "0"
+  },
+  {
+   "tick": [
+    "-5/13",
+    "12/13"
+   ],
+   "profile": "box 4",
+   "overlap": "3/4",
+   "unit": "-15/52",
+   "one_minus_curvature_half": "-5/13"
+  },
+  {
+   "tick": [
+    "-5/13",
+    "12/13"
+   ],
+   "profile": "box 12",
+   "overlap": "11/12",
+   "unit": "-55/156",
+   "one_minus_curvature_half": "-5/13"
+  },
+  {
+   "tick": [
+    "-5/13",
+    "12/13"
+   ],
+   "profile": "triangle 5",
+   "overlap": "16/19",
+   "unit": "-80/247",
+   "one_minus_curvature_half": "-5/13"
+  },
+  {
+   "tick": [
+    "-5/13",
+    "12/13"
+   ],
+   "profile": "binomial 8",
+   "overlap": "8/9",
+   "unit": "-40/117",
+   "one_minus_curvature_half": "-5/13"
+  }
+ ],
+ "ladder": [
+  {
+   "marks": 2,
+   "tick_even_part": "-1",
+   "minimum": "1/2 (reversed)"
+  },
+  {
+   "marks": 4,
+   "tick_even_part": "0",
+   "minimum": "0: count and response commute"
+  },
+  {
+   "marks": 8,
+   "tick_even_part": "1/sqrt(2)",
+   "minimum": "1/(2 sqrt(2))",
+   "check": "1/2 = (1/sqrt(2))^2"
+  },
+  {
+   "marks": "infinity",
+   "tick_even_part": "1",
+   "minimum": "1/2"
+  }
+ ]
+}
