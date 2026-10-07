@@ -1,131 +1,159 @@
-# Synthesis — one structure behind the physics line
+# Synthesis — one block, one conservation law, two fields and a unit
 
-Monty Dabas. 7 October 2026. Certified core: `sy1/` (Python 3.12, exact
-rational arithmetic, seven tests).
+Monty Dabas. 7 October 2026. Second edition, after FR1–DC1.
+Certified core: every stage folder here; `python run_all_tests.py` runs
+161 exact tests in 28 files (Python 3.12, standard library only).
 
-This document collects PH1–PH3, QC1–QC5, PR1–PR4, CL1–CL2 and MS1 into
-one statement on the certified EMK block, lists every stage as a case of
-it, and says what is still open.
+## In one paragraph
 
-Certified sources used as the carrier, read before building:
-**EMK-1** T1 (K² = I, R² = −I, RK = −KR, (RK)² = I, [R,K] = 2RK),
-T2 (det M = Δ∥ + Δ⊥), T3 (the commutator with K is the seam-mixing
-detector), T7 (memoryless ⟺ rotation-free); **EMK-T1** T2–T3 (channel
-curvature = per-channel + mixed term; the mixed term is necessary),
-T5 (time closure is not clock equality); **EMK-T2** T1 (order is content;
-the unordered sum sits halfway between the two orders), T4 (same clock,
-different history ledger). All in Publications `papers/emk-ugd-algebra`.
+Everything in the physics line is a statement about one object — the
+block certified in EMK-1, read on the framework's cut-complex carrier —
+and one law of conservation: what a cut observes and what it loses keep
+the uncut. A reading is a part of the block; a frame is a choice of
+cuts; geometry belongs to the frame. The block has exactly three
+factors. Two of them can be made to vary from place to place, and they
+are the two long-range fields: light, weighted by a counted content, and
+gravity, the same for every reading. The third cannot, and it is the
+unit in which everything is counted.
 
-## 1. The structure (SY1)
-
-Every block is M = aI + bK + cR + dRK, with
+## 1. The object
 
 ```text
-det M = Δ∥ + Δ⊥ ,        Δ∥ = a² − b²  (seam-compatible channel) ,        Δ⊥ = c² − d²  (rotational channel) .
+block      ( a + ι b ) + ( r + ι s )·C          a uncut,  r three cuts,  s three turns,  ι = C₁C₂C₃        OB1, FR1
+channels   det = Δ∥ + Δ⊥                                                                                  EMK-1 T2
+split      E = scalar part,  O = traceless part,  E² − O² = I on the unit quadric                         SY1, QC3
+sectors    circular (turns), dual (light-like), split (boosts) — by the sign of O²                        SY1
+law        D = ∂_t + ΣC_i∂_i ,  D·D̄ = wave operator                                                       OB1, PR1
 ```
 
-Split it into its scalar and traceless parts: **E = a**, **O = M − a**.
+A frame over the rationals carries two anticommuting cuts; on the
+cut-complex carrier three, and no fourth. The number of cuts is the
+number of readings after which nothing of a single reading is lost.
+[FR1, IN1, DM1]
+
+## 2. The conservation law
 
 ```text
-S1   O² = (b² + d² − c²)·I ;   on the unit quadric det M = 1 :   E² − O² = I .
-S2   Three sectors by the sign of O²:   circular (O² < 0),   dual (O² = 0),   split (O² > 0).
-S3   Defect:   det(I − M) = 2(1 − E).
-S4   Powers:   M^N = T_N(E) + χ_N·O ,   χ_N = U_{N−1}(E) ;   circular |χ_N| ≤ N ,  dual χ_N = N ,  split χ_N ≥ N ;
-               det(I − M^{2N}) = det(I − M²)·χ_N² .
-S5   Composition:   M₁M₂ = (E₁E₂ + B(O₁,O₂)) + E₁O₂ + E₂O₁ + ½[O₁,O₂] ,   B = b₁b₂ + d₁d₂ − c₁c₂ .
-S6   Record {M, M⁻¹} with weights (p, 1−p):   mean = E + (2p−1)·O ,   variance = 4p(1−p)·O² .
-S7   A state tensor ψψᵀ = ½(n + jK + σRK) is null:   Δ∥ = −Δ⊥ = σ²/4 .
+reading tensor       ρ = ½ ( n + r·C )
+single reading       n² = r₁² + r₂² + r₃²                 lost to one cut = observed by the others
+every frame          n² − r·r is the same                 a form with one plus and three minus signs
+record of two        n² − r·r = 2p(1−p)(n₁n₂ − r₁·r₂)     what no cut of the frame holds
 ```
 
-S1–S6 are certified on 1296 grid blocks and on eleven rational unit
-blocks covering the three sectors, S5 on all 121 ordered pairs.
+Recoverable memory is frame-dependent and sums to the uncut;
+unrecoverable memory is the invariant. [IN1] What a frame with fewer cuts
+cannot read it meets as mass: the two-cut rest mass is the third
+reading, the massless three-cut law on a mode of third wave number k₃ is
+the two-cut law with flip rate −c·k₃, and the two sheets — mass and
+antimass — are the two directions along the unseen cut. [DM1, PR2]
 
-## 2. Every stage is a case
+## 3. The two parities
 
-| Stage | Law | Where it sits in SY1 |
+```text
+one arrow U and its reverse:      E = (U + U⁻¹)/2          O = (U − U⁻¹)/2          E² − O² = I ,  memory = −O²
+                                  second order, real       first order, circular
+                                  records, heat, loss      phase, clock, mass
+```
+
+Deterministic refinement keeps the odd part; symmetric records keep the
+even part and turn the odd part into memory. [QC3, GE2] The same split
+gives: the share law 4p(1−p) as the variance of a two-way choice [PH3,
+QC4]; curvature of shared flat readings = −variance [QC4]; mass² = clock
+curvature and speed = 1 − curvature/2 [CL1, PR1]; the unit of a frame as
+the even part of its tick [HB1]; the character χ_N ≤ N for combined
+masses and ≥ N for turned histories [MS1, CL2].
+
+## 4. The three factors of a block
+
+```text
+factor        made local                         physics                               on a reading
+phase         field F = E + ιB ; D(F·C) = J      light; content q is the charge        nothing, except through F
+unit block    field H = (1 + β r̂·C)/N            gravity (thesis)                      n, r move; invariant kept
+scale         refused as a field                 the unit of count                     everything rescales
+```
+
+- **Light.** Potential, field, source and force are parts of the block
+  under the one law D: the four field equations are its four grades; the
+  source is a reading, hence no magnetic source and a conserved charge;
+  the force is the frame change Fρ + ρF†. u² − S·S = ¼|F·F|². [OB1, EM1]
+- **Gravity.** Source: unrecoverable memory. Field: recoverable memory
+  m = r_s/r, the least total variance between neighbouring shells in a
+  frame of three cuts. Clock factor N = √(1 − r_s/r); horizon = balanced
+  share. Removable at a point by one frame change; with the locally pure
+  frames sharing one flat space, the largest-count histories are the
+  known orbits. [GR1, MC1, GR2, MO1, GB1, GRAVITY_THESIS]
+- **Unit.** Frames that exchange must count in one unit; its value is
+  not set by any law of the block. [R43.3, DC1, SC1]
+
+Light acts through the algebra and is odd between the sheets; gravity
+acts through the group and is even. [GB1, FR1]
+
+## 5. What comes out with numbers
+
+```text
+return angle of real fluids on near-critical cycles        0.9 – 1.1 rad, unit-free                 PH1
+the same angle as the rotation left by a strain cycle      CO₂: 12 elements 41.45°, limit 53.06°    PH2
+static acceleration at the Earth's surface                 9.82 m/s²                                GR1
+advance of Mercury's orbit                                 42.98″ per century                       MO1
+deflection of light at the Sun                             1.751″  (scalar-only gravity: 0.876″)    MO1, GB1
+count lost on a turned history, legs (3,5), (−3,5)         8 against 10                             CL2
+memory between two 10⁻¹⁴ kg masses, 2.5 s                  0.012                                    DC1
+```
+
+## 6. Where the account can be wrong
+
+```text
+R1  a static clock near a mass differing from √(1 − r_s/r) at second order
+R2  matter and antimatter falling, or curving clocks, differently
+R3  a source of gravity that is not a record: a single light-like reading must not gravitate, a pair must
+R5  the once-around turn not containing π r_s/r at first order
+R6  an isolated mass losing coherence exponentially at a rate set by its own gravity
+R7  two masses coupled only by gravity that never share memory
+```
+
+## 7. Every stage in its place
+
+| Stage | Statement | Place |
 |---|---|---|
-| QC3 | E² − O² = I; record memory = −O² | S1, S6 at p = ½ |
-| QC3, MS1 | character law; N combined masses M₁χ_N | S4, circular sector |
-| CL2 | N-leg history ratio N/χ_N; corner cost 2τ₁τ₂(cosh δ − 1) | S4, S3, split sector |
-| PR1 | speed² + (curvature/2)² = 1 | Δ∥ + Δ⊥ = 1 for a coin: Δ∥ = speed², Δ⊥ = (curvature/2)² |
-| CL1 | mass² = clock curvature | S3: det(I − coin) = 2(1 − E) |
-| MS1 | combined speed c₁c₂ − s₁s₂ | S5, scalar part |
-| PR1, PH2, PH1 | velocity addition; rotation left by two responses; the return angle | S5: scalar part and the R-component of ½[O₁,O₂] |
-| QC4, PH3 | curvature of shared flat readings = −variance; share law 4λ(1−λ) | S6 and the commutator part of S5 (EMK-T1 T2: the mixed term) |
-| PH3 | native transport = equal share of two readings | EMK-T2 T1: the unordered sum is halfway between the two orders |
-| PR2 | X² = x² + y² − t²; two sheets; pair observer | S1 for a traceless block; S6: even part and variance are scalars |
-| PR4, MS1 | σ² = n² − j²; speed² + memory = 1 | S7: the state tensor is null; memory = 4Δ∥/n² |
-| RMG9, RMG6 | coupling r²; C_P/C_V | response block: r² = −Δ⊥/Δ∥ , C_P/C_V = Δ∥/det |
-| PR1 (θ = 0), PR4 (g = 0) | light-like = flat | EMK-1 T7: commutes with K ⟺ rotation-free |
-| CL1, CL2 | time is a count on histories; rates differ between histories | EMK-T1 T5, EMK-T2 T4 |
-| QC1 | content q silent iff qΘ ∈ 2πℤ | S4: M^N = I in the circular sector |
-| QC2 | p ≙ κ∂/∂w; number and content | outside SY1: needs the ensemble (a scale) |
-| QC5 | share moving in scale; logistic law | outside SY1: a field of blocks, with S6 at each point |
+| PH1–PH3 | return angle of a fluid; strain-cycle rotation; equal share of two flat readings | §3: share law, curvature = −variance |
+| QC1, QC2 | integer content; p ≙ κ∂/∂w in the ensemble | §3: counting; the unit |
+| QC3, QC4 | even/odd parities; return is memory; compass law | §3 |
+| QC5 | moving share between flat gauge readings; logistic law | §3 on a field of blocks |
+| PR1–PR4 | sector speed and mass; two sheets; accelerated frame; the source τ | §2, §3 |
+| CL1, CL2 | mass² = clock curvature; turned histories | §3 |
+| MS1 | speed² + memory = 1; combined masses | §2, §3 |
+| SY1 | the unit block and its split | §1 |
+| FR1, IN1, DM1 | cuts and dimension; the invariant; the unseen leg | §1, §2 |
+| HB1 | the unit of a frame | §3, §4 |
+| EM1, OB1 | the wave under a cut; one block, one law | §4: light |
+| GR1, MC1, GR2, MO1 | gravity as memory; 1/r from least cost; thesis core; motion | §4: gravity |
+| GB1, SC1 | the three factors; scale is the unit | §4 |
+| DC1 | one unit for all frames; memory between masses | §4, §6 |
 
-## 3. The three sectors
+## 8. Limits
+
+Nothing here changes a classical equation or predicts a number that
+existing theory does not give; the account reproduces known physics from
+one certified algebra and takes sides where the known theory leaves a
+choice (§6). The value of every dimensional constant is outside it, by
+SC1. The gravity thesis rests on stated assumptions (the dictionary, the
+least-cost reading, one flat space for the locally pure frames) and is
+static or test-particle only. Fluid numbers use reference equations of
+state through CoolProp. No stage has been checked by a proof assistant
+or by external review.
+
+## 9. Open
 
 ```text
-              circular  (O² < 0)            dual  (O² = 0)            split  (O² > 0)
-element       turn Exp(θR)                  shear 1 + N               boost Exp(ηA)
-E             cos θ  ≤ 1                    1                         cosh η  ≥ 1
-defect        2(1 − cos θ) ≥ 0              0                         −2(cosh η − 1) ≤ 0
-character     sin Nθ / sin θ  ≤ N           N                         sinh Nη / sinh η  ≥ N
-addition      (t₁ + t₂)/(1 − t₁t₂)          t₁ + t₂                   (u₁ + u₂)/(1 + u₁u₂)
-physics       phase, mass, clock, record    light-like, flat          velocity, history, response
-what is lost  the record loses phase        nothing                   the turned history loses count
+the two pure numbers        the size of one unit of content for light (≈ 1/137); of gravity for a given mass
+the assumption of MO1       derive or refuse that the locally pure frames fit together
+many ledgers                when memory between systems becomes effectively permanent (R44)
+a block law for gravity     what D is for light
+an experiment               the programmed chain of PH2; the pair memory of DC1
 ```
 
-One function of E governs all three; the sector fixes the side of each
-inequality. The dual sector is the boundary where nothing is lost and
-nothing is gained: the light-like reading.
-
-## 4. In words
-
-- A reading is a block. Its scalar part is what every observer agrees on;
-  its traceless part is what depends on the reading.
-- Observation — a symmetric record — keeps the scalar part and turns the
-  traceless part into memory (S6). Memory is the square of what was not
-  recorded.
-- Speed and mass are the two channels of one determinant (Δ∥, Δ⊥): they
-  close independently and sum to one.
-- A state is a null block: its seam channel is its memory, and its
-  rotational channel cancels it exactly.
-- Time is a count on a history. Turning a history costs count (split
-  sector); recording a turn costs phase (circular sector). Same law.
-
-## 5. What is proved, what is open
+## 10. Reproduce
 
 ```text
-ONE CARRIER (THE EMK BLOCK) AND ONE SPLIT (E, O) UNDERLIE ALL STAGES IN §2         PROVED (SY1 + the stage certificates)
-A UNIT: ħ, k_B, OR ANY SCALE                                                      OPEN — SY1 is scale-free; QC2 needs the ensemble as input
-WHAT FIXES THE SCALE λ OF A MOVING SHARE; A MASS GAP                              OPEN (QC5)
-GRAVITY                                                                           OPEN — refused three times (PR4 law not derived; CL1 no native unit-of-time field; MS1 a varying coin is a mass profile)
-WHICH COIN, WHICH Q, WHICH SECTOR SPEED NATURE USES                               OPEN — every physical constant is still an input
-MORE THAN ONE SPACE DIMENSION                                                     OPEN — the block is 2×2; two boosts and one rotation is all it holds
-A MEASUREMENT OF ANYTHING NEW                                                     NONE — PH1's Θ is computed from reference data; PH2, PH3 protocols are not built
-A CLASSICAL EQUATION MODIFIED                                                     NONE
-```
-
-## 6. How near is "one theory"
-
-What exists is one algebraic structure that reproduces, exactly and from
-the framework's own certified algebra, the shape of: the quantum/thermal
-split, relativistic kinematics in one space dimension, the clock, mass
-as clock curvature, the mass defect of combination, and the return angle
-of a real fluid. That is a unification of form.
-
-What does not exist is anything that fixes a number nature uses, or a
-prediction that could come out wrong. The three open items that would
-change that are, in order of how close the present structure is to them:
-
-1. **Scale** — the ensemble of QC2 placed on the moving share of QC5.
-2. **Two space dimensions** — where the two boosts of the block do not
-   commute and S5's commutator becomes a curvature of the frame.
-3. **An experiment** — the programmed chain of PH2 is the nearest one.
-
-## 7. Reproduce
-
-```text
-python sy1/sy1_one_structure.py
-python -m unittest discover -s sy1 -p 'test_*.py'
+python run_all_tests.py
 ```
