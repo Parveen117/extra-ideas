@@ -22,3 +22,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [CL2](cl2/CL2_TWO_HISTORIES.md) — two histories with the same ends: the turned one counts less; corner cost 2τ₁τ₂(cosh δ − 1); the split character sinh(Nb)/sinh(b).
 - [MS1](ms1/MS1_SPEED_AND_MASS.md) — more speed, less mass: speed² + memory = 1 for a state; a slowed flow loads with memory (speed = sech 2G); combined coins slow down and weigh less than their sum.
 - [GR1](gr1/GR1_MEMORY_DICTIONARY.md) — gravity as memory, static dictionary: change = flip × N × √memory; with the 1/r law as input the point-mass clock factor and acceleration are reproduced; horizon = balanced share.
+- [MC1](mc1/MC1_MINIMUM_COST.md) — 1/r from minimum cost: the least total variance between neighbouring shells is r^{−(d−2)}; with memory as the reading, GR1's 1/r law is no longer an input.

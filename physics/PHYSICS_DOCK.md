@@ -32,6 +32,7 @@ what, if anything, is measurable beyond the classical statement.
 | MS1: state: speed² + memory = 1; static flow: speed = sech 2G, σ = j√(1−v²)/v; coins combine: speed c₁c₂ − s₁s₂, mass M₁E₂ + M₂E₁, N coins M₁χ_N | Lorentz factor; density in a slowed flow; mass defect of a bound system | exact | more speed, less mass; slowing loads a flow with memory; combined masses weigh less than their sum by the circular character |
 | SY1: unit EMK block, E = scalar part, O = traceless part: E² − O² = I, three sectors, defect 2(1 − E), character χ_N, composition law, record variance 4p(1−p)O², null state tensor | EMK-1 determinant identity Δ∥ + Δ⊥; SL(2,ℝ) | exact | one carrier and one split behind PH, QC, PR, CL and MS; see SYNTHESIS.md |
 | GR1: static flow: ∂N = −2gN√m; with m = r_s/r as input: N = √(1 − r_s/r), share p = (1+N)/2, horizon = balanced share, acceleration r_s c²/(2r²N) | static clock factor and acceleration of a point mass; Newtonian potential | reproduced given the 1/r law | potential = −½c² × memory; no memory ⇒ no change; G/c² as memory length per mass; c–G relation refused |
+| MC1: least total variance between neighbouring shells: minimizer r^{−(d−2)}, unique, gradient × area constant; d = 3 with reading = memory ⇒ m = r_s/r | least-energy characterization of the Newtonian potential; flux through spheres | exact on scale-uniform shells | 1/r as minimum cost of spreading lost information; the conserved flux is the mass; needs memory (not N) as the reading |
 
 ## Reading
 
