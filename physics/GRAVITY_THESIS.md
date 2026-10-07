@@ -164,3 +164,16 @@ would bend by half the measured amount, or not at all. *[GB1 — proved]*
 python gr2/gr2_thesis_core.py
 python -m unittest discover -s gr2 -p 'test_*.py'
 ```
+
+## Curvature (CV1)
+
+Statement 4 removes the memory at a point; it does not remove the
+curvature of the frame field, which is the order defect of the connected
+frame directions (EMK-C1 form). For the frame of MO1 its contraction
+vanishes exactly when (r m)′ = 0, i.e. m = r_s/r, and the time–time part
+is minus half the variance operator of MC1: the least-variance law of
+statement 5 is the vanishing of the time–time contracted curvature, and
+the remaining components remove the constant that least variance alone
+allows. What every frame agrees on is the uncontracted curvature,
+r_s/r³ × (1, −½, −½). That the contraction, and not something else, is
+the law is taken here, not derived.

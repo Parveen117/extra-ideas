@@ -1,0 +1,31 @@
+{
+ "contracted": [
+  "-Derivative(m(r), (r, 2))/2 - Derivative(m(r), r)/r",
+  "Derivative(m(r), (r, 2))/2 + Derivative(m(r), r)/r",
+  "(r*Derivative(m(r), r) + m(r))/r**2",
+  "(r*Derivative(m(r), r) + m(r))/r**2"
+ ],
+ "overall_sign": -1,
+ "vacuum_tidal": [
+  "r_s/r**3",
+  "-r_s/(2*r**3)",
+  "-r_s/(2*r**3)"
+ ],
+ "curvature_square": "12*r_s**2/r**6",
+ "constant_curvature_ratio": "-L",
+ "constant_memory_contracted": [
+  "0",
+  "0",
+  "B/r**2",
+  "B/r**2"
+ ],
+ "mc1_operator_on_A_over_r_plus_B": "0",
+ "structure_nonzero": {
+  "011": "Derivative(beta(r), r)",
+  "022": "beta(r)/r",
+  "033": "beta(r)/r",
+  "122": "-1/r",
+  "133": "-1/r",
+  "233": "-1/(r*tan(theta))"
+ }
+}

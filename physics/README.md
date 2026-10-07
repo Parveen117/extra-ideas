@@ -34,3 +34,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [GB1](gb1/GB1_GRAVITY_IN_THE_BLOCK.md) — where gravity sits in the block: not the scalar/volume part (light would bend too little); a field of self-dagger unit blocks acting the same on every reading; the leftover part is scale.
 - [SC1](sc1/SC1_LOCAL_SCALE.md) — the scale factor made local: a rate of loss, refused as a field (the invariant would depend on history); scale is the unit, not a force.
 - [DC1](dc1/DC1_MEMORY_BETWEEN_MASSES.md) — one unit for all frames (R43.3) and what gravity does to a superposition: memory between two masses ½ sin²(Δ/2), none for one mass alone; a departure from the single-mass decay law of D4.
+- [CV1](cv1/CV1_FRAME_CURVATURE.md) — curvature of the frame field as order defect: the contraction vanishes exactly for m = r_s/r; what no frame change removes is r_s/r³ × (1, −½, −½); R₀₀ is minus half of MC1's variance operator.
