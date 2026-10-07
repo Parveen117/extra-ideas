@@ -1,0 +1,115 @@
+{
+ "pythagoras": [
+  {
+   "uncut": "10",
+   "seen_speed_squared": "1",
+   "unseen_squared": "0",
+   "real": true,
+   "ladder": {
+    "one_cut": "9/25",
+    "two_cuts": "0",
+    "three_cuts": "0"
+   }
+  },
+  {
+   "uncut": "5",
+   "seen_speed_squared": "9/25",
+   "unseen_squared": "16/25",
+   "real": false,
+   "ladder": {
+    "one_cut": "16/25",
+    "two_cuts": "16/25",
+    "three_cuts": "0"
+   }
+  },
+  {
+   "uncut": "15",
+   "seen_speed_squared": "29/225",
+   "unseen_squared": "196/225",
+   "real": false,
+   "ladder": {
+    "one_cut": "8/9",
+    "two_cuts": "196/225",
+    "three_cuts": "0"
+   }
+  },
+  {
+   "uncut": "41/16",
+   "seen_speed_squared": "657/1681",
+   "unseen_squared": "1024/1681",
+   "real": false,
+   "ladder": {
+    "one_cut": "1600/1681",
+    "two_cuts": "1024/1681",
+    "three_cuts": "0"
+   }
+  },
+  {
+   "uncut": "25",
+   "seen_speed_squared": "1",
+   "unseen_squared": "0",
+   "real": true,
+   "ladder": {
+    "one_cut": "576/625",
+    "two_cuts": "0",
+    "three_cuts": "0"
+   }
+  }
+ ],
+ "third_reading": [
+  {
+   "third_reading": "4",
+   "after_a_cut_complex_frame_change": "-28/25"
+  },
+  {
+   "third_reading": "-14",
+   "after_a_cut_complex_frame_change": "146/25"
+  },
+  {
+   "third_reading": "2",
+   "after_a_cut_complex_frame_change": "-2"
+  }
+ ],
+ "mass": [
+  {
+   "speed": "1",
+   "third_wave_number": "3",
+   "flip_rate": "-3",
+   "sheet": "lower"
+  },
+  {
+   "speed": "1/2",
+   "third_wave_number": "-2",
+   "flip_rate": "1",
+   "sheet": "upper"
+  },
+  {
+   "speed": "3",
+   "third_wave_number": "7/4",
+   "flip_rate": "-21/4",
+   "sheet": "lower"
+  }
+ ],
+ "doubled": [
+  {
+   "unrecoverable": "148",
+   "pairing_with_second_sheet_squared": "37",
+   "single": false
+  },
+  {
+   "unrecoverable": "32",
+   "pairing_with_second_sheet_squared": "8",
+   "single": false
+  },
+  {
+   "unrecoverable": "0",
+   "pairing_with_second_sheet_squared": "0",
+   "single": true
+  },
+  {
+   "unrecoverable": "576/625",
+   "pairing_with_second_sheet_squared": "144/625",
+   "single": false
+  }
+ ]
+}

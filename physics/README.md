@@ -27,3 +27,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [FR1](fr1/FR1_THE_FRAME_CUTS.md) — the frame is what cuts: one invariant read through different cuts; a real block carries two cuts, a cut-complex one three; with three, mass is the coupling to the conjugate sheet.
 - [IN1](in1/IN1_THE_INVARIANT.md) — the invariant: observed and lost together keep the uncut in every frame; three cuts lose nothing of a single reading; what a record loses to every cut is frame-independent.
 - [MO1](mo1/MO1_MOTION.md) — motion in the memory field: with one assumption the largest-count histories are the known orbits (Mercury 42.98″/century, light 1.751″).
+- [DM1](dm1/DM1_ONE_MORE_DIMENSION.md) — one more dimension reads the curvature: the uncut is the hypotenuse, a frame reads the cosine and meets the sine as mass; mass is the third momentum, its sign the sheet.
