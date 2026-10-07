@@ -37,3 +37,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [CV1](cv1/CV1_FRAME_CURVATURE.md) — curvature of the frame field as order defect: the contraction vanishes exactly for m = r_s/r; what no frame change removes is r_s/r³ × (1, −½, −½); R₀₀ is minus half of MC1's variance operator.
 - [TP1](tp1/TP1_FRAME_DEFECT_LAW.md) — all loops closed, gravity in the order defect of the frame: equivalence selects the one quadratic law (1 : 2 : −4), which is the curvature law of CV1.
 - [NC1](nc1/NC1_NATIVE_CURVATURE_OF_THE_FIELD.md) — the framework's own curvature of the gravity field: the observed field is the ratio law ρ = −½; the Yang–Mills-type law differs at second order and is refused by Mercury's orbit.
+- [TL1](tl1/TL1_TEMPERATURE_AND_THE_CLOCK.md) — heat and the clock factor: units follow the clock (u·N equal between places), κ·N constant in equilibrium, heat has weight.
