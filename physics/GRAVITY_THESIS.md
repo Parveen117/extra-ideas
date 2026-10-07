@@ -1,0 +1,135 @@
+# The gravity thesis
+
+Monty Dabas. 7 October 2026. Certified core: `gr2/` (exact rational
+arithmetic, six tests) on top of `gr1/`, `mc1/`, `fr1/`, `in1/`, `ms1/`.
+
+## The thesis
+
+> Gravity is the memory of lost information that cannot be recovered.
+> An observer does not read change as such; change appears only through
+> what is lost. The lost and the observed together keep the uncut
+> conserved. Geometry belongs to the frame that cuts, not to what is cut.
+
+## The statement
+
+Terms. The **uncut** is the count n of a reading tensor. A **cut** is an
+involution of the frame; its **reading** is r. **Recoverable memory** is
+what one cut loses and a complementary cut holds. **Unrecoverable
+memory** is what no cut of the frame holds.
+
+**1. Conservation.** In every frame, (observed by the three cuts)² +
+(unrecoverable) = (uncut)², and the unrecoverable part is the same in
+every frame. *[IN1-T2, T4, T5 — proved]*
+
+**2. The source is unrecoverable memory.** It is zero for a single
+reading and equals 2p(1−p)(n₁n₂ − r₁·r₂) for a record of two. No frame
+change removes it. Read as energy–momentum it is the rest mass squared.
+*[IN1-T5, GR2-G2 — proved; the reading as rest mass is PR2-T2]*
+
+**3. The field is recoverable memory.** A static reading near a source
+has clock factor N equal to the imbalance of its two light-like readings,
+and memory m = 1 − N² against the radial cut. The potential is
+Φ = −½c²·m. *[GR1-T1, T2 — proved in the model]*
+
+**4. Equivalence.** That memory is removed at any one place by a single
+change of frame: the static reading becomes a pure reading. What cannot
+be removed is how the required frame change varies from place to place;
+carried once around the source, a frame returns turned.
+*[GR2-G1, G4 — proved in the model]*
+
+**5. The law.** The memory is spread so that the total variance between
+neighbouring readings is least. A frame on the cut-complex carrier has
+three cuts, and with three the least-cost memory is r_s/r, with a flux
+that is the same through every surface and adds when sources add.
+*[MC1-T1–T4, FR1-T3, GR2-G3 — proved on scale-uniform shells; that the
+cost is quadratic between neighbours, and that memory is what is spread,
+are assumed]*
+
+**6. No memory, no change.** ∂N = −2g·N·√m: where nothing is lost,
+nothing varies, whatever the flip rate. *[GR1-T1 — proved in the model]*
+
+**7. Both sheets alike.** Mass and antimass offer the same source, see
+the same clock, and lose the same count on the same histories.
+*[PR4-T4, PR3-T5, CL2-T4 — proved in the model]*
+
+## What follows, with numbers
+
+```text
+clock factor              N = √(1 − r_s/r)                                  GR1
+static acceleration       c² r_s / (2 r² N)            Earth: 9.82 m/s²     GR1
+horizon                   balanced share p = ½, never reached at finite flip GR1
+potential                 Φ = −½ c² × memory           Earth surface: memory 1.39·10⁻⁹
+once around the source    a direction turns by 2π(1/N − 1) ≈ π r_s/r         GR2-G4
+```
+
+The once-around turn for a circuit of the Earth at radius 7020 km is
+3.97·10⁻⁹ rad = 0.82 milliarcsecond. To first order this is the size of
+the known space-curvature part of the precession of an orbiting
+gyroscope; the full measured effect is half as large again, and the
+remaining part is not in this model (general knowledge; not checked
+against the literature here). At second order the model's 2π(1/N − 1)
+exceeds the cone value 2π(1 − N) by exactly 2π(1 − N)²/N.
+
+## What is proved, assumed, and put in
+
+```text
+PROVED (exact, in the framework's algebra)
+  conservation in every frame; single reading null; record invariant            IN1
+  three cuts, no fourth; mass with three cuts only through the conjugate sheet   FR1
+  least-cost profile r^{−(d−2)}; flux constant and additive                      MC1, GR2-G3
+  ∂N = −2gN√m; N² + m = 1; horizon = balanced share                              GR1
+  removal of the static memory by one frame change; survival of the source       GR2-G1, G2
+  the once-around turn                                                           GR2-G4, RMG1-T3
+
+ASSUMED
+  the static observer is the static flow reading with a light-like inflow        (the dictionary)
+  the cost is quadratic and between neighbours                                   (motivated by QC4)
+  what is spread at least cost is the memory, not the clock factor               (MC1-T5: the alternative fails at second order)
+  the frame's readings are cut-complex                                           (the framework's carrier)
+
+PUT IN
+  the constant relating flux to source: 2G/c² = 1.485·10⁻²⁷ m/kg
+  spherical symmetry; a static situation
+```
+
+## What would refute it
+
+A statement with no refutation condition is a definition.
+
+```text
+R1  a static clock near a mass measured to differ from √(1 − r_s/r) at second order in r_s/r
+R2  matter and antimatter shown to fall, or to curve clocks, differently
+R3  a source of gravity with no rest mass that this account cannot express as a record
+    (two non-parallel light-like readings do have unrecoverable memory; a single one has none)
+R4  a certified derivation, inside the framework, that the least-cost quantity is not the memory
+R5  the once-around turn measured and found not to contain π r_s/r at first order
+```
+
+R1 and R2 agree with what is known at present. R3 is the sharpest: the
+thesis says a single light-like reading does not gravitate and a pair
+does.
+
+## What is not here
+
+```text
+the value of G, or any relation between G and c alone         refused (dimensional; ledger Theorem F)
+motion of bodies; bending of light; orbits                    not built
+anything time-dependent; waves                                not built
+field equations beyond one static function                    not claimed (ledger D3′)
+the remaining third of the gyroscope precession               not in the model
+a unit: ħ, k_B, the Planck scale                              open (QC2, QC5)
+```
+
+## Next
+
+1. Motion: a reading moving through the memory field — does the least
+   count (CL2) give the orbit?
+2. R3: the record of two light-like readings as a source, exactly.
+3. The second-order term of the once-around turn against the cone value.
+
+## Reproduce
+
+```text
+python gr2/gr2_thesis_core.py
+python -m unittest discover -s gr2 -p 'test_*.py'
+```

@@ -5,6 +5,7 @@ reference equations of state (CoolProp) and numpy; it is outside the
 frozen R1–R46 / MP1–MP2 register and its workflows.
 
 - [Synthesis](SYNTHESIS.md) — one structure on the certified EMK block (SY1), every stage as a case of it, and the open gates.
+- [The gravity thesis](GRAVITY_THESIS.md) — statement, what is proved / assumed / put in, numbers, and refutation conditions; certified core in `gr2/`.
 - [Physics dock](PHYSICS_DOCK.md) — each certified result against its classical equation.
 - [PH1](ph1/PH1_REAL_FLUID_RESPONSE_HOLONOMY.md) — the return angle Θ of real fluids: about one radian on near-critical cycles, unit-free, two routes.
 - [PH2](ph2/PH2_STRAIN_CYCLE_ROTATION.md) — Θ is the rotation left by a cycle of pure strains; the CO₂ cycle as a chain of partial polarizers.
