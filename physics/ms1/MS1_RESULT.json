@@ -1,0 +1,240 @@
+{
+ "state": [
+  {
+   "share": "36/37",
+   "speed": "35/37",
+   "memory": "144/1369"
+  },
+  {
+   "share": "1/2",
+   "speed": "0",
+   "memory": "1"
+  },
+  {
+   "share": "1",
+   "speed": "1",
+   "memory": "0"
+  },
+  {
+   "share": "1/226",
+   "speed": "-112/113",
+   "memory": "225/12769"
+  }
+ ],
+ "flow": [
+  {
+   "exp_G": "1",
+   "density": "1",
+   "current": "1",
+   "proper_density": "0",
+   "speed": "1",
+   "memory": "0"
+  },
+  {
+   "exp_G": "3/2",
+   "density": "97/72",
+   "current": "1",
+   "proper_density": "65/72",
+   "speed": "72/97",
+   "memory": "4225/9409"
+  },
+  {
+   "exp_G": "2",
+   "density": "17/8",
+   "current": "1",
+   "proper_density": "15/8",
+   "speed": "8/17",
+   "memory": "225/289"
+  },
+  {
+   "exp_G": "3",
+   "density": "41/9",
+   "current": "1",
+   "proper_density": "40/9",
+   "speed": "9/41",
+   "memory": "1600/1681"
+  },
+  {
+   "exp_G": "5",
+   "density": "313/25",
+   "current": "1",
+   "proper_density": "312/25",
+   "speed": "25/313",
+   "memory": "97344/97969"
+  }
+ ],
+ "combination": [
+  {
+   "speeds": [
+    "7/25",
+    "7/25"
+   ],
+   "composite_speed": "-527/625",
+   "masses": [
+    "6/5",
+    "6/5"
+   ],
+   "composite_mass": "48/25",
+   "mass_defect": "12/25"
+  },
+  {
+   "speeds": [
+    "7/25",
+    "119/169"
+   ],
+   "composite_speed": "-2047/4225",
+   "masses": [
+    "6/5",
+    "10/13"
+   ],
+   "composite_mass": "112/65",
+   "mass_defect": "16/65"
+  },
+  {
+   "speeds": [
+    "7/25",
+    "1519/1681"
+   ],
+   "composite_speed": "-6647/42025",
+   "masses": [
+    "6/5",
+    "18/41"
+   ],
+   "composite_mass": "312/205",
+   "mass_defect": "24/205"
+  },
+  {
+   "speeds": [
+    "7/25",
+    "161/289"
+   ],
+   "composite_speed": "-4633/7225",
+   "masses": [
+    "6/5",
+    "16/17"
+   ],
+   "composite_mass": "154/85",
+   "mass_defect": "28/85"
+  },
+  {
+   "speeds": [
+    "119/169",
+    "119/169"
+   ],
+   "composite_speed": "-239/28561",
+   "masses": [
+    "10/13",
+    "10/13"
+   ],
+   "composite_mass": "240/169",
+   "mass_defect": "20/169"
+  },
+  {
+   "speeds": [
+    "119/169",
+    "1519/1681"
+   ],
+   "composite_speed": "94361/284089",
+   "masses": [
+    "10/13",
+    "18/41"
+   ],
+   "composite_mass": "616/533",
+   "mass_defect": "28/533"
+  },
+  {
+   "speeds": [
+    "119/169",
+    "161/289"
+   ],
+   "composite_speed": "-9641/48841",
+   "masses": [
+    "10/13",
+    "16/17"
+   ],
+   "composite_mass": "342/221",
+   "mass_defect": "36/221"
+  },
+  {
+   "speeds": [
+    "1519/1681",
+    "1519/1681"
+   ],
+   "composite_speed": "1788961/2825761",
+   "masses": [
+    "18/41",
+    "18/41"
+   ],
+   "composite_mass": "1440/1681",
+   "mass_defect": "36/1681"
+  },
+  {
+   "speeds": [
+    "1519/1681",
+    "161/289"
+   ],
+   "composite_speed": "71759/485809",
+   "masses": [
+    "18/41",
+    "16/17"
+   ],
+   "composite_mass": "910/697",
+   "mass_defect": "52/697"
+  },
+  {
+   "speeds": [
+    "161/289",
+    "161/289"
+   ],
+   "composite_speed": "-31679/83521",
+   "masses": [
+    "16/17",
+    "16/17"
+   ],
+   "composite_mass": "480/289",
+   "mass_defect": "64/289"
+  }
+ ],
+ "tower": {
+  "one_coin_speed": "1519/1681",
+  "rows": [
+   {
+    "coins": 1,
+    "speed": "1519/1681",
+    "mass": "18/41",
+    "binding": "0"
+   },
+   {
+    "coins": 2,
+    "speed": "1788961/2825761",
+    "mass": "1440/1681",
+    "binding": "36/1681"
+   },
+   {
+    "coins": 3,
+    "speed": "1142532559/4750104241",
+    "mass": "84942/68921",
+    "binding": "5832/68921"
+   },
+   {
+    "coins": 4,
+    "speed": "-1584162310079/7984925229121",
+    "mass": "4374720/2825761",
+    "binding": "587592/2825761"
+   },
+   {
+    "coins": 5,
+    "speed": "-8041209044472401/13422659310152401",
+    "mass": "207190098/115856201",
+    "binding": "47128392/115856201"
+   },
+   {
+    "coins": 6,
+    "speed": "-19952729003616009119/22563490300366186081",
+    "mass": "9221303520/4750104241",
+    "binding": "3291166188/4750104241"
+   }
+  ],
+  "speed_reaches_zero_by": 4
+ }
+}

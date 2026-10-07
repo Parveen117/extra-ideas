@@ -19,3 +19,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [PR4](pr4/PR4_SOURCE_IS_MEMORY.md) — the source: the dual current's residue is τ = flip rate × proper density, and proper density² = density² × two-way memory; a law for the clock is identified as a candidate, not derived.
 - [CL1](cl1/CL1_CLOCK_CURVATURE_IS_MASS.md) — the native clock (T24, GE2, R39, R41) answers PR4: mass² is the curvature of the tick against its phase; speed = 1 − curvature/2; a unit-of-time field is not a native object.
 - [CL2](cl2/CL2_TWO_HISTORIES.md) — two histories with the same ends: the turned one counts less; corner cost 2τ₁τ₂(cosh δ − 1); the split character sinh(Nb)/sinh(b).
+- [MS1](ms1/MS1_SPEED_AND_MASS.md) — more speed, less mass: speed² + memory = 1 for a state; a slowed flow loads with memory (speed = sech 2G); combined coins slow down and weigh less than their sum.
