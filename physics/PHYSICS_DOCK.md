@@ -1,0 +1,36 @@
+# Physics dock — certified theorems against the classical equations
+
+Working ledger, 7 October 2026. One row per certified result that touches
+physics: the classical statement it meets, whether the match is exact, and
+what, if anything, is measurable beyond the classical statement.
+
+| Certified result | Classical counterpart | Match | Beyond the classical statement |
+|---|---|---|---|
+| CFE-1: classical thermodynamics is the memoryless sector; ∮ω = ∬Ω | Maxwell relations, reciprocal Onsager | exact at χ = 1 | curvature appears only with memory χ ≠ 1; no experiment tied to χ yet |
+| NT-1…8, RMG1-T1: response curvature f = ½ Klein area of the odd ratio; for a Hessian, −κ dA | Gaussian curvature of the energy-Hessian metric (thermodynamic geometry) | exact | a boundary formula: total curvature of a region from second-derivative data on its boundary |
+| RMG1-T3: Θ = −½∮(cosh(ℓ/2) − 1)dφ | spin-½ Berry phase, hyperbolic form | same form | first real-fluid values: PH1, Θ ≈ −0.9 to −1.1 rad on near-critical cycles |
+| RMG1-T4, RMG8: \|Θ\| ≤ ½tanh(r*/4)L, ½ sharp, any n | length–area inequality of the hyperbolic plane (n = 2) | n = 2 consistent | n-variable SO(n) version; a consistency constraint on data, not a law data can break |
+| RMG9-T3: cycle work 2w·Area, dissipation blind to w | antisymmetric (non-reciprocal) response coefficients | exact | none new; three invariants (m, ρ, w) = three measurements |
+| RMG9-T5: λ_p − λ_v = −λ_v r², Γ* = C_V/C_P ∈ (0, 1] | C_P/C_V = κ_T/κ_S | exact | none; λ_p ≠ λ_v is coupling, not reciprocity breaking |
+| NSB1: equal Hessian spectra, different response curvature | wave speeds from the Hessian spectrum | exact | a measurement statement: speeds alone cannot fix the response geometry; impedance is needed |
+| NSR1: f = −dr∧d log Z / (2(1−r²)^{3/2}) | reversible electromagnetic constitutive law | exact | reconstruction route from wave measurements (MEASUREMENT.md) |
+| RMG6 | gravity | not derived | — |
+| YM-1…100 | lattice gauge theory | internal | no physical number |
+| PH2: return angle = rotation left by a cycle of pure strains | composition of non-collinear boosts; chains of partial polarizers; strain cycles | same structure | a programmed chain returns Θ: CO₂ cycle, 12 elements → 41.45°, limit 53.06° |
+
+## Reading
+
+- No certified result changes a classical equation. Each one that touches
+  physics reproduces the classical statement exactly in its sector.
+- What the framework adds is a set of loop quantities (Θ, L, the residue,
+  the cycle work) that the classical equations determine but do not name.
+- The identifications in the second column for rows 2–4 are stated from
+  general knowledge; the literature has not been checked for prior forms
+  of the boundary formula or the n-variable bound.
+
+## Open physics gates
+
+1. A process in which the fluid itself performs the chain of PH2; and a bench run of the programmed chain.
+2. The argon versus krypton/xenon difference in Θ on one reduced cycle.
+3. Θ across the critical point and on the coexistence boundary.
+4. The n = 3 return (mixtures, or (s, v, composition)) with real data.

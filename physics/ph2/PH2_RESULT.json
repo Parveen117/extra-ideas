@@ -1,0 +1,141 @@
+{
+ "exact": {
+  "product": [
+   [
+    "194/75",
+    "16/25"
+   ],
+   [
+    "64/25",
+    "51/50"
+   ]
+  ],
+  "tan_theta": "288/541",
+  "aligned_tan_theta": "0"
+ },
+ "fluid": "CarbonDioxide",
+ "cycle": "PH1 Table 1",
+ "rows": [
+  {
+   "elements": 6,
+   "rotation_rad": 0.4485234192660467,
+   "rotation_deg": 25.698498936721194,
+   "orthogonality_defect": 5.922048178599293e-16,
+   "unit_change_rotation": 0.44852341926604655,
+   "unit_change_element_shift": 2.277987190955421e-15,
+   "weakest_element_ratio": 0.17196797819172058,
+   "chain_weak_axis_transmission": 0.0008471238527006067
+  },
+  {
+   "elements": 12,
+   "rotation_rad": 0.7234570692956513,
+   "rotation_deg": 41.451036729544356,
+   "orthogonality_defect": 1.0139202772570658e-15,
+   "unit_change_rotation": 0.723457069295652,
+   "unit_change_element_shift": 2.4781859104316644e-15,
+   "weakest_element_ratio": 0.2872180475234273,
+   "chain_weak_axis_transmission": 0.0004268915507782958
+  },
+  {
+   "elements": 24,
+   "rotation_rad": 0.8622246199037796,
+   "rotation_deg": 49.40183171275817,
+   "orthogonality_defect": 5.468253473929217e-16,
+   "unit_change_rotation": 0.8622246199037803,
+   "unit_change_element_shift": 2.9164493834784427e-15,
+   "weakest_element_ratio": 0.4923057950065201,
+   "chain_weak_axis_transmission": 0.0002890581288445821
+  },
+  {
+   "elements": 48,
+   "rotation_rad": 0.9087925813874543,
+   "rotation_deg": 52.06997936630051,
+   "orthogonality_defect": 6.979363378442257e-16,
+   "unit_change_rotation": 0.9087925813874539,
+   "unit_change_element_shift": 3.017405759190076e-15,
+   "weakest_element_ratio": 0.6937172241412519,
+   "chain_weak_axis_transmission": 0.0002624678215663103
+  },
+  {
+   "elements": 96,
+   "rotation_rad": 0.9217075820430574,
+   "rotation_deg": 52.80995439627525,
+   "orthogonality_defect": 1.2724859860189506e-15,
+   "unit_change_rotation": 0.921707582043058,
+   "unit_change_element_shift": 2.2893302858392857e-15,
+   "weakest_element_ratio": 0.830840087197899,
+   "chain_weak_axis_transmission": 0.00025580931270987787
+  },
+  {
+   "elements": 384,
+   "rotation_rad": 0.9257565069052553,
+   "rotation_deg": 53.04194070244478,
+   "orthogonality_defect": 6.462157613881372e-16,
+   "unit_change_rotation": 0.9257565069052534,
+   "unit_change_element_shift": 5.432362941619772e-15,
+   "weakest_element_ratio": 0.9545842050019416,
+   "chain_weak_axis_transmission": 0.0002538322244627076
+  },
+  {
+   "elements": 8000,
+   "rotation_rad": 0.9260292331513494,
+   "rotation_deg": 53.05756676530842,
+   "orthogonality_defect": 4.148130602684879e-16,
+   "unit_change_rotation": 0.9260292331513598,
+   "unit_change_element_shift": 5.739490799860292e-15,
+   "weakest_element_ratio": 0.9977710859791771,
+   "chain_weak_axis_transmission": 0.00025369921462579573
+  }
+ ],
+ "twelve_element_recipe": [
+  {
+   "weak_over_strong": 0.5215907339337886,
+   "strong_axis_deg": 108.22442548624348
+  },
+  {
+   "weak_over_strong": 0.7034297495588723,
+   "strong_axis_deg": 97.3446922962663
+  },
+  {
+   "weak_over_strong": 0.8979501075255253,
+   "strong_axis_deg": 163.59805819732844
+  },
+  {
+   "weak_over_strong": 0.5203868308440305,
+   "strong_axis_deg": 2.6304090505869624
+  },
+  {
+   "weak_over_strong": 0.2872180475234273,
+   "strong_axis_deg": 23.885068376319822
+  },
+  {
+   "weak_over_strong": 0.31606217336122244,
+   "strong_axis_deg": 65.72466610547085
+  },
+  {
+   "weak_over_strong": 0.34792856354509916,
+   "strong_axis_deg": 106.87151374080949
+  },
+  {
+   "weak_over_strong": 0.5732304689841654,
+   "strong_axis_deg": 124.21076911625505
+  },
+  {
+   "weak_over_strong": 0.9366773366503305,
+   "strong_axis_deg": 167.08744309547524
+  },
+  {
+   "weak_over_strong": 0.6274988941542532,
+   "strong_axis_deg": 22.875181147513445
+  },
+  {
+   "weak_over_strong": 0.4981958070736122,
+   "strong_axis_deg": 9.21335745615491
+  },
+  {
+   "weak_over_strong": 0.46965809487976573,
+   "strong_axis_deg": 168.74274979843494
+  }
+ ],
+ "transport_return_angle_PH1": -0.9260292331505461
+}

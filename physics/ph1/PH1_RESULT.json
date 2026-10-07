@@ -1,0 +1,236 @@
+[
+ {
+  "fluid": "CarbonDioxide",
+  "cycle": {
+   "T_K": [
+    310.0,
+    350.0
+   ],
+   "rho_kg_m3": [
+    200.0,
+    700.0
+   ],
+   "shape": "ellipse in (T, rho)",
+   "points": 8000
+  },
+  "critical": {
+   "R": 188.92405782348476,
+   "Tc": 304.1282000029807,
+   "Pc": 7377298.373446752,
+   "rhoc": 467.59996991047996
+  },
+  "cases": {
+   "reference_eos": {
+    "theta_loop": -0.9260296267127414,
+    "theta_transport": -0.9260292331505461,
+    "orthogonality_defect": 3.6946921959244354e-06,
+    "shape_length": 11.708780410920754,
+    "max_rapidity": 27.107769759240497,
+    "bound": 5.854374995303776,
+    "half_length": 5.854390205460377,
+    "unit_change_theta": -0.9260292331505686,
+    "unit_change_length": 11.708780410920733
+   },
+   "van_der_waals_cv0(T)": {
+    "theta_loop": -0.6606356588578959,
+    "theta_transport": -0.6606345883759824,
+    "orthogonality_defect": 7.980750639510768e-06,
+    "shape_length": 13.012190810546093,
+    "max_rapidity": 27.38940950936475,
+    "bound": 6.5060807222585755,
+    "half_length": 6.506095405273046,
+    "unit_change_theta": -0.6606345883760064,
+    "unit_change_length": 13.012190810546077
+   },
+   "van_der_waals_const_cv": {
+    "theta_loop": -0.6370405699195762,
+    "theta_transport": -0.6370398987625628,
+    "orthogonality_defect": 7.92615593744475e-06,
+    "shape_length": 13.100197823117094,
+    "max_rapidity": 27.376217289047453,
+    "bound": 6.550084031408566,
+    "half_length": 6.550098911558547,
+    "unit_change_theta": -0.637039898762568,
+    "unit_change_length": 13.100197823117066
+   },
+   "ideal_gas_cv0(T)": {
+    "theta_loop": -0.0070964316335469235,
+    "theta_transport": -0.007096430280431829,
+    "orthogonality_defect": 2.198888975264347e-08,
+    "shape_length": 4.003040500619718,
+    "max_rapidity": 25.362018365693356,
+    "bound": 2.0015078024032733,
+    "half_length": 2.001520250309859,
+    "unit_change_theta": -0.007096430280435435,
+    "unit_change_length": 4.003040500619717
+   },
+   "ideal_gas_const_cv": {
+    "theta_loop": 3.0631991387863877e-10,
+    "theta_transport": -9.778916253090928e-16,
+    "orthogonality_defect": 2.4966549559922798e-08,
+    "shape_length": 4.017807832783375,
+    "max_rapidity": 25.34020703804012,
+    "bound": 2.0088912855656895,
+    "half_length": 2.0089039163916875,
+    "unit_change_theta": -4.474002424834799e-16,
+    "unit_change_length": 4.0178078327824585
+   }
+  }
+ },
+ {
+  "fluid": "Argon",
+  "cycle": {
+   "T_K": [
+    155.0,
+    200.0
+   ],
+   "rho_kg_m3": [
+    250.0,
+    800.0
+   ],
+   "shape": "ellipse in (T, rho)",
+   "points": 8000
+  },
+  "critical": {
+   "R": 208.13332332031644,
+   "Tc": 150.68700000001058,
+   "Pc": 4863000.544876669,
+   "rhoc": 535.6000000002877
+  },
+  "cases": {
+   "reference_eos": {
+    "theta_loop": -1.0727839839458198,
+    "theta_transport": -1.0727815927666025,
+    "orthogonality_defect": 4.308691170785691e-06,
+    "shape_length": 12.394667564274878,
+    "max_rapidity": 27.503107017702494,
+    "bound": 6.197320568858184,
+    "half_length": 6.197333782137439,
+    "unit_change_theta": -1.072781592766606,
+    "unit_change_length": 12.394667564274885
+   },
+   "van_der_waals_cv0(T)": {
+    "theta_loop": -0.9781144615311014,
+    "theta_transport": -0.9781135370554456,
+    "orthogonality_defect": 7.036631968467537e-06,
+    "shape_length": 13.767553386617257,
+    "max_rapidity": 27.515070550461267,
+    "bound": 6.8837621040019235,
+    "half_length": 6.883776693308628,
+    "unit_change_theta": -0.9781135370554445,
+    "unit_change_length": 13.767553386617314
+   },
+   "van_der_waals_const_cv": {
+    "theta_loop": -0.9781144615311014,
+    "theta_transport": -0.9781135370554458,
+    "orthogonality_defect": 7.0366319685550976e-06,
+    "shape_length": 13.767553386617257,
+    "max_rapidity": 27.515070550461267,
+    "bound": 6.8837621040019235,
+    "half_length": 6.883776693308628,
+    "unit_change_theta": -0.9781135370554439,
+    "unit_change_length": 13.767553386617314
+   },
+   "ideal_gas_cv0(T)": {
+    "theta_loop": -9.989865240589424e-09,
+    "theta_transport": -1.3817149245567148e-15,
+    "orthogonality_defect": 4.841954836982721e-08,
+    "shape_length": 4.247225570183644,
+    "max_rapidity": 25.472697461705973,
+    "bound": 2.1236002888887033,
+    "half_length": 2.123612785091822,
+    "unit_change_theta": 1.6007796911123923e-15,
+    "unit_change_length": 4.247225570185459
+   },
+   "ideal_gas_const_cv": {
+    "theta_loop": -9.989865240589424e-09,
+    "theta_transport": -1.1853261228760387e-15,
+    "orthogonality_defect": 4.841954887210027e-08,
+    "shape_length": 4.247225570183644,
+    "max_rapidity": 25.472697461705973,
+    "bound": 2.1236002888887033,
+    "half_length": 2.123612785091822,
+    "unit_change_theta": 1.4718952851313694e-15,
+    "unit_change_length": 4.247225570185457
+   }
+  }
+ },
+ {
+  "fluid": "Nitrogen",
+  "cycle": {
+   "T_K": [
+    130.0,
+    170.0
+   ],
+   "rho_kg_m3": [
+    150.0,
+    480.0
+   ],
+   "shape": "ellipse in (T, rho)",
+   "points": 8000
+  },
+  "critical": {
+   "R": 296.80389583871766,
+   "Tc": 126.19199999958556,
+   "Pc": 3395800.444647145,
+   "rhoc": 313.29999997632996
+  },
+  "cases": {
+   "reference_eos": {
+    "theta_loop": -0.9622144936417641,
+    "theta_transport": -0.962214665106461,
+    "orthogonality_defect": 4.337352137084089e-06,
+    "shape_length": 11.08124140238426,
+    "max_rapidity": 27.118453732142846,
+    "bound": 5.540606382925415,
+    "half_length": 5.54062070119213,
+    "unit_change_theta": -0.9622146651064806,
+    "unit_change_length": 11.081241402384256
+   },
+   "van_der_waals_cv0(T)": {
+    "theta_loop": -0.7251054016259392,
+    "theta_transport": -0.7251044100706386,
+    "orthogonality_defect": 5.8043041027044395e-06,
+    "shape_length": 11.802221748813482,
+    "max_rapidity": 27.319438693929,
+    "bound": 5.9010970825567135,
+    "half_length": 5.901110874406741,
+    "unit_change_theta": -0.7251044100706435,
+    "unit_change_length": 11.80222174881344
+   },
+   "van_der_waals_const_cv": {
+    "theta_loop": -0.7250774201740219,
+    "theta_transport": -0.7250771440928033,
+    "orthogonality_defect": 5.804266455772223e-06,
+    "shape_length": 11.802300277600235,
+    "max_rapidity": 27.319431366572964,
+    "bound": 5.901136346807794,
+    "half_length": 5.9011501388001175,
+    "unit_change_theta": -0.7250771440928132,
+    "unit_change_length": 11.802300277600235
+   },
+   "ideal_gas_cv0(T)": {
+    "theta_loop": -1.004699250545249e-05,
+    "theta_transport": -1.0048603002654854e-05,
+    "orthogonality_defect": 4.558377742545679e-08,
+    "shape_length": 3.8925207457730893,
+    "max_rapidity": 25.32304741066982,
+    "bound": 1.946248030484728,
+    "half_length": 1.9462603728865446,
+    "unit_change_theta": -1.0048603000172567e-05,
+    "unit_change_length": 3.892520745773079
+   },
+   "ideal_gas_const_cv": {
+    "theta_loop": 1.0856609999887468e-08,
+    "theta_transport": 2.166078483247587e-15,
+    "orthogonality_defect": 4.558835684553575e-08,
+    "shape_length": 3.8925440206050683,
+    "max_rapidity": 25.32302966777995,
+    "bound": 1.946259667717422,
+    "half_length": 1.9462720103025342,
+    "unit_change_theta": -6.187185483084879e-16,
+    "unit_change_length": 3.892544020605057
+   }
+  }
+ }
+]

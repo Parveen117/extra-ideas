@@ -1,0 +1,70 @@
+{
+ "reduced_cycle": {
+  "T": [
+   1.03,
+   1.3
+  ],
+  "rho": [
+   0.4,
+   1.5
+  ]
+ },
+ "rows": [
+  {
+   "fluid": "Argon",
+   "theta_reference": -1.0809877029474269,
+   "theta_loop": -1.0809892823457266,
+   "length_reference": 13.345654080327698,
+   "theta_vdw": -1.0759882741274762,
+   "theta_ideal_cv0": -3.007595604764472e-15
+  },
+  {
+   "fluid": "Krypton",
+   "theta_reference": -1.0281996063434433,
+   "theta_loop": -1.0282001678376296,
+   "length_reference": 13.096839682347555,
+   "theta_vdw": -1.0759882741274722,
+   "theta_ideal_cv0": -3.2569072477906542e-15
+  },
+  {
+   "fluid": "Xenon",
+   "theta_reference": -1.0254100482818236,
+   "theta_loop": -1.0254107469626448,
+   "length_reference": 13.064481589514566,
+   "theta_vdw": -1.0759882741274729,
+   "theta_ideal_cv0": 5.427140706354762e-16
+  },
+  {
+   "fluid": "Methane",
+   "theta_reference": -0.9278325367256592,
+   "theta_loop": -0.9278337177924532,
+   "length_reference": 11.094179336798613,
+   "theta_vdw": -0.7684664866636494,
+   "theta_ideal_cv0": -0.00409814119982624
+  },
+  {
+   "fluid": "Nitrogen",
+   "theta_reference": -0.9770876209813865,
+   "theta_loop": -0.9770875371808554,
+   "length_reference": 11.816286817232287,
+   "theta_vdw": -0.8334030942470395,
+   "theta_ideal_cv0": -9.574753090103257e-06
+  },
+  {
+   "fluid": "CarbonDioxide",
+   "theta_reference": -0.917636342730783,
+   "theta_loop": -0.9176358035214516,
+   "length_reference": 10.74241766208186,
+   "theta_vdw": -0.7360358259421754,
+   "theta_ideal_cv0": -0.013856139958903209
+  },
+  {
+   "fluid": "Water",
+   "theta_reference": -0.7648346536521808,
+   "theta_loop": -0.7648348758211359,
+   "length_reference": 9.44601892829781,
+   "theta_vdw": -0.7334568865946908,
+   "theta_ideal_cv0": -0.009499829601501765
+  }
+ ]
+}
