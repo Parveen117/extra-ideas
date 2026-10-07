@@ -39,3 +39,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [NC1](nc1/NC1_NATIVE_CURVATURE_OF_THE_FIELD.md) — the framework's own curvature of the gravity field: the observed field is the ratio law ρ = −½; the Yang–Mills-type law differs at second order and is refused by Mercury's orbit.
 - [TL1](tl1/TL1_TEMPERATURE_AND_THE_CLOCK.md) — heat and the clock factor: units follow the clock (u·N equal between places), κ·N constant in equilibrium, heat has weight.
 - [EG1](eg1/EG1_FIELD_ENERGY_AND_THE_RATIO.md) — the light field's energy curves the frame exactly as its stress pattern says; the native ratio obeys ρ + ½ = k u r²/2m for energy of any kind.
+- [DG1](dg1/DG1_THE_DIAGONAL.md) — the diagonal: observed equals lost at r = 2 r_s, where the fall frame can orbit and binding is zero.

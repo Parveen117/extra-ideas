@@ -1,0 +1,15 @@
+{
+ "diagonal_radius_in_r_s": "2",
+ "clock_factor_squared": "1/2",
+ "fall_speed_squared": "1/2",
+ "orbit_speed_squared": "1/2",
+ "orbit_energy_squared": "1",
+ "outside": "bound",
+ "inside": "unbound",
+ "share_law_maximum": "1/4",
+ "rho_for_power": {
+  "-1": "-1/2",
+  "-2": "-1",
+  "0": "0"
+ }
+}
