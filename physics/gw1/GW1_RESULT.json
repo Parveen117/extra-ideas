@@ -1,0 +1,20 @@
+{
+ "order0": "0",
+ "order1": "0",
+ "sign": 1,
+ "pointwise_difference": "0",
+ "wave_equations": [
+  "-Derivative(a(T, Z), (T, 2)) + Derivative(a(T, Z), (Z, 2))",
+  "-Derivative(b(T, Z), (T, 2)) + Derivative(b(T, Z), (Z, 2))"
+ ],
+ "content": 2,
+ "returns_after_half_turn": true,
+ "mode_energy": "k**2*A(T)**2/4 + Derivative(A(T), T)**2/4",
+ "mode_rate": "k",
+ "illustration": {
+  "frequency_Hz": 100.0,
+  "energy_per_count_J": 6.62607015e-32,
+  "flux_W_per_m2": 0.0015853175623797204,
+  "counts_per_m2_per_s": 2.392545696757709e+28
+ }
+}

@@ -41,3 +41,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [EG1](eg1/EG1_FIELD_ENERGY_AND_THE_RATIO.md) — the light field's energy curves the frame exactly as its stress pattern says; the native ratio obeys ρ + ½ = k u r²/2m for energy of any kind.
 - [DG1](dg1/DG1_THE_DIAGONAL.md) — the diagonal: observed equals lost at r = 2 r_s, where the fall frame can orbit and binding is zero.
 - [WQ1](wq1/WQ1_WAVE_COUNT.md) — a wave is a pair of readings; the area it encloses comes in whole units, so its energy is n·hν; the count is the same in every frame.
+- [GW1](gw1/GW1_WAVES_OF_THE_FRAME.md) — waves of the frame's order defect: two waves at the cone speed, content two, each mode a pair with E = n·hν and the unit of light.
