@@ -28,6 +28,7 @@ what, if anything, is measurable beyond the classical statement.
 | PR3: accelerated frame: split term A/(2ρ) = half-density, absorbed; law = inertial law with ∂_t → (1/ρ)∂_η; −G² factorizes; both sheets share the clock | wave equation in an accelerated frame; redshift; equal clock rates for particle and antiparticle | exact | acceleration is one position-dependent unit of time on the whole generator; critical-acceleration reading refused |
 | PR4: currents n, j; dual residue −2τ, τ = gσ; σ² = n² − j² = n²·4p(1−p); τ unique, sheet-even, frame-independent | conserved current; proper density; trace-type source | exact | the only scalar a sector offers the clock is flip rate × density × √memory; a law for the clock is not derived |
 | CL1: mass² = clock curvature 2 − ζ − ζ̄ (R41.3 ↔ PR1); speed = 1 − curvature/2; dyadic ladder Q = 2, 4, 8; [N, O_T] = E_T; varying coin exchange term; history residue | rest frequency as a clock; time–energy pair; position-dependent mass | exact | time is a count on histories — no native unit-of-time field; a sector's mass is the curvature of its clock |
+| CL2: count of a leg = gτ; corner cost 2τ₁τ₂(cosh δ − 1); N legs: ratio N/χ_N, χ_N = sinh(Nb)/sinh(b) | proper time; the twin effect; accelerated clock | exact | rates differ between histories; the cost is the split-sector twin of the record defect; same ratios on both sheets |
 
 ## Reading
 
@@ -41,7 +42,7 @@ what, if anything, is measurable beyond the classical statement.
 
 ## Open physics gates
 
-00. Two space dimensions: curvature of a shared frame as minus the variance of non-commuting boosts (PR4 §6). Release of stored curvature after a cut as a propagating ripple; why sectors would share one speed (PR1 §6).
+00. Histories through a region where the coin varies (CL1-T4, CL2 §7): the native form of gravity, if there is one. Two space dimensions: variance of non-commuting boosts (PR4 §6). Release of stored curvature after a cut as a propagating ripple; why sectors would share one speed (PR1 §6).
 0. What fixes the scale λ of a moving share (QC5 §5). Yang–Mills gap per unit of loop ledger (QC4 §4). Calibration: the turn rate that converts 'real unit = half the squared circular unit' into a relation between physical constants (QC3 §6); the interacting case.
 1. Feasibility of the twin-cell protocol of PH3 (calorimetric control of E steps); a bench run of the PH2 chain.
 2. The argon versus krypton/xenon difference in Θ on one reduced cycle.
