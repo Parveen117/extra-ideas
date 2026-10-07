@@ -105,7 +105,7 @@ memory between two 10⁻¹⁴ kg masses, 2.5 s                  0.012           
 ```text
 R1  a static clock near a mass differing from √(1 − r_s/r) at second order
 R2  matter and antimatter falling, or curving clocks, differently
-R3  a source of gravity that is not a record: a single light-like reading must not gravitate, a pair must
+R3  withdrawn: a source that is only the invariant conflicts with the deflection of light and momentum balance (see GRAVITY_THESIS)
 R5  the once-around turn not containing π r_s/r at first order
 R6  an isolated mass losing coherence exponentially at a rate set by its own gravity
 R7  two masses coupled only by gravity that never share memory

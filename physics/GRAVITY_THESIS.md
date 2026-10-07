@@ -107,9 +107,18 @@ R6  an isolated mass in superposition losing coherence exponentially at a rate s
 R7  two masses coupled only by gravity that never share memory                                          (DC1)
 ```
 
-R1 and R2 agree with what is known at present. R3 is the sharpest: the
-thesis says a single light-like reading does not gravitate and a pair
-does.
+R1 and R2 agree with what is known at present.
+
+**Correction to R3 (same day).** Statement 2 makes the source the
+unrecoverable memory alone, so a single light-like reading would not
+gravitate. That cannot stand together with MO1: light is deflected by a
+mass (2 r_s / b), so its momentum changes, and unless momentum is not
+kept the mass must be pulled by the light in return. A source that is
+only the invariant is therefore inconsistent with the thesis's own
+motion result. The source has to be the whole reading (n; r), of which
+the invariant is the rest part. Statement 2 is to be restated
+accordingly; until then R3 is withdrawn as a prediction and recorded as
+an error of this document.
 
 ## What is not here
 
