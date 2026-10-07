@@ -1,0 +1,56 @@
+{
+ "algebra": {
+  "cuts": 3,
+  "turns": 3,
+  "volume": "iota = C1 C2 C3"
+ },
+ "field": {
+  "lorenz_scalar_terms": 3,
+  "field_components": 3,
+  "source_real": true,
+  "source_conserved": true,
+  "charge_density_terms": 2
+ },
+ "wave": {
+  "solves": true,
+  "null": true
+ },
+ "matter": {
+  "identity": "d_t n + div r = psi^dag (D psi) + (D psi)^dag psi",
+  "null": true
+ },
+ "force": [
+  {
+   "power": "-3",
+   "force": [
+    "-3",
+    "7",
+    "1"
+   ]
+  },
+  {
+   "power": "0",
+   "force": [
+    "5/2",
+    "0",
+    "-5"
+   ]
+  },
+  {
+   "power": "0",
+   "force": [
+    "4",
+    "-4",
+    "0"
+   ]
+  },
+  {
+   "power": "0",
+   "force": [
+    "12",
+    "0",
+    "0"
+   ]
+  }
+ ]
+}
