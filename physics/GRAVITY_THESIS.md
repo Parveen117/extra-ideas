@@ -191,3 +191,13 @@ is answered: the whole curvature is zero in the frame's own connection;
 the contraction is the same law in the torsion-free one. General
 relativity is the member of the family that equivalence selects; no
 prediction beyond it follows.
+
+## The native curvature of the field (NC1)
+
+With the framework's own curvature (NT-3: F = −¼[X_i,X_j], X = G⁻¹δG) the
+field has two invariant sizes and one pure ratio between them,
+ρ = rψ′/sinh ψ. The field of statements 3–5 is exactly ρ = −½ at every
+radius. Making the total native curvature-square stationary instead
+gives the same field at first order and a different one at second order,
+with Mercury's advance 57.3″ or 32.2″ per century in place of 42.98″:
+that law is refused by observation. Why the ratio is −½ is not derived.

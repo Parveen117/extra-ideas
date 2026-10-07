@@ -1,0 +1,20 @@
+{
+ "nt3_on_field": true,
+ "radial_angular": "-sinh(psi(r))**2*Derivative(psi(r), r)**2/(4*r**2)",
+ "angular_angular": "-sinh(psi(r))**4/(4*r**4)",
+ "ratio_of_field": "-1/2",
+ "variational_residual_of_ratio_field": {
+  "psi = 2 eta": "-4*r_s**2/r**4",
+  "psi = eta": "3*r_s**2/(4*r**4)"
+ },
+ "second_order_coefficient": "3/4",
+ "kappa": {
+  "psi = 2 eta": "1/2",
+  "psi = eta": "-3/8"
+ },
+ "mercury_arcsec_per_century": {
+  "ratio_law": 42.98,
+  "psi = 2 eta": 57.306666666666665,
+  "psi = eta": 32.235
+ }
+}
