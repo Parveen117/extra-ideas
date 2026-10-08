@@ -47,3 +47,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [BC1](bc1/BC1_BOUNDARY_AND_COUNT.md) — where whole numbers come from: an additive quantity (boundary sector) read as a turn (interior); on the boundary alone nothing is stepped.
 - [LN1](ln1/LN1_LOST_AND_RETURNED.md) — what a linear reading in a cut loses, the first non-linear layer of the tower returns: (H²)_ii = a_i² + Σb_ij²; for the gravity element the seen and lost parts are equal.
 - [LC1](lc1/LC1_LOST_IS_COUNTED.md) — the part lost to a cut is the part that is counted: the return of a cycle is −2π times it, and recordability makes it a whole number over q; the level is k times the seen part.
+- [ZP1](zp1/ZP1_FLOOR_AND_FORCE.md) — an indeterminate sum resolved: the floors of all modes between two walls leave the force π²κc/240d⁴; the part that depends on the cut-off is the part no wall can feel.
