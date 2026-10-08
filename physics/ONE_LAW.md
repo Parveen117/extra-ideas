@@ -93,6 +93,8 @@ history enters through its count). The dictionary is stated in each stage; the a
 numbers that are not ratios of counts     the size of one unit of count in the frame law (k); 1/137; mass ratios
 a statement known physics does not make   refutation conditions R6–R10 of the gravity thesis are the candidates;
                                           none is yet a prediction that differs
+measured on the diagram, not derived      the diagonal line of the noble fluids (DL1): peak 2.7 T_c, vapour end 0.75 T_c,
+                                          triple-point liquid at lost = seen to 2 %; needs the action between two atoms
 not inside yet                            the short-range forces; the kinds of matter
 ```
 
