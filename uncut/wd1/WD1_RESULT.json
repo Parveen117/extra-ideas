@@ -1,0 +1,11 @@
+{
+ "T1_d2_d3": true,
+ "T1_only": true,
+ "T2_even_form": true,
+ "T2_odd_form": true,
+ "T3_d2_no_scale": true,
+ "T4_c_half": true,
+ "T5_count_share_d3": true,
+ "T5_rational_only_d3": true,
+ "pass": true
+}
