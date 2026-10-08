@@ -1,0 +1,11 @@
+{
+ "T1_four_real_components": true,
+ "T2_invariant": true,
+ "T3_count_is_central": true,
+ "T3_no_fourth_cut": true,
+ "T4_count_adds": true,
+ "T5_motion": true,
+ "T6_turn_is_product_of_cuts": true,
+ "T7_own_time_is_own_count": true,
+ "pass": true
+}

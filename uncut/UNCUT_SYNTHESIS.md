@@ -81,6 +81,8 @@ Put in for C: the reader is the best frame; h is a variable of state.
 34. Charge with turning in d ≥ 4: a first-law-consistent pure-power candidate is refused by the weakly charged
     solution (hep-th/0604207, eq. 17). Second-order law M = K[u + (sq)²/u], u = S/r₊: exact for neutral turning and
     for static charge; stored cost read with the rim unit squared (CT1).
+35. The four components of a reading are three directions and the reader's count; the count is central, not a
+    fourth direction; the closing turn is the product of the three cuts. d ≥ 4 cases are outside this carrier (FC4).
 
 ## Open
 - Why ρ = 1 beyond the two readings of TS2; charge with turning in d ≥ 4 beyond second order in the charge (CT1).
