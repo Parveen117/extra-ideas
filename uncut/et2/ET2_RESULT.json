@@ -1,0 +1,11 @@
+{
+ "T1_line_is_the_usual_condition": true,
+ "T2_rest_part_agrees": true,
+ "T2_naive_spin_rule_fails": true,
+ "T2_corrected_rule": true,
+ "T3_heat_reading": true,
+ "T3_reduces_to_ET1": true,
+ "T4_three_ends": true,
+ "T4_expansion_end_is_unit_zero": true,
+ "pass": true
+}

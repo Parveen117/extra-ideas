@@ -66,8 +66,11 @@ Put in for C: the reader is the best frame; h is a variable of state.
     at the T = 0 end the rim speed is 1/√2 (SP1). With LC1 no centre potential is put in any more.
 28. T/T₀ = (1 − Φ₀² − 2v²)/√(1 − v²); the line T = 0 is Φ₀² + 2v² = 1; turning only: T/T₀ = cos 2χ/cos χ, the
     unit of the rim's doubled clock over the unit of its clock — zero at the eighth turn (ET1).
+29. With expansion: stored-cost rule holds unchanged; the momentum rule needs the clock factor 1 − h²R² (found by
+    matching, not derived). Surface T = 0 in (Φ₀, v, hR) with ends 1, 1/√2, 1/√3 (ET2).
 
 ## Open
+- Why the rim's momentum carries the expansion's clock factor (ET2-T2c).
 - The mirrors in the count form (ME2 §3); planes needing a larger carrier.
 - SL1 gives the mean over histories; a statement for one history is open.
 - "Directions = cuts" as a theorem rather than an identification.
