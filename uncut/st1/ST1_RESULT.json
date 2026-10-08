@@ -1,0 +1,10 @@
+{
+ "T1_rate": true,
+ "T2_period": true,
+ "T3_area_identity": true,
+ "T4_T_is_inverse_period": true,
+ "T5_all_d": true,
+ "T6_T_zero_end": true,
+ "T6_excess_only": true,
+ "pass": true
+}
