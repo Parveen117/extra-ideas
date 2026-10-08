@@ -1,0 +1,15 @@
+{
+ "width_one_sheet": 0.12266457577602966,
+ "width_two_sheets": {
+  "0": 0.02319519064044732,
+  "5": 9.713510865235657e-09,
+  "20": 5.916333377861207e-43,
+  "80": 1.22816551438339e-245
+ },
+ "throat": {
+  "coupling_digits": 19,
+  "idempotent_defect_below": 5.421010862427522e-20
+ },
+ "strong_cell_alone": "returns q (unbounded)",
+ "strong_cell_with_sheet_behind": "returns the throat value"
+}

@@ -32,7 +32,8 @@ The clock factor N² = 1 − x² squares (or better) at each level.
 possible outer returns does not close. From x_0 = 1/3 (r = 9 r_s): Σ 1/a_j < 4, and the outer return lies
 anywhere in [0.27305, 0.39571] (width 0.122665, stable after five levels) depending on what closes the
 horizon end. Closure by the null cut 2P₊ (tail 1, the cut RC1 selects) gives 1/3 — the point-mass profile;
-a wall (tail 0) gives 0.39571.
+a wall (tail 0) gives one end of the interval,
+0.39571 for an odd number of cells and 0.27305 for an even number (R2 RI2's two limits).
 
 **T4 (the flat end forgets).** Going outward with x_j → 0, every 1/a_j ≥ 1/x_j − 1, so Σ 1/a_j = ∞ and
 the reading is independent of what closes the far end (shells r = (j + 3)² r_s: interval width below
