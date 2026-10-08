@@ -1,0 +1,12 @@
+{
+ "one_pair": {
+  "rest_set": "y = x^(K-1): value 0, gradient 0",
+  "doubled_response": "[[h, -1], [-1, 1/h]], determinant 0, rho = 1",
+  "weights": "x: 1, y: K-1, G: K",
+  "depths": "1/K + 1/K* = 1"
+ },
+ "layers": "G(x0 + xi; x0) = sum over n >= 2 of L_n(x0) xi^n / n!  (value and first layer absent)",
+ "two_pairs": "rest set of dimension 2 in 4; doubled response of rank 2",
+ "one_pair_cut": "response C -> (AC - B^2)/A ; C_P/C_V = K_S/K_T is this ratio read on the two pairs",
+ "duality_at_rational_points": true
+}
