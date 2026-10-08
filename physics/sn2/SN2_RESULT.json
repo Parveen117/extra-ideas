@@ -1,0 +1,30 @@
+{
+ "checks": {
+  "N1_turn": true,
+  "N1_shear_is_the_plain_mean_of_lost_over_the_angle": true,
+  "N1_boost_is_the_mean_square_of_an_even_amplitude": true,
+  "N2_one_reading_in_d_cuts": true,
+  "N2_amplitude_evenly_spread_only_in_three_cuts": true,
+  "N2_mean_flip_squared_equals_the_ratio_only_in_three_cuts": true,
+  "N3_many_readings_exact": true,
+  "N3_closed_count_for_every_size": true,
+  "N3_from_one_third_to_one_quarter": true,
+  "N4_joining_two_cells": true,
+  "N4_log_of_seen_adds": true,
+  "N4_angle_does_not_add": true,
+  "pass": true
+ },
+ "numbers": {
+  "one_reading": {
+   "2": "1/4",
+   "3": "1/3",
+   "4": "3/8",
+   "6": "5/12"
+  },
+  "many_readings": {
+   "1": "1/3",
+   "2": "4/15",
+   "4": "16/63"
+  }
+ }
+}

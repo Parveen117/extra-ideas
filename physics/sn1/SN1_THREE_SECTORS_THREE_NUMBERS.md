@@ -70,3 +70,9 @@ EVEN SPREAD OF THE ANGLE                                                        
 python sn1_three_sectors_three_numbers.py
 python -m unittest test_sn1
 ```
+
+## Later note (SN2, 9 October)
+
+SN2 reads spread/mean as the seen-weighted mean of lost; obtains 1/4 as the many-reading limit of an exact finite
+count, N²/(4N² − 1), whose one-reading end is the three-cut 1/3; and refuses the even spread of the boost angle for
+one chain (log(seen) adds). The boost sector's even spread stays put in. Nothing above is changed.

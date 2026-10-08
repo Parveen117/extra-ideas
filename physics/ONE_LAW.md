@@ -104,6 +104,8 @@ ln 2  (quantum / kT of the diagonal mode; QD1, RD1                     —
       dual: seen = lost, tanh 2k = 1/√2)
 1/4, 1/2, 1/3 (spread / mean of a count   SN1, FD1, QD1                measured 1/4, 1/2, 1/3 (cavities, double barrier, wires)
       through a cut: turn, shear, boost)
+(d − 1)/2d ; N²/(4N² − 1): 1/3 → 1/4      SN2                          —
+      (one reading in d cuts; N readings)
 27/5, 27/20, 28/25 (rates of a bound      BR1                          wavelength ratios 1.35001, 1.11999
       charge); second-shell split α²/16                                3.3342·10⁻⁶ against 3.3282·10⁻⁶
 ```
@@ -147,6 +149,10 @@ diagonal exchanges the two descriptions of a record, by marks and by contents (D
 marks the rate is twice the dual coupling, about 2e^(−2k), and doubling the cell takes ½ ln 2 from k: an
 exponential law with its log, native to the block. A small mass count is then closeness to the diagonal, and a
 count of 10⁻²⁰ is a coupling near 22. For the colour record in four dimensions this is not shown.
+
+The chain of turns has this two-valued record inside it, its centre (CT1): tanh k_c = I₂(κ)/I₁(κ), and
+k_c = ½ ln(4κ/3) + …, so its power law in κ is the same exponential law in k_c. In four dimensions the centre
+record has a different coupling on every face; one doubling map for it is not built.
 
 ## Reproduce
 

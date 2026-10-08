@@ -1,0 +1,24 @@
+{
+ "checks": {
+  "C1_even_reading_is_mean_cosh": true,
+  "C1_odd_reading_is_mean_c_sinh": true,
+  "C1_moments_of_the_sphere": true,
+  "C2_centre_coupling_is_a_mean_of_local_tanh": true,
+  "C2_rate_is_twice_the_dual_centre_coupling": true,
+  "C3_centre_coupling_is_the_log_of_the_turn_coupling": true,
+  "C3_strong_end": true,
+  "C3_doubling_takes_half_ln2_from_the_centre_coupling": true,
+  "C3_same_count_two_couplings": true,
+  "C4_self_dual_centre_record": true,
+  "C5_face_is_a_two_valued_gauge_record_with_local_coupling": true,
+  "pass": true
+ },
+ "numbers": {
+  "proton_count_in_the_two_couplings": {
+   "turn_coupling": 1.9518167655452504e+19,
+   "centre_coupling": 22.35277972640673
+  },
+  "turn_coupling_where_the_centre_record_is_self_dual": 1.886164715714355,
+  "rate_there": 0.881373587019543
+ }
+}
