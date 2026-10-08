@@ -55,8 +55,11 @@ Put in for C: the reader is the best frame; h is a variable of state.
     xenon agree within 0.5 %; oxygen, nitrogen, carbon monoxide, carbon dioxide lie within 7 % of them (FD1).
 23. Chromium at T_N: inside a first-order window w → V·T_N/(2 dT_N/dP) (negative); α and w change sign iff the
     transition is narrower than δ* = |ΔV/V|/α ≈ 1.6 K (CR1).
+24. Eight planes in one form (volume, magnetisation, particle number added): 28 pair equations + 8 weight
+    conditions. Window law for every plane: w_X → Y·T_N/(2 dT_N/dX); two windows of one transition are tied (ME2).
 
 ## Open
+- Non-commuting planes and the mirrors in the count form (ME2 §3).
 - SL1 gives the mean over histories; a statement for one history is open.
 - "Directions = cuts" as a theorem rather than an identification.
 - The pole of the turn-part (BH1-T5): what the diagram does there.

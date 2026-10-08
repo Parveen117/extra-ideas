@@ -1,0 +1,12 @@
+{
+ "T1_pair_equations": true,
+ "T1_counts": true,
+ "T1_count_form": true,
+ "T2_slopes": true,
+ "T2_cross": true,
+ "T3_width_free": true,
+ "T3_window_law": true,
+ "T3_critical_width": true,
+ "T4_tied": true,
+ "pass": true
+}
