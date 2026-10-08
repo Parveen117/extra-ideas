@@ -49,7 +49,8 @@ of the static reading: singular for the observer who retains P₋, regular for t
 * The identification "x = fall speed β" is a dictionary between two unit elements of the same algebra
   (R1's 1 + xL and GB1's 1 + β r̂·C). It is not derived from a source law.
 * The shell sequence in T3 is the tower of LT1. Any inward sequence that reaches x → 1 in infinitely many
-  cells with summable 1 − x_j² gives the same verdict; a different spacing changes the numbers, not the verdict.
+  cells with summable 1 − x_j² gives the same verdict; a different spacing with that summability changes the numbers, not the verdict.
+  Later note (HM1-T4): a spacing without it — for example x_j = 1 − 1/(j + 2) — reverses the verdict.
 * No measured number is predicted. For a static field a different horizon closure is read outside as a
   different r_s. Whether a time-dependent probe can separate closures is not addressed here.
 * The inverse of a return is not a propagator (CR-1's own caveat is kept).

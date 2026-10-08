@@ -4,7 +4,7 @@ Checked by searching every stage folder of `physics/` for a citation. "Unused" m
 
 | Where | Result | Status as stated in its own file (not re-verified here, except R1, R2, CR) | Possible use in the line |
 |---|---|---|---|
-| Recognition-Kernel-Framework `research/recognition_return` R1, R2 | completed boundary return, cut selection, tail criterion Σ1/a_j, return synthesis | written proofs + exact checks | **used in RB1 and TS1** |
+| Recognition-Kernel-Framework `research/recognition_return` R1, R2 | completed boundary return, cut selection, tail criterion Σ1/a_j, return synthesis | written proofs + exact checks | **used in RB1, TS1 and HM1** |
 | Publications research branch (Sept 25–30), `native-critical-response` CR-1…5 | pole of the inverse return, selection rule, third-probe model prediction 55x² + 56x − 132 = 0 | model prediction, no experiment | RB1 uses CR-1/2; third probe needs a physical process acting as a common multiplier |
 | same branch, `native-return-identification` NI-1…4, `native-alpha-selection` AS-1…5 | two readings fix (b, δ); identical cells cannot close exactly; slope 1/(1 + 2b) | proved; alpha not derived | calibrate-then-predict protocol for any return experiment |
 | same branch, `native-cut-energy-transport` CT-1…7 | response clock, energy descent, r: 1 → 1/4 benchmark | conditional | compare with CL1/HB1 clock |
