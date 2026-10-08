@@ -1,0 +1,8 @@
+{
+ "T1_orbit": true,
+ "T2_closed_angle": true,
+ "T3_period_forced": true,
+ "T4_centre_angle": true,
+ "T5_only_unit_left": true,
+ "pass": true
+}

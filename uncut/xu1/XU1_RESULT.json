@@ -1,0 +1,12 @@
+{
+ "T1_best_frame": true,
+ "T1_unit": true,
+ "T2_limits": true,
+ "T3_horizon": true,
+ "T4_defect_form": true,
+ "T5_one_sign": true,
+ "T5_monotone": true,
+ "T6_loop_value": "-8.7051346",
+ "T6_nonzero": true,
+ "pass": true
+}
