@@ -87,6 +87,12 @@ measurements were not re-examined here).
 - That every indeterminate quantity in physics splits this way is not
   claimed; this is one case.
 
+## Later note (ZP2)
+
+ZP2 gives the explicit remainder and the class of cut-offs for which the
+constant is the same: those that close smoothly. "Does not depend on the
+cut-off at all" above is to be read within that class.
+
 ## Claim boundary
 
 ```text

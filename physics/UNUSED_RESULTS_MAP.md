@@ -14,7 +14,7 @@ Checked by searching every stage folder of `physics/` for a citation. "Unused" m
 | RH-Framework ledger T01-A/B/C | cut-tail mass M_Σ, recognition energy E_Σ, E(a⋆ξ) ≤ M(a)²E(ξ) | PROVED | **used in EN1** (bound extended to all three sectors) |
 | RH-Framework T01-E4D | multiplier acts on a flat state by its mean; covariance term | PROVED | QC4 "curvature = −variance" |
 | RH-Framework T01-E5A | UGD packet (p, u, μ), seam memory W(p, q) | PROVED | BC1 turn/addition split; LC1 lost part |
-| RKF theorum/28 | finite-to-infinite outward certificate (β < 1) | PROVED with hypothesis list | the many-mode sums of ZP1 and GW1 |
+| RKF theorum/28 | finite-to-infinite outward certificate (β < 1) | PROVED with hypothesis list | **used in ZP2** for ZP1's sums; GW1's not yet |
 | RKF theorum/31, 32 | cut-variational minimal observer; cut-covariance event realisation | PROVED | MO1's unproved assumption (free readings share one flat frame) |
 | RKF theorum/49–53, 76 | seam gap, resolvent, cut-square factorisation, seam-flow meter (sector cascade) | PROVED | counting side of WQ1 / BC1 |
 | RKF Morphic MR-04…07, singularity v3–v5 | memory theorems; normal-crossing complexes | certified | horizon as a crossing; many-ledger memory (R44) |
