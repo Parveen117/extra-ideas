@@ -1,0 +1,13 @@
+{
+ "T1_consistent_family": true,
+ "T1_exponent_equals_share": true,
+ "T2_three_directions": true,
+ "T3_rho_one_gives_HD1": true,
+ "T4_rho_zero_is_consistent": true,
+ "T4_its_heat_reading_differs": true,
+ "T4_its_heat_reading": "4*cos(chi) - 1/cos(chi)",
+ "T5_two_planes": true,
+ "T6_turned_cut": true,
+ "T7_ID1_share_fixes_rho": true,
+ "pass": true
+}

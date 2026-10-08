@@ -76,9 +76,11 @@ Put in for C: the reader is the best frame; h is a variable of state.
     Static planes: (d−2) + Σ(p_j + d − 2)ε_j. Turning planes: (d−2) − 2Σv_i² for d = 3…6 (HD1). Charge in any d by
     the stored-cost rule (LC2). T departs from neutral exactly as the planes' factor runs under scale.
 32. SP1's energy-quadrature is special to three directions; in d directions M = M₀·γ^{2/(d−1)} per turning plane (HD1).
+33. First law fixes the boost exponent = share = 1 − ρ(d−3)/(d−1) for rim radius R = r·γ^ρ; ρ = 1 ⇔ ID1's share
+    2/(d−1); in three directions the share is 1 for every ρ (TS2).
 
 ## Open
-- Derive HD1's (a), (b), (c) inside the line; a centre with charge and turning in four or more directions.
+- Why ρ = 1 beyond the two readings of TS2; a centre with charge and turning in four or more directions.
 - The mirrors in the count form (ME2 §3); planes needing a larger carrier.
 - SL1 gives the mean over histories; a statement for one history is open.
 - "Directions = cuts" as a theorem rather than an identification.

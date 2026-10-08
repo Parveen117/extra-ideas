@@ -22,3 +22,5 @@ The published family, written in the rim reader's coin (rotation parameter a_i =
 Put in: (a), (b), (c) are read from the published family, not derived. Not claimed: the law as new physics — it is
 the family's temperature in the line's variables; the stage's content is the form (−2v² per plane, ET1's term
 repeated), the share 2/(d−1), and the refusal T4.
+
+> Later note (TS2): inputs (b) and (c) follow from the first law once the rim rule is fixed (ρ = 1, or ID1's share 2/(d−1)); see `uncut/ts2`.
