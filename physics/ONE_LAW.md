@@ -81,6 +81,8 @@ masses from closure and two rates         QP1                          5.256 ± 
 π²/15, 2.8214, 4.9651 (light gas)         RD1                          shape of the sky's light to 50 parts per million
 ¾ and r⁻⁶ (two neutral centres); rule     LD1                          ten unlike pairs of noble atoms within 1.5 %
       for unlike pairs
+27/5, 27/20, 28/25 (rates of a bound      BR1                          wavelength ratios 1.35001, 1.11999
+      charge); second-shell split α²/16                                3.3342·10⁻⁶ against 3.3282·10⁻⁶
 ```
 
 ## What is identification
@@ -102,7 +104,9 @@ not inside yet                            the short-range forces; the kinds of m
 
 The first figures of the electron's 2.00232 − 2 are α/2π (GM1): the one place where a number of the second kind
 already shows next to a ratio of the first kind. Its exact place is α = q₂/(r_s·a), the charge term of a centre
-against its turn term (FS1); its value is not derived.
+against its turn term (FS1). In a bound record it is the speed of the first circle, the square root of its memory,
+and the ratio of the charge's three lengths; the size of an atom is the turn length over α (BR1). Its value is not
+derived.
 
 ## Reproduce
 

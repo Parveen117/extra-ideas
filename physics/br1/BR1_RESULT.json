@@ -1,0 +1,50 @@
+{
+ "checks": {
+  "B1_orbit_equation": true,
+  "B1_ratio_exact": true,
+  "B2_speed_is_K_over_L": true,
+  "B2_energy_is_count_factor": true,
+  "B2_size": true,
+  "B3_lengths_in_ratio_alpha": true,
+  "B3_binding": true,
+  "B4_levels": true,
+  "B4_circles_are_n_r_zero": true,
+  "B4_slope_in_L": true,
+  "B4_quadrature": true,
+  "B5_split_of_second_shell": true,
+  "B6_left_over_turn": true,
+  "B6_mass_field_is_six_times": true,
+  "N1_rate_ratios_are_counts": true,
+  "N2_wavelength_ratios": true,
+  "N3_record_length_is_the_known_size": true,
+  "N4_split_within_half_percent": true,
+  "pass": true
+ },
+ "numbers": {
+  "alpha": 0.007297352573780785,
+  "speed_of_first_circle_over_c": 0.007297352573780785,
+  "memory_of_first_circle": 5.325135458606505e-05,
+  "binding_over_rest_count": 2.6626031765841773e-05,
+  "size_m": 5.2916312036611525e-11,
+  "lengths_m": {
+   "charge": 2.8179403262171025e-15,
+   "turn": 3.8615926772428334e-13,
+   "record": 5.2917721025532525e-11
+  },
+  "left_over_turn_first_circle_rad": 0.00016730074613461086,
+  "split_of_second_shell_over_binding_scale": {
+   "line": 3.3282096616290655e-06,
+   "measured_recalled": 3.3342027162300947e-06
+  },
+  "binding_scale_eV": 13.605693139676333,
+  "rate_ratios": {
+   "(1,2):(2,3)": "27/5",
+   "(2,4):(2,3)": "27/20",
+   "(2,5):(2,4)": "28/25"
+  },
+  "measured_wavelength_ratios_recalled": {
+   "Ha/Hb": 1.35001,
+   "Hb/Hg": 1.11999
+  }
+ }
+}

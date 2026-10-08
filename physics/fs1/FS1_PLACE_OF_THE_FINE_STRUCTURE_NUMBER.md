@@ -75,3 +75,8 @@ THE VALUE 1/137                                                                 
 python fs1_place_of_the_fine_structure_number.py
 python -m unittest test_fs1
 ```
+
+## Later note (BR1, 9 October)
+
+In a bound record α is the speed of the first recordable circle, the square root of its memory, and the ratio of
+the charge's three lengths (BR1). Its value remains open. Nothing above is changed.
