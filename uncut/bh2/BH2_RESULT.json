@@ -1,0 +1,11 @@
+{
+ "T1_self_similar_2_2": true,
+ "T2_eps": true,
+ "T3_w_rot": true,
+ "T4_w_heat": true,
+ "T5_heat_shape": true,
+ "T5_pole_J2_over_M4": "-3 + 2*sqrt(3)",
+ "T6_rot_at_extremal": true,
+ "T6_first_cycle_extremal": "9/8",
+ "pass": true
+}
