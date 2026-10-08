@@ -151,7 +151,7 @@ a centre that turns         exact in SW2: the centre displaced by ι·a, memory 
 many ledgers                when memory between systems becomes effectively permanent (R44)
 a block law for gravity     found for the frame field (CV1, TP1): order defect, coefficients 1 : 2 : −4 by equivalence; sources not built
 an experiment               the programmed chain of PH2; the pair memory of DC1
-closure                     rational ratio of rates = closure (RC1); pair of X-ray rates at the rational point 1/3, mass from two rates (QP1); the rule itself not derived
+closure                     rational ratio of rates = closure (RC1); pair of X-ray rates at the rational point 1/3, mass from two rates (QP1); three turns 1 : 2 : 3 there (TH1); closure picks three dimensions (CD1); the rule itself, and why the rung 1/3, not derived
 ```
 
 ## 10. Reproduce

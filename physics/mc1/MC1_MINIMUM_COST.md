@@ -104,3 +104,9 @@ that the reading which must be spread is the memory.
 python mc1_minimum_cost.py
 python -m unittest test_mc1_exact
 ```
+
+## Later note (CD1, 8 October)
+
+"Three space dimensions" is listed above as an input. CD1 shows that, with this stage's least-cost memory in d
+dimensions, bound histories close at first order only for d = 3. Given the closure rule of RC1 the input has a
+reason. Nothing above is changed.

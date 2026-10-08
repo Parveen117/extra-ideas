@@ -122,3 +122,9 @@ a cut.
 python fr1_the_frame_cuts.py
 python -m unittest test_fr1_exact
 ```
+
+## Later note (CD1, 8 October)
+
+"Space dimension = number of cuts" is listed above as an identification. CD1 reaches three from another side:
+the least-cost memory closes a bound history only in three dimensions. The two reasons are independent; that they
+are one is not shown. Nothing above is changed.

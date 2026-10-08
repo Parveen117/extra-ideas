@@ -274,3 +274,17 @@ the X-ray rates put in, closure rule tested and not derived]*
 
 Added refutation conditions: **R8** a simultaneous pair whose κ/Ω is far from every low rational; **R9** a source
 where closure and two rates give a mass outside the mass from its companion.
+
+## Closure and three dimensions (CD1); the rung 1/3 (TH1)
+
+With MC1's least-cost memory in d dimensions, (in-out rate / round rate)² = (4 − d) − d·m. Far from the centre
+the ratio is √(4 − d): rational and positive only for d = 3, where every bound history closes after one circuit;
+in two dimensions it is √2 and nothing closes; in four and more there is no stable circle. Given the closure rule,
+three dimensions is no longer an input. The last stable circle, the light circle and the shell where a held clock
+stops are at memory (4−d)/d, 2/d, 1: thirds in three dimensions. *[CD1 — proved; conditional on the closure rule]*
+
+On the rung 1/3 the in-out rate, the left-over-turn rate and the circuit are 1 : 2 : 3, the lowest rung on which
+the three are distinct; M5's last term puts a second harmonic of the in-out motion exactly on the left-over-turn
+line there. XTE J1550−564 shows features near 92, 184 and 276 Hz; closure from its 183 ± 5 gives 91.5, 183, 274.5.
+For GRO J1655−40 the in-out rate is predicted at 147.0 ± 0.7 Hz. **R10:** a pair at 2 : 3 with a third sharp rate
+that is not at 1. *[TH1 — proved; why this rung is not derived]*

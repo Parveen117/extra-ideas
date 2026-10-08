@@ -1,0 +1,21 @@
+{
+ "checks": {
+  "D1_orbit_equation": true,
+  "D2_ratio_for_any_memory": true,
+  "D3_power_law_d3": true,
+  "D3_power_law_d4": true,
+  "D3_power_law_d5": true,
+  "D3_power_law_d6": true,
+  "D3_power_law_any_d": true,
+  "D3_log_d2": true,
+  "D4_only_three_closes": true,
+  "D4_two_is_irrational": true,
+  "D4_four_and_more_have_no_stable_circle": true,
+  "D5_count_factor": true,
+  "D5_thirds_in_three": true,
+  "D5_equal_steps_in_every_d": true,
+  "D5_first_shell_exists_only_in_three": true,
+  "D6_frame_law_gives_the_same_exponent": true,
+  "pass": true
+ }
+}
