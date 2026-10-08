@@ -1,0 +1,10 @@
+{
+ "T1_count_is_degree_times_phase": true,
+ "T2_two_counts": true,
+ "T2_tick_free_and_reader_free": true,
+ "T3_three_planes": true,
+ "T4_turning_any_d": true,
+ "T5_expansion": true,
+ "T6_weights_d3": true,
+ "pass": true
+}

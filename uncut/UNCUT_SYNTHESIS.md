@@ -83,8 +83,12 @@ Put in for C: the reader is the best frame; h is a variable of state.
     for static charge; stored cost read with the rim unit squared (CT1).
 35. The four components of a reading are three directions and the reader's count; the count is central, not a
     fourth direction; the closing turn is the product of the three cuts. d ≥ 4 cases are outside this carrier (FC4).
+36. No time variable in the count: S = k·(M·P) for the neutral centre; with planes, S = ½[M·P − (ΦP)Q] − (ΩP)J in
+    three directions; M·P = (centre's phase per reader tick) × (reader ticks per closed turn), tick-free and
+    reader-free (CK1).
 
 ## Open
+- Whether the phases per closed turn are whole numbers of marks (CK1).
 - Why ρ = 1 beyond the two readings of TS2; charge with turning in d ≥ 4 beyond second order in the charge (CT1).
 - The mirrors in the count form (ME2 §3); planes needing a larger carrier.
 - SL1 gives the mean over histories; a statement for one history is open.
