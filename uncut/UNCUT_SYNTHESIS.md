@@ -1,0 +1,37 @@
+# Uncut line — where it stands (8 October 2026)
+
+Every statement below is certified in the named stage (script + test + RESULT file). "Put in" lists what is assumed.
+
+## A. Why non-commutation exists
+1. Two scale-readings fail to commute by the running of one pure ratio ε (NC1).
+2. The running is the response of ε to a scale: a·β_S + b·β_V = −γ·b₀∂ε/∂b₀ (SC1).
+3. Read on the centre potential, the defect is the turn-part w = running × work reading (DW1).
+4. A defect has a frame part and a weight part (UP5). Frame part: scale inside the potential. Weight part:
+   scale outside — the reader's unit (PL2, XU1–XU3).
+5. The flat diagram (λ = 0, Maxwell's one equation, closed four-step walk) is the case of no scale inside and none outside.
+
+## B. The count of a horizon
+6. The carrier holds exactly three cuts; their readings close the boundary in one full turn (WD2).
+7. 1/r from least cost, M = r_s/2 from the period law (MC1, MO1, WD1-T4).
+8. Fall = radial cut turned by an imaginary angle; the horizon adds a real quarter turn and exchanges two
+   cuts; the closing period is forced, the centre is smooth (HX1, SM1).
+9. The unit belongs to the far frame and equals 1 (UN2).
+10. Count = area swept in the (M, t) plane = boundary area/4 (ST1); with charge, spin, expansion: one more
+    plane each, one Maxwell-type equation each (PL1, XU2). Extremal shares ¼ (charge) and ½ (spin).
+11. Turn-part of a horizon: zero at the neutral end and where T = 0, one double pole between, one sign (BH1, BH2).
+
+Put in for B: directions = cuts; count defined as plane area per unit turn.
+
+## C. A one-way count
+12. In an expanding space no frame has the full unit: c = √(1 − 3(hM)^{2/3}) (XU1).
+13. The count read by one frame is then path-dependent, with defect (1 + x²)/(2u^{1/3}c³)·dS ∧ dx,
+    positive on the whole region (XU3). Gain of a circuit = ΔS·ΔΦ; slow expansion Φ = (3/2)(hM)^{2/3}.
+14. A gain needs two non-commuting directions and is bounded by the history ledger (LG1).
+
+Put in for C: the reader is the best frame; h is a variable of state.
+
+## Open
+- A process that runs a count-raising circuit, and why it would be the natural one.
+- "Directions = cuts" as a theorem rather than an identification.
+- The pole of the turn-part (BH1-T5): what the diagram does there.
+- BL1's multiplicative growth and C's additive gain as one statement.

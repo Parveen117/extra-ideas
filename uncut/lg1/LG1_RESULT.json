@@ -1,0 +1,10 @@
+{
+ "T1_there_and_back": true,
+ "T1_ledger_positive": true,
+ "T2_gain": "0.16643467",
+ "T2_ledger": "0.250625",
+ "T3_bound": true,
+ "T3_inequality_exact": true,
+ "T4_order": true,
+ "pass": true
+}

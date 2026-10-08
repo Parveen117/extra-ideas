@@ -1,0 +1,9 @@
+{
+ "T0_covariant": true,
+ "T1_law": true,
+ "T2_no_scale_gives_CP1": true,
+ "T3_witness": true,
+ "T4_outer_scale": true,
+ "T5_two_scales": true,
+ "pass": true
+}
