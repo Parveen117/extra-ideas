@@ -11,7 +11,7 @@ Checked by searching every stage folder of `physics/` for a citation. "Unused" m
 | same branch, `coherence-first-thermodynamics` CF-1…8 | W = κr^ν + εs²/2, divergent local response, finite measure | conditional construction | thermal side of TL1 |
 | same branch, `ugd-kahler-propagation` (GS, NP, CP, MG, LR, SM, CS, PS, BI, SC) | Maxwell from rank-four variations, Palatini–Holst reduction, Λ = −12σu², torsion elimination with quartic contact term, exact a³ = eᵗ − 1 cosmology, Bianchi I, c_GW/c_γ = 1 | conditional on declared actions | field equations TP1 took as law; cosmology not touched by the line |
 | same branch, `uncut-cut-measurement` | measurement from cuts, minimum memory, native source law, atom-interferometer audit | conditional | DC1 (decoherence stance), the "why recordable" premise of LC1 |
-| RH-Framework ledger T01-A/B/C | cut-tail mass M_Σ, recognition energy E_Σ, E(a⋆ξ) ≤ M(a)²E(ξ) | PROVED | native norm for wave energy (WQ1, GW1) instead of an inner product |
+| RH-Framework ledger T01-A/B/C | cut-tail mass M_Σ, recognition energy E_Σ, E(a⋆ξ) ≤ M(a)²E(ξ) | PROVED | **used in EN1** (bound extended to all three sectors) |
 | RH-Framework T01-E4D | multiplier acts on a flat state by its mean; covariance term | PROVED | QC4 "curvature = −variance" |
 | RH-Framework T01-E5A | UGD packet (p, u, μ), seam memory W(p, q) | PROVED | BC1 turn/addition split; LC1 lost part |
 | RKF theorum/28 | finite-to-infinite outward certificate (β < 1) | PROVED with hypothesis list | the many-mode sums of ZP1 and GW1 |

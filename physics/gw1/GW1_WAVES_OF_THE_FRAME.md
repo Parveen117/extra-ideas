@@ -31,7 +31,7 @@ Q₂ = ½ [ (∂_t a)² − (∂_z a)² + (∂_t b)² − (∂_z b)² ] .
 ```
 
 A difference of two squares — a rate part and a gradient part — as
-E� − B² is for light. The rate term is positive.
+E² − B² is for light. The rate term is positive.
 
 **V2 — two waves.** Stationarity gives ∂_t²a − ∂_z²a = 0 and the same
 for b: two waves, uncoupled, at the cone speed.
