@@ -88,3 +88,9 @@ python -m unittest test_ct1
 RKF theorum/41 (cut-graded generator; certificate re-run, pass) is the common source: the chain block is its flow
 at the dual coupling, the doubling is its join × cut identity, the centre split is its even and odd channels, and
 the three sectors are the three signs of the square of one generator (CG1). Nothing above is changed.
+
+## Later note (CZ1, 9 October)
+
+On a closed surface the centre record closes at fixed cosets, and the weight of a twist is an exponential of the
+turn coupling: for a cube 4.27·κ·e^(−(6 − 3√3)κ), against the power 3/(4κ) for one open face. A twist weight of
+7.7 × 10⁻²⁰ is κ = 61.7. This is not a mass count. Nothing above is changed.

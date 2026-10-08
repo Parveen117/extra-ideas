@@ -1,0 +1,63 @@
+{
+ "checks": {
+  "Z1_join_two_faces_along_a_link": true,
+  "Z1_link_twice_in_one_face": true,
+  "Z2_closed_surface_carries_d_to_the_euler_number": true,
+  "Z3_centre_sum_at_fixed_cosets": true,
+  "Z3_dual_couplings_add_over_the_surface": true,
+  "Z4_strong_end_factor_four": true,
+  "Z4_face_twist_is_a_power": true,
+  "Z4_twist_weight_is_exponential_with_the_classical_exponent": true,
+  "Z4_cube_exponent_is_6_minus_3_root_3": true,
+  "Z4_classical_twist": true,
+  "Z4_large_surfaces_cost_less": true,
+  "Z4_numbers": true,
+  "Z5_laplacian_of_a_face_per_link": true,
+  "pass": true
+ },
+ "numbers": {
+  "twist_exponent_by_number_of_faces": {
+   "2": {
+    "classical": 1.9999999999999998,
+    "from_the_sums": 1.9997138273464954
+   },
+   "4": {
+    "classical": 1.1715728752538097,
+    "from_the_sums": 1.1716581411143088
+   },
+   "6": {
+    "classical": 0.8038475772933678,
+    "from_the_sums": 0.8039920613927463
+   },
+   "10": {
+    "classical": 0.4894348370484647,
+    "from_the_sums": 0.48972403386194185
+   },
+   "16": {
+    "classical": 0.3074355135483131,
+    "from_the_sums": 0.3079470663820513
+   }
+  },
+  "cube_twist": {
+   "5": 0.3091070418296011,
+   "10": 0.012543237468760751,
+   "20": 8.533684136106188e-06,
+   "40": 1.8228683090163084e-12,
+   "80": 4.006237349275543e-26
+  },
+  "cube_twist_times_exp_over_kappa": {
+   "40": 4.19718379828984,
+   "80": 4.247878215602068,
+   "160": 4.27311464397617
+  },
+  "cube_centre_coupling_over_kappa": {
+   "20": 0.2917872346572976,
+   "40": 0.3378826232681259,
+   "80": 0.3654959995869404
+  },
+  "half_the_exponent": 0.401923788646684,
+  "turn_coupling_where_the_cube_is_self_dual": 4.447320002875874,
+  "turn_coupling_for_a_twist_weight_of_7.7e-20": 61.67485476972403,
+  "seam_curvature_on_the_free_vacuum": "-3 theta x (faces through the link)"
+ }
+}

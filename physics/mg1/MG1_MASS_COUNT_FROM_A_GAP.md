@@ -95,3 +95,9 @@ The proton's count is still not derived. Nothing above is changed.
 
 M4's κ = 2 × 10¹⁹ is k_c = 22.4 in the coupling of the chain's centre record (CT1): the same fact. Which of the two
 is the number nature sets is not decided by the line. Nothing above is changed.
+
+## Later note (CZ1, 9 October)
+
+On a closed surface the centre record closes at fixed cosets, and the weight of a twist is an exponential of the
+turn coupling: for a cube 4.27·κ·e^(−(6 − 3√3)κ), against the power 3/(4κ) for one open face. A twist weight of
+7.7 × 10⁻²⁰ is κ = 61.7. This is not a mass count. Nothing above is changed.

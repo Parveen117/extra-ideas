@@ -113,6 +113,9 @@ ln 2  (quantum / kT of the diagonal mode; QD1, RD1                     —
       through a cut: turn, shear, boost)
 (d − 1)/2d ; N²/(4N² − 1): 1/3 → 1/4      SN2                          —
       (one reading in d cuts; N readings)
+6 − 3√3 ; 4 − 2√2 ; F(1 − cos π/F)        CZ1                          —
+      (exponent of the weight of a twist
+      of a closed surface of F faces)
 27/5, 27/20, 28/25 (rates of a bound      BR1                          wavelength ratios 1.35001, 1.11999
       charge); second-shell split α²/16                                3.3342·10⁻⁶ against 3.3282·10⁻⁶
 ```
@@ -160,6 +163,12 @@ count of 10⁻²⁰ is a coupling near 22. For the colour record in four dimensi
 The chain of turns has this two-valued record inside it, its centre (CT1): tanh k_c = I₂(κ)/I₁(κ), and
 k_c = ½ ln(4κ/3) + …, so its power law in κ is the same exponential law in k_c. In four dimensions the centre
 record has a different coupling on every face; one doubling map for it is not built.
+
+On a closed surface the centre record closes at fixed cosets (dual couplings add over the faces) and, after the
+cosets, up to a factor d^χ (CZ1). Its flip F = R − D is the weight of a twist: a power for one face, but for a
+cube 4.27·κ·e^(−(6 − 3√3)κ) — an exponential of the turn coupling itself, each face turned by a sixth of a full
+turn. At the weak end a closed surface sits on the diagonal up to that flip. A twist weight is not a mass; the
+sum over closed surfaces in four dimensions is open.
 
 ## Reproduce
 

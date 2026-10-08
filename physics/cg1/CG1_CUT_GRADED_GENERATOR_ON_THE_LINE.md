@@ -101,3 +101,9 @@ J U J U = α + 2 cosh ω·s·G_e + s²[G_e, G_o] ; CURVATURE ALONG C₃         
 python cg1_cut_graded_generator_on_the_line.py
 python -m unittest test_cg1
 ```
+
+## Later note (CZ1, 9 October)
+
+For the weight of a closed surface the seam curvature of the centre cut is zero and the record closes at fixed
+cosets; the obstruction after the cosets is d^χ. The curvature is non-zero only in the generator form, where on
+the free vacuum it is −3θ × (the faces through the link) (CZ1-Z5). Nothing above is changed.
