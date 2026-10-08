@@ -1,0 +1,21 @@
+{
+ "J1_reading_is_the_first_jet_of_f_times_factorial_polynomial": true,
+ "J2_change_operator_acts_as_lambda": true,
+ "J2_derivative_rule_agrees_with_the_quotient_rule": true,
+ "J2_polynomials_of_the_change_operator": true,
+ "J2_rational_function_example": true,
+ "J2_reading_of_the_derivative": true,
+ "J3_higher_poles_do_depend_on_lambda": true,
+ "J3_simple_pole_reading_is_the_first_jet_for_every_lambda": true,
+ "J4_fewer_readings_do_not": true,
+ "J4_m_readings_recover_a_pole_of_order_m": true,
+ "J4_reading_at_lambda_one_is_the_first_jet_only": true,
+ "J5_a_tail_with_a_pole_is_never_an_eigenfunction": true,
+ "J5_eigenfunction_is_unique_up_to_a_factor": true,
+ "J5_exp_of_minus_c_is_an_eigenfunction": true,
+ "J6_resolvent": true,
+ "J6_shift_law": true,
+ "control_opposite_sign_of_c_fails": true,
+ "control_without_factorial_weights_the_law_fails": true,
+ "pass": true
+}

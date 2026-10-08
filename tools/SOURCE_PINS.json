@@ -1,0 +1,77 @@
+{
+ "note": "Hashes identify the evidence that was read; they do not certify it. The two drafts are not republished.",
+ "date": "2026-10-09",
+ "drafts": [
+  {
+   "label": "Draft A",
+   "description": "catalog of fifteen new mathematical objects (LaTeX)",
+   "bytes": 23282,
+   "sha256": "68316205bd169a7b6592dadef3e0d1f909b6240e29e2b8a6ad94e7297bdf21ea"
+  },
+  {
+   "label": "Draft B",
+   "description": "uncut horizons: eight new mathematical objects (LaTeX)",
+   "bytes": 16195,
+   "sha256": "1b652815be342885be0c4e6bb13021e7781f4dec18bb5115f3fdba9cfeac4e88"
+  }
+ ],
+ "sources_read": [
+  {
+   "repository": "Parveen117/Recognition-Kernel-Framework",
+   "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+   "files": {
+    "theorems/foundation/F00E_NATIVE_EULER_FROM_IOTA_COMPLEX.md": "9ea9c78aa12d8fa0db5b4c87b9463d64a4751f41",
+    "theorum/75_selective_release_content_tail_theorem.md": "c975c7c2c01cbc40d9f0503f54afab9a6c8cd610",
+    "theorum/46_first_visible_jet_seam_quotient_theorem.md": "e3276b8c8bacf28c3bd2797f1538e6d11ca1dede"
+   }
+  },
+  {
+   "repository": "Parveen117/Publications",
+   "commit": "7ad1f7b6013da4f1d62d642f779f27bae41c9bcf",
+   "files": {
+    "papers/generalized-euler-evolution/THEOREM.md": "e88daf34aed30221e37338f7b7881bd3a8362146",
+    "papers/lambda-seam-calibration/README.md": "573562cbaa0dc22146858c92a95207d0585a90e6",
+    "papers/curvature-information-duality/README.md": "79ae551bc9591708a3ce277f9ef5236b7c40b8bc"
+   }
+  },
+  {
+   "repository": "Parveen117/extra-ideas",
+   "commit": "d66d63ec99a0f9debec918115ef5e0f7e07e0e7f",
+   "files": {
+    "physics/pt1/PT1_PRIME_TURNS.md": "10ad4265bd99dfe334f5bc671e98dd932e874477",
+    "physics/ct1/CT1_CENTRE_RECORD_OF_THE_TURN_CHAIN.md": "514dfdb9fd6db0a563d7374e9283a8e5c971e1af",
+    "physics/sn1/SN1_THREE_SECTORS_THREE_NUMBERS.md": "3d518136166ee982d089d7aeadebd6ee9c522629",
+    "physics/sn2/SN2_FROM_ONE_READING_TO_MANY.md": "9fe2e4da619d0370f96b038ef285ac582b35db9e",
+    "03-lambda-reference/RETURN_INVARIANTS_R1.md": "8ebb5186c085e5dca0d8e6094d5fb0a3426ba244"
+   }
+  }
+ ],
+ "pointed_to_not_re_read": [
+  {
+   "repository": "Parveen117/Publications",
+   "commit": "7ad1f7b6013da4f1d62d642f779f27bae41c9bcf",
+   "files": {
+    "papers/recognition-seam-topology/README.md": "459da46561bbc123eb85fd6706a900cd6e294091",
+    "papers/emk-ugd-algebra/README.md": "33c86acf1cbff1238df18d34aa62bedc78d74161"
+   }
+  },
+  {
+   "repository": "Parveen117/Recognition-Kernel-Framework",
+   "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+   "files": {
+    "theorum/76_seam_flow_meter_theorem.md": "1c516299af716200e64ae8138de93cfbd9f21cde"
+   }
+  },
+  {
+   "repository": "Parveen117/Recognition-Kernel-Framework",
+   "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+   "note": "native primes and Euler product (F00-H, F00-I): cited by name in PM1, not opened for this work"
+  },
+  {
+   "repository": "Parveen117/extra-ideas",
+   "commit": "d66d63ec99a0f9debec918115ef5e0f7e07e0e7f",
+   "note": "MG1-M4 and the YM-3/4 face expansion are used as quoted in CT1, not opened themselves"
+  }
+ ],
+ "file_hashes": "git blob (sha1) at the stated commit"
+}

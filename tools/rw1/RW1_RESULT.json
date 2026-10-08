@@ -1,0 +1,94 @@
+{
+ "checks": {
+  "R1_first_terms_nu0": true,
+  "R1_second_moment_is_the_scale": true,
+  "R1_series_with_w0_zero_is_the_mean": true,
+  "R1_spread_is_the_scale_derivative_of_the_mean": true,
+  "R1_the_other_start_has_no_power_series": true,
+  "R1_winding_equation_holds_in_every_sector": true,
+  "R2_only_the_product_of_the_two_rates_enters": true,
+  "R3_ladder_identity": true,
+  "R4_all_coefficients_non_negative": true,
+  "R4_coefficients_below_the_cap": true,
+  "R4_constant_one_half_is_sharp": true,
+  "R4_constant_one_is_sharp": true,
+  "R4_mean_minus_spread_is_a_positive_series": true,
+  "R4_remainder_of_the_spread_is_bounded": true,
+  "R4_shell_spread_closed_form": true,
+  "R4_spread_minus_half_mean_is_a_positive_series": true,
+  "R5_root_free_enclosure_on_the_grid": true,
+  "R5_spread_over_mean_runs_from_1_to_one_half": true,
+  "R6_centre_record_between_kappa_over_2_and_2kappa_over_3": true,
+  "R6_centre_record_is_kappa_over_one_plus_spread_over_mean": true,
+  "R6_centre_record_within_a_bounded_distance_of_2kappa_over_3": true,
+  "R6_face_ladder_two_sided_at_every_coupling": true,
+  "R6_ladder_law_of_theorum_75_recovered": true,
+  "R6_self_dual_centre_record_bracketed": true,
+  "R7_negative_K_branch_decreases": true,
+  "R7_no_zero_before_36_over_25": true,
+  "R7_sign_change_between_36_over_25_and_29_over_20": true,
+  "control_planted_coefficient_is_detected": true,
+  "control_single_strand_does_not_obey_the_equation": true,
+  "control_single_strand_has_spread_equal_to_mean": true,
+  "pass": true
+ },
+ "numbers": {
+  "R1_obstruction_of_the_other_start": {
+   "1": "1",
+   "2": "-1",
+   "3": "1/4",
+   "4": "-1/36",
+   "5": "1/576",
+   "6": "-1/14400"
+  },
+  "R4_remainder_at_nu1_y2500_against_three_eighths": 0.373096,
+  "R5_spread_over_mean": {
+   "nu=0,y=1": 0.735353,
+   "nu=0,y=1/100": 0.995041,
+   "nu=0,y=1/4": 0.896902,
+   "nu=0,y=100": 0.513172,
+   "nu=0,y=25": 0.527927,
+   "nu=0,y=2500": 0.502525,
+   "nu=0,y=4": 0.589049,
+   "nu=1,y=1": 0.875662,
+   "nu=1,y=1/100": 0.998339,
+   "nu=1,y=1/4": 0.961556,
+   "nu=1,y=100": 0.539401,
+   "nu=1,y=25": 0.582604,
+   "nu=1,y=2500": 0.507575,
+   "nu=1,y=4": 0.723201
+  },
+  "R6_centre_record_lower_value_upper": {
+   "1": [
+    0.5,
+    0.509799,
+    0.666667
+   ],
+   "1/2": [
+    0.25,
+    0.251282,
+    0.333333
+   ],
+   "100": [
+    50.0,
+    66.33168,
+    66.666667
+   ],
+   "2": [
+    1.0,
+    1.06629,
+    1.333333
+   ],
+   "20": [
+    10.0,
+    12.992062,
+    13.333333
+   ],
+   "5": [
+    2.5,
+    2.981419,
+    3.333333
+   ]
+  }
+ }
+}

@@ -94,3 +94,10 @@ the three sectors are the three signs of the square of one generator (CG1). Noth
 On a closed surface the centre record closes at fixed cosets, and the weight of a twist is an exponential of the
 turn coupling: for a cube 4.27·κ·e^(−(6 − 3√3)κ), against the power 3/(4κ) for one open face. A twist weight of
 7.7 × 10⁻²⁰ is κ = 61.7. This is not a mass count. Nothing above is changed.
+
+## Later note (RW1, 9 October)
+
+RW1 (`tools/rw1`) reads I₂/I₁ as the mean returned count of two strands and proves, for every κ > 0,
+κ/2 < sinh 2k_c < 2κ/3, with sinh 2k_c = κ/(1 + spread/mean). C3's two ends are the two sides of this
+inequality; the weak end, checked numerically above, now has a written proof
+(|k_c − ½ ln(4κ/3)| < 1/(2(κ−2)) for κ ≥ 3). C4's point lies in 3/2 < κ < 2. Nothing above is changed.

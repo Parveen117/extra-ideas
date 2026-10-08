@@ -1,0 +1,66 @@
+{
+ "checks": {
+  "P1_other_readings_sum_to_zero_on_every_shell": true,
+  "P1_power_is_unit_free_exactly_for_multiples_of_four": true,
+  "P1_shell_sums_are_whole_numbers_without_turn_part": true,
+  "P2_multiplicative": true,
+  "P2_prime_power_rule": true,
+  "P2_primes_three_mod_four_are_silent": true,
+  "P2_split_primes_read_the_prime_turn": true,
+  "P2_two_is_the_quarter_turn": true,
+  "P3_size_bound_strict": true,
+  "P4_product_form_equals_shell_sums": true,
+  "P5_a4_plus_b4_is_unit_free_but_not_a_power": true,
+  "P5_enclosures_agree_to_forty_digits": true,
+  "P5_pi_enclosure": true,
+  "P5_seam_law_at_the_points": true,
+  "P5_shell_count_bound_used_in_the_tails": true,
+  "P5_unit_free_reading_that_is_not_a_power_does_not_cross": true,
+  "P5_wrong_sign_is_separated": true,
+  "P5_wrong_weight_is_separated": true,
+  "P6_draft_prime_series_terms_do_not_tend_to_zero": true,
+  "P6_prime_turns_never_repeat": true,
+  "control_planted_coefficient_breaks_the_product_form": true,
+  "control_rule_with_the_wrong_character_fails": true,
+  "control_third_power_is_not_unit_free": true,
+  "pass": true
+ },
+ "numbers": {
+  "A_1_first_values": [
+   1,
+   -4,
+   0,
+   16,
+   -14,
+   0,
+   0,
+   -64,
+   81,
+   56,
+   0,
+   0,
+   -238
+  ],
+  "P5_gap_for_a4_plus_b4": "1.110397",
+  "Theta_1(1/t), t=2": "0.237247175238414",
+  "Theta_1(1/t), t=3/2": "0.263065613535876",
+  "prime_turns": {
+   "13": [
+    "5/13",
+    "12/13"
+   ],
+   "17": [
+    "15/17",
+    "8/17"
+   ],
+   "29": [
+    "21/29",
+    "20/29"
+   ],
+   "5": [
+    "3/5",
+    "4/5"
+   ]
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "Y1_cyclic_relabelling_leaves_T_unchanged": true,
+ "Y1_exchange_gives_the_transpose": true,
+ "Y1_symmetric_part_is_the_same_for_all_six_orders": true,
+ "Y2_symmetric_part": true,
+ "Y2_trace": true,
+ "Y3_alternating_part_is_the_wedge_of_the_differences": true,
+ "Y3_non_zero_otherwise": true,
+ "Y3_unchanged_by_a_common_shift": true,
+ "Y3_zero_when_the_differences_are_parallel": true,
+ "Y4_alternating_part_is_the_determinant_of_exponent_differences": true,
+ "Y4_change_of_the_symmetric_part": true,
+ "Y4_it_vanishes_only_for_two_special_factors": true,
+ "Y4_special_factor_leaves_both_parts_unchanged": true,
+ "Y4_unchanged_by_a_common_factor_of_the_three_readings": true,
+ "Y5_displayed_cyclic_law_read_on_index_triples_fails": true,
+ "Y5_draft_tensor_is_not_symmetric_in_general": true,
+ "Y5_symmetric_exactly_on_dependent_ratios": true,
+ "pass": true
+}

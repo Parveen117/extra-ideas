@@ -109,3 +109,9 @@ A PHYSICAL PURE NUMBER FROM THE PRIME TURNS                              NOT OBT
 python pt1_prime_turns.py
 python -m unittest test_pt1_exact
 ```
+
+## Later note (PM1, 9 October)
+
+PM1 (`tools/pm1`) builds the series whose coefficient at a prime p ≡ 1 mod 4 is 2p^(2k)·rad(u_p^(2k)), at
+p ≡ 3 mod 4 is 0 and at 2 is (−4)^k: whole numbers, multiplicative, with an exact product over primes and a
+seam law checked at points. Nothing above is changed.

@@ -1,0 +1,44 @@
+name: Tools exact certificates
+
+on:
+  push:
+    branches: [main, physics-ph1-ph2-response-holonomy]
+    paths:
+      - 'tools/**'
+      - '.github/workflows/tools.yml'
+  pull_request:
+    paths:
+      - 'tools/**'
+      - '.github/workflows/tools.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tools-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  certify:
+    name: Returned count, jet reading, prime-turn series, cyclic form
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          persist-credentials: false
+      - name: Python 3.12 only
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Tests of every tool
+        run: python -B tools/run_all_tests.py
+      - name: Regenerate result files
+        run: |
+          python -B tools/rw1/rw1_returned_winding_count.py
+          python -B tools/jr1/jr1_jet_reading_of_the_change_operator.py
+          python -B tools/pm1/pm1_prime_turn_series.py
+          python -B tools/cy1/cy1_three_reading_cyclic_form.py
+      - name: Evidence remains unchanged
+        run: git diff --exit-code
