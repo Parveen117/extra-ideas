@@ -87,6 +87,12 @@ sequence dissolves in two steps.
   classification of where χ₂ leaves (0, 1].
 * Two pairs of readings only. Nothing here says what the higher levels measure.
 
+## Later note (UP4)
+
+This stage uses derivatives in a chart, so it assumes that the two cut operations commute. UP4 removes that
+assumption and gives the term it hides (w = ½[D_S, D_V]U); the statements here about a potential's own
+equation, a rest set, or a bound on the ratio are the w = 0 case.
+
 ## Open gates
 
 1. The generating object of the whole sequence: is there one function (as UP2's G is for the layers) whose

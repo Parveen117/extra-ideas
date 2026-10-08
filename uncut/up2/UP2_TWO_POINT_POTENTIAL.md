@@ -89,6 +89,12 @@ the diagram carries no weight at all (T5).
 * Why Φ exists at all — why the two-point potential should split as Φ(x) − Φ(x₀) − … — is not shown.
   A two-point function that is not of this form would have a rest set that is not a diagram.
 
+## Later note (UP4)
+
+This stage uses derivatives in a chart, so it assumes that the two cut operations commute. UP4 removes that
+assumption and gives the term it hides (w = ½[D_S, D_V]U); the statements here about a potential's own
+equation, a rest set, or a bound on the ratio are the w = 0 case.
+
 ## Open gates
 
 1. Characterise the two-point functions whose rest set is a diagram (half-dimensional, with face relations):
