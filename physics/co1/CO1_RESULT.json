@@ -1,0 +1,6 @@
+{
+ "law_value": "-6 h^2 in both frames",
+ "pressure": "3*kappa*n_0**2/(16*A**6)",
+ "perfect_square_case": "m = sqrt(3 Lambda)/2  ->  v = b (exp(omega t) - 1)",
+ "redshift_constant_rate": "1 + z = 1/(1 - beta) = sqrt((1+beta)/(1-beta)) / sqrt(1 - beta^2)"
+}
