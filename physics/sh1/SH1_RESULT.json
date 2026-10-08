@@ -1,0 +1,48 @@
+{
+ "checks": {
+  "S1_two_cuts": true,
+  "S1_three_cuts": true,
+  "S1_four_variables": true,
+  "S2_shell": true,
+  "S3_capacities": true,
+  "S4_two_readings_wedge": true,
+  "S4_memory_is_gram_determinant": true,
+  "S4_dependent_readings_leave_none": true,
+  "S4_no_more_than_the_dimension": true,
+  "S5_rows_are_capacities": true,
+  "pass": true
+ },
+ "record": {
+  "two_cuts": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "three_cuts": [
+   1,
+   3,
+   5,
+   7,
+   9,
+   11,
+   13
+  ],
+  "four_variables": [
+   1,
+   4,
+   9,
+   16,
+   25,
+   36
+  ],
+  "capacities": [
+   2,
+   8,
+   18,
+   32
+  ]
+ }
+}

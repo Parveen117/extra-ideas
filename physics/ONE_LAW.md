@@ -81,6 +81,9 @@ masses from closure and two rates         QP1                          5.256 ± 
 π²/15, 2.8214, 4.9651 (light gas)         RD1                          shape of the sky's light to 50 parts per million
 ¾ and r⁻⁶ (two neutral centres); rule     LD1                          ten unlike pairs of noble atoms within 1.5 %
       for unlike pairs
+2, 8, 18, 32 (readings in a shell, 2n²)   SH1                          rows of the table of elements: 2, 8, 8, 18, 18, 32
+½     (count factor² at the last stable   AC1                          —
+      circle: seen = lost)
 27/5, 27/20, 28/25 (rates of a bound      BR1                          wavelength ratios 1.35001, 1.11999
       charge); second-shell split α²/16                                3.3342·10⁻⁶ against 3.3282·10⁻⁶
 ```

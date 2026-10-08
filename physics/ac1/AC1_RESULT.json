@@ -1,0 +1,21 @@
+{
+ "checks": {
+  "A1_charge_limit": true,
+  "A2_least_area_at_last_stable_circle": true,
+  "A2_mass_limit": true,
+  "A3_last_stable_circle_is_on_the_diagonal": true,
+  "A3_only_in_three_cuts": true,
+  "A3_three_diagonals": true,
+  "A3_stable_means_seen_exceeds_lost": true,
+  "A4_both_far_below_their_limits": true,
+  "pass": true
+ },
+ "numbers": {
+  "largest_alpha_charge_first_circle": 1.0,
+  "largest_alpha_mass_first_circle": 0.28867513459481287,
+  "alpha_charge": 0.007297352573780785,
+  "alpha_mass_electron_proton": 3.216589504160802e-42,
+  "ratio": 2.2686614391862357e+39,
+  "mass_of_a_centre_with_no_first_circle_for_an_electron_kg": 150110655501071.8
+ }
+}
