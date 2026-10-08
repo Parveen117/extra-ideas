@@ -1,0 +1,23 @@
+{
+ "law": "Q = S:S - (tr S)^2, no spin term",
+ "rigid_turn": {
+  "I1": "4 Omega^2",
+  "I2": "-2 Omega^2",
+  "I3": "0",
+  "law": "0"
+ },
+ "path": "acceleration = d_t v + grad(v^2/2) + (curl v) x velocity",
+ "gyroscope": "turn of the triad along e_0 = +1 x spin W",
+ "loop": "two-way lag = 2 x flux(curl v) / (1 - beta^2)",
+ "axial_river_exponents": "omega ~ r^n with n(n+3) = 0: n = 0 (rigid) or n = -3",
+ "dragging_river": {
+  "spin_field": "dipole 2J(3 z X - r^2 z^)/r^5",
+  "strain_squared": "18 J^2 sin^2(theta) / r^6"
+ },
+ "second_order": "Q = -(2/r^2)(r b^2)' + 18 J^2 sin^2(theta)/r^6 : no b(r) makes it vanish at every angle",
+ "plane": "Q = -2 det(symmetric part) = -2 m^2 (1 - u^2 - v^2); w absent; curl = 2w; expansion = 2m",
+ "numbers": {
+  "gyroscope_polar_orbit_7020km_mas_per_year": 40.9,
+  "loop_1m2_at_pole_two_way_lag_s": 3.2452143991035163e-21
+ }
+}
