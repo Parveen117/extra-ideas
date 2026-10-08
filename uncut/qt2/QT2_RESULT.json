@@ -1,0 +1,10 @@
+{
+ "T1_walk_law": true,
+ "T1_eigen": true,
+ "T2_real_never_turn": true,
+ "T3_turn": true,
+ "T4_no_growth": true,
+ "T5_outside": true,
+ "T5_inside_quarter_turn": true,
+ "pass": true
+}
