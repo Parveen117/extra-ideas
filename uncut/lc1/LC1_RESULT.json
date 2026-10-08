@@ -1,0 +1,10 @@
+{
+ "T1_least_cost_is_1_over_r": true,
+ "T2_stored_outside": true,
+ "T3_clock_factor": true,
+ "T4_BH1_centre_derived": true,
+ "T4_partner_at_horizon": true,
+ "T5_stationarity_has_quadratic_term": true,
+ "T5_one_cut_is_constant_flux": true,
+ "pass": true
+}

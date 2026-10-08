@@ -59,9 +59,12 @@ Put in for C: the reader is the best frame; h is a variable of state.
     conditions. Window law for every plane: w_X → Y·T_N/(2 dT_N/dX); two windows of one transition are tied (ME2).
 25. Non-commuting plane (three cuts): frame part f^c = da^c − s·ε·a∧a; a change of reader is flat; flux over one
     eighth of the boundary = π/4 = WD2's one-eighth turn. Master equation: dθ = dk ∧ θ₀ + k(dθ₀ + θ₀∧θ₀) (NA1).
+26. Least cost for a partner gives Q/r; its cost stored outside r, Q²/(2r), is a source in the clock plane:
+    N² = 1 − 2M/r + Q²/r², and BH1's centre potential follows instead of being put in. Non-commuting plane:
+    d f^c − s·ε·a^p f^q = 0 (LC1).
 
 ## Open
-- The mirrors in the count form (ME2 §3); a dynamics for the partners; planes needing a larger carrier.
+- The mirrors in the count form (ME2 §3); BH2's potential from least cost; planes needing a larger carrier.
 - SL1 gives the mean over histories; a statement for one history is open.
 - "Directions = cuts" as a theorem rather than an identification.
 - The pole of the turn-part (BH1-T5): what the diagram does there.

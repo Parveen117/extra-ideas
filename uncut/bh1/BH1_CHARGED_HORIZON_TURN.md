@@ -25,3 +25,5 @@ unbounded at one interior point without reversing.
 Put in: M(S,Q) and S = area/4 (not derived here); the normalisation w/M of DW1.
 Not claimed: that x = 1/3 is or is not a phase change; any statement about what the entropy counts.
 Open gate: the rotating centre M(S,J) (weights (2,2)) — whether its turn has the same three-point shape.
+
+> Later note (LC1): the centre potential M(S,Q) used here is derived in `uncut/lc1` from least cost in two planes; it is no longer an input.
