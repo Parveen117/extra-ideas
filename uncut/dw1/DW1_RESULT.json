@@ -1,0 +1,10 @@
+{
+ "T1_frame_part": true,
+ "T2_w": true,
+ "T3_one_w": true,
+ "T4_flow_invariant": true,
+ "T5_runs": true,
+ "T6_value": "1/4",
+ "T6_sign": true,
+ "pass": true
+}
