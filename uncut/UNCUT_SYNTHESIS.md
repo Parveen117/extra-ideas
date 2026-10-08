@@ -68,9 +68,11 @@ Put in for C: the reader is the best frame; h is a variable of state.
     unit of the rim's doubled clock over the unit of its clock — zero at the eighth turn (ET1).
 29. With expansion: stored-cost rule holds unchanged; the momentum rule needs the clock factor 1 − h²R² (found by
     matching, not derived). Surface T = 0 in (Φ₀, v, hR) with ends 1, 1/√2, 1/√3 (ET2).
+30. E² = M₀² + N²p²: local quadrature brought to the reader by the surrounding space's clock factor; reproduces
+    the published formula (hep-th/9908022, eq. 43) term by term (CF1). Two joining rules: stored cost; motion.
 
 ## Open
-- Why the rim's momentum carries the expansion's clock factor (ET2-T2c).
+- Rule 2 tested where there is more than one spin (CF1).
 - The mirrors in the count form (ME2 §3); planes needing a larger carrier.
 - SL1 gives the mean over histories; a statement for one history is open.
 - "Directions = cuts" as a theorem rather than an identification.

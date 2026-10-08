@@ -1,0 +1,9 @@
+{
+ "T1_rule": true,
+ "T1_flat_is_SP1": true,
+ "T2_matches_eq43": true,
+ "T3_ambient_factor": true,
+ "T4_continuation": true,
+ "T5_partner": true,
+ "pass": true
+}

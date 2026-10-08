@@ -36,3 +36,5 @@ be checked against the source before any use; LC1's and SP1's rules; count S = �
 Not claimed: a derivation of the factor 1 − h²R²; that the surface of T4 is absent from the literature (it is
 the extremal surface of that family, in the line's three pure numbers).
 Open gate: derive ET2-T2c — why the rim's momentum, and not the stored costs, carries the clock factor.
+
+> Later note (CF1): the published formula has been read at its source (arXiv:hep-th/9908022, eq. (43)) and agrees with the form used here; the factor 1 − h²R² follows from MT1 + UN2 (`uncut/cf1`). The continuation to an expanding space remains this line's step.
