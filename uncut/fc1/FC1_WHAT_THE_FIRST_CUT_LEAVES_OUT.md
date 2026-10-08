@@ -73,6 +73,11 @@ difference is exactly what a loop reads.
 * Whether a dimension was absent at the first cut is not answered: this stage finds a missed component inside
   the carrier, not a missed dimension.
 
+## Later note (TC1)
+
+Open gate 1 below is taken up in TC1: on three cuts the missed part is a four-reading k, and W is its component
+along the third cut.
+
 ## Open gates
 
 1. The same question on the three-cut carrier: where the turn-part sits when ι commutes with the cuts.

@@ -1,0 +1,9 @@
+{
+ "turn_of_two_cuts": "R = -iota C3 : the turn of the two-cut carrier is iota times the third cut",
+ "invariants": "three: h.h , k.k , h.k   (two cuts had two: m^2 and W)",
+ "determinant": "det rho = (h.h - k.k) + 2 iota h.k",
+ "two_cut_case": "W = minus the third component of k : the missed part points along the cut the two-cut frame does not have",
+ "phase": "a frame change by a phase does nothing ; multiplying the element by Exp(iota chi) turns (h, k) by chi",
+ "at_rest": "M^2 = m^2 + |e|^2 when h.k = 0 ; e is a direction in space ; moving, k gains a time part with h.k still 0",
+ "witness": "FC1: 4 + 3R is h = (4; 0,0,0), k = (0; 0,0,-3), det 25"
+}
