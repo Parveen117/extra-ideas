@@ -46,3 +46,4 @@ frozen R1–R46 / MP1–MP2 register and its workflows.
 - [LT1](lt1/LT1_LAMBDA_TOWER_INWARD.md) — the λ-tower on the gravity field: each generation moves inward, the conformally flat and flat-space radii are consecutive levels, and at the end the element is a single null reading.
 - [BC1](bc1/BC1_BOUNDARY_AND_COUNT.md) — where whole numbers come from: an additive quantity (boundary sector) read as a turn (interior); on the boundary alone nothing is stepped.
 - [LN1](ln1/LN1_LOST_AND_RETURNED.md) — what a linear reading in a cut loses, the first non-linear layer of the tower returns: (H²)_ii = a_i² + Σb_ij²; for the gravity element the seen and lost parts are equal.
+- [LC1](lc1/LC1_LOST_IS_COUNTED.md) — the part lost to a cut is the part that is counted: the return of a cycle is −2π times it, and recordability makes it a whole number over q; the level is k times the seen part.
