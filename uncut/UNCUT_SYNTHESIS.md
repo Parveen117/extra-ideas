@@ -53,6 +53,8 @@ Put in for C: the reader is the best frame; h is a variable of state.
     Ideal gas: turn-part = half the enthalpy. Systems with no particle count (radiation, horizons) are flat.
 22. D′ = (T/C_V)∂[C_P/(αT) − C_V]/∂T: zero for an ideal gas with any C_V(T). At ρ/ρ_c ≈ 0.075 argon, krypton,
     xenon agree within 0.5 %; oxygen, nitrogen, carbon monoxide, carbon dioxide lie within 7 % of them (FD1).
+23. Chromium at T_N: inside a first-order window w → V·T_N/(2 dT_N/dP) (negative); α and w change sign iff the
+    transition is narrower than δ* = |ΔV/V|/α ≈ 1.6 K (CR1).
 
 ## Open
 - SL1 gives the mean over histories; a statement for one history is open.

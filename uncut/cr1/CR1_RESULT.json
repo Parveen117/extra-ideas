@@ -1,0 +1,50 @@
+{
+ "checks": {
+  "T1_ratio_width_free": true,
+  "T1_plateau": true,
+  "T2_critical_width": true,
+  "T3_contracts_on_heating": true,
+  "T3_narrow_flips_wide_does_not": true,
+  "T3_plateau_negative": true,
+  "pass": true
+ },
+ "inputs": {
+  "T_N_K": 311.4,
+  "latent_heat_J_per_mol_up": 1.1,
+  "latent_heat_J_per_mol_down": 0.97,
+  "dTN_dP_K_per_Pa": -5.1e-08,
+  "molar_volume_m3_per_mol": 7.23e-06,
+  "alpha_volume_bg_per_K": 1.47e-05,
+  "C_P_bg_J_per_molK": 23.3
+ },
+ "numbers": {
+  "mean_latent_heat": 1.035,
+  "DeltaV_m3_per_mol": -1.6950867052023124e-10,
+  "DeltaV_over_V": -2.3445182644568635e-05,
+  "critical_width_K": 1.595,
+  "w_background_J_per_mol": 792517,
+  "w_plateau_J_per_mol": -22073,
+  "loop_heat_J_per_mol": 0.13,
+  "loop_count_J_per_molK": 0.0004174694926140017
+ },
+ "profiles": {
+  "0.3": {
+   "alpha_inside_per_K": -6.345060881522878e-05,
+   "C_inside": 26.75,
+   "w_inside_J_per_mol": -210794,
+   "sign_flips": true
+  },
+  "1.0": {
+   "alpha_inside_per_K": -8.745182644568635e-06,
+   "C_inside": 24.335,
+   "w_inside_J_per_mol": -1391337,
+   "sign_flips": true
+  },
+  "3.0": {
+   "alpha_inside_per_K": 6.8849391184771215e-06,
+   "C_inside": 23.645,
+   "w_inside_J_per_mol": 1717154,
+   "sign_flips": false
+  }
+ }
+}
