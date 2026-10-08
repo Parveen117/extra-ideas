@@ -1,0 +1,26 @@
+{
+ "checks": {
+  "A1_memory_is_variance": true,
+  "A2_two_readings_share_law": true,
+  "B1_turn_that_never_closes_has_bounded_sum": true,
+  "B1_explicit_bound_u5": true,
+  "B2_closed_content_grows": true,
+  "B3_pair_cost_is_clock_curvature_5": true,
+  "B3_pair_cost_is_clock_curvature_13": true,
+  "B3_sin_squared": true,
+  "B4_least_at_closure": true,
+  "B5_rungs": true,
+  "C1_pair_memory": true,
+  "C2_three_neighbours": true,
+  "D1_energy_is_slope_of_count": true,
+  "D2_transform_is_the_area": true,
+  "D2_period_is_slope_of_area": true,
+  "D3_turn_is_area_plus_binding": true,
+  "D3_first_order_half_and_quarter": true,
+  "D3_no_binding_on_the_diagonal": true,
+  "pass": true
+ },
+ "record": {
+  "largest_det_sum_times_det_u_minus_1": 3.9999868192822077
+ }
+}

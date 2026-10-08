@@ -106,3 +106,9 @@ WAVES; MORE THAN ONE SOURCE; ROTATING SOURCES                                   
 python mo1_motion.py
 python -m unittest test_mo1_exact
 ```
+
+## Later note (OR1, 8 October)
+
+"Free readings take the largest count in a varying field" is listed above as assumed. OR1 shows that a record
+shared by neighbouring histories (GE2-T2) keeps the one whose count is stationary, in any field: the assumption is
+the same rule as QC1's premise of recordability. The rule itself remains a premise. Nothing above is changed.

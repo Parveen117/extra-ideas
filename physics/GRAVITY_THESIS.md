@@ -288,3 +288,18 @@ the three are distinct; M5's last term puts a second harmonic of the in-out moti
 line there. XTE J1550−564 shows features near 92, 184 and 276 Hz; closure from its 183 ± 5 gives 91.5, 183, 274.5.
 For GRO J1655−40 the in-out rate is predicted at 147.0 ± 0.7 Hz. **R10:** a pair at 2 : 3 with a third sharp rate
 that is not at 1. *[TH1 — proved; why this rung is not derived]*
+
+## The law as a ratio (SE1); one rule for records (OR1)
+
+On flat slices with one time, for any fall velocity, TP1's law is a law for the stretch block alone:
+Q = ΣK_ij² − (tr K)² = −2·e₂(K), and in empty space e₂(K) = 0: the determinants of the stretch in the planes of the
+cuts sum to zero; equivalently the variance of the stretch rates is (d − 1) times the square of their mean. For
+radial fall this is ρ = r·β′/β = −(d − 2)/2: NC1's −½ in three cuts and MC1's exponent. With a source it is EG1's
+ratio law. *[SE1 — proved on flat slices; rests on TP1's premises]*
+
+A record shared by repetitions keeps exactly what has no memory between them (GE2-T2): a turn that does not close
+has a bounded sum for every number of returns, a closing content grows; the cost of one repetition is sin²(Θ/2).
+A record shared by neighbouring histories keeps the one of stationary count. So QC1's premise and MO1's assumption
+are one rule. On MO1's circles the energy is the slope of the count against the far period and E·T − τ = 2π·L.
+Gravity's field law is not of that kind: it is the ratio above. The premises of the thesis are now two: the
+record rule and equivalence of local frames. *[OR1 — proved given GE2's record model; the rule itself is a premise]*

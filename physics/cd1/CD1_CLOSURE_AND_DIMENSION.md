@@ -94,3 +94,9 @@ THE CLOSURE RULE                                                                
 python cd1_closure_and_dimension.py
 python -m unittest test_cd1
 ```
+
+## Later note (SE1, 8 October)
+
+The d = 2 row above uses MC1's least-cost memory, log r. SE1 shows that the frame law in two cuts leaves β
+constant: no falling memory at all. Either way nothing closes in two dimensions; D6's agreement of least cost and
+the frame law holds for d ≥ 3 only.

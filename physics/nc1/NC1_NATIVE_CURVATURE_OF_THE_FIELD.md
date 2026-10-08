@@ -132,3 +132,9 @@ pip install sympy
 python nc1_native_curvature_of_the_field.py
 python -m unittest test_nc1
 ```
+
+## Later note (SE1, 8 October)
+
+"Why ρ = −½" is listed above as not derived. SE1: ρ = r·β′/β is the ratio of the radial to the transverse stretch
+rate of the fall frame, TP1's law on flat slices is e₂(stretch) = 0, and for radial fall in d cuts that is
+ρ = −(d − 2)/2. So −½ follows from TP1's law, and 2ρ is MC1's exponent. Nothing above is changed.
