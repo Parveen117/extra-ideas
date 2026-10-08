@@ -65,6 +65,13 @@ and the lost block dressed by the exchange; the count a cut sees of an exclusive
 det(1 + (s − 1)K_P), coins with the readings of the seen kernel, fair on the diagonal; a rate is the log-ratio of
 two zeros. The vacuum law of gravity is: the z² coefficient is zero.
 
+## One generator (CG1, RKF theorum/41)
+
+For a cut J and a generator G, G_e = ½(G + JGJ) keeps the two sheets and G_o = ½(G − JGJ) carries between them;
+log(J U J U) = 2t·G_e + t²[G_e, G_o] + …. On the block, G = (turn about the cut) + (boost across it) has
+lost/seen = b²(sinh ω/ω)², ω² = G²: boost, shear and turn sectors are the three signs of G². The curvature
+coefficient of the cut loop is lost/seen up to b², and the curvature lies along the third cut.
+
 ## Pure numbers it has given
 
 Each is a ratio of whole numbers that count cuts, planes or circuits.

@@ -107,3 +107,9 @@ unchanged, and doubling the cell is det(1 − z²B²) = det(1 − zB)·det(1 + z
 The table above says the chain of turns gives a power because its turns are continuous. CT1 finds the two-valued
 record inside that chain, its centre, with tanh k_c = I₂(κ)/I₁(κ) and k_c = ½ ln(4κ/3) + …. In k_c the chain of turns
 obeys the exponential law of U4; the power in κ is that law rewritten. The statements U1–U6 are unchanged.
+
+## Later note (CG1, 9 October)
+
+RKF theorum/41 (cut-graded generator; certificate re-run, pass) is the common source: the chain block is its flow
+at the dual coupling, the doubling is its join × cut identity, the centre split is its even and odd channels, and
+the three sectors are the three signs of the square of one generator (CG1). Nothing above is changed.

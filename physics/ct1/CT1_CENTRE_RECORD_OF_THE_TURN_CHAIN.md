@@ -82,3 +82,9 @@ THE CENTRE RECORD IN FOUR DIMENSIONS: ONE DOUBLING MAP                          
 python ct1_centre_record_of_the_turn_chain.py
 python -m unittest test_ct1
 ```
+
+## Later note (CG1, 9 October)
+
+RKF theorum/41 (cut-graded generator; certificate re-run, pass) is the common source: the chain block is its flow
+at the dual coupling, the doubling is its join × cut identity, the centre split is its even and odd channels, and
+the three sectors are the three signs of the square of one generator (CG1). Nothing above is changed.

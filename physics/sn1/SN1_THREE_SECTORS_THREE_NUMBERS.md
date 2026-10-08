@@ -76,3 +76,9 @@ python -m unittest test_sn1
 SN2 reads spread/mean as the seen-weighted mean of lost; obtains 1/4 as the many-reading limit of an exact finite
 count, N²/(4N² − 1), whose one-reading end is the three-cut 1/3; and refuses the even spread of the boost angle for
 one chain (log(seen) adds). The boost sector's even spread stays put in. Nothing above is changed.
+
+## Later note (CG1, 9 October)
+
+RKF theorum/41 (cut-graded generator; certificate re-run, pass) is the common source: the chain block is its flow
+at the dual coupling, the doubling is its join × cut identity, the centre split is its even and odd channels, and
+the three sectors are the three signs of the square of one generator (CG1). Nothing above is changed.

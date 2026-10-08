@@ -1,0 +1,27 @@
+{
+ "checks": {
+  "G0_cuts": true,
+  "G1_grading": true,
+  "G1_cut_loop_series": true,
+  "G1_log_of_the_cut_loop": true,
+  "G1_larger_carrier": true,
+  "G2_reversal_and_split": true,
+  "G2_seen_and_lost_of_DG1": true,
+  "G2_chain_block_is_the_flow_at_the_dual_coupling": true,
+  "G2_join_times_cut_is_doubling": true,
+  "G2_centre_split_of_CT1": true,
+  "G3_square_is_a_number": true,
+  "G3_flow_has_unit_determinant": true,
+  "G3_lost_over_seen": true,
+  "G3_boost_sector": true,
+  "G3_shear_sector": true,
+  "G3_turn_sector_closes_at_whole_half_turns": true,
+  "G3_checked_against_the_exponential": true,
+  "G4_cut_loop_closed_form": true,
+  "G4_curvature_lies_along_the_third_cut": true,
+  "G4_curvature_coefficient_is_lost_over_seen": true,
+  "G4_loop_is_identity_iff_odd_or_closed": true,
+  "pass": true
+ },
+ "numbers": {}
+}
