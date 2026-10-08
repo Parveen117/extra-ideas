@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   certify:
-    name: Returned count, jet reading, prime-turn series, cyclic form
+    name: One diagonal, returned count, jet reading, prime-turn series, cyclic form
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -40,5 +40,6 @@ jobs:
           python -B tools/jr1/jr1_jet_reading_of_the_change_operator.py
           python -B tools/pm1/pm1_prime_turn_series.py
           python -B tools/cy1/cy1_three_reading_cyclic_form.py
+          python -B tools/ds1/ds1_one_diagonal.py
       - name: Evidence remains unchanged
         run: git diff --exit-code

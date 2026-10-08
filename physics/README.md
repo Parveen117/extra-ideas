@@ -5,6 +5,7 @@ reference equations of state (CoolProp) and numpy; it is outside the
 frozen R1–R46 / MP1–MP2 register and its workflows.
 
 - [Tools](../tools/README.md) — four exact tools kept from two drafts of new objects (returned winding count, jet reading, prime-turn series, cyclic form), with the audit of all 23.
+- [AG1](ag1/AG1_DIAGONAL_WALK.md) — the Riemann line's seam on the Yang–Mills record: the mirror t → 1/t is the same on both axes at t = 1; source² = flip² + lost²; one diagonal step doubles the cell and is the arithmetic–geometric mean, with M(S, F) = 1; the weak end is the diagonal and the mirror description crosses its wall; the turn block walks at least as fast.
 - [One law](ONE_LAW.md) — the line on one page: S = R + D (theorum/24, Theorem 6.1), the six places where physics is "memory vanishes or equals a count", the pure numbers obtained, and what remains.
 - [Synthesis](SYNTHESIS.md) — one structure on the certified EMK block (SY1), every stage as a case of it, and the open gates.
 - [OB1 — one block, one law](ob1/OB1_ONE_BLOCK.md) — matter, light, potential, source and force as parts of the certified block under one operator.

@@ -170,6 +170,21 @@ cube 4.27·κ·e^(−(6 − 3√3)κ) — an exponential of the turn coupling it
 turn. At the weak end a closed surface sits on the diagonal up to that flip. A twist weight is not a mass; the
 sum over closed surfaces in four dimensions is open.
 
+## The same law on the Riemann line, and its walk (DS1, AG1 — 9 October)
+
+`tools/ds1` matches this page with the framework's Riemann line. F = R − D is the pairing of a record with its
+mirror (theorum/24's 𝔧 = P − Q). Seen = lost is the 45° line: F/S is the rad-part of PT1's turn z/z†. The
+count of directions past the diagonal is n₋(R − D) = n₊(B − 1) = the zeros of det(1 − zB) inside z = 1 (FD1's
+function on theorum/02's small matrix), at most the rank of the memory. A mirror form is non-negative exactly
+when every point is on the mirror's line, and the mirror s → 1 − s† of the critical line is J(z) = ι·z† of the
+45° line in the chart z = (1 − ι)(s − ½).
+
+AG1 carries the Riemann line's seam to a pair of turns with the heat weight. The mirror t → 1/t exchanges flip
+and lost part; source² = flip² + lost²; on the seam F/S = 1/√2. One diagonal step (multiplication by 1 + ι)
+doubles the cell and is the arithmetic–geometric mean: S′ = (S + F)/2, F′ = √(S·F), never across, with
+M(S, F) = 1 at every cell size. The weak end is the diagonal; the flip there is (4/t)·Exp(−π/2t), seen as one
+term by the mirror description. Nothing above is changed; RH and the four-dimensional gap stay open.
+
 ## Reproduce
 
 ```text

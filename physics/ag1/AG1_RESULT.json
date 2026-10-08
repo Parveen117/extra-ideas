@@ -1,0 +1,73 @@
+{
+ "checks": {
+  "A1_enclosures_narrower_than_1e_minus_100": true,
+  "A1_mirror_exchanges_flip_and_lost_sum": true,
+  "A1_wrong_partner_is_separated": true,
+  "A2_off_the_seam_they_are_not": true,
+  "A2_on_the_seam_the_legs_are_equal": true,
+  "A2_right_triangle_as_series": true,
+  "A2_right_triangle_at_the_points": true,
+  "A3_count_of_norm_2n_equals_count_of_norm_n": true,
+  "A3_counts_are_the_character_mod_four": true,
+  "A3_diagonal_vector_doubles_every_norm_and_lands_on_the_even_coset": true,
+  "A3_mirror_cancels_the_odd_coset": true,
+  "A3_mixed_flip_is_the_flip_of_the_doubled_cell": true,
+  "A3_seen_part_is_the_record_of_the_doubled_cell": true,
+  "A3_square_of_the_mixed_flip": true,
+  "A4_arithmetic_geometric_mean_is_one": true,
+  "A4_control_another_pair_has_another_mean": true,
+  "A4_hypotenuse_form": true,
+  "A4_never_across": true,
+  "A4_walk_as_series": true,
+  "A4_walk_at_the_points": true,
+  "A5_first_winding_term_is_the_flip_to_a_thousandth": true,
+  "A5_smaller_than_twenty_powers": true,
+  "A5_two_descriptions_agree_at_the_weak_end": true,
+  "A5_weak_end_is_the_diagonal": true,
+  "A6_flip_of_a_closed_surface_is_positive_and_below_one": true,
+  "A6_two_descriptions_of_the_turn_block_agree": true,
+  "A6_weak_end_is_the_first_winding_term": true,
+  "A7_a_pair_off_the_axis_is_one_count": true,
+  "A7_gap_is_the_same_count_with_the_line_moved": true,
+  "A7_real_transfer_values_give_a_positive_reflection_form": true,
+  "A8_strong_end_first_difference_is_64_q12": true,
+  "A8_turn_block_flip_walks_at_least_as_fast_as_the_mean": true,
+  "pass": true
+ },
+ "numbers": {
+  "A2_F_over_S_on_the_seam": "0.707106781186548",
+  "A4_start_F_over_S": "1.395e-05",
+  "A4_steps_to_fifty_digits": 9,
+  "A5_weak_end": {
+   "1/20": {
+    "digits_cancelled_in_the_content_sum": 11,
+    "flip": "1.816881e-12",
+    "width_by_contents": "3.2e-145",
+    "width_by_windings": "6.4e-144"
+   },
+   "1/60": {
+    "digits_cancelled_in_the_content_sum": 38,
+    "flip": "2.811387e-39",
+    "width_by_contents": "3.2e-145",
+    "width_by_windings": "1.9e-143"
+   }
+  },
+  "A6_flip_at_u": {
+   "1": "9.993546e-01",
+   "1/16": "1.683183e-04",
+   "1/36": "5.838704e-11",
+   "1/4": "4.566911e-01"
+  },
+  "A8_ratio_to_the_mean_step": {
+   "1": "1",
+   "1/100": "4.38871",
+   "1/16": "1.66514",
+   "1/2": "1",
+   "1/36": "2.58763",
+   "1/4": "1.003",
+   "1/72": "3.70989",
+   "1/8": "1.1461",
+   "2": "1"
+  }
+ }
+}

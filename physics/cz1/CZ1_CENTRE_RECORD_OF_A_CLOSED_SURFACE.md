@@ -99,3 +99,9 @@ A MASS COUNT                                                                    
 python cz1_centre_record_of_a_closed_surface.py
 python -m unittest test_cz1
 ```
+
+## Later note (AG1, 9 October)
+
+AG1 gives the weak-end exponent π²/2F another reading: for the heat weight the flip of a closed surface is, at
+the weak end, the first term of its description by windings, 2(π/2u − 1)·Exp(−π/4u), with exponent π²/T in the
+heat time T of the surface; T = 2F/κ gives π²κ/(2F). Nothing above is changed.

@@ -113,3 +113,9 @@ obeys the exponential law of U4; the power in κ is that law rewritten. The stat
 RKF theorum/41 (cut-graded generator; certificate re-run, pass) is the common source: the chain block is its flow
 at the dual coupling, the doubling is its join × cut identity, the centre split is its even and odd channels, and
 the three sectors are the three signs of the square of one generator (CG1). Nothing above is changed.
+
+## Later note (AG1, 9 October)
+
+For a pair of turns with the heat weight, doubling the cell is exact and is the arithmetic–geometric mean of
+source and flip (AG1-A4): S′ = (S + F)/2, F′ = √(S·F), with M(S, F) = 1 at every cell size; the record that is
+its own dual has F/S = 1/√2. Nothing above is changed.
