@@ -15,6 +15,20 @@ S = R + D ,        F = R − D ,        S = Z*Z ,   R = Z*PZ ,   D = Z*QZ .
 Source = recognized + memory. All four are quadratic (Gram) forms. Across the line they appear as one form, the
 determinant in a plane of EMK-1: e₂(X) = ½[(tr X)² − tr X²] (MM1, SD1).
 
+## The observer
+
+The cut is not fixed from outside. The observer is on the diagonal: the cut frame in which every cut reads alike,
+where the lost part is largest and one cut's (seen, lost) holds the whole block. There the determinant is the
+observer's own split, det = R − D = F (DO1). The law with the observer in it:
+
+```text
+F = R − D = 0        seen = lost        (with a source: F = its count)
+```
+
+For cuts equally inclined to the fall this alone gives ρ = −½, the field of a centre; in three cuts a diagonal
+observer with seen = lost sees either nothing or that field (DO1). Read on a block's own axes the same invariant
+appears as "nothing lost" (D = 0): that is how the rows below were first written.
+
 ## What physics is, in this law
 
 Physics is where the memory D vanishes, and where it equals a count.
@@ -48,7 +62,8 @@ Each is a ratio of whole numbers that count cuts, planes or circuits.
 ```text
 number                                    from                         measured
 1/r   (exponent d − 2 = 1)                MC1, SE1                     —
-−½    (radial : transverse stretch)       SE1, NC1                     —
+−½    (radial : transverse stretch)       DO1, SE1, NC1                —
+1/√2  (record of turns on the diagonal)   DO1, CL1, DG1                —
 1/3, 2/3, 1  (special shells, in memory)  CD1                          —
 ½ + ½  (seen = lost in light bending)     GB1, LN1, MO1                1.751″ at the Sun
 3     (orbit advance, × π r_s/r)          MO1                          42.98″ per century, Mercury

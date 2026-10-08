@@ -60,3 +60,8 @@ THE GENERAL FRAME LAW AS ONE R − D                                            
 python sd1_source_recognized_memory.py
 python -m unittest test_sd1
 ```
+
+## Later note (DO1, 8 October)
+
+This stage fixed each cut along the block's own axes. DO1 places the observer on the diagonal, where the same
+invariant is F = R − D of a single cut and the law reads seen = lost. Nothing above is changed.

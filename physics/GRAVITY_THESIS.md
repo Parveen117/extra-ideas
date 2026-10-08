@@ -333,3 +333,11 @@ statement 2 is the count. *[CS1 — proved for histories at rest in the frame; k
 The record rule of OR1–CS1 is theorum/24's Theorem 6.1, S = R + D, with D = 0: GE2's memory is its D for a record
 of turns, IN1's reading tensor is (S; F_i), and LN1's identity is the theorem on the stretch, where the energy law
 reads ΣS_i = (tr Z)². The whole line on one page: [ONE_LAW.md](ONE_LAW.md). *[SD1 — proved as instances]*
+
+## The observer on the diagonal (DO1)
+
+The cut is not fixed. For the observer whose cuts all read alike, the lost part is largest, one cut's (seen, lost)
+holds the whole block, and EMK-1's determinant is theorum/24's F = R − D. The law is then seen = lost. For cuts
+equally inclined to the fall, seen = lost holds exactly for ρ = −(d − 2)/2: the field of a centre from the diagonal
+alone (DG1's open item). In three cuts a block with equal seen and lost is either a single reading or that field,
+by the sign of b₁₂b₁₃b₂₃. *[DO1 — proved; that the observer is on the diagonal is the framework's statement]*

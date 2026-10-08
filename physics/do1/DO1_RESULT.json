@@ -1,0 +1,38 @@
+{
+ "checks": {
+  "P1_entries": true,
+  "P1_diagonal_reads_alike": true,
+  "P1_F_is_the_determinant": true,
+  "P1_only_on_the_diagonal": true,
+  "P1_lost_is_largest_on_the_diagonal": true,
+  "P1_complete": true,
+  "P2_seen_equals_lost_gives_rho": true,
+  "P2_three_cuts_block": true,
+  "P3_two_cuts_single_reading_only": true,
+  "P3_three_cuts_nothing_or_the_centre": true,
+  "P3_four_cuts_has_more": true,
+  "P4_law_for_the_diagonal_observer": true,
+  "P4_frame_exists_example": true,
+  "P5_turn_record_on_the_diagonal": true,
+  "P5_quarter_turn": true,
+  "pass": true
+ },
+ "record": {
+  "spectra_two_cuts": [
+   "(0, 2)"
+  ],
+  "spectra_three_cuts": {
+   "(0, 0, 3)": [
+    1
+   ],
+   "(-1, 2, 2)": [
+    -1
+   ]
+  },
+  "spectra_four_cuts": [
+   "(-2, 2, 2, 2)",
+   "(0, 0, 0, 4)",
+   "(1 - sqrt(5), 0, 2, 1 + sqrt(5))"
+  ]
+ }
+}
