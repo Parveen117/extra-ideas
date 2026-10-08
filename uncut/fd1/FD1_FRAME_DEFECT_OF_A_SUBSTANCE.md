@@ -44,3 +44,31 @@ line adds is the quantity itself (the frame defect, zero for the ideal gas and f
 attraction) and its reading as a turn-part.
 Open gate: other substances and densities on the reduced form of T4 (the collapse is SC1's statement);
 the departure from 1 of the ratio as a second scale.
+
+## Collapse check across substances (`fd1_collapse_check.py`, five tables in `data/`)
+
+SC1 says a family with one built-in scale has one D-curve in reduced variables. Five substances at one reduced
+density (ρ/ρ_c ≈ 0.0746), D against T_r = T/T_c:
+
+| T_r | argon | krypton | xenon | spread of the three | nitrogen | carbon dioxide | van der Waals curve |
+|---|---|---|---|---|---|---|---|
+| 1.4 | 0.1343 | 0.1268 | 0.1239 | 8.1 % | 0.1696 | 0.5688 | 0.1169 |
+| 1.6 | 0.1190 | 0.1178 | 0.1157 | 2.8 % | 0.1446 | 0.5332 | 0.1023 |
+| 1.8 | 0.1061 | 0.1079 | 0.1064 | 1.7 % | 0.1264 | 0.5011 | 0.0909 |
+| 2.0 | 0.0952 | 0.0983 | 0.0972 | 3.2 % | 0.1123 | 0.4720 | 0.0818 |
+| 2.2 | 0.0860 | 0.0897 | 0.0888 | 4.2 % | 0.1026 | 0.4451 | 0.0744 |
+
+- The three monatomic gases fall on one curve: within 5 % above T_r = 1.5, 8 % at 1.4.
+- Nitrogen lies 16–32 % above them; carbon dioxide four to five times above. For carbon dioxide most of the
+  excess is a heat capacity that itself changes with T (internal motion): removing that part leaves 0.22, 0.14,
+  0.11 at T_r = 1.33, 1.73, 2.12 — still above the monatomic curve.
+- The van der Waals curve has the right shape and lies 13–17 % below the monatomic data.
+
+Reading: one scale ⇒ one curve holds where the substance has one scale (atoms); each departure marks a further
+scale (shape, internal motion). D separates them without a model.
+
+Put in: critical constants from standard tables (argon 150.687 K, 13.4074 mol/l; krypton 209.48, 10.85; xenon
+289.733, 8.4; nitrogen 126.192, 11.1839; carbon dioxide 304.128, 10.6249); linear interpolation to common T_r;
+tables retrieved through a page reader — to be re-downloaded directly before publication.
+Not claimed: that the collapse of simple fluids is new (corresponding states is long known); the new item
+is D as the collapsing quantity and its meaning as frame defect.

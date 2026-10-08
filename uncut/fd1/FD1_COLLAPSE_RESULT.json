@@ -1,0 +1,405 @@
+{
+ "points": {
+  "argon": [
+   {
+    "Tr": 1.195,
+    "D": 0.1511,
+    "D_minus_internal": 0.2606,
+    "D_times_Tr": 0.1805,
+    "curve": 0.137
+   },
+   {
+    "Tr": 1.327,
+    "D": 0.1402,
+    "D_minus_internal": 0.218,
+    "D_times_Tr": 0.186,
+    "curve": 0.1233
+   },
+   {
+    "Tr": 1.46,
+    "D": 0.1294,
+    "D_minus_internal": 0.1876,
+    "D_times_Tr": 0.1889,
+    "curve": 0.1121
+   },
+   {
+    "Tr": 1.593,
+    "D": 0.1195,
+    "D_minus_internal": 0.1647,
+    "D_times_Tr": 0.1904,
+    "curve": 0.1027
+   },
+   {
+    "Tr": 1.725,
+    "D": 0.1106,
+    "D_minus_internal": 0.1467,
+    "D_times_Tr": 0.1908,
+    "curve": 0.0948
+   },
+   {
+    "Tr": 1.858,
+    "D": 0.1026,
+    "D_minus_internal": 0.1321,
+    "D_times_Tr": 0.1907,
+    "curve": 0.0881
+   },
+   {
+    "Tr": 1.991,
+    "D": 0.0956,
+    "D_minus_internal": 0.1201,
+    "D_times_Tr": 0.1903,
+    "curve": 0.0822
+   },
+   {
+    "Tr": 2.124,
+    "D": 0.0893,
+    "D_minus_internal": 0.11,
+    "D_times_Tr": 0.1896,
+    "curve": 0.0771
+   },
+   {
+    "Tr": 2.256,
+    "D": 0.0836,
+    "D_minus_internal": 0.1012,
+    "D_times_Tr": 0.1886,
+    "curve": 0.0725
+   },
+   {
+    "Tr": 2.389,
+    "D": 0.0785,
+    "D_minus_internal": 0.0938,
+    "D_times_Tr": 0.1876,
+    "curve": 0.0685
+   },
+   {
+    "Tr": 2.522,
+    "D": 0.0739,
+    "D_minus_internal": 0.0874,
+    "D_times_Tr": 0.1865,
+    "curve": 0.0649
+   }
+  ],
+  "krypton": [
+   {
+    "Tr": 1.327,
+    "D": 0.1296,
+    "D_minus_internal": 0.2184,
+    "D_times_Tr": 0.172,
+    "curve": 0.1231
+   },
+   {
+    "Tr": 1.461,
+    "D": 0.1245,
+    "D_minus_internal": 0.1868,
+    "D_times_Tr": 0.1819,
+    "curve": 0.1119
+   },
+   {
+    "Tr": 1.594,
+    "D": 0.1181,
+    "D_minus_internal": 0.1634,
+    "D_times_Tr": 0.1883,
+    "curve": 0.1025
+   },
+   {
+    "Tr": 1.728,
+    "D": 0.1114,
+    "D_minus_internal": 0.1453,
+    "D_times_Tr": 0.1925,
+    "curve": 0.0946
+   },
+   {
+    "Tr": 1.862,
+    "D": 0.1048,
+    "D_minus_internal": 0.1309,
+    "D_times_Tr": 0.1952,
+    "curve": 0.0878
+   },
+   {
+    "Tr": 1.995,
+    "D": 0.0985,
+    "D_minus_internal": 0.119,
+    "D_times_Tr": 0.1966,
+    "curve": 0.0819
+   },
+   {
+    "Tr": 2.129,
+    "D": 0.0926,
+    "D_minus_internal": 0.109,
+    "D_times_Tr": 0.1972,
+    "curve": 0.0767
+   },
+   {
+    "Tr": 2.263,
+    "D": 0.0871,
+    "D_minus_internal": 0.1005,
+    "D_times_Tr": 0.1972,
+    "curve": 0.0722
+   },
+   {
+    "Tr": 2.396,
+    "D": 0.082,
+    "D_minus_internal": 0.0932,
+    "D_times_Tr": 0.1966,
+    "curve": 0.0682
+   }
+  ],
+  "xenon": [
+   {
+    "Tr": 1.312,
+    "D": 0.1267,
+    "D_minus_internal": 0.2246,
+    "D_times_Tr": 0.1661,
+    "curve": 0.1247
+   },
+   {
+    "Tr": 1.432,
+    "D": 0.1229,
+    "D_minus_internal": 0.1938,
+    "D_times_Tr": 0.1761,
+    "curve": 0.1142
+   },
+   {
+    "Tr": 1.553,
+    "D": 0.1179,
+    "D_minus_internal": 0.1706,
+    "D_times_Tr": 0.1831,
+    "curve": 0.1053
+   },
+   {
+    "Tr": 1.674,
+    "D": 0.1123,
+    "D_minus_internal": 0.1526,
+    "D_times_Tr": 0.188,
+    "curve": 0.0977
+   },
+   {
+    "Tr": 1.795,
+    "D": 0.1066,
+    "D_minus_internal": 0.1381,
+    "D_times_Tr": 0.1913,
+    "curve": 0.0911
+   },
+   {
+    "Tr": 1.916,
+    "D": 0.101,
+    "D_minus_internal": 0.1261,
+    "D_times_Tr": 0.1934,
+    "curve": 0.0854
+   },
+   {
+    "Tr": 2.036,
+    "D": 0.0956,
+    "D_minus_internal": 0.1159,
+    "D_times_Tr": 0.1946,
+    "curve": 0.0803
+   },
+   {
+    "Tr": 2.157,
+    "D": 0.0905,
+    "D_minus_internal": 0.1071,
+    "D_times_Tr": 0.1952,
+    "curve": 0.0758
+   },
+   {
+    "Tr": 2.278,
+    "D": 0.0857,
+    "D_minus_internal": 0.0996,
+    "D_times_Tr": 0.1953,
+    "curve": 0.0718
+   },
+   {
+    "Tr": 2.399,
+    "D": 0.0812,
+    "D_minus_internal": 0.0931,
+    "D_times_Tr": 0.1949,
+    "curve": 0.0682
+   }
+  ],
+  "nitrogen": [
+   {
+    "Tr": 1.323,
+    "D": 0.1807,
+    "D_minus_internal": 0.2337,
+    "D_times_Tr": 0.2391,
+    "curve": 0.1235
+   },
+   {
+    "Tr": 1.458,
+    "D": 0.1612,
+    "D_minus_internal": 0.1999,
+    "D_times_Tr": 0.2351,
+    "curve": 0.1121
+   },
+   {
+    "Tr": 1.593,
+    "D": 0.1453,
+    "D_minus_internal": 0.1747,
+    "D_times_Tr": 0.2315,
+    "curve": 0.1026
+   },
+   {
+    "Tr": 1.728,
+    "D": 0.1322,
+    "D_minus_internal": 0.155,
+    "D_times_Tr": 0.2285,
+    "curve": 0.0946
+   },
+   {
+    "Tr": 1.862,
+    "D": 0.1214,
+    "D_minus_internal": 0.1392,
+    "D_times_Tr": 0.226,
+    "curve": 0.0878
+   },
+   {
+    "Tr": 1.997,
+    "D": 0.1125,
+    "D_minus_internal": 0.1262,
+    "D_times_Tr": 0.2246,
+    "curve": 0.0818
+   },
+   {
+    "Tr": 2.132,
+    "D": 0.1053,
+    "D_minus_internal": 0.1153,
+    "D_times_Tr": 0.2246,
+    "curve": 0.0767
+   },
+   {
+    "Tr": 2.266,
+    "D": 0.0999,
+    "D_minus_internal": 0.106,
+    "D_times_Tr": 0.2264,
+    "curve": 0.0721
+   },
+   {
+    "Tr": 2.401,
+    "D": 0.096,
+    "D_minus_internal": 0.098,
+    "D_times_Tr": 0.2306,
+    "curve": 0.0681
+   }
+  ],
+  "carbon_dioxide": [
+   {
+    "Tr": 1.332,
+    "D": 0.5814,
+    "D_minus_internal": 0.2216,
+    "D_times_Tr": 0.7743,
+    "curve": 0.1227
+   },
+   {
+    "Tr": 1.463,
+    "D": 0.5572,
+    "D_minus_internal": 0.1866,
+    "D_times_Tr": 0.8152,
+    "curve": 0.1116
+   },
+   {
+    "Tr": 1.595,
+    "D": 0.534,
+    "D_minus_internal": 0.1615,
+    "D_times_Tr": 0.8516,
+    "curve": 0.1024
+   },
+   {
+    "Tr": 1.726,
+    "D": 0.5124,
+    "D_minus_internal": 0.1427,
+    "D_times_Tr": 0.8846,
+    "curve": 0.0946
+   },
+   {
+    "Tr": 1.858,
+    "D": 0.4923,
+    "D_minus_internal": 0.1281,
+    "D_times_Tr": 0.9147,
+    "curve": 0.0879
+   },
+   {
+    "Tr": 1.989,
+    "D": 0.4735,
+    "D_minus_internal": 0.1165,
+    "D_times_Tr": 0.9418,
+    "curve": 0.0821
+   },
+   {
+    "Tr": 2.121,
+    "D": 0.4555,
+    "D_minus_internal": 0.107,
+    "D_times_Tr": 0.966,
+    "curve": 0.077
+   },
+   {
+    "Tr": 2.252,
+    "D": 0.4383,
+    "D_minus_internal": 0.0991,
+    "D_times_Tr": 0.9872,
+    "curve": 0.0725
+   },
+   {
+    "Tr": 2.384,
+    "D": 0.4217,
+    "D_minus_internal": 0.0925,
+    "D_times_Tr": 1.0052,
+    "curve": 0.0685
+   }
+  ]
+ },
+ "D_at_common_Tr": {
+  "1.4": {
+   "argon": 0.1343,
+   "krypton": 0.1268,
+   "xenon": 0.1239,
+   "nitrogen": 0.1696,
+   "carbon_dioxide": 0.5688
+  },
+  "1.6": {
+   "argon": 0.119,
+   "krypton": 0.1178,
+   "xenon": 0.1157,
+   "nitrogen": 0.1446,
+   "carbon_dioxide": 0.5332
+  },
+  "1.8": {
+   "argon": 0.1061,
+   "krypton": 0.1079,
+   "xenon": 0.1064,
+   "nitrogen": 0.1264,
+   "carbon_dioxide": 0.5011
+  },
+  "2.0": {
+   "argon": 0.0952,
+   "krypton": 0.0983,
+   "xenon": 0.0972,
+   "nitrogen": 0.1123,
+   "carbon_dioxide": 0.472
+  },
+  "2.2": {
+   "argon": 0.086,
+   "krypton": 0.0897,
+   "xenon": 0.0888,
+   "nitrogen": 0.1026,
+   "carbon_dioxide": 0.4451
+  }
+ },
+ "relative_spread_noble_three": {
+  "1.4": 0.081,
+  "1.6": 0.0281,
+  "1.8": 0.0169,
+  "2.0": 0.032,
+  "2.2": 0.042
+ },
+ "nitrogen_above_noble_mean": {
+  "1.4": 0.3216,
+  "1.6": 0.2306,
+  "1.8": 0.1835,
+  "2.0": 0.1589,
+  "2.2": 0.1637
+ },
+ "noble_collapse_within_9_percent": true,
+ "noble_collapse_within_5_percent_above_Tr_1p5": true,
+ "nitrogen_departs_15_to_33_percent": true,
+ "carbon_dioxide_departs": true
+}
