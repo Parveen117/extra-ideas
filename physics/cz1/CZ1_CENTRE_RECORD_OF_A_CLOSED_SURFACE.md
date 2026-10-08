@@ -105,3 +105,10 @@ python -m unittest test_cz1
 AG1 gives the weak-end exponent π²/2F another reading: for the heat weight the flip of a closed surface is, at
 the weak end, the first term of its description by windings, 2(π/2u − 1)·Exp(−π/4u), with exponent π²/T in the
 heat time T of the surface; T = 2F/κ gives π²κ/(2F). Nothing above is changed.
+
+## Later note (TW1, 9 October)
+
+For the heat weight the weight of a twist of a closed surface of sphere type has an exact doubling step and a
+closed form by the lost parts of AG1's pair (TW1-W1, W2); centre-odd over centre-even falls below its square
+when the faces are doubled, at every coupling (TW1-W6). For the torus record the step inequality is reversed
+(a control there): d^χ matters, as in Z4. Nothing above is changed.

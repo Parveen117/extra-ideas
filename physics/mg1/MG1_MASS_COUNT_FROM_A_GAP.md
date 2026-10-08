@@ -101,3 +101,10 @@ is the number nature sets is not decided by the line. Nothing above is changed.
 On a closed surface the centre record closes at fixed cosets, and the weight of a twist is an exponential of the
 turn coupling: for a cube 4.27·κ·e^(−(6 − 3√3)κ), against the power 3/(4κ) for one open face. A twist weight of
 7.7 × 10⁻²⁰ is κ = 61.7. This is not a mass count. Nothing above is changed.
+
+## Later note (TW1, 9 October)
+
+On the one non-abelian record with exact data (a closed surface, heat weight) the weak end is reached by walking
+back from the strong side with a loss bounded once; no expansion at the weak end is used (TW1-W4, W5). The wall
+of the verdict — the same for the four-dimensional fabric — stands. No mass count is derived. Nothing above is
+changed.

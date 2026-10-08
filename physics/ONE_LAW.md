@@ -185,6 +185,16 @@ doubles the cell and is the arithmetic–geometric mean: S′ = (S + F)/2, F′ 
 M(S, F) = 1 at every cell size. The weak end is the diagonal; the flip there is (4/t)·Exp(−π/2t), seen as one
 term by the mirror description. Nothing above is changed; RH and the four-dimensional gap stay open.
 
+TW1 takes the walk to the turn block (a closed surface, heat weight). Its closed surface is one turn of the
+pair read through its first change in the heat time, and one diagonal step is exact: a boost by the pair's
+ratio, ρ′r′ = (ρ − r)/(1 − rρ). The record is the pair's lost parts summed along the walk,
+16·K₋ = b·(L₀² + 2L₁² + 4L₂² + …), 16·K₊ = a·(L₀² − 2L₁² − 4L₂² − …): this page's law again, R = L₀²
+seen and D = Σ2ⁿL_n² memory, with lost/seen below 1 at every coupling and 1 − 4u/π at the weak end. What
+remained and what was lost at every step of the 45° line give the non-abelian record. The flip is positive at every coupling by the walk
+from the strong side; the weak end is reached by walking back, without the mirror; and the flip is at least
+the mean step at every coupling, so centre-odd over centre-even falls below its square under doubling. The
+four-dimensional step is not built.
+
 ## Reproduce
 
 ```text

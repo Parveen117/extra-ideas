@@ -207,3 +207,10 @@ THE WALK IN FOUR DIMENSIONS ; A MASS GAP ; RH                                 NO
 python ag1_diagonal_walk.py
 python -m unittest test_ag1
 ```
+
+## Later note (TW1, 9 October)
+
+A8 is proved at every coupling in [TW1](../tw1/TW1_TURN_BLOCK_WALK.md). The step of the turn block is exact
+there — a boost by the pair's ratio, ρ′r′ = (ρ − r)/(1 − rρ) — and the record is the pair's lost parts summed
+along the walk. The flip of the turn block is positive at every coupling by the walk from the strong side, so
+A6's positivity no longer rests on the couplings tried. Nothing above is changed.

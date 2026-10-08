@@ -1,0 +1,190 @@
+{
+ "checks": {
+  "W1 4 a(q^2) K+(q^2) = a K+ - b K-  (series to order 600)": true,
+  "W1 4 b(q^2) K-(q^2) = a K- - b K+  (series to order 600)": true,
+  "W1 lattice: a K+ - b K- is the sum of m^2 over the diagonal sublattice": true,
+  "W1 lattice: a K- - b K+ is minus that sum with the mark (-1)^m": true,
+  "W1 the pair itself: 2 a(q^2)^2 = a^2 + b^2 and b(q^2)^2 = a b (AG1-A4)": true,
+  "W1 in ratios: rho' r' = (rho - r)/(1 - r rho)": true,
+  "W2 invariant: 8 (a K- + b K+) = a b L_0^2  (series to order 600)": true,
+  "W2 8 (a K- - b K+) = a b (2 L_1^2 + 4 L_2^2 + 8 L_3^2 + ...)  (series to order 600)": true,
+  "W2 16 K- = b (L_0^2 + later) and 16 K+ = a (L_0^2 - later)": true,
+  "W2 every lost part is a series of one sign, beginning 16 q^(2^n)": true,
+  "W2 one step of the lost part: 4 L_1^2 = (S - F)^2": true,
+  "W2 the step in Lambda = (rho - r)/(rho + r) is affine: Lambda = (S - F)/(2 (S + F)) (1 + Lambda at q^2)": true,
+  "W3 base: for q <= 1/2 the terms of b and of K- fall (2q <= 1, 4q^3 <= 1/2), so b > 1 - 2q >= 0, K- > q - 4q^4 > 0": true,
+  "W3 rho' > r' is rho > (3r + r^3)/(1 + 3r^2), which is above the pair's flip at q^2": true,
+  "W3 at u = 1/4, 1/2, 1, 2: r < (3r+r^3)/(1+3r^2) < rho < (r+r')/(1+r r') < 1 and the step law (enclosures)": true,
+  "W2 at u = 1/4: (1 + Lambda)/(1 - Lambda) from twelve lost parts is rho/r (60 digits)": true,
+  "W2 lost/seen = Lambda is below 1 at u = 1, 1/4, 1/16, 1/64 (sixteen terms and a bounded rest)": true,
+  "W4 the flip at u = 1/16 walked back from u = 1 agrees with the mirror description (80 digits)": true,
+  "W4 the limit of (beta + 1)/2^n from u = 1 is pi/2 to 80 digits (the mirror's value)": true,
+  "W4 the pair's ratio at least squares at every backward step: r(u/2) <= r(u)^2": true,
+  "W5 K-(q^2)^2 (K+ + K-)^2 - 4 K+(q^2)^2 K+ K- = 64 (K+(q^2)^2 K+(q^4)^2 - O^2 O(q^2) K+(q^8))": true,
+  "W5 the difference begins 512 q^18 - 1152 q^20 : not of one sign term by term": true,
+  "W5 for the pair the same difference is zero (the mean step is exact)": true,
+  "W5 strong, first piece: right - 1 < 8 q^6 at q = 3/5 (so for every q <= 3/5: right - 1 < 8 q^6 <= left - 1)": true,
+  "W5 strong, grid 3/5 ... 7/10 in steps of 1/400: left at the lower end > right at the upper end (40 pieces)": true,
+  "W5 weak: beta >= 99/10 for every q >= 7/10 (100 boxes of the base, backward walk with bounded loss)": true,
+  "W5 weak: beta >= 99/10 gives the inequality: (beta - 1)^2 > 8 beta, and it stays so above": true,
+  "W5 weak: the inequality in (r, beta) form, and true at 300 random points with beta >= 99/10, r^2 beta < 1": true,
+  "W6 algebra: the mean step is above rho, and takes odd/even below its square": true,
+  "W6 at u = 1/8, 1/4, 1/2, 1: rho(q^2) > rho(q) and odd/even at q^2 below its square at q (enclosures)": true,
+  "W6 control: for the torus record (weights 1 in place of m^2) the inequality is reversed at q = 1/5, 1/3, 1/2": true,
+  "W6 control: a claim 5 per cent stronger is not certified by the grid": true,
+  "W6 control: the wrong step (plus in place of minus) fails as a series": true,
+  "W6 control: a bound of 12.87 is not certified for q >= 7/10 (the value at q = 7/10 is 12.84)": true
+ },
+ "numbers": {
+  "u, r, rho, lower bound, upper bound": [
+   [
+    "1/4",
+    0.0864272337258898,
+    0.456691145591614,
+    0.2542302383508219,
+    0.48333763158024934
+   ],
+   [
+    "1/2",
+    0.41421356237309503,
+    0.9306285818711687,
+    0.8672954016950679,
+    0.9308759307928457
+   ],
+   [
+    "1",
+    0.8408964152537145,
+    0.999354612189448,
+    0.9987096677515178,
+    0.9993546166892778
+   ],
+   [
+    "2",
+    0.9925580240013256,
+    0.9999999479007042,
+    0.9999998958014112,
+    0.9999999479007042
+   ]
+  ],
+  "u = 1/4: Lambda, and the shares of its first four terms": [
+   0.6817370318622012,
+   0.722545046671711,
+   0.2554582511071587,
+   0.02191485332488249,
+   8.184832538147859e-05
+  ],
+  "u, Lambda, 1 - Lambda, 4u/pi": [
+   [
+    "1",
+    0.08610683791107275,
+    0.9138931620889272,
+    1.2732395447351628
+   ],
+   [
+    "1/4",
+    0.6817370318622012,
+    0.3182629681377987,
+    0.3183098861837907
+   ],
+   [
+    "1/16",
+    0.9204225284540524,
+    0.07957747154594767,
+    0.07957747154594767
+   ],
+   [
+    "1/64",
+    0.9801056321135131,
+    0.019894367886486918,
+    0.019894367886486918
+   ]
+  ],
+  "flip at u = 1/16": 0.00016831826131668122,
+  "limit of u (beta + 1)": 1.5707963267948966,
+  "negative coefficients of the difference up to order 600": 73,
+  "smallest margin on the grid": 1.0279301347990968,
+  "smallest certified beta for q >= 7/10": 12.672916833328513,
+  "u, rho, odd/even, odd/even at 2u": [
+   [
+    "1/8",
+    0.043199069523816816,
+    0.9171796241276641,
+    0.3729746391694644
+   ],
+   [
+    "1/4",
+    0.456691145591614,
+    0.3729746391694644,
+    0.0359320372547248
+   ],
+   [
+    "1/2",
+    0.9306285818711687,
+    0.0359320372547248,
+    0.0003227980702458869
+   ],
+   [
+    "1",
+    0.999354612189448,
+    0.0003227980702458869,
+    2.6049648544319603e-08
+   ]
+  ],
+  "floating: u, rho'(1+rho)/(2 sqrt rho)": [
+   [
+    0.01,
+    4.388708
+   ],
+   [
+    0.05,
+    1.88578
+   ],
+   [
+    0.1,
+    1.278165
+   ],
+   [
+    0.2,
+    1.015677
+   ],
+   [
+    0.3,
+    1.000534
+   ],
+   [
+    0.5,
+    1.0
+   ],
+   [
+    1.0,
+    1.0
+   ]
+  ],
+  "floating: u, U/u (the pair with the same flip sits at Exp(-pi U))": [
+   [
+    0.01,
+    2.1175
+   ],
+   [
+    0.05,
+    2.4192
+   ],
+   [
+    0.1,
+    2.6811
+   ],
+   [
+    0.2,
+    2.9344
+   ],
+   [
+    0.3,
+    2.99
+   ],
+   [
+    0.5,
+    2.9998
+   ]
+  ]
+ }
+}
