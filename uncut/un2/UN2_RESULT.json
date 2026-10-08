@@ -1,0 +1,10 @@
+{
+ "T1_legs": true,
+ "T2_far_frame_full_unit": true,
+ "T2_horizon_static_unit_zero": true,
+ "T3_quarter_turn_apart": true,
+ "T4_far_rate": true,
+ "T4_quarter_with_far_unit": true,
+ "T5_local": "1/N",
+ "pass": true
+}

@@ -28,3 +28,5 @@ Put in, still: (a) T = (unit)·κ/(angle) — the reading T is the unit per clos
 MO1 at the horizon is the cone speed of HB1/CL1 (both equal 1 there; that they are one quantity is assumed);
 (c) directions = cuts. Not claimed: S = area/4 "derived from nothing"; the three items above are what remains.
 Open gate: (b). CL1 gives speed = 1 − curvature/2 for a tick; show the frame cut of HX1 has that tick.
+
+> Later note (UN2): assumption (b) below contradicts GR1/PR4 (the speed-like leg of the coin is N, not the fall speed) and is withdrawn. The quarter stands with the far frame's unit; see `uncut/un2`.
