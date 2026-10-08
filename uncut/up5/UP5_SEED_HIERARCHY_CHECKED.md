@@ -70,6 +70,11 @@ exact case of the seed's closure of the tower; the general case is not shown.
 * The seed's definitions as written. The frame and weight of T5 are free; nothing selects them.
 * Two pairs. F2–F4 of UP4 remain assumed.
 
+## Later note (UP6)
+
+The two forms of λ_t are the two members of one reciprocal pair of scale operations (UP6-T1); open gate 1
+below is answered there: both are kept, and their non-commutation is computed.
+
 ## Open gates
 
 1. Which of the two layer-1 quadruples the owner intends — (λ_t, …) as written, or the closed one with z_t.
