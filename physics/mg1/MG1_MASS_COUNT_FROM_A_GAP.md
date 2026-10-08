@@ -84,3 +84,9 @@ THE PROTON'S MASS COUNT                                                         
 python mg1_mass_count_from_a_gap.py
 python -m unittest test_mg1
 ```
+
+## Later note (DU1, 9 October)
+
+M5 asked for a law that falls as an exponential of the coupling. DU1 finds one natively for a chain of two-valued
+marks: rate = 2k* ≈ 2e^(−2k), with k → k − ½ ln 2 on doubling the cell. The chain of turns of M4 stays a power.
+The proton's count is still not derived. Nothing above is changed.

@@ -1,0 +1,37 @@
+{
+ "checks": {
+  "D1_seen_plus_lost_is_one_flip_is_cos": true,
+  "D1_spread_is_four_seen_lost": true,
+  "D1_diagonal_is_a_fair_coin_with_largest_spread": true,
+  "D2_fixed_mark_rule_is_linear_in_the_angle": true,
+  "D2_rules_agree_on_the_cut_and_on_the_diagonal": true,
+  "D2_and_nowhere_else": true,
+  "D2_exchange_odd_rules_vanish_on_the_diagonal": true,
+  "D2_fixed_assignments_give_two": true,
+  "D2_four_mark_clock_same": true,
+  "D2_eight_mark_clock": true,
+  "D2_measured_sum_is_the_reading_rule": true,
+  "D3_spread_of_a_count": true,
+  "D3_repeating_record_is_S": true,
+  "D3_two_valued_record_is_F": true,
+  "D4_diagonal_mode": true,
+  "D4_one_bit_two_bits_minus_one_bit": true,
+  "D4_entropy_curvatures_add": true,
+  "D5_series_with_explicit_tail": true,
+  "pass": true
+ },
+ "numbers": {
+  "pair_sum": {
+   "reading_rule": 2.8284271247461903,
+   "fixed_observer": 2,
+   "measured": 2.82759,
+   "sigma": 0.00051,
+   "from_reading_rule_in_sigma": -1.6414210709616963,
+   "above_fixed_observer_in_sigma": 1622.725490196078
+  },
+  "share_of_count_on_the_wave_side": 0.0788257227932142,
+  "share_of_energy_on_the_wave_side": 0.013059164558932773,
+  "diagonal_mode_of_the_sky_GHz": 39.36397077072932,
+  "quantum_over_kT_on_the_diagonal": 0.6931471805599453
+ }
+}

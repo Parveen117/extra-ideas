@@ -62,3 +62,8 @@ SHAPE OF THE SKY'S LIGHT                                                       M
 python rd1_light_gas_numbers.py
 python -m unittest test_rd1
 ```
+
+## Later note (QD1, 9 October)
+
+The spread of the count of a mode is n + n² = S of T24-6.1 with R = n, D = n²; the diagonal R = D is the mode with
+quantum kT·ln 2 (39.4 GHz for the sky). Nothing above is changed.

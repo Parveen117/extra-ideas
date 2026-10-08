@@ -87,6 +87,12 @@ masses from closure and two rates         QP1                          5.256 ± 
 (in-out/round)² = seen − lost             FK1, CD1, OA1                (298, 441 Hz) 0.105 ± 0.006; rung 1/3: 5/9, 4/9, 1/9
 9/4, 5/2, 4, 9/2, 6, 25/4, 7 (cost of a   CC1 (Yang–Mills line)        simulation 2.246, 2.499, 3.97, 4.47, 6.19, 5.96, 7.07
       content over the first)
+2√2   (sum over four pairs; 1/√2 against  QD1, CL1, DG1                2.82759 ± 0.00051 (fixed observer: 2)
+      ½ on the eight-mark clock)
+ln 2  (quantum / kT of the diagonal mode; QD1, RD1                     —
+      energy 1 bit, entropy 2 bits)
+½ ln(1 + √2) (the record that is its own  DU1, DO1                     1/k = 2.2692 (known value of the two-valued plane)
+      dual: seen = lost, tanh 2k = 1/√2)
 27/5, 27/20, 28/25 (rates of a bound      BR1                          wavelength ratios 1.35001, 1.11999
       charge); second-shell split α²/16                                3.3342·10⁻⁶ against 3.3282·10⁻⁶
 ```
@@ -124,6 +130,12 @@ Yang–Mills line has certified is of order one in cell units, and its one exact
 power. The proton's 7.7 × 10⁻²⁰ (log 44.0) would have to come from the gap at weak coupling in four
 dimensions — the open wall of that line. The two lines are stopped at the same place. Ratios of costs, where
 cell and coupling cancel, are given now (CC1).
+
+On the diagonal the reading rule and the fixed-observer rule give the same reading (QD1); the turn through the
+diagonal exchanges the two descriptions of a record, by marks and by contents (DU1). For a chain of two-valued
+marks the rate is twice the dual coupling, about 2e^(−2k), and doubling the cell takes ½ ln 2 from k: an
+exponential law with its log, native to the block. A small mass count is then closeness to the diagonal, and a
+count of 10⁻²⁰ is a coupling near 22. For the colour record in four dimensions this is not shown.
 
 ## Reproduce
 

@@ -1,0 +1,64 @@
+{
+ "checks": {
+  "U1_cuts": true,
+  "U1_diagonal_turn_exchanges_the_cuts": true,
+  "U1_block_read_on_the_diagonal": true,
+  "U2_dual_is_an_involution": true,
+  "U2_product_of_sinh": true,
+  "U2_self_dual_point": true,
+  "U2_block_points_along_the_sixteenth": true,
+  "U2_self_dual_is_seen_equals_lost": true,
+  "U3_chain_decay_is_geometric": true,
+  "U3_rate_is_twice_the_dual_coupling": true,
+  "U3_doubling_squares_the_ratio": true,
+  "U3_doubling_in_the_coupling": true,
+  "U3_doubling_doubles_the_dual_coupling": true,
+  "U3_coupling_runs_as_a_log": true,
+  "U4_exponential_law": true,
+  "U4_a_number_near_22_not_a_large_number": true,
+  "U4_turn_chain_runs_as_a_power": true,
+  "U5_plane_duality_exact": true,
+  "U6_strips_approach_twice_the_distance_to_the_dual": true,
+  "U6_on_the_diagonal_rate_falls_as_one_over_width": true,
+  "pass": true
+ },
+ "numbers": {
+  "self_dual_coupling": 0.4406867935097715,
+  "one_over_the_self_dual_coupling": 2.269185314213022,
+  "coupling_for_the_proton_count": 22.35277972640673,
+  "coupling_for_the_electron_count": 26.11049358800254,
+  "turn_chain_doubling_factor": 0.5002498113076458,
+  "grids": {
+   "2x2": {
+    "edges": 4,
+    "even_subgraphs": 2
+   },
+   "2x3": {
+    "edges": 7,
+    "even_subgraphs": 4
+   },
+   "3x3": {
+    "edges": 12,
+    "even_subgraphs": 16
+   },
+   "3x4": {
+    "edges": 17,
+    "even_subgraphs": 64
+   }
+  },
+  "strip_rate_off_the_diagonal": {
+   "4": 0.6655004305784612,
+   "6": 0.6401991597334471,
+   "8": 0.6349689551804193,
+   "10": 0.633756104919724
+  },
+  "known_plane_rate": 0.6333583188322053,
+  "width_times_rate_on_the_diagonal": {
+   "4": 0.8100428761266619,
+   "6": 0.7952046271395342,
+   "8": 0.7906734249755032,
+   "10": 0.7887153950073316
+  },
+  "quarter_of_pi": 0.7853981633974483
+ }
+}

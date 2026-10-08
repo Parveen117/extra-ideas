@@ -114,3 +114,9 @@ WHY THE OBSERVER IS ON THE DIAGONAL                                             
 python do1_diagonal_observer.py
 python -m unittest test_do1
 ```
+
+## Later note (QD1, DU1, 9 October)
+
+P1's turn to the diagonal is H = (C₁ + C₂)/√2, which exchanges the two cuts (DU1): for a two-valued record it is
+the exchange of its two descriptions, and the record equal to its own diagonal reading has seen = lost. On the
+diagonal the reading rule and the fixed-observer rule agree (QD1). Nothing above is changed.
