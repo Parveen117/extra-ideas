@@ -1,0 +1,22 @@
+{
+ "balance": "seen + lost = det ; for a unit block seen = cosh^2, lost = -sinh^2 : what is seen more is what is lost more",
+ "cycles": {
+  "first": "exp(I_0) = 1 + 2 w^2",
+  "exp_I0_after_k_cycles_w_3_4": [
+   "17/8",
+   "257/32",
+   "4097/128",
+   "65537/512",
+   "1048577/2048"
+  ],
+  "step_factors": [
+   "257/68",
+   "4097/1028",
+   "65537/16388",
+   "1048577/262148"
+  ],
+  "limit_step": "exp(Delta I) -> exp(2 eta) = (rho + t)/(rho - t)  (here 4)"
+ },
+ "reverse": "the reverse cycle returns to rest: nothing here forbids it",
+ "exchange": "Log(local unit) - I is kept between places that exchange: where I is larger the local unit is larger by exp(Delta I)"
+}

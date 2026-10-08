@@ -1,0 +1,10 @@
+{
+ "invariants": "two, separately: m^2 = a^2 - b^2 - c^2 (the self-dagger part) and W = d (the turn-part); det = m^2 + W^2",
+ "rest": "energy read at rest = M cos(theta) ; turn-part = M sin(theta) ; M^2 = E_0^2 + W^2",
+ "who_sees_it": "X.rho X does not contain W ; the return around a loop is 2 W x Area",
+ "pairs": "turn-parts add; opposite turn-parts cancel and the pair is flat",
+ "witness": {
+  "at_rest": "E = 4, W = 3, M = 5",
+  "moving": "E = 5, p = 3, W = 3 ; E^2 - p^2 = 16 ; det = 25"
+ }
+}
