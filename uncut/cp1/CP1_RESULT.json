@@ -1,0 +1,10 @@
+{
+ "T0_weights": true,
+ "T1_one_defect": true,
+ "T2_weights_read": true,
+ "T3_defect_value": "-29/224",
+ "T3_nonzero": true,
+ "T4_independent": true,
+ "T5_invariant": true,
+ "pass": true
+}

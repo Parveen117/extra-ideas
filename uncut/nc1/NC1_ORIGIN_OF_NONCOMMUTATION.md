@@ -25,5 +25,5 @@ self-similar. λ = 0 / flat = constant ε. In A-3 language, ω is the accumulate
 ## Put in / not claimed
 Put in: two free directions (F3), smooth P (F4), p_s, p_v ≠ 0. Not claimed: why nature has a
 scale b; identification of β with any field-theory β-function; any statement about ħ.
-Open gate: the fixed points ∂ε = 0 (self-similar states) against critical exponents; b as the
+Open gate (answered in CP1: a self-similar centre keeps one defect, it does not commute): fixed points against exponents;
 quantity that w (UP5) and the cycle growth (BL1) are functions of.
