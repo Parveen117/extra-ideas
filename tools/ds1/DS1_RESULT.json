@@ -1,0 +1,85 @@
+{
+ "checks": {
+  "D1_flip_is_the_mirror_pairing": true,
+  "D1_nested_mirrors_multiply_the_flips": true,
+  "D1_swap_cut_projects_on_the_two_diagonals": true,
+  "D2_diagonal_vector_and_the_prime_two": true,
+  "D2_flip_over_source_is_the_rad_part_of_the_turn": true,
+  "D2_no_rational_unit_point_on_the_diagonal": true,
+  "D2_seen_equals_lost_exactly_at_the_quarter_turn": true,
+  "D2_unit_relation": true,
+  "D3_bordered_form_carries_the_same_count": true,
+  "D3_count_does_not_depend_on_the_size_of_the_space": true,
+  "D3_count_is_at_most_the_rank_of_the_memory": true,
+  "D3_instances_cover_several_counts": true,
+  "D3_just_past_the_diagonal_one_count": true,
+  "D3_kernels_agree": true,
+  "D3_on_the_diagonal_a_kernel_and_no_count": true,
+  "D3_three_routes_to_the_count": true,
+  "D4_a_pair_is_one_plus_and_one_minus": true,
+  "D4_mirror_form_on_the_45_degree_line": true,
+  "D4_mirror_form_on_the_half_line": true,
+  "D4_one_point_off_the_line_is_one_count": true,
+  "D4_the_two_mirrors_are_one_in_the_chart_of_the_diagonal_vector": true,
+  "D4_unequal_weights_on_a_pair_are_refused": true,
+  "D5_gram_defect_is_a_sum_of_squares": true,
+  "D5_measure_is_one_on_the_diagonal_only": true,
+  "D5_returned_share_between_its_bounds": true,
+  "D5_returned_share_termwise_bounds": true,
+  "D5_seam_measure_identity": true,
+  "D6_always_closer_never_across": true,
+  "D6_rate_of_approach": true,
+  "D7_cell_is_blind_to_unit_free_harmonics_except_the_mean": true,
+  "D7_cyclotomic_reduction_is_exact": true,
+  "D7_four_cells": true,
+  "control_count_needs_the_seen_form": true,
+  "control_inertia_on_known_forms": true,
+  "control_root_count_with_multiplicity": true,
+  "pass": true
+ },
+ "numbers": {
+  "D3_counts_seen": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "D5_lower_share_upper": {
+   "a=1,b=1": [
+    0.245421,
+    0.308508,
+    0.509158
+   ],
+   "a=2,b=2": [
+    0.0625,
+    0.143432,
+    0.5
+   ],
+   "a=3,b=1": [
+    0.001526,
+    0.003052,
+    0.009158
+   ],
+   "a=3/2,b=1/2": [
+    0.116521,
+    0.135171,
+    0.193098
+   ],
+   "a=5/2,b=2": [
+    0.03894,
+    0.099557,
+    0.3894
+   ]
+  },
+  "D6_x_for_nu0": [
+   0.090844,
+   0.486889,
+   0.841117,
+   0.949983,
+   0.984188,
+   0.995
+  ]
+ }
+}

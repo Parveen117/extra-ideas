@@ -22,7 +22,12 @@
    "files": {
     "theorems/foundation/F00E_NATIVE_EULER_FROM_IOTA_COMPLEX.md": "9ea9c78aa12d8fa0db5b4c87b9463d64a4751f41",
     "theorum/75_selective_release_content_tail_theorem.md": "c975c7c2c01cbc40d9f0503f54afab9a6c8cd610",
-    "theorum/46_first_visible_jet_seam_quotient_theorem.md": "e3276b8c8bacf28c3bd2797f1538e6d11ca1dede"
+    "theorum/46_first_visible_jet_seam_quotient_theorem.md": "e3276b8c8bacf28c3bd2797f1538e6d11ca1dede",
+    "theorum/24_clock_free_recognition_seam_cut_calculus.md": "f596ca3c9f9540465b3ad55fd8baf2ea33e9ab26",
+    "theorum/28_recognition_complete_finite_to_infinite_cut_theorem.md": "a2a362d8c37cd775c815e020c61ab3c37f606423",
+    "theorum/02_seam_integer_single_sector_reduction.md": "02888cce0d906efe18e75795460ca3cff048e084",
+    "theorum/39_native_source_kernel_no_blindness_strict_odd.md": "8e99c69bc25fe39b7157c4d4203dd6ae63e42dc2",
+    "theorum/40_odd_native_classical_normalization_interface.md": "38ec39426c59a244a8c393932112f6c35cb661b1"
    }
   },
   {
@@ -42,7 +47,11 @@
     "physics/ct1/CT1_CENTRE_RECORD_OF_THE_TURN_CHAIN.md": "514dfdb9fd6db0a563d7374e9283a8e5c971e1af",
     "physics/sn1/SN1_THREE_SECTORS_THREE_NUMBERS.md": "3d518136166ee982d089d7aeadebd6ee9c522629",
     "physics/sn2/SN2_FROM_ONE_READING_TO_MANY.md": "9fe2e4da619d0370f96b038ef285ac582b35db9e",
-    "03-lambda-reference/RETURN_INVARIANTS_R1.md": "8ebb5186c085e5dca0d8e6094d5fb0a3426ba244"
+    "03-lambda-reference/RETURN_INVARIANTS_R1.md": "8ebb5186c085e5dca0d8e6094d5fb0a3426ba244",
+    "physics/ONE_LAW.md": "57764a6773c789f87fc693d73dfec328f57d9e56",
+    "physics/qd1/QD1_SAME_ON_THE_DIAGONAL.md": "940ea1fb3d646347bcebaccdf407171eb7fe9b96",
+    "physics/du1/DU1_DIAGONAL_TURN_IS_THE_DUALITY.md": "6e8b0bcb927cfed376c4819dbf5442e72a89f239",
+    "physics/do1/DO1_DIAGONAL_OBSERVER.md": "92a2e03d89be3190d9e4f4a8ba7c490c89ab07e5"
    }
   }
  ],
