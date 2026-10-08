@@ -303,3 +303,13 @@ A record shared by neighbouring histories keeps the one of stationary count. So 
 are one rule. On MO1's circles the energy is the slope of the count against the far period and E·T − τ = 2π·L.
 Gravity's field law is not of that kind: it is the ratio above. The premises of the thesis are now two: the
 record rule and equivalence of local frames. *[OR1 — proved given GE2's record model; the rule itself is a premise]*
+
+## One form for every memory (MM1)
+
+e₂(X) = ½[(tr X)² − tr X²] — the determinant in a plane — is the seen part of a record of turns (GE2's memory is
+1 − e₂), a quarter of the invariant n² − r·r of a record of readings (IN1: zero for a single reading), and, for
+the stretch of the fall frame, the energy component of the law (SE1). In empty space the stretch has no
+unrecoverable part between the cuts; with a source that part is the source's energy. On flat slices the two
+conditions "a pure turn has no memory" and "a stretch along a single cut has no memory" leave exactly TP1's
+1 : 2 : −4; the second alone is TP1-T4's plane. A cell of the falling frame has V″/V = 2e₂ − R₀₀: linear volume
+in empty space. *[MM1 — proved on flat slices; general frames not shown; why memory equals energy not derived]*

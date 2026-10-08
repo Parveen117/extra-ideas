@@ -147,3 +147,9 @@ GRAVITY'S FIELD LAW AS LEAST MEMORY                                             
 python or1_one_rule_for_records.py
 python -m unittest test_or1
 ```
+
+## Later note (MM1, 8 October)
+
+§5 calls gravity's field law a different kind. MM1 refines this: it is not a least variance of turns, but on flat
+slices it is the same quadratic form e₂ as GE2's and IN1's memories, set to zero between the cuts, and TP1's
+coefficients follow there from two no-memory conditions. Nothing above is changed.

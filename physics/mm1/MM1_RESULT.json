@@ -1,0 +1,20 @@
+{
+ "checks": {
+  "U1_memory_identity": true,
+  "U1_e2_is_det_in_a_plane": true,
+  "U2_turns": true,
+  "U3_single_reading_has_none": true,
+  "U3_record_of_readings": true,
+  "U4_single_cut_has_none": true,
+  "U4_stretch_as_record": true,
+  "U5_seen_and_lost": true,
+  "U5_trace_commutes_with_the_tower": true,
+  "U6_general_law_on_flat_slices": true,
+  "U6_two_conditions_select_TP1": true,
+  "U6_single_cut_condition_is_TP1_T4_plane": true,
+  "U7_volume_acceleration": true,
+  "U7_fall_law": true,
+  "U7_volume_linear_in_time": true,
+  "pass": true
+ }
+}

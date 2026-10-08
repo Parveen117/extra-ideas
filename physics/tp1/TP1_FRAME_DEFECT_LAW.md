@@ -124,3 +124,9 @@ pip install sympy
 python tp1_frame_defect_law.py
 python -m unittest test_tp1        (about three minutes)
 ```
+
+## Later note (MM1, 8 October)
+
+T4's plane of coefficients that keeps the profile r_s/r is 2a₁ + a₂ + a₃ = 0. MM1 reads it: a stretch of the fall
+frame along a single cut has no memory. Together with "a pure turn has no memory" (2a₁ = a₂) it gives 1 : 2 : −4
+on flat slices. T2 remains the proof for general frames. Nothing above is changed.
