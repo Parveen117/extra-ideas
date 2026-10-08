@@ -1,0 +1,11 @@
+{
+ "T1_three_cuts": true,
+ "T2_no_fourth": true,
+ "T2_product_is_iota": true,
+ "T3_octant": true,
+ "T3_modulus": true,
+ "T4_each_one_eighth": true,
+ "T4_whole_boundary": true,
+ "T5_two_cuts_real": true,
+ "pass": true
+}
