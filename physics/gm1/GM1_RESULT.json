@@ -1,0 +1,25 @@
+{
+ "checks": {
+  "C1_invariant_part": true,
+  "C2_components": true,
+  "C3_pattern_of_EG1": true,
+  "C3_speed_below_one": true,
+  "C4_modulus": true,
+  "C4_memory": true,
+  "C5_far_field": true,
+  "C5b_no_source_away_from_the_ring": true,
+  "C5c_axis_field": true,
+  "C6_ratio_is_two": true,
+  "C7_shell_condition": true,
+  "pass": true
+ },
+ "numbers": {
+  "a_m": 1.9307963386214167e-13,
+  "r_s_m": 1.3529548664047284e-57,
+  "sqrt_q2_m": 1.3806784704618156e-36,
+  "a_over_half_r_s": 2.854191793924677e+44,
+  "g_model": 2.0,
+  "g_measured_recalled": 2.00231930436,
+  "shortfall": 0.0011596521799999149
+ }
+}

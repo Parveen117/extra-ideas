@@ -1,0 +1,30 @@
+{
+ "checks": {
+  "F1_complex_distance": true,
+  "F2_harmonic": true,
+  "F3_square_of_gradient": true,
+  "F4_multipoles": true,
+  "F4_generating": true,
+  "L1_first_order_is_SW1": true,
+  "G0_flat_layout": true,
+  "G0_frame_and_coframe": true,
+  "G1_free_fall": true,
+  "G2_linear_in_memory": true,
+  "G2_theta_theta": true,
+  "G2_radial": true,
+  "G2_zero_components": true,
+  "G3_law_holds_exactly": true,
+  "G3_memory_is_real_part": true,
+  "G4_reduces_to_CV1": true,
+  "G5_lightlike_shell": true,
+  "H0_real_and_imaginary_parts": true,
+  "H1_acceleration_is_gradient_of_real_part": true,
+  "H2_turn_is_gradient_of_imaginary_part": true,
+  "H3_clock_factor": true,
+  "W1_P_rr": true,
+  "W2_P_x": true,
+  "W3_reduces": true,
+  "pass": true
+ },
+ "seconds": 249
+}

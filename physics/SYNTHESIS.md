@@ -147,7 +147,7 @@ or by external review.
 ```text
 the two pure numbers        the size of one unit of content for light (≈ 1/137); of gravity for a given mass
 the assumption of MO1       derived for the static field of one centre (MA1); general fields open
-a centre that turns         first order from the law (SW1): swirl a/r³; flat slices refused at second order; the second-order frame open
+a centre that turns         exact in SW2: the centre displaced by ι·a, memory Re(r_s/R); with a charge the ratio 2 (GM1); why turning is a displacement along ι, and the shortfall α/2π, open
 many ledgers                when memory between systems becomes effectively permanent (R44)
 a block law for gravity     found for the frame field (CV1, TP1): order defect, coefficients 1 : 2 : −4 by equivalence; sources not built
 an experiment               the programmed chain of PH2; the pair memory of DC1

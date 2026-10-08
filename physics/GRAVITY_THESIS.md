@@ -245,3 +245,18 @@ at rest far away leave W = a/r³. On flat slices a direction carried with a fram
 39 milliarcsecond per year on the measured direction; measured 37.2 ± 7.2. At second order in a, flat slices with
 one time are refused by the law (exact remainder 9a² sin²θ/2r⁶): MO1's assumption is exact for a centre at rest
 and first-order for a centre that turns. *[SW1 — first order proved; a put in; second-order frame not found]*
+
+## The turning centre exactly (SW2) and a charge on it (GM1)
+
+On the cut-complex carrier a centre can be displaced along ι. The centre at rest, moved by ι·a along its axis, is
+at distance R = r − ι·a·cos θ, and Φ = r_s/R is still spread at least cost. With a flat layout, one time, and the
+fall measured against the turned form dt − a sin²θ dφ, the law is linear in the memory and holds exactly when
+memory = Re Φ; the frame is unique in that family. A held reading has acceleration and turn a + ι·Ω = ∇Φ/2N²:
+the swirl of SW1 is the ι-part of the same memory, and every multipole is r_s(ιa)^l. *[SW2 — proved in the family;
+why turning is such a displacement is not derived]*
+
+A charge on the same centre has light field −∇(q/R): charge q in the cut part, dipole q·a in the turn part, and
+the law's memory becomes Re(r_s/R) − q₂/R·R̄ with EG1's pattern at every a. Moment/charge = a = swirl/r_s, so the
+moment is twice that of a turning cloud with the same mass, charge and turning content. The electron's measured
+ratio is 2.00232; the shortfall 0.00116 is α/2π to its first figures, the open pure number. *[GM1 — ratio proved
+with the dictionary M, J put in; the electron is not claimed to be such a centre; shortfall not derived]*

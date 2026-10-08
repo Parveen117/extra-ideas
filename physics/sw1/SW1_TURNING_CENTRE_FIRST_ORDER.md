@@ -123,3 +123,9 @@ ANYTHING NEW PREDICTED                                                     NO
 python sw1_turning_centre_first_order.py
 python -m unittest test_sw1
 ```
+
+## Later note (SW2, 8 October)
+
+The second-order frame left open here is found at every order in SW2: the centre at rest displaced by ι·a along
+its axis, memory Re(r_s/R) with R = r − ι·a·cos θ, fall against the turned form dt − a sin²θ dφ. The constant a of
+this stage is r_s·a·c of SW2. Nothing above is changed.
