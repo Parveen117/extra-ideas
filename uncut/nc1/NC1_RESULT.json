@@ -1,0 +1,12 @@
+{
+ "T1a": true,
+ "T1b": true,
+ "T1c": true,
+ "T2_forward": true,
+ "T2_converse": true,
+ "T3_flat": true,
+ "T3_scale_value": "b*exp(v)/(b - exp(v))**2",
+ "T3_scale": true,
+ "T4_beta": true,
+ "pass": true
+}
