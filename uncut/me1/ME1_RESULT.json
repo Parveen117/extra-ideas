@@ -1,0 +1,10 @@
+{
+ "T0_reduces": true,
+ "T1_partners": true,
+ "T2_angles_reader_free": true,
+ "T3_six_pair_equations": true,
+ "T4_master_equation": true,
+ "T5_counts": true,
+ "T5_two_planes_is_UP5": true,
+ "pass": true
+}

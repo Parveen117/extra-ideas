@@ -43,6 +43,10 @@ Put in for C: the reader is the best frame; h is a variable of state.
 19. Bodies in relative motion: no common temperature; T(u) = T₀/(γ(1 − v·u)) per channel; a two-channel
     circuit raises the count and removes the relative motion (EQ1).
 
+## E. One equation
+20. Flat: dS = P(dE − Φ dQ − Ω dJ − v dp), six pair equations; angles per closed turn are reader-free.
+    Uncut: dθ = dk ∧ θ₀ + k dθ₀ — weight part + frame part; n planes carry n(n−1)/2 + n flatness conditions (ME1).
+
 ## Open
 - SL1 gives the mean over histories; a statement for one history is open.
 - "Directions = cuts" as a theorem rather than an identification.
