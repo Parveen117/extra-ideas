@@ -72,3 +72,21 @@ Put in: critical constants from standard tables (argon 150.687 K, 13.4074 mol/l;
 tables retrieved through a page reader — to be re-downloaded directly before publication.
 Not claimed: that the collapse of simple fluids is new (corresponding states is long known); the new item
 is D as the collapsing quantity and its meaning as frame defect.
+
+## Step and rounding check (`fd1_step_check.py`)
+
+D is a derivative taken from a table, so two errors compete: the step (truncation) and the printed digits
+(rounding, amplified as the step shrinks). Argon, 300 K, 1 mol/l:
+
+| span of the difference | D | rounding bound |
+|---|---|---|
+| 40 K (used in the tables above) | 0.095584 | 0.000054 |
+| 20 K | 0.095209 | 0.000108 |
+| 10 K | 0.095122 | 0.000215 |
+| Richardson (20, 10) | 0.095093 | — |
+
+The 40 K value is 0.5 % above the extrapolated one; the rounding bound is 0.06 % there and reaches 0.2 % at 10 K.
+Both are far below the 2–8 % spread and the 16–32 % departures reported above.
+The tables are values of a smooth reference equation, not sampled measurements: there is no sampling-rate
+(aliasing) question here. For raw calorimetric or acoustic records the derivative would need the usual
+conditioning — band limit, anti-alias filter, a stated step — before D is formed.

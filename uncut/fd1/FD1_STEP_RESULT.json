@@ -1,0 +1,11 @@
+{
+ "D_step_40K": 0.095584,
+ "D_step_20K": 0.095209,
+ "D_step_10K": 0.095122,
+ "richardson_10_5": 0.095093,
+ "rounding_bound_step_40K": 5.4e-05,
+ "rounding_bound_step_20K": 0.000108,
+ "rounding_bound_step_10K": 0.000215,
+ "truncation_20K_vs_richardson": 0.000116,
+ "stable_to_1_percent": true
+}
