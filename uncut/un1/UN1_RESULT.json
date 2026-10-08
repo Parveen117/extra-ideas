@@ -1,0 +1,11 @@
+{
+ "T1_ladder": true,
+ "T2_tick_not_full_turn": true,
+ "T3_count": true,
+ "T4_horizon_is_lightlike": true,
+ "T4_quarter": true,
+ "T5_eight_mark": "sqrt(2)/4",
+ "T5_quarter_turn_clock_no_count": true,
+ "T6_general": true,
+ "pass": true
+}
