@@ -111,6 +111,11 @@ against its turn term (FS1). In a bound record it is the speed of the first circ
 and the ratio of the charge's three lengths; the size of an atom is the turn length over α (BR1). Its value is not
 derived.
 
+The mass number of a pair (3.2 × 10⁻⁴² for an electron and a proton) is not a second constant beside α. α does
+not contain the mass; the mass number is the product of two mass counts, r_s/2ℓ of each kind (AC1, later note).
+So the open entries "mass ratios" and "the kinds of matter" are one question: what fixes the mass count of a
+kind. The line has no rule yet that says which centres exist.
+
 ## Reproduce
 
 ```text

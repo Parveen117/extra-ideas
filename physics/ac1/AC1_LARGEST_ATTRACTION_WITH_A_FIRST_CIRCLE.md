@@ -59,3 +59,38 @@ A RELATION BETWEEN THE TWO NUMBERS                                              
 python ac1_largest_attraction_with_a_first_circle.py
 python -m unittest test_ac1
 ```
+
+## Later note (9 October): "two independent pure numbers" said too much
+
+A4 above says the two numbers are independent. What was shown is less: nothing built so far relates them.
+`ac1_two_numbers_one_gap.py` says exactly what stands between them.
+
+**G1.** The turn term r_s·a of a centre does not contain its mass. So the charge number α = q₂/(r_s·a) knows
+neither the mass nor the constant of the mass field: it is one number for every kind of matter.
+
+**G2.** The mass number of a pair is not one number. It is the product of two mass counts,
+n = r_s/2ℓ with ℓ² the record area in the units of the field: α_g = n₁·n₂.
+
+**G3.** For one centre with the turn of one reading, α_g = r_s/4a, and α/α_g = 4q₂/r_s²: the large number is the
+square of two lengths of the same centre, its charge length over half its mass length.
+
+**G4.** The fall of a turning charged centre reaches 1 somewhere only if α_g ≥ (α + √(1 + α²))/2, a mass count of
+0.71 at the measured α. The known kinds of matter are far on the other side.
+
+**G5.** Electron 4.19 × 10⁻²³, proton 7.69 × 10⁻²⁰; their product is the 3.2 × 10⁻⁴² of A4.
+
+So one thing is missing, not a relation between two constants: **what fixes the mass count of a kind of matter**.
+The line has a centre with any r_s; it has no rule that says which centres exist. That is the entry "the kinds of
+matter" of ONE_LAW.md, seen from here. The limits A1–A3 are unchanged.
+
+```text
+CHARGE NUMBER IS MASS-FREE ; MASS NUMBER = PRODUCT OF TWO MASS COUNTS               PROVED
+α/α_g = (CHARGE LENGTH / HALF MASS LENGTH)²                                          PROVED
+"INDEPENDENT"                                                                        WITHDRAWN: not related by anything built so far
+WHAT FIXES A MASS COUNT                                                              OPEN — the one missing rule
+```
+
+```text
+python ac1_two_numbers_one_gap.py
+python -m unittest test_ac1_two_numbers
+```

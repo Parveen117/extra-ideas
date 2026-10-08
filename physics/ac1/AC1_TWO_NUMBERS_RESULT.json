@@ -1,0 +1,22 @@
+{
+ "checks": {
+  "G1_turn_term_is_mass_free": true,
+  "G1_charge_number_is_mass_free": true,
+  "G2_mass_number_is_a_product_of_two_counts": true,
+  "G3_mass_number_is_rs_over_4a": true,
+  "G3_ratio_is_two_lengths_squared": true,
+  "G4_edge_condition": true,
+  "G4_edge_value": true,
+  "G5_product_is_the_mass_number": true,
+  "G5_counts_are_tiny": true,
+  "pass": true
+ },
+ "numbers": {
+  "mass_count_electron": 4.185462214731958e-23,
+  "mass_count_proton": 7.685147635162193e-20,
+  "product": 3.216589504160802e-42,
+  "alpha_g_electron_proton": 3.216589504160802e-42,
+  "alpha": 0.007297352573780785,
+  "edge_mass_count_at_alpha": 0.7096914744790935
+ }
+}
