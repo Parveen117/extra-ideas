@@ -1,0 +1,56 @@
+{
+ "checks": {
+  "W1_time_part": true,
+  "W1_space_part": true,
+  "W2_lost_over_seen_is_one": true,
+  "W2_second_order_is_one": true,
+  "W3_other_choice_five_sixths": true,
+  "W4_light_circle": true,
+  "W4_reach": true,
+  "W4_diameter_in_GM": true,
+  "W5_binding_at_last_stable_circle": true,
+  "M_all_within_two_sigma": true,
+  "M_seen_equals_lost_to_parts_in_100000": true,
+  "pass": true
+ },
+ "numbers": {
+  "advance_Mercury_arcsec_per_century": {
+   "memory_spread": 42.98,
+   "clock_factor_spread": 35.82,
+   "measured": 42.98
+  },
+  "binding_at_last_stable_circle": 0.05719,
+  "measured": {
+   "lost_over_seen_minus_1": {
+    "line": 0.0,
+    "measured": 2.1e-05,
+    "sigma": 2.3e-05,
+    "how": "radio delay past the Sun, Cassini"
+   },
+   "light_bending_half_sum": {
+    "line": 1.0,
+    "measured": 0.99992,
+    "sigma": 0.00023,
+    "how": "radio sources past the Sun"
+   },
+   "second_order_minus_1": {
+    "line": 0.0,
+    "measured": -4.1e-05,
+    "sigma": 7.8e-05,
+    "how": "Mercury's perihelion"
+   },
+   "four_b_minus_g_minus_3": {
+    "line": 0.0,
+    "measured": 0.00044,
+    "sigma": 0.00045,
+    "how": "Moon against Earth falling to the Sun"
+   },
+   "shadow_over_GM_c2D": {
+    "line": 10.392,
+    "measured": 9.5,
+    "sigma": 1.37,
+    "how": "Sgr A*: shadow 48.7 +- 7.0 uas, GM/c^2D 5.125 uas from stars"
+   }
+  }
+ }
+}

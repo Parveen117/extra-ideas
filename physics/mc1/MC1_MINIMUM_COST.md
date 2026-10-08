@@ -110,3 +110,10 @@ python -m unittest test_mc1_exact
 "Three space dimensions" is listed above as an input. CD1 shows that, with this stage's least-cost memory in d
 dimensions, bound histories close at first order only for d = 3. Given the closure rule of RC1 the input has a
 reason. Nothing above is changed.
+
+## Later note (PN1, 9 October)
+
+"The reading spread at least cost is the memory" is listed above as assumed, with T5 showing the alternative
+differs at second order. PN1: the alternative gives five sixths of Mercury's advance (35.8″ against the measured
+42.98″) and a second-order number 3/2 against the measured 1 − (4.1 ± 7.8)·10⁻⁵. Measurement decides for the
+memory. Nothing above is changed.

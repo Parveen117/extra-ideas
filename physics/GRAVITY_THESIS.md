@@ -341,3 +341,14 @@ holds the whole block, and EMK-1's determinant is theorum/24's F = R − D. The 
 equally inclined to the fall, seen = lost holds exactly for ρ = −(d − 2)/2: the field of a centre from the diagonal
 alone (DG1's open item). In three cuts a block with equal seen and lost is either a single reading or that field,
 by the sign of b₁₂b₁₃b₂₃. *[DO1 — proved; that the observer is on the diagonal is the framework's statement]*
+
+## Pure numbers against measurement (PN1); the place of 1/137 (FS1)
+
+The form gives two weak-field numbers: lost/seen = 1 and the second-order number 1. Measured: 1 + (2.1 ± 2.3)·10⁻⁵
+and 1 − (4.1 ± 7.8)·10⁻⁵. Spreading the clock factor instead of the memory would give five sixths of Mercury's
+advance; measurement refuses it, so MC1's assumption on this point is decided. The dark disc of a centre at rest
+is 2√27 × GM/c²D; at the centre of the Milky Way 9.50 ± 1.37 against 10.39. *[PN1 — proved; all within uncertainty]*
+
+For the charged displaced centre q₂/(r_s·a) = k_e e²/(2Jc): the fine-structure number when J = ħ/2. In the far
+field the turn enters along ι and the charge along −1 in the ratio 1 : α. The value is not derived; the diagonal
+and small ratios of counts do not give it. *[FS1 — place proved; value open]*

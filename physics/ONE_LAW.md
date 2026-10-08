@@ -66,6 +66,9 @@ number                                    from                         measured
 1/√2  (record of turns on the diagonal)   DO1, CL1, DG1                —
 1/3, 2/3, 1  (special shells, in memory)  CD1                          —
 ½ + ½  (seen = lost in light bending)     GB1, LN1, MO1                1.751″ at the Sun
+1     (lost : seen, weak field)           PN1, DO1                     1 + (2.1 ± 2.3)·10⁻⁵
+1     (second-order number)               PN1                          1 − (4.1 ± 7.8)·10⁻⁵
+2√27  (dark disc / (GM/c²D))              PN1                          9.50 ± 1.37 against 10.39
 3     (orbit advance, × π r_s/r)          MO1                          42.98″ per century, Mercury
 3/2   (carried direction, × π r_s/r)      OA1                          6.62″/yr against 6.6018 ± 0.0183
 ¼     (mean swirl over the poles)         SW1                          39 mas/yr against 37.2 ± 7.2
@@ -90,7 +93,8 @@ not inside yet                            the short-range forces; the kinds of m
 ```
 
 The first figures of the electron's 2.00232 − 2 are α/2π (GM1): the one place where a number of the second kind
-already shows next to a ratio of the first kind.
+already shows next to a ratio of the first kind. Its exact place is α = q₂/(r_s·a), the charge term of a centre
+against its turn term (FS1); its value is not derived.
 
 ## Reproduce
 

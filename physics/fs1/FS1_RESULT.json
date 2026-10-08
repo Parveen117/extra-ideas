@@ -1,0 +1,29 @@
+{
+ "checks": {
+  "A1_gravity_unit_cancels": true,
+  "A1_is_alpha_for_half_unit_turning": true,
+  "A2_second_coefficient": true,
+  "A1_number": true,
+  "A3_left_over_turn_is_alpha_to_two_parts_in_1000": true,
+  "A4_no_small_form_within_measurement": true,
+  "A4_known_near_miss_is_refused": true,
+  "pass": true
+ },
+ "numbers": {
+  "alpha_from_the_three_constants": 0.007297352573780786,
+  "one_over_alpha": 137.03599899955174,
+  "left_over_turn_per_circuit_rad": 0.007286309538814778,
+  "left_over_over_alpha": 0.9984867066714461,
+  "closest_small_form": {
+   "relative_error": 0.004439575080081922,
+   "n": 11,
+   "m": 5,
+   "power_of_pi": 3,
+   "half_power_of_2": 2
+  },
+  "known_near_miss_4pi3_pi2_pi": {
+   "value": 137.0363037758784,
+   "relative_difference": 2.2240603117646956e-06
+  }
+ }
+}
