@@ -30,8 +30,11 @@ Put in for B: directions = cuts; count defined as plane area per unit turn.
 
 Put in for C: the reader is the best frame; h is a variable of state.
 
+15. Unbiased histories raise the count in the mean: one step gives cosh 2η = 1 + 2w² (BL1's factor);
+    rate against the ledger = (degree)²; exchange at fixed total gains 8πδ² (SL1).
+
 ## Open
-- A process that runs a count-raising circuit, and why it would be the natural one.
+- SL1 gives the mean over histories; a statement for one history is open.
 - "Directions = cuts" as a theorem rather than an identification.
 - The pole of the turn-part (BH1-T5): what the diagram does there.
-- BL1's multiplicative growth and C's additive gain as one statement.
+- SL1-T3's gap 1 + tanh²η against GR1's N² + m = 1.

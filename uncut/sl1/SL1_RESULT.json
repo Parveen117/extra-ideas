@@ -1,0 +1,13 @@
+{
+ "T1_mean_count": true,
+ "T1_is_BL1_first_cycle": true,
+ "T2_rate": true,
+ "T2_degree_squared": true,
+ "T3_gap": true,
+ "T4_exchange_gain": true,
+ "T4_equal_is_minimum": true,
+ "T5_drift_positive": true,
+ "T5_flat_limit": true,
+ "T6_only_symmetric_part": true,
+ "pass": true
+}
