@@ -1,0 +1,13 @@
+{
+ "T0_invariant": true,
+ "T1_fixed_velocity": true,
+ "T2_fixed_momentum": true,
+ "T3_rest": true,
+ "T4_inverse_period_is_fixed_momentum": true,
+ "T5_velocity_is_the_partner": true,
+ "T5_closed": true,
+ "T6_ratio": true,
+ "T7_count_reader_free": true,
+ "T7_energy_plane_alone_is_not": true,
+ "pass": true
+}

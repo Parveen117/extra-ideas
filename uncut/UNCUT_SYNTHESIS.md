@@ -33,6 +33,13 @@ Put in for C: the reader is the best frame; h is a variable of state.
 15. Unbiased histories raise the count in the mean: one step gives cosh 2η = 1 + 2w² (BL1's factor);
     rate against the ledger = (degree)²; exchange at fixed total gains 8πδ² (SL1).
 
+## D. Readers in motion
+16. Accelerated reader: T = (own acceleration)/(one turn); the (energy, time)-area of the closed turn is
+    the same for every reader; the family has no scale and no defect (AR1).
+17. Moving reader: γT₀, T₀/γ, T₀ are ∂E′/∂S at fixed velocity, at fixed momentum, and at rest; T = 1/period
+    selects T₀/γ; momentum is a fourth plane with velocity as partner; the ratio of the two contested values
+    is exp(2I₀) (MT1).
+
 ## Open
 - SL1 gives the mean over histories; a statement for one history is open.
 - "Directions = cuts" as a theorem rather than an identification.

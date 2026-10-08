@@ -1,0 +1,10 @@
+{
+ "T1_rate": true,
+ "T2_period_each_reader": true,
+ "T3_T_is_acc_over_turn": true,
+ "T3_T_times_clock_constant": true,
+ "T4_count_reader_free": true,
+ "T5_scale_free": true,
+ "T6_open_grows": true,
+ "pass": true
+}
