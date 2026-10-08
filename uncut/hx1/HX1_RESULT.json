@@ -1,0 +1,11 @@
+{
+ "T1_generator": true,
+ "T1_turning": true,
+ "T2_fall_is_imaginary_turn": true,
+ "T3_exchange": true,
+ "T3_same_as_QT2": true,
+ "T4_real_turn_closes": true,
+ "T5_one_generator": true,
+ "T6_stays_a_cut": true,
+ "pass": true
+}
