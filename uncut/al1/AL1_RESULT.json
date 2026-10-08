@@ -1,0 +1,11 @@
+{
+ "T1_rate": true,
+ "T2_count": true,
+ "T3_degree": true,
+ "T3_heat_ratio_is_ID1_ratio": true,
+ "T4_d3": true,
+ "T4_quarter_iff": true,
+ "T5_BH1_centre": true,
+ "T6_unit_free_degree": true,
+ "pass": true
+}
