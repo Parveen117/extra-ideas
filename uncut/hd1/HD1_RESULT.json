@@ -1,0 +1,13 @@
+{
+ "T1_heat_reading_law_d3_to_d6": true,
+ "T2_partner_is_rim_speed_over_rim_radius": true,
+ "T1_matches_eq38": true,
+ "T3_boost_share_d3": true,
+ "T3_boost_share_d4": true,
+ "T3_boost_share_d5": true,
+ "T4_cube_is_linear": true,
+ "T4_square_is_not": true,
+ "T5_single_plane_only_d3": true,
+ "T5_two_planes_d4": true,
+ "pass": true
+}

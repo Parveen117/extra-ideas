@@ -1,0 +1,7 @@
+{
+ "T1_least_cost_partner": true,
+ "T2_stored_cost": true,
+ "T3_heat_reading_charged": true,
+ "T4_additive_d3": true,
+ "pass": true
+}

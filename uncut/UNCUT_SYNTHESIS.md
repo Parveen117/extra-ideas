@@ -71,8 +71,14 @@ Put in for C: the reader is the best frame; h is a variable of state.
 30. E² = M₀² + N²p²: local quadrature brought to the reader by the surrounding space's clock factor; reproduces
     the published formula (hep-th/9908022, eq. 43) term by term (CF1). Two joining rules: stored cost; motion.
 
+## G. The heat-reading law
+31. One form for every plane: 4π·r₊·T = N_rim²·[(d−2)·P + r·∂_r P] at r₊, with N² = P − m·r^−(d−2) (HL1).
+    Static planes: (d−2) + Σ(p_j + d − 2)ε_j. Turning planes: (d−2) − 2Σv_i² for d = 3…6 (HD1). Charge in any d by
+    the stored-cost rule (LC2). T departs from neutral exactly as the planes' factor runs under scale.
+32. SP1's energy-quadrature is special to three directions; in d directions M = M₀·γ^{2/(d−1)} per turning plane (HD1).
+
 ## Open
-- Rule 2 tested where there is more than one spin (CF1).
+- Derive HD1's (a), (b), (c) inside the line; a centre with charge and turning in four or more directions.
 - The mirrors in the count form (ME2 §3); planes needing a larger carrier.
 - SL1 gives the mean over histories; a statement for one history is open.
 - "Directions = cuts" as a theorem rather than an identification.

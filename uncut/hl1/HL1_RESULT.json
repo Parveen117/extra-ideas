@@ -1,0 +1,14 @@
+{
+ "T1_law": true,
+ "T2_charge": true,
+ "T2_expansion": true,
+ "T2_d3_values": true,
+ "T3_same_power_is_silent": true,
+ "T4_weight_is_relative_degree": true,
+ "T5_ends": true,
+ "T6_one_turning_plane_any_d": true,
+ "T7_two_and_three_planes": true,
+ "T8_charge_and_turning_d3": true,
+ "T9_static_is_the_same_form": true,
+ "pass": true
+}

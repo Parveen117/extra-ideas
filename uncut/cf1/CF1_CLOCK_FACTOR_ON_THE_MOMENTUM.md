@@ -30,3 +30,5 @@ the continuation of eq. (43) to an expanding space (T4) is this stage's step, no
 Not claimed: a new mass formula — eq. (43) is the source's; the content here is that two rules of the line
 produce it. Open gate: an independent case where rule 2 can fail — a centre in more than three directions,
 where the published formulas have more than one spin.
+
+> Later note (HD1): rule 2 in the form E² = M₀² + N²p² is special to three directions. In d directions the form that holds is rim radius R = r₊/N and M = M₀·γ^{2/(d−1)} at fixed count; see `uncut/hd1` and the single form in `uncut/hl1`.
