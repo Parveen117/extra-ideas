@@ -313,3 +313,17 @@ unrecoverable part between the cuts; with a source that part is the source's ene
 conditions "a pure turn has no memory" and "a stretch along a single cut has no memory" leave exactly TP1's
 1 : 2 : −4; the second alone is TP1-T4's plane. A cell of the falling frame has V″/V = 2e₂ − R₀₀: linear volume
 in empty space. *[MM1 — proved on flat slices; general frames not shown; why memory equals energy not derived]*
+
+## The law from no-memory conditions, in every frame (GF1); the source is the count (CS1)
+
+The law is a quadratic form on the order defect at a place, so MM1's two conditions can be put to every frame: an
+order defect that lies in one plane leaves no memory (2a₁ + a₂ + a₃ = 0, all six planes), and a turn rate of the
+cuts leaves no memory (2a₁ = a₂). Together they are 1 : 2 : −4. The selected law has no square of an in-plane
+part: the memory of a frame is always between two planes. Flat space in an accelerated frame, in a turning frame
+and in a polar frame of one plane has Q = 0 at every place; in a spherical frame Q is a pure boundary term.
+*[GF1 — proved; that the law is quadratic is put in]*
+
+With the frame's time step N free, N·Q = −2e₂(K)/N + boundary. Histories that fall with the frame enter through
+their count g·ν·N, and stationarity in N gives e₂(K) = k·g·ν: the unrecoverable memory of the stretch is the count
+rate of what falls there. For a ball of histories r_s = k·g·(number)/4π; inside it h² = k·g·n₀/3. The source of
+statement 2 is the count. *[CS1 — proved for histories at rest in the frame; k not derived]*

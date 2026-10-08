@@ -109,3 +109,9 @@ pip install sympy
 python eg1_field_energy_and_the_ratio.py
 python -m unittest test_eg1
 ```
+
+## Later note (CS1, 8 October)
+
+The constant k and the reason the source is the energy were left open here. CS1: histories that fall with the
+frame enter through their count g·ν·N, and stationarity in the time step gives e₂ = k·g·ν. The size of k is still
+not derived. Nothing above is changed.

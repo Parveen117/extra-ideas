@@ -1,0 +1,13 @@
+{
+ "checks": {
+  "C1_law_with_time_step": true,
+  "C2_response_to_the_time_step": true,
+  "C3_memory_equals_count_density": true,
+  "C4_response_to_the_fall_velocity": true,
+  "C5_radial_memory": true,
+  "C5_inside": true,
+  "C5_outside_and_joining": true,
+  "C5_uniform_is_CO1": true,
+  "pass": true
+ }
+}

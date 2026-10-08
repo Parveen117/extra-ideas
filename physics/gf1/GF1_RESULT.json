@@ -1,0 +1,23 @@
+{
+ "checks": {
+  "P_one_plane": true,
+  "T_turn_rate": true,
+  "PT_select_TP1": true,
+  "S_no_squares_of_in_plane_parts": true,
+  "S_cross_terms_only_between_planes_sharing_a_direction": true,
+  "F_accelerated_frame": true,
+  "F_turning_frame": true,
+  "F_polar_frame_one_plane": true,
+  "F_spherical_frame_boundary_term": true,
+  "pass": true
+ },
+ "one_plane_forms": {
+  "01": "-c01_0**2 + c01_1**2",
+  "02": "-c02_0**2 + c02_2**2",
+  "03": "-c03_0**2 + c03_3**2",
+  "12": "-c12_1**2 - c12_2**2",
+  "13": "-c13_1**2 - c13_3**2",
+  "23": "-c23_2**2 - c23_3**2"
+ },
+ "turn_form": "2*w1**2 + 2*w2**2 + 2*w3**2"
+}

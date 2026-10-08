@@ -130,3 +130,10 @@ THE RECORD RULE                                                                 
 python mm1_one_memory.py
 python -m unittest test_mm1
 ```
+
+## Later note (GF1, CS1, 8 October)
+
+"The same for general frames — not shown": GF1 shows the two conditions are algebraic in the order defect and
+select 1 : 2 : −4 for every frame. "Why memory of the stretch = energy of the source — not derived": CS1 shows the
+source enters through its count, and e₂ is the law's response to the time step; the constant k remains. Nothing
+above is changed.
