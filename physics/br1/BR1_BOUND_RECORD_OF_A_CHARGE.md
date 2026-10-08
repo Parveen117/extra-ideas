@@ -105,3 +105,8 @@ THE VALUE OF α ; ATOMS WITH SEVERAL CHARGES                                    
 python br1_bound_record_of_a_charge.py
 python -m unittest test_br1
 ```
+
+## Later note (SH1, AC1, 9 October)
+
+SH1 counts what a shell holds: 2n² least-cost readings, limited by independence. AC1 puts the same first-circle
+question to a mass: α < 1 here, g·r_s/2κ ≤ 1/(2√3) there, and no relation between the two. Nothing above is changed.

@@ -352,3 +352,17 @@ is 2√27 × GM/c²D; at the centre of the Milky Way 9.50 ± 1.37 against 10.39.
 For the charged displaced centre q₂/(r_s·a) = k_e e²/(2Jc): the fine-structure number when J = ħ/2. In the far
 field the turn enters along ι and the charge along −1 in the ratio 1 : α. The value is not derived; the diagonal
 and small ratios of counts do not give it. *[FS1 — place proved; value open]*
+
+## The last stable circle is on the diagonal (AC1); what a shell holds (SH1)
+
+On a free circle of a centre at rest the count factor² is 1 − 3x/2. At the last stable circle it is exactly ½:
+seen = lost. A free circle is stable exactly while it sees more than it loses; in d cuts the value is (d − 2)/2,
+so the edge of stability is the diagonal only in three. The eight-mark value 1/√2 so marks two places of the
+field: the held reading at 2r_s (DG1) and the free circle at 3r_s. A first circle of area κ needs
+g·r_s/2κ ≤ 1/(2√3) for a mass and α < 1 for a charge; no relation between the two numbers follows.
+*[AC1 — proved; the two limits are the known ones, the diagonal reading is the line's]*
+
+Least-cost readings of degree l number 2l + 1 in three cuts; a shell of the 1/r attraction is one degree on the
+four-dimensional sphere of its own orbits (RC1) and holds n²; with the two components of a reading, 2n² = 2, 8,
+18, 32. The N-fold memory of a record is (Πp) × the Gram determinant of its readings: zero unless they are
+independent. *[SH1 — proved; order of filling, and why charges must be distinct readings, not derived]*

@@ -64,3 +64,8 @@ python -m unittest test_dg1_exact
 "A reason why the field is ρ = −½ from the diagonal alone — not found": DO1 finds it. For the observer whose cuts
 are equally inclined to the fall, the stretch (ρ, 1, 1) has seen = lost exactly for ρ = −½ (in d cuts −(d − 2)/2).
 Nothing above is changed.
+
+## Later note (AC1, 9 October)
+
+The value N = 1/√2 of the held reading at 2r_s has a partner: the free circle at the last stable circle, 3r_s,
+has count factor² = ½ exactly. Nothing above is changed.
