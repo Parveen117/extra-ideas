@@ -1,0 +1,12 @@
+{
+ "T1_ratio": true,
+ "T2_per_walk": "1/16",
+ "T2_per_turn": "1/4",
+ "T2_refusal": true,
+ "T3_factor": true,
+ "T4_two_turns": true,
+ "T4_quarter": true,
+ "T5_c_all_d": true,
+ "T6_uncut": true,
+ "pass": true
+}
