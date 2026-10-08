@@ -1,0 +1,12 @@
+{
+ "four_relations": "each equals ({t,s} - {p,v}) over one bracket: one equation, not four",
+ "layer_1": {
+  "holds": "lambda_p/lambda_v = z_t/lambda_s ; lambda_p lambda_s = lambda_v z_t ; lambda_p lambda_s lambda_t = -P V lambda_v",
+  "does_not_hold": "lambda_p lambda_s = lambda_v lambda_t (with lambda_t = -P (dV/dP)_T as written)"
+ },
+ "defect": "B_2 - B_1 = alpha T - beta P + F U : the defect pairs with the value and the first layer only",
+ "return": {
+  "commuting": "every reading returns",
+  "with_defect": "the first coordinate returns, the potential does not (UP4-T5)"
+ }
+}
