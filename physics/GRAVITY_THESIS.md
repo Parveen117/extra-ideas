@@ -220,3 +220,10 @@ two. Each mode is a pair of readings, so a recordable mode has
 E = nκω (WQ1), and because these waves exchange energy with the other
 sides the unit is the one they share (R43.3): the h of light. The count
 is a consequence here, not an assumption; it is far below detection.
+
+## MO1's assumption (MA1)
+
+Item 1 of "Next" is answered for the static field of one centre. With the radial stretch of the fall frame
+left free, the law of CV1/TP1 gives A′ = 0 in empty space, and frames at rest far away give A = 1: flat slices,
+one time, and β² = r_s/r from the same computation. The assumption is the statement N·S = 1 and is not
+independent of the law. *[MA1 — proved for the static, spherically symmetric case; the general case is not treated]*

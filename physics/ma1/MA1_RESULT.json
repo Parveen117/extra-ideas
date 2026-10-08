@@ -1,0 +1,11 @@
+{
+ "T1_general_static_frame": true,
+ "T2_TP1_identity_on_the_family": true,
+ "T3_mixed_component": true,
+ "T4_angular_component": true,
+ "T4_all_components_vanish_on_the_solution": true,
+ "T5_far_condition_gives_A_1": true,
+ "T5_profile": true,
+ "T6_other_members": true,
+ "pass": true
+}

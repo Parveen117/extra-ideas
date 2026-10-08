@@ -60,6 +60,7 @@ what, if anything, is measurable beyond the classical statement.
 | ZP1: sum of the floors ½κω of all modes between walls; PS1's two sectors by exact series; pole ∝ size and silent in the force; finite part −πκc/24L (one cut), −π²κc/720d³ per area (three cuts) | Casimir energy and force between ideal plates: π²ħc/240d⁴, 13.0 Pa at 100 nm | exact coefficients | the seen floor of LC1 has a measured consequence; the indeterminate part is the part no wall can feel |
 | PT1: exact turns of the rational block = quarter turns × one independent turn u_p = (x+yR)/(x−yR) per prime p = x²+y²; primes ≡ 3 mod 4 give none; 2 is the quarter turn; no exact turn repeats; split sector: every prime a boost; dual sector: none | rational points of the circle; Gaussian primes; Niven's theorem | exact | placement of the primes in the three sectors; link to Bindu² and to the clocks; no physical constant obtained |
 
+| MA1: fall frame with a free radial stretch A: TP1's identity holds; empty space ⇒ A′ = 0, A²(rb²)′ = 1 − A²; at rest far away ⇒ A = 1, β² = r_s/r | uniqueness of the static field of one centre | exact | MO1's assumption is N·S = 1 and follows from the law; nothing new predicted |
 ## Reading
 
 - No certified result changes a classical equation. Each one that touches
