@@ -39,6 +39,9 @@ Put in for C: the reader is the best frame; h is a variable of state.
 17. Moving reader: γT₀, T₀/γ, T₀ are ∂E′/∂S at fixed velocity, at fixed momentum, and at rest; T = 1/period
     selects T₀/γ; momentum is a fourth plane with velocity as partner; the ratio of the two contested values
     is exp(2I₀) (MT1).
+18. Rotating system: T·N constant; unit 0 at ωr = 1 (no count there); equilibrium is rigid rotation (RT1).
+19. Bodies in relative motion: no common temperature; T(u) = T₀/(γ(1 − v·u)) per channel; a two-channel
+    circuit raises the count and removes the relative motion (EQ1).
 
 ## Open
 - SL1 gives the mean over histories; a statement for one history is open.

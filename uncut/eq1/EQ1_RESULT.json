@@ -1,0 +1,12 @@
+{
+ "T1_equilibrium_needs_same_velocity": true,
+ "T2_channel_temperature": true,
+ "T2_forward_backward": true,
+ "T3_values_v_3_5": "2, 1/2",
+ "T3_opposite_flows": true,
+ "T4_count_gain": true,
+ "T4_mover_slows": true,
+ "T5_all_channels_iff_same_velocity": true,
+ "T6_transverse_channel": true,
+ "pass": true
+}

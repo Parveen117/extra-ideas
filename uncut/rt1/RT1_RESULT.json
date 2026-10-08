@@ -1,0 +1,9 @@
+{
+ "T1_one_coin": true,
+ "T2_T_times_clock_constant": true,
+ "T3_unit_zero_at_rim": true,
+ "T4_count_reader_free": true,
+ "T5_equilibrium_is_rigid": true,
+ "T6_cut_angle": true,
+ "pass": true
+}
