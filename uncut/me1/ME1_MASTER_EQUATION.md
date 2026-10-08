@@ -5,7 +5,7 @@ flatness; relativity is one flatness condition, the other conditions are other s
 in one equation.
 
 Sources read: PL1 (charge and spin planes), MT1 (momentum plane), XU2 (expansion plane), PL2 + XU3 (weight
-part), NC1 + SC1 (frame part), UP5-T5, UP4 (F1–F4), SM1, UN2.
+part), ON1 + SS1 (frame part), UP5-T5, UP4 (F1–F4), SM1, UN2.
 
 ## 1. The flat case: one form, four planes (certified)
 
@@ -35,7 +35,7 @@ Without assuming a potential: θ₀ = Σ aᵢ dqᵢ, and the reader's factor k =
 
 **ME1-T5.** n planes carry n(n−1)/2 + n flatness conditions: 3, 6, 10, 15 for n = 2…5. Two planes give the three
 of UP5-T5 (α, β, F). "Flat" is all of them at once; each can fail separately, and the stages so far have met:
-frame part from a scale inside the potential (NC1, SC1), weight part from the reader's unit (XU1–XU3).
+frame part from a scale inside the potential (ON1, SS1), weight part from the reader's unit (XU1–XU3).
 
 ## 3. What this does and does not say about forces
 
@@ -51,8 +51,10 @@ quadratic in the partners. No claim is made about the weak or strong force.
 1. Cross terms: with four planes there are six pair equations; each off-diagonal one ties two partners
    (e.g. ∂Ω/∂Q = ∂Φ/∂J). Any system with two of the planes active gives a checkable equality.
 2. Each failed condition has its own signature: frame part ⇒ a turn-part w and a defect proportional to the
-   scale response (SC1); weight part ⇒ a count that depends on the path (XU3), bounded by the ledger (LG1).
-3. A substance with exactly one built-in scale must satisfy SC1-T1 between measurable response ratios.
+   scale response (SS1); weight part ⇒ a count that depends on the path (XU3), bounded by the ledger (LG1).
+3. A substance with exactly one built-in scale must satisfy SS1-T1 between measurable response ratios.
 
 Put in: M(S, Q, J) for the centre with charge and spin (not derived in the line); MT1's boost.
 Not claimed: a unified force law; any measured number.
+
+> Later note (checklist, 8 Oct): the weight part dk ∧ θ₀ is the scale field of the physics line's SC1, which is refused as fundamental; with one unit for all frames (DC1) k is a constant and only the frame part remains. See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.

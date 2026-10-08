@@ -1,6 +1,6 @@
 # BH1 — The turn-part of a charged horizon
 
-Sources read: NC1, CP1 (one defect at a self-similar centre), DW1 (w = running × reading; w/U steady
+Sources read: ON1, CP1 (one defect at a self-similar centre), DW1 (w = running × reading; w/U steady
 on the flow), TT1/BL1 (sinh η = w; one cycle multiplies exp(I₀) by 1 + 2w²), HM1/MO1 (horizon stages).
 
 Centre potential put in: M(S,Q) = √(S/π)/2 · (1 + πQ²/S). Pure number x = πQ²/S
@@ -26,4 +26,4 @@ Put in: M(S,Q) and S = area/4 (not derived here); the normalisation w/M of DW1.
 Not claimed: that x = 1/3 is or is not a phase change; any statement about what the entropy counts.
 Open gate: the rotating centre M(S,J) (weights (2,2)) — whether its turn has the same three-point shape.
 
-> Later note (LC1): the centre potential M(S,Q) used here is derived in `uncut/lc1` from least cost in two planes; it is no longer an input.
+> Later note (LP1): the centre potential M(S,Q) used here is derived in `uncut/lp1` from least cost in two planes; it is no longer an input.

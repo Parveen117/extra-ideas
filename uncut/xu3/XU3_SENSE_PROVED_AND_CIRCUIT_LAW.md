@@ -28,3 +28,5 @@ Not claimed: that a physical process runs such a circuit; that this is the obser
 measured number. BL1's multiplicative growth and this additive gain are not yet one statement.
 Open gate: a process — a centre exchanging with its surroundings while h changes — and whether its natural
 direction is the count-raising one.
+
+> Later note (checklist, 8 Oct): a unit that follows the state is a local scale field. The physics line's SC1 shows such a field makes the invariant depend on the history and refuses it as fundamental. The path-dependent count here is that refused case, not an arrow; the identities are correct as algebra. What stands: the best frame's clock factor (XU1-T1/T2), the expansion plane and both horizons (XU2-T1/T2/T4). See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.

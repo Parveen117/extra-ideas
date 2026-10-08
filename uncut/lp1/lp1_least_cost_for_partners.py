@@ -1,4 +1,4 @@
-"""LC1: MC1's least-cost rule applied to the partners. Commuting plane: 1/r, and its stored cost is a source in
+"""LP1: MC1's least-cost rule applied to the partners. Commuting plane: 1/r, and its stored cost is a source in
 the clock plane - which gives BH1's centre potential instead of putting it in. Non-commuting plane: the
 stationarity condition carries the quadratic term. Exact sympy."""
 import json, os, sympy as sp
@@ -38,5 +38,5 @@ out['T5_stationarity_has_quadratic_term'] = all(sp.simplify(sp.expand(got_x[c] -
 one = {a[1][0]: 0, a[1][1]: 0, a[2][0]: 0, a[2][1]: 0}
 out['T5_one_cut_is_constant_flux'] = sp.simplify(exp_x[0].subs(one).doit() - sp.diff(sp.diff(a[0][1], X) - sp.diff(a[0][0], Y), Y)) == 0
 out = {k: bool(v) for k, v in out.items()}; out['pass'] = all(out.values())
-json.dump(out, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'LC1_RESULT.json'), 'w'), indent=1)
+json.dump(out, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'LP1_RESULT.json'), 'w'), indent=1)
 if __name__ == '__main__': print(out)

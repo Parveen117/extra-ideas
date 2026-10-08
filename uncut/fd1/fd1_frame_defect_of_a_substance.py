@@ -27,7 +27,7 @@ out['T2_radiation_commutes'] = eps_rad == -1 and z(sp.diff(eps_rad, S))
 g_, C_ = sp.symbols('gamma C', positive=True)
 P_ig = V**(-g_)*sp.exp(S/C_)
 eps_ig = sp.simplify(S*sp.diff(P_ig, S)/(V*sp.diff(P_ig, V)))
-out['T2_ideal_gas_scale_is_count_unit'] = z(eps_ig + S/(g_*C_)) and z(S*sp.diff(eps_ig, S) + C_*sp.diff(eps_ig, C_))   # SC1 with b0 = C
+out['T2_ideal_gas_scale_is_count_unit'] = z(eps_ig + S/(g_*C_)) and z(S*sp.diff(eps_ig, S) + C_*sp.diff(eps_ig, C_))   # SS1 with b0 = C
 # T3: hard cores alone give no frame defect
 al, CP, Hh = responses(Nk*T/(V - b), cv*Nk)
 out['T3_hard_core_no_defect'] = z(D_of(Hh, cv*Nk))
@@ -37,7 +37,7 @@ Dv = D_of(Hh, cv*Nk)
 out['T4_vdW'] = z(Dv - 2*a*(V - b)/(Nk*T*V**2))
 Tr, vr = sp.symbols('T_r v_r', positive=True)
 red = Dv.subs({V: 3*b*vr, T: Tr*8*a/(27*Nk*b)})
-out['T4_reduced'] = z(red - R_(9, 4)*(1 - 1/(3*vr))/(Tr*vr))       # one function for every such substance (SC1)
+out['T4_reduced'] = z(red - R_(9, 4)*(1 - 1/(3*vr))/(Tr*vr))       # one function for every such substance (SS1)
 # T5: low density, any substance with second virial B(T), C_V = c_v Nk + correction: leading D in 1/V
 Bf = sp.Function('B')(T)
 Pv = Nk*T/V*(1 + Bf/V)

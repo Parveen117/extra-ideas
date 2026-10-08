@@ -1,0 +1,14 @@
+{
+ "corners": "mean of all corners = (1 - k/2) phi ; far corner = (1 - k) phi ; diagonal depth t reads (1 - t k) phi",
+ "cf3": {
+  "centre": "half the linear part + (1 - nu/2) kappa r^nu, no epsilon",
+  "far_corner": "(1 - nu) kappa r^nu - eps s^2/2, no T_0, P_0",
+  "window_1_lt_nu_lt_2": "formation part positive at the centre, negative at the far corner"
+ },
+ "tower": "lambda and place enter only through lambda s^(k-2)",
+ "ends": {
+  "lambda m -> 0": "identity",
+  "lambda m -> infinity": "rho -> 2 rho/(1 + rho^2), no lambda left"
+ },
+ "layer_at_rest": "n = k ; none when k is not a whole number"
+}

@@ -18,3 +18,5 @@ Co-rotating reader at radius r: rim speed ωr, clock N = √(1 − ω²r²) agai
 
 Put in: co-rotating readers with rim speed ωr; T = 1/period; PL1's spin plane. Not claimed: what a system
 larger than 1/ω does (the readers end; nothing here continues them).
+
+> Later note (checklist, 8 Oct): T2 is TL1-L4 for co-turning readers. T3's reading of the rim uses the clock factor as a unit; by DC1-K1/TL1-L2 read it as: the clock factor vanishes there, so no far reading of a rate exists. See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.

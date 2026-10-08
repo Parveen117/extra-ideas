@@ -1,6 +1,6 @@
 # DW1 — The defect, read on the centre potential, is the turn-part w
 
-Sources read: UP5-T5 ([D_S,D_V] = αD_S+βD_V+F, w = ½[D_S,D_V]U), NC1, CP1, TT1 (sinh η = w),
+Sources read: UP5-T5 ([D_S,D_V] = αD_S+βD_V+F, w = ½[D_S,D_V]U), ON1, CP1, TT1 (sinh η = w),
 BL1-T2 (one cycle adds exp(2η)), BL1 open gate (what selects the sense).
 
 ε = S P_S /(V P_V). Two cross-corner pairs of scale readings.

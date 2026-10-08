@@ -1,4 +1,4 @@
-"""DW1: the NC1 defect, read on the centre potential, is the turn-part w of UP5. Exact sympy."""
+"""DW1: the ON1 defect, read on the centre potential, is the turn-part w of UP5. Exact sympy."""
 import json, os, sympy as sp
 S, V, a, b = sp.symbols('S V a b', positive=True)
 Ug = sp.Function('U')(S, V); f = sp.Function('f')(S, V)

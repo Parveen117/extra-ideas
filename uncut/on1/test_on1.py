@@ -1,5 +1,5 @@
 import importlib.util, os
-spec = importlib.util.spec_from_file_location('lc1', os.path.join(os.path.dirname(__file__), 'lc1_least_cost_for_partners.py'))
+spec = importlib.util.spec_from_file_location('on1', os.path.join(os.path.dirname(__file__), 'on1_origin_of_noncommutation.py'))
 m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m)
 def test_all():
     for k, val in m.out.items():

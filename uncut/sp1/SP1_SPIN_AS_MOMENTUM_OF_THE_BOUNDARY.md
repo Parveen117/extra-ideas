@@ -1,6 +1,6 @@
 # SP1 — The rotating centre from the momentum plane; the rim speed where T = 0 is 1/√2
 
-Sources read: LC1 (charge as stored cost; open gate: BH2's potential), MT1 (energy read = √(rest² + momentum²);
+Sources read: LP1 (charge as stored cost; open gate: BH2's potential), MT1 (energy read = √(rest² + momentum²);
 partner of momentum = velocity), ST1 (count S = πR²), AL1/WD1-T4 (M = R/2), BH2, ME1, RT1 (unit of a co-turning
 reader = √(1 − v²)), R38 (c_Σ = 1/√2), CL1/HB1 (the eight-mark clock has speed 1/√2).
 
@@ -11,11 +11,11 @@ Rule tried: the spin J is carried by the boundary of radius R = √(S/π); its m
 - **SP1-T3.** BH2's pure number is y = (γv)².
 - **SP1-T4 (the T = 0 end).** There the rim speed is exactly 1/√2, and the unit of a reader turning with the
   rim is 1/√2.
-- **SP1-T5 (charge and spin together).** Rest value R/2 + Q²/(2R) (LC1), then the same momentum rule: exactly
+- **SP1-T5 (charge and spin together).** Rest value R/2 + Q²/(2R) (LP1), then the same momentum rule: exactly
   the combined potential that ME1 put in.
 - **SP1-T6.** BH2's rotation turn-part is w/M = −(γv)²·v²/2.
 
-With LC1, the three centre potentials used in BH1, BH2 and ME1 are no longer inputs. They follow from: the
+With LP1, the three centre potentials used in BH1, BH2 and ME1 are no longer inputs. They follow from: the
 neutral centre (M = R/2), charge as cost stored outside (additive), spin as momentum of the boundary (in
 quadrature), and the count S = πR².
 

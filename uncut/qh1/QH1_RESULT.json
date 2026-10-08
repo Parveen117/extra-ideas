@@ -1,0 +1,10 @@
+{
+ "T1_step": true,
+ "T1_unit_drops_out": true,
+ "T2_turns_of_the_mode_per_closed_turn": true,
+ "T3_own_rate": true,
+ "T3_area_step": true,
+ "T4_steps_close_up": true,
+ "T5_not_forced_whole": true,
+ "pass": true
+}

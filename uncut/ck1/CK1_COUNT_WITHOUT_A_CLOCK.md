@@ -25,3 +25,5 @@ relation of the centres already in the line, multiplied through by P; the stage'
 but phases per closed turn — and T2's reading of M·P as a product of two counts.
 Not claimed: that the phases are whole numbers; a rule that would make them so is the open gate (a count that
 is a number of marks, HB1/CL1's Q, against S = k·M·P).
+
+> Later note (checklist, 8 Oct): the open gate is answered by BC1 (the horizon's count is not whole; quantisation located at the boundary alone is refused) and WQ1; QH1 gives the size of the step. See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.

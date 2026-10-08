@@ -1,4 +1,4 @@
-# LC1 — Least cost for the partners: 1/r again, the charged centre derived, and the non-commuting condition
+# LP1 — Least cost for the partners: 1/r again, the charged centre derived, and the non-commuting condition
 
 Sources read: MC1 (least total variance between neighbouring shells gives r^−(d−2); constant flux; reading =
 memory), GR1 (N² + m = 1), AL1, ST1 (count = πr₊² in three directions), BH1 (centre potential M(S,Q), there put
@@ -6,13 +6,13 @@ in), PL1, ME1/ME2, NA1 (f^c = da^c − s·ε·a∧a).
 
 ## Commuting plane
 
-- **LC1-T1.** A partner Φ spread at least cost over shells in three directions is Φ = Q/r, with the same flux Q
+- **LP1-T1.** A partner Φ spread at least cost over shells in three directions is Φ = Q/r, with the same flux Q
   through every shell. (MC1's result, for a partner instead of the memory.)
-- **LC1-T2.** The cost stored outside the shell r is Q²/(2r).
-- **LC1-T3 (coupling of two planes).** If the centre value read at r is the far value less what is stored
+- **LP1-T2.** The cost stored outside the shell r is Q²/(2r).
+- **LP1-T3 (coupling of two planes).** If the centre value read at r is the far value less what is stored
   outside, M(r) = M − Q²/(2r), then the memory m = 2M(r)/r gives the clock factor
   N² = 1 − 2M/r + Q²/r².
-- **LC1-T4 (BH1's input is derived).** N² = 0 at r₊ with count S = πr₊² gives
+- **LP1-T4 (BH1's input is derived).** N² = 0 at r₊ with count S = πr₊² gives
   M = √(S/π)/2·(1 + πQ²/S) — the centre potential that BH1 and PL1 put in — and the partner at the horizon,
   ∂M/∂Q = Q/r₊, is the least-cost Φ there.
 
@@ -21,7 +21,7 @@ them — the cost of one plane is a source in the clock plane.
 
 ## Non-commuting plane
 
-- **LC1-T5.** With cost ½Σ_c (f^c)² the stationarity condition for partner c is
+- **LP1-T5.** With cost ½Σ_c (f^c)² the stationarity condition for partner c is
   d f^c − s·ε_cpq·a^p·f^q = 0: the other two partners enter as its sources. With one cut active it is MC1's
   constant flux.
 
@@ -36,3 +36,5 @@ known field equation of three non-commuting charges; the stage's content is that
 rule reach them.
 Not claimed: the rotating centre from least cost (BH2's potential is still put in); solutions of T5.
 Open gate: the same joining rule for spin (the cost of turning stored outside r), to derive BH2's potential.
+
+> Later note (checklist, 8 Oct): T1 is MC1 for a partner; the joining rule of T3 is EG1-G2/G3 (charged memory, energy component) integrated. The stage's own part is T4 and T5. See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.

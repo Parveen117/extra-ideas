@@ -1,5 +1,5 @@
 """SP1: the rotating centre from the momentum plane. Spin J carried by the boundary of radius R = sqrt(S/pi) is the
-momentum p = J/R of MT1; charge enters as LC1's stored cost. Exact sympy."""
+momentum p = J/R of MT1; charge enters as LP1's stored cost. Exact sympy."""
 import json, os, sympy as sp
 S, J, Q, y = sp.symbols('S J Q y', positive=True)
 out = {}
@@ -20,7 +20,7 @@ vy = sp.sqrt(y/(1 + y))
 out['T4_extremal_rim_speed'] = z(vy.subs(y, 1) - 1/sp.sqrt(2)) and z(sp.sqrt(1 - vy**2).subs(y, 1) - 1/sp.sqrt(2))
 T = sp.diff(E, S)
 out['T4_T_zero_there'] = z(T.subs(J, S/(2*sp.pi)))
-# T5: with charge: rest value = R/2 + Q^2/(2R) (LC1), then the same momentum rule: ME1's combined potential
+# T5: with charge: rest value = R/2 + Q^2/(2R) (LP1), then the same momentum rule: ME1's combined potential
 M0q = R/2 + Q**2/(2*R)
 Eq = sp.sqrt(M0q**2 + (J/R)**2)
 ME1 = (S/(4*sp.pi))*(1 + sp.pi*Q**2/S)**2 + sp.pi*J**2/S

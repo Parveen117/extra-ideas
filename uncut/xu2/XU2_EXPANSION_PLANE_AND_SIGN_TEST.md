@@ -30,3 +30,5 @@ by the same frame. (c) is the open choice; the framework's rule "one frame reads
 Put in: the best frame as reader; h as a variable. T3 is a sampled check of sign, not a proof over the region.
 Not claimed: an arrow. Open gate: prove the sign of F over the whole region h·r_b < 1/√3, and state the
 circuit it selects in plain terms.
+
+> Later note (checklist, 8 Oct): a unit that follows the state is a local scale field. The physics line's SC1 shows such a field makes the invariant depend on the history and refuses it as fundamental. The path-dependent count here is that refused case, not an arrow; the identities are correct as algebra. What stands: the best frame's clock factor (XU1-T1/T2), the expansion plane and both horizons (XU2-T1/T2/T4). See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.

@@ -1,6 +1,6 @@
 # ET2 — Three partners: the line's rules against the published formula, the correction, and the surface T = 0
 
-Sources read: ET1 (line T = 0; open gate), SP1 (spin as momentum of the boundary), LC1 (charge as stored cost),
+Sources read: ET1 (line T = 0; open gate), SP1 (spin as momentum of the boundary), LP1 (charge as stored cost),
 XU1/XU2 (expansion: M = R(1 − h²R²)/2; unit 0 at 27h²M² = 1), CO1 (fall speed hX in an expanding space), UN2.
 
 ## (i) ET1's line is the usual condition
@@ -32,7 +32,7 @@ reaches unit 0 — ET1 for turning, XU1 for expansion.
 
 Put in: the published mass formula for a charged turning centre with a cosmological term, quoted from memory
 (anti-de Sitter form of Caldarelli, Cognola and Klemm, 2000, continued to the other sign of the term) — it must
-be checked against the source before any use; LC1's and SP1's rules; count S = πR².
+be checked against the source before any use; LP1's and SP1's rules; count S = πR².
 Not claimed: a derivation of the factor 1 − h²R²; that the surface of T4 is absent from the literature (it is
 the extremal surface of that family, in the line's three pure numbers).
 Open gate: derive ET2-T2c — why the rim's momentum, and not the stored costs, carries the clock factor.

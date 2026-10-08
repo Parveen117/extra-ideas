@@ -28,3 +28,5 @@ Open gate: (iii). Read M with the same frame's unit and recompute dθ; if the de
 the result is independent of the caveat.
 
 > Later note (XU2): when the energy is also read by the best frame the defect keeps one sign but the opposite one. T5/T6 here hold for the reading with the frame's unit only; see `uncut/xu2`.
+
+> Later note (checklist, 8 Oct): a unit that follows the state is a local scale field. The physics line's SC1 shows such a field makes the invariant depend on the history and refuses it as fundamental. The path-dependent count here is that refused case, not an arrow; the identities are correct as algebra. What stands: the best frame's clock factor (XU1-T1/T2), the expansion plane and both horizons (XU2-T1/T2/T4). See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.

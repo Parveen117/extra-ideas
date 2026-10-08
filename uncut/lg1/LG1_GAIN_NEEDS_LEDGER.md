@@ -18,3 +18,5 @@ directions; the first needs nothing.
 
 Put in: step sizes measured in the chart (S, x) with GE2's weight convention — the bound's constant depends
 on that chart; the inequality's form does not. Not claimed: an equality between ledger and count.
+
+> Later note (checklist, 8 Oct): a unit that follows the state is a local scale field. The physics line's SC1 shows such a field makes the invariant depend on the history and refuses it as fundamental. The path-dependent count here is that refused case, not an arrow; the identities are correct as algebra. What stands: the best frame's clock factor (XU1-T1/T2), the expansion plane and both horizons (XU2-T1/T2/T4). See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.

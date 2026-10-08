@@ -1,0 +1,30 @@
+{
+ "every_level": "P/V = T/S = chi of the level below; P S = V T",
+ "one_minus_chi": "- {T,S}{P,V} / ({S,P}{T,V})",
+ "level_1": "1 - chi = B^2/(AC) >= 0 for a positive response: chi <= 1",
+ "level_n": {
+  "area_forms": "{T,S} = s {chi, s} ; {P,V} = v {chi, v}",
+  "has_a_potential_iff": "{chi, s^2 - eps v^2} = 0 with eps = +1 or -1",
+  "next_ratio": "1 - chi' = - p q / ((1 - q)(1 + p)),  p = s{chi,v}/(chi{s,v}),  q = v{chi,s}/(chi{s,v})"
+ },
+ "power_form": {
+  "chi_1": "1/4",
+  "chi_2": "1",
+  "chi_3": "1",
+  "level_3": "the two ends of each axis coincide"
+ },
+ "not_a_power": {
+  "above": [
+   "1/2",
+   "1/2",
+   "563/675",
+   "11636647/11469655"
+  ],
+  "below": [
+   "3/2",
+   "1/2",
+   "332/675",
+   "-70384/167315"
+  ]
+ }
+}

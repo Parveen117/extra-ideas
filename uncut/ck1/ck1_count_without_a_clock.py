@@ -12,7 +12,7 @@ out['T1_count_is_degree_times_phase'] = z(sp.powsimp(S - k*M*P, force=True)) and
 mu, n_turn = M*tau, P/tau
 out['T2_two_counts'] = z(mu*n_turn - M*P)
 out['T2_tick_free_and_reader_free'] = z(sp.diff(mu*n_turn, tau)) and z((M/N)*(N*P) - M*P)      # AR1-T4: energy/N, period*N
-# T3: three directions, charge and spin (SP1/LC1 centre): S = (1/2)[M P - (Phi P) Q] - (Omega P) J
+# T3: three directions, charge and spin (SP1/LP1 centre): S = (1/2)[M P - (Phi P) Q] - (Omega P) J
 Sx, J, Q = sp.symbols('S J Q', positive=True)
 R = sp.sqrt(Sx/sp.pi)
 E = sp.sqrt((R/2 + Q**2/(2*R))**2 + J**2/R**2)

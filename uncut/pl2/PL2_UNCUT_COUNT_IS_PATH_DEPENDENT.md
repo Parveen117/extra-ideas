@@ -9,7 +9,7 @@ Drop F4. Let the angle at the centre be α(M, Q). Every period is multiplied by 
   dθ = {α, S}/2π — the bracket of the centre angle with the flat count.
 - **PL2-T2 (when the count is still a state function).** Exactly when α is constant or a function of S alone.
 - **PL2-T3.** In UP5's form this is a pure weight part (F), with no frame part: θ = k·dS, dθ = dk ∧ dS.
-  NC1/DW1 found the frame part from the running of ε; this is the other half of UP5-T5, met at the centre.
+  ON1/DW1 found the frame part from the running of ε; this is the other half of UP5-T5, met at the centre.
 - **PL2-T4 (witness).** α = 2π(1 + ε·Q²/M²): round the rectangle M ∈ [2,3], Q ∈ [0,1] the count changes by
   ε × (−9.7470…) per circuit (closed form in the RESULT file), linear in ε.
 - **PL2-T5.** Reversing the circuit reverses the sign. One sense of the cycle raises the count every time.
@@ -22,3 +22,5 @@ Put in: α depends on the state (the witness form is chosen, not derived). Not c
 has such an angle; the sign of ε.
 Open gate: derive α(M, Q) — the angle at the centre is where F4 was assumed; HX1 gives the angle of the
 turned cut, so α should be computable from the cut at the centre rather than chosen.
+
+> Later note (checklist, 8 Oct): a unit that follows the state is a local scale field. The physics line's SC1 shows such a field makes the invariant depend on the history and refuses it as fundamental. The path-dependent count here is that refused case, not an arrow; the identities are correct as algebra. What stands: the best frame's clock factor (XU1-T1/T2), the expansion plane and both horizons (XU2-T1/T2/T4). See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.

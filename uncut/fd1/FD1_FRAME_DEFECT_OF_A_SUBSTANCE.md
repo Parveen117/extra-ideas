@@ -1,6 +1,6 @@
 # FD1 — The frame defect of a substance as a measurable pure number, and a first check on argon
 
-Sources read: NC1, SC1 (the defect is the response to a scale), DW1-T2 (w₂ = ½(S∂_S ε⁻¹)·TS), CI1
+Sources read: ON1, SS1 (the defect is the response to a scale), DW1-T2 (w₂ = ½(S∂_S ε⁻¹)·TS), CI1
 (exp(2I_cut) = C_P/C_V), ME1 (candidate 3), UP6.
 
 ## Exact statements (sympy)
@@ -14,7 +14,7 @@ It needs no zero for the entropy.
 - **FD1-T1 (ideal gas).** C_P/(αT) = C_P, D = 0, and the turn-part is w₂ = C_P·T/2 — half the enthalpy;
   w₂/U = γ/2 = ½·exp(2I_cut).
 - **FD1-T2 (who is flat).** Radiation (U ∝ S^{4/3}V^{−1/3}) and a horizon (M ∝ S^{1/2}) are pure powers: ε is
-  constant, no defect at all. The ideal gas has ε = −S/(γC_V), which runs with S, and obeys SC1 with the
+  constant, no defect at all. The ideal gas has ε = −S/(γC_V), which runs with S, and obeys SS1 with the
   scale b₀ = C_V: its built-in scale is the count unit. Systems without a particle count are the flat ones.
 - **FD1-T3.** Hard cores alone (P = NkT/(V − b)) give D = 0.
 - **FD1-T4 (attraction is the source).** van der Waals: D = 2a(V − b)/(NkT·V²); in reduced variables
@@ -42,12 +42,12 @@ should be re-downloaded directly before any publication; 20 K steps for the deri
 Not claimed: a new law of gases — D follows from the equation of state by ordinary thermodynamics. What the
 line adds is the quantity itself (the frame defect, zero for the ideal gas and for hard cores, sourced by
 attraction) and its reading as a turn-part.
-Open gate: other substances and densities on the reduced form of T4 (the collapse is SC1's statement);
+Open gate: other substances and densities on the reduced form of T4 (the collapse is SS1's statement);
 the departure from 1 of the ratio as a second scale.
 
 ## Collapse check across substances (`fd1_collapse_check.py`, five tables in `data/`)
 
-SC1 says a family with one built-in scale has one D-curve in reduced variables. Five substances at one reduced
+SS1 says a family with one built-in scale has one D-curve in reduced variables. Five substances at one reduced
 density (ρ/ρ_c ≈ 0.0746), D against T_r = T/T_c:
 
 | T_r | argon | krypton | xenon | spread of the three | nitrogen | carbon dioxide | van der Waals curve |
@@ -123,3 +123,5 @@ and small molecules alike. The earlier statement that nitrogen and carbon dioxid
 Put in: as above (page-reader tables; critical constants and acentric factors from standard tables; linear
 interpolation). One density only. Not claimed: universality at other densities or near the critical point;
 that this collapse is absent from the literature (not checked).
+
+> Later note (checklist, 8 Oct): the line already had the real-fluid return angle (PH1, seven fluids on a reduced cycle) and the flatness of the ideal gas for any c_v in the entropy representation (QC2). D′ is a local form of that curvature: at low density f·du·dv = [D′/(2√c_v)]·d ln T·d ln v, and both vanish without attraction (fd1_relation_to_response_curvature.py). See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.

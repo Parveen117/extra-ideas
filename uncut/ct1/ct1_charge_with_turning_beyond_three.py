@@ -9,7 +9,7 @@ def candidate(d):
     nu = sp.Rational(d-3, d-1)
     gam = 1/sp.cos(chi); c = (d-1)*s/(4*sp.pi); kap = sp.Rational(2, d-1)
     S = s*r**(d-1)*gam**2                                   # TS2 with rho = 1
-    M = c*r**(d-2)*gam**2 + c*q**2/r**(d-2)                 # LC2's stored cost added at the inner radius
+    M = c*r**(d-2)*gam**2 + c*q**2/r**(d-2)                 # LP2's stored cost added at the inner radius
     J = kap*M*r*sp.tan(chi); Q = q*gam**nu
     Om = sp.sin(chi)*sp.cos(chi)/r
     T, Phi = sp.symbols('T Phi')
@@ -47,7 +47,7 @@ for d in (3, 4, 5, 6):
     S = s*r**(d-1)*gam**2; u = S/r
     ok6 = ok6 and z(K*u - c*r**(d-2)*gam**2)                                         # neutral turning centre (HD1 b)
     ok6 = ok6 and z(K*(s*q)**2/u - sp.cos(chi)**2*c*q**2/r**(d-2))                   # rim-unit-squared times the static stored cost
-    ok6 = ok6 and z((K*(u + (s*q)**2/u)).subs(chi, 0) - (c*r**(d-2) + c*q**2/r**(d-2)))   # static charged centre, exact (LC2)
+    ok6 = ok6 and z((K*(u + (s*q)**2/u)).subs(chi, 0) - (c*r**(d-2) + c*q**2/r**(d-2)))   # static charged centre, exact (LP2)
 out['T6_one_variable_form'] = ok6
 out = {k_: (bool(v) if not isinstance(v, str) else v) for k_, v in out.items()}; out['pass'] = all(v for v in out.values() if isinstance(v, bool))
 json.dump(out, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'CT1_RESULT.json'), 'w'), indent=1)

@@ -1,4 +1,4 @@
-"""LC2: LC1's stored-cost rule in d = 3..6 directions, and the heat reading of a charged centre. Exact sympy."""
+"""LP2: LP1's stored-cost rule in d = 3..6 directions, and the heat reading of a charged centre. Exact sympy."""
 import json, os, sympy as sp
 from sympy.calculus.euler import euler_equations
 out = {}
@@ -22,7 +22,7 @@ for d in (3, 4, 5, 6):
 out['T1_least_cost_partner'] = ok1
 out['T2_stored_cost'] = ok2
 out['T3_heat_reading_charged'] = ok3
-# T4: three directions, charge and turning together at the same horizon radius: additive (from SP1/LC1's centre)
+# T4: three directions, charge and turning together at the same horizon radius: additive (from SP1/LP1's centre)
 S, J, Q = sp.symbols('S J Q', positive=True)
 R = sp.sqrt(S/sp.pi)
 E = sp.sqrt((R/2 + Q**2/(2*R))**2 + J**2/R**2)
@@ -30,5 +30,5 @@ T3 = sp.diff(E, S); v2 = (J/R)**2/E**2; rplus = R*sp.sqrt(1 - v2)
 pts = [(sp.Rational(3), sp.Rational(1, 3), sp.Rational(1, 2)), (sp.Rational(5), sp.Rational(1), sp.Rational(1, 4)), (sp.Rational(2), sp.Rational(1, 10), sp.Rational(1, 3))]
 out['T4_additive_d3'] = all(abs(sp.N((4*sp.pi*rplus*T3 - (1 - 2*v2 - Q**2/R**2)).subs({S: p[0], J: p[1], Q: p[2]}))) < 1e-12 for p in pts)
 out = {k: bool(v) for k, v in out.items()}; out['pass'] = all(out.values())
-json.dump(out, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'LC2_RESULT.json'), 'w'), indent=1)
+json.dump(out, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'LP2_RESULT.json'), 'w'), indent=1)
 if __name__ == '__main__': print(out)

@@ -1,0 +1,7 @@
+{
+ "T1_same_source": true,
+ "T2_ideal_any_heat_capacity_flat": true,
+ "T3_low_density_relation": true,
+ "T3_not_identical_at_finite_density": true,
+ "pass": true
+}

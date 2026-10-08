@@ -3,8 +3,8 @@
 Every statement below is certified in the named stage (script + test + RESULT file). "Put in" lists what is assumed.
 
 ## A. Why non-commutation exists
-1. Two scale-readings fail to commute by the running of one pure ratio ε (NC1).
-2. The running is the response of ε to a scale: a·β_S + b·β_V = −γ·b₀∂ε/∂b₀ (SC1).
+1. Two scale-readings fail to commute by the running of one pure ratio ε (ON1).
+2. The running is the response of ε to a scale: a·β_S + b·β_V = −γ·b₀∂ε/∂b₀ (SS1).
 3. Read on the centre potential, the defect is the turn-part w = running × work reading (DW1).
 4. A defect has a frame part and a weight part (UP5). Frame part: scale inside the potential. Weight part:
    scale outside — the reader's unit (PL2, XU1–XU3).
@@ -22,7 +22,7 @@ Every statement below is certified in the named stage (script + test + RESULT fi
 
 Put in for B: directions = cuts; count defined as plane area per unit turn.
 
-## C. A one-way count
+## C. A one-way count  (12–14: refused by the physics line's SC1 as a state-dependent unit — see CHECKLIST_AGAINST_THE_LINE.md)
 12. In an expanding space no frame has the full unit: c = √(1 − 3(hM)^{2/3}) (XU1).
 13. The count read by one frame is then path-dependent, with defect (1 + x²)/(2u^{1/3}c³)·dS ∧ dx,
     positive on the whole region (XU3). Gain of a circuit = ΔS·ΔΦ; slow expansion Φ = (3/2)(hM)^{2/3}.
@@ -61,9 +61,9 @@ Put in for C: the reader is the best frame; h is a variable of state.
     eighth of the boundary = π/4 = WD2's one-eighth turn. Master equation: dθ = dk ∧ θ₀ + k(dθ₀ + θ₀∧θ₀) (NA1).
 26. Least cost for a partner gives Q/r; its cost stored outside r, Q²/(2r), is a source in the clock plane:
     N² = 1 − 2M/r + Q²/r², and BH1's centre potential follows instead of being put in. Non-commuting plane:
-    d f^c − s·ε·a^p f^q = 0 (LC1).
+    d f^c − s·ε·a^p f^q = 0 (LP1).
 27. Spin as momentum J/R of the boundary (R = √(S/π)): BH2's and ME1's centre potentials follow; Ω = v/R;
-    at the T = 0 end the rim speed is 1/√2 (SP1). With LC1 no centre potential is put in any more.
+    at the T = 0 end the rim speed is 1/√2 (SP1). With LP1 no centre potential is put in any more.
 28. T/T₀ = (1 − Φ₀² − 2v²)/√(1 − v²); the line T = 0 is Φ₀² + 2v² = 1; turning only: T/T₀ = cos 2χ/cos χ, the
     unit of the rim's doubled clock over the unit of its clock — zero at the eighth turn (ET1).
 29. With expansion: stored-cost rule holds unchanged; the momentum rule needs the clock factor 1 − h²R² (found by
@@ -74,7 +74,7 @@ Put in for C: the reader is the best frame; h is a variable of state.
 ## G. The heat-reading law
 31. One form for every plane: 4π·r₊·T = N_rim²·[(d−2)·P + r·∂_r P] at r₊, with N² = P − m·r^−(d−2) (HL1).
     Static planes: (d−2) + Σ(p_j + d − 2)ε_j. Turning planes: (d−2) − 2Σv_i² for d = 3…6 (HD1). Charge in any d by
-    the stored-cost rule (LC2). T departs from neutral exactly as the planes' factor runs under scale.
+    the stored-cost rule (LP2). T departs from neutral exactly as the planes' factor runs under scale.
 32. SP1's energy-quadrature is special to three directions; in d directions M = M₀·γ^{2/(d−1)} per turning plane (HD1).
 33. First law fixes the boost exponent = share = 1 − ρ(d−3)/(d−1) for rim radius R = r·γ^ρ; ρ = 1 ⇔ ID1's share
     2/(d−1); in three directions the share is 1 for every ρ (TS2).
@@ -87,8 +87,13 @@ Put in for C: the reader is the best frame; h is a variable of state.
     three directions; M·P = (centre's phase per reader tick) × (reader ticks per closed turn), tick-free and
     reader-free (CK1).
 
+## H. Checked against the line
+37. Today's stages compared with `physics/`: restated results, two conflicts corrected (frame-dependent unit; state-dependent
+    unit = SC1's refused scale field), four identifiers renamed (CHECKLIST_AGAINST_THE_LINE.md).
+38. The horizon's count is not whole (BC1); one count of a recordable mode of rate ω changes it by 2π·ω/κ_h, the unit
+    dropping out (QH1).
+
 ## Open
-- Whether the phases per closed turn are whole numbers of marks (CK1).
 - Why ρ = 1 beyond the two readings of TS2; charge with turning in d ≥ 4 beyond second order in the charge (CT1).
 - The mirrors in the count form (ME2 §3); planes needing a larger carrier.
 - SL1 gives the mean over histories; a statement for one history is open.

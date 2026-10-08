@@ -30,3 +30,5 @@ share 1 and no rim rule is needed.
 
 Put in: nothing beyond FR1, IN1 and the native dagger; T1, T3 and T6 restate proved results in one place,
 T4, T5, T7 are their direct consequences. Not claimed: why nature's carrier is this one (WD1/WD2's open point).
+
+> Later note (checklist, 8 Oct): T1, T2, T3, T6 are FR1, IN1 and OB1 of the physics line; time as a count is CL1. The stage adds T4, T5, T7 and the remark on d ≥ 4. See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.

@@ -9,8 +9,8 @@ T, P = sp.diff(U, S), -sp.diff(U, V)
 z = lambda e: sp.simplify(e.doit()) == 0
 out = {}
 out['T0_weights'] = z(D(U)-U) and z(D(T)-(1-a)*T) and z(D(P)-(1-b)*P)
-eps = DS(P)/DV(P)                           # response ratio of NC1
-bS, bV = DS(eps), DV(eps)                   # the two defects of NC1
+eps = DS(P)/DV(P)                           # response ratio of ON1
+bS, bV = DS(eps), DV(eps)                   # the two defects of ON1
 out['T1_one_defect'] = z(a*bS + b*bV)       # defects tied: bS : bV = -b : a
 out['T2_weights_read'] = z(a*DS(P) + b*DV(P) - (1-b)*P)   # a*eps_S + b*eps_V = 1-b on Log P
 # T3: the defect does not vanish in general (so criticality is NOT commutation, it is one defect)

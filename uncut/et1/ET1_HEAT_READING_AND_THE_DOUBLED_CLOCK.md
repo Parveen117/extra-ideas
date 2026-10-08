@@ -1,6 +1,6 @@
 # ET1 — The heat reading of a turning centre is the unit of the rim's doubled clock; the line T = 0
 
-Sources read: SP1 (rim speed v; 1/√2 where T = 0; open gate), LC1, HB1 (unit of a clock with tick phase a is cos a;
+Sources read: SP1 (rim speed v; 1/√2 where T = 0; open gate), LP1, HB1 (unit of a clock with tick phase a is cos a;
 the quarter-turn clock has unit 0), CL1 (ladder of marks), UN2 + RT1 (coin of a reader (N, β) = (cos χ, sin χ);
 its unit is N), BH1, BH2.
 
@@ -19,8 +19,10 @@ What this answers from SP1: the 1/√2 at the turning end is not a coincidence o
 calculation — T is, exactly, the unit of the doubled clock, and it vanishes where the doubled tick is the
 quarter turn. HB1 said the quarter-turn clock has no minimum; here the same clock is the centre with no heat reading.
 
-Put in: SP1's and LC1's rules; the identification of the rim reader's coin angle with HB1's tick phase (both
+Put in: SP1's and LP1's rules; the identification of the rim reader's coin angle with HB1's tick phase (both
 are "speed = cos or sin of an angle"; that they are the same angle is assumed, not proved).
 Not claimed: that R38's eight source events are these eight marks; anything about centres with T < 0 beyond the line.
 Open gate: T2 as a test — it fixes, for any centre with both charge and spin, the pair (Φ₀, v) at which the heat
 reading vanishes; compare with the known extremal condition in the usual variables.
+
+> Later note (checklist, 8 Oct): T = 0 at N² = v² is the diagonal of DG1 (observed = lost, N = 1/√2), here for the rim reader. See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.

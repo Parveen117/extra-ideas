@@ -2,7 +2,7 @@
 
 Sources read: GE2-T3 (Publications, generalized-euler-evolution: a symmetric step is the pair of turns ±v;
 ledger h = ½Σw|v|²; additive; not a state function), BL1-T2 (exp(I₀) after one cycle = 1 + 2w², sinh η = w),
-TT1 (tanh η = t/ρ), ST1 (count = πr² = 4πM²), XU3, LG1, NC1 (readings are scale-readings: steps in Log).
+TT1 (tanh η = t/ρ), ST1 (count = πr² = 4πM²), XU3, LG1, ON1 (readings are scale-readings: steps in Log).
 
 A history with no preferred direction: steps ±η in Log r, weights ½ and ½.
 

@@ -2,7 +2,7 @@
 
 Sources read: ET2 (the factor 1 − h²R² found by matching; open gate), MT1 (local quadrature: energy = √(rest² +
 momentum²)), AR1-T4 and UN2 (a reading of energy brought to another reader scales with the clock factor), SP1,
-LC1, XU2, CO1.
+LP1, XU2, CO1.
 External: Caldarelli, Cognola, Klemm, "Thermodynamics of Kerr-Newman-AdS black holes and conformal field
 theories" (arXiv:hep-th/9908022), eq. (43), read from the source for this stage.
 
@@ -19,7 +19,7 @@ theories" (arXiv:hep-th/9908022), eq. (43), read from the source for this stage.
 - **CF1-T5.** The partner of spin becomes Ω = N·v/R, v the rim speed as read far.
 
 Standing of the joining rules after this stage:
-1. a plane whose partner is spread at least cost adds its stored cost to the rest value (charge, LC1; the
+1. a plane whose partner is spread at least cost adds its stored cost to the rest value (charge, LP1; the
    space's own term, XU2);
 2. a plane carried by the boundary as motion adds in quadrature, locally, and is brought to the reader by the
    clock factor of the surrounding space (spin; MT1 + UN2).

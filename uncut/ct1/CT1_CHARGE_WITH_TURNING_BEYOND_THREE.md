@@ -1,13 +1,13 @@
 # CT1 — Charge with turning beyond three directions: a consistent candidate refused, and the law that stands
 
-Sources read: TS2 (first law + pure-power forms fixed the share), LC2 (stored cost in any d), HD1, HL1 (charge with
+Sources read: TS2 (first law + pure-power forms fixed the share), LP2 (stored cost in any d), HD1, HL1 (charge with
 turning in d ≥ 4 not among its cases), UN2/RT1 (rim reader's unit N = cos χ).
 External, read at the source: A. N. Aliev, "Rotating black holes in higher dimensional Einstein-Maxwell gravity"
 (arXiv:hep-th/0604207), eq. (17) (weakly charged solution) and eq. (22) (its horizon function). Its N is our d.
 
 ## A candidate by TS2's method
 
-Forms: TS2 with ρ = 1 for the turning; LC2's stored cost added at the inner radius; charge Q = q·γ^ν.
+Forms: TS2 with ρ = 1 for the turning; LP2's stored cost added at the inner radius; charge Q = q·γ^ν.
 
 - **CT1-T1.** With ν = (d−3)/(d−1) the candidate satisfies the first law identically, with Ω = v/R, for d = 3…6.
   In three directions it is the known charged turning centre exactly.
@@ -33,7 +33,7 @@ consistency with pure-power forms is a filter, not a derivation.
     M = K·[ u + (s·q)²/u ]
 
   - exact for the neutral turning centre in every d (HD1);
-  - exact for the static charged centre in every d (LC2);
+  - exact for the static charged centre in every d (LP2);
   - for charge and turning together, the second term is the energy at second order in the charge at fixed
     count and spin: the static stored cost times N_rim², as eq. (17) requires.
   The centre value and the stored cost are the two reciprocal functions of one variable.

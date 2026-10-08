@@ -1,0 +1,27 @@
+{
+ "cut_space": "u^2 + v^2 - w^2 kept ; Exp(theta R) turns (u, v) by 2 theta ; Exp(eta K), Exp(eta S) boost (v, w), (u, w) by 2 eta",
+ "cycle": "(iota kappa)^2 = Exp(-2 eta n) with sinh(eta) = w : cycles add rapidity 2 eta each",
+ "numbers_w_3_4": {
+  "tanh_eta": "3/5",
+  "speed_of_one_cycle": "15/17 = tower(3/5)",
+  "clock_factor": "8/17 = 1/(1 + 2 w^2)"
+ },
+ "response": {
+  "tanh_eta": "(B_2 - B_1)/sqrt((A - C)^2 + (B_1 + B_2)^2) = t/rho",
+  "D>0": "the response has a cut; its cycle is a boost",
+  "D=0": "the cut degenerates (light cone)",
+  "D<0": "no cut: the traceless part is a turn; the cycle is a rotation"
+ },
+ "tower": "tanh(eta) is the same at every level of the tower",
+ "gas": {
+  "closed_form": "tanh^2(eta) = (R c)^2 / (S^2 (S + c)^2 + (R c)^2)",
+  "S_large": "eta -> 0",
+  "S_to_0": "tanh(eta) -> 1",
+  "A/U": "a*(a + c)/c**2",
+  "B1/U": "R_g/c",
+  "B2/U": "0",
+  "C/U": "0",
+  "tanh_eta_squared": "R_g**2*c**2/(R_g**2*c**2 + a**2*(a + c)**2)",
+  "D": "a**2*(a + c)**2/(4*c**4)"
+ }
+}

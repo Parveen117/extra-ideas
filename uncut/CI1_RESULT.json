@@ -1,0 +1,30 @@
+{
+ "thermo": "exp(2 I_cut) = C_P/C_V = 1/(1 - r^2), r^2 = B^2/(AC) = squared correlation of the two fluctuations",
+ "range": "I_cut from 0 (principal cut) to I_0 (diagonal cut); exp(I_0) = (mean of the two principal responses)/(their geometric mean)",
+ "space_time": "exp(I_0) = cosh(psi) = 1/N ; exp(-2 I_0) = 1 - speed^2 = 1 - r_s/r for the fall ; I_0 = r_s/2r + ... far away",
+ "arrow": {
+  "composition": "cosh(a + b) - cosh(a) cosh(b) = sinh(a) sinh(b) >= 0 for the same sense",
+  "generation_or_cycle": "I_0(2 psi) >= 2 I_0(psi)",
+  "tower": "lambda > 0 raises I_0, lambda < 0 lowers it, lambda = 0 keeps it",
+  "witness_exp_2I0": [
+   "289/244",
+   "5/4",
+   "16/11"
+  ]
+ },
+ "sectors": {
+  "exp_2I0": {
+   "cut": "25/17",
+   "cone": "1",
+   "turn": "25/33"
+  },
+  "reading": "I_0 > 0 where the response has a cut, 0 on the light cone, < 0 where it is a turn"
+ },
+ "numbers": {
+  "gas_5_3_I_cut": 0.2554,
+  "same_I_as_speed": 0.6325,
+  "same_I_as_radius_in_r_s": 2.5,
+  "earth_surface_I": 6.96e-10,
+  "sun_surface_I": 2.12e-06
+ }
+}

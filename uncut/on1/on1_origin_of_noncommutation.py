@@ -1,4 +1,4 @@
-"""NC1: where non-commutation comes from. Exact sympy; log coordinates s=Log S, v=Log V, p=Log P(s,v)."""
+"""ON1: where non-commutation comes from. Exact sympy; log coordinates s=Log S, v=Log V, p=Log P(s,v)."""
 import json, sympy as sp
 s, v = sp.symbols('s v', real=True)
 p = sp.Function('p')(s, v)
@@ -38,6 +38,6 @@ out['T3_scale'] = ex_b != 0 and sp.limit(ex_b, b, 0) == 0
 out['T4_beta'] = sp.simplify(comm(ESV, ESP, v) + ESV(eps)) == 0   # read on f=v: defect = -beta itself
 out['pass'] = all(val for k_, val in out.items() if isinstance(val, bool))
 json.dump({k_: (bool(x) if isinstance(x, (bool, sp.logic.boolalg.BooleanAtom)) else x) for k_, x in out.items()},
-          open(__file__.rsplit('/',1)[0] + '/NC1_RESULT.json', 'w'), indent=1)
+          open(__file__.rsplit('/',1)[0] + '/ON1_RESULT.json', 'w'), indent=1)
 if __name__ == '__main__':
     print(out)

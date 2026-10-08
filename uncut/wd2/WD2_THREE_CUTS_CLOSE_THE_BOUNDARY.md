@@ -24,3 +24,5 @@ Put in: directions of space are identified with cuts of the carrier (FR1). Not c
 identification is forced; that T4's count of eight is the same fact as R38's (same numbers, not proved same).
 Open gate: QT1's unit — with the boundary's full turn made of eight equal pieces, test "one unit per piece"
 against the count: area/4 over eight pieces.
+
+> Later note (checklist, 8 Oct): T1 and T2 are FR1 and OB1 of the physics line (three cuts, no fourth, ι = C₁C₂C₃). The stage's own part is T3–T5. See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.

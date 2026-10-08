@@ -30,3 +30,5 @@ MO1 at the horizon is the cone speed of HB1/CL1 (both equal 1 there; that they a
 Open gate: (b). CL1 gives speed = 1 − curvature/2 for a tick; show the frame cut of HX1 has that tick.
 
 > Later note (UN2): assumption (b) below contradicts GR1/PR4 (the speed-like leg of the coin is N, not the fall speed) and is withdrawn. The quarter stands with the far frame's unit; see `uncut/un2`.
+
+> Later note (checklist, 8 Oct): T3 and T4 use a frame-dependent unit in the count. The physics line already has DC1-K1 (frames that exchange count in one unit) and TL1-L2 (u·N constant between places); against them these statements are withdrawn. HB1's tick unit is not the unit of the count. See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.

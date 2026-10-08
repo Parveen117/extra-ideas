@@ -10,7 +10,7 @@ a2 = M**2 - Q**2
 R2 = M**2 + a2                                              # R^2 = S/pi
 Phi0sq = Q**2/R2; vsq = (a2*M**2/R2)/M**2                    # v = (J/R)/E with E = M
 out['T1_line_is_the_usual_condition'] = z(Phi0sq + 2*vsq - 1)
-# ---- (ii) expansion. Rest value by LC1/XU2: M0 = R/2 + Q^2/(2R) - h^2 R^3/2
+# ---- (ii) expansion. Rest value by LP1/XU2: M0 = R/2 + Q^2/(2R) - h^2 R^3/2
 M0 = R/2 + Q**2/(2*R) - h**2*R**3/2
 naive = M0**2 + J**2/R**2                                    # SP1's rule unchanged
 # published mass formula for a charged turning centre with a cosmological term (written with 1/l^2 -> -h^2, S = pi R^2)

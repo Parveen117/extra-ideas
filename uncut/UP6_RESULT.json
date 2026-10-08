@@ -1,0 +1,29 @@
+{
+ "readings": "eight operations, eight readings, four reciprocal pairs (products -ST, -ST, -PV, -PV); form (A) and form (B) are one pair",
+ "inside_a_corner": "commute",
+ "between_corners": {
+  "[U_S, F_V]": "U_S(m) U_S",
+  "[U_V, F_V]": "U_V(m) U_S",
+  "[F_V, G_P]": "- F_V(ln e_T) G_P",
+  "m": "(d ln S / d ln V) at fixed T",
+  "e_T": "(d ln P / d ln V) at fixed T"
+ },
+ "cost": "for the pair (U_S, F_V): B_2 - B_1 = U_S(m) * S T",
+ "witnesses_defects_at_(1/2,1/2)": {
+  "power": [
+   "0",
+   "0",
+   "0"
+  ],
+  "separable_powers": [
+   "0",
+   "0",
+   "0"
+  ],
+  "not_a_power": [
+   "5/18",
+   "-10/27",
+   "1290275/1753182"
+  ]
+ }
+}

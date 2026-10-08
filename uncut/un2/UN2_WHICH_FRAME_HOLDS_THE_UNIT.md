@@ -22,3 +22,5 @@ Not claimed: T5 as a law for local temperature — it is the ratio of two unit c
 needs the energy read by the same frame.
 Open gate: (a). In BL1 a closed turn adds no shared information and an open cycle adds exp(2η); express
 T as the exchange rate between the two — M per unit of I — and compare with u·κ.
+
+> Later note (checklist, 8 Oct): T2 and T5 treat the clock factor as the unit of the count; that conflicts with DC1-K1 and TL1-L2 and is withdrawn. T1 (legs of the coin) and the quarter obtained with one unit stand. See `uncut/CHECKLIST_AGAINST_THE_LINE.md`.
