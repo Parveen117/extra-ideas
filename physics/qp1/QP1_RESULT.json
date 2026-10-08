@@ -1,0 +1,98 @@
+{
+ "checks": {
+  "Q1_round_rate": true,
+  "Q2_up_down_rate": true,
+  "Q3_in_out_rate": true,
+  "Q4_centre_at_rest": true,
+  "Q5_plane_turns_at_the_swirl": true,
+  "N1_three_rate_fit_matches_source": true,
+  "N2_pair_at_one_third_within_two_sigma": true,
+  "N3_GRO_closed_mass_within_light_curve_mass": true,
+  "N4_XTE_closed_mass_within_companion_mass": true,
+  "pass": true
+ },
+ "numbers": {
+  "GRO_three_rates_M_a_r": {
+   "value": [
+    5.3004,
+    0.2861,
+    5.6802
+   ],
+   "sigma": [
+    0.062,
+    0.0029,
+    0.0345
+   ]
+  },
+  "GRO_measured_ratio": {
+   "value": 0.3243,
+   "sigma": 0.0096,
+   "sigmas_from_one_third": 0.95
+  },
+  "GRO_closed_M_a_r": {
+   "value": [
+    5.2559,
+    0.2887,
+    5.7122
+   ],
+   "sigma": [
+    0.0295,
+    0.0018,
+    0.0066
+   ]
+  },
+  "GRO_closed_lower_rate": {
+   "predicted": 294.0,
+   "sigma": 1.3,
+   "measured": 298,
+   "measured_sigma": 4
+  },
+  "GRO_mass_from_light_curve": {
+   "value": 5.4,
+   "sigma": 0.3
+  },
+  "XTE_closed_M_a_r": {
+   "value": [
+    8.8368,
+    0.3385,
+    5.5238
+   ],
+   "sigma": [
+    0.2934,
+    0.0075,
+    0.0284
+   ]
+  },
+  "XTE_mass_from_companion": {
+   "value": 9.1,
+   "sigma": 0.61
+  },
+  "H1743_measured_ratio": {
+   "value": 0.3125,
+   "plus": 0.0291,
+   "minus": 0.0467
+  },
+  "ladder_centre_at_rest": {
+   "1/2": {
+    "r_over_r_s": 4.0,
+    "rates_upper_to_lower": "2:1",
+    "round_rate_times_mass_Hz": 1428.0
+   },
+   "1/3": {
+    "r_over_r_s": 3.375,
+    "rates_upper_to_lower": "3:2",
+    "round_rate_times_mass_Hz": 1842.5
+   },
+   "1/4": {
+    "r_over_r_s": 3.2,
+    "rates_upper_to_lower": "4:3",
+    "round_rate_times_mass_Hz": 1995.7
+   },
+   "2/5": {
+    "r_over_r_s": 3.5714285714285716,
+    "rates_upper_to_lower": "5:3",
+    "round_rate_times_mass_Hz": 1692.6
+   }
+  }
+ }
+}

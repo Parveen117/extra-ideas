@@ -1,0 +1,77 @@
+{
+ "checks": {
+  "R1_orbit_ladder": true,
+  "R1_direction_ladder": true,
+  "R2_zero_ends": true,
+  "R2_generic_radius_not_closed": true,
+  "R3_doubly_closed_are_right_triangles": true,
+  "R3_every_exact_turn_gives_one": true,
+  "R3_prime_5": true,
+  "R5_point_read_as_sphere": true,
+  "R6_ellipse": true,
+  "R6_complex_distance": true,
+  "R6_foci": true,
+  "R7_on_the_sphere": true,
+  "R7_great_circle": true,
+  "R7_orbit_equation": true,
+  "pass": true
+ },
+ "record": {
+  "doubly_closed_first": [
+   [
+    1,
+    5,
+    7,
+    "49/16"
+   ],
+   [
+    7,
+    13,
+    17,
+    "289/80"
+   ],
+   [
+    7,
+    17,
+    23,
+    "529/160"
+   ],
+   [
+    17,
+    25,
+    31,
+    "961/224"
+   ],
+   [
+    1,
+    29,
+    41,
+    "1681/560"
+   ],
+   [
+    23,
+    37,
+    47,
+    "2209/560"
+   ],
+   [
+    31,
+    41,
+    49,
+    "2401/480"
+   ],
+   [
+    49,
+    61,
+    71,
+    "5041/880"
+   ]
+  ],
+  "radius_over_r_s_for_prime_turns": {
+   "5": "49/16",
+   "13": "289/80",
+   "17": "529/160",
+   "29": "1681/560"
+  }
+ }
+}

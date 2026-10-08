@@ -260,3 +260,17 @@ the law's memory becomes Re(r_s/R) − q₂/R·R̄ with EG1's pattern at every a
 moment is twice that of a turning cloud with the same mass, charge and turning content. The electron's measured
 ratio is 2.00232; the shortfall 0.00116 is α/2π to its first figures, the open pure number. *[GM1 — ratio proved
 with the dictionary M, J put in; the electron is not claimed to be such a centre; shortfall not derived]*
+
+## Closure (RC1) and three measured turns (QP1)
+
+A free circle has three turns: the circuit, the turn left over by the orbit's shape, and the turn of its plane.
+The orbit closes exactly when (in-out rate)/(round rate) is rational; the last stable circle and the light circle
+are the zero points of the orbit's and the carried direction's ladders, and the circles where both close are
+indexed by the exact turns of PT1. On SW2's frame the three rates come out of the largest count, and the plane
+turns at the swirl. Three X-ray rates of GRO J1655−40 read this way give κ/Ω = 0.324 ± 0.010, at the rational
+point 1/3; taking closure as exact, two rates give the mass: 5.256 ± 0.030 suns against 5.4 ± 0.3 from the
+companion, and 8.84 ± 0.29 against 9.10 ± 0.61 for XTE J1550−564. *[RC1 — proved; QP1 — rates proved, reading of
+the X-ray rates put in, closure rule tested and not derived]*
+
+Added refutation conditions: **R8** a simultaneous pair whose κ/Ω is far from every low rational; **R9** a source
+where closure and two rates give a mass outside the mass from its companion.
