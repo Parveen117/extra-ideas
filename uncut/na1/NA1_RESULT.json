@@ -1,0 +1,11 @@
+{
+ "T1_closure": true,
+ "T2_quadratic_term": true,
+ "T3_one_cut_is_ME1": true,
+ "T4_change_of_reader_is_flat": true,
+ "T5_half_area_form": true,
+ "T5_octant_is_one_eighth_turn": true,
+ "T5_whole_boundary_one_turn": true,
+ "T6_counts": true,
+ "pass": true
+}

@@ -57,9 +57,11 @@ Put in for C: the reader is the best frame; h is a variable of state.
     transition is narrower than δ* = |ΔV/V|/α ≈ 1.6 K (CR1).
 24. Eight planes in one form (volume, magnetisation, particle number added): 28 pair equations + 8 weight
     conditions. Window law for every plane: w_X → Y·T_N/(2 dT_N/dX); two windows of one transition are tied (ME2).
+25. Non-commuting plane (three cuts): frame part f^c = da^c − s·ε·a∧a; a change of reader is flat; flux over one
+    eighth of the boundary = π/4 = WD2's one-eighth turn. Master equation: dθ = dk ∧ θ₀ + k(dθ₀ + θ₀∧θ₀) (NA1).
 
 ## Open
-- Non-commuting planes and the mirrors in the count form (ME2 §3).
+- The mirrors in the count form (ME2 §3); a dynamics for the partners; planes needing a larger carrier.
 - SL1 gives the mean over histories; a statement for one history is open.
 - "Directions = cuts" as a theorem rather than an identification.
 - The pole of the turn-part (BH1-T5): what the diagram does there.
