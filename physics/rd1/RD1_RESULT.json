@@ -1,0 +1,26 @@
+{
+ "checks": {
+  "L1_mean_count": true,
+  "L2_energy_integral": true,
+  "L2_count_integral": true,
+  "L3_numbers": true,
+  "L4_peaks": true,
+  "L5_ratios": true,
+  "L5_fourth_power_in_three_cuts": true,
+  "pass": true
+ },
+ "numbers": {
+  "energy_density_number_pi2_over_15": 0.6579736267392906,
+  "flux_number_pi2_over_60": 0.16449340668482265,
+  "count_density_number_2zeta3_over_pi2": 0.24358765646714617,
+  "energy_per_count_in_theta": 2.701178032919064,
+  "entropy_per_count": 3.601570710558752,
+  "peak_per_rate": 2.8214393721220787,
+  "peak_per_length": 4.965114231744276,
+  "measured": {
+   "deviation_from_the_shape_ppm_of_peak": "< 50",
+   "count_potential_over_theta": "< 9e-5 (95%)",
+   "temperature_K": "2.728 +- 0.004"
+  }
+ }
+}

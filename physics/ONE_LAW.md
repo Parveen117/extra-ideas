@@ -41,6 +41,7 @@ one plane of a frame; a turn rate      D = 0                            the fram
 the three cuts of the falling frame    D = count of what falls there    gravity's source; r_s ∝ number × clock CS1, SE1
 the loop arrow of a phase              D = field strength²              light's field law                      QC4, OB1
 two readings                           D = n² − r·r                     rest mass                              IN1
+the block of U(S, V)                   F = R − D = C_V/C_P              heat-capacity ratios; light gas F = 0  TD1
 ```
 
 A turn that does not close builds no record: its sum stays bounded for every number of returns (OR1). A closing
@@ -75,6 +76,9 @@ number                                    from                         measured
 2     (moment : turning, charged centre)  GM1                          2.00232, electron
 1/3   (rung of closure) and 1 : 2 : 3     RC1, QP1, TH1                0.324 ± 0.010; 92, 184, 276 Hz
 masses from closure and two rates         QP1                          5.256 ± 0.030 against 5.4 ± 0.3; 8.84 ± 0.29 against 9.10 ± 0.61
+2/5, 2/7  (lost part of a gas, 2/(f+2))   TD1                          0.4000 noble gases; 0.2855 nitrogen
+1     (lost part of a gas of light)       TD1, RD1                     count potential/θ below 9·10⁻⁵
+π²/15, 2.8214, 4.9651 (light gas)         RD1                          shape of the sky's light to 50 parts per million
 ```
 
 ## What is identification

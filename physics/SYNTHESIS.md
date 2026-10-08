@@ -151,6 +151,7 @@ a centre that turns         exact in SW2: the centre displaced by ι·a, memory 
 many ledgers                when memory between systems becomes effectively permanent (R44)
 a block law for gravity     found for the frame field (CV1, TP1): order defect, coefficients 1 : 2 : −4 by equivalence; sources not built
 an experiment               the programmed chain of PH2; the pair memory of DC1
+pure numbers                PN1 (weak field: lost/seen = 1 to 2·10⁻⁵), TD1 (C_V/C_P = F on the diagonal; gases 2/(f+2); light gas 1), RD1 (thermal light), FS1 (place of 1/137; value open)
 the observer                DO1: on the diagonal (every cut reads alike); there det = R − D and the law is seen = lost; for a centre that alone gives ρ = −½
 one law                     ONE_LAW.md: S = R + D (theorum/24 Theorem 6.1); the record rule is D = 0 (SD1). Remaining: numbers that are not ratios of counts (k, 1/137, mass ratios); a statement that differs from known physics; short-range forces and matter content
 one premise                 after GF1 and CS1: no memory in a shared record. Among repetitions → closure; among histories → stationary count; in one plane of a frame, and for a turn rate → the frame law 1 : 2 : −4 (every frame); the count of what falls → its source. Still put in: that the frame law is quadratic in the order defect; the cut-complex carrier; the constant k; the rule itself
