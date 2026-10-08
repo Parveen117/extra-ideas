@@ -26,3 +26,5 @@ a full local statement needs the energy read by the same frame, and that is not 
 Not claimed: that this is the arrow of time; a physical process that runs the circuit.
 Open gate: (iii). Read M with the same frame's unit and recompute dθ; if the defect survives with one sign,
 the result is independent of the caveat.
+
+> Later note (XU2): when the energy is also read by the best frame the defect keeps one sign but the opposite one. T5/T6 here hold for the reading with the frame's unit only; see `uncut/xu2`.

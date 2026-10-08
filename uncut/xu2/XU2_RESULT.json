@@ -1,0 +1,14 @@
+{
+ "T1_Mt_area_not_closed": true,
+ "T2_third_plane": true,
+ "T2_partner_is_volume": true,
+ "T3_signs_A": "[-1, -1, -1, -1, -1, -1, -1]",
+ "T3_signs_F": "[1, 1, 1, 1, 1, 1, 1]",
+ "T3_A_one_sign": true,
+ "T3_F_one_sign_opposite": true,
+ "T3_never_closed": true,
+ "T4_outer_root": true,
+ "T4_total_falls": true,
+ "T4_empty_space_is_largest": true,
+ "pass": true
+}
