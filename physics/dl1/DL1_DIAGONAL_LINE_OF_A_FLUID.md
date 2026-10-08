@@ -94,3 +94,8 @@ THE ARCH FROM THE LAW                                                           
 python dl1_diagonal_line_of_a_fluid.py        fluid numbers need CoolProp
 python -m unittest test_dl1
 ```
+
+## Later note (LD1, 9 October)
+
+The far part of the action between two atoms is derived in LD1 from the floors of their modes (attraction, 1/r⁶,
+the number ¾, a rule for unlike pairs). The arch still needs the size of the atom. Nothing above is changed.

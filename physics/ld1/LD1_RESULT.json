@@ -1,0 +1,80 @@
+{
+ "checks": {
+  "F1_floor_closed_form": true,
+  "F1_second_order": true,
+  "F1_lower_bound": true,
+  "F1_upper_bound": true,
+  "F2_pattern_and_trace": true,
+  "F3_three_quarters_and_sixth_power": true,
+  "F4_own_rates": true,
+  "F4_closed_form": true,
+  "F4_second_order": true,
+  "F4_equal_case_is_three_quarters": true,
+  "F5_mixed_rule": true,
+  "N1_mixed_rule_within_one_and_a_half_percent": true,
+  "N1_eight_of_ten_within_half_a_percent": true,
+  "pass": true
+ },
+ "numbers": {
+  "mixed_pairs": {
+   "He-Ne": {
+    "rule": 3.043,
+    "tabulated": 3.03,
+    "deviation": 0.0044
+   },
+   "He-Ar": {
+    "rule": 9.522,
+    "tabulated": 9.55,
+    "deviation": -0.0029
+   },
+   "He-Kr": {
+    "rule": 13.354,
+    "tabulated": 13.42,
+    "deviation": -0.0049
+   },
+   "He-Xe": {
+    "rule": 19.32,
+    "tabulated": 19.6,
+    "deviation": -0.0143
+   },
+   "Ne-Ar": {
+    "rule": 19.547,
+    "tabulated": 19.5,
+    "deviation": 0.0024
+   },
+   "Ne-Kr": {
+    "rule": 27.283,
+    "tabulated": 27.3,
+    "deviation": -0.0006
+   },
+   "Ne-Xe": {
+    "rule": 39.228,
+    "tabulated": 39.7,
+    "deviation": -0.0119
+   },
+   "Ar-Kr": {
+    "rule": 91.243,
+    "tabulated": 91.1,
+    "deviation": 0.0016
+   },
+   "Ar-Xe": {
+    "rule": 134.09,
+    "tabulated": 134.5,
+    "deviation": -0.003
+   },
+   "Kr-Xe": {
+    "rule": 192.098,
+    "tabulated": 192.0,
+    "deviation": 0.0005
+   }
+  },
+  "largest_deviation": 0.0143,
+  "effective_rate_over_ionisation": {
+   "He": 1.127,
+   "Ne": 1.507,
+   "Ar": 1.206,
+   "Kr": 1.195,
+   "Xe": 1.16
+  }
+ }
+}

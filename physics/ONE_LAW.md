@@ -79,6 +79,8 @@ masses from closure and two rates         QP1                          5.256 ± 
 2/5, 2/7  (lost part of a gas, 2/(f+2))   TD1                          0.4000 noble gases; 0.2855 nitrogen
 1     (lost part of a gas of light)       TD1, RD1                     count potential/θ below 9·10⁻⁵
 π²/15, 2.8214, 4.9651 (light gas)         RD1                          shape of the sky's light to 50 parts per million
+¾ and r⁻⁶ (two neutral centres); rule     LD1                          ten unlike pairs of noble atoms within 1.5 %
+      for unlike pairs
 ```
 
 ## What is identification
