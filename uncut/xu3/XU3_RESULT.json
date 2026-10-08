@@ -1,0 +1,14 @@
+{
+ "T1_scaling": true,
+ "T2_symbolic": true,
+ "T2_closed_form": true,
+ "T3_region": true,
+ "T3_factors_positive": true,
+ "T3_A_opposite": true,
+ "T4_example_gain": "3.6063057",
+ "T4_positive": true,
+ "T5_leading": true,
+ "T5_Phi_leading": true,
+ "T6_flat_limit": true,
+ "pass": true
+}
