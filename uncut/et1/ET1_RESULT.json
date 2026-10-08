@@ -1,0 +1,11 @@
+{
+ "T1_heat_reading": true,
+ "T1_v_is_rim_speed": true,
+ "T2_zero_line": true,
+ "T3_ratio_of_units": true,
+ "T3_zero_at_eighth_turn": true,
+ "T3_squared_tick_is_quarter_turn": true,
+ "T4_charge": true,
+ "T5_both": true,
+ "pass": true
+}

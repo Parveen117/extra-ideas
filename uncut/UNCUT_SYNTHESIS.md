@@ -64,9 +64,11 @@ Put in for C: the reader is the best frame; h is a variable of state.
     d f^c − s·ε·a^p f^q = 0 (LC1).
 27. Spin as momentum J/R of the boundary (R = √(S/π)): BH2's and ME1's centre potentials follow; Ω = v/R;
     at the T = 0 end the rim speed is 1/√2 (SP1). With LC1 no centre potential is put in any more.
+28. T/T₀ = (1 − Φ₀² − 2v²)/√(1 − v²); the line T = 0 is Φ₀² + 2v² = 1; turning only: T/T₀ = cos 2χ/cos χ, the
+    unit of the rim's doubled clock over the unit of its clock — zero at the eighth turn (ET1).
 
 ## Open
-- The mirrors in the count form (ME2 §3); why the T = 0 rim speed equals 1/√2 (SP1-T4); planes needing a larger carrier.
+- The mirrors in the count form (ME2 §3); planes needing a larger carrier.
 - SL1 gives the mean over histories; a statement for one history is open.
 - "Directions = cuts" as a theorem rather than an identification.
 - The pole of the turn-part (BH1-T5): what the diagram does there.
