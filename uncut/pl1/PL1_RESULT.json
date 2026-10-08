@@ -1,0 +1,12 @@
+{
+ "T1_gauge_angle_is_Phi_P": true,
+ "T1_closed_form": true,
+ "T2_two_areas": true,
+ "T2_extremal_charge_plane": true,
+ "T3_rotation_angle_is_Omega_P": true,
+ "T3_closed_form": true,
+ "T4_two_areas": true,
+ "T4_extremal_spin_plane": true,
+ "T5_rates_at_end": true,
+ "pass": true
+}
