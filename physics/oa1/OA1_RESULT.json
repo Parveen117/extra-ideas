@@ -1,0 +1,23 @@
+{
+ "checks": {
+  "T0_pure_turn": true,
+  "T1_general": true,
+  "T2_line_form": true,
+  "T3_free_circle": true,
+  "T3_orders": true,
+  "T4_GR2_orders": true,
+  "T4_ratio_first_order": true,
+  "T5_slow": true,
+  "T6_no_field": true,
+  "T7_light_circle": true,
+  "pass": true
+ },
+ "numbers": {
+  "x": 1.2635407518853762e-09,
+  "per_circuit_mas": 1.2282,
+  "GR2_per_circuit_mas": 0.8188,
+  "per_year_arcsec": 6.621,
+  "per_year_arcsec_at_7027p4km": 6.604,
+  "sun_circuit_mas_per_year": 19.19
+ }
+}

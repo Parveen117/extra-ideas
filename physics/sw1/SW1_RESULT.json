@@ -1,0 +1,24 @@
+{
+ "checks": {
+  "T1_first_order_law": true,
+  "T1_order_zero_empty": true,
+  "T1_solution": true,
+  "T1_profile": true,
+  "T2_constant_swirl_no_field": true,
+  "T3_second_order_remainder": true,
+  "T3_no_higher_orders": true,
+  "T4_turn_is_half_curl": true,
+  "T4_frame_in_free_fall": true,
+  "T4_no_turn_along_the_slice": true,
+  "T4_stretch_is_symmetric_part": true,
+  "T5_curl": true,
+  "T6_mean_over_the_poles": true,
+  "T6_round_the_axis": true,
+  "pass": true
+ },
+ "numbers": {
+  "a_m3_per_s": 8701551.95755265,
+  "mean_rate_mas_per_year": 40.93,
+  "projected_cos_16p84deg": 39.18
+ }
+}

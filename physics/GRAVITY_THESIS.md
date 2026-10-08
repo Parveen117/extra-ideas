@@ -227,3 +227,21 @@ Item 1 of "Next" is answered for the static field of one centre. With the radial
 left free, the law of CV1/TP1 gives A′ = 0 in empty space, and frames at rest far away give A = 1: flat slices,
 one time, and β² = r_s/r from the same computation. The assumption is the statement N·S = 1 and is not
 independent of the law. *[MA1 — proved for the static, spherically symmetric case; the general case is not treated]*
+
+## The once-around turn with the full form (OA1)
+
+Item 3 of "Next" is answered. A direction carried round a free circle with MO1's form and CV1's connection
+returns turned against far directions by 2π(1 − √(1 − (3/2)·r_s/r)) = 2π(1 − count factor of MO1-M4): first
+order (3/2)·π·r_s/r, second order (9/16)·π·(r_s/r)². The first order is 3/2 of GR2-G4's; the part recorded above
+as "not in this model" is in MO1's form. For the circuit of the Earth at 7020 km this is 1.228 milliarcsecond per
+circuit, 6.62 arcsec per year; measured 6.6018 ± 0.0183 (arXiv:1105.3456). *[OA1 — proved for circles; orbit
+radius and the Earth's flattening not treated]*
+
+## A centre that turns (SW1)
+
+With the fall history also going round the axis at a rate W(r), the law gives (r⁴W′)′ = 0 at first order; frames
+at rest far away leave W = a/r³. On flat slices a direction carried with a frame of fall velocity u turns at
+½ curl u, exactly; over a circuit through the poles the mean is a/(4r³). With a = 2GJ/c² put in, the Earth gives
+39 milliarcsecond per year on the measured direction; measured 37.2 ± 7.2. At second order in a, flat slices with
+one time are refused by the law (exact remainder 9a² sin²θ/2r⁶): MO1's assumption is exact for a centre at rest
+and first-order for a centre that turns. *[SW1 — first order proved; a put in; second-order frame not found]*
