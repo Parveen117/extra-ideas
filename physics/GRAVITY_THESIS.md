@@ -327,3 +327,9 @@ With the frame's time step N free, N·Q = −2e₂(K)/N + boundary. Histories th
 their count g·ν·N, and stationarity in N gives e₂(K) = k·g·ν: the unrecoverable memory of the stretch is the count
 rate of what falls there. For a ball of histories r_s = k·g·(number)/4π; inside it h² = k·g·n₀/3. The source of
 statement 2 is the count. *[CS1 — proved for histories at rest in the frame; k not derived]*
+
+## One law (SD1)
+
+The record rule of OR1–CS1 is theorum/24's Theorem 6.1, S = R + D, with D = 0: GE2's memory is its D for a record
+of turns, IN1's reading tensor is (S; F_i), and LN1's identity is the theorem on the stretch, where the energy law
+reads ΣS_i = (tr Z)². The whole line on one page: [ONE_LAW.md](ONE_LAW.md). *[SD1 — proved as instances]*

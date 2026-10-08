@@ -1,0 +1,15 @@
+{
+ "checks": {
+  "a_cut_pair": true,
+  "a_S_is_R_plus_D": true,
+  "a_D_is_GE2_memory": true,
+  "b_S_is_R_plus_D_each_cut": true,
+  "b_single_reading": true,
+  "c_S_is_R_plus_D_each_cut": true,
+  "c_law_in_S_and_trace": true,
+  "c_total_memory_is_cross_terms": true,
+  "d_Gram_part_blind_to_turn": true,
+  "d_one_plane_G_equals_trace_square": true,
+  "pass": true
+ }
+}

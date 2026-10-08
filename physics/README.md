@@ -4,6 +4,7 @@ Physical numbers from the certified response theorems. Evidence here uses
 reference equations of state (CoolProp) and numpy; it is outside the
 frozen R1–R46 / MP1–MP2 register and its workflows.
 
+- [One law](ONE_LAW.md) — the line on one page: S = R + D (theorum/24, Theorem 6.1), the six places where physics is "memory vanishes or equals a count", the pure numbers obtained, and what remains.
 - [Synthesis](SYNTHESIS.md) — one structure on the certified EMK block (SY1), every stage as a case of it, and the open gates.
 - [OB1 — one block, one law](ob1/OB1_ONE_BLOCK.md) — matter, light, potential, source and force as parts of the certified block under one operator.
 - [The gravity thesis](GRAVITY_THESIS.md) — statement, what is proved / assumed / put in, numbers, and refutation conditions; certified core in `gr2/`.
