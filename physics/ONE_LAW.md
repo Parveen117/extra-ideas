@@ -84,6 +84,9 @@ masses from closure and two rates         QP1                          5.256 ± 
 2, 8, 18, 32 (readings in a shell, 2n²)   SH1                          rows of the table of elements: 2, 8, 8, 18, 18, 32
 ½     (count factor² at the last stable   AC1                          —
       circle: seen = lost)
+(in-out/round)² = seen − lost             FK1, CD1, OA1                (298, 441 Hz) 0.105 ± 0.006; rung 1/3: 5/9, 4/9, 1/9
+9/4, 5/2, 4, 9/2, 6, 25/4, 7 (cost of a   CC1 (Yang–Mills line)        simulation 2.246, 2.499, 3.97, 4.47, 6.19, 5.96, 7.07
+      content over the first)
 27/5, 27/20, 28/25 (rates of a bound      BR1                          wavelength ratios 1.35001, 1.11999
       charge); second-shell split α²/16                                3.3342·10⁻⁶ against 3.3282·10⁻⁶
 ```
@@ -115,6 +118,12 @@ The mass number of a pair (3.2 × 10⁻⁴² for an electron and a proton) is no
 not contain the mass; the mass number is the product of two mass counts, r_s/2ℓ of each kind (AC1, later note).
 So the open entries "mass ratios" and "the kinds of matter" are one question: what fixes the mass count of a
 kind. The line has no rule yet that says which centres exist.
+
+Its place is found (MG1): a gap per cell is a rest rate, so a mass count is (ℓ/cell) × gap. Every gap the
+Yang–Mills line has certified is of order one in cell units, and its one exact all-coupling rate falls as a
+power. The proton's 7.7 × 10⁻²⁰ (log 44.0) would have to come from the gap at weak coupling in four
+dimensions — the open wall of that line. The two lines are stopped at the same place. Ratios of costs, where
+cell and coupling cancel, are given now (CC1).
 
 ## Reproduce
 

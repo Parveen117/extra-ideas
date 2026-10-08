@@ -1,0 +1,36 @@
+{
+ "checks": {
+  "M1_mass_length_times_turn_length_is_the_record_area": true,
+  "M1_mass_count_is_rest_rate_times_record_length": true,
+  "M2_gap_as_a_mass_count": true,
+  "M3_YM1_reduced_gap": true,
+  "M3_all_certified_rates_are_of_order_one": true,
+  "M4_chain_rate_falls_as_a_power": true,
+  "M4_chain_rate_is_decreasing": true,
+  "M5_order_one_rate_needs_a_cell_of_nuclear_size": true,
+  "M5_power_law_needs_a_large_number": true,
+  "M5_an_exponential_law_needs_a_number_near_44": true,
+  "pass": true
+ },
+ "numbers": {
+  "certified_rates_in_cell_units": {
+   "YM-1 theta graph (kappa = 2)": 0.8367233062315889,
+   "YM-9/22 free rate, SU(2)": 0.75,
+   "YM95/98 free rate, SU(3)": 1.3333333333333333,
+   "YM93 window, SU(2)": 0.128,
+   "YM97 window, SU(3)": 0.4,
+   "YM98 window end, SU(2)": 0.37,
+   "YM98 window end, SU(3)": 0.78
+  },
+  "mass_count_proton": 7.685147635162193e-20,
+  "mass_count_electron": 4.185462214731958e-23,
+  "log_inverse_count_proton": 44.01241227225351,
+  "log_inverse_count_electron": 51.527839995445134,
+  "chain_coupling_needed_for_the_proton_count": 1.9518167655452504e+19,
+  "cell_needed_if_rate_is_4_over_3_metres": 2.8041188027559853e-16,
+  "known_physics_not_the_line": {
+   "g_squared_at_the_record_length": 0.16308795040548793,
+   "theta_of_the_YM_line": 225.5835884021942
+  }
+ }
+}

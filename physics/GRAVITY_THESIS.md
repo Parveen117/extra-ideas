@@ -366,3 +366,12 @@ Least-cost readings of degree l number 2l + 1 in three cuts; a shell of the 1/r 
 four-dimensional sphere of its own orbits (RC1) and holds n²; with the two components of a reading, 2n² = 2, 8,
 18, 32. The N-fold memory of a record is (Πp) × the Gram determinant of its readings: zero unless they are
 independent. *[SH1 — proved; order of filling, and why charges must be distinct readings, not derived]*
+
+## The flip of a free circle (FK1)
+
+For a centre at rest in d cuts, (in-out rate / round rate)² − (seen − lost) = 3 − d. In three cuts the law's
+F = R − D of a free circle is the squared ratio of its two rates, on every circle; seen² = lost² + ratio², and on
+the rung p/q the sides are the whole-number triangle (q² − p², 2pq, q² + p²). The rung 1/3 is 3, 4, 5. For a
+turning centre ½[(in-out)² + (up-down)²]/round² = seen/(1 − aΩ)², and the last stable circle leaves the diagonal:
+seen = ½ − (√6/12)a + … (108/169 against the turn at a = −1, toward 0 with it). *[FK1 — proved; the diagonal at the
+last stable circle holds at rest only]*

@@ -1,0 +1,63 @@
+{
+ "checks": {
+  "F1_count_factor_in_d_cuts": true,
+  "F1_flip_is_rate_ratio_squared_up_to_3_minus_d": true,
+  "F2_right_triangle": true,
+  "F2_rungs_are_pythagorean_triples": true,
+  "F2_rung_one_third_is_3_4_5": true,
+  "F3_count_factor_of_the_turning_centre": true,
+  "F3_mean_of_the_two_cross_rates": true,
+  "F3_reduces_to_F1_at_rest": true,
+  "F3_slope": true,
+  "F3_against_the_turn_exact": true,
+  "F3_seen_is_half_only_at_rest": true,
+  "F3_seen_falls_with_the_turn": true,
+  "F4_rates_alone_give_the_mean_cross_rate": true,
+  "pass": true
+ },
+ "numbers": {
+  "slope_of_seen_at_the_last_stable_circle": "-sqrt(6)/12",
+  "last_stable_circle": {
+   "-1": {
+    "radius": 9.0,
+    "seen": 0.6390532544378699
+   },
+   "-0.5": {
+    "radius": 7.554584714512359,
+    "seen": 0.582442990841439
+   },
+   "0": {
+    "radius": 6.0,
+    "seen": 0.5
+   },
+   "0.29": {
+    "radius": 5.0142570490108875,
+    "seen": 0.43081997381815773
+   },
+   "0.5": {
+    "radius": 4.233002529530825,
+    "seen": 0.363204541435258
+   },
+   "0.9": {
+    "radius": 2.320883041761887,
+    "seen": 0.13754303218247702
+   },
+   "0.99": {
+    "radius": 1.4544979380596705,
+    "seen": 0.02704118210527148
+   }
+  },
+  "GRO_J1655_seen": {
+   "value": 0.49305479866028534,
+   "sigma": 0.003040948126932814
+  },
+  "GRO_J1655_mean_cross_rate": {
+   "value": 0.5141136923401258,
+   "sigma": 0.0031325160446423633
+  },
+  "GRO_J1655_in_out_ratio_squared": {
+   "value": 0.10514651816886995,
+   "sigma": 0.00613122340003427
+  }
+ }
+}

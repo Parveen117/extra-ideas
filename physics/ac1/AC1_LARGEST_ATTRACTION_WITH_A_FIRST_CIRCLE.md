@@ -94,3 +94,9 @@ WHAT FIXES A MASS COUNT                                                         
 python ac1_two_numbers_one_gap.py
 python -m unittest test_ac1_two_numbers
 ```
+
+## Later note (FK1, MG1, 9 October)
+
+FK1 does A3 for a turning centre: the last stable circle is at seen = ½ − (√6/12)a + …, on the diagonal only at
+rest; and on every circle of a centre at rest seen − lost = (in-out/round)². MG1 finds the place of a mass count,
+(ℓ/cell) × gap, and records that no certified gap gives the proton's value. Nothing above is changed.

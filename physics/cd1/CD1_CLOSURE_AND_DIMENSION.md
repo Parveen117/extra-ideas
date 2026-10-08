@@ -100,3 +100,8 @@ python -m unittest test_cd1
 The d = 2 row above uses MC1's least-cost memory, log r. SE1 shows that the frame law in two cuts leaves β
 constant: no falling memory at all. Either way nothing closes in two dimensions; D6's agreement of least cost and
 the frame law holds for d ≥ 3 only.
+
+## Later note (FK1, 9 October)
+
+D1 with the count factor² = 1 − d·m/2 gives (in-out/round)² − (seen − lost) = 3 − d: the law's F of a free circle
+is its squared rate ratio in three cuts only. Nothing above is changed.

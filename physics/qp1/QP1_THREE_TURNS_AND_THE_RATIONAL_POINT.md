@@ -118,3 +118,8 @@ THE READING OF THE THREE RATES                                               PUT
 python qp1_three_turns_and_the_rational_point.py
 python -m unittest test_qp1
 ```
+
+## Later note (FK1, 9 October)
+
+The three rates satisfy ½[(in-out)² + (up-down)²]/round² = seen/(1 − aΩ)². For GRO J1655−40 the left side is
+0.5141 ± 0.0031 from the rates alone and seen = 0.4931 ± 0.0030. Nothing above is changed.
