@@ -47,6 +47,11 @@ Put in for C: the reader is the best frame; h is a variable of state.
 20. Flat: dS = P(dE − Φ dQ − Ω dJ − v dp), six pair equations; angles per closed turn are reader-free.
     Uncut: dθ = dk ∧ θ₀ + k dθ₀ — weight part + frame part; n planes carry n(n−1)/2 + n flatness conditions (ME1).
 
+## F. A measurable defect
+21. D = (T/C_V)∂[C_P/(αT)]/∂T at fixed V: 0 for the ideal gas and for hard cores, 2a(V−b)/(NkTV²) for
+    van der Waals; argon at 1 mol/l gives 0.15 → 0.07 over 180–380 K, within 9–14 % of that form (FD1).
+    Ideal gas: turn-part = half the enthalpy. Systems with no particle count (radiation, horizons) are flat.
+
 ## Open
 - SL1 gives the mean over histories; a statement for one history is open.
 - "Directions = cuts" as a theorem rather than an identification.

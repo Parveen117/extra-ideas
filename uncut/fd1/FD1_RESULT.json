@@ -1,0 +1,13 @@
+{
+ "T1_ideal": true,
+ "T1_turn_is_half_enthalpy": true,
+ "T2_radiation_commutes": true,
+ "T2_ideal_gas_scale_is_count_unit": true,
+ "T3_hard_core_no_defect": true,
+ "T4_vdW": true,
+ "T4_reduced": true,
+ "T5_CV_consistent": true,
+ "T5_leading": "T**2*(-T*Derivative(B(T), (T, 3)) - c_v*Derivative(B(T), (T, 2)) - 3*Derivative(B(T), (T, 2)))/c_v",
+ "T5_matches_vdW": true,
+ "pass": true
+}
