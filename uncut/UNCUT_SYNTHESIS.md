@@ -78,9 +78,12 @@ Put in for C: the reader is the best frame; h is a variable of state.
 32. SP1's energy-quadrature is special to three directions; in d directions M = M₀·γ^{2/(d−1)} per turning plane (HD1).
 33. First law fixes the boost exponent = share = 1 − ρ(d−3)/(d−1) for rim radius R = r·γ^ρ; ρ = 1 ⇔ ID1's share
     2/(d−1); in three directions the share is 1 for every ρ (TS2).
+34. Charge with turning in d ≥ 4: a first-law-consistent pure-power candidate is refused by the weakly charged
+    solution (hep-th/0604207, eq. 17). Second-order law M = K[u + (sq)²/u], u = S/r₊: exact for neutral turning and
+    for static charge; stored cost read with the rim unit squared (CT1).
 
 ## Open
-- Why ρ = 1 beyond the two readings of TS2; a centre with charge and turning in four or more directions.
+- Why ρ = 1 beyond the two readings of TS2; charge with turning in d ≥ 4 beyond second order in the charge (CT1).
 - The mirrors in the count form (ME2 §3); planes needing a larger carrier.
 - SL1 gives the mean over histories; a statement for one history is open.
 - "Directions = cuts" as a theorem rather than an identification.

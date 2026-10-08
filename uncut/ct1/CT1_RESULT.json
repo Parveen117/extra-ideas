@@ -1,0 +1,12 @@
+{
+ "T1_candidate_is_first_law_consistent": true,
+ "T2_candidate_factor": true,
+ "T3_potential_is_uniform_on_the_horizon": true,
+ "T3_potential": true,
+ "T4_agree_d3": true,
+ "T4_refused_d4_d5_d6": true,
+ "T4_values_at_chi_1": "{3: 0.2919, 4: 0.3502, 5: 0.349, 6: 0.3424} vs 0.2919",
+ "T5_HL1_form": true,
+ "T6_one_variable_form": true,
+ "pass": true
+}

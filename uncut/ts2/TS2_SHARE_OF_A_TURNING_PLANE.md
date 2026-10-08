@@ -28,3 +28,5 @@ forms above and one statement, which can be taken either as ρ = 1 (the turned c
 Put in: the forms (count as boundary measure with one rim radius per plane; boost as a power of γ; J ∝ M·R·v;
 Ω = v/R; one scale). Without the power form the first law leaves the share free (a one-parameter family).
 Not claimed: a proof that nature's centre has ρ = 1 from inside the line beyond T6/T7's two readings.
+
+> Later note (CT1): the same method (first law + pure-power forms) gives a consistent candidate for charge with turning in d ≥ 4 that the weakly charged solution refuses. T1 here is a filter that the published family passes, not a derivation of it; see `uncut/ct1`.
