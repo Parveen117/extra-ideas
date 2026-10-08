@@ -96,3 +96,8 @@ THE PROTON'S MASS COUNT                                                         
 python du1_diagonal_turn_is_the_duality.py
 python -m unittest test_du1
 ```
+
+## Later note (FD1, 9 October)
+
+The chain's rate is the log-ratio of the two zeros of det(1 − zB); the diagonal turn leaves that function
+unchanged, and doubling the cell is det(1 − z²B²) = det(1 − zB)·det(1 + zB). Nothing above is changed.

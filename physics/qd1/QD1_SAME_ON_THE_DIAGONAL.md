@@ -93,3 +93,9 @@ SPREADS n + n², n, n − n² = S, R, F ; DIAGONAL MODE AT kT·ln 2             
 python qd1_same_on_the_diagonal.py
 python -m unittest test_qd1
 ```
+
+## Later note (FD1, SN1, 9 October)
+
+D3's three spreads are the second order of one form, det(1 − ηwN)^(−η) (FD1-F4). An exclusive record seen through
+any cut counts like classical coins with the readings of the seen kernel; on the diagonal the coins are fair.
+Averaged over the three sectors the spread/mean is 1/4, 1/2, 1/3 (SN1). Nothing above is changed.

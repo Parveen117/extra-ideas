@@ -137,3 +137,8 @@ python -m unittest test_mm1
 select 1 : 2 : −4 for every frame. "Why memory of the stretch = energy of the source — not derived": CS1 shows the
 source enters through its count, and e₂ is the law's response to the time step; the constant k remains. Nothing
 above is changed.
+
+## Later note (FD1, 9 October)
+
+e₂ and e_N are the z² and z^N coefficients of det(1 + zX); FD1 reads the line's other identities from the same
+function. Nothing above is changed.

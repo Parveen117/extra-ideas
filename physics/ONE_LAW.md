@@ -56,6 +56,15 @@ the turning centre        the centre at rest displaced by ι·a; swirl = ι-part
 the source is energy      it enters through its count                                                CS1
 ```
 
+## One function (FD1)
+
+det(1 + zX) = Σ zⁿeₙ(X) carries every memory of the line. At second order its reciprocal has R + D and it has
+R − D, with R = ½(tr X)², D = ½ tr X²: the determinant is the F side of the law, the reciprocal the S side, and
+exp(z·tr X) lies between. The function is a sum over closed circuits; across a cut it factors into the seen block
+and the lost block dressed by the exchange; the count a cut sees of an exclusive record is
+det(1 + (s − 1)K_P), coins with the readings of the seen kernel, fair on the diagonal; a rate is the log-ratio of
+two zeros. The vacuum law of gravity is: the z² coefficient is zero.
+
 ## Pure numbers it has given
 
 Each is a ratio of whole numbers that count cuts, planes or circuits.
@@ -93,6 +102,8 @@ ln 2  (quantum / kT of the diagonal mode; QD1, RD1                     —
       energy 1 bit, entropy 2 bits)
 ½ ln(1 + √2) (the record that is its own  DU1, DO1                     1/k = 2.2692 (known value of the two-valued plane)
       dual: seen = lost, tanh 2k = 1/√2)
+1/4, 1/2, 1/3 (spread / mean of a count   SN1, FD1, QD1                measured 1/4, 1/2, 1/3 (cavities, double barrier, wires)
+      through a cut: turn, shear, boost)
 27/5, 27/20, 28/25 (rates of a bound      BR1                          wavelength ratios 1.35001, 1.11999
       charge); second-shell split α²/16                                3.3342·10⁻⁶ against 3.3282·10⁻⁶
 ```

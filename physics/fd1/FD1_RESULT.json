@@ -1,0 +1,54 @@
+{
+ "checks": {
+  "F1_coefficients_are_e_n": true,
+  "F1_reading_tensor": true,
+  "F1_second_order_is_S_R_F": true,
+  "F1_the_two_functions_are_reciprocal": true,
+  "F1_vacuum_law_is_second_coefficient_zero": true,
+  "F2_log_det_is_the_sum_over_circuits": true,
+  "F2_trace_counts_closed_walks": true,
+  "F2_euler_product_over_primitive_circuits": true,
+  "F3_split_across_a_cut": true,
+  "F3_gram_second_order": true,
+  "F3_single_reading_seen_times_lost_is_exchange_squared": true,
+  "F4_count_through_a_cut_is_a_determinant": true,
+  "F4_diagonal_cut_counts_fair_coins": true,
+  "F4_three_counts_one_form": true,
+  "F5_zeros_are_inverse_readings": true,
+  "F5_rate_is_log_ratio_of_zeros": true,
+  "F5_diagonal_turn_keeps_the_function": true,
+  "F5_doubling_the_cell": true,
+  "F6_finite_ladder_exact": true,
+  "F6_declared_tail_bounds_every_coefficient": true,
+  "pass": true
+ },
+ "numbers": {
+  "primitive_circuits": {
+   "two marks": [
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    4,
+    5,
+    8
+   ],
+   "triangle": [
+    0,
+    3,
+    2,
+    3,
+    6,
+    9,
+    18
+   ]
+  },
+  "ladder_tail_example": {
+   "q": 0.5,
+   "M": 40,
+   "relative_tail_bound_for_e5": 2.9103830456733704e-11
+  }
+ }
+}

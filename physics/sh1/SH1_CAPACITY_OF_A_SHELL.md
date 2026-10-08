@@ -72,3 +72,8 @@ ORDER OF FILLING ; WHY DISTINCT                                                 
 python sh1_capacity_of_a_shell.py
 python -m unittest test_sh1
 ```
+
+## Later note (FD1, 9 October)
+
+e₂ and e_N are the z² and z^N coefficients of det(1 + zX); FD1 reads the line's other identities from the same
+function. Nothing above is changed.
