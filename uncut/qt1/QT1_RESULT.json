@@ -1,0 +1,10 @@
+{
+ "T1_rate": true,
+ "T2_boost_open": true,
+ "T3_turn_closes": true,
+ "T4_smooth_iff": true,
+ "T5_quarter": true,
+ "T5_general": true,
+ "T6_square": true,
+ "pass": true
+}
