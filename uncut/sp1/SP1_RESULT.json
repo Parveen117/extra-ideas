@@ -1,0 +1,10 @@
+{
+ "T1_BH2_centre_derived": true,
+ "T2_partner_is_rim_speed": true,
+ "T3_y_is_gamma_v_squared": true,
+ "T4_extremal_rim_speed": true,
+ "T4_T_zero_there": true,
+ "T5_combined_centre_derived": true,
+ "T6_w_rot_in_v": true,
+ "pass": true
+}

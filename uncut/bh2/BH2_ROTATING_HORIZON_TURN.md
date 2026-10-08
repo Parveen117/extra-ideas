@@ -19,3 +19,5 @@ T = 0, one double pole between, no change of sense.
 
 Put in: M(S,J), S = area/4, normalisation w/M. Not claimed: nature of the pole; meaning of the count S.
 Open gate: derive S = area/4 inside the framework (HB1 unit × horizon cells of HM1) instead of putting it in.
+
+> Later note (SP1): the centre potential M(S,J) used here is derived in `uncut/sp1`; it is no longer an input.

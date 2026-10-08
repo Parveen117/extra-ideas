@@ -62,9 +62,11 @@ Put in for C: the reader is the best frame; h is a variable of state.
 26. Least cost for a partner gives Q/r; its cost stored outside r, Q²/(2r), is a source in the clock plane:
     N² = 1 − 2M/r + Q²/r², and BH1's centre potential follows instead of being put in. Non-commuting plane:
     d f^c − s·ε·a^p f^q = 0 (LC1).
+27. Spin as momentum J/R of the boundary (R = √(S/π)): BH2's and ME1's centre potentials follow; Ω = v/R;
+    at the T = 0 end the rim speed is 1/√2 (SP1). With LC1 no centre potential is put in any more.
 
 ## Open
-- The mirrors in the count form (ME2 §3); BH2's potential from least cost; planes needing a larger carrier.
+- The mirrors in the count form (ME2 §3); why the T = 0 rim speed equals 1/√2 (SP1-T4); planes needing a larger carrier.
 - SL1 gives the mean over histories; a statement for one history is open.
 - "Directions = cuts" as a theorem rather than an identification.
 - The pole of the turn-part (BH1-T5): what the diagram does there.
