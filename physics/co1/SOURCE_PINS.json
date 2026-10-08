@@ -1,0 +1,19 @@
+{
+  "schema": "extra-ideas.co1.source-pins.v1",
+  "research_commit": "92e321c0c3b5c026fea357f3f595d07da8f69ce2",
+  "local": {
+    "physics/co1/co1_expansion_as_fall.py": "d5391ab03e731ec30903846e53bb8a7df99aa0196c7c8fcdb7cd0754402b5161",
+    "physics/co1/test_co1.py": "785ef0b1f84c9ff11253668fd2e656bad253ec3570038b32fa305721bb0332e9",
+    "physics/co1/CO1_EXPANSION_AS_FALL.md": "a73b517ee4c1a2f1ab6e5dec6e679f52359b3e4d3841d0f5958e3af6ea4546dc",
+    "physics/co1/CO1_RESULT.json": "7a6414ff056e36e671650251fddd809ac57fea18d5fb14b10cbcf7e083717062",
+    "physics/tp1/tp1_frame_defect_law.py": "0090fe2ea5a71f9cce45842ae14be1b80178205263e714ccd77eb5eb16d2dc72",
+    "physics/cv1/cv1_frame_curvature.py": "2795d1c0be35bbf0b6e186f0530385a1aafa6e434d639b78ce9709ce1ff8c764"
+  },
+  "publications": {
+    "commit": "f0f1c1650e914b7eaf3bf64ddb7df9f543c92a56",
+    "files": {
+      "papers/ugd-kahler-propagation/COUPLED_COSMOLOGICAL_SOLUTION.md": "fe54cf0474bb08386214989bc06f696dc2c9438aab2eab1709484d9fbed94301"
+    }
+  },
+  "scope": "CO1 symbolic identities T1-T5 within the declared homogeneous model; no empirical or proof-assistant certification."
+}
