@@ -9,5 +9,7 @@
  "T5_CV_consistent": true,
  "T5_leading": "T**2*(-T*Derivative(B(T), (T, 3)) - c_v*Derivative(B(T), (T, 2)) - 3*Derivative(B(T), (T, 2)))/c_v",
  "T5_matches_vdW": true,
+ "T6_ideal_any_heat_capacity": true,
+ "T6_low_density": true,
  "pass": true
 }

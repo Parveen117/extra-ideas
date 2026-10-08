@@ -1,0 +1,90 @@
+{
+ "Dprime": {
+  "1.5": {
+   "argon": 0.1807,
+   "krypton": 0.18,
+   "xenon": 0.1808,
+   "oxygen": 0.1884,
+   "nitrogen": 0.1921,
+   "carbon_monoxide": 0.1878,
+   "carbon_dioxide": 0.1795
+  },
+  "1.7": {
+   "argon": 0.1501,
+   "krypton": 0.1491,
+   "xenon": 0.1495,
+   "oxygen": 0.1549,
+   "nitrogen": 0.159,
+   "carbon_monoxide": 0.157,
+   "carbon_dioxide": 0.1465
+  },
+  "1.9": {
+   "argon": 0.1283,
+   "krypton": 0.1275,
+   "xenon": 0.1276,
+   "oxygen": 0.1308,
+   "nitrogen": 0.1356,
+   "carbon_monoxide": 0.1347,
+   "carbon_dioxide": 0.1244
+  },
+  "2.1": {
+   "argon": 0.1118,
+   "krypton": 0.1111,
+   "xenon": 0.1113,
+   "oxygen": 0.1126,
+   "nitrogen": 0.1179,
+   "carbon_monoxide": 0.1177,
+   "carbon_dioxide": 0.1085
+  }
+ },
+ "relative_to_monatomic_mean": {
+  "1.5": {
+   "argon": 0.0011,
+   "krypton": -0.0028,
+   "xenon": 0.0017,
+   "oxygen": 0.0438,
+   "nitrogen": 0.0643,
+   "carbon_monoxide": 0.0404,
+   "carbon_dioxide": -0.0055
+  },
+  "1.7": {
+   "argon": 0.0036,
+   "krypton": -0.0031,
+   "xenon": -0.0004,
+   "oxygen": 0.0357,
+   "nitrogen": 0.0631,
+   "carbon_monoxide": 0.0497,
+   "carbon_dioxide": -0.0205
+  },
+  "1.9": {
+   "argon": 0.0039,
+   "krypton": -0.0023,
+   "xenon": -0.0016,
+   "oxygen": 0.0235,
+   "nitrogen": 0.061,
+   "carbon_monoxide": 0.054,
+   "carbon_dioxide": -0.0266
+  },
+  "2.1": {
+   "argon": 0.0036,
+   "krypton": -0.0027,
+   "xenon": -0.0009,
+   "oxygen": 0.0108,
+   "nitrogen": 0.0583,
+   "carbon_monoxide": 0.0566,
+   "carbon_dioxide": -0.026
+  }
+ },
+ "acentric": {
+  "argon": 0.0,
+  "krypton": 0.0,
+  "xenon": 0.004,
+  "oxygen": 0.022,
+  "nitrogen": 0.037,
+  "carbon_monoxide": 0.048,
+  "carbon_dioxide": 0.224
+ },
+ "noble_within_half_percent": true,
+ "all_seven_within_7_percent": true,
+ "carbon_dioxide_within_3_percent": true
+}

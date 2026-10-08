@@ -90,3 +90,36 @@ Both are far below the 2–8 % spread and the 16–32 % departures reported abov
 The tables are values of a smooth reference equation, not sampled measurements: there is no sampling-rate
 (aliasing) question here. For raw calorimetric or acoustic records the derivative would need the usual
 conditioning — band limit, anti-alias filter, a stated step — before D is formed.
+
+## The improved number D′, and seven substances on one curve (`fd1_second_scale_check.py`)
+
+The departures of nitrogen and carbon dioxide reported in the collapse check above were mostly an artefact of
+the definition: D still contains the temperature dependence of C_V itself. Removing it at the level where an
+ideal gas has it gives
+
+  **D′ = (T/C_V)·∂[C_P/(αT) − C_V]/∂T at fixed V.**
+
+- **FD1-T6 (exact).** D′ = 0 for an ideal gas with any heat capacity C_V(T) (internal motion drops out);
+  D′ = D for van der Waals; at low density D′·V → [2T·B′ − (c_v − 1)·T²·B″]/c_v.
+
+Data, same reduced density (ρ/ρ_c ≈ 0.0746), oxygen and carbon monoxide added:
+
+| T_r | argon | krypton | xenon | oxygen | nitrogen | carbon monoxide | carbon dioxide |
+|---|---|---|---|---|---|---|---|
+| 1.5 | 0.1807 | 0.1800 | 0.1808 | 0.1884 | 0.1921 | 0.1878 | 0.1795 |
+| 1.7 | 0.1501 | 0.1491 | 0.1495 | 0.1549 | 0.1590 | 0.1570 | 0.1465 |
+| 1.9 | 0.1283 | 0.1275 | 0.1276 | 0.1308 | 0.1356 | 0.1347 | 0.1244 |
+| 2.1 | 0.1118 | 0.1111 | 0.1113 | 0.1126 | 0.1179 | 0.1177 | 0.1085 |
+
+- The three monatomic gases agree within 0.5 %.
+- All seven lie within 7 % of the monatomic curve; carbon dioxide within 3 %, although its heat capacity is
+  three times larger and changes with temperature.
+- What remains: oxygen +1 to +4 %, carbon monoxide +4 to +6 %, nitrogen about +6 %, carbon dioxide −1 to −3 %.
+
+Corrected reading: with D′ the frame defect at this density is close to one function of (T_r, ρ_r) for atoms
+and small molecules alike. The earlier statement that nitrogen and carbon dioxide "mark further scales" by
+16–32 % and by a factor of four does not stand; the residual marks are a few percent.
+
+Put in: as above (page-reader tables; critical constants and acentric factors from standard tables; linear
+interpolation). One density only. Not claimed: universality at other densities or near the critical point;
+that this collapse is absent from the literature (not checked).

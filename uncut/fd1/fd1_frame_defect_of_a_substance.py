@@ -49,6 +49,14 @@ Dl = sp.series(D_of(Hh, CVv).subs(V, 1/eps_), eps_, 0, 2).removeO()
 lead = sp.simplify(Dl/eps_)
 out['T5_leading'] = str(sp.simplify(lead))
 out['T5_matches_vdW'] = z(lead.subs(Bf, b - a/(Nk*T)).doit() - 2*a/(Nk*T))
+# T6: D' = (T/C_V) d[C_P/(alpha T) - C_V]/dT: zero for an ideal gas with ANY C_V(T); same as D for van der Waals;
+#     low density: D' V -> [2 T B' - (c_v - 1) T^2 B''] / c_v
+cT = sp.Function('c')(T)
+al6, CP6, Hh6 = responses(Nk*T/V, cT*Nk)
+out['T6_ideal_any_heat_capacity'] = z((T/(cT*Nk))*sp.diff(Hh6 - cT*Nk, T))
+Dp = sp.simplify((T/CVv)*sp.diff(Hh - CVv, T))
+lead6 = sp.simplify(sp.series(Dp.subs(V, 1/eps_), eps_, 0, 2).removeO()/eps_)
+out['T6_low_density'] = z(lead6 - (2*T*sp.diff(Bf, T) - (cv - 1)*T**2*sp.diff(Bf, T, 2))/cv)
 out = {k_: (bool(x_) if not isinstance(x_, str) else x_) for k_, x_ in out.items()}
 out['pass'] = all(x_ for x_ in out.values() if isinstance(x_, bool))
 json.dump(out, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'FD1_RESULT.json'), 'w'), indent=1)
