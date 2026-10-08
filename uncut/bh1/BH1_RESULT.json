@@ -1,0 +1,14 @@
+{
+ "T1_self_similar_2_1": true,
+ "T2_charge_corner_commutes": true,
+ "T3_eps_heat": true,
+ "T4_turn": true,
+ "T4_closed_form": "-x*(1 - x)/((1 - 3*x)**2*(x + 1))",
+ "T5_zeros": true,
+ "T5_pole": true,
+ "T5_one_sign": true,
+ "T5_pole_is_Q2_over_M2": "3/4",
+ "T6_first_cycle_x_1_2": "17/9",
+ "T6_rest_at_ends": true,
+ "pass": true
+}
