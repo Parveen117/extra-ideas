@@ -1,5 +1,7 @@
 # Physics
 
+- [RH → Yang–Mills transfer map](RH_YM_TRANSFER_MAP.md) — source-pinned theorem/result dictionary, existing YM75 applications, and the next TC1 excitation-gap contract.
+
 Physical numbers from the certified response theorems. Evidence here uses
 reference equations of state (CoolProp) and numpy; it is outside the
 frozen R1–R46 / MP1–MP2 register and its workflows.

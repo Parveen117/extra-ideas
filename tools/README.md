@@ -1,5 +1,7 @@
 # Tools
 
+For the next application of DS1, see [RH → Yang–Mills](../physics/RH_YM_TRANSFER_MAP.md): the exact diagonal map, applicable theorems, remaining core-gap hypotheses and pinned sources.
+
 Mathematical tools from two uploaded drafts of "new mathematical objects" (23 objects), 9 October 2026.
 The drafts are read by the owner's rule — the seam is the diagonal, the 45° line — and matched against the
 one law of the framework. [DS1](ds1/DS1_ONE_DIAGONAL.md) is that match. An object has a tool of its own only

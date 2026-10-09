@@ -1,0 +1,375 @@
+{
+  "schema": "rh_ym_structural_source_register_v1",
+  "date": "2026-10-09",
+  "purpose": "Navigation and source identity for a proposed RH-to-TC1/YM adapter; not a theorem certificate.",
+  "baseline_extra_commit": "80002cb2eed9fcbd810cb00477326ed146065072",
+  "sources": [
+    {
+      "id": "ds1",
+      "repository": "Parveen117/extra-ideas",
+      "commit": "80002cb2eed9fcbd810cb00477326ed146065072",
+      "path": "tools/ds1/DS1_ONE_DIAGONAL.md",
+      "git_blob_sha": "0b8339489d189b90e362bed53a840cec87f978c8",
+      "sha256": "c5bd7d951b2cf68c7b80983fc16f5d42cf6936f5e2f9efc4a7e76425c67a793e",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/extra-ideas/blob/80002cb2eed9fcbd810cb00477326ed146065072/tools/ds1/DS1_ONE_DIAGONAL.md"
+    },
+    {
+      "id": "tc1",
+      "repository": "Parveen117/extra-ideas",
+      "commit": "80002cb2eed9fcbd810cb00477326ed146065072",
+      "path": "physics/tc1/TC1_CORE_OF_TURNS.md",
+      "git_blob_sha": "33fe0cb84d8622bd3297af27944ee3a909eaf0f6",
+      "sha256": "e7ee96ac926ce65bbf0dffd929537e027747cd15843fa74fbbc9c37fa4c08e4a",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/extra-ideas/blob/80002cb2eed9fcbd810cb00477326ed146065072/physics/tc1/TC1_CORE_OF_TURNS.md"
+    },
+    {
+      "id": "tv1",
+      "repository": "Parveen117/extra-ideas",
+      "commit": "80002cb2eed9fcbd810cb00477326ed146065072",
+      "path": "physics/tv1/TV1_VALLEY_OF_TURNS.md",
+      "git_blob_sha": "7bc90f025ee448165fe3cc4b11ee8ffa1687ecf7",
+      "sha256": "4fa0e47faca818357137ad9f9f30da61acaf6612de618cc6abe37e98f9664871",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/extra-ideas/blob/80002cb2eed9fcbd810cb00477326ed146065072/physics/tv1/TV1_VALLEY_OF_TURNS.md"
+    },
+    {
+      "id": "ag1",
+      "repository": "Parveen117/extra-ideas",
+      "commit": "80002cb2eed9fcbd810cb00477326ed146065072",
+      "path": "physics/ag1/AG1_DIAGONAL_WALK.md",
+      "git_blob_sha": "6ac83b7ca65b54422543cbcbf16521e39bcba50a",
+      "sha256": "3069bbfc9457d87de26e89335d6845cc5aaafa4cee10917d75f4df0ad3b0ffd5",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/extra-ideas/blob/80002cb2eed9fcbd810cb00477326ed146065072/physics/ag1/AG1_DIAGONAL_WALK.md"
+    },
+    {
+      "id": "tw1",
+      "repository": "Parveen117/extra-ideas",
+      "commit": "80002cb2eed9fcbd810cb00477326ed146065072",
+      "path": "physics/tw1/TW1_TURN_BLOCK_WALK.md",
+      "git_blob_sha": "459db746875b9a65fd62408cc48a26eda4a631da",
+      "sha256": "139c179c968bdd7e0ca815531e4da60002c608f7284572cfc96e3e02c35e3c32",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/extra-ideas/blob/80002cb2eed9fcbd810cb00477326ed146065072/physics/tw1/TW1_TURN_BLOCK_WALK.md"
+    },
+    {
+      "id": "hl1",
+      "repository": "Parveen117/extra-ideas",
+      "commit": "80002cb2eed9fcbd810cb00477326ed146065072",
+      "path": "physics/hl1/HL1_HELICAL_WALK.md",
+      "git_blob_sha": "05de897261bbc66fc44f28cd998eaaaec4352d49",
+      "sha256": "dc99fa6800638344e812433ca14ef4d3c08957e21e609c5ec91d570603f18d39",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/extra-ideas/blob/80002cb2eed9fcbd810cb00477326ed146065072/physics/hl1/HL1_HELICAL_WALK.md"
+    },
+    {
+      "id": "ln1",
+      "repository": "Parveen117/extra-ideas",
+      "commit": "80002cb2eed9fcbd810cb00477326ed146065072",
+      "path": "physics/ln1/LN1_LOST_AND_RETURNED.md",
+      "git_blob_sha": "25ab1ada602da551f25cd82f07b1f7fa2621c9fc",
+      "sha256": "ebdff6c228b65db96fdca9f4b069fbf4935678f3d689be13b742de6f8e05facf",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/extra-ideas/blob/80002cb2eed9fcbd810cb00477326ed146065072/physics/ln1/LN1_LOST_AND_RETURNED.md"
+    },
+    {
+      "id": "t21",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "theorum/21_cut_memory_spectral_isomorphism.md",
+      "git_blob_sha": "e3f427a5966bc58daeddc546d2e36d687b71ca8b",
+      "sha256": "fc32026d8c6d7bd333c31dbc48aa123382e4d4af64ee1fe2329b097bdd2ad163",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/theorum/21_cut_memory_spectral_isomorphism.md"
+    },
+    {
+      "id": "t28",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "theorum/28_recognition_complete_finite_to_infinite_cut_theorem.md",
+      "git_blob_sha": "a2a362d8c37cd775c815e020c61ab3c37f606423",
+      "sha256": "7af37070353d5b69fcdf62c3c84ba4005773907bb9fba3c225adaba6cd197708",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/theorum/28_recognition_complete_finite_to_infinite_cut_theorem.md"
+    },
+    {
+      "id": "t39",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "theorum/39_native_source_kernel_no_blindness_strict_odd.md",
+      "git_blob_sha": "8e99c69bc25fe39b7157c4d4203dd6ae63e42dc2",
+      "sha256": "bf16658d62c15b45afb9ab35211aadeb1b28c45077452833b079db9c40eaa3b6",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/theorum/39_native_source_kernel_no_blindness_strict_odd.md"
+    },
+    {
+      "id": "t40",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "theorum/40_odd_native_classical_normalization_interface.md",
+      "git_blob_sha": "38ec39426c59a244a8c393932112f6c35cb661b1",
+      "sha256": "e0bd47b20a66d4e9323f012ea0db44856bbb534f0209e84ae290829ba3267ea6",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/theorum/40_odd_native_classical_normalization_interface.md"
+    },
+    {
+      "id": "t42",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "theorum/42_cut_graded_lambda_jacobian_tower_theorem.md",
+      "git_blob_sha": "b7850a2b059dfc0e072f9c423fefacff5233c287",
+      "sha256": "e5304cc970bfa0e18140aa1b5373f16733cd5613e25ae4f29642d10f5b6431ed",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/theorum/42_cut_graded_lambda_jacobian_tower_theorem.md"
+    },
+    {
+      "id": "t46",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "theorum/46_first_visible_jet_seam_quotient_theorem.md",
+      "git_blob_sha": "e3276b8c8bacf28c3bd2797f1538e6d11ca1dede",
+      "sha256": "787a4a7f3d43bd8c9231ed4e7114c5522a608a3bcf1797602719b817cb04b752",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/theorum/46_first_visible_jet_seam_quotient_theorem.md"
+    },
+    {
+      "id": "t49",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "theorum/49_local_to_uniform_seam_gap_theorem.md",
+      "git_blob_sha": "92e11b16a6be389c2bb14ec78afde16138dec92a",
+      "sha256": "b823500b717f010beafd959eacf2d69e461ceb735618375f3b031191b2acf5be",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/theorum/49_local_to_uniform_seam_gap_theorem.md"
+    },
+    {
+      "id": "t50",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "operator_foundation/sources/rkf_reference/theorum/50_native_seam_gap_odd_sector_covariance_theorem.md",
+      "git_blob_sha": "5207909a0d47fb9632a9e593f9fa10ef31fd78e8",
+      "sha256": "fc179998009a29cf393dbd6136719dc6ccedc5b7323f3284af55f813cc633a20",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/operator_foundation/sources/rkf_reference/theorum/50_native_seam_gap_odd_sector_covariance_theorem.md"
+    },
+    {
+      "id": "t51",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "theorum/51_odd_channel_exchange_law_theorem.md",
+      "git_blob_sha": "d23e384f79b81512b8a19303f0c6f27fd63f9af9",
+      "sha256": "c515d45334e1010c75750f15c1f5b1518bc4817e4956b01a55dbbec6952e48e4",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/theorum/51_odd_channel_exchange_law_theorem.md"
+    },
+    {
+      "id": "t52",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "theorum/52_native_seam_resolvent_theorem.md",
+      "git_blob_sha": "f4dfab4a575071a7debbb1a68778857ec9fc1c2e",
+      "sha256": "09a747b51fda15e90a3199d558e35c1c4c14d5733eca2d2c7d9deff2f94014ff",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/theorum/52_native_seam_resolvent_theorem.md"
+    },
+    {
+      "id": "t53",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "theorum/53_native_cut_square_factorization_theorem.md",
+      "git_blob_sha": "0791e3fb107267a1224b6e1f3cb4d7ab7b489133",
+      "sha256": "0b6276f8f25a66ae3e574c7936a8a75bca5fdca29a7c10e08363c42deade3323",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/theorum/53_native_cut_square_factorization_theorem.md"
+    },
+    {
+      "id": "t54",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "operator_foundation/sources/rkf_reference/theorum/54_infinite_face_recognition_completion_theorem.md",
+      "git_blob_sha": "e1fb6085d11743349074ce1ed5f6f559d5fd98a8",
+      "sha256": "e5a5622c6bb0e725162022cd50a68c853356108a21911872907dc474248123c3",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/operator_foundation/sources/rkf_reference/theorum/54_infinite_face_recognition_completion_theorem.md"
+    },
+    {
+      "id": "t74",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "theorum/74_lopa_ledger_contraction_theorem.md",
+      "git_blob_sha": "95a113f243c6286e9f5606750e2b1555f7a92c7d",
+      "sha256": "66882e017791b273024a3a737282aa43e3532709fec11707b926fe2896b64b20",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/theorum/74_lopa_ledger_contraction_theorem.md"
+    },
+    {
+      "id": "t75",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "theorum/75_selective_release_content_tail_theorem.md",
+      "git_blob_sha": "c975c7c2c01cbc40d9f0503f54afab9a6c8cd610",
+      "sha256": "59b19ea6fb44ab00ca2f61e3ff41c184d2fedb5f51d1fc2d2e0caa172c8885cc",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/theorum/75_selective_release_content_tail_theorem.md"
+    },
+    {
+      "id": "t76",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "theorum/76_seam_flow_meter_theorem.md",
+      "git_blob_sha": "1c516299af716200e64ae8138de93cfbd9f21cde",
+      "sha256": "388d3667a7d5e49a7b6a58d3c28d1ac5b1e0ea2397aefcb89d96d9cc2798bd51",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/theorum/76_seam_flow_meter_theorem.md"
+    },
+    {
+      "id": "wc",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "operator_foundation/theory/WEIGHTED_OPERATOR_COMPLETION.md",
+      "git_blob_sha": "c96e398736d2a2f0ba29e04d37de08b4fa610523",
+      "sha256": "32a9d9965ba651c26cb9ea145f2205e97745f047be483659bf49fc853ba34d5d",
+      "reading_scope": "SECTIONS_WC3_TO_WC6",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/operator_foundation/theory/WEIGHTED_OPERATOR_COMPLETION.md"
+    },
+    {
+      "id": "rkfindex",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "MATHEMATICS_INDEX_2026_09_16.md",
+      "git_blob_sha": "d866992cb7137ec645375e20dc57c588ed7a87ba",
+      "sha256": "b638fe2cdaae8f72f3a105a9b5f7cbdd34f46bff5b9777cc03bf3f90a5586dfc",
+      "reading_scope": "FULL_INDEX_NOT_ALL_LINKED_PROOFS",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/MATHEMATICS_INDEX_2026_09_16.md"
+    },
+    {
+      "id": "rkfhome",
+      "repository": "Parveen117/Recognition-Kernel-Framework",
+      "commit": "e8e3089745bf7dc0532d01c62a5f660f5658c6f0",
+      "path": "operator_foundation/README.md",
+      "git_blob_sha": "1776107510b5d35788144a0fc43316cb304ffba1",
+      "sha256": "5fa13d4df90b33597e3c72d1860258d0492d8680583e7b7e3b2e13dddfc6bbc9",
+      "reading_scope": "FULL_HOME_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/Recognition-Kernel-Framework/blob/e8e3089745bf7dc0532d01c62a5f660f5658c6f0/operator_foundation/README.md"
+    },
+    {
+      "id": "ym75",
+      "repository": "Parveen117/Publications",
+      "commit": "e75e453b2fdb082570aa24e25a10488ec5d87b41",
+      "path": "papers/yang-mills-certified-benchmark/YM75_RH_SOURCE_RESOLVED_SPECTRAL_TRANSFER.md",
+      "git_blob_sha": "5c0e7b85672286b34e7d9cd6bf090ffc89d30429",
+      "sha256": "90b05788546221bd872124659abfae0ab47aa452473540668543347bfc720510",
+      "reading_scope": "FULL_TRANSFER_STATEMENT",
+      "url": "https://github.com/Parveen117/Publications/blob/e75e453b2fdb082570aa24e25a10488ec5d87b41/papers/yang-mills-certified-benchmark/YM75_RH_SOURCE_RESOLVED_SPECTRAL_TRANSFER.md"
+    },
+    {
+      "id": "ym93",
+      "repository": "Parveen117/Publications",
+      "commit": "5290ac92f362941023ff550eb3a8aa09da770302",
+      "path": "papers/yang-mills-certified-benchmark/YM93_BOCHNER_CONTINUATION.md",
+      "git_blob_sha": "558cff7045f0b39dbfb43f5d60526fb8bc5a30a0",
+      "sha256": "48aa56db40e9df939c0bec3417e4961100d270c8535904b1da3321e2e7a091ac",
+      "reading_scope": "INTRO_MODEL_BOCHNER_AND_CLAIM_BOUNDARY",
+      "url": "https://github.com/Parveen117/Publications/blob/5290ac92f362941023ff550eb3a8aa09da770302/papers/yang-mills-certified-benchmark/YM93_BOCHNER_CONTINUATION.md"
+    },
+    {
+      "id": "rh09",
+      "repository": "Parveen117/RH-Framework",
+      "commit": "c8d7a1eb24fa4f22eeaff06d9d8ebdfd9106820a",
+      "path": "docs/T09_DIAGONAL_T03_COMPLETION_SCHEDULE.md",
+      "git_blob_sha": "4cc88018e8ee50077b690b04dfcdd244e4730bd9",
+      "sha256": "cdee3a8753f4a047320e6f5e8f6cb90b8812a50d96043775bb474e18a554ac00",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/RH-Framework/blob/c8d7a1eb24fa4f22eeaff06d9d8ebdfd9106820a/docs/T09_DIAGONAL_T03_COMPLETION_SCHEDULE.md"
+    },
+    {
+      "id": "rh10",
+      "repository": "Parveen117/RH-Framework",
+      "commit": "c8d7a1eb24fa4f22eeaff06d9d8ebdfd9106820a",
+      "path": "docs/T10_ADAPTIVE_E5_NUMERICAL_REFINEMENT.md",
+      "git_blob_sha": "cd7ddfd14dcc1c40501227521e075ccdabdd5933",
+      "sha256": "d2116ad2a7143b24c191cd73344a52c4b115608e5e158d1f4e7a1f5af65b70ec",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/RH-Framework/blob/c8d7a1eb24fa4f22eeaff06d9d8ebdfd9106820a/docs/T10_ADAPTIVE_E5_NUMERICAL_REFINEMENT.md"
+    },
+    {
+      "id": "rh11",
+      "repository": "Parveen117/RH-Framework",
+      "commit": "c8d7a1eb24fa4f22eeaff06d9d8ebdfd9106820a",
+      "path": "docs/T11_UNIFORM_SCALED_GRAM_SOLVE_MODULUS.md",
+      "git_blob_sha": "8e8311af782496dcd9d7ce76d63d986843f37cf6",
+      "sha256": "6c06cce24c854f5565e0f541237f29c94a54cd33fbe7caf86f91a6ba5213bf58",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/RH-Framework/blob/c8d7a1eb24fa4f22eeaff06d9d8ebdfd9106820a/docs/T11_UNIFORM_SCALED_GRAM_SOLVE_MODULUS.md"
+    },
+    {
+      "id": "rh11boundary",
+      "repository": "Parveen117/RH-Framework",
+      "commit": "c8d7a1eb24fa4f22eeaff06d9d8ebdfd9106820a",
+      "path": "docs/T11_CLAIM_BOUNDARY.md",
+      "git_blob_sha": "f6f13e06142a6f9a2d3a47a0e5f13390c6354d29",
+      "sha256": "5b59e1ccc541c2e5d5e760266f35a6c282750eea8ca81f0ea4ccc0d56be40c95",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/RH-Framework/blob/c8d7a1eb24fa4f22eeaff06d9d8ebdfd9106820a/docs/T11_CLAIM_BOUNDARY.md"
+    },
+    {
+      "id": "e5",
+      "repository": "Parveen117/RH-Framework",
+      "commit": "c8d7a1eb24fa4f22eeaff06d9d8ebdfd9106820a",
+      "path": "theorems/T01_E5_NATIVE_RATIONAL_UGD_REFINEMENT_ADAPTER.md",
+      "git_blob_sha": "f54f940aad9a4c1723a3ab1b64f85616c27c60fa",
+      "sha256": "6c3a717f19da380b87603d563487667770b0f16aece0929e1454b6ecf0f863a3",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/RH-Framework/blob/c8d7a1eb24fa4f22eeaff06d9d8ebdfd9106820a/theorems/T01_E5_NATIVE_RATIONAL_UGD_REFINEMENT_ADAPTER.md"
+    },
+    {
+      "id": "e4d",
+      "repository": "Parveen117/RH-Framework",
+      "commit": "fd104f46cc8c99c05f0e05b10f18c9332e8219de",
+      "path": "theorems/T01_E4D_NATIVE_MEAN_MULTIPLIER_BOUND.md",
+      "git_blob_sha": "70286cc142db3ecd062e064d0aea41205d72ac76",
+      "sha256": "8fc9e7c4126171758a5fce4f6b1f7aecc368837022a79816eb8178d6cb33070f",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/RH-Framework/blob/fd104f46cc8c99c05f0e05b10f18c9332e8219de/theorems/T01_E4D_NATIVE_MEAN_MULTIPLIER_BOUND.md"
+    },
+    {
+      "id": "d04audit",
+      "repository": "Parveen117/RH-Framework",
+      "commit": "4c3359668f8957c7e4de75cecb292a64465e0d74",
+      "path": "theorems/docks/D04_NEAR_ZERO_COERCIVITY_REOPEN_AUDIT.md",
+      "git_blob_sha": "764027ecc4eb801ceeec2227823c6cab665befd7",
+      "sha256": "884e564cbf59c4aea75cc43caecd846c9b3543166b10552fa6463667953d6c66",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/RH-Framework/blob/4c3359668f8957c7e4de75cecb292a64465e0d74/theorems/docks/D04_NEAR_ZERO_COERCIVITY_REOPEN_AUDIT.md"
+    },
+    {
+      "id": "d04e",
+      "repository": "Parveen117/RH-Framework",
+      "commit": "4c3359668f8957c7e4de75cecb292a64465e0d74",
+      "path": "theorems/docks/D04_ROUTE_E_SEAM_JET_SCHUR_ENGINE.md",
+      "git_blob_sha": "04115e28dec5ab8feaf7d32339cf4bd0b3d45a40",
+      "sha256": "56ec923ef6bc06d8b0be3c8b907b8f95e3b5454079ec73f43607de8facbb1165",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/RH-Framework/blob/4c3359668f8957c7e4de75cecb292a64465e0d74/theorems/docks/D04_ROUTE_E_SEAM_JET_SCHUR_ENGINE.md"
+    },
+    {
+      "id": "cr1",
+      "repository": "Parveen117/extra-ideas",
+      "commit": "80002cb2eed9fcbd810cb00477326ed146065072",
+      "path": "physics/cr1/CR1_CORE_RATES.md",
+      "git_blob_sha": "ce84b2d93902a9fd140b2d7155ec14f820ec6776",
+      "sha256": "8b63599d3b29082a275d750af76fa6d0ad7fbe9bf9b5d4534b3be8a4f5c1fbb5",
+      "reading_scope": "FULL_STATEMENT_AND_BOUNDARY",
+      "url": "https://github.com/Parveen117/extra-ideas/blob/80002cb2eed9fcbd810cb00477326ed146065072/physics/cr1/CR1_CORE_RATES.md"
+    }
+  ],
+  "evidence_scope": {
+    "new_adapter": "OPEN_NOT_IMPLEMENTED",
+    "numerical_replay": "TC1, DS1 and CR1 local tests only; recorded in the PR validation",
+    "private_MP_chain": "NOT_REPLAYED",
+    "complete_RH_archive": "INDEXED_SELECTIVELY_READ_NOT_AUDITED_WHOLESALE",
+    "YM99_YM100": "CITED_BY_TC1_ORIGINALS_NOT_LOCATED_IN_THIS_REVIEW"
+  }
+}

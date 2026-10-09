@@ -23,3 +23,19 @@ Checked by searching every stage folder of `physics/` for a citation. "Unused" m
 
 Order proposed: theorum/31–32 against MO1's assumption; then T01-A/B/C as the energy of WQ1/GW1; then the
 torsion contact term and the cosmology of the research branch read with the line's source statement.
+
+## Successor comparison, 9 October 2026
+
+The dated citation inventory above is retained. The new
+[RH → Yang–Mills transfer map](RH_YM_TRANSFER_MAP.md) advances its RH E4D/E5,
+RKF T28/T49–54/T74–76 and Publications entries with exact commit pins and
+application hypotheses. It also includes RH T09–T11 and the D04 near-zero/jet
+audit. YM75 already applies RH source-resolved spectral and residual tools;
+“unused in this physics citation search” does not mean unused in Publications.
+
+The fresh target is TC1/CR1's uncomputed pure-number excitation gap, followed by
+physical matching and volume/cutoff survival. TC1's quartic form is already
+built; CR1 supplies ground windows and invariant-sector second-rate upper bounds.
+Its second-rate lower bound and other physical sectors remain open. The proposed
+core-gap adapter remains open; this navigation update does
+not change any frozen theorem or recorded certificate.
