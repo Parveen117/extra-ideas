@@ -139,3 +139,11 @@ WHAT THE CORE DOES AT FOUR TURNS ; A MASS GAP                                   
 python tv1_valley_of_turns.py
 python -m unittest test_tv1
 ```
+
+## Later note (TC1, 9 October)
+
+[TC1](../tc1/TC1_CORE_OF_TURNS.md) takes the core. The weight of all pairs is the second symmetric function of
+the three squared singular values of the block matrix — the one law X = R − D, zero on the valley — for any
+number of directions; the number of directions is the exponent (d − 4)/2 of the measure, zero at four. For four
+turns every doubling of the largest number adds (Log 2)/16 (exact bounds), and the logarithm is cut at the
+core's own scale |C| ~ κ^(−1/4). Nothing above is changed.

@@ -1,0 +1,45 @@
+{
+ "checks": {
+  "C1 X = (1/2)[(tr G)^2 - tr G^2] = sum of the 2 x 2 minors of G = C C^t, d = 2..6 (100 exact matrices)": true,
+  "C1 X is unchanged by turning the three cuts and by turning the d directions (exact rotations)": true,
+  "C1 a fourth direction adds no fourth number: every 4 x 4 minor of C^t C is zero (d = 4, 5, 6)": true,
+  "C2 X = R - D with R = (tr G)^2/2, D = tr G^2/2 ; X >= 0 ; 1/3 <= D/R <= 1": true,
+  "C2 X = 0 on the valley (D = R, the diagonal) ; D/R = 1/3 when the three numbers are equal": true,
+  "C2 as a form in the three numbers e2 has values 2, -1, -1: signature (1, 2), null on the valley": true,
+  "C3 about a valley point C = n p^t + T: X = |p|^2 |T|^2 - |T p|^2 + X(T) (60 exact cases, d = 3, 4, 5)": true,
+  "C3 the layer is |p|^2 times the projector across p in the space of turns: one rate for all transverse directions": true,
+  "C3 ground rate of one transverse direction is |p|/sqrt 2, so the layer rises along the valley as sqrt 2 (d - 1)|p|": true,
+  "C3 in the variables of TV1 the layer has the tree determinant (prod p_i^2)(sum p_i^2)^(d-2)": true,
+  "C4 d = 4: means of e1, e2, e3, e1^2, e1 e2 from the entries equal those from prod|x_a - x_b| prod x^(0) exp(-sum x)": true,
+  "C4 d = 6: means of e1, e2, e3, e1^2, e1 e2 from the entries equal those from prod|x_a - x_b| prod x^(1) exp(-sum x)": true,
+  "C4 control: the flat measure of four turns does not give the means of six": true,
+  "C5 along the valley the comparison integral is 1/(16 x1) + lower powers, and the inner integral without corrections is exactly 1/(16 x1)": true,
+  "C5 (Log 2)/16 - delta <= K(2 Lambda) - K(Lambda) <= (Log 2)/16 with 0 < delta(Lambda) < 1/(8 Lambda^2), Lambda = 2 .. 32": true,
+  "C5 scaling: the measure has degree 6 and e2 degree 2 in the numbers, so a coupling kappa gives kappa^-3 K(Lambda sqrt kappa)": true,
+  "C6 X has degree four: under C -> lam C the kinetic part goes as lam^-2 and X as lam^4 (free readings, d = 3, 4)": true,
+  "C6 Gaussian reading: ground rate <= c_d g^(2/3), c_d^3 = (729/256) d^3 (d - 1) ; 5.35 < c_3 < 5.36 ; 8.17 < c_4 < 8.18": true,
+  "C6 the layer's ground rate |p|/sqrt 2 does not depend on g: the valley is closed by a rise that carries no coupling": true
+ },
+ "numbers": {
+  "four turns: means of e1, e2, e3, e1^2, e1 e2": [
+   "6",
+   "9",
+   "3",
+   "42",
+   "72"
+  ],
+  "delta(Lambda), Lambda = 2 .. 32": [
+   0.018141810240505953,
+   0.0031696146271260562,
+   0.0008159646536754792,
+   0.0002054913111351218,
+   5.14669899018827e-05
+  ],
+  "comparison series: powers of x1 and coefficients": {
+   "-7": "-15/256",
+   "-5": "9/64",
+   "-3": "-9/64",
+   "-1": "1/16"
+  }
+ }
+}

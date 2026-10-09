@@ -211,6 +211,13 @@ the lattice of d directions. For three turns it is finite (the returns of one wa
 Log 2/π² at every doubling (the meetings of two walks). Four is where the core can no longer be left out.
 What the core does there is not computed.
 
+TC1 takes the core. The weight of all pairs of d turns is x₁x₂ + x₂x₃ + x₃x₁ in the three squared singular
+values of the block matrix: this page's law, R = ½(Σx)², D = ½Σx², zero exactly on the valley, lost over seen
+between ⅓ and 1. A fourth direction adds no fourth number; the number of directions is the exponent (d − 4)/2
+of the measure, zero at four. There each doubling of the largest number adds (Log 2)/16, and the logarithm is
+cut at the core's own scale. The rates of the core are g^(2/3) times pure numbers: the cut fixes the form of a
+mass, not its size.
+
 ## Reproduce
 
 ```text

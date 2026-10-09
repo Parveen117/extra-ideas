@@ -114,3 +114,10 @@ changed.
 For the constant modes of d turns the quadratic layer leaves the weight (Σ sin²α_i)^−(d−2) on the valley:
 closed for three turns, a logarithm at the centre points for four (TV1). This places where the non-quadratic
 part of the verdict's wall must enter; it does not pass the wall. Nothing above is changed.
+
+## Later note (TC1, 9 October)
+
+The core of the constant modes has rates g^(2/3) × pure numbers by the degree of the commutator alone, and a
+valley closed by a rise free of the coupling (TC1). So the cut fixes the form of a mass count, not its size:
+the size is the cell's, as M2 and SC1 say. The pure numbers and a gap uniform in the volume are not obtained.
+Nothing above is changed.
