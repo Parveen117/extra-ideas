@@ -44,6 +44,8 @@ physical identification in a gap proof. See SG1 section 6.
 | Source split | \(S=Z^\dagger Z=R_{\rm seen}+D_{\rm lost}\) | Orthogonal/complementary cut projectors P+Q=I give \(R_{\rm seen}=Z^\dagger PZ, D_{\rm lost}=Z^\dagger QZ\). The representation/pairing is declared or derived. |
 | Signed mirror reading | \(F=Z^\dagger(P-Q)Z=R_{\rm seen}-D_{\rm lost}\) | F=0 is the balanced seam. R here is a recognized form, **not** the turn operator above. |
 | Finite memory | \(F=A-VV^\dagger,\ B=V^\dagger A^{-1}V\) | A has a positive floor. \(N_-(F)=N_+(B-I)\), \(\ker F\cong\ker(I-B)\). Rank is a proved target property, not a universal five. |
+| Computed observer floor | \(\delta=z-v/(z-\eta)\) | OM1: a normalized computed reading ψ has η=⟨ψ,hψ⟩<z≤E1 and variance v. Its full physical hidden compression QhQ≥δ; ψ is not assumed to be the exact vacuum. |
+| Actual core return | \(\eta-E-\Sigma(E)=0,\quad\Sigma(E)=\langle r,(D-E)^{-1}r\rangle\) | OM1: r=Qhψ, D=QhQ, E<δ. A finite hidden trial Y retains the complete residual R=r−(D−E)Y; its return error is at most ||R||²/(δ−E). |
 | Certified reserve | \(u_n+e_n<1\) | Outward finite memory top plus complete comparison/tail error. Absolute floor m gives \(F\ge m(1-u_n-e_n)I\). Both m and the reserve must survive the intended limit. |
 | Cut-graded flow | \(G_{e/o}=\tfrac12(G\pm JGJ)\) | \(JG_oJ=-G_o\). Pure odd flow gives \(JU_tJ=U_{-t}\); a general flow also has an even part. |
 | Curvature | \(F_{\mu\nu}=e_\mu A_\nu-e_\nu A_\mu+[A_\mu,A_\nu]-c_{\mu\nu}^{\ \rho}A_\rho\) | Connection and frame are declared. The bracket alone is the constant-coordinate special case. |
@@ -77,7 +79,7 @@ observable/protocol, not only a coordinate rotation.
 
 | Home | Authority |
 |---|---|
-| extra-ideas | Current research focus; ONE_LAW → DS1 → AG1/TW1/HL1 → TV1 → TC1 → CR1 → CM1 → SG1. SL1 is Claude's seam-law proof on the parallel physics branch. Earlier packets are preserved. |
+| extra-ideas | Current research focus; ONE_LAW → DS1 → AG1/TW1/HL1 → TV1 → TC1 → CR1 → CM1 → SG1/GC1 → OM1. SL1 and GC1 are Claude's stages on the parallel physics branch. OM1 supplies a computed observer's actual hidden floor and return enclosure. Earlier packets are preserved. |
 | Recognition-Kernel-Framework/main/operator_foundation | Canonical shared operator engine. Read MATHEMATICS_INDEX, native primitive order and exact theorem capsule. Corrected T50/T54 are in its preserved rkf_reference tree. |
 | RH-Framework | Ledger and separate pinned T09–T11/D04 stacks. Identically numbered theorem labels from different stacks are not interchangeable. |
 | Publications | Existing YM75 RH transfer and YM93 actual-vacuum continuation. Main and stacked development branches differ; cite commits, not only “latest”. |
@@ -106,9 +108,30 @@ are not independently promoted here.
    support the proof. Exact lowest-sector identity remains open. See
    [SG1](physics/sg1/SG1_GAUGE_SINGLET_GAP.md), which supersedes the older
    comparison map's open core-gap checkpoint without changing frozen packets.
-   CM1's excitation uppers 7.5787 / 10.9738 and scalar source rank 26 remain
-   useful for sharper bounds. The next physical obligation is nonconstant-mode
-   matching and survival under volume/cutoff changes: fixed-g core scaling
-   g^(2/3)/L alone supplies no volume-uniform or continuum gap.
-5. Keep meaningful discoveries and revisions in the canonical comparison map,
-   with source pin, hypothesis, target and next measurable obligation.
+5. **GC1 at `b332a71894a87484015342197d519fe2f41fccdb` was reviewed and
+   replayed (42 checks, 8 tests).** It independently obtains the singlet
+   second-level floor, uses Temple's variance bound for the ground, and proves
+   that E0(d)/(d(d−1)^(1/3)) is nondecreasing. Its ground windows are
+   [5.1865, 5.1868] / [7.9942, 8.0029]. Its executable angular lower 3.245
+   is valid; the prose's 3.2451 is an upward rounding and is not a lower
+   bound. The main certificate uses 3.245 and remains valid.
+6. **[OM1](physics/om1/OM1_OBSERVER_RETURN.md) now runs the actual observer
+   return on this free physical core.** The retained cut is one computed
+   Gaussian-polynomial reading, with 67 / 102 coefficients, not 67 / 102
+   retained directions. Its entire physical hidden complement has certified
+   floor 5.52076320 / 8.00516987. Two hidden trial directions and a complete
+   residual bound give ground windows [5.186691205, 5.186742055] /
+   [8.002732159, 8.002896171]. With SG1's lower and CM1's upper for E1,
+   the gap windows are [0.334257945, 2.392008795] /
+   [0.003103829, 2.971067841]. These sharper ground bounds do not identify
+   the lowest excited sector. OM1's rank-one source does not replace CM1's
+   rank 26 for its entire 67-reading cut. A computed approximate vacuum
+   does not justify using E1 itself as its hidden floor.
+7. The next physical obligation remains nonconstant-mode matching and survival
+   under volume/cutoff changes: fixed-g core scaling g^(2/3)/L alone supplies
+   no volume-uniform or continuum gap. A sharper excitation lower also remains
+   useful; OM1's hidden floors do not reach CM1's test energies 6 and 9.
+8. Keep meaningful discoveries and revisions with source pin, hypothesis,
+   target and next measurable obligation. The older comparison map is pinned
+   inside CM1's frozen certificate; use this context and new stage notes for
+   subsequent progress unless intentionally regenerating the dependent packet.
