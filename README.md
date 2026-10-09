@@ -8,6 +8,14 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
+Latest compact Yang–Mills development: **[CM2 — fixed low levels match the core in every centre sector](physics/cm2/CM2_COMPACT_CORE_MATCHING.md)**.
+For each of the eight fixed centre characters, E_k(θ)/(2θ^(1/3)) tends to
+the corresponding free physical core level. PC1's cluster floor and the exact
+Haar/localization adapter give a common internal-gap limit coefficient >1.0112,
+with explicit positive bounds from θ=2·10⁹. The gap across different centre
+sectors has leading normalized limit zero. This is a one-site theorem;
+spatial-volume and continuum matching remain open.
+
 Latest mathematical support: **[GE4 — minimal observer-memory recovery](https://github.com/Parveen117/Publications/blob/6add222c960d539fa7f6a80a9974b0253310cf88/papers/generalized-euler-evolution/GE4_MINIMAL_OBSERVER_MEMORY.md)**.
 Native response moments now determine the smallest observable linear
 realization: a flat moment Gram matrix of rank r needs r-1 memory
