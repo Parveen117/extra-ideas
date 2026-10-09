@@ -213,3 +213,9 @@ python -m unittest test_hl1
 [TV1](../tv1/TV1_VALLEY_OF_TURNS.md) takes H7 to d turns: the commutator weight splits exactly into a quadratic
 layer and a quartic core; on the valley the layer leaves the weight (Σ sin²α_i)^−(d−2), a sum over closed
 paths; it is integrable for three turns and logarithmic for four. Nothing above is changed.
+
+## Later note (SL1, 9 October)
+
+[SL1](../sl1/SL1_SEAM_LAW_FROM_THE_WALK.md) proves the seam law of the pair — S(1/u) = u·S, F(1/u) = u·L, L(1/u) = u·F — from the diagonal
+step, the two means and one count at the weak end; the only input from outside the walk is the area under
+Exp(−πx²). So u·M(S, L) = 1 of H3 is proved, and the first sheet term of H5 and the seam values of H6 follow from the law. Nothing above is changed.

@@ -130,3 +130,9 @@ CONTINUATION, COMPLETED FUNCTION, ZEROS ; N1 / N2 / N3 ; RH                     
 python pm1_prime_turn_series.py
 python -m unittest test_pm1
 ```
+
+## Later note (SL1, 9 October)
+
+[SL1](../../physics/sl1/SL1_SEAM_LAW_FROM_THE_WALK.md) proves the seam law of the pair — S(1/u) = u·S, F(1/u) = u·L, L(1/u) = u·F — from the diagonal
+step, the two means and one count at the weak end; the only input from outside the walk is the area under
+Exp(−πx²). This is P5 at k = 0; for k ≥ 1 the equality is still agreement. Nothing above is changed.

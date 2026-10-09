@@ -224,6 +224,12 @@ means follow from one rule; a ladder read by exact counts gives the lowest rate 
 second below 8.048 for three turns (6.32, 8.003 and 11.566 for four). A bound from below for the second rate,
 and so a certified difference, is not obtained.
 
+SL1 proves the seam law of the pair by the line's own steps. One diagonal step is three substitutions on the
+lattice (a² = a′² + c′², b² = a′² − c′², c² = 2a′c′); the mean of source and flip is 1, the mean of source and
+lost part is caught between 2⁻ⁿL(u/2ⁿ) and 2⁻ⁿS(u/2ⁿ), and the count at the weak end closes them on 1/u. A
+right triangle is fixed by its two means, so (S, F, L) at 1/u is (uS, uL, uF) at u. The mirror exchanges flip
+and lost part because it exchanges the two means. The one outside input is the area under Exp(−πx²).
+
 ## Reproduce
 
 ```text

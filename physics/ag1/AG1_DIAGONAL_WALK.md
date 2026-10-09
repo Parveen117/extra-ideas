@@ -214,3 +214,9 @@ A8 is proved at every coupling in [TW1](../tw1/TW1_TURN_BLOCK_WALK.md). The step
 there — a boost by the pair's ratio, ρ′r′ = (ρ − r)/(1 − rρ) — and the record is the pair's lost parts summed
 along the walk. The flip of the turn block is positive at every coupling by the walk from the strong side, so
 A6's positivity no longer rests on the couplings tried. Nothing above is changed.
+
+## Later note (SL1, 9 October)
+
+[SL1](../sl1/SL1_SEAM_LAW_FROM_THE_WALK.md) proves the seam law of the pair — S(1/u) = u·S, F(1/u) = u·L, L(1/u) = u·F — from the diagonal
+step, the two means and one count at the weak end; the only input from outside the walk is the area under
+Exp(−πx²). So A1 is proved, A2 follows from the step's substitutions, and the mirror description of A6 is one change in u of that law. Nothing above is changed.

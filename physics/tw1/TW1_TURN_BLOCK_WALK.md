@@ -265,3 +265,9 @@ the multiplicative law of the block K₊ + K₋K (EMK-2 T2; F00-G 7.1): Log x(ρ
 ledger over the sheets of the deck step 1 + ι, each with scale 2ⁿ and count L_n². The weak-end value 4u/π is
 what a reading in powers of u keeps; its residue is certified there and is the first sheet term. The torus
 record of the control is the two-turn commutator record. Nothing above is changed.
+
+## Later note (SL1, 9 October)
+
+[SL1](../sl1/SL1_SEAM_LAW_FROM_THE_WALK.md) proves the seam law of the pair — S(1/u) = u·S, F(1/u) = u·L, L(1/u) = u·F — from the diagonal
+step, the two means and one count at the weak end; the only input from outside the walk is the area under
+Exp(−πx²). So the limit π/2 of W4 and the 4u/π of W2 follow from the law and are no longer held as classical. Nothing above is changed.
