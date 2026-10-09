@@ -1,0 +1,171 @@
+{
+ "stage": "DR1",
+ "checks": 20,
+ "passed": 20,
+ "all_pass": true,
+ "detail": {
+  "D1 the weight read by columns equals the weight read by rows (d = 3, 4, 5, 7; exact matrices)": true,
+  "D1 a pair is an oscillator of frequency |r|/2 in d - 1 directions; two pairs give (d - 1)|r|/2": true,
+  "D2 unit^3 = (d - 1)^2/16 : (1/(4 l^2)) = ((d - 1)/2) l": true,
+  "D2 the kept polynomials solve the equation up to their last degrees; tails under 10^-19": true,
+  "D2 first levels, m = 4 .. 14: u > 0 on the whole half line at each floor": true,
+  "D2 second levels, d = 4 .. 10: one node, then u < 0 for ever, at each floor": true,
+  "D2 controls: 0.02 above each of four floors the same certificates are refused": true,
+  "D2 the floors rise with m and stand above the closed floor (3/4)(2m - 1)^(2/3)": true,
+  "D2 closed floor: 27 A^2 B/4 = (27/64)(4p + 1)^2 at k^2 = 2/9, A = 3k(4p + 1)/4, B = 1/2": true,
+  "D4 the readings are exact (<psi, h psi> two ways) and have positive spread, d = 3 .. 10": true,
+  "D4 the line by rows is above the reading: a gap for every d = 3 .. 10": true,
+  "D4 the lowest rate from both sides, above three copies of one row, d = 3 .. 10": true,
+  "D4 three turns: rows and columns give the same line (5.5210)": true,
+  "D4 four turns: gap >= 0.44 by rows, against 0.0031 by columns": true,
+  "D4 five and more turns: the line by columns is under the lowest rate, the line by rows above it": true,
+  "D4 four turns: gap window with CM1's turning reading": true,
+  "D4 the cubes rho_d^3 = E^3/(d^3 (d - 1)) rise with d, window after window, d = 3 .. 10": true,
+  "D5 (729/1024)(d - 1)^2 (2d - 1)^2 <= (729/256) d^3 (d - 1)(1 - 2/d) ... the ratio is at least 1 - 2/d, d = 3 .. 400": true,
+  "D5 three copies of the closed floor: 27 unit^3 (27/64)(2d - 1)^2 = (729/1024)(d - 1)^2 (2d - 1)^2": true,
+  "D5 the certified windows lie between the closed bounds, d = 3 .. 10": true
+ },
+ "numbers": {
+  "floors of one row: m, first level, second level (l = 0)": [
+   [
+    3,
+    2.3381,
+    4.0879
+   ],
+   [
+    4,
+    2.87,
+    4.491
+   ],
+   [
+    5,
+    3.3592,
+    4.8824
+   ],
+   [
+    6,
+    3.8155,
+    5.2609
+   ],
+   [
+    7,
+    4.2461,
+    5.6277
+   ],
+   [
+    8,
+    4.6561,
+    5.9837
+   ],
+   [
+    9,
+    5.0489,
+    6.3301
+   ],
+   [
+    10,
+    5.427,
+    6.6676
+   ],
+   [
+    11,
+    5.7924,
+    null
+   ],
+   [
+    12,
+    6.1466,
+    null
+   ],
+   [
+    13,
+    6.491,
+    null
+   ],
+   [
+    14,
+    6.8264,
+    null
+   ]
+  ],
+  "d, line, lowest rate (low, high), gap floor, rho^3 (low, high)": [
+   [
+    3,
+    5.521,
+    5.1865,
+    5.1868,
+    0.3342,
+    2.58363,
+    2.58399
+   ],
+   [
+    4,
+    8.4454,
+    8.0028,
+    8.0029,
+    0.4425,
+    2.6695,
+    2.66957
+   ],
+   [
+    5,
+    11.6008,
+    11.0664,
+    11.0707,
+    0.5301,
+    2.71052,
+    2.71361
+   ],
+   [
+    6,
+    14.9597,
+    14.3543,
+    14.3573,
+    0.6024,
+    2.73856,
+    2.74028
+   ],
+   [
+    7,
+    18.5022,
+    17.8361,
+    17.8384,
+    0.6639,
+    2.75711,
+    2.75815
+   ],
+   [
+    8,
+    22.2126,
+    21.4927,
+    21.4948,
+    0.7179,
+    2.77019,
+    2.77095
+   ],
+   [
+    9,
+    26.0776,
+    25.3096,
+    25.3115,
+    0.7662,
+    2.77998,
+    2.78056
+   ],
+   [
+    10,
+    30.0858,
+    29.2745,
+    29.2762,
+    0.8097,
+    2.78759,
+    2.78804
+   ]
+  ],
+  "four turns: gap window": [
+   0.4425,
+   2.971
+  ],
+  "limit of rho": 1.41741
+ }
+}

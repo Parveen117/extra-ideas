@@ -171,7 +171,7 @@
     "physics/tc1/tc1_core_of_turns.py": "8dd5733f6ba736280bbd1d4121a437301482e526dbf6effecc0c417a86dd9a63",
     "physics/cm1/CM1_CORE_SECTOR_MEMORY.md": "76758a131c6e0a081bf9d9d0e880a10425d4dc824e50fe0fff76b0c7b8c80ce3",
     "physics/sg1/sg1_singlet_gap.py": "ca14eab85e902fff87a5fddd0cebaa18017100ce8ba293128780228703bf13cf",
-    "physics/sg1/SG1_GAUGE_SINGLET_GAP.md": "9ed93d2fbb450391d92cd8888d733f56a91b6725e2d56b4df55458bdeb343ec5",
+    "physics/sg1/SG1_GAUGE_SINGLET_GAP.md": "de2b561a2944b2ba6fe3fcf99236be325e3171993cbe09301abb3c7668420cbd",
     "physics/sg1/test_sg1.py": "745aca4766e8fa48f9297a12813502615b7d79547d610056ae33f4786430d47a"
   }
 }

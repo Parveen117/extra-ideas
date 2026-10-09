@@ -232,7 +232,7 @@ and lost part because it exchanges the two means. The one outside input is the a
 
 GC1 turns the comparison of CR1 into a count. One turn has exact floors for its first two levels (2.3381 and
 4.0879, by the signs of an exact series on the half line) and for readings with zero average on the sphere
-(3.2451). A reading unchanged by turning all cuts together cannot have exactly one turn outside its sphere
+(3.245). A reading unchanged by turning all cuts together cannot have exactly one turn outside its sphere
 average, so at most one reading of the core lies under 5.5210 for three turns and 8.0060 for four: the gap is
 at least 0.3342 and 0.0031, and with CM1's turning readings at most 2.3922 and 2.9796. One level under the
 line also pins the lowest rate: [5.1865, 5.1868] and [7.9942, 8.0029]. And the core of n turns is the sum of
@@ -247,6 +247,15 @@ a gap for 0 ≤ θ ≤ 15/4. On the weak side each link becomes the half line of
 two sign certificates, and the gap is at least 0.1312·θ^(1/3) − 21/2 at every θ ≥ 10⁷: the torons, which the
 quadratic rates leave at zero, have a rate of order θ^(1/3). Between the windows, and beyond one site, nothing
 is shown.
+
+DR1 reads the weight of the core by its rows. The second symmetric function of the three squared singular
+values is the same for three cuts in d directions as for d turns in three cut components, so the comparison
+can be made per row: −¼Δ_d + ((d − 1)/2)|r|, three copies. A reading unchanged by the three half turns of the
+row turning has all rows even or all rows odd, which removes the one cheap reading, and at most one physical
+reading lies under the line. Every number of turns from three to ten then has a gap (four turns 0.4425 where
+the columns gave 0.0031), the lowest rates are held from both sides, and the walk in the number of turns ends:
+(729/1024)(d − 1)²(2d − 1)² ≤ E(d)³ ≤ (729/256)d³(d − 1), so ρ_d rises to exactly (729/256)^(1/3). At three
+turns rows and columns are the same reading and nothing is gained.
 
 ## Reproduce
 
