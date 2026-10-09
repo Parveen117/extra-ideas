@@ -207,3 +207,9 @@ THREE-TURN RECORD ; FOUR DIMENSIONS ; A MASS GAP ; RH                       NOT 
 python hl1_helical_walk.py
 python -m unittest test_hl1
 ```
+
+## Later note (TV1, 9 October)
+
+[TV1](../tv1/TV1_VALLEY_OF_TURNS.md) takes H7 to d turns: the commutator weight splits exactly into a quadratic
+layer and a quartic core; on the valley the layer leaves the weight (Σ sin²α_i)^−(d−2), a sum over closed
+paths; it is integrable for three turns and logarithmic for four. Nothing above is changed.

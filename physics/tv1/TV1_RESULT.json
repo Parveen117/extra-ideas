@@ -1,0 +1,45 @@
+{
+ "checks": {
+  "V1 |u x v|^2 = |p_u t_v - p_v t_u|^2 + |t_u x t_v|^2 about any axis (200 exact pairs, four axes)": true,
+  "V1 with no part along the axis only the quartic core is left; with one vector on the axis only the layer": true,
+  "V1 near the valley, u_i = s_i (n + delta_i): X_ij = s_i^2 s_j^2 (|delta_i - delta_j|^2 + |delta_i x delta_j|^2) exactly": true,
+  "V2 reduced determinant of sum x_i x_j (y_i - y_j)^2 is (prod x_i)(sum x_i)^(d-2), d = 2..6 (polynomial identity)": true,
+  "V2 at x = 1 it counts the trees on d points: 1, 3, 16, 125, 1296": true,
+  "V2 the common shift of the axis is the only free direction when no s_i is zero; a turn at a centre point frees more": true,
+  "V2 weight left on the valley: (prod s_i^2) from the blocks over (prod s_i^2)(sum s_i^2)^(d-2) = (sum s_i^2)^-(d-2)": true,
+  "V3 closed paths: 6, 90, 1860 in three directions; 8, 168, 5120 in four (three routes for the first)": true,
+  "V3 three turns: the partial sums rise and stay below 11/4 (the mean is finite)": true,
+  "V3 three turns: each doubling adds less than the one before (by more than a fifth)": true,
+  "V3 four turns: each doubling adds more than the one before, between 1/15 and 71/1000 from 2 x 16 steps on": true,
+  "V3 two turns: the weight is 1 (the power is zero); five turns: each doubling adds about sqrt 2 times the one before": true,
+  "V3 the count of powers: radial exponent 3 - d ; integrable at a centre point iff d < 4 ; d = 4 is the logarithm": true
+ },
+ "numbers": {
+  "three turns: partial sums at 2m = 16 .. 1024": [
+   0.905814,
+   0.934931,
+   0.956572,
+   0.972268,
+   0.983511,
+   0.991512,
+   0.997187
+  ],
+  "four turns: partial sums at 2m = 16 .. 1024": [
+   0.51911,
+   0.586287,
+   0.654961,
+   0.724407,
+   0.794243,
+   0.864276,
+   0.934407
+  ],
+  "four turns: added per doubling": [
+   0.067177,
+   0.068674,
+   0.069445,
+   0.069836,
+   0.070033,
+   0.070132
+  ]
+ }
+}

@@ -108,3 +108,9 @@ On the one non-abelian record with exact data (a closed surface, heat weight) th
 back from the strong side with a loss bounded once; no expansion at the weak end is used (TW1-W4, W5). The wall
 of the verdict — the same for the four-dimensional fabric — stands. No mass count is derived. Nothing above is
 changed.
+
+## Later note (TV1, 9 October)
+
+For the constant modes of d turns the quadratic layer leaves the weight (Σ sin²α_i)^−(d−2) on the valley:
+closed for three turns, a logarithm at the centre points for four (TV1). This places where the non-quadratic
+part of the verdict's wall must enter; it does not pass the wall. Nothing above is changed.

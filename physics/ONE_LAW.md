@@ -204,6 +204,13 @@ time keeps the scale sector only; the flip, and the residue of 4u/π, are sheet 
 commutator of two turns is 1 − 2|u × v|²: the count part is removed, the eight centre points weigh the same.
 The three-turn record is not built.
 
+TV1 takes d such turns (the constant modes of a torus). About any axis the weight splits exactly into a
+quadratic layer and a quartic core; the layer is zero at the centre points. On the valley the layer is a graph
+form whose determinant counts trees, and it leaves the weight (Σ sin²α_i)^−(d−2) — a sum over closed paths on
+the lattice of d directions. For three turns it is finite (the returns of one walk); for four it grows by
+Log 2/π² at every doubling (the meetings of two walks). Four is where the core can no longer be left out.
+What the core does there is not computed.
+
 ## Reproduce
 
 ```text
