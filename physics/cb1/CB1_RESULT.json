@@ -1,0 +1,105 @@
+{
+  "schema": "cb1_compact_bridge_v1",
+  "arithmetic": "Fraction only; frozen trial",
+  "checks": {
+    "full SU2 heat kernel at t=1 stays within 1/4 of Haar, with infinite tail": true,
+    "centre quotient heat kernel at t=1/2 stays within 1/5 of Haar, with infinite tail": true,
+    "vacuum-sector return reserve coefficient is 8/27": true,
+    "all-sector return reserve coefficient is 27/125": true,
+    "vacuum-sector gap coefficient 2 beta/t is 32/27": true,
+    "all-sector gap coefficient 2 beta/t is 54/125": true,
+    "finite-volume return reserve loses a factor 3/5 per additional link": true,
+    "likelihood-ratio contraction remainder is the square (r*a-1)^2": true,
+    "GC1 first-level sign certificate replayed": true,
+    "GC1 second-level sign certificate replayed": true,
+    "GC1 nonzero-angular floor and selected comparison channel": true,
+    "frozen OM1 trial has 67 scalar coefficients and exact action identity": true,
+    "kinetic and weighted energy densities are positive": true,
+    "correlated free-core reading stays below 5.186743367": true,
+    "full compact-lift error below the weak gap reserve from theta=2000000": true,
+    "full compact-lift error below the weak gap reserve from theta=10000000": true,
+    "correlated compact lift doubles OL1 liminf lower from 0.327 to above 0.6685": true,
+    "three-link compact Haar product domination on nonnegative squared radii": true
+  },
+  "heat_kernel": {
+    "full_deviation_upper": "40434466501/200000000000",
+    "full_tail_upper": "27515387419/1000000000000000000000000",
+    "even_deviation_upper": "4124858929/25000000000",
+    "even_tail_upper": "66506934472859/250000000000000000000000000000000000"
+  },
+  "all_coupling_bounds": {
+    "vacuum_sector_H": "(32/27)*exp(-3*theta)",
+    "all_gauge_sectors_H": "(54/125)*exp(-6*theta)",
+    "finite_lattice_H": "2*(3/5)^links*exp(-2*theta*plaquettes)",
+    "vacuum_sector_A": "(8/27)*exp(-12*theta_YM)",
+    "all_gauge_sectors_A": "(27/250)*exp(-24*theta_YM)"
+  },
+  "flat_trial": {
+    "eta_upper": "5186743366131/1000000000000",
+    "kinetic_upper": "691565176737/200000000000",
+    "weighted_kinetic_upper": "537696381449/40000000000",
+    "weighted_energy_upper": "1285068065579/62500000000"
+  },
+  "weak_windows": [
+    {
+      "start": 2000000,
+      "angle": "513/1000",
+      "sigma_lower": "478356016489/500000000000",
+      "comparison_reach_cube_lower": "730648203507541/1000000000000",
+      "comparison_coefficient_lower": "5360535190557/500000000000",
+      "compact_ground_coefficient_upper": "10607127221291/1000000000000",
+      "available_gap_coefficient_lower": "7121447489/62500000000",
+      "advertised_gap_coefficient": "11/100",
+      "subtracted_constant": "15/2",
+      "minimum_gap_lower": "6359131548843/1000000000000",
+      "cutoff_radius": "19/4",
+      "cutoff_width": "1/4",
+      "moment_order": 18,
+      "young_parameter": "221/500000",
+      "tail_mass_upper": "77113647543/1000000000000000000",
+      "density_upper": "279233784513/250000000000"
+    },
+    {
+      "start": 10000000,
+      "angle": "39/100",
+      "sigma_lower": "487421044293/500000000000",
+      "comparison_reach_cube_lower": "91431974145159/125000000000",
+      "comparison_coefficient_lower": "10856091718607/1000000000000",
+      "compact_ground_coefficient_upper": "327904835749/31250000000",
+      "available_gap_coefficient_lower": "363136974639/1000000000000",
+      "advertised_gap_coefficient": "9/25",
+      "subtracted_constant": "15/2",
+      "minimum_gap_lower": "70059648841147/1000000000000",
+      "cutoff_radius": "5",
+      "cutoff_width": "1/4",
+      "moment_order": 20,
+      "young_parameter": "1/6000",
+      "tail_mass_upper": "5412719121/500000000000000000",
+      "density_upper": "535420845213/500000000000"
+    }
+  ],
+  "asymptotic_gap_liminf_lower": "334293670557/500000000000",
+  "claim_boundary": {
+    "one_site_all_finite_couplings": "EXPLICIT_POSITIVE_GAP",
+    "flux_sector_bottom_above_vacuum": "BOUNDED_FROM_BELOW_AT_EACH_FINITE_COUPLING",
+    "within_each_flux_sector_excitation_gap": "NOT_COMPUTED",
+    "weak_vacuum_gap_scale": "THETA_TO_ONE_THIRD",
+    "finite_lattice_all_couplings": "EXPLICIT_BUT_DECAYS_WITH_SIZE",
+    "volume_uniformity": false,
+    "continuum_mass_gap": false,
+    "flat_to_compact_full_spectral_convergence": "NOT_CLAIMED_ONLY_TRIAL_LIFT"
+  },
+  "source_sha256": {
+    "physics/ol1/OL1_ONE_SITE_LATTICE.md": "96949b54dea7bed4d06ebc2cd03f0bcde834a461806920c3bba5d9496f6b0b69",
+    "physics/ol1/ol1_one_site_lattice.py": "0cb1df9e1cdb9c9370dae4cfe81b2f507166be1ccf3da9900f6f8a2a73453902",
+    "physics/ol1/OL1_RESULT.json": "c817dca2c2519436cf1af4be44c80d2b8e565dce6de4b1377a3bef0d4b4007dd",
+    "physics/gc1/gc1_core_gap_count.py": "88bb09dc7c704fa948bd53b4cf572bfe5cb149a85606fc101c0548709f344d62",
+    "physics/cm1/cm1_core_sector_memory.py": "3a934cc8f65a3b9ad21f9acf7089db69d7bb4e53da3e028a7123c2d4409f5df4",
+    "physics/cr1/cr1_core_rates.py": "dd5748d9d177a583f7ee80b6194d84fdfdc450b61466cf4f72aa2f1e80fcdccf",
+    "physics/tc1/tc1_core_of_turns.py": "8dd5733f6ba736280bbd1d4121a437301482e526dbf6effecc0c417a86dd9a63",
+    "physics/cb1/CB1_TRIAL.json": "2a6bcdf71e3a67b34c1a27a1d18c4b9fb261d74738a5974b7975d308afb33b8f",
+    "physics/cb1/cb1_compact_bridge.py": "0e0964c9680ba50edf90ca781ec63fcb40a67a2b22799ff90d0ac0d2e6f65102",
+    "physics/cb1/CB1_COMPACT_BRIDGE.md": "57a41587461983c8bf2c8ab44b36d964d1f11d96ac23cf46c0a797d2b4fa0b02",
+    "physics/cb1/test_cb1.py": "f40057e8a200f7e50a82c3f4d41c02b8ef79ae5cc711facc2081346b888584af"
+  }
+}

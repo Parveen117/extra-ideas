@@ -1,5 +1,6 @@
 # Physics
 
+- [CB1](cb1/CB1_COMPACT_BRIDGE.md) — **all-coupling compact gap bounds and a correlated weak-side lift:** vacuum gap ≥(32/27)exp(−3θ), all gauge-sector gap ≥(54/125)exp(−6θ); useful weak bounds start at 2·10⁶ and improve to 0.36θ^(1/3)−7.5 from 10⁷, with liminf coefficient >0.6685. Extends OL1 using OM1's frozen correlated trial. The finite-lattice return bound decays with volume; uniformity and continuum remain open.
 - [OM1](om1/OM1_OBSERVER_RETURN.md) — **the computed observer's full hidden floor and return are certified:** floors 5.52076320 / 8.00516987, with ground windows [5.186691205, 5.186742055] / [8.002732159, 8.002896171]. Incorporates GC1 (`b332a71`); exact source moments and a full residual bound make the Schur return run on the free physical core. Nonconstant-mode and volume/continuum matching remain open.
 - [SG1](sg1/SG1_GAUGE_SINGLET_GAP.md) — **physical constant-mode core gap certified:** ≥0.3342 (three turns), ≥0.0030 (four turns). Gauge-singlet selection plus outward radial counts covers all direction sectors; volume/continuum matching remains open. This advances the older transfer map's core-gap checkpoint.
 - [RH → Yang–Mills transfer map](RH_YM_TRANSFER_MAP.md) — source-pinned theorem/result dictionary, existing YM75 applications, and the next TC1 excitation-gap contract.

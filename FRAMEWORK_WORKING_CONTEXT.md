@@ -46,6 +46,7 @@ physical identification in a gap proof. See SG1 section 6.
 | Finite memory | \(F=A-VV^\dagger,\ B=V^\dagger A^{-1}V\) | A has a positive floor. \(N_-(F)=N_+(B-I)\), \(\ker F\cong\ker(I-B)\). Rank is a proved target property, not a universal five. |
 | Computed observer floor | \(\delta=z-v/(z-\eta)\) | OM1: a normalized computed reading ψ has η=⟨ψ,hψ⟩<z≤E1 and variance v. Its full physical hidden compression QhQ≥δ; ψ is not assumed to be the exact vacuum. |
 | Actual core return | \(\eta-E-\Sigma(E)=0,\quad\Sigma(E)=\langle r,(D-E)^{-1}r\rangle\) | OM1: r=Qhψ, D=QhQ, E<δ. A finite hidden trial Y retains the complete residual R=r−(D−E)Y; its return error is at most ||R||²/(δ−E). |
+| Compact positive return | \(q\le(1-\beta)/(1+\beta),\ \Delta\ge t^{-1}\log((1+\beta)/(1-\beta))\) | CB1: β is a proved positive-kernel lower/upper ratio. The actual-vacuum transform contracts oscillation modulo constants; its unknown ground factors cancel from row cross-ratios. |
 | Certified reserve | \(u_n+e_n<1\) | Outward finite memory top plus complete comparison/tail error. Absolute floor m gives \(F\ge m(1-u_n-e_n)I\). Both m and the reserve must survive the intended limit. |
 | Cut-graded flow | \(G_{e/o}=\tfrac12(G\pm JGJ)\) | \(JG_oJ=-G_o\). Pure odd flow gives \(JU_tJ=U_{-t}\); a general flow also has an even part. |
 | Curvature | \(F_{\mu\nu}=e_\mu A_\nu-e_\nu A_\mu+[A_\mu,A_\nu]-c_{\mu\nu}^{\ \rho}A_\rho\) | Connection and frame are declared. The bracket alone is the constant-coordinate special case. |
@@ -79,7 +80,7 @@ observable/protocol, not only a coordinate rotation.
 
 | Home | Authority |
 |---|---|
-| extra-ideas | Current research focus; ONE_LAW → DS1 → AG1/TW1/HL1 → TV1 → TC1 → CR1 → CM1 → SG1 / GC1 → OM1, OL1, DR1. SL1 (seam law), GC1 (the count, made independently of SG1 with the same floors, plus the two-sided lowest rate and the walk in the number of turns), OL1 (the one-site lattice with compact links) and DR1 (the comparison read by rows) are stages of the physics branch. OM1 supplies a computed observer's actual hidden floor and return enclosure. Earlier packets are preserved. |
+| extra-ideas | Current research focus; ONE_LAW → DS1 → AG1/TW1/HL1 → TV1 → TC1 → CR1 → CM1 → SG1 / GC1 → OM1, OL1, DR1 → CB1. SL1 (seam law), GC1 (the count, made independently of SG1 with the same floors, plus the two-sided lowest rate and the walk in the number of turns), OL1 (the one-site lattice with compact links) and DR1 (the comparison read by rows) are stages of the physics branch. OM1 supplies a computed observer's actual hidden floor and return enclosure. CB1 gives all-coupling compact bounds and a correlated compact trial. Earlier packets are preserved. |
 | Recognition-Kernel-Framework/main/operator_foundation | Canonical shared operator engine. Read MATHEMATICS_INDEX, native primitive order and exact theorem capsule. Corrected T50/T54 are in its preserved rkf_reference tree. |
 | RH-Framework | Ledger and separate pinned T09–T11/D04 stacks. Identically numbered theorem labels from different stacks are not interchangeable. |
 | Publications | Existing YM75 RH transfer and YM93 actual-vacuum continuation. Main and stacked development branches differ; cite commits, not only “latest”. |
@@ -135,7 +136,8 @@ are not independently promoted here.
    On the one-site periodic lattice 1 − W = 2|u_i × u_j|², and in the sector
    unchanged by gauge and centre the gap is positive for 0 ≤ θ ≤ 15/4 and for
    every θ ≥ 10⁷ (gap ≥ 0.1312·θ^(1/3) − 21/2; θ = 4θ_YM, gap(A) = gap(H)/4).
-   The stretch between the windows, flux sectors and more than one site are open.
+   At that checkpoint the intermediate stretch, flux sectors and larger lattices
+   were open; CB1 below supplies positive bounds while retaining the uniformity gate.
 9. **[DR1](physics/dr1/DR1_CORE_BY_ROWS.md): the comparison read by rows.**
    h ≥ three copies of −¼Δ_d + ((d − 1)/2)|r|; the three half turns of the
    gauge group leave at most one physical reading under the line. Gap floors:
@@ -143,7 +145,26 @@ are not independently promoted here.
    d = 5 … 10. Closed bounds (729/1024)(d − 1)²(2d − 1)² ≤ E0(d)³ ≤
    (729/256)d³(d − 1) give lim ρ_d = (729/256)^(1/3). The three-turn floor is
    not sharpened; a gap for every d is not shown.
-10. Keep meaningful discoveries and revisions with source pin, hypothesis,
+10. **[CB1](physics/cb1/CB1_COMPACT_BRIDGE.md)** advances OL1's one-site compact carrier.
+   The vacuum-sector gap is at least (32/27)exp(−3θ) at every finite θ≥0.
+   The gap across all gauge/centre sectors is at least (54/125)exp(−6θ):
+   this separates flux-sector bottoms from the vacuum, not levels within
+   each flux sector. The bounds may be extremely small; finite-volume
+   positivity is a standard compact-semigroup consequence, not a continuum
+   theorem. A correlated Gaussian-polynomial trial has an explicit compact
+   lift with Haar, inverse-metric, weighted-energy and cutoff errors.
+   It improves the useful weak vacuum bounds to
+   0.11θ^(1/3)−7.5 for θ≥2·10⁶ and 0.36θ^(1/3)−7.5 for θ≥10⁷.
+   The weak-limit liminf coefficient is >0.6685, up from OL1's 0.3271.
+11. For any fixed finite SU(2) link lattice, CB1 gives
+   Δ≥2(3/5)^L exp(−2θP), L links, P plaquettes, in H units.
+   This explicit reserve decays with volume. The next physical obligation
+   is a local interaction/source-return bound that avoids that extensive
+   cost, then physical scale and continuum control. Strong margins across
+   intermediate coupling also remain open; positivity coverage alone does
+   not supply them. Keep the TVSP→VTSP chart distinction and physical
+   identification obligations stated above.
+12. Keep meaningful discoveries and revisions with source pin, hypothesis,
    target and next measurable obligation. The older comparison map is pinned
    inside CM1's frozen certificate; use this context and new stage notes for
    subsequent progress unless intentionally regenerating the dependent packet.
