@@ -386,6 +386,20 @@ and normalization map are recorded in CM1; these are not claimed as new physics.
 Inputs taken from outside are listed in the GC1 note. The scaling g^(2/3)/L, the matching to nonconstant modes
 and the volume limit of §6 are untouched.
 
+## 11. SG1 and OL1 checkpoint (2026-10-09)
+
+[SG1](sg1/SG1_GAUGE_SINGLET_GAP.md) and [GC1](gc1/GC1_CORE_GAP_COUNT.md) are two independent derivations of the
+same core floors (second rate ≥ 5.5210 / 8.0060, gap ≥ 0.3342 / 0.0030); they agree to the last digit kept.
+[OL1](ol1/OL1_ONE_SITE_LATTICE.md) begins the matching named in §6 on the compact side.
+
+| Obligation | OL1 result | Remaining obligation |
+|---|---|---|
+| Compact links instead of flat turns | On the one-site periodic lattice 1 − W = 2\|u_i × u_j\|²; the comparison is one operator per link with potential √(4 + 4θ sin²ψ) − 2 | Two or more sites: transverse modes and their coupling to the torons |
+| A weak-coupling statement for the actual Wilson operator | In the sector unchanged by gauge and centre: gap ≥ 0.1312·θ^(1/3) − 21/2 > 0 for every θ ≥ 10⁷ (θ = 4θ_YM, gap(A) = gap(H)/4); limit coefficient ≥ 0.3271 | The stretch 15/4 < θ < 10⁷; flux sectors; any volume dependence |
+| Strong side | gap > 0 for 0 ≤ θ ≤ 15/4 by closed local rates and a two-term reading | — |
+
+The order θ^(1/3) is the order YM98 §5 left open. Volume, cutoff and continuum obligations of §6 are untouched.
+
 <!-- pinned source links -->
 [ds1]: https://github.com/Parveen117/extra-ideas/blob/80002cb2eed9fcbd810cb00477326ed146065072/tools/ds1/DS1_ONE_DIAGONAL.md
 [tc1]: https://github.com/Parveen117/extra-ideas/blob/80002cb2eed9fcbd810cb00477326ed146065072/physics/tc1/TC1_CORE_OF_TURNS.md

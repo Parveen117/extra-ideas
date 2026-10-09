@@ -239,6 +239,15 @@ line also pins the lowest rate: [5.1865, 5.1868] and [7.9942, 8.0029]. And the c
 its sub-cores of n − 1 turns, which makes E(d)/(d·(d − 1)^(1/3)) never fall as d grows, under the Gaussian
 value 1.4175. The floor of the gap is far from its ceiling, and none of this is a mass gap.
 
+OL1 takes the count to compact links. On the periodic lattice of one site the plaquette of two links is
+1 − 2|u × v|², so the Wilson operator is the core with each turn rolled up into a sphere. The layer on the
+sphere has a closed floor, 2(√(4 + μ) − 2); the comparison is one operator per link; and in the sector unchanged
+by the row turning and the centre flips at most one reading lies under the line. On the strong side this gives
+a gap for 0 ≤ θ ≤ 15/4. On the weak side each link becomes the half line of GC1 cut flat past the reach of its
+two sign certificates, and the gap is at least 0.1312·θ^(1/3) − 21/2 at every θ ≥ 10⁷: the torons, which the
+quadratic rates leave at zero, have a rate of order θ^(1/3). Between the windows, and beyond one site, nothing
+is shown.
+
 ## Reproduce
 
 ```text

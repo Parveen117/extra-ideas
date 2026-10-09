@@ -219,3 +219,9 @@ paths; it is integrable for three turns and logarithmic for four. Nothing above 
 [SL1](../sl1/SL1_SEAM_LAW_FROM_THE_WALK.md) proves the seam law of the pair — S(1/u) = u·S, F(1/u) = u·L, L(1/u) = u·F — from the diagonal
 step, the two means and one count at the weak end; the only input from outside the walk is the area under
 Exp(−πx²). So u·M(S, L) = 1 of H3 is proved, and the first sheet term of H5 and the seam values of H6 follow from the law. Nothing above is changed.
+
+## Later note (OL1, 9 October)
+
+[OL1](../ol1/OL1_ONE_SITE_LATTICE.md) uses H7 as the weight of a lattice: on the periodic lattice of one site
+the plaquette of two links is 1 − 2|u × v|², so the Wilson operator there is the core of TC1 with each turn
+rolled up into a unit sphere. Nothing above is changed.

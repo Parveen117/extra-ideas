@@ -225,3 +225,14 @@ A MASS GAP ; THE FABRIC                                                         
 python gc1_core_gap_count.py          (about three seconds)
 python -m unittest test_gc1
 ```
+
+## Later note (SG1 and OL1, 9 October)
+
+[SG1](../sg1/SG1_GAUGE_SINGLET_GAP.md) was written at the same time, independently, from the same comparison
+and without sight of this note. It has the same floors — 5.5210 and 8.0060 for the second rate, 0.3342 and
+0.0030 for the gap — by a different solve (rational intervals with a cut at 12 and a count with its endpoint
+term), and a certified reading of the comparison without the row condition under the lowest rate, which makes
+the control of G2 a statement about the comparison itself. G4 (the lowest rate from both sides) and G6 (the
+walk in the number of turns) are only here. [OL1](../ol1/OL1_ONE_SITE_LATTICE.md) carries G1 and G2 to compact
+links: on the lattice of one site the same two sign certificates give a gap at every coupling past 10⁷.
+Nothing above is changed.

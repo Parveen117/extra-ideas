@@ -1,0 +1,134 @@
+{
+ "stage": "OL1",
+ "checks": 19,
+ "passed": 19,
+ "all_pass": true,
+ "detail": {
+  "O1 1 - W = 2 |u cross v|^2 on 40 rational pairs of links; |u|^2 = sin^2 psi": true,
+  "O2 Laplacian of the 3-sphere on functions of t is 4[t(1-t) f'' + (1-2t) f'] (t^m, m = 0 .. 8)": true,
+  "O2 local rate of exp(-kappa t) is 4 kappa + 4 kappa^2 t^2 at mu = 8 kappa + 4 kappa^2; 4 kappa = 2(sqrt(4 + mu) - 2)": true,
+  "O3 the comparison potential of one link is sqrt(4 + 4 theta sin^2 psi) - 2": true,
+  "O5 the reading 1 + b cos 2 psi: kinetic 4b^2/(2 - 2b + b^2), spread (12 - 16b + 7b^2)/(8(2 - 2b + b^2))": true,
+  "O5 at b = 2 the reading is the class function of weight two: kinetic 8": true,
+  "O6 the reading cos^(2n) psi: kinetic 12 n^2/(4n - 1), spread 3/(4n + 4), n = 1 .. 40": true,
+  "O5 strong side: the line at theta_k is above the reading at theta_k + 1/8, every step up to 15/4": true,
+  "O5 at theta = 0 the count gives 3 (the line) against 0 (the lowest rate)": true,
+  "O6 sin a >= a - a^3/6 + a^5/120 - a^7/5040 (alternating, falling terms) ; sigma = sin a/a > 0.9735": true,
+  "O6 the cut of the half line is past the reach of both certificates: s_a^3 = 4 sqrt(theta) a^2 sin a >= 9^3": true,
+  "O6 the two sign certificates of GC1-G1 (v > 0 for ever; one node, v < 0 for ever)": true,
+  "O6 zero average: past s = 5 the rate 5 - (6/5)^2 is above p0; the join bends downward": true,
+  "O6 line: z >= c theta^(1/3) - 15/2 with c > 10.846 ; reading: lowest rate <= c' theta^(1/3) + 3 with c' < 10.7151": true,
+  "O6 36 n^2 = (9n + 9/4)(4n - 1) + 9/4 and (9/4)/(4n - 1) <= 3/4 , n = 1 .. 60": true,
+  "O6 gap >= 0.1312 theta^(1/3) - 21/2 , positive from theta = 10^7 on, and >= 0.08 theta^(1/3) there": true,
+  "O6 spot values: the line above the exact power reading at theta = 10^7, 10^9, 10^12, 10^18": true,
+  "O6 in the limit gap/theta^(1/3) >= (2 e0 + e1) 2^(1/3) - (27/2) 2^(-1/3) > 0.327": true,
+  "dictionary: gap(A) = gap(H)/4 at theta = 4 theta_YM ; the weak coefficient is 0.1312 x 4^(1/3)/4 > 0.052": true
+ },
+ "numbers": {
+  "strong side": {
+   "window": [
+    0.0,
+    3.75
+   ],
+   "least_margin": 0.3098,
+   "rows_theta_e0_p0_line_reading_margin": [
+    [
+     0.0,
+     0.0,
+     1.5,
+     3.0,
+     0.2798,
+     2.7202
+    ],
+    [
+     0.75,
+     0.4793,
+     2.0351,
+     4.5496,
+     1.8961,
+     2.6536
+    ],
+    [
+     1.5,
+     0.8686,
+     2.4612,
+     5.7373,
+     3.4045,
+     2.3329
+    ],
+    [
+     2.25,
+     1.198,
+     2.8341,
+     6.3961,
+     4.8074,
+     1.5888
+    ],
+    [
+     3.0,
+     1.4975,
+     3.1582,
+     6.995,
+     6.1105,
+     0.8845
+    ],
+    [
+     3.625,
+     1.7177,
+     3.4091,
+     7.4354,
+     7.1257,
+     0.3098
+    ]
+   ]
+  },
+  "weak side": {
+   "start": 10000000,
+   "a": 0.4,
+   "sigma": 0.9735,
+   "line_coefficient": 10.8464,
+   "reading_coefficient": 10.715,
+   "gap_coefficient": 0.1314,
+   "constant": 10.5,
+   "limit_coefficient": 0.3271,
+   "spots_theta_n_line_reading_gap_over_cube_root": [
+    [
+     10000000,
+     170,
+     2329.2996,
+     2301.7209,
+     0.128
+    ],
+    [
+     1000000000,
+     793,
+     10838.9633,
+     10708.2094,
+     0.1307
+    ],
+    [
+     1000000000000,
+     7937,
+     108457.133,
+     107142.8228,
+     0.1314
+    ],
+    [
+     1000000000000000000,
+     793700,
+     10846455.8016,
+     10714950.3508,
+     0.1315
+    ]
+   ]
+  },
+  "in the units of the YM line": {
+   "strong_window_theta": [
+    0.0,
+    0.9375
+   ],
+   "weak_start_theta": 2500000.0,
+   "weak_gap_coefficient": 0.0521
+  }
+ }
+}
