@@ -55,6 +55,7 @@ physical identification in a gap proof. See SG1 section 6.
 | Nonlinear reading | \((H^2)_{ii}-H_{ii}^2=\sum_{j\ne i}H_{ij}^2\) | LN1 for real symmetric H: a fixed-cut diagonal returns lost coupling squares. Some signs/sheets remain hidden. |
 | TC1 core | \(X=\sum_{i<j}|c_i\times c_j|^2=e_2(CC^T)\) | With squared singular values x≥0: \(X=\tfrac12(\sum x)^2-\tfrac12\sum x^2\). Nonnegative on this cone, zero on rank≤1. |
 | TC1 scaling | \(H_g=-\tfrac{g^2}{2}\Delta+X/g^2\simeq g^{2/3}H_1\) | Dilation of the free core carrier. A physical rate also needs the torus unit and matching; TC1 computes no excitation gap. |
+| Compact/core spectral matching | \(E_{k,\sigma}(\theta)/(2\theta^{1/3})\to e_k\) | CM2: every fixed k and each of 8 fixed centre characters, on the one-site gauge-invariant carrier. The internal gap limit is 2(e1−e0)>1.0112; the gap across all centre sectors divided by θ^(1/3) tends to zero. |
 
 ## The diagonal correspondence already available
 
@@ -80,7 +81,7 @@ observable/protocol, not only a coordinate rotation.
 
 | Home | Authority |
 |---|---|
-| extra-ideas | Current research focus; ONE_LAW → DS1 → AG1/TW1/HL1 → TV1 → TC1 → CR1 → CM1 → SG1 / GC1 → OM1, OL1, DR1 → CB1. SL1 (seam law), GC1 (the count, made independently of SG1 with the same floors, plus the two-sided lowest rate and the walk in the number of turns), OL1 (the one-site lattice with compact links) and DR1 (the comparison read by rows) are stages of the physics branch. OM1 supplies a computed observer's actual hidden floor and return enclosure. CB1 gives all-coupling compact bounds and a correlated compact trial. Earlier packets are preserved. |
+| extra-ideas | Current research focus; ONE_LAW → DS1 → AG1/TW1/HL1 → TV1 → TC1 → CR1 → CM1 → SG1 / GC1 → OM1, OL1, DR1 → CB1, PC1 → CM2. OM1 supplies a computed observer's actual hidden floor and return enclosure. CB1 gives all-coupling compact bounds and a correlated compact trial. PC1 retains pair correlations for a full-space core count. CM2 matches every fixed low compact level to the free physical core in each centre sector. The independent DR2 all-d branch is recorded below. Earlier packets are preserved. |
 | Recognition-Kernel-Framework/main/operator_foundation | Canonical shared operator engine. Read MATHEMATICS_INDEX, native primitive order and exact theorem capsule. Corrected T50/T54 are in its preserved rkf_reference tree. |
 | RH-Framework | Ledger and separate pinned T09–T11/D04 stacks. Identically numbered theorem labels from different stacks are not interchangeable. |
 | Publications | Existing YM75 RH transfer and YM93 actual-vacuum continuation. Main and stacked development branches differ; cite commits, not only “latest”. |
@@ -144,7 +145,8 @@ are not independently promoted here.
    0.3342 (d3, unchanged), 0.4425 (d4, was 0.0031), and first floors for
    d = 5 … 10. Closed bounds (729/1024)(d − 1)²(2d − 1)² ≤ E0(d)³ ≤
    (729/256)d³(d − 1) give lim ρ_d = (729/256)^(1/3). The three-turn floor is
-   not sharpened; a gap for every d is not shown.
+   not sharpened at this checkpoint; its finite-d coverage is extended by the
+   independent DR2 result recorded below.
 10. **[CB1](physics/cb1/CB1_COMPACT_BRIDGE.md)** advances OL1's one-site compact carrier.
    The vacuum-sector gap is at least (32/27)exp(−3θ) at every finite θ≥0.
    The gap across all gauge/centre sectors is at least (54/125)exp(−6θ):
@@ -174,7 +176,36 @@ are not independently promoted here.
    gap ≥ 0.4670; all on the full carrier, no gauge restriction needed. The
    remaining distance (ceiling 2.39 at three turns) sits in the second even
    level of two turns. No volume statement.
-13. Keep meaningful discoveries and revisions with source pin, hypothesis,
+13. **[DR2 at `188b260`](https://github.com/Parveen117/extra-ideas/blob/188b2606918404ac9a69137f10dade9bcfd7460e/physics/dr2/DR2_ALL_TURN_GAP.md)**
+   is retained on `research/ym-all-turn-core-gap-2026-10-09` (PR #29).
+   For every integer d≥3, w=[2(d−1)]^(1/3), it gives
+   w/64≤Δ_d≤w(11/4−15/[32(d−1)]) on the free physical core. A nodal
+   Laguerre form restriction bounds every radial level; one correction from
+   the actual Gaussian source supplies the count reserve. The asymptotic
+   liminf Δ_d/d^(1/3)>0.0834. d counts core columns, not volume. CM2 does
+   not import this packet. Before merging it, note that PC1 appended to
+   DR1's note, which DR2 pins: preserve the original evidence and explicitly
+   reconcile that documentation pin rather than silently ignoring a mismatch.
+14. **[CM2](physics/cm2/CM2_COMPACT_CORE_MATCHING.md)** continues PC1 at
+   `4475afd7e548dac9106f23a1f226ee34e3d51646` on the actual one-site
+   Hθ=−ΣΔ_i+2θΣ|u_i×u_j|². For each fixed eigenvalue index and fixed centre
+   character σ, E_k,σ/(2θ^(1/3))→e_k of the free physical core. The signed
+   folded coordinates c_i=sign(a_i)u_i/ε identify one inner core per sector.
+   The exact Haar half-density map gives inverse metric I−q c_i c_iᵀ and
+   positive scalar term Q=9q/4+Σq²|c_i|²/[8(1−q|c_i|²)], q=θ^(−1/3).
+   OL1's full transverse-layer bound controls the exterior, and the entire
+   IMS error is π²θ^(1/3)/[4(A−R)²]. Min–max gives fixed-index convergence;
+   no norm-resolvent claim is made. The common internal-sector gap limit is
+   2(e1−e0)>1.0112, using the replayed PC1 floor 5.692389 and CB1 trial.
+   All eight internal gaps obey 0.73θ^(1/3)−878 for θ≥2·10⁹,
+   0.82θ^(1/3)−1002 for θ≥10¹⁰, and 0.93θ^(1/3)−1476 for θ≥10¹².
+   The eight sector bottoms share the leading value; consequently the gap
+   across all centre sectors divided by θ^(1/3) tends to zero. Their absolute
+   splitting rate remains open. This resolves a fixed-site spectral adapter,
+   while nonconstant modes, spatial-volume uniformity and continuum remain
+   separate obligations. PC1's 15 checks/5 tests and CM2's 20 checks/8 tests
+   were replayed. All predecessor files remain unchanged in this stage.
+15. Keep meaningful discoveries and revisions with source pin, hypothesis,
    target and next measurable obligation. The older comparison map is pinned
    inside CM1's frozen certificate; use this context and new stage notes for
    subsequent progress unless intentionally regenerating the dependent packet.
