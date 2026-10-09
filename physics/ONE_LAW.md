@@ -257,6 +257,16 @@ the columns gave 0.0031), the lowest rates are held from both sides, and the wal
 (729/1024)(d − 1)²(2d − 1)² ≤ E(d)³ ≤ (729/256)d³(d − 1), so ρ_d rises to exactly (729/256)^(1/3). At three
 turns rows and columns are the same reading and nothing is gained.
 
+PC1 changes what the core is split into. Columns and rows split it into single vectors and lose the
+correlations between them; PC1 splits the core of n turns into its sub-cores of n − 1 turns and keeps, for
+each, its lowest reading and the floor behind it. The sum of the projectors onto those readings is governed
+by the one-turn share of the reading, and at most one reading of the core lies under
+κ[(n − 1)ρ + E − (n − 1)(1 − r₁)(ρ − E)]. The start is two turns, where a floor on all readings comes from
+giving all of one turn's kinetic part to the layer: lowest rate 2.6592 … 2.6594, gap at least 0.5536. Three
+turns then have a second rate of at least 5.6923 and a gap of at least 0.5056, four turns 0.4670 — on all
+readings, without the row condition. The distance to the ceiling is now in one number, the second even level
+of two turns. Volume is untouched.
+
 ## Reproduce
 
 ```text

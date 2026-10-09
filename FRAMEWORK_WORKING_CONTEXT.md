@@ -164,7 +164,17 @@ are not independently promoted here.
    intermediate coupling also remain open; positivity coverage alone does
    not supply them. Keep the TVSP→VTSP chart distinction and physical
    identification obligations stated above.
-12. Keep meaningful discoveries and revisions with source pin, hypothesis,
+12. **[PC1](physics/pc1/PC1_PAIR_CLUSTERS.md): pair clusters.** The core of n
+   turns is the sum of its sub-cores of n − 1 turns; keeping each sub-core's
+   lowest reading g and full-space floor ρ gives h_n ≥ κ[nρ − (ρ − E)M], and
+   M = ΣP_g⊗1 has levels 1 + (n − 1)r, 1 − r in the one-turn share r of g.
+   Two turns: at most one level under 3.2130 on all readings (odd sectors by
+   the uneven layer h₂ ≥ −½Δ₁ + √2|c₁|), E0 in [2.6592, 2.6594], gap ≥ 0.5536.
+   Three turns: second rate ≥ 5.6923, gap ≥ 0.5056 (was 0.3342); four turns:
+   gap ≥ 0.4670; all on the full carrier, no gauge restriction needed. The
+   remaining distance (ceiling 2.39 at three turns) sits in the second even
+   level of two turns. No volume statement.
+13. Keep meaningful discoveries and revisions with source pin, hypothesis,
    target and next measurable obligation. The older comparison map is pinned
    inside CM1's frozen certificate; use this context and new stage notes for
    subsequent progress unless intentionally regenerating the dependent packet.
