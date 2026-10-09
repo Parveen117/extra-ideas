@@ -236,3 +236,14 @@ the control of G2 a statement about the comparison itself. G4 (the lowest rate f
 walk in the number of turns) are only here. [OL1](../ol1/OL1_ONE_SITE_LATTICE.md) carries G1 and G2 to compact
 links: on the lattice of one site the same two sign certificates give a gap at every coupling past 10⁷.
 Nothing above is changed.
+
+## Later note (OM1 and DR1, 9 October)
+
+[OM1](../om1/OM1_OBSERVER_RETURN.md) points out a rounding in the prose above: (9/4)·3^(1/3) is 3.24507…, so
+"3.2451" in G1 and in the claim boundary is rounded upward and is not a floor. The floor used by the
+certificate, and by every number of this note, is 3.245. OM1 also proves the floor behind a computed reading
+(z − v/(z − η), on the whole physical complement) and encloses the return of the hidden part, which tightens
+the lowest rate of G4 to [5.186691, 5.186742] and [8.002732, 8.002896].
+[DR1](../dr1/DR1_CORE_BY_ROWS.md) reads the same weight by rows: four turns get a gap of 0.4425 in place of
+0.0031, five to ten turns get their first floors, and the walk of G6 ends at exactly (729/256)^(1/3).
+Nothing else above is changed.

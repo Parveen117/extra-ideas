@@ -377,3 +377,9 @@ GC1 adds the lowest rate from both sides, [5.1865, 5.1868] and [7.9942, 8.0029],
 turns. The qualification of SL1's weak-end step in section 6 is taken into SL1 as a later note.
 [OL1](../ol1/OL1_ONE_SITE_LATTICE.md) carries the count to the compact links of the one-site lattice. Nothing
 above is changed.
+
+## Later note (DR1, 9 October)
+
+[DR1](../dr1/DR1_CORE_BY_ROWS.md) reads the weight by rows — three cuts in d directions — and counts with the
+three half turns of the gauge group. Three turns: the same 5.5210. Four turns: first excited rate at least
+8.4454, gap at least 0.4425. Five to ten turns: first floors. Nothing above is changed.
