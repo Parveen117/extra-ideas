@@ -1,5 +1,7 @@
 # Extra Ideas
 
+> Research continuity: read [the framework working context](FRAMEWORK_WORKING_CONTEXT.md) and [the RH → Yang–Mills structural map](physics/RH_YM_TRANSFER_MAP.md) before the next comparison or core-gap stage.
+
 Four research routes extracted from `4ways.tex`, organized for further development.
 
 Research owner: **Monty Dabas**. Initial organization and assessment: 30 September 2026.
