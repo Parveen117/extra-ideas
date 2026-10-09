@@ -55,6 +55,7 @@ physical identification in a gap proof. See SG1 section 6.
 | Nonlinear reading | \((H^2)_{ii}-H_{ii}^2=\sum_{j\ne i}H_{ij}^2\) | LN1 for real symmetric H: a fixed-cut diagonal returns lost coupling squares. Some signs/sheets remain hidden. |
 | TC1 core | \(X=\sum_{i<j}|c_i\times c_j|^2=e_2(CC^T)\) | With squared singular values x≥0: \(X=\tfrac12(\sum x)^2-\tfrac12\sum x^2\). Nonnegative on this cone, zero on rank≤1. |
 | TC1 scaling | \(H_g=-\tfrac{g^2}{2}\Delta+X/g^2\simeq g^{2/3}H_1\) | Dilation of the free core carrier. A physical rate also needs the torus unit and matching; TC1 computes no excitation gap. |
+| All-turn core gap | \(w/64\le\Delta_d\le w(11/4-15/[32(d-1)]),\ w=[2(d-1)]^{1/3}\) | DR2: every integer d≥3, on the free SO(3) gauge-singlet carrier, including all column direction sectors. Column count is not volume. |
 
 ## The diagonal correspondence already available
 
@@ -80,7 +81,7 @@ observable/protocol, not only a coordinate rotation.
 
 | Home | Authority |
 |---|---|
-| extra-ideas | Current research focus; ONE_LAW → DS1 → AG1/TW1/HL1 → TV1 → TC1 → CR1 → CM1 → SG1 / GC1 → OM1, OL1, DR1 → CB1. SL1 (seam law), GC1 (the count, made independently of SG1 with the same floors, plus the two-sided lowest rate and the walk in the number of turns), OL1 (the one-site lattice with compact links) and DR1 (the comparison read by rows) are stages of the physics branch. OM1 supplies a computed observer's actual hidden floor and return enclosure. CB1 gives all-coupling compact bounds and a correlated compact trial. Earlier packets are preserved. |
+| extra-ideas | Current research focus; ONE_LAW → DS1 → AG1/TW1/HL1 → TV1 → TC1 → CR1 → CM1 → SG1 / GC1 → OM1, OL1, DR1 → CB1 / DR2. SL1 (seam law), GC1 (the count, made independently of SG1 with the same floors, plus the two-sided lowest rate and the walk in the number of turns), OL1 (the one-site lattice with compact links) and DR1 (the comparison read by rows) are stages of the physics branch. OM1 supplies a computed observer's actual hidden floor and return enclosure. CB1 gives all-coupling compact bounds and a correlated compact trial. DR2 supplies an explicit gap of order d^(1/3) for every d≥3 on the free physical core. Earlier packets are preserved. |
 | Recognition-Kernel-Framework/main/operator_foundation | Canonical shared operator engine. Read MATHEMATICS_INDEX, native primitive order and exact theorem capsule. Corrected T50/T54 are in its preserved rkf_reference tree. |
 | RH-Framework | Ledger and separate pinned T09–T11/D04 stacks. Identically numbered theorem labels from different stacks are not interchangeable. |
 | Publications | Existing YM75 RH transfer and YM93 actual-vacuum continuation. Main and stacked development branches differ; cite commits, not only “latest”. |
@@ -144,7 +145,8 @@ are not independently promoted here.
    0.3342 (d3, unchanged), 0.4425 (d4, was 0.0031), and first floors for
    d = 5 … 10. Closed bounds (729/1024)(d − 1)²(2d − 1)² ≤ E0(d)³ ≤
    (729/256)d³(d − 1) give lim ρ_d = (729/256)^(1/3). The three-turn floor is
-   not sharpened; a gap for every d is not shown.
+   not sharpened; at this checkpoint an explicit gap for every d was not shown.
+   DR2 below closes that free-core quantitative coverage gate.
 10. **[CB1](physics/cb1/CB1_COMPACT_BRIDGE.md)** advances OL1's one-site compact carrier.
    The vacuum-sector gap is at least (32/27)exp(−3θ) at every finite θ≥0.
    The gap across all gauge/centre sectors is at least (54/125)exp(−6θ):
@@ -164,7 +166,24 @@ are not independently promoted here.
    intermediate coupling also remain open; positivity coverage alone does
    not supply them. Keep the TVSP→VTSP chart distinction and physical
    identification obligations stated above.
-12. Keep meaningful discoveries and revisions with source pin, hypothesis,
+12. **[DR2](physics/dr2/DR2_ALL_TURN_GAP.md)** continues DR1, reviewed at
+   `28776c9` / index fix `035c943`. On the free physical core, for every
+   integer d≥3 and w=[2(d−1)]^(1/3), w/64≤Δ≤w(11/4−15/[32(d−1)]).
+   A nodal Laguerre form restriction gives every radial floor
+   ν_j(m)≥(3/4)(2m−1+6j)^(2/3). The row comparison is counted in the
+   larger half-turn parity subspace; it is not assumed to preserve the
+   full gauge-singlet space. The actual Gaussian source is
+   r=3d/8−e1/2+e2/[2(d−1)] after the exact dilation; (1−r/4)g lowers
+   the trial energy by G(d)=3d(23d−35)/[2(d−1)(521d−512)]. This gives
+   Δ≥w[1104d²−10537d+8704]/[32(d−1)(521d−512)] for d≥9 and
+   liminf Δ/d^(1/3)≥2^(1/3)69/1042>0.0834. A column-swap-odd trial
+   is exactly orthogonal to the positive ground and supplies the upper.
+   DR1's sharper d=3…10 bounds remain untouched; neither the limiting
+   coefficient nor the lowest excited sector is identified. This is
+   quantitative free-core dimension coverage, not volume uniformity.
+   Its certificate replays exact symbolic-in-d moments and frozen small-d
+   radial signs; the written analytical interfaces remain explicit.
+13. Keep meaningful discoveries and revisions with source pin, hypothesis,
    target and next measurable obligation. The older comparison map is pinned
    inside CM1's frozen certificate; use this context and new stage notes for
    subsequent progress unless intentionally regenerating the dependent packet.

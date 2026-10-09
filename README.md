@@ -8,6 +8,14 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
+Latest free-core physics: **[DR2 — a quantitative gap for every turn count](physics/dr2/DR2_ALL_TURN_GAP.md)**.
+On the SO(3) gauge-singlet core, every integer d ≥ 3 has
+[2(d−1)]^(1/3)/64 ≤ gap ≤ [2(d−1)]^(1/3)(11/4−15/[32(d−1)]).
+A closed floor for every radial level and one actual Gaussian-source correction
+extend DR1's finite dimension coverage; its sharper small-d bounds remain valid.
+The gap has order d^(1/3). Column count d is not volume, and the continuum
+Yang–Mills matching problem remains open.
+
 Latest mathematical support: **[GE4 — minimal observer-memory recovery](https://github.com/Parveen117/Publications/blob/6add222c960d539fa7f6a80a9974b0253310cf88/papers/generalized-euler-evolution/GE4_MINIMAL_OBSERVER_MEMORY.md)**.
 Native response moments now determine the smallest observable linear
 realization: a flat moment Gram matrix of rank r needs r-1 memory
