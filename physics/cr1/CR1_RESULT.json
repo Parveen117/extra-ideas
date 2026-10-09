@@ -1,0 +1,123 @@
+{
+ "checks": {
+  "R1 d = 3: (1/2) Laplacian in the entries of C equals L on e_i and e_i e_j (9 polynomial identities)": true,
+  "R1 d = 4: (1/2) Laplacian in the entries of C equals L on e_i and e_i e_j (9 polynomial identities)": true,
+  "R1 d = 5: (1/2) Laplacian in the entries of C equals L on e_i and e_i e_j (8 polynomial identities)": true,
+  "R1 the number of directions enters three coefficients only: L e1 = 3d, L e2 = 2(d-1) e1, L e3 = (d-2) e2": true,
+  "R2 mean(P) = mean(L P)/(2 w m): equal to the means by pairing of the entries (d = 3, 4 ; w = 1, 8/5 ; seven readings)": true,
+  "R2 four turns, w = 1: 6, 9, 3, 42, 72 (TC1-C4)": true,
+  "R3 d = 3: the 67 x 67 matrices S and H are symmetric (exact)": true,
+  "R3 d = 3: the first reading alone gives 3dw/4 + (3/2)C(d,2)/w^2 (TC1-C6's Gaussian reading)": true,
+  "R3 d = 3: one rate of the ladder below 5.1868 and two below 8.048, so the two lowest rates of h are below them": true,
+  "R3 d = 4: the 67 x 67 matrices S and H are symmetric (exact)": true,
+  "R3 d = 4: the first reading alone gives 3dw/4 + (3/2)C(d,2)/w^2 (TC1-C6's Gaussian reading)": true,
+  "R3 d = 4: one rate of the ladder below 8.003 and two below 11.566, so the two lowest rates of h are below them": true,
+  "R3 the ladder only falls as it grows (degrees 0 to 8 on one grid; degree 10 starts below degree 8), d = 3, 4": true,
+  "R4 one pair: -(a/2) Laplacian_y + b |x cross y|^2 has ground rate |x| sqrt(2ab) (two transverse directions)": true,
+  "R4 summing the pairs: h >= sum over turns of -(alpha/2) Laplacian + beta |c|, beta^2 = (1 - alpha)(d - 1)": true,
+  "R4 for u = r Exp(-k r^(3/2)): u''/u = (9/4) k^2 r - (15/4) k r^(-1/2) (the same as Laplacian psi/psi in space)": true,
+  "R4 its least local rate: (rate)^3 >= 27 . 25 alpha beta^2/128 (three-term mean), so with alpha = 1/2: lowest rate of h cubed >= 675 d^3 (d - 1)/512": true,
+  "R4 three turns: 4.14 < lowest rate < 5.1868 ; four turns: 6.32 < lowest rate < 8.0030": true,
+  "R4 control: the bound from below is under the ladder at every degree (it could not be otherwise)": true
+ },
+ "numbers": {
+  "ladder: turns, degree, size, lowest rate, second rate (upper ends of exact brackets)": [
+   [
+    3,
+    0,
+    1,
+    5.35782
+   ],
+   [
+    3,
+    2,
+    4,
+    5.20357,
+    8.48939
+   ],
+   [
+    3,
+    4,
+    11,
+    5.1886,
+    8.12261
+   ],
+   [
+    3,
+    6,
+    23,
+    5.18691,
+    8.06006
+   ],
+   [
+    3,
+    8,
+    41,
+    5.18676,
+    8.04857
+   ],
+   [
+    3,
+    10,
+    67,
+    5.1868,
+    8.0467
+   ],
+   [
+    4,
+    0,
+    1,
+    8.17778
+   ],
+   [
+    4,
+    2,
+    4,
+    8.01901,
+    11.96276
+   ],
+   [
+    4,
+    4,
+    11,
+    8.00439,
+    11.62342
+   ],
+   [
+    4,
+    6,
+    23,
+    8.003,
+    11.57419
+   ],
+   [
+    4,
+    8,
+    41,
+    8.00291,
+    11.56663
+   ],
+   [
+    4,
+    10,
+    67,
+    8.0029,
+    11.5657
+   ]
+  ],
+  "d = 3, degree 10: lowest and second rate of the ladder, and their difference": [
+   5.1868,
+   8.0467,
+   2.8599
+  ],
+  "d = 4, degree 10: lowest and second rate of the ladder, and their difference": [
+   8.0029,
+   11.5657,
+   3.5628
+  ],
+  "lowest rate cubed, from below": {
+   "3": "18225/256",
+   "4": "2025/8"
+  }
+ }
+}

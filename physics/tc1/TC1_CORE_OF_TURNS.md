@@ -141,3 +141,10 @@ THE PURE NUMBERS ; A GAP UNIFORM IN THE VOLUME ; FOUR DIMENSIONS                
 python tc1_core_of_turns.py
 python -m unittest test_tc1
 ```
+
+## Later note (CR1, 9 October)
+
+[CR1](../cr1/CR1_CORE_RATES.md) computes the pure numbers left open in C6, in the sector unchanged by both
+turnings: lowest rate in [4.14, 5.1868] and second below 8.0480 for three turns; [6.32, 8.0030] and 11.5660 for
+four (exact counts on a ladder; an elementary bound from below). The difference, 2.86 and 3.56, is not a
+certified bound. Nothing above is changed.

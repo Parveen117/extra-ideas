@@ -218,6 +218,12 @@ of the measure, zero at four. There each doubling of the largest number adds (Lo
 cut at the core's own scale. The rates of the core are g^(2/3) times pure numbers: the cut fixes the form of a
 mass, not its size.
 
+CR1 computes the first of those numbers. On readings unchanged by both turnings the generator is a
+second-order operator in the three symmetric functions with the number of directions in three coefficients;
+means follow from one rule; a ladder read by exact counts gives the lowest rate between 4.14 and 5.1868 and the
+second below 8.048 for three turns (6.32, 8.003 and 11.566 for four). A bound from below for the second rate,
+and so a certified difference, is not obtained.
+
 ## Reproduce
 
 ```text
