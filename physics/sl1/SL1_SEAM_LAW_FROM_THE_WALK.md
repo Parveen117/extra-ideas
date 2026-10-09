@@ -153,3 +153,10 @@ THE AREA UNDER Exp(−πx²) ; THE SERIES WITH α^(4k), k ≥ 1                 
 python sl1_seam_law_from_the_walk.py
 python -m unittest test_sl1
 ```
+
+## Later note (SG1, 9 October)
+
+[SG1](../sg1/SG1_GAUGE_SINGLET_GAP.md), section 6, points out that the line "Hence (1 − √t)² ≤ t·L(t)" in M3
+squares 1 − √t ≤ √t·c(t), which is allowed only when 1 − √t ≥ 0, that is for t ≤ 1; for larger t the lower end
+is zero. The proof uses the line at t = u/2ⁿ as n grows, where t ≤ 1, so M3 and everything after it stand as
+written. The correction is to the range of that one line. Nothing else above is changed.
