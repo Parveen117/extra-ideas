@@ -1,0 +1,204 @@
+{
+  "schema": "cm1_core_sector_memory_v1",
+  "arithmetic": "Fraction; exact polynomial means and inertia",
+  "checks": {
+    "generator entry identities d=3 r=1": true,
+    "generator entry identities d=3 r=2": true,
+    "orientation average versus entry Wick pairing d=3": true,
+    "spin-sector exact upper count d=3 D=2": true,
+    "spin-sector symmetry and positive Gram d=3 D=2": true,
+    "spin-sector exact upper count d=3 D=4": true,
+    "spin-sector symmetry and positive Gram d=3 D=4": true,
+    "spin-sector exact upper count d=3 D=6": true,
+    "spin-sector symmetry and positive Gram d=3 D=6": true,
+    "spin-sector exact upper count d=3 D=8": true,
+    "spin-sector symmetry and positive Gram d=3 D=8": true,
+    "turning Ritz bound below CR1 second upper d=3": true,
+    "nested turning Ritz bounds d=3": true,
+    "exact source reconstruction and orthogonality d=3 D=2": true,
+    "actual source rank d=3 D=2": true,
+    "Euclidean-source-Gram negative control d=3 D=2": true,
+    "conditional floor is above CR1 global lower d=3 D=2": true,
+    "exact source reconstruction and orthogonality d=3 D=4": true,
+    "actual source rank d=3 D=4": true,
+    "Euclidean-source-Gram negative control d=3 D=4": true,
+    "conditional floor is above CR1 global lower d=3 D=4": true,
+    "exact source reconstruction and orthogonality d=3 D=6": true,
+    "actual source rank d=3 D=6": true,
+    "Euclidean-source-Gram negative control d=3 D=6": true,
+    "conditional floor is above CR1 global lower d=3 D=6": true,
+    "generator entry identities d=4 r=1": true,
+    "generator entry identities d=4 r=2": true,
+    "generator entry identities d=4 r=3": true,
+    "orientation average versus entry Wick pairing d=4": true,
+    "spin-sector exact upper count d=4 D=2": true,
+    "spin-sector symmetry and positive Gram d=4 D=2": true,
+    "spin-sector exact upper count d=4 D=4": true,
+    "spin-sector symmetry and positive Gram d=4 D=4": true,
+    "spin-sector exact upper count d=4 D=6": true,
+    "spin-sector symmetry and positive Gram d=4 D=6": true,
+    "spin-sector exact upper count d=4 D=8": true,
+    "spin-sector symmetry and positive Gram d=4 D=8": true,
+    "turning Ritz bound below CR1 second upper d=4": true,
+    "nested turning Ritz bounds d=4": true,
+    "exact source reconstruction and orthogonality d=4 D=2": true,
+    "actual source rank d=4 D=2": true,
+    "Euclidean-source-Gram negative control d=4 D=2": true,
+    "conditional floor is above CR1 global lower d=4 D=2": true,
+    "exact source reconstruction and orthogonality d=4 D=4": true,
+    "actual source rank d=4 D=4": true,
+    "Euclidean-source-Gram negative control d=4 D=4": true,
+    "conditional floor is above CR1 global lower d=4 D=4": true,
+    "exact source reconstruction and orthogonality d=4 D=6": true,
+    "actual source rank d=4 D=6": true,
+    "Euclidean-source-Gram negative control d=4 D=6": true,
+    "conditional floor is above CR1 global lower d=4 D=6": true,
+    "actual source rank 26 at D10, shell dimension 35": true
+  },
+  "numbers": {
+    "turning_sector_d3": [
+      {
+        "degree": 2,
+        "size": 3,
+        "ritz_lower": "39777/5000",
+        "ritz_upper": "15911/2000"
+      },
+      {
+        "degree": 4,
+        "size": 11,
+        "ritz_lower": "4767/625",
+        "ritz_upper": "76273/10000"
+      },
+      {
+        "degree": 6,
+        "size": 27,
+        "ritz_lower": "37921/5000",
+        "ritz_upper": "75843/10000"
+      },
+      {
+        "degree": 8,
+        "size": 54,
+        "ritz_lower": "37893/5000",
+        "ritz_upper": "75787/10000"
+      }
+    ],
+    "scalar_source_d3": [
+      {
+        "degree": 2,
+        "retained": 4,
+        "shell_dimension": 7,
+        "source_rank": 3,
+        "test_energy": "6",
+        "conditional_hidden_floor_lower": "141873/16384",
+        "conditional_hidden_floor_upper": "567539/65536",
+        "lower_comparison_negative_count": 1
+      },
+      {
+        "degree": 4,
+        "retained": 11,
+        "shell_dimension": 12,
+        "source_rank": 7,
+        "test_energy": "6",
+        "conditional_hidden_floor_lower": "842677/65536",
+        "conditional_hidden_floor_upper": "210681/16384",
+        "lower_comparison_negative_count": 1
+      },
+      {
+        "degree": 6,
+        "retained": 23,
+        "shell_dimension": 18,
+        "source_rank": 12,
+        "test_energy": "6",
+        "conditional_hidden_floor_lower": "657443/32768",
+        "conditional_hidden_floor_upper": "1314933/65536",
+        "lower_comparison_negative_count": 1
+      }
+    ],
+    "turning_sector_d4": [
+      {
+        "degree": 2,
+        "size": 3,
+        "ritz_lower": "112989/10000",
+        "ritz_upper": "11299/1000"
+      },
+      {
+        "degree": 4,
+        "size": 13,
+        "ritz_lower": "5503/500",
+        "ritz_upper": "110061/10000"
+      },
+      {
+        "degree": 6,
+        "size": 34,
+        "ritz_lower": "54883/5000",
+        "ritz_upper": "109767/10000"
+      },
+      {
+        "degree": 8,
+        "size": 70,
+        "ritz_lower": "109737/10000",
+        "ritz_upper": "54869/5000"
+      }
+    ],
+    "scalar_source_d4": [
+      {
+        "degree": 2,
+        "retained": 4,
+        "shell_dimension": 7,
+        "source_rank": 3,
+        "test_energy": "9",
+        "conditional_hidden_floor_lower": "747891/65536",
+        "conditional_hidden_floor_upper": "1495873/131072",
+        "lower_comparison_negative_count": 1
+      },
+      {
+        "degree": 4,
+        "retained": 11,
+        "shell_dimension": 12,
+        "source_rank": 7,
+        "test_energy": "9",
+        "conditional_hidden_floor_lower": "1952511/131072",
+        "conditional_hidden_floor_upper": "976301/65536",
+        "lower_comparison_negative_count": 1
+      },
+      {
+        "degree": 6,
+        "retained": 23,
+        "shell_dimension": 18,
+        "source_rank": 12,
+        "test_energy": "9",
+        "conditional_hidden_floor_lower": "1342303/65536",
+        "conditional_hidden_floor_upper": "2684697/131072",
+        "lower_comparison_negative_count": 1
+      }
+    ],
+    "scalar_source_D10": {
+      "retained": 67,
+      "next_shell_dimension": 35,
+      "actual_above_cut_source_rank_by_d": {
+        "3": 26,
+        "4": 26
+      },
+      "full_source_gram": "NOT_COMPUTED_AT_D10"
+    }
+  },
+  "claim_boundary": {
+    "turning_sector_ritz_upper": "PROVED_IN_DECLARED_SECTOR",
+    "scalar_source_gram_and_rank": "EXACT",
+    "conditional_schur_floor_demand": "EXACT_CONDITIONAL_NOT_AN_ACTUAL_HIDDEN_FLOOR",
+    "excited_energy_lower": "OPEN",
+    "quantitative_core_gap_lower": "OPEN",
+    "qualitative_core_gap": "WRITTEN_PROOF_WITH_STANDARD_ANALYTIC_INPUTS_NOT_A_FINITE_CERTIFICATE",
+    "continuum_mass_gap": "OPEN"
+  },
+  "source_sha256": {
+    "physics/tc1/TC1_CORE_OF_TURNS.md": "e7ee96ac926ce65bbf0dffd929537e027747cd15843fa74fbbc9c37fa4c08e4a",
+    "physics/tc1/tc1_core_of_turns.py": "8dd5733f6ba736280bbd1d4121a437301482e526dbf6effecc0c417a86dd9a63",
+    "physics/cr1/CR1_CORE_RATES.md": "8b63599d3b29082a275d750af76fa6d0ad7fbe9bf9b5d4534b3be8a4f5c1fbb5",
+    "physics/cr1/cr1_core_rates.py": "dd5748d9d177a583f7ee80b6194d84fdfdc450b61466cf4f72aa2f1e80fcdccf",
+    "physics/RH_YM_TRANSFER_MAP.md": "4b6b9a7e4d2a4b5a43fb673d50327f3e4032dac5fbc2f5799b2351f7e6422b19",
+    "physics/cm1/cm1_core_sector_memory.py": "3a934cc8f65a3b9ad21f9acf7089db69d7bb4e53da3e028a7123c2d4409f5df4",
+    "physics/cm1/CM1_CORE_SECTOR_MEMORY.md": "0fd05d44a2e70f1e40cfce68d8ed614ca2defb0a5b6b7574f22fc53d0d9fd81f",
+    "physics/cm1/test_cm1.py": "d2bc2ab53a484a35cd52248a682453fc6fd542704e905646d52a46623aca158d"
+  }
+}
