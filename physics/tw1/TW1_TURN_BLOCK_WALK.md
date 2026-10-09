@@ -257,3 +257,11 @@ THE WALK IN FOUR DIMENSIONS ; A MASS GAP ; RH                                 NO
 python tw1_turn_block_walk.py
 python -m unittest test_tw1
 ```
+
+## Later note (HL1, 9 October)
+
+[HL1](../hl1/HL1_HELICAL_WALK.md) writes this stage in the terms of the UGD number and the EMK geometry. W1 is
+the multiplicative law of the block K₊ + K₋K (EMK-2 T2; F00-G 7.1): Log x(ρ′r′) = Log x(ρ) − Log x(r). W2 is a
+ledger over the sheets of the deck step 1 + ι, each with scale 2ⁿ and count L_n². The weak-end value 4u/π is
+what a reading in powers of u keeps; its residue is certified there and is the first sheet term. The torus
+record of the control is the two-turn commutator record. Nothing above is changed.

@@ -195,6 +195,15 @@ from the strong side; the weak end is reached by walking back, without the mirro
 the mean step at every coupling, so centre-odd over centre-even falls below its square under doubling. The
 four-dimensional step is not built.
 
+HL1 reads the walk with the UGD number and the EMK geometry. One step is multiplication by 1 + ι, a deck
+transformation: every whole cut-complex number is ι^φ(1 + ι)ⁿβ, the contents of one scale index are a sheet,
+and the sheets are the lost parts — S = 1 + L₁ + L₂ + …, the cut reversing sheet 0 only. TW1's step is the
+multiplicative law of the block K₊ + K₋K (Log adds), and its record a ledger of mark × scale 2ⁿ × count over
+the sheets. The record carries its own clock: M(S, L) halves at every step. A reading in powers of the heat
+time keeps the scale sector only; the flip, and the residue of 4u/π, are sheet terms. On the block the
+commutator of two turns is 1 − 2|u × v|²: the count part is removed, the eight centre points weigh the same.
+The three-turn record is not built.
+
 ## Reproduce
 
 ```text
