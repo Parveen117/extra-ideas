@@ -132,3 +132,11 @@ SECOND RATE FROM BELOW ; OTHER SECTORS ; A GAP                              NOT 
 python cr1_core_rates.py          (about half a minute)
 python -m unittest test_cr1
 ```
+
+## Later note (GC1, 9 October)
+
+[GC1](../gc1/GC1_CORE_GAP_COUNT.md) counts with the comparison of R4 instead of taking only its lowest level:
+under the row condition at most one reading lies under 5.5210 (three turns) and 8.0060 (four), so the second
+rate has a floor and the gap is at least 0.3342 and 0.0031. With that, the lowest rate is in [5.1865, 5.1868]
+and [7.9942, 8.0029] (the reading of this ladder at degree 10, its mean of h² exact). CM1's turning readings
+close the gap from above: 2.3922 and 2.9796. Nothing above is changed.

@@ -194,11 +194,11 @@
   "source_sha256": {
     "physics/tc1/TC1_CORE_OF_TURNS.md": "e7ee96ac926ce65bbf0dffd929537e027747cd15843fa74fbbc9c37fa4c08e4a",
     "physics/tc1/tc1_core_of_turns.py": "8dd5733f6ba736280bbd1d4121a437301482e526dbf6effecc0c417a86dd9a63",
-    "physics/cr1/CR1_CORE_RATES.md": "8b63599d3b29082a275d750af76fa6d0ad7fbe9bf9b5d4534b3be8a4f5c1fbb5",
+    "physics/cr1/CR1_CORE_RATES.md": "b80614791462a770b78d0ac0f9d24964abcedf867c62d13fbb42324ca36c82e2",
     "physics/cr1/cr1_core_rates.py": "dd5748d9d177a583f7ee80b6194d84fdfdc450b61466cf4f72aa2f1e80fcdccf",
-    "physics/RH_YM_TRANSFER_MAP.md": "26e3a44f7f654f844a9906b6f0551a2e23b9fbc25e2b550063486d1a0bca28e9",
+    "physics/RH_YM_TRANSFER_MAP.md": "4ca3d76d8a8ee92f8b99f2d934470ec38f1842872500a49c2ec0990c6f1da9b6",
     "physics/cm1/cm1_core_sector_memory.py": "3a934cc8f65a3b9ad21f9acf7089db69d7bb4e53da3e028a7123c2d4409f5df4",
-    "physics/cm1/CM1_CORE_SECTOR_MEMORY.md": "0fd05d44a2e70f1e40cfce68d8ed614ca2defb0a5b6b7574f22fc53d0d9fd81f",
+    "physics/cm1/CM1_CORE_SECTOR_MEMORY.md": "76758a131c6e0a081bf9d9d0e880a10425d4dc824e50fe0fff76b0c7b8c80ce3",
     "physics/cm1/test_cm1.py": "d2bc2ab53a484a35cd52248a682453fc6fd542704e905646d52a46623aca158d"
   }
 }

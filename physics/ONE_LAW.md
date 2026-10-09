@@ -230,6 +230,15 @@ lost part is caught between 2⁻ⁿL(u/2ⁿ) and 2⁻ⁿS(u/2ⁿ), and the count
 right triangle is fixed by its two means, so (S, F, L) at 1/u is (uS, uL, uF) at u. The mirror exchanges flip
 and lost part because it exchanges the two means. The one outside input is the area under Exp(−πx²).
 
+GC1 turns the comparison of CR1 into a count. One turn has exact floors for its first two levels (2.3381 and
+4.0879, by the signs of an exact series on the half line) and for readings with zero average on the sphere
+(3.2451). A reading unchanged by turning all cuts together cannot have exactly one turn outside its sphere
+average, so at most one reading of the core lies under 5.5210 for three turns and 8.0060 for four: the gap is
+at least 0.3342 and 0.0031, and with CM1's turning readings at most 2.3922 and 2.9796. One level under the
+line also pins the lowest rate: [5.1865, 5.1868] and [7.9942, 8.0029]. And the core of n turns is the sum of
+its sub-cores of n − 1 turns, which makes E(d)/(d·(d − 1)^(1/3)) never fall as d grows, under the Gaussian
+value 1.4175. The floor of the gap is far from its ceiling, and none of this is a mass gap.
+
 ## Reproduce
 
 ```text

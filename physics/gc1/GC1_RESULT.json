@@ -1,0 +1,119 @@
+{
+ "stage": "GC1",
+ "checks": 42,
+ "passed": 42,
+ "all_pass": true,
+ "detail": {
+  "G1 first: the kept polynomial solves v'' = (s - lam) v up to its last two degrees": true,
+  "G1 first: what the series can still add is under 10^-20": true,
+  "G1 second: the kept polynomial solves v'' = (s - lam) v up to its last two degrees": true,
+  "G1 second: what the series can still add is under 10^-20": true,
+  "G1 v > 0 on the whole half line at lam = 2.3381": true,
+  "G1 control: at lam = 2.3382 the same certificate is refused": true,
+  "G1 v > 0, one node, v < 0 for ever at lam = 4.0879": true,
+  "G1 control: at lam = 4.0880 the same certificate is refused": true,
+  "G1 zero sphere average: p0^3 <= 27 A^2 B/4 = 2187/64": true,
+  "G1 order of the floors: e0 <= e1, e0 <= p0": true,
+  "G2 unit^3 <= (d - 1)/8, d = 3": true,
+  "G4 the reading is exact: <psi, h psi> two ways; norm positive, d = 3": true,
+  "G3 mean of h in the reading under CR1's bound, d = 3": true,
+  "G3 the line is above the reading: z > eta, d = 3": true,
+  "G3 gap floor, d = 3": true,
+  "G4 spread of the reading is positive and small, d = 3": true,
+  "G4 floor of the lowest rate, d = 3": true,
+  "G4 above the earlier floors (CR1-R4; d copies of one turn), d = 3": true,
+  "G2 control: without the row condition the count stops under the lowest rate, d = 3": true,
+  "G5 the turning reading of CM1 is above the line, d = 3": true,
+  "G5 gap window, d = 3": true,
+  "G2 unit^3 <= (d - 1)/8, d = 4": true,
+  "G4 the reading is exact: <psi, h psi> two ways; norm positive, d = 4": true,
+  "G3 mean of h in the reading under CR1's bound, d = 4": true,
+  "G3 the line is above the reading: z > eta, d = 4": true,
+  "G3 gap floor, d = 4": true,
+  "G4 spread of the reading is positive and small, d = 4": true,
+  "G4 floor of the lowest rate, d = 4": true,
+  "G4 above the earlier floors (CR1-R4; d copies of one turn), d = 4": true,
+  "G2 control: without the row condition the count stops under the lowest rate, d = 4": true,
+  "G5 the turning reading of CM1 is above the line, d = 4": true,
+  "G5 gap window, d = 4": true,
+  "G6 Gaussian mean of X is 3d(d - 1)/4 at w = 1, d = 3": true,
+  "G6 Gaussian reading: value^3 >= 729 d^3 (d - 1)/256, met within 10^-9 at w^3 = 2(d - 1), d = 3": true,
+  "G6 Gaussian mean of X is 3d(d - 1)/4 at w = 1, d = 4": true,
+  "G6 Gaussian reading: value^3 >= 729 d^3 (d - 1)/256, met within 10^-9 at w^3 = 2(d - 1), d = 4": true,
+  "G6 Gaussian mean of X is 3d(d - 1)/4 at w = 1, d = 5": true,
+  "G6 Gaussian reading: value^3 >= 729 d^3 (d - 1)/256, met within 10^-9 at w^3 = 2(d - 1), d = 5": true,
+  "G6 one step: n^3 a^2 b = [n (n-1)^(1/3)]^3 / [(n-1)(n-2)^(1/3)]^3 , n = 3 .. 12": true,
+  "G6 the certified windows stand in the order of the walk: rho_3 < rho_4": true,
+  "G6 the step from three turns gives a floor for four under its ceiling, and under the floor of G4": true,
+  "G6 every rho_d, d >= 4, between rho_4 and the Gaussian value": true
+ },
+ "numbers": {
+  "terms kept, first walk": 114,
+  "terms kept, second walk": 133,
+  "node of the second walk": [
+   1.74609375,
+   1.75
+  ],
+  "floors of one turn (unit 1)": {
+   "first": 2.3381,
+   "second": 4.0879,
+   "zero_average": 3.245
+  },
+  "d = 3": {
+   "line": 5.521,
+   "line_without_rows": 4.99,
+   "lowest_rate": [
+    5.1865,
+    5.1868
+   ],
+   "second_rate": [
+    5.521,
+    7.5787
+   ],
+   "gap": [
+    0.3342,
+    2.3922
+   ],
+   "spread": 7.914882438569259e-05,
+   "readings": 67
+  },
+  "d = 4": {
+   "line": 8.006,
+   "line_without_rows": 7.3981,
+   "lowest_rate": [
+    7.9942,
+    8.0029
+   ],
+   "second_rate": [
+    8.006,
+    10.9738
+   ],
+   "gap": [
+    0.0031,
+    2.9796
+   ],
+   "spread": 2.6885867336471986e-05,
+   "readings": 67
+  },
+  "rho": {
+   "d = 3": [
+    1.3721,
+    1.3723
+   ],
+   "d = 4": [
+    1.3857,
+    1.3873
+   ],
+   "d >= 4": [
+    1.3857,
+    1.4175
+   ]
+  },
+  "five turns, lowest rate": [
+   10.9985,
+   11.25
+  ],
+  "four turns from three by one step": 7.916,
+  "two turns, lowest rate at most": 2.7445
+ }
+}

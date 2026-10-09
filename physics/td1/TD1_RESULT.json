@@ -11,36 +11,9 @@
   "T3_degree_one_means_no_scale": true,
   "T3_pressure_and_entropy_numbers": true,
   "T4_vdW_diagonal": true,
-  "N1_noble_gases_two_fifths": true,
-  "N1_two_atom_gases_two_sevenths": true,
-  "N2_diagonal_noble_between_2p6_and_2p9": true,
-  "N3_memory_goes_to_one_at_the_critical_point": true,
   "pass": true
  },
  "numbers": {
-  "memory_at_low_density_300K": {
-   "Helium": 0.4,
-   "Neon": 0.4,
-   "Argon": 0.40001,
-   "Krypton": 0.40002,
-   "Xenon": 0.40004,
-   "Nitrogen": 0.28547,
-   "Oxygen": 0.28295,
-   "CarbonMonoxide": 0.28533
-  },
-  "diagonal_on_critical_isochore_T_over_Tc": {
-   "Neon": 2.8133,
-   "Argon": 2.7671,
-   "Krypton": 2.6784,
-   "Xenon": 2.6748,
-   "Nitrogen": 1.739,
-   "Oxygen": 1.727
-  },
-  "near_critical_memory_at_1p001_Tc": {
-   "Argon": 0.9979,
-   "Krypton": 0.998,
-   "Xenon": 0.9979,
-   "CarbonDioxide": 0.9965
-  }
+  "fluids": "CoolProp not installed: fluid numbers skipped"
  }
 }

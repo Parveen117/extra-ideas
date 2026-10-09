@@ -352,3 +352,14 @@ python3.12 -B -m unittest discover -s physics/cm1 -p 'test_*.py'
 regenerates intentionally. The next handoff is source-preserving valley
 trial solves, a genuine hidden lower bound and metric-aware outward residuals,
 followed by the remaining physical sectors and then volume matching.
+
+## Later note (GC1, 9 October)
+
+[GC1](../gc1/GC1_CORE_GAP_COUNT.md) supplies the two lines left open in the ledger above. The comparison of
+CR1-R4, counted under the row condition, has at most one reading under 5.5210 (three turns) and 8.0060 (four):
+an explicit lower number for the first excitation, and a gap of at least 0.3342 and 0.0031. It is an actual
+floor: for the cut of one reading (the product of the lowest one-turn readings) everything else is at or above
+that line, and for a cut holding more products of one-turn readings the floor is the first level left out. The
+mean of h² of §4, taken at degree 10, pins the lowest rate to [5.1865, 5.1868] and [7.9942, 8.0029]; with the
+turning readings of §2 the gap is in [0.3342, 2.3922] and [0.0031, 2.9796]. The floor is far from the ceiling;
+a cut of products of one-turn readings with this source Gram is the next step. Nothing above is changed.

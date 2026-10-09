@@ -372,6 +372,20 @@ gap, even qualitatively established, scales g^(2/3)/L and supplies no fixed-g
 volume-uniform or continuum gap. The classical SU(2) rotation-sector credit
 and normalization map are recorded in CM1; these are not claimed as new physics.
 
+## 10. GC1 checkpoint (2026-10-09)
+
+[GC1](gc1/GC1_CORE_GAP_COUNT.md) discharges two obligations of §7 and §9 at modest size, after the CM1 baseline.
+
+| Obligation | GC1 result | Remaining obligation |
+|---|---|---|
+| A hidden floor with a named source | The CR1-R4 comparison, counted under the row condition: at most one row-unchanged reading under 5.5210 (d3), 8.0060 (d4) | The comparison has no term between turns; its second level caps the floor |
+| Outward first-excitation count | Gap ≥ 0.3342 (d3), ≥ 0.0031 (d4) in the whole row-unchanged space; ≤ 2.3922, ≤ 2.9796 with CM1's turning readings | A floor near the ceiling: a cut of products of one-turn readings, its source Gram, and the first level left out as its floor |
+| Ground energy from both sides | [5.1865, 5.1868] (d3), [7.9942, 8.0029] (d4), from the exact mean of h² at degree 10 | — |
+| Dependence on the number of turns | E(d)/(d(d−1)^(1/3)) never falls with d and is at most (729/256)^(1/3); 1.3857…1.4175 for d ≥ 4 | The limit; any gap statement for d ≥ 5 |
+
+Inputs taken from outside are listed in the GC1 note. The scaling g^(2/3)/L, the matching to nonconstant modes
+and the volume limit of §6 are untouched.
+
 <!-- pinned source links -->
 [ds1]: https://github.com/Parveen117/extra-ideas/blob/80002cb2eed9fcbd810cb00477326ed146065072/tools/ds1/DS1_ONE_DIAGONAL.md
 [tc1]: https://github.com/Parveen117/extra-ideas/blob/80002cb2eed9fcbd810cb00477326ed146065072/physics/tc1/TC1_CORE_OF_TURNS.md
