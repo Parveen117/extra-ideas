@@ -24,6 +24,17 @@ For every proposed connection write: **what is preserved, by which map, on what
 carrier, for which target, under which bound**. A failed stronger statement can
 still leave a useful weaker theorem. Record both, with the exact obstruction.
 
+Owner clarification, 9 October 2026: **TVSP is the diagram before observation;
+after observation T and V exchange positions, giving the VTSP reading intended
+to describe observed phenomena.** Preserve this distinction in future work.
+As a chart map this is the involution Π(T,V,S,P)=(V,T,S,P), with units carried
+by their labels. In a common dimensionless/typed representation, transform
+the response frame, metric, cut and source with the chart; do not swap labels
+while leaving those structures fixed. The physical observation law and any
+intertwiner to the Yang–Mills core are separate research obligations. This
+records the owner's interpretation and its exact chart map, not an assumed
+physical identification in a gap proof. See SG1 section 6.
+
 ## Core equations and their types
 
 | Object | Equation | Meaning and scope |
@@ -66,7 +77,7 @@ observable/protocol, not only a coordinate rotation.
 
 | Home | Authority |
 |---|---|
-| extra-ideas | Current research focus; ONE_LAW → DS1 → AG1/TW1/HL1 → TV1 → TC1 → CR1 → CM1. CM1 is an independent turning-sector/source-memory continuation. Earlier frozen packets are preserved. |
+| extra-ideas | Current research focus; ONE_LAW → DS1 → AG1/TW1/HL1 → TV1 → TC1 → CR1 → CM1 → SG1. SL1 is Claude's seam-law proof on the parallel physics branch. Earlier packets are preserved. |
 | Recognition-Kernel-Framework/main/operator_foundation | Canonical shared operator engine. Read MATHEMATICS_INDEX, native primitive order and exact theorem capsule. Corrected T50/T54 are in its preserved rkf_reference tree. |
 | RH-Framework | Ledger and separate pinned T09–T11/D04 stacks. Identically numbered theorem labels from different stacks are not interchangeable. |
 | Publications | Existing YM75 RH transfer and YM93 actual-vacuum continuation. Main and stacked development branches differ; cite commits, not only “latest”. |
@@ -85,18 +96,19 @@ are not independently promoted here.
    and hidden-source dressing when eliminating or refining.
 3. Separate target injectivity, relative positivity, an absolute spectral gap,
    volume uniformity and a nontrivial continuum field. Each has different inputs.
-4. For TC1/CR1/CM1, the immediate target is a certified pure-number **excitation gap**;
-   the subsequent target is physical matching and survival under size/cutoff
-   changes. CR1 already supplies invariant-sector Ritz upper bounds and a ground
-   lower bound. The missing bound is for the second rate from below, with other
-   physical sectors still accounted for. Constructing the quartic invariant or
-   repeating its lowest-rate Ritz calculation is already done. CM1 adds actual
-   first-excitation upper bounds 7.5787 (d3) and 10.9738 (d4) from a quadrupole
-   sector, not a lowest-sector identification. Its written pair-form/Rellich
-   and positivity argument gives a qualitative fixed-core gap with declared
-   analytical inputs; no numerical gap lower is certified. The scalar D10
-   source rank is 26, and its Gram requires the Gaussian metric. Bare-Gram
-   floor demands worsen across D2/D4/D6: next retain the hidden solve and its
-   full residual Gram, a genuine hidden floor, and the remaining sectors.
+4. **The positive pure-number physical core gap is now certified in SG1:**
+   Δ≥0.3342 (three turns) and Δ≥0.0030 (four turns), on the free bosonic
+   SO(3) gauge-singlet carrier. E1≥5.5210 / 8.0060 and CR1's ground uppers
+   5.1868 / 8.0030 give these bounds. The comparison's cheap one-spin mode
+   is excluded by gauge invariance; all physical direction sectors are
+   covered by the radial-or-at-least-two-spins argument. Outward rational
+   Sturm counts, full ODE remainder bounds and named analytical interfaces
+   support the proof. Exact lowest-sector identity remains open. See
+   [SG1](physics/sg1/SG1_GAUGE_SINGLET_GAP.md), which supersedes the older
+   comparison map's open core-gap checkpoint without changing frozen packets.
+   CM1's excitation uppers 7.5787 / 10.9738 and scalar source rank 26 remain
+   useful for sharper bounds. The next physical obligation is nonconstant-mode
+   matching and survival under volume/cutoff changes: fixed-g core scaling
+   g^(2/3)/L alone supplies no volume-uniform or continuum gap.
 5. Keep meaningful discoveries and revisions in the canonical comparison map,
    with source pin, hypothesis, target and next measurable obligation.

@@ -1,0 +1,177 @@
+{
+  "schema": "sg1_singlet_gap_v1",
+  "arithmetic": "Fraction with outward dyadic rounding",
+  "checks": {
+    "radial ground has no eigenvalue below 2.3381": true,
+    "radial second has at most one eigenvalue below 4.0879": true,
+    "Dirichlet trial certifies radial ground below 2.3382": true,
+    "all radial cells resolved including the Neumann endpoint": true,
+    "l>=1 positive-test-function bound exceeds 3.245": true,
+    "l>=1 lower is above l=0 ground lower": true,
+    "one nonzero orbital spin contains no gauge singlet": true,
+    "two spin-one factors admit a singlet": true,
+    "outward cube-root scaling d=3": true,
+    "all singlet alternatives exceed second-rate lower d=3": true,
+    "CR1 actual scalar trial below ground upper d=3": true,
+    "positive certified physical-core gap d=3": true,
+    "ungauged one-spin comparison excitation lies below ground upper d=3": true,
+    "outward cube-root scaling d=4": true,
+    "all singlet alternatives exceed second-rate lower d=4": true,
+    "CR1 actual scalar trial below ground upper d=4": true,
+    "positive certified physical-core gap d=4": true,
+    "ungauged one-spin comparison excitation lies below ground upper d=4": true
+  },
+  "radial_certificates": [
+    {
+      "energy": "23381/10000",
+      "radius": "12",
+      "step": "1/8",
+      "order": 32,
+      "rounding_bits": 160,
+      "cells": 96,
+      "interior_zero_cells": [],
+      "endpoint_signs": [
+        1,
+        1
+      ],
+      "endpoint_intervals": [
+        [
+          "3799218211412823417372825979841536274489356231677671/1461501637330902918203684832716283019655932542976",
+          "3799218211412823417387266854464923630571087828162615/1461501637330902918203684832716283019655932542976"
+        ],
+        [
+          "11708875941737054180146116511123919376131486997082177/1461501637330902918203684832716283019655932542976",
+          "11708875941737054180190168035263063966396539448017797/1461501637330902918203684832716283019655932542976"
+        ]
+      ],
+      "cell_certification": {
+        "zero_excluded": 95,
+        "monotone": 1
+      },
+      "largest_local_remainder": "7922487006544178351304185853531364204739593876959343/193248897710135786048173164143756712668631051220770823544550678266380288",
+      "negative_count": 0,
+      "dirichlet_negative_count": 0,
+      "tail_floor": "12"
+    },
+    {
+      "energy": "40879/10000",
+      "radius": "12",
+      "step": "1/8",
+      "order": 32,
+      "rounding_bits": 160,
+      "cells": 96,
+      "interior_zero_cells": [
+        [
+          "13/8",
+          "7/4"
+        ]
+      ],
+      "endpoint_signs": [
+        -1,
+        -1
+      ],
+      "endpoint_intervals": [
+        [
+          "-171170903383479806702429342218697835291430199422591/1461501637330902918203684832716283019655932542976",
+          "-42792725845869951671512329450253860078615142297219/365375409332725729550921208179070754913983135744"
+        ],
+        [
+          "-237952716495836228104075917994724091953016303097263/730750818665451459101842416358141509827966271488",
+          "-475905432991672456162611656324061966003675718434073/1461501637330902918203684832716283019655932542976"
+        ]
+      ],
+      "cell_certification": {
+        "zero_excluded": 94,
+        "monotone": 2
+      },
+      "largest_local_remainder": "11925151303537206730262482591078430271355310663361/110427941548649020598956093796432407239217743554726184882600387580788736",
+      "negative_count": 1,
+      "dirichlet_negative_count": 1,
+      "tail_floor": "12"
+    },
+    {
+      "energy": "11691/5000",
+      "radius": "12",
+      "step": "1/8",
+      "order": 32,
+      "rounding_bits": 160,
+      "cells": 96,
+      "interior_zero_cells": [
+        [
+          "45/8",
+          "23/4"
+        ]
+      ],
+      "endpoint_signs": [
+        -1,
+        -1
+      ],
+      "endpoint_intervals": [
+        [
+          "-47454474131840333608267614371356821281729504017411537/1461501637330902918203684832716283019655932542976",
+          "-47454474131840333608245414363555817591070923533129895/1461501637330902918203684832716283019655932542976"
+        ],
+        [
+          "-146249983144638646769191470357182307879370532138515359/1461501637330902918203684832716283019655932542976",
+          "-4570311973269957711535272609744318789886047147447961/45671926166590716193865151022383844364247891968"
+        ]
+      ],
+      "cell_certification": {
+        "zero_excluded": 94,
+        "monotone": 2
+      },
+      "largest_local_remainder": "12369525177052353540380381982976139052857301142522687/24156112213766973256021645517969589083578881402596352943068834783297536",
+      "negative_count": 1,
+      "dirichlet_negative_count": 1,
+      "tail_floor": "12"
+    }
+  ],
+  "numbers": {
+    "3": {
+      "scale_lower": "15749/25000",
+      "radial_ground_lower": "23381/10000",
+      "radial_second_lower": "40879/10000",
+      "nonzero_spin_ground_lower": "649/200",
+      "core_ground_lower": "1104682107/250000000",
+      "radial_excited_comparison_lower": "1380258109/250000000",
+      "angular_excited_comparison_lower": "1390337469/250000000",
+      "core_second_lower": "5521/1000",
+      "core_ground_upper": "12967/2500",
+      "core_gap_lower": "1671/5000",
+      "upper_trial_basis_size": 67,
+      "upper_trial_negative_count": 1,
+      "excluded_one_spin_comparison_upper": "115627031693/22500000000"
+    },
+    "4": {
+      "scale_lower": "180281/250000",
+      "radial_ground_lower": "23381/10000",
+      "radial_second_lower": "40879/10000",
+      "nonzero_spin_ground_lower": "649/200",
+      "core_ground_lower": "4215150061/625000000",
+      "radial_excited_comparison_lower": "10007578591/1250000000",
+      "angular_excited_comparison_lower": "10065268511/1250000000",
+      "core_second_lower": "4003/500",
+      "core_ground_upper": "8003/1000",
+      "core_gap_lower": "3/1000",
+      "upper_trial_basis_size": 67,
+      "upper_trial_negative_count": 1,
+      "excluded_one_spin_comparison_upper": "181651067/24000000"
+    }
+  },
+  "claim_boundary": {
+    "free_bosonic_SO3_gauge_singlet_core_gap": "PROVED_WITH_DECLARED_ANALYTIC_INPUTS",
+    "all_direction_sectors": "COVERED_BY_GAUGE_SINGLET_COMPARISON",
+    "lowest_excited_sector_identity": "OPEN",
+    "continuum_mass_gap": "OPEN",
+    "TVSP_to_VTSP_physical_identification": "OWNER_RESEARCH_INTERPRETATION_NOT_A_GAP_ASSUMPTION"
+  },
+  "source_sha256": {
+    "physics/cr1/cr1_core_rates.py": "dd5748d9d177a583f7ee80b6194d84fdfdc450b61466cf4f72aa2f1e80fcdccf",
+    "physics/cr1/CR1_CORE_RATES.md": "8b63599d3b29082a275d750af76fa6d0ad7fbe9bf9b5d4534b3be8a4f5c1fbb5",
+    "physics/tc1/tc1_core_of_turns.py": "8dd5733f6ba736280bbd1d4121a437301482e526dbf6effecc0c417a86dd9a63",
+    "physics/cm1/CM1_CORE_SECTOR_MEMORY.md": "0fd05d44a2e70f1e40cfce68d8ed614ca2defb0a5b6b7574f22fc53d0d9fd81f",
+    "physics/sg1/sg1_singlet_gap.py": "ca14eab85e902fff87a5fddd0cebaa18017100ce8ba293128780228703bf13cf",
+    "physics/sg1/SG1_GAUGE_SINGLET_GAP.md": "778804af72ba7988d1c1e96c099d18892a06250145137c7b0dc695f41101697a",
+    "physics/sg1/test_sg1.py": "745aca4766e8fa48f9297a12813502615b7d79547d610056ae33f4786430d47a"
+  }
+}
