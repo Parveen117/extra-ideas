@@ -348,6 +348,30 @@ coverage is not a claim that every RH theorem or proof was audited.
 Update this map when new gap, matching or limit results arrive. Preserve exact
 commit/path identities and state which previously open hypothesis was discharged.
 
+## 9. Independent CM1 application checkpoint (2026-10-09)
+
+[CM1](cm1/CM1_CORE_SECTOR_MEMORY.md) is a new application after the pinned
+CR1 baseline; earlier theorem/result claims above retain their original scope.
+Its source hashes and exact rational outcomes are in
+[CM1_RESULT.json](cm1/CM1_RESULT.json). This section records which obligations
+were discharged, rather than treating the whole transfer contract as solved.
+
+| Obligation | CM1 result | Remaining obligation |
+|---|---|---|
+| Other direction sectors | Gauge-invariant quadrupole trial bounds: first excitation ≤7.5787 (d3), ≤10.9738 (d4) | These are upper bounds; exact lowest-sector identification and lower estimates remain |
+| Actual source, common metric | QhP computed for scalar Gaussian cuts through D6; G=T−HS^-1H reconstructed with the expanded Gram | A hidden resolvent solve and its metric-aware residual; source rank alone is insufficient |
+| CR1 67-reading cut source size | Actual above-cut action rank 26, next-shell dimension 35 at D10 | D10 full Gram not computed here; hidden dynamics remains infinite dimensional |
+| Ground/discreteness interface | Written pair-form confinement + Rellich/positivity gives compact resolvent, unique positive scalar ground and qualitative fixed-core gap | Analytical inputs are explicit imports, not finite certificates; numerical gap lower remains open |
+| YM75 Schur adapter | Exact conditional sufficient hidden-floor demands at z=6/9 | No actual hidden floor at those energies; larger bare-Gram cuts need larger floors in these examples |
+| Owner's observer completion | Exact retained operator A−z−B(𝒟−z)^-1B*, with source dressing f−B(𝒟−z)^-1g | Local valley observer must bound the energy-dependent return remainder, preserving the metric and source |
+
+The source rank and the tensor generator are carrier-specific. Neither RH's
+rank-five source nor a rotated diagonal can replace them. T28 still needs a
+bounded/resolvent or form adapter with its floor and tails. The fixed-core
+gap, even qualitatively established, scales g^(2/3)/L and supplies no fixed-g
+volume-uniform or continuum gap. The classical SU(2) rotation-sector credit
+and normalization map are recorded in CM1; these are not claimed as new physics.
+
 <!-- pinned source links -->
 [ds1]: https://github.com/Parveen117/extra-ideas/blob/80002cb2eed9fcbd810cb00477326ed146065072/tools/ds1/DS1_ONE_DIAGONAL.md
 [tc1]: https://github.com/Parveen117/extra-ideas/blob/80002cb2eed9fcbd810cb00477326ed146065072/physics/tc1/TC1_CORE_OF_TURNS.md
