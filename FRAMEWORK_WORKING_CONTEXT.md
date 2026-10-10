@@ -46,7 +46,45 @@ to a later validation pass. Mathematical hypotheses, derivations, domains
 and consistency remain part of the work. Do not label an unperformed
 certificate as complete. The root AGENTS.md records this updated preference.
 
-**Latest audit and source stage, 10 October:** YC38 continues YC37 at
+**Latest operator boundary stage, 10 October:** YC39 continues the published
+YC38 snapshot at `4be87b04122890040720dc3acada9d71e7dae3ce`.
+The finite compact Wilson domain supplies the smoothing property
+AY*=ATD^-1 bounded for each block, which justifies the orthogonal graph
+unitary (J,L). Its complementary hidden generator is exactly
+Dhat=N^-1/2 Y K Y* N^-1/2+N^1/2 D N^1/2>=cb I, N=I+YY*.
+It kills the actual vacuum source from the isolated block: L*psi=0,
+L*hJ omega=0. The internal off-diagonal C=J*hL is bounded at fixed b
+and C*=Y h_ret, giving ||C*Pi_E||<=beta E uniformly in b.
+Join an arbitrary environment h_E>=0 with bounded, possibly noncommuting
+local boundary coefficients A_p and ||V_partial||<=v<=gN_partial.
+The complete hidden diagonal mathbb D>=cb-v, and the exact vacuum-anchored
+Schur return obeys R(z)<=C_B sum_p A_p*A_p/(cb-v-z),
+C_B=min(N_partial,C_Gamma). Tensor positivity of YC38's actual Gram
+proves the bound, including arbitrary environment/spectator entanglement.
+There is no environment gap assumption. The hidden Neumann series has
+ratio q=v/(cb-z)<1 and an explicit two-sided truncation remainder.
+For regular 3D boundaries and sufficiently large b, q<=1/3, R=O(b^-1/3)
+and R'=O(b^-4/3), with every insertion that remains hidden included.
+The full retained Schur pencil is only compressed to the block vacuum;
+retained excited channels have not been eliminated. Their uniform boundary
+source estimate, YC39(22), is explicitly open; (23) is its conditional
+return consequence including the already controlled internal source.
+Repeated retained/hidden alternation, spatial iteration, practical
+constants and continuum calibration remain. Written domain, source,
+resolvent, zero-reading and unit proofs; executable certification deferred.
+
+**Publication continuity, 10 October:** the owner authorized publication
+of the previous pending work. The YC38 branch above contains its complete
+working-tree snapshot plus `research-history/yc38-local-history.bundle`,
+which preserves the 50 unpublished original commits and their source pins.
+It is not a claim that the API snapshot has those commits as ordinary
+ancestors. `research-history/README.md` gives restoration instructions.
+The known three-commit policy backlogs in Publications and
+Recognition-Kernel-Framework were likewise published on their
+`docs/lambda-first-policy-2026-10-10` branches, with original history
+bundles. Unrelated drafts and other working trees are outside that report.
+
+**Preceding audit and source stage, 10 October:** YC38 continues YC37 at
 `a2c89f8`. The owner asks to reuse earlier endpoints and investigate
 whether a certificate rule, rather than a genuine obstruction, stopped
 progress. The targeted YM93/NSB2 code audit found valid scope guards,
@@ -1998,7 +2036,19 @@ are not independently promoted here.
    concerns two-port vacuum sources, not all retained inputs or all histories.
    Practical constants and uniform spatial iteration remain open. Written
    theory only; no new numerical/executable certificate or routine test suite.
-60. Keep meaningful discoveries and revisions with source pin, hypothesis,
+60. **[YC39](physics/yc39/YC39_OPERATOR_BOUNDARY_RETURN.md)**
+   continues the published YC38 snapshot at `4be87b0`. The smooth Wilson
+   domain justifies an orthogonal vacuum-aligned graph cut retaining the
+   hidden floor cb. Tensor amplification of the source Gram admits bounded
+   noncommuting environment operators without an environment gap. Every
+   boundary insertion remaining hidden is summed, with ratio O(b^-1/3),
+   an explicit series remainder and a vacuum-anchored return O(b^-1/3).
+   The derivative metric is O(b^-4/3). Internal low-energy retained sources
+   obey beta E. The excited-input boundary estimate is open; its conditional
+   return bound includes internal/boundary cross terms. All retained-input
+   histories and spatial iteration remain. Written theory only; no new
+   numerical certificate, practical crossover or continuum result.
+61. Keep meaningful discoveries and revisions with source pin, hypothesis,
    target and next measurable obligation. The older comparison map is pinned
    inside CM1's frozen certificate; use this context and new stage notes for
    subsequent progress unless intentionally regenerating the dependent packet.

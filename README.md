@@ -14,7 +14,22 @@ actual hidden-channel return. Includes corrected reachability claims and
 an exact target-residual projection. This is a review of the pasted discussion,
 not a new lattice-gap or continuum stage.
 
-Latest Yang–Mills theory development: **[YC38 — boundary source Gram and stopping-rule audit](physics/yc38/YC38_BOUNDARY_SOURCE_GRAM_AND_CERTIFICATE_AUDIT.md)**.
+Latest Yang–Mills theory development: **[YC39 — vacuum-aligned cut and complete operator boundary excursion](physics/yc39/YC39_OPERATOR_BOUNDARY_RETURN.md)**.
+The smooth Wilson domain justifies an orthogonal graph complement that
+excludes the actual block vacuum and keeps the hidden floor cb. YC38's
+source Gram now admits bounded noncommuting environment operators, with
+no environment gap assumption. The complete hidden inverse sums every
+boundary insertion staying in that channel, with ratio O(b^(-1/3)) and
+an explicit series remainder. Its vacuum-anchored return is O(b^(-1/3))
+on regular 3D blocks; its derivative metric is O(b^(-4/3)). Internal
+low-energy retained sources obey beta E. The excited-input boundary
+estimate is stated as the next open target, with its conditional return
+bound. Full retained/hidden alternation, spatial iteration and continuum
+calibration remain open. Written theory; additional certification deferred.
+The preceding backlog is preserved in the
+[publication history](research-history/README.md).
+
+Preceding Yang–Mills theory development: **[YC38 — boundary source Gram and stopping-rule audit](physics/yc38/YC38_BOUNDARY_SOURCE_GRAM_AND_CERTIFICATE_AUDIT.md)**.
 Reuses YC31-32 locality and YC37's hidden floor. The actual centered
 vacuum-port Gram has a size-independent upper bound; its complete return
 through the original count complement has a decaying O(b^(-1/3)) bound
