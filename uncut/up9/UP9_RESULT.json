@@ -1,0 +1,170 @@
+{
+  "stage": "UP9",
+  "base_commit": "78157ee",
+  "checks": {
+    "normalized Haar and centered mixed covariance": true,
+    "Gaussian response is the source-selected flat limit": true,
+    "cubic source coefficient is fixed by Haar moments": true,
+    "fourth cumulant coefficient": true,
+    "fifth cumulant coefficient": true,
+    "sixth cumulant coefficient": true,
+    "exact source dilation at every retained degree": true,
+    "centered heat source identity through all available orders": true,
+    "Haar integration by parts determines moment recursion": true,
+    "frame response cancels to fourth order in its S dependence": true,
+    "first cut defect has exact fourth-order source": true,
+    "flat cut discriminant avoids V equals 2S": true,
+    "first seam angle coefficient": true,
+    "first lost weight is eighth order": true,
+    "first native curvature is ninth order": true,
+    "nonzero rational curvature coefficient at unit source": true,
+    "independent aggregation step holds coefficient by coefficient": true,
+    "diagram centre is exactly the source dilation response": true,
+    "centre retains the cubic mixed record before curvature": true,
+    "full integral lambda=1/4: positive ordinary Hessian enclosure": true,
+    "full integral lambda=1/4: positive cut discriminant enclosure": true,
+    "full integral lambda=1/4: signed cut defect excludes zero": true,
+    "full integral lambda=1/4: lost weight strictly positive": true,
+    "full integral lambda=1/4: native curvature excludes zero": true,
+    "full integral lambda=1/4: source commutator and matrix readings overlap": true,
+    "full integral lambda=1/2: positive ordinary Hessian enclosure": true,
+    "full integral lambda=1/2: positive cut discriminant enclosure": true,
+    "full integral lambda=1/2: signed cut defect excludes zero": true,
+    "full integral lambda=1/2: lost weight strictly positive": true,
+    "full integral lambda=1/2: native curvature excludes zero": true,
+    "full integral lambda=1/2: source commutator and matrix readings overlap": true
+  },
+  "potential": "U_lambda = log E_Haar exp(lambda*(S*c+V*(c^2-1/4)))/lambda^2",
+  "coefficients": [
+    "(4*S**2 + V**2)/32",
+    "V*(12*S**2 + V**2)/384",
+    "-S**2*(2*S**2 - 3*V**2)/768",
+    "-V*(60*S**4 + V**4)/30720",
+    "(32*S**6 - 192*S**4*V**2 - 24*S**2*V**4 - V**6)/294912"
+  ],
+  "geometry": {
+    "m": "-S**2*V**2*lambda**4/384 + V**4*lambda**4/1536 + V**3*lambda**3/128 - V*lambda/4",
+    "w": "-S**4*V**2*lambda**4/1536",
+    "p0": "(2*S - V)*(2*S + V)/16",
+    "phi1": "-S**2*V/((2*S - V)*(2*S + V))",
+    "ell8": "S**8*V**4/(9216*(2*S - V)**2*(2*S + V)**2)",
+    "f9": "-S**9*V**4*(2*S**2 + V**2)/(1152*(2*S - V)**4*(2*S + V)**4)"
+  },
+  "finite_integral_certificates": [
+    {
+      "lambda": "1/4",
+      "S": "1",
+      "V": "1",
+      "exponential_order": 24,
+      "outward_binary_bits": 160,
+      "enclosures": {
+        "delta": [
+          "60629289659870941813720066779018614273440479775/1461501637330902918203684832716283019655932542976",
+          "30314644829935470906860033389509732591110692331/730750818665451459101842416358141509827966271488"
+        ],
+        "ell": [
+          "36072785931332266368034742556343728567/182687704666362864775460604089535377456991567872",
+          "288582287450658130944277940634987187007/1461501637330902918203684832716283019655932542976"
+        ],
+        "w": [
+          "-261430403445954268505730055119387931756869/91343852333181432387730302044767688728495783936",
+          "-2091443227567634148045840440287506166026047/730750818665451459101842416358141509827966271488"
+        ],
+        "p": [
+          "296688942049140112022588728568653788383757731959/1461501637330902918203684832716283019655932542976",
+          "37086117756142514002823591071081971909715852679/182687704666362864775460604089535377456991567872"
+        ],
+        "q": [
+          "-24196648349915798807401537106347873298822476003/1461501637330902918203684832716283019655932542976",
+          "-1512290521869737425462596069146658631515401137/91343852333181432387730302044767688728495783936"
+        ],
+        "curvature": [
+          "-44909340734949588974349826417961307463/365375409332725729550921208179070754913983135744",
+          "-179637362939798355897399305325872176983/1461501637330902918203684832716283019655932542976"
+        ],
+        "hessian_det": [
+          "3173137125465657857677335702518452073485553639/182687704666362864775460604089535377456991567872",
+          "25385097003725262861418685620147720181280951835/1461501637330902918203684832716283019655932542976"
+        ],
+        "uss": [
+          "6023635499624792842522916160737510339124013307/22835963083295358096932575511191922182123945984",
+          "3011817749812396421261458080368759032698801915/11417981541647679048466287755595961091061972992"
+        ],
+        "direct_w": [
+          "-1045721613783817074022920220343841969410119/365375409332725729550921208179070754913983135744",
+          "-2091443227567634148045840440554925681260761/730750818665451459101842416358141509827966271488"
+        ]
+      }
+    },
+    {
+      "lambda": "1/2",
+      "S": "1",
+      "V": "1",
+      "exponential_order": 24,
+      "outward_binary_bits": 160,
+      "enclosures": {
+        "delta": [
+          "69395199128529810211411522926495842818732541039/1461501637330902918203684832716283019655932542976",
+          "69395199128529810211411646496687713964529326303/1461501637330902918203684832716283019655932542976"
+        ],
+        "ell": [
+          "38697534465530053090105938092679731376373/730750818665451459101842416358141509827966271488",
+          "77395068931060106180760021875474670322115/1461501637330902918203684832716283019655932542976"
+        ],
+        "w": [
+          "-73286057473691452973105423076797694373060237/1461501637330902918203684832716283019655932542976",
+          "-73286057473691452972845966388142254086495255/1461501637330902918203684832716283019655932542976"
+        ],
+        "p": [
+          "314389441702846924947637525209938964413484747875/1461501637330902918203684832716283019655932542976",
+          "314389441702846924947637770447212103804515600041/1461501637330902918203684832716283019655932542976"
+        ],
+        "q": [
+          "-50798439600727892690356506313289106661298187391/1461501637330902918203684832716283019655932542976",
+          "-50798439600727892690356246856600451221011622409/1461501637330902918203684832716283019655932542976"
+        ],
+        "curvature": [
+          "-88879035030787825197002094382384586077955/1461501637330902918203684832716283019655932542976",
+          "-88879035030787825194970520589359008404603/1461501637330902918203684832716283019655932542976"
+        ],
+        "hessian_det": [
+          "26985463010859658538275722154389625998801969617/1461501637330902918203684832716283019655932542976",
+          "26985463010859658538275741183997152210399218341/1461501637330902918203684832716283019655932542976"
+        ],
+        "uss": [
+          "24870645533506775660732333747826890573746884583/91343852333181432387730302044767688728495783936",
+          "6217661383376693915183084726438159540893464615/22835963083295358096932575511191922182123945984"
+        ],
+        "direct_w": [
+          "-9160757184211431621626143427132361816087679/182687704666362864775460604089535377456991567872",
+          "-73286057473691452972942242047881053930854059/1461501637330902918203684832716283019655932542976"
+        ]
+      }
+    }
+  ],
+  "claim_boundary": {
+    "source_is_actual_SU2_Haar": true,
+    "source_dilation_and_independent_aggregation": true,
+    "flat_zero_limit_on_nondegenerate_cut_patch": true,
+    "nonzero_curvature_for_sufficiently_small_positive_lambda": true,
+    "all_positive_lambda_curvature_proved": false,
+    "finite_integrals_include_full_exponential_tails": true,
+    "lambda_is_YM_coupling_or_spatial_RG": false,
+    "new_YM_gap_or_full_SU2_connection": false,
+    "formal_machine_verified_proof": false
+  },
+  "source_pins": {
+    "physics/yc1/YC1_CENTRE_COMPASS_POTENTIAL.md": "c3813884012b89109a23c1d163781dbd58744750e0d7300a4cf417a6df53ba2c",
+    "physics/yc1/yc1_centre_compass_potential.py": "8f58301b8b73d778c5beb3e80ca7656cdb4dc7dc2a853937191d5a4bace03d6a",
+    "physics/ct1/CT1_CENTRE_RECORD_OF_THE_TURN_CHAIN.md": "6647ad98f5f4b7b9e79b18a8e1cab006c0f3854df2171c987e4e14c4a9b01a3c",
+    "uncut/up1/UP1_DEGREE_OF_THE_POTENTIAL.md": "20d34f53581c6c87463b2a628eda173a50270079be873cd0272437b3ff2567da",
+    "uncut/up6/UP6_EIGHT_SCALE_OPERATIONS.md": "ebcaa80a7ef76d834add872bceae2656026a8aac7cd7a1d52e5175f4f4c61638",
+    "uncut/ss1/SS1_SCALE_IS_THE_SOURCE.md": "05694027fe0d9a496e18c4b1ca2ae92291ac7a274efd0ad8823337efa5025132",
+    "uncut/up8/UP8_DEFORMED_COMPASS_AND_SEAM_TRANSPORT.md": "6c437609f1e8599e086c46a929298ff0175111d867d8116cac35a53fbca927b8",
+    "uncut/up8/up8_deformed_compass.py": "14f2fe5b5871992824e434286442bdbc2312966a025ee2e56684c01480617fd0",
+    "physics/lc1/LC1_LOST_IS_COUNTED.md": "73042779d36cd71779456093937449c206bfa1489dbc71b7654b1b90fb679e7c",
+    "uncut/up9/UP9_HAAR_SOURCE_AND_FLAT_LIMIT.md": "a1ce03de333deff9fbc7ecd0781dca1ebc0d6a5aaddbd7e6eaba71fc6ce688ce",
+    "uncut/up9/up9_haar_source_flow.py": "054337d937eef7aefcef5c065fe521b52659a55664de91678c9a9257f39cdf11",
+    "uncut/up9/test_up9.py": "755a886e9bc1e89207082158d697c1b201b63dd1095cca9a3e85403db6f95e81"
+  }
+}

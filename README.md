@@ -8,6 +8,406 @@ Research owner: **Monty Dabas**. Initial organization and assessment: 30 Septemb
 
 Public repository: [Parveen117/extra-ideas](https://github.com/Parveen117/extra-ideas).
 
+Target-reference discussion reviewed: **[NSB2 audit and usable direction map](physics/reviews/target-reference/TARGET_REFERENCE_NSB2_AUDIT.md)**.
+Separates a shifted reference, spectral reach, force-resolved response and
+actual hidden-channel return. Includes corrected reachability claims and
+an exact target-residual projection. This is a review of the pasted discussion,
+not a new lattice-gap or continuum stage.
+
+Latest Yang–Mills theory development: **[YC38 — boundary source Gram and stopping-rule audit](physics/yc38/YC38_BOUNDARY_SOURCE_GRAM_AND_CERTIFICATE_AUDIT.md)**.
+Reuses YC31-32 locality and YC37's hidden floor. The actual centered
+vacuum-port Gram has a size-independent upper bound; its complete return
+through the original count complement has a decaying O(b^(-1/3)) bound
+for regular 3D blocks with bounded scalar port coefficients. The same
+source's crude triangle bound grew as O(b^(1/3)). Constants and crossover
+are not numerically optimized. This is a selected vacuum-source result,
+not an all-input/all-history spatial contraction. The
+[audit](physics/yc38/STOPPING_RULE_AUDIT.md) found valid domain guards
+and no erroneous rejection in the inspected YM93/NSB2 code.
+Full boundary histories, the gap windows and continuum obligations remain.
+Theory-first derivation; no new certificate script or routine test run.
+
+Preceding Yang–Mills theory development: **[YC37 — spatial gauge blocks and energy memory](physics/yc37/YC37_SPATIAL_BLOCK_AND_ENERGY_MEMORY.md)**.
+Constructs complete block factors with boundary charge matching, then a local
+count cut and a metric-isometric retained factor. For a block of b original
+factors the chosen cut has a hidden floor proportional to b and a uniformly
+bounded returned metric. Keeping that metric leaves an O(z^2/b) nonlinear
+energy remainder at fixed z. The retained onsite gap inherits the old1/2
+floor. Boundary interactions and their histories are retained separately:
+the exact join uses spectral convolution and ordered boundary-insertion
+kernels, not just static effective energies. Uniform connected-history
+control across spatial iterations and the continuum limit remain open.
+Theory-first note; additional certification work is deferred at the owner's
+request, and no YC37 script or test packet was added.
+
+Preceding operator result: **[YC36 — local coefficients on the complete count-restricted carrier](physics/yc36/YC36_LOCAL_COUNT_COEFFICIENTS.md)**.
+Hausdorff distance between complete excitation supports gives bounded
+row/column degree at each fixed count j, including charged and entangled
+physical sources. Buffered unions of boxes now supply the full retained
+coefficient operator with volume-independent norm error. An affine repair
+preserves the exact Fredholm reserve; a finite hidden-inverse expansion
+gives local elimination with its residual retained. The complete return
+budget combines count tail, local-box error and geometric remainder.
+This supplies YC35's previously conditional local-coefficient input.
+Practical harmonic computation and a tensor-product spatial blocking law
+remain; existing gap windows and the open continuum target are unchanged.
+
+Preceding operator result: **[YC35 — inverse excitation count and the hidden return](physics/yc35/YC35_INVERSE_COUNT_AND_HIDDEN_RETURN.md)**.
+Positive local readings in the moving vacuum frame control the reference
+excitation count of the complete inverse response. For sources with at
+most k excited factors, the tail above count j is bounded by
+B sqrt(k/(j+1)), independently of total volume. A variational identity
+then bounds the exact normalized operator's hidden-channel Schur error
+by tau^2 B^2 k/(j+1), preserving its reserve, source and lift pairing.
+This cuts the full bounded Fredholm operator; normalizing a compressed
+Hamiltonian is a different operation. Local computable coefficients on
+the complete count-restricted carrier are the next target. No practical
+cutoff, new gap window, spatial iteration or continuum limit is claimed.
+
+Preceding operator result: **[YC34 — simultaneous sources and local vacuum-annihilating interactions](physics/yc34/YC34_MULTI_FACTOR_INTERACTION.md)**.
+The source carrier now includes every excitation support and entangled
+charge-matched factors, with exact transported products and pairing.
+A symmetric creation lift removes each local vacuum source while preserving
+their complete sum. In the moving frame this gives a self-adjoint local
+interaction representation and a spatial truncation error independent of
+volume for any fixed number k of excited factors, with all output channels
+retained. Its explicit cost depends on k; it is not a uniform full-operator
+bound. Zero-coupling energies add before the inverse is taken. The next
+gate is factor-number control of the exact hidden inverse response and
+local coefficient comparison. No new gap window, practical radius, closed
+next-scale Wilson family or physical continuum limit is claimed.
+
+Preceding operator result: **[YC33 — moving frame and buffered local-box coefficients](physics/yc33/YC33_BUFFERED_BOX_COEFFICIENTS.md)**.
+The frame correction H'+i[H,D] has zero vacuum/excitation cross-block,
+giving a precise moving-diagonal identity for the actual spectral cut.
+The reduced Fredholm coefficients are now constructed from finite buffered
+boxes, without assuming a mass gap or knowing the interacting ground of
+the open box. Physical boundary and source-flow errors combine with YC32's
+spatial tail in a volume-independent budget. Symmetrization and positive
+polynomials preserve the reserve. Practical box radii and harmonic/numerical
+tails are not certified. The next structural task is simultaneous sources
+and closure toward a coarse interaction family; the existing lattice gaps
+remain inputs and the physical continuum limit is still open.
+
+Preceding operator result: **[YC32 — collective source control and local Fredholm reduction](physics/yc32/YC32_COLLECTIVE_FREDHOLM_REDUCTION.md)**.
+The repeated one-factor neutral source carrier has an exact identity Gram
+matrix after unitary transport, with all its local harmonics retained.
+Product-vacuum shell orthogonality gives a volume-independent collective
+inverse-response error. The exact full-hidden-space reduction is
+S=(I+tau V* A^-1 V)^-1. Positive finite-range polynomial approximants retain
+its reserve, with source/lift metric bounds and zero vacuum leakage in the
+declared transported construction. YC27's volume-uniform lattice gaps were
+already proved and remain inputs. The new result controls this selected
+spatial reduction; local-box coefficient construction and an admissible
+next-scale YM family remain open. Written proofs and focused exact checks.
+
+Preceding operator result: **[YC31 — local vacuum transport and the centered source return](physics/yc31/YC31_LOCAL_VACUUM_TRANSPORT.md)**.
+The actual vacuum now has an exact unitary transport whose action on local
+readings has tails smaller than every inverse power of distance, uniformly
+in the admitted volumes. A separate spectral filter localizes the centered
+resolvent on each bounded local physical source, with its source Gram errors.
+The construction retains the unbounded electric operators and exact pairing.
+Local rounding of a transported cut has quantified vacuum leakage; a growing
+family of source errors still needs a collective norm bound. The old gap
+windows are inputs, not enlarged results. Written locality/filter proofs
+and direct sign, pairing and rational checks; no harmonic truncation or
+predecessor test rerun. Repeated blocking and continuum calibration remain.
+
+Preceding operator result: **[YC30 — sign cuts and the centered Fredholm family](physics/yc30/YC30_SIGN_CUT_AND_CENTERED_FREDHOLM.md)**.
+Signs label the two cut channels; their exchange retains the source modulus
+and unmatched zero modes. The raw reference-ground-excised return has norm
+at least lambda² sum(xi²)/1300, so a bare global norm test fails with volume
+even inside the proved gap windows. Center at the actual interacting vacuum
+and construct K_tau=tau(A+tau)^-1. Its positive contraction class is closed
+under exact nested cuts, with full source and metric control. Normalization
+commutes with the energy Schur map. At tau=4 the existing28/64-link windows
+give return bounds175/323 and3325/6122; low-energy physical lift metrics
+are bounded independently of volume and cut count. These use YC27's gap
+input and do not enlarge it. Local spatial approximation and physical-scale
+completion remain open. Only the new exact identities/arithmetic were checked.
+
+Preceding spatial result: **[YC29 — shared neutral response](physics/yc29/YC29_SHARED_NEUTRAL_RESPONSE.md)**.
+The repeated-face neutral contribution is an exact response Gram matrix,
+with the full nested return and its original norm retained. It vanishes
+at the free internal point. Its first source derivative is exactly
+1/22464 times the sum of internal plaquette readings sharing a selected
+edge; a distant plaquette in the same block contributes zero at this order.
+A second centre cut makes the response Gram matrix even in internal
+strength. Its leading coefficient has local geometry bounds62 and60 for
+the28/64-link tilings, independent of volume. These bound one Taylor
+coefficient, not the full response at the existing internal couplings.
+Only new harmonic arithmetic and residue counts were checked. YC27's gap
+windows are unchanged; the finite-coupling remainder, charged feedback
+and full excitation metric remain the next estimates.
+
+Preceding spatial result: **[YC28 — mixed parity and operator return](physics/yc28/YC28_MIXED_PARITY_AND_OPERATOR_RETURN.md)**.
+An explicit vertex-centre cut reverses every mixed face while preserving
+both correlated reference partitions. Eliminating its odd side gives an
+exact lambda-squared operator pencil and graph metric for spectral z<4.
+Its charged inverse floor4 holds at arbitrary finite internal couplings.
+The neutral source has operator mean H_P+12 and variance4K_p, controlling
+the full excited-state return rather than only its vacuum value. Four
+distinct returning faces are exactly elementary tubes, two per mixed face,
+with full coefficient norm<=5/64 and old/complementary end-loop exchange.
+YC27's gap windows remain unchanged. Repeated overlapping-face returns,
+their metric and a contracting spatial update remain the next target.
+
+Preceding spatial result: **[YC27 — fused boundary and complementary blocks](physics/yc27/YC27_FUSED_BOUNDARY_AND_COMPLEMENTARY_BLOCKS.md)**.
+The old exterior-link graph splits exactly into cubes, squares and links.
+Its complete loop interactions become part of the reference at coupling<=1/2.
+Matched old/complementary degrees sum to6, giving physical H0>=N and
+reference gap>=4. Four correlated factors retain the exact source variance.
+The28-link and64-link tilings have physical lattice gaps>=592/175 and
+>=11188/3325 at remaining mixed caps1/3200 and1/5700, respectively.
+Full operator family, metric and compatible zero-readings; only necessary
+new geometry/rational arithmetic. These are new anisotropic profiles,
+not an enlarged isotropic window or a contracting continuum step.
+
+Preceding spatial result: **[YC26 — transverse block and gauge return](physics/yc26/YC26_TRANSVERSE_BLOCK_AND_GAUGE_RETURN.md)**.
+Each bridge in a single-face join carries its parent endpoint charge.
+This raises the28-link physical floors to4 and9/2 and controls the next,
+perpendicular64-link block with eight new bridges and ten joining faces.
+At cube theta<=1 its physical gap is>=11/10 through new join strength1,
+or>=4 through strength1/2. Complete hidden returns and metrics remain.
+The existing1/1680 lattice window improves to physical floor9297/2450.
+Written proof, exact comparison arithmetic and zero specialization; the
+next boundary problem is fused charges at vertices with several exterior
+bridges. Repeated scale contraction and the continuum remain open.
+
+Preceding spatial result: **[YC25 — Gauss-matched join](physics/yc25/YC25_GAUSS_MATCHED_JOIN.md)**.
+Matching charged blocks to their required bridge excitations raises the
+physical energy per excited factor to2 for cubes and15/8 for rectangles.
+The full creator and excitation families enlarge external coupling windows
+to1/840,1/1792 and1/1680, with physical floors5643/1225,209/105 and12396/6125,
+respectively. At the old resolved-rectangle cap1/4000 the floor improves
+to49044/21875. Written all-support/all-order proof, exact zero specialization
+and a small rational-budget calculator; no new regression suite. Repeated
+blocking contraction and continuum matching remain open.
+
+Preceding spatial result: **[YC24 — parity-resolved response tower](physics/yc24/YC24_PARITY_RESOLVED_RESPONSE_TOWER.md)**.
+The actual28-link hidden operator has a bipartite parity cut, producing a
+complete positive tower in squared interface coupling and full energy/metric
+remainder bounds. At tube couplings<=1 the physical block gap is>=7/3 for
+cube theta<=2, or>=12/5 for theta<=1. Existing anisotropic lattice joins
+improve to physical floors461/225 and6476/3125 in their unchanged external
+windows. Thirty-five exact checks and fifteen tests. All neutral mixing
+and harmonics remain; repeated spatial contraction and continuum remain open.
+
+One-site vacuum and scale step: **[YC6 — vacuum gap and the full return step](physics/yc6/YC6_VACUUM_STEP.md)**.
+On the actual one-site gauge/centre-even sector, the internal gap is at least
+1 for 0 ≤ θ ≤ 14, using the same retained cut and 113 exact endpoint packets.
+At θ=8 the vacuum gap lies in [5.1212,6.7520]. The full hidden resolvent has
+an exact fourfold-coupling identity and alternating response tower; these are
+not yet a spatial RG map. The scale audit separates dimensionless from
+volume-uniform, normalized from absolute centre splitting, and fixed-box
+effective coupling from a shrinking-cell ultraviolet trajectory. No 4D claim.
+
+Latest compact centre splitting: **[YC5 — resolved source and actual hidden interaction](physics/yc5/YC5_RESOLVED_RETURN.md)**.
+For 0 ≤ θ ≤ 12, the actual first excitation lies in the three equivalent
+single-centre-odd sectors; the all-sector gap is at least 1/20.
+At θ=2 its exact enclosure is [2.1607,2.1613]; at θ=8 it is
+[0.8801,1.2516], and at θ=12 it is [0.0863,1.8512]. Without enlarging
+[YC4](physics/yc4/YC4_HARMONIC_RETURN.md)'s retained cut, full harmonic
+source resolution and a tangent/secant bound on one actual hidden interaction
+cover 104 coupling cells. YC4's stronger uniform bound 1/5 on [0,8] and
+[YC3](physics/yc3/YC3_SECTOR_SPLITTING.md)'s second-order expansion remain
+unchanged. One site only; weak-limit absolute splitting, volume and continuum
+remain open.
+
+Compact weak-limit baseline: **[CM2 — fixed low levels match the core in every centre sector](physics/cm2/CM2_COMPACT_CORE_MATCHING.md)**.
+For each of the eight fixed centre characters, E_k(θ)/(2θ^(1/3)) tends to
+the corresponding free physical core level. PC1's cluster floor and the exact
+Haar/localization adapter give a common internal-gap limit coefficient >1.0112,
+with explicit positive bounds from θ=2·10⁹. The gap across different centre
+sectors has leading normalized limit zero. This is a one-site theorem;
+spatial-volume and continuum matching remain open.
+Latest free-core physics: **[DR2 — a quantitative gap for every turn count](physics/dr2/DR2_ALL_TURN_GAP.md)**.
+On the SO(3) gauge-singlet core, every integer d ≥ 3 has
+[2(d−1)]^(1/3)/64 ≤ gap ≤ [2(d−1)]^(1/3)(11/4−15/[32(d−1)]).
+A closed floor for every radial level and one actual Gaussian-source correction
+extend DR1's finite dimension coverage; its sharper small-d bounds remain valid.
+The gap has order d^(1/3). Column count d is not volume, and the continuum
+Yang–Mills matching problem remains open.
+
+Latest Yang–Mills compass theorem: **[YC2 — compact three-link centre response](physics/yc2/YC2_COMPACT_CENTRE_RESPONSE.md)**.
+YC1's one-link centre potential now embeds in the actual one-site carrier.
+Independent centre flips separate the centre-odd holonomy responses from all
+centre-even Wilson-energy responses at every coupling. At the Haar point the
+three shared-link energy channels have exact pair compass chi=160/169 and lost
+share 9/169. The even configuration potential alone does not identify a centre
+character; twisted heat traces provide one sector observer. YC3 also resolves
+sectors spectrally and qualifies YC2's stronger wording: sector-state quantum
+expectations can differ. The weak-limit splitting and continuum gap remain open.
+
+Latest compass-space development: **[LS2 — response tower lift](uncut/ls2/LS2_RESPONSE_TOWER_LIFT.md)**.
+The actual UP8 source's infinite response tower obeys a finite rational
+recurrence. Its first normalized jet recovers both state variables forgotten
+by its zero-value compass, and determines the positive metric at order
+lambda² and native curvature at order lambda³. The entire positive source
+axis stays admissible; a finite Taylor radius is not a positive-axis
+singularity. Thirty exact checks and thirteen tests. This is a typed
+source/compass adapter, not a new Yang–Mills gap or physical scale law.
+
+Compass-space foundation: **[LS1 — connected compass space](uncut/ls1/LS1_COMPASS_SPACE.md)**.
+The full two-mode cut target is a connected analytic cylinder with a complete
+positive coefficient metric. Its zero-return set retains a circle of distinct
+cuts; the return matrix alone would collapse it. The global native connection
+and response pullback are explicit, including chart/sign transitions and
+analytic conditions for a tower. Twenty-three exact checks and eleven tests.
+This is an admissible compass model, not the full primitive carrier or a new
+Yang–Mills gap. A reproducible figure accompanies the proof.
+
+Latest YM observation continuation: **[YC23 — primitive cut and agitation](physics/yc23/YC23_PRIMITIVE_CUT_AND_AGITATION.md)**.
+On the actual finite-lattice vacuum, a smooth balanced physical cut has an
+exact energy equal to the trace of its response metric, or one quarter of
+its outcome Fisher information contracted with the electric metric. The
+physical gap is the infimum of energy per vacuum-escape probability. A
+free plaquette gives calibrated ratio12; positive cut energy can coexist
+with zero selected transport curvature. Twenty-four exact checks and eleven
+tests pass. This resolves the observation target without a new gap window,
+spontaneous origin event or derivation of primitive lambda-space.
+
+Previous gap continuation: **[YC22 — gauge-protected channels](physics/yc22/YC22_GAUGE_PROTECTED_CHANNELS.md)**.
+The true-ground Dirichlet form dominates vertex Casimirs, giving charged
+gap>=3/dmax for arbitrary gauge-invariant potential strength. Distinct
+endpoint-charge sources remain orthogonal under the full interacting
+inverse; neutral-loop multiplicities can still mix. Full cube gap is>=1
+through theta=2, and the 28-link block has full gap>=3/4 through tube eta=1.
+Local force and source-variance bounds give physical vacuum gap>=1619/1000
+with internal theta,eta<=1 and remaining external coupling<=1/4000,
+uniformly on the declared rectangular tori. Thirty-four exact checks and
+fifteen new tests pass. The anisotropic windows improve; a contracting
+neutral scale step and the physical continuum construction remain open.
+
+Previous coupled-block stage: **[YC21 — coupled block and removed channels](physics/yc21/YC21_TWO_CUBE_BLOCK_AND_REMOVED_CHANNELS.md)**.
+The actual 28-link two-cube block has full gap>=1/5 with internal cube
+couplings<=1 and four joining faces<=1/2. Its complete hidden return has
+lifted metric between I and (50/49)I for energy z<=1/2. Removing bridge
+channels retains their energy, norm and projected-connection contribution;
+it does not guarantee increasing curvature. Joining these actual blocks
+with remaining couplings<=1/12800 gives volume-uniform gap>=21/125 on
+the declared rectangular tori. Thirty-four exact checks and fourteen tests.
+This is a new anisotropic window; the external budget does not contract,
+and the isotropic extension, repeated scale flow and continuum remain open.
+
+Previous metric stage: **[YC20 — cut, metric and retained return](physics/yc20/YC20_METRIC_RETAINED_RETURN.md)**.
+The primitive cut generates complementary source readings; the balanced centre
+does not erase that cut. On YC19's full excitation quotient, a metric-aware
+reset changes the retained pairing, energy and hidden source together.
+The hidden source is precisely the dynamics crossing the cut, read through
+P−AP+=P−[A,Kcut]P+/2 with the metric carried.
+An exact energy-step identity returns the whole hidden norm; complete residual
+bounds and nested-elimination controls supply a spectral certificate.
+Thirty-eight exact checks and nineteen tests. A concrete new spatial-block
+metric/source bound and contracting budget remain open; the gap window is
+unchanged. Uploaded projective/winding ideas are retained with explicit repairs.
+
+Previous full-operator stage: **[YC19 — local excitation operator](physics/yc19/YC19_LOCAL_EXCITATION_OPERATOR.md)**.
+The exact ground similarity now gives the full excitation operator as
+summable local terms that annihilate the reference vacuum, with incident
+norm<=130|eta|. Taylor coefficients have bounded range; complete local and
+energy-relative tails control a fourth-order excitation approximation.
+The transported metric and its ground-quotient Schur metric are retained.
+Twenty-one exact checks and thirteen tests. Finite regrouping has an
+explicit block-size cost; automatic budget contraction, independent block
+metrics, a larger gap window and the continuum trajectory remain open.
+
+Previous ground expansion: **[YC18 — connected fourth-order return](physics/yc18/YC18_CONNECTED_FOURTH_ORDER.md)**.
+All bridge-return word types through order four are classified, including
+repeated and four-bridge faces; order three vanishes. The complete connected
+ground-creation recursion has local coefficients and a volume-independent
+tail <=x^5/[128(1-x)], x=4320|eta|<1. The free tube creation coefficient is
+11/3981312. Spectator energies are retained as shifted energy arguments;
+disconnected raw Schur terms cancel in the connected ground description.
+Twenty-two exact checks and fourteen tests. This controls the ground
+expansion, not an all-state blocked excitation operator or a new gap window.
+
+Previous closed return: **[YC17 — four-face bridge return](physics/yc17/YC17_FOUR_FACE_BRIDGE_RETURN.md)**.
+Two-bridge faces partition into four-face tubes. Proper distinct subsets
+cannot return across the bridge cut; the complete tube returns with static
+coefficient1/64 and free-vacuum kinetic coefficient11/165888. The latter
+survives when YC16's second-order connected source vanishes. Its 24 full
+resolvent words have combined operator norm<=5/216, keeping spectator
+energies. Twenty-one exact checks and eleven tests. This resolves a selected
+fourth-order channel, not the entire effective interaction or a new gap window.
+
+Previous reference step: **[YC16 — absorb the full cube return](physics/yc16/YC16_ABSORBED_CUBE_RETURN.md)**.
+The complete one-cube return operators now enter a corrected reference, with
+all compensating terms retained in the original Hamiltonian. The connected
+source is <=1/8658 before the reference change and <1/8657 afterwards; its
+operator remains active on excited states, even at the free point. Recentring
+this connected term has explicit fourth-order one-cube and sixth-order scalar
+costs. The full remaining interaction preserves gap>9/40 through eta=1/4320
+at theta_c<=1 on the same even tori. Thirty exact checks, fifteen new tests.
+This is a certified reference update, not a larger window or continuum proof.
+
+Current sharp interface bound: **[YC15 — boundary return into cube channels](physics/yc15/YC15_BOUNDARY_RETURN_CHANNELS.md)**.
+The actual boundary source's variance is exactly the kinetic energy on its
+two internal cube edges. Its complete inverse can therefore be bounded more
+sharply, without a source-span truncation. The first nonconstant return feeds
+the two incident faces of each cube with coefficient1/22464; a scalar energy
+reading only changes at the next order. The full all-order lattice proof now
+gives gap>9/40 through interface eta=1/4320 at internal theta_c<=1, uniformly
+on even tori with sides>=4. Both the window and its endpoint floor improve.
+Thirty-one exact checks and fifteen new tests. No isotropic or continuum claim.
+
+Earlier observer continuation: **[YC14 — observer reset and stronger cube interfaces](physics/yc14/YC14_OBSERVER_RESET_AND_INTERFACE.md)**.
+The owner's corrected convention is local pure observation at a balanced
+lambda-zero cut, with ratio-memory retained between frames. A metric-aware
+diagonal reset preserves the complete turn/return; radial motion is undecided.
+On the actual correlated-cube lattice, resolving the first boundary source
+gives full gap >=21/100 for internal theta_c<=1 and external eta_p<=1/5120,
+uniformly on even tori with sides>=4. The interface window is 16/5 times
+YC12's; at its old endpoint the floor improves to19/80. Forty-four exact
+checks and fifteen new tests, with all electric harmonics, boundary charges
+and nonlinear cluster orders retained. No larger isotropic or continuum claim.
+
+Earlier frame-family continuation: **[YC13 — observed frame flow and complete cube return](physics/yc13/YC13_FRAME_FLOW_AND_RETURN.md)**.
+Preserves TVSP before observation, VTSP on the screen and the owner's
+lambda-zero film interpretation. The native connection now transports
+across the potential family: an explicit admissible potential has flat
+state slices but nonzero mixed lambda/state curvature and a certified
+loop angle. The observation chart transports the full connection.
+The actual cube's even hidden return gives a complete coupling-step law
+and gauge gaps >=11 on [0,1], >=42/5 on [0,3/2], >=27/5 on [0,2].
+Forty-two exact/outward checks and fourteen tests. Native lambda is not
+physical time or YM theta; charged-block and lattice windows remain those
+of YC12, with stronger interfaces and continuum matching open.
+
+Latest correlated Yang–Mills block: **[YC12 — cube kinetics and weak-interface gap](physics/yc12/YC12_CORRELATED_CUBE_GAP.md)**.
+The actual twelve-link cube has full gap >1/4 through theta=1, including
+every boundary charge sector. Its complete gauge source resolves at
+energies 18,24,26,32, with a full interacting hidden-inverse enclosure.
+On even periodic tori with sides >=4, disjoint correlated cubes at
+internal theta_c<=1 and external plaquettes eta_p<=1/16384 have actual
+full gap >=55/256 uniformly in volume. Fifty exact checks and fourteen
+tests. The owner's missing-term lead is realized as a subtracted positive
+Schur return, without identifying ST with a quantum operator. This closes
+YC11's block-kinetic target; stronger interfaces and physical scale flow
+remain open. YC10's isotropic coupling window is unchanged.
+
+Correlated source for the generalized compass: **[YC11 — closed-cube response and native compass](physics/yc11/YC11_CLOSED_CUBE_RESPONSE.md)**.
+An actual twelve-link SU(2) cube extends UP9's source-selected deformation.
+Every proper subset of face traces is Haar-independent, but the six-face
+cumulant is 1/1024. CZ1's complete boundary character return retains this
+collective source, with explicit norm and tail bounds. The flat zero limit
+survives; native curvature first appears at order fourteen after an exact
+order-twelve cancellation, and two finite full-integral certificates bound
+it away from zero. Forty checks and fourteen tests pass. The electric
+block inverse and quantum gap are supplied separately by YC12 above.
+[UP9](uncut/up9/UP9_HAAR_SOURCE_AND_FLAT_LIMIT.md) retains the single-face
+source flow; [UP8](uncut/up8/UP8_DEFORMED_COMPASS_AND_SEAM_TRANSPORT.md)
+retains the general centre-to-cut-to-transport construction.
+
+Framework calibration: **[CA2 — literal transport of the TVSP compass](uncut/ca2/CA2_SYMMETRY_COMPASS_ATLAS.md)**.
+CA1 first proves chi = C_V/C_P = C_S/C_T = K_T/K_S. CA2 transports
+the old derivative templates to each valid symmetry sector by literal typed
+substitution. For electromagnetism, T→E, V→B, S→D, P→H, so
+epsilon_B/epsilon_H = mu_D/mu_E = chi_EM.
+The exact result holds on a positive reciprocal scalar or fixed-polarization
+constitutive block. Higher-rank sectors require a declared channel pair, and
+nonreciprocal response retains an additional signed turn share.
+
 Latest mathematical support: **[GE4 — minimal observer-memory recovery](https://github.com/Parveen117/Publications/blob/6add222c960d539fa7f6a80a9974b0253310cf88/papers/generalized-euler-evolution/GE4_MINIMAL_OBSERVER_MEMORY.md)**.
 Native response moments now determine the smallest observable linear
 realization: a flat moment Gram matrix of rank r needs r-1 memory

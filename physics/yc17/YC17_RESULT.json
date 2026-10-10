@@ -1,0 +1,95 @@
+{
+  "stage": "YC17",
+  "base_commit": "fa07e53",
+  "checks": {
+    "quaternion composition tensor identity on every basis entry": true,
+    "quaternion bimultiplication trace tensor identity": true,
+    "static tube coefficient from four exact bridge moments": true,
+    "closing both ends recovers the YC11 six-face moment": true,
+    "only the complete distinct-face tube has empty bridge signature": true,
+    "all three-insertion words in one tube have nonempty signature": true,
+    "actual tube partition, bridge ownership and six incidences on (4, 4, 4)": true,
+    "actual tube partition, bridge ownership and six incidences on (4, 6, 8)": true,
+    "actual tube partition, bridge ownership and six incidences on (6, 6, 6)": true,
+    "the 24 orders have the two complete free-energy profiles": true,
+    "full resolvents retain the five over 216 operator envelope": true,
+    "free vacuum kinetic coefficient is eleven over 165888": true,
+    "connected free source has exact nonzero L2 norm": true,
+    "selected incidence cost is five eta fourth over 36": true,
+    "static and kinetic coefficients are distinct": true,
+    "operator bound dominates the computed source norm": true,
+    "commuting_components_can_curve": true,
+    "noncommuting_pure_gauge_can_be_flat": true,
+    "constant_share_law": true,
+    "YC16 second-order free source is silent while this channel survives": true,
+    "existing actual gap baseline remains above nine fortieths": true
+  },
+  "static_tube_coefficient": "1/64",
+  "kinetic_return": {
+    "z": "0",
+    "full_operator_norm_upper": "5/216",
+    "free_vacuum_face_pair_coefficient": "11/165888",
+    "free_vacuum_source_norm": "11/663552",
+    "incident_selected_coefficient_cost": "5/36",
+    "free_energy_profiles": {
+      "(12, 18, 24)": 16,
+      "(12, 24, 24)": 8
+    }
+  },
+  "lattice_checks": [
+    {
+      "shape": [
+        4,
+        4,
+        4
+      ],
+      "cubes": 8,
+      "tubes": 24,
+      "two_bridge_faces": 96
+    },
+    {
+      "shape": [
+        4,
+        6,
+        8
+      ],
+      "cubes": 24,
+      "tubes": 72,
+      "two_bridge_faces": 288
+    },
+    {
+      "shape": [
+        6,
+        6,
+        6
+      ],
+      "cubes": 27,
+      "tubes": 81,
+      "two_bridge_faces": 324
+    }
+  ],
+  "claim_boundary": {
+    "two_bridge_distinct_face_minimal_return_classified": true,
+    "full_operator_selected_word_bound": true,
+    "all_spectator_energies_retained": true,
+    "exact_free_vacuum_source": true,
+    "full_fourth_order_return_resolved": false,
+    "interacting_vacuum_source_coefficient_computed": false,
+    "local_interaction_norm_after_spectator_elimination": false,
+    "improved_lattice_gap_window": false,
+    "spatial_RG": false,
+    "continuum_mass_gap": false,
+    "formal_machine_verification": false
+  },
+  "source_pins": {
+    "physics/yc11/YC11_CLOSED_CUBE_RESPONSE.md": "8e489519da38a5422f110ac35536e3cee41581e56e4c00e49df39f8100c67675",
+    "physics/yc12/yc12_correlated_cube_gap.py": "44949e396a1ac7818b0b0ab10581fb306fad9b1f8101f4ea900989704280264b",
+    "physics/yc15/yc15_boundary_return_channels.py": "22f1a2fba6ebab9b03f41db2870391e2bc7e112477306f26c212256ef6c0b6cb",
+    "physics/yc16/YC16_ABSORBED_CUBE_RETURN.md": "de6056eb9d12b467c0cfc35a9f5473f5259e3241411fb2ec00c6494ea29b2006",
+    "physics/yc16/YC16_RESULT.json": "3d284ddf43c78e8936fbcbe63a4ee68f2da868637c01c62b1ca49e9ddf5844b9",
+    "uncut/up8/UP8_DEFORMED_COMPASS_AND_SEAM_TRANSPORT.md": "6c437609f1e8599e086c46a929298ff0175111d867d8116cac35a53fbca927b8",
+    "physics/yc17/YC17_FOUR_FACE_BRIDGE_RETURN.md": "fd0df3d2c56d5560a917daf16a72af95737db5742597e5ba6e5fab78192380f1",
+    "physics/yc17/yc17_four_face_bridge_return.py": "7e15ed18e3e82906e1a61de04479233d7081792242a09e639e8eadb7fab74641",
+    "physics/yc17/test_yc17.py": "8ad8c3a93399f290103763c9de04c672eeb2c91871bec53e3e245516b528668b"
+  }
+}

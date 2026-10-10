@@ -1,0 +1,52 @@
+{
+  "stage": "YC23",
+  "checks": {
+    "projective instrument energy and double commutator": true,
+    "vacuum escape probability and gap normalization": true,
+    "first and second energy moments are distinct": true,
+    "noncommutation elsewhere does not agitate the vacuum": true,
+    "rescaling the energy preserves escape probability": true,
+    "smooth branch normalization": true,
+    "exact local cut energy density": true,
+    "Fisher normalization is four times the metric": true,
+    "lifted cut is an involution": true,
+    "fixed pointer compresses to the smooth reading": true,
+    "horizontal cut metric has quarter normalization": true,
+    "cut derivative norm has eighth normalization": true,
+    "projected connection is flat despite positive cut metric": true,
+    "native four-step return is identity for the same cut": true,
+    "centered probe escape expansion": true,
+    "actual Haar escape expansion": true,
+    "four-link fundamental electric energy is twelve": true,
+    "four exact single-link gradient identities": true,
+    "Haar second and fourth moments": true,
+    "plaquette weak-probe ratio is twelve": true,
+    "closed Haar energy agrees with seven exact moments": true,
+    "energy weak expansion": true,
+    "finite Haar measurement is not an energy gap": true,
+    "nonconstant true-ground form control": true
+  },
+  "exact_check_count": 24,
+  "scope": "written full finite-lattice proof; exact algebra and normalization controls",
+  "source_sha256": {
+    "physics/yc20/YC20_METRIC_RETAINED_RETURN.md": "ca236fcba85aeb81f9dd8fe37997395f0f5784eb1c04f5c26e79179ee086557f",
+    "physics/yc21/YC21_TWO_CUBE_BLOCK_AND_REMOVED_CHANNELS.md": "58acfd6ab4fb52a0b5948551eb728b2270a149acefb4df4d98fe879e2296656b",
+    "physics/yc22/YC22_GAUGE_PROTECTED_CHANNELS.md": "aae5bd8981ddb9c65c177b0c187e1c8c77fc4c9a1fd977e6c847d2436c445ce4",
+    "uncut/up8/UP8_DEFORMED_COMPASS_AND_SEAM_TRANSPORT.md": "6c437609f1e8599e086c46a929298ff0175111d867d8116cac35a53fbca927b8",
+    "02-relational-response/EMK_TOPOLOGY_R15.md": "dc3b7fc1bb0ed7ec7a93f9e21ed358873df61909b00c01f9e634d1312fe23a6c"
+  },
+  "free_plaquette": {
+    "variance": "1/4",
+    "dirichlet_energy": "3",
+    "normalized_weak_probe_energy": "12",
+    "energy_at_eta_3_5": "13/45"
+  },
+  "claims": {
+    "cut_energy_information_identity": true,
+    "calibrated_physical_gap_identity": true,
+    "primitive_lambda_space_uniquely_derived": false,
+    "spontaneous_event_derived": false,
+    "larger_gap_window": false,
+    "continuum_mass_gap": false
+  }
+}

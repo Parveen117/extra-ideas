@@ -1,0 +1,216 @@
+{
+  "stage": "YC14",
+  "base_commit": "c730847",
+  "checks": {
+    "primitive turn and cut anticommute": true,
+    "admissible cut is an involution": true,
+    "quarter-root reset preserves oriented area": true,
+    "cut metric is the positive half-root of cycle": true,
+    "reset carries the cut to fixed axes": true,
+    "pairing is carried with the observer": true,
+    "cut is self-adjoint in its adapted pairing": true,
+    "seen and lost projections are metric orthogonal": true,
+    "balanced contrast and total norm are both retained": true,
+    "full cycle survives when the turn is transported": true,
+    "flat branch requires only rotation": true,
+    "rotation aligns the symmetric seam": true,
+    "cut whitening does not close a genuinely open compass": true,
+    "leaving turn fixed after nonorthogonal reset is false": true,
+    "rotation does not remove the antisymmetric defect": true,
+    "signed observation is still a consistent involution": true,
+    "all three example observations share the same local cut": true,
+    "reset transition retains open-path ratio memory": true,
+    "closed reset ledger alone has no holonomy": true,
+    "ratio memory uses the tangent composition law": true,
+    "actual transported memory telescopes only at interior frames": true,
+    "Haar source norm and gradient energy have the same unit constraint": true,
+    "cube endpoint centre flip preserves every internal Wilson face": true,
+    "every open cube edge is odd under an endpoint centre flip": true,
+    "4x4x4: interface bridge signatures are unique": true,
+    "4x4x4: exact two/four bridge counts": true,
+    "4x4x4: all factor incidence profiles": true,
+    "4x6x8: interface bridge signatures are unique": true,
+    "4x6x8: exact two/four bridge counts": true,
+    "4x6x8: all factor incidence profiles": true,
+    "6x6x6: interface bridge signatures are unique": true,
+    "6x6x6: exact two/four bridge counts": true,
+    "6x6x6: all factor incidence profiles": true,
+    "complete two-bridge source floor includes both charged cubes": true,
+    "four-bridge source has exact free energy twelve": true,
+    "two-bridge complete inverse susceptibility interval": true,
+    "rational exponential majorant sums the whole series": true,
+    "source-centred map preserves the full cluster ball": true,
+    "all-order contraction remains strict": true,
+    "actual excitation relative return keeps a strict reserve": true,
+    "new all-volume full gap is twenty-one hundredths": true,
+    "old interface endpoint now has gap nineteen eightieths": true,
+    "interface window grows by sixteen fifths": true,
+    "new endpoint genuinely needs the source-resolved seed": true
+  },
+  "owner_correction": "Each reading returns to a local balanced lambda-zero cut; retain transition ratio memory; radial motion undecided.",
+  "observer_reset": "C=exp(-phi*R/2)*B^(1/4); G_cut=B^(1/2); C*kappa*C^-1=K",
+  "source_costs": [
+    {
+      "bridges": 2,
+      "cubes": 2,
+      "support": 4,
+      "norm_squared": "1/4",
+      "energy_form": "3",
+      "mean_energy": "12",
+      "source_floor": "13/2",
+      "inverse_vector_upper": "1/13",
+      "weighted_seed_upper": "4/13",
+      "susceptibility_lower": "1/48",
+      "susceptibility_upper": "1/26"
+    },
+    {
+      "bridges": 4,
+      "cubes": 0,
+      "support": 4,
+      "norm_squared": "1/4",
+      "energy_form": "3",
+      "mean_energy": "12",
+      "source_floor": "12",
+      "inverse_vector_upper": "1/24",
+      "weighted_seed_upper": "1/6",
+      "susceptibility_lower": "1/48",
+      "susceptibility_upper": "1/48"
+    }
+  ],
+  "geometry": [
+    {
+      "shape": [
+        4,
+        4,
+        4
+      ],
+      "blocks": 8,
+      "two_bridge_faces": 96,
+      "four_bridge_faces": 48,
+      "bridge_signatures_unique": true,
+      "cube_profiles": [
+        [
+          24,
+          0
+        ]
+      ],
+      "bridge_profiles": [
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "shape": [
+        4,
+        6,
+        8
+      ],
+      "blocks": 24,
+      "two_bridge_faces": 288,
+      "four_bridge_faces": 144,
+      "bridge_signatures_unique": true,
+      "cube_profiles": [
+        [
+          24,
+          0
+        ]
+      ],
+      "bridge_profiles": [
+        [
+          2,
+          2
+        ]
+      ]
+    },
+    {
+      "shape": [
+        6,
+        6,
+        6
+      ],
+      "blocks": 27,
+      "two_bridge_faces": 324,
+      "four_bridge_faces": 162,
+      "bridge_signatures_unique": true,
+      "cube_profiles": [
+        [
+          24,
+          0
+        ]
+      ],
+      "bridge_profiles": [
+        [
+          2,
+          2
+        ]
+      ]
+    }
+  ],
+  "endpoint": {
+    "eta": "1/5120",
+    "beta": "3/640",
+    "factor_floor": "1/4",
+    "nonlinear_minimum_support": 1,
+    "radius": "1/128",
+    "exponential_upper": "16/15",
+    "cube_seed": "3/2080",
+    "bridge_seed": "37/199680",
+    "seed": "3/2080",
+    "contraction": "81/100",
+    "mapping": "1293/166400",
+    "mapping_reserve": "7/166400",
+    "relative_return": "4/25",
+    "full_gap_lower": "21/100",
+    "fixed_point_norm_upper": "15/1976"
+  },
+  "old_endpoint": {
+    "eta": "1/16384",
+    "beta": "3/2048",
+    "factor_floor": "1/4",
+    "nonlinear_minimum_support": 1,
+    "radius": "1/128",
+    "exponential_upper": "16/15",
+    "cube_seed": "3/6656",
+    "bridge_seed": "37/638976",
+    "seed": "3/6656",
+    "contraction": "81/320",
+    "mapping": "1293/532480",
+    "mapping_reserve": "2867/532480",
+    "relative_return": "1/20",
+    "full_gap_lower": "19/80",
+    "fixed_point_norm_upper": "15/24856"
+  },
+  "full_gap_formula": "gap>=1/4-(1024/5)*eta, 0<=eta<=1/5120",
+  "claim_boundary": {
+    "local_reset_preserves_full_return": true,
+    "quantum_classical_equality_for_equilibrium_multiplication_readings": true,
+    "all_quantum_measurements_are_classical": false,
+    "rotation_erases_cut_defect": false,
+    "radial_motion_derived": false,
+    "actual_correlated_lattice_window_improved": true,
+    "all_cluster_orders_and_boundary_charges_retained": true,
+    "isotropic_window_improved": false,
+    "lambda_equals_YM_coupling": false,
+    "continuum_mass_gap": false,
+    "formal_machine_verification": false
+  },
+  "source_pins": {
+    "uncut/up8/UP8_DEFORMED_COMPASS_AND_SEAM_TRANSPORT.md": "6c437609f1e8599e086c46a929298ff0175111d867d8116cac35a53fbca927b8",
+    "uncut/up8/up8_deformed_compass.py": "14f2fe5b5871992824e434286442bdbc2312966a025ee2e56684c01480617fd0",
+    "uncut/up8/UP8_RESULT.json": "73424fc13c113301497af9bbba02e75e2789505dc91077f01ea9fa8a74075d1d",
+    "physics/yc9/YC9_SHARED_PLANE_GAP.md": "589d6cbccff494068f7b2fc606965a1f9b8462c31f4b1a5ad41671f5eff053f9",
+    "physics/yc10/YC10_CLOSED_RETURN_AND_SCALE.md": "4205457d145c42b5224cc2a3ffbcde43170972475ef15536835b9e6fedddc498",
+    "physics/yc10/yc10_closed_return_and_scale.py": "d4a805e2bb83e8e12de4655c739f4dbd662563387d6d99dde60bce723d59d24b",
+    "physics/yc10/YC10_RESULT.json": "8c50a621da303317b281a5714a644a2acffc1920532665ae87edcd7c7fcd505c",
+    "physics/yc12/YC12_CORRELATED_CUBE_GAP.md": "998f9311eba56dd86c31c95dc8107fbb7f60c54801f37d0f68704a560d82fe63",
+    "physics/yc12/yc12_correlated_cube_gap.py": "44949e396a1ac7818b0b0ab10581fb306fad9b1f8101f4ea900989704280264b",
+    "physics/yc12/YC12_RESULT.json": "76de691f8ab3c60cc2051d36c4072803a7fb6987e45ebd89dddf930b8222d8ac",
+    "physics/yc13/YC13_FRAME_FLOW_AND_RETURN.md": "0842e0d6e89a8ba5e7d566c750c30041e532eac3805bdbaccec963d5d039c4bc",
+    "physics/yc13/YC13_RESULT.json": "f46bac4fc6abbd073df06b841cf95ca9794b7acdda9ea7e738868e9ab9291c40",
+    "physics/yc14/YC14_OBSERVER_RESET_AND_INTERFACE.md": "73b633b8650be2923b18515553fb2731d5fc6c8985a6ba00d1e75bb26ad05f76",
+    "physics/yc14/yc14_observer_reset_and_interface.py": "a20c04a2865714d424bdbc0de0050604a874807e6b84048a194e1389088a96d6",
+    "physics/yc14/test_yc14.py": "db31fae6bf00b72f22ccdcdeea08284c039d5abf4fb4902fc5b45bf5591ec822"
+  }
+}

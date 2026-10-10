@@ -1,0 +1,93 @@
+{
+  "stage": "YC38",
+  "date": "2026-10-10",
+  "record_type": "source provenance, not an executed certificate",
+  "parent_commit": "a2c89f8e541e099caaec95fb0a9fb269e7a23ed3",
+  "reading_scope": "Targeted audit and theorem derivation. Selected guards inspected; no predecessor suite replay or complete lineage audit. Repository context read for applicable current policies and endpoint summaries.",
+  "inputs": [
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "a2c89f8e541e099caaec95fb0a9fb269e7a23ed3",
+      "path": "AGENTS.md",
+      "sha256": "a1f83d19fc491adeaf26c20e341b242bd1d42f2113f4b01a25ef49101bcb3fc8"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "a2c89f8e541e099caaec95fb0a9fb269e7a23ed3",
+      "path": "FRAMEWORK_WORKING_CONTEXT.md",
+      "sha256": "7b2c9a877722436798727c38293d0252e861222ecbbe32ae7283a18688b1cc6c"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "a2c89f8e541e099caaec95fb0a9fb269e7a23ed3",
+      "path": "physics/RH_YM_TRANSFER_MAP.md",
+      "sha256": "8f6c68f4871ff8cffd579bc55499617818550ff296d4290b66c4c9cc3d94d677"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "a2c89f8e541e099caaec95fb0a9fb269e7a23ed3",
+      "path": "physics/ag1/AG1_DIAGONAL_WALK.md",
+      "sha256": "acb14025953d6acac19d19cc1ef9fbb5a691dd43d9e2c00259a92d222f348c47"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "a2c89f8e541e099caaec95fb0a9fb269e7a23ed3",
+      "path": "physics/tw1/TW1_TURN_BLOCK_WALK.md",
+      "sha256": "7d6b31c0ff679ef268f559e7d5f69861f8a0153a78ca889e4081aaa4259b904f"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "a2c89f8e541e099caaec95fb0a9fb269e7a23ed3",
+      "path": "physics/yc31/YC31_LOCAL_VACUUM_TRANSPORT.md",
+      "sha256": "8b32a8545f7e1e0d480fac4e104f3511d2f552e58a96d946312174d83162d66f"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "a2c89f8e541e099caaec95fb0a9fb269e7a23ed3",
+      "path": "physics/yc32/YC32_COLLECTIVE_FREDHOLM_REDUCTION.md",
+      "sha256": "542bcf63b5a5d665e3e42c0639e619f8c29479b6eb2e717e7621d4d8a0833091"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "a2c89f8e541e099caaec95fb0a9fb269e7a23ed3",
+      "path": "physics/yc36/YC36_LOCAL_COUNT_COEFFICIENTS.md",
+      "sha256": "485bf506dbc1e82563ddf9cf1b950505d86defc0e89eedd9eb858deb69fc7da5"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "a2c89f8e541e099caaec95fb0a9fb269e7a23ed3",
+      "path": "physics/yc37/YC37_SPATIAL_BLOCK_AND_ENERGY_MEMORY.md",
+      "sha256": "0d4f2a9d494dab549d76ceda6ed070fb728cfaf76cfc78af1f62af9b2cdc93e4"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "a2c89f8e541e099caaec95fb0a9fb269e7a23ed3",
+      "path": "physics/reviews/target-reference/TARGET_REFERENCE_NSB2_AUDIT.md",
+      "sha256": "1e86dce4c30fbd32127cc822e08c782c786074a64f012911b706c44ea526975d"
+    },
+    {
+      "repository": "Parveen117/Publications",
+      "revision": "5290ac92f362941023ff550eb3a8aa09da770302",
+      "path": "papers/yang-mills-certified-benchmark/YM93_BOCHNER_CONTINUATION.md",
+      "sha256": "48aa56db40e9df939c0bec3417e4961100d270c8535904b1da3321e2e7a091ac"
+    },
+    {
+      "repository": "Parveen117/Publications",
+      "revision": "5290ac92f362941023ff550eb3a8aa09da770302",
+      "path": "papers/yang-mills-certified-benchmark/certificates/ym93_bochner_continuation.py",
+      "sha256": "6582e12a8b4d58150b8926473b66ac17e825c3bcb348b0fedc86b47dc44fd54f"
+    },
+    {
+      "repository": "Parveen117/Publications",
+      "revision": "5290ac92f362941023ff550eb3a8aa09da770302",
+      "path": "papers/nonlinear-spectral-blindness/NSB2_NONLINEAR_RESPONSE_CLOSURE.md",
+      "sha256": "b4d3014fee440c262c8315dbd5f9b2201f6645c8adeac3b08cdb432cbb30f826"
+    },
+    {
+      "repository": "Parveen117/Publications",
+      "revision": "5290ac92f362941023ff550eb3a8aa09da770302",
+      "path": "papers/nonlinear-spectral-blindness/certificates/nsb2_nonlinear_response.py",
+      "sha256": "eebcc8b1fb820907601d0903ba452365c6b353ab72e78346897b5c3883222fb6"
+    }
+  ]
+}

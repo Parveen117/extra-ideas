@@ -1,0 +1,132 @@
+{
+ "stage": "YC2",
+ "checks": {
+  "uniform S3 vector moments are exact quaternion Haar moments": true,
+  "cross-product and Gram forms of every plaquette energy agree": true,
+  "each plaquette energy is even under all three independent centre flips": true,
+  "link permutations act exactly on the three plaquette channels": true,
+  "each Haar plaquette energy has mean three eighths": true,
+  "each Haar plaquette energy has variance thirteen over 192": true,
+  "a shared link contributes covariance one over 64": true,
+  "the exact two-energy TVSP compass is 160 over 169": true,
+  "symmetric and anisotropy response modes are both strictly positive": true,
+  "the total Wilson-core channel has exact Haar mean and variance": true,
+  "the Haar centre-odd loop response block is one quarter times identity": true,
+  "independent centre flips diagonalize the three centre-odd loop responses": true,
+  "centre-odd loops have zero mixed response with every plaquette-energy channel": true,
+  "the eight centre characters give exact orthogonal sector projectors": true,
+  "observation swaps the first two positions and carries each typed chart": true
+ },
+ "all_pass": true,
+ "carrier": {
+  "configuration": "(U1,U2,U3) in SU(2)^3 with product Haar measure",
+  "gauge_action": "simultaneous conjugation",
+  "centre_group": "(Z2)^3 acting by independent Ui -> -Ui",
+  "compact_hamiltonian": "H_theta=-sum Delta_i+2 theta Q",
+  "Q": "X12+X23+X31, Xij=|ui cross uj|^2"
+ },
+ "source_potential": {
+  "formula": "W=log integral exp[-2 theta Q+sum kappa_i c_i+sum h_i c_i^2+sum j_ij X_ij] dU",
+  "centre_odd_channels": "c_i=Tr(U_i)/2",
+  "centre_even_channels": "c_i^2 and X_ij",
+  "all_coupling_seam": "at kappa=0 the odd block is diagonal and every odd-even mixed response is zero",
+  "isotropic_line": "link permutations make the odd block a scalar multiple of I3"
+ },
+ "haar_energy_response": {
+  "centre_odd_loop_covariance": [
+   [
+    "1/4",
+    "0",
+    "0"
+   ],
+   [
+    "0",
+    "1/4",
+    "0"
+   ],
+   [
+    "0",
+    "0",
+    "1/4"
+   ]
+  ],
+  "means": [
+   "3/8",
+   "3/8",
+   "3/8"
+  ],
+  "covariance": [
+   [
+    "13/192",
+    "1/64",
+    "1/64"
+   ],
+   [
+    "1/64",
+    "13/192",
+    "1/64"
+   ],
+   [
+    "1/64",
+    "1/64",
+    "13/192"
+   ]
+  ],
+  "pair_chi": "160/169",
+  "pair_lost_share": "9/169",
+  "symmetric_eigenvalue": "19/192",
+  "anisotropy_eigenvalue": "5/96",
+  "normalized_three_channel_determinant": "1900/2197",
+  "mean_Q": "9/8",
+  "variance_Q": "19/64"
+ },
+ "observation": {
+  "odd_TVSP": [
+   "<c_i>",
+   "kappa_j",
+   "kappa_i",
+   "<c_j>"
+  ],
+  "odd_VTSP": [
+   "kappa_j",
+   "<c_i>",
+   "kappa_i",
+   "<c_j>"
+  ],
+  "energy_TVSP": [
+   "<X_alpha>",
+   "j_beta",
+   "j_alpha",
+   "<X_beta>"
+  ],
+  "energy_VTSP": [
+   "j_beta",
+   "<X_alpha>",
+   "j_alpha",
+   "<X_beta>"
+  ],
+  "arrow_rule": "push an arrow and the response metric by the same first-two-position permutation"
+ },
+ "sector_sensitive_adapter": {
+  "projector": "P_sigma=2^-3 sum_z chi_sigma(z) Z_z",
+  "twisted_heat_trace": "K_z(t)=Tr[Z_z exp(-t H_theta)]",
+  "sector_heat_trace": "Z_sigma(t)=2^-3 sum_z chi_sigma(z) K_z(t)",
+  "sector_ground": "E0_sigma=-lim_(t->infinity) t^-1 log Z_sigma(t)",
+  "splitting_ratio": "E0_sigma-E0_plus=-lim t^-1 log[Z_sigma(t)/Z_plus(t)]"
+ },
+ "claim_boundary": {
+  "YC1_embeds_as_each_single_link_when_theta_and_cross_sources_vanish": true,
+  "centre_odd_and_even_response_blocks_separate_at_the_symmetric_seam": true,
+  "Haar_shared_link_compass_is_160_over_169": true,
+  "centre_even_Wilson_potential_alone_can_identify_a_centre_character": false,
+  "twisted_heat_trace_is_required_for_sector_splitting": true,
+  "absolute_CM2_sector_splitting_rate_computed": false,
+  "spatial_volume_or_continuum_gap_proved": false
+ },
+ "source_sha256": {
+  "physics/yc1/YC1_CENTRE_COMPASS_POTENTIAL.md": "c3813884012b89109a23c1d163781dbd58744750e0d7300a4cf417a6df53ba2c",
+  "uncut/ca2/CA2_SYMMETRY_COMPASS_ATLAS.md": "868934adfda5cee9898b3c58f3e35c8aee57230213ed6bc145920ebe34fca7a7",
+  "physics/ol1/OL1_ONE_SITE_LATTICE.md": "96949b54dea7bed4d06ebc2cd03f0bcde834a461806920c3bba5d9496f6b0b69",
+  "physics/cm2/CM2_COMPACT_CORE_MATCHING.md": "76231c09666f5f43092282fd546cf1c342c36ed38829f2e96e0138bbb2134f0b"
+ }
+}

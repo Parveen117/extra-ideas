@@ -1,0 +1,125 @@
+{
+ "stage": "YC1",
+ "checks": {
+  "SU(2) Haar moments reproduce the centre-record Catalan law": true,
+  "one-face log potential and response have the exact weak series": true,
+  "the TVSP diagram centre kills the quadratic term and first retains degree four": true,
+  "the ST scalar is kappa times the centre response": true,
+  "centre flip diagonalizes the c and c-squared response Hessian": true,
+  "the first compass information loss away from the centre is kappa squared over four": true,
+  "the Bessel response obeys its exact Riccati identity as a formal series": true,
+  "Haar integral equals the Bessel potential and response": true,
+  "Bessel differentiation gives r-prime equals one minus r-squared minus 3r over kappa": true,
+  "RW1 bounds make the centre-cut scalar strictly increasing": true,
+  "the centre scalar lies below half the potential and sandwiches ST": true,
+  "the pinned RW1 global inequality certificate is present and passing": true
+ },
+ "all_pass": true,
+ "carrier": {
+  "group": "one SU(2) face with normalized Haar measure",
+  "centre_coordinate": "c = Tr(U)/2",
+  "centre_action": "c -> -c",
+  "observables": [
+   "c",
+   "c^2"
+  ],
+  "sources": [
+   "kappa",
+   "h"
+  ],
+  "potential": "Psi(kappa,h) = log <exp(kappa c + h c^2)>",
+  "metric": "Hessian Psi = Cov(c,c^2)"
+ },
+ "tvsp": {
+  "pre_observation": "(T,V,S,P) = (Psi_kappa,h,kappa,Psi_h)",
+  "post_observation": "(V,T,S,P) = (h,Psi_kappa,kappa,Psi_h)",
+  "st_scalar_at_h_zero": "kappa Psi_kappa = kappa I2(kappa)/I1(kappa) = kappa tanh(k_c)",
+  "diagram_centre": "Psi_mid = Psi-(kappa Psi_kappa+h Psi_h)/2"
+ },
+ "centre_seam": {
+  "hessian_at_origin": [
+   [
+    "1/4",
+    "0"
+   ],
+   [
+    "0",
+    "1/16"
+   ]
+  ],
+  "chi_for_every_h_at_kappa_zero": "1",
+  "reason": "centre parity makes Cov(c,c^2)=0"
+ },
+ "weak_series_at_h_zero": {
+  "psi": {
+   "2": "1/8",
+   "4": "-1/384",
+   "6": "1/9216",
+   "8": "-1/184320",
+   "10": "13/44236800",
+   "12": "-11/660602880"
+  },
+  "r": {
+   "1": "1/4",
+   "3": "-1/96",
+   "5": "1/1536",
+   "7": "-1/23040",
+   "9": "13/4423680",
+   "11": "-11/55050240"
+  },
+  "st": {
+   "2": "1/4",
+   "4": "-1/96",
+   "6": "1/1536",
+   "8": "-1/23040",
+   "10": "13/4423680",
+   "12": "-11/55050240"
+  },
+  "centre": {
+   "4": "1/384",
+   "6": "-1/4608",
+   "8": "1/61440",
+   "10": "-13/11059200",
+   "12": "11/132120576"
+  },
+  "lost": {
+   "2": "1/4",
+   "4": "-1/16",
+   "6": "41/2560",
+   "8": "-761/184320",
+   "10": "7853/7372800",
+   "12": "-2017/7340032"
+  },
+  "chi": {
+   "0": "1",
+   "2": "-1/4",
+   "4": "1/16",
+   "6": "-41/2560",
+   "8": "761/184320",
+   "10": "-7853/7372800",
+   "12": "2017/7340032"
+  }
+ },
+ "global_centre_cut_bound": {
+  "input": "RW1: kappa/2 < sinh(2 k_c) < 2 kappa/3 for kappa>0",
+  "derivative": "Psi_mid' = (4r-kappa(1-r^2))/2",
+  "conclusion": "0 < Psi_mid' < r/2, hence 0<Psi_mid<Psi/2 and Psi<ST<2Psi for kappa>0"
+ },
+ "claim_boundary": {
+  "gauge_invariant_two_source_response_potential_constructed": true,
+  "centre_symmetry_forces_complete_compass_at_the_seam": true,
+  "diagram_centre_removes_the_quadratic_face_cumulant": true,
+  "first_retained_face_term_and_TC1_core_share_quartic_degree": true,
+  "one_face_kappa_identified_with_CM2_theta_or_continuum_coupling": false,
+  "one_face_quartic_coefficient_identified_with_TC1_e2_core": false,
+  "mass_gap_or_volume_uniformity_proved": false
+ },
+ "source_sha256": {
+  "uncut/ca2/CA2_SYMMETRY_COMPASS_ATLAS.md": "868934adfda5cee9898b3c58f3e35c8aee57230213ed6bc145920ebe34fca7a7",
+  "uncut/up1/UP1_DEGREE_OF_THE_POTENTIAL.md": "20d34f53581c6c87463b2a628eda173a50270079be873cd0272437b3ff2567da",
+  "physics/ct1/CT1_CENTRE_RECORD_OF_THE_TURN_CHAIN.md": "6647ad98f5f4b7b9e79b18a8e1cab006c0f3854df2171c987e4e14c4a9b01a3c",
+  "tools/rw1/RW1_RETURNED_WINDING_COUNT.md": "e2e66d4c5093ef12f4306da5e1fe11f887cc4399554e70b5c5348460089e9d83",
+  "physics/tc1/TC1_CORE_OF_TURNS.md": "e7ee96ac926ce65bbf0dffd929537e027747cd15843fa74fbbc9c37fa4c08e4a",
+  "physics/cm2/CM2_COMPACT_CORE_MATCHING.md": "76231c09666f5f43092282fd546cf1c342c36ed38829f2e96e0138bbb2134f0b"
+ }
+}

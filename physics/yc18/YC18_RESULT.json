@@ -1,0 +1,151 @@
+{
+  "stage": "YC18",
+  "base_commit": "16bb4a0",
+  "checks": {
+    "complete distinct low-order bridge classification on (4, 4, 4)": true,
+    "complete distinct low-order bridge classification on (4, 6, 8)": true,
+    "complete distinct low-order bridge classification on (6, 6, 6)": true,
+    "complete repeated pair bound for 2,2,0": true,
+    "complete repeated pair bound for 2,2,1": true,
+    "complete repeated pair bound for 2,4,0": true,
+    "complete repeated pair bound for 2,4,1": true,
+    "complete repeated pair bound for 4,4,0": true,
+    "complete repeated pair bound for 4,4,1": true,
+    "even bridge floor gives both fourth self-return bounds": true,
+    "spectator derivative retains all three resolvent insertions": true,
+    "disconnected raw return has a nonzero mixed fourth coefficient": true,
+    "energy dependence exactly cancels disconnected scalar return": true,
+    "creation logarithm removes disconnected mixed components": true,
+    "four complete commutator coefficients equal independent Rayleigh creation logarithms": true,
+    "connected calculation is not the unlogged wavefunction": true,
+    "uniform complex disk has the pinned contraction and mapping reserve": true,
+    "complete fourth-order tail at half radius is one over 2048": true,
+    "complete fourth-order tail at quarter radius is one over 98304": true,
+    "tube source inverse gives the local connected creation coefficient": true,
+    "tube creator Hilbert and weighted-root norms have distinct normalization": true,
+    "actual full gap baseline is preserved": true
+  },
+  "lattice_audits": [
+    {
+      "shape": [
+        4,
+        4,
+        4
+      ],
+      "external_faces": 144,
+      "max_shared_bridges": 1,
+      "third_order_distinct_returns": 0,
+      "fourth_order_distinct_returns": 24,
+      "all_fourth_distinct_are_exactly_tubes": true,
+      "all_fourth_distinct_have_only_two_bridge_faces": true
+    },
+    {
+      "shape": [
+        4,
+        6,
+        8
+      ],
+      "external_faces": 432,
+      "max_shared_bridges": 1,
+      "third_order_distinct_returns": 0,
+      "fourth_order_distinct_returns": 72,
+      "all_fourth_distinct_are_exactly_tubes": true,
+      "all_fourth_distinct_have_only_two_bridge_faces": true
+    },
+    {
+      "shape": [
+        6,
+        6,
+        6
+      ],
+      "external_faces": 486,
+      "max_shared_bridges": 1,
+      "third_order_distinct_returns": 0,
+      "fourth_order_distinct_returns": 81,
+      "all_fourth_distinct_are_exactly_tubes": true,
+      "all_fourth_distinct_have_only_two_bridge_faces": true
+    }
+  ],
+  "paired_word_bounds": [
+    {
+      "m": 2,
+      "n": 2,
+      "shared_bridges": 0,
+      "norm_upper": "1/432",
+      "nonzero_orders_upper": 4
+    },
+    {
+      "m": 2,
+      "n": 2,
+      "shared_bridges": 1,
+      "norm_upper": "11/1728",
+      "nonzero_orders_upper": 6
+    },
+    {
+      "m": 2,
+      "n": 4,
+      "shared_bridges": 0,
+      "norm_upper": "1/1152",
+      "nonzero_orders_upper": 4
+    },
+    {
+      "m": 2,
+      "n": 4,
+      "shared_bridges": 1,
+      "norm_upper": "5/2304",
+      "nonzero_orders_upper": 6
+    },
+    {
+      "m": 4,
+      "n": 4,
+      "shared_bridges": 0,
+      "norm_upper": "1/3456",
+      "nonzero_orders_upper": 4
+    },
+    {
+      "m": 4,
+      "n": 4,
+      "shared_bridges": 1,
+      "norm_upper": "17/20736",
+      "nonzero_orders_upper": 6
+    }
+  ],
+  "spectator_tube_relative_constant": "29/2592",
+  "disconnected_control": {
+    "raw_fourth_cross": "1/13824",
+    "energy_argument_cross": "1/13824",
+    "net_energy_cross": "0",
+    "all_mixed_creator_components_zero": true
+  },
+  "analytic_radius": "1/4320",
+  "creation_ball": "1/128",
+  "half_radius_tail": "1/2048",
+  "quarter_radius_tail": "1/98304",
+  "tube_creation_coefficient": "11/3981312",
+  "claim_boundary": {
+    "all_bridge_word_types_through_four_classified": true,
+    "each_allowed_fourth_multiset_has_full_operator_bound": true,
+    "ground_creator_recursion_through_four_complete": true,
+    "connected_local_ground_coefficients": true,
+    "uniform_complete_ground_tail": true,
+    "all_interacting_cube_coefficients_numerically_evaluated": false,
+    "full_excitation_effective_operator_locally_closed": false,
+    "improved_gap_window": false,
+    "iterated_spatial_RG": false,
+    "continuum_mass_gap": false,
+    "formal_machine_verification": false
+  },
+  "source_pins": {
+    "physics/yc9/YC9_SHARED_PLANE_GAP.md": "589d6cbccff494068f7b2fc606965a1f9b8462c31f4b1a5ad41671f5eff053f9",
+    "physics/yc10/YC10_CLOSED_RETURN_AND_SCALE.md": "4205457d145c42b5224cc2a3ffbcde43170972475ef15536835b9e6fedddc498",
+    "physics/yc15/YC15_BOUNDARY_RETURN_CHANNELS.md": "867abaaf73e599e0222efb1d4d2358d5abaa62598c6ca7523560465b46b977e7",
+    "physics/yc15/yc15_boundary_return_channels.py": "22f1a2fba6ebab9b03f41db2870391e2bc7e112477306f26c212256ef6c0b6cb",
+    "physics/yc15/YC15_RESULT.json": "63fa1861a8a27da618cca109cbcbe57c46c4844e83e9c90e930accd543d13c31",
+    "physics/yc17/YC17_FOUR_FACE_BRIDGE_RETURN.md": "fd0df3d2c56d5560a917daf16a72af95737db5742597e5ba6e5fab78192380f1",
+    "physics/yc17/yc17_four_face_bridge_return.py": "7e15ed18e3e82906e1a61de04479233d7081792242a09e639e8eadb7fab74641",
+    "physics/yc17/YC17_RESULT.json": "ac452f031e3f50d1e28433f3155ea66690a012a39a056019ffece31136b559c6",
+    "physics/yc18/YC18_CONNECTED_FOURTH_ORDER.md": "e846f7e9965cefda9e7ea54b412aae5996660a79470cad740317aaa60a7e0b62",
+    "physics/yc18/yc18_connected_fourth_order.py": "77d8f1ff8ae743b707ef0b6a1e92fb7fab1d2b6e3906473daff686b7051c2aca",
+    "physics/yc18/test_yc18.py": "688f3745f3217433247409973b13c036a0e7c95d925e04c378299852694e84fa"
+  }
+}

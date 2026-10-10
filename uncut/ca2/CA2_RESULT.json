@@ -1,0 +1,54 @@
+{
+ "stage": "CA2",
+ "checks": {
+  "every positive reciprocal two-source potential has two compass-matched response pairs": true,
+  "thermodynamic TVSP is one typed instance of the universal diagram": true,
+  "electromagnetic E-B-D-H diagram is flat in an uncoupled vacuum block": true,
+  "reciprocal magnetoelectric coupling is the lost compass share": true,
+  "two-channel elasticity carries the same unit-free compass law": true,
+  "a two-source covariance Hessian reads one minus squared correlation": true,
+  "full quarter-turn symmetry forces chi one on the whole two-channel carrier": true,
+  "the declared source pair is load-bearing in a higher-rank symmetry sector": true,
+  "nonreciprocal constitutive response exits the one-number atlas": true
+ },
+ "all_pass": true,
+ "universal_adapter": {
+  "carrier": "two declared source channels x,y with positive reciprocal Hessian H",
+  "pre_observation_diagram": "(Phi_x, y, x, Phi_y), with physical response orientations retained",
+  "compass": "chi = det(H)/(H_xx H_yy)",
+  "response_pairs": "C[x|y]/C[x|q] = C[y|x]/C[y|p] = chi",
+  "observation_chart": "exchange the first two diagram positions and push source, metric and response frame together"
+ },
+ "atlas": {
+  "thermodynamic": "T-V-S-P",
+  "electromagnetic_scalar_channel": "E-B-D-H",
+  "elastic_two_channel": "sigma_1-epsilon_2-epsilon_1-sigma_2",
+  "two_source_partition_response": "<O1>-j2-j1-<O2>"
+ },
+ "electromagnetic": {
+  "literal_substitution": "T->E, V->B, S->D, P->H",
+  "properties": "C_V->C_B=E epsilon_B; C_P->C_H=E epsilon_H; C_S->C_D=H mu_D; C_T->C_E=H mu_E",
+  "transport_ratio": "epsilon_B/epsilon_H = mu_D/mu_E = chi_EM",
+  "vacuum_or_uncoupled_chi": "1",
+  "reciprocal_coupled_witness_chi": "11/12",
+  "reciprocal_coupled_lost_share": "1/12"
+ },
+ "source_pair_witness": {
+  "chi_channels_1_2": "11/12",
+  "chi_channels_2_3": "5/6"
+ },
+ "claim_boundary": {
+  "every_symmetry_has_a_unique_compass_without_selecting_sources": false,
+  "positive_reciprocal_two_source_sector_has_a_TVSP_analogue": true,
+  "full_quarter_turn_symmetry_forces_chi_one_on_2d_symmetric_carrier": true,
+  "nonreciprocal_or_dissipative_response_needs_turn_memory": true,
+  "electromagnetic_example_is_scalar_or_fixed_polarization_constitutive_sector": true,
+  "general_vector_tensor_electromagnetism_reduced_to_one_chi": false
+ },
+ "source_sha256": {
+  "uncut/ca1/CA1_TVSP_COMPASS_CALIBRATION.md": "eb6906664b0f533056d5b6b56e602feaa3df11aeb10df4b261426a162c45a7d0",
+  "uncut/up3/UP3_SEQUENCE_OF_DIAGRAMS.md": "d4cca37ff2466084c4463e56c3f1209f7609101d3adb8e2156680fb888cf87b2",
+  "uncut/up4/UP4_COST_OF_COMMUTING_CUTS.md": "9feebe560fd6c12846b1b65ca81f580d16757d1f926cedd8f1f840d6ad021bb2",
+  "physics/em1/EM1_WAVE_CUT.md": "77bc06b63f9398e0ea4b408749758890501653dee6d1d863158904944102a9d9"
+ }
+}

@@ -183,3 +183,11 @@ A MASS GAP ; THE FABRIC ; ANY VOLUME                                            
 python dr1_core_by_rows.py          (about seven seconds)
 python -m unittest test_dr1
 ```
+
+## Later note (PC1, 9 October)
+
+[PC1](../pc1/PC1_PAIR_CLUSTERS.md) answers the first line of "What is not shown" in part. Splitting three turns
+into its three pairs, each with its lowest reading and floor, gives a second rate of at least 5.6923 where
+rows and columns gave 5.5210 — a gap of at least 0.5056 — and on all readings, not only the physical ones. For
+four turns the same step gives 0.4670 on all readings (here: 0.4425, physical). The floors ν(5), ν(7), ν(11) of
+D2 are inputs there. Nothing above is changed.

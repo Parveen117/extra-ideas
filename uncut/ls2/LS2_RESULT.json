@@ -1,0 +1,87 @@
+{
+  "stage": "LS2",
+  "base_commit": "625434c",
+  "exact_check_count": 30,
+  "checks": {
+    "quadratic response factorization on the declared carrier": true,
+    "normalization differential is tangent to the cut": true,
+    "valid analytic cut has a derivative outside the real-cut sector": true,
+    "retained jet lift reconstructs every response coefficient through four": true,
+    "normalized jet products obey the involution convolution through four": true,
+    "sector-error identity has the stated linear and quadratic terms": true,
+    "source response equals a quartic numerator over a cubic denominator": true,
+    "five known-denominator jets reconstruct the entire actual response": true,
+    "third-order coefficient recurrence after degree four": true,
+    "derivative recurrence includes factorial weights": true,
+    "actual diagonal-ray lower-right response": true,
+    "negative pole has nonzero third-order numerator": true,
+    "rational reconstruction reaches a regular point beyond the Taylor disk": true,
+    "Taylor truncation is not substituted for exact continuation": true,
+    "complete inherited positive polynomial H": true,
+    "complete inherited positive polynomial G": true,
+    "positive-axis discriminant bound uses the exact constant coefficient": true,
+    "first signed-depth response jet": true,
+    "first seam-angle response jet": true,
+    "first jet has full state rank everywhere on the positive patch": true,
+    "first jet decoder recovers both original coordinates exactly": true,
+    "zero-value normalized compass is constant despite varying raw size": true,
+    "second-order pullback metric equals the first-jet Gram matrix": true,
+    "renormalized metric has a strictly positive determinant": true,
+    "cubic native curvature is determined by the first response jet": true,
+    "independent exact source-curvature formula has the same cubic term": true,
+    "orientation of the source pullback is retained": true,
+    "all-positive curvature factorization is inherited without truncation": true,
+    "nonzero finite source curvature after exact continuation": true,
+    "general spatial onset exponent is twice depth order plus angle order": true
+  },
+  "source_sha256": {
+    "uncut/up3/UP3_SEQUENCE_OF_DIAGRAMS.md": "d4cca37ff2466084c4463e56c3f1209f7609101d3adb8e2156680fb888cf87b2",
+    "uncut/up6/UP6_EIGHT_SCALE_OPERATIONS.md": "ebcaa80a7ef76d834add872bceae2656026a8aac7cd7a1d52e5175f4f4c61638",
+    "uncut/up8/UP8_DEFORMED_COMPASS_AND_SEAM_TRANSPORT.md": "6c437609f1e8599e086c46a929298ff0175111d867d8116cac35a53fbca927b8",
+    "uncut/up8/up8_deformed_compass.py": "14f2fe5b5871992824e434286442bdbc2312966a025ee2e56684c01480617fd0",
+    "uncut/ls1/LS1_COMPASS_SPACE.md": "67b53fb45481275d4bf92478d53bdc8df5cf3efa3c618cc1b6bd138534d70547",
+    "uncut/ls1/ls1_compass_space.py": "bb3ba81f4337fb53d9bddf2dac08d3dad2f4976adc7318e85e0ba9d52d3fbbe9",
+    "physics/yc23/YC23_PRIMITIVE_CUT_AND_AGITATION.md": "d3c43f24456650e1a4d5c037af9d019cf9985e7a559984bc1ed37d681db90365",
+    "02-relational-response/R14_SCOPE_CORRECTION.md": "786c1f01d7521cfd9a9aa379c19a17e97314522f143a2984c0f1f6b4e90662f3",
+    "uncut/ls2/LS2_RESPONSE_TOWER_LIFT.md": "31a9b0c0eb9eca90250b54796e91936e3481584666b74eca09ce307b7d868526",
+    "uncut/ls2/ls2_response_tower.py": "cc6246a78a10df23e79260e8e57a3fae919534bbf7dc7746541916f1c31c8fa5",
+    "uncut/ls2/test_ls2.py": "d0540068201da539b16cd661ef1671206d933605c17d565bb799a348167e454f"
+  },
+  "external_source": {
+    "commit": "3cc5a33b05c16d59c90994ddda69dedc0d392424",
+    "path": "theorum/42_cut_graded_lambda_jacobian_tower_theorem.md",
+    "repository": "https://github.com/Parveen117/Recognition-Kernel-Framework",
+    "sha256": "e5304cc970bfa0e18140aa1b5373f16733cd5613e25ae4f29642d10f5b6431ed"
+  },
+  "response_recurrence": "A_n=-3c A_(n-1)-3c^2 A_(n-2)-c^3 A_(n-3), n>=5, c=2S+1/V",
+  "first_jet": {
+    "depth": "-4*S/37",
+    "angle": "-4*(163*S*V - 105)/(1369*V)",
+    "state_jacobian": "1680/(50653*V**2)"
+  },
+  "metric_leading": [
+    [
+      "447008/1874161",
+      "273840/(1874161*V**2)"
+    ],
+    [
+      "273840/(1874161*V**2)",
+      "176400/(1874161*V**4)"
+    ]
+  ],
+  "curvature_leading": "-13440*S/(1874161*V**2)",
+  "claims": {
+    "lossless_admissible_response_jet_lift": true,
+    "actual_family_rational_tower": true,
+    "all_positive_source_axis_admissible": true,
+    "first_jet_repairs_two_state_directions": true,
+    "metric_second_curvature_third_order": true,
+    "derivative_layers_are_independent_cuts": false,
+    "capacity_recursion_identified_with_derivative_tower": false,
+    "lambda_is_physical_RG_scale": false,
+    "full_primitive_carrier_selected": false,
+    "new_yang_mills_gap": false,
+    "continuum_mass_gap": false
+  },
+  "proof_scope": "written all-order and analytic proofs, exact algebra controls; not formal verification"
+}

@@ -1,0 +1,63 @@
+{
+ "stage": "PC1",
+ "checks": 15,
+ "passed": 15,
+ "all_pass": true,
+ "detail": {
+  "P1 each turn is in n - 1 sub-cores and each pair in n - 2 (n = 3 .. 9); kappa^3 = a^2 b": true,
+  "P2 J* J = 1 + R (x) (ones - 1) on exact models (m = 2, 3 points; n = 3, 4 turns), trace R = 1": true,
+  "P2 levels of 1 + R (x) (ones - 1): 1 + (n - 1) r on equal parts, 1 - r on parts that sum to zero": true,
+  "two turns: unit 1/2 by halves; unit 1 when one turn gives all its kinetic part ((1/2)(sqrt 2)^2 = 1)": true,
+  "two turns: the least sector floor is the second level of the even readings without row turning, 3.2130": true,
+  "two turns, control: with halves only, a reading odd in one turn has floor 2.8487 < 3.2130": true,
+  "two turns: the reading is under the floor; lowest rate in [2.6592, 2.6594]": true,
+  "two turns: gap >= 0.5536 on all readings": true,
+  "two turns: one-turn share of the lowest reading r_1 >= 0.955": true,
+  "three turns: Z_3 > 5.69, above the line by columns and rows (5.5210)": true,
+  "three turns: gap >= 0.50 on all readings (was 0.3342 under the row condition)": true,
+  "three turns, control: without the full layer for odd turns the floor is 2.8487 and Z_3 falls under 5.5210": true,
+  "three turns, control: knowing nothing of the one-turn share (r_1 = 1/2) leaves Z_3 under 5.5210": true,
+  "three turns: lowest rate from both sides with the new line": true,
+  "four turns: Z_4 > 8.41 on all readings; gap >= 0.41 (by rows, under the row condition: 0.4425)": true
+ },
+ "numbers": {
+  "two turns: sector floors": {
+   "no row turning, both turns even: second level": 3.213,
+   "row turning two, both even (one turn with turning number two)": 3.2921,
+   "row turning four, both even": 4.0652,
+   "both even, two turns with turning number two": 4.2461,
+   "a turn odd (all of the other turn given to the layer)": 3.3592
+  },
+  "two turns": {
+   "floor": 3.213,
+   "lowest_rate": [
+    2.6592,
+    2.6594
+   ],
+   "gap_all_readings": 0.5536,
+   "readings": 64,
+   "overlap_with_product": 0.9596,
+   "overlap_with_true_lowest": 0.9998,
+   "one_turn_share": 0.9556
+  },
+  "three turns": {
+   "line": 5.6923,
+   "line_before": 5.521,
+   "lowest_rate": [
+    5.1865,
+    5.1868
+   ],
+   "gap": [
+    0.5056,
+    2.3922
+   ],
+   "overlap_with_product": 0.9633,
+   "one_turn_share": 0.9564
+  },
+  "four turns": {
+   "line": 8.4699,
+   "gap_all_readings": 0.467
+  },
+  "for the eye: Z_3 if the floor of two turns were 3.66 and r_1 = 0.959": 6.2348
+ }
+}

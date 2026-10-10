@@ -1,0 +1,201 @@
+{
+  "stage": "YC10",
+  "base_commit": "9f5fb83",
+  "checks": {
+    "all native cut corners retain potential degree 3/2": true,
+    "native Hessian has degree minus one half": true,
+    "vanishing potential and diverging response coexist": true,
+    "nonabelian derivative and bracket scale together": true,
+    "scaling witness retains a nonzero commutator": true,
+    "adjoint loop has single-link rate eight": true,
+    "adjoint winding is centre even": true,
+    "adjoint winding has zero single-link Haar mean": true,
+    "length-three adjoint support must not be discarded": true,
+    "divergent scalar shifts leave an excitation difference unchanged": true,
+    "(3, 3, 3): simple graph and correct minimum-support profile": true,
+    "(3, 3, 3): plaquettes remain centre even": true,
+    "(3, 4, 5): simple graph and correct minimum-support profile": true,
+    "(3, 4, 5): plaquettes remain centre even": true,
+    "(4, 4, 4): simple graph and correct minimum-support profile": true,
+    "(4, 4, 4): plaquettes remain centre even": true,
+    "(4, 5, 6): simple graph and correct minimum-support profile": true,
+    "(4, 5, 6): plaquettes remain centre even": true,
+    "support 3: invariant ball maps to itself": true,
+    "support 3: complete return is contractive": true,
+    "support 3: excitation relative norm stays below one": true,
+    "support 3: actual gap endpoint": true,
+    "support 4: invariant ball maps to itself": true,
+    "support 4: complete return is contractive": true,
+    "support 4: excitation relative norm stays below one": true,
+    "support 4: actual gap endpoint": true,
+    "orthogonal projection bound is four and sharp on sixteen equal components": true,
+    "outward exponential at two thirds": true,
+    "outward exponential at one half": true,
+    "all ordinary volumes have tenfold larger coupling window": true,
+    "triangle-free volumes have twelvefold larger coupling window": true,
+    "four dimensional action is invariant under compression": true,
+    "three dimensional magnetic energy scales inversely with size": true,
+    "curvature density grows even when the four dimensional action stays fixed": true
+  },
+  "profiles": [
+    {
+      "minimum_support": 3,
+      "radius": "1/4",
+      "exponent": "2/3",
+      "exp_bound": "39/20",
+      "beta_max": "1/16",
+      "theta_max": "1/64",
+      "map_coefficient": "39/10",
+      "lipschitz_coefficient": "78/5",
+      "relative_coefficient": "26/5",
+      "map_at_endpoint": "39/160",
+      "contraction_at_endpoint": "39/40",
+      "relative_at_endpoint": "13/40",
+      "vacuum_gap_at_endpoint": "81/10",
+      "full_gap_at_endpoint": "81/40"
+    },
+    {
+      "minimum_support": 4,
+      "radius": "1/4",
+      "exponent": "1/2",
+      "exp_bound": "5/3",
+      "beta_max": "3/40",
+      "theta_max": "3/160",
+      "map_coefficient": "10/3",
+      "lipschitz_coefficient": "100/9",
+      "relative_coefficient": "40/9",
+      "map_at_endpoint": "1/4",
+      "contraction_at_endpoint": "5/6",
+      "relative_at_endpoint": "1/3",
+      "vacuum_gap_at_endpoint": "8",
+      "full_gap_at_endpoint": "2"
+    }
+  ],
+  "geometry_controls": [
+    {
+      "shape": [
+        3,
+        3,
+        3
+      ],
+      "profile_support": 3,
+      "triangles": 27,
+      "links": 81
+    },
+    {
+      "shape": [
+        3,
+        4,
+        5
+      ],
+      "profile_support": 3,
+      "triangles": 20,
+      "links": 180
+    },
+    {
+      "shape": [
+        4,
+        4,
+        4
+      ],
+      "profile_support": 4,
+      "triangles": 0,
+      "links": 192
+    },
+    {
+      "shape": [
+        4,
+        5,
+        6
+      ],
+      "profile_support": 4,
+      "triangles": 0,
+      "links": 360
+    }
+  ],
+  "isotropic_bounds": {
+    "all_sides_at_least_3": "gap_vac >=12-(1248/5)*theta on [0,1/64]",
+    "all_sides_at_least_4": "gap_vac >=12-(640/3)*theta on [0,3/160]"
+  },
+  "scale_control": [
+    {
+      "dimension": 3,
+      "epsilon": "1/7",
+      "connection": "7",
+      "curvature": "49",
+      "curvature_density": "2401",
+      "measure": "1/343",
+      "integral": "7"
+    },
+    {
+      "dimension": 4,
+      "epsilon": "1/7",
+      "connection": "7",
+      "curvature": "49",
+      "curvature_density": "2401",
+      "measure": "1/2401",
+      "integral": "1"
+    },
+    {
+      "dimension": 5,
+      "epsilon": "1/7",
+      "connection": "7",
+      "curvature": "49",
+      "curvature_density": "2401",
+      "measure": "1/16807",
+      "integral": "1/7"
+    }
+  ],
+  "iteration_tail": [
+    {
+      "support": 3,
+      "iteration": 0,
+      "upper": "5/12"
+    },
+    {
+      "support": 3,
+      "iteration": 8,
+      "upper": "1784003086827/5242880000000"
+    },
+    {
+      "support": 3,
+      "iteration": 32,
+      "upper": "273492971661146823884279156603555559761155410184107/1475739525896764129280000000000000000000000000000000"
+    },
+    {
+      "support": 4,
+      "iteration": 0,
+      "upper": "3/40"
+    },
+    {
+      "support": 4,
+      "iteration": 8,
+      "upper": "78125/4478976"
+    },
+    {
+      "support": 4,
+      "iteration": 32,
+      "upper": "4656612873077392578125/21223096293190402358378496"
+    }
+  ],
+  "claim_boundary": {
+    "actual_YM_gap_uniform_in_volume": true,
+    "full_cluster_and_harmonic_spaces_retained": true,
+    "native_lambda_identified_with_bare_coupling": false,
+    "corner_concentration_proves_quantum_gap": false,
+    "correlated_block_constructed": false,
+    "continuum_4d_proved": false,
+    "finite_checks_are_formal_verification": false
+  },
+  "source_pins": {
+    "physics/yc9/YC9_SHARED_PLANE_GAP.md": "589d6cbccff494068f7b2fc606965a1f9b8462c31f4b1a5ad41671f5eff053f9",
+    "physics/yc9/yc9_shared_plane_gap.py": "0c78e8bda61dd1a020adee46cadc78786cba46b9a6dee043f16c429f66773381",
+    "physics/yc9/YC9_RESULT.json": "347731572538948cc4366d4b0f2cb2ad8f6d0420d9873dd7cf9b72a1aad7c8ab",
+    "uncut/up1/UP1_DEGREE_OF_THE_POTENTIAL.md": "20d34f53581c6c87463b2a628eda173a50270079be873cd0272437b3ff2567da",
+    "uncut/up3/UP3_SEQUENCE_OF_DIAGRAMS.md": "d4cca37ff2466084c4463e56c3f1209f7609101d3adb8e2156680fb888cf87b2",
+    "physics/lt1/LT1_LAMBDA_TOWER_INWARD.md": "0488f9d2bf773607d32f0d4113e8f50e186c8bb27bb4dc467e4db58d45e966b8",
+    "physics/yc10/YC10_CLOSED_RETURN_AND_SCALE.md": "4205457d145c42b5224cc2a3ffbcde43170972475ef15536835b9e6fedddc498",
+    "physics/yc10/yc10_closed_return_and_scale.py": "d4a805e2bb83e8e12de4655c739f4dbd662563387d6d99dde60bce723d59d24b",
+    "physics/yc10/test_yc10.py": "240a66d532b6328dc04f15435922c8f1a5f23b25200609c193dc01d01c297f6c"
+  }
+}

@@ -154,7 +154,7 @@ an experiment               the programmed chain of PH2; the pair memory of DC1
 one function                FD1: det(1 + zX) carries every eₙ; S side = reciprocal, F side = determinant; closed circuits; counts through a cut; rates = zeros. SN1: 1/4, 1/2, 1/3 in the three sectors
 the diagonal                QD1: reading rule = fixed-observer rule on the diagonal, part at the eight-mark value; DU1: the diagonal turn is the duality of a two-valued record, self-dual = seen = lost, rate = dual coupling; the same for the colour record open
 mass counts                 place found (MG1): (ℓ/cell) × gap; value open at the weak-coupling wall of the Yang–Mills line; cost ratios of contents given (CC1)
-pure numbers                PN1 (weak field: lost/seen = 1 to 2·10⁻⁵), TD1 (C_V/C_P = F on the diagonal; gases 2/(f+2); light gas 1), RD1 (thermal light), FS1 (place of 1/137; value open)
+pure numbers                PN1 (weak field: lost/seen = 1 to 2·10⁻⁵), TD1 (C_V/C_P = F on the diagonal; gases 2/(f+2); light gas 1), CA1 (χ = C_V/C_P = C_S/C_T = K_T/K_S), CA2 (literal T→E,V→B,S→D,P→H transport gives ε_B/ε_H = μ_D/μ_E = χ_EM; every positive reciprocal two-source potential has the same Schur-complement law), YC1 (SU(2) centre seam χ=1; Ψ_mid starts κ⁴/384; Ψ<ST<2Ψ), YC2 (compact shared-link response χ=160/169, lost share 9/169; odd/even centre blocks separate), RD1 (thermal light), FS1 (place of 1/137; value open)
 the observer                DO1: on the diagonal (every cut reads alike); there det = R − D and the law is seen = lost; for a centre that alone gives ρ = −½
 one law                     ONE_LAW.md: S = R + D (theorum/24 Theorem 6.1); the record rule is D = 0 (SD1). Remaining: numbers that are not ratios of counts (k, 1/137, mass ratios); a statement that differs from known physics; short-range forces and matter content
 one premise                 after GF1 and CS1: no memory in a shared record. Among repetitions → closure; among histories → stationary count; in one plane of a frame, and for a turn rate → the frame law 1 : 2 : −4 (every frame); the count of what falls → its source. Still put in: that the frame law is quadratic in the order defect; the cut-complex carrier; the constant k; the rule itself
@@ -164,6 +164,42 @@ closure                     rational ratio of rates = closure (RC1); pair of X-r
 ```
 
 ## 10. Reproduce
+
+Latest vacuum continuation: [YC6](yc6/YC6_VACUUM_STEP.md) certifies the internal
+gauge/centre-even gap ≥1 on 0≤θ≤14, using the same cut and the full return.
+Its exact coupling-step identity and alternating response tower do not yet
+change spatial resolution. The ground-state transform makes the gap the
+Poincare constant of the actual vacuum measure with its kinetic metric.
+Dimensionless information alone supplies neither the clock nor uniformity
+in N=L/a. The scale audit keeps a fixed-box effective g_R(1/L) distinct from
+a bare cutoff g_0(a); an isolated rate g^(2/3)/a diverges, rather than vanishes,
+under logarithmic ultraviolet running. This is a conditional obstruction to
+that isolated shrinking-cell family, not an exclusion of constant modes from
+the full theory. Spatial source/return matching remains the next gate.
+
+Predecessor [YC5](yc5/YC5_RESOLVED_RETURN.md)
+resolves the full lost source by free harmonic energy and keeps its first
+actual hidden interaction. Noncommuting operator tangent/secant bounds give
+a two-sided return enclosure without assuming finite hidden-span closure.
+With the retained cut unchanged, all-sector gap ≥1/20 and the three single-odd
+first excitations are certified throughout 0≤θ≤12, using 105 exact endpoints
+and 104 complete coupling cells. At θ=8 the gap is [0.8801,1.2516]. This is
+still one site, not a weak-limit absolute splitting or a volume/continuum gap.
+
+Predecessor [YC4](yc4/YC4_HARMONIC_RETURN.md)
+enlarges the actual harmonic cut to every singlet below a declared free
+threshold. Its full source Gram and hidden floor yield the first-excitation
+identity and gap ≥1/5 on 0≤θ≤8, with exact rational signs at 65 endpoints
+and analytic coverage of all 64 intervening cells. At θ=2 the gap lies in
+[2.1542,2.1655]. The hidden source is retained, not set to zero.
+
+Predecessor [YC3](yc3/YC3_SECTOR_SPLITTING.md)
+keeps every member of the free centre multiplet, then returns its full lost
+source through the kinetic resolvent. On 0≤θ≤2 the whole gauge-singlet gap
+is ≥65/54, with first excitation in three single-centre-odd sectors and exact
+second-order term 77θ²/1920. Its explicit remainder separates a true spectral
+energy from YC2's static response ratio. CM2's weak-limit matching and DR2's
+all-column core gap remain distinct; no volume or continuum claim is added.
 
 ```text
 python run_all_tests.py

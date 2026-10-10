@@ -1,0 +1,162 @@
+{
+  "stage": "YC13",
+  "base_commit": "89769b8",
+  "checks": {
+    "UP8 connection: cut squares to identity": true,
+    "UP8 connection: positive root gives the complete compass return": true,
+    "UP8 connection: return has determinant one": true,
+    "UP8 connection: flat cut closes exactly": true,
+    "UP8 connection: oblique cut retains both signed eigenlines": true,
+    "UP8 connection: orthonormal connection has no radial component": true,
+    "UP8 connection: seam connection equals normalized defect squared": true,
+    "UP8 connection: native transport preserves its declared metric": true,
+    "UP8 connection: full Maurer Cartan reading is flat": true,
+    "UP8 connection: half share curvature retains commutator factor": true,
+    "UP8 connection: curvature in orthonormal frame is d lost wedge d angle": true,
+    "UP8 connection: polynomial tower rescales one fixed traceless direction": true,
+    "UP8 connection: noncollinear cycles generate the skew coefficient": true,
+    "UP8 connection: polar rotation removes the whole skew part": true,
+    "response comes from the declared scalar potential": true,
+    "potential is homogeneous of degree two at every lambda": true,
+    "ordinary Hessian is strictly positive by base determinant and positive addition": true,
+    "zero member has the previously certified closed flat response": true,
+    "strict cut positivity holds globally without cancellation": true,
+    "mixed curvature has a strictly positive factored numerator": true,
+    "every fixed-lambda state surface has zero curvature": true,
+    "lambda and shape give a genuine mixed area": true,
+    "first mixed curvature coefficient is exact": true,
+    "finite mixed witness is nonzero": true,
+    "arbitrary quadratic coefficients retain q equals minus w": true,
+    "quadratic families reduce lost weight to squared angle ratio": true,
+    "observation is the signed involution with transported orientation": true,
+    "observed response keeps magnitude and reverses signed turn": true,
+    "full compass return transforms with the observed frame": true,
+    "source amplitude mixed S curvature is fixed by state curvature": true,
+    "source amplitude mixed V curvature is fixed by state curvature": true,
+    "amplitude family has an exact null scale direction": true,
+    "full-hidden even return step has positive scalar spectral difference": true,
+    "entire frame-state loop has a strict returned angle": true,
+    "certified loop cannot hide a full turn": true,
+    "theta<=1: exact face inertia gives a full-window gap 11": true,
+    "theta<=3/2: exact face inertia gives a full-window gap 42/5": true,
+    "theta<=2: exact face inertia gives a full-window gap 27/5": true,
+    "doubling step at centered energy zero retains its full inverse": true,
+    "resolved cube source norm is eleven quarters": true,
+    "actual cube lambda=1/4: mixed source curvatures have certified signs": true,
+    "actual cube lambda=1/2: mixed source curvatures have certified signs": true
+  },
+  "owner_convention": "TVSP before observation; observed VTSP film at lambda=0",
+  "family": "U_lambda=S^3/V+lambda*(S^2+V^2)",
+  "normalized_geometry": {
+    "m": "3/(2*(x + 3))",
+    "p": "(16*x**4 - 16*x**3*y + 188*x**3 - 144*x**2*y + 756*x**2 - 432*x*y + 1350*x - 432*y + 945)/(8*(x + 3)**3)",
+    "q": "9*(x + 2)*(2*x + 3)/(4*(x + 3)**2)",
+    "w": "3*x*(2*x + 3)/(4*(x + 3)**2)"
+  },
+  "factored_fxy_times_delta_squared": "81*x*(2*x+3)^3/(8*(x+3)^6)",
+  "first_mixed_curvature": "F_lambda,r/R=(3072/1874161)*lambda^2*r^4+O(lambda^3)",
+  "loop": {
+    "lambda_interval": [
+      "0",
+      "1/4"
+    ],
+    "ratio_interval": [
+      "1/2",
+      "1"
+    ],
+    "subdivisions_per_axis": 16,
+    "outward_binary_bits": 160,
+    "returned_angle": [
+      "-3011459801710111638360058744759483038897311/1461501637330902918203684832716283019655932542976",
+      "-403200926896730459807016041393065027177671/365375409332725729550921208179070754913983135744"
+    ]
+  },
+  "actual_cube_mixed_certificates": [
+    {
+      "lambda_value": "1/4",
+      "S": "2",
+      "V": "1",
+      "state": [
+        "44040067021992772316394143729755611/365375409332725729550921208179070754913983135744",
+        "88080134043985544632788295022426591/730750818665451459101842416358141509827966271488"
+      ],
+      "mixed_lambda_S": [
+        "-88080134043985544632788295022426591/182687704666362864775460604089535377456991567872",
+        "-44040067021992772316394143729755611/91343852333181432387730302044767688728495783936"
+      ],
+      "mixed_lambda_V": [
+        "44040067021992772316394143729755611/45671926166590716193865151022383844364247891968",
+        "88080134043985544632788295022426591/91343852333181432387730302044767688728495783936"
+      ]
+    },
+    {
+      "lambda_value": "1/2",
+      "S": "2",
+      "V": "1",
+      "state": [
+        "1876235259234701427219476616398708159359/1461501637330902918203684832716283019655932542976",
+        "1876235259234782764370264137482136658415/1461501637330902918203684832716283019655932542976"
+      ],
+      "mixed_lambda_S": [
+        "-1876235259234782764370264137482136658415/730750818665451459101842416358141509827966271488",
+        "-1876235259234701427219476616398708159359/730750818665451459101842416358141509827966271488"
+      ],
+      "mixed_lambda_V": [
+        "1876235259234701427219476616398708159359/365375409332725729550921208179070754913983135744",
+        "1876235259234782764370264137482136658415/365375409332725729550921208179070754913983135744"
+      ]
+    }
+  ],
+  "full_window_gauge_gaps": [
+    {
+      "theta_max": "1",
+      "centered_threshold": "11",
+      "full_hidden_ratio": "6/7",
+      "return_upper": "8477/10140",
+      "face_reserve": "1663/10140",
+      "gauge_gap_lower": "11"
+    },
+    {
+      "theta_max": "3/2",
+      "centered_threshold": "42/5",
+      "full_hidden_ratio": "15/16",
+      "return_upper": "874530/261547",
+      "face_reserve": "335196/1307735",
+      "gauge_gap_lower": "42/5"
+    },
+    {
+      "theta_max": "2",
+      "centered_threshold": "27/5",
+      "full_hidden_ratio": "20/21",
+      "return_upper": "15921745/2487347",
+      "face_reserve": "2473726/12436735",
+      "gauge_gap_lower": "27/5"
+    }
+  ],
+  "claim_boundary": {
+    "frame_state_mixed_curvature": true,
+    "signed_observation_is_a_covariant_chart": true,
+    "observation_swap_alone_generates_curvature": false,
+    "physical_measurement_or_time_law": false,
+    "lambda_is_theta_or_spatial_RG": false,
+    "new_full_window_actual_cube_gauge_gap": true,
+    "improved_charged_block_or_uniform_lattice_window": false,
+    "energy_or_continuum_mass_derived": false,
+    "formal_machine_verification": false
+  },
+  "source_pins": {
+    "physics/SIGNED_COMPASS_YM_HANDOFF.md": "fddc67e8fc47708e2847b35ae38e44f1e39d51ce54daa119364b16ddb02cd7a4",
+    "uncut/up8/UP8_DEFORMED_COMPASS_AND_SEAM_TRANSPORT.md": "6c437609f1e8599e086c46a929298ff0175111d867d8116cac35a53fbca927b8",
+    "uncut/up8/up8_deformed_compass.py": "14f2fe5b5871992824e434286442bdbc2312966a025ee2e56684c01480617fd0",
+    "uncut/up9/UP9_HAAR_SOURCE_AND_FLAT_LIMIT.md": "a1ce03de333deff9fbc7ecd0781dca1ebc0d6a5aaddbd7e6eaba71fc6ce688ce",
+    "uncut/up9/up9_haar_source_flow.py": "054337d937eef7aefcef5c065fe521b52659a55664de91678c9a9257f39cdf11",
+    "physics/yc11/YC11_CLOSED_CUBE_RESPONSE.md": "8e489519da38a5422f110ac35536e3cee41581e56e4c00e49df39f8100c67675",
+    "physics/yc11/YC11_RESULT.json": "c6d94fdecf90b7b761b90e7ed02d6d9bf1cfed0b3a2798aedace994099f39f99",
+    "physics/yc12/YC12_CORRELATED_CUBE_GAP.md": "998f9311eba56dd86c31c95dc8107fbb7f60c54801f37d0f68704a560d82fe63",
+    "physics/yc12/yc12_correlated_cube_gap.py": "44949e396a1ac7818b0b0ab10581fb306fad9b1f8101f4ea900989704280264b",
+    "physics/yc12/YC12_RESULT.json": "76de691f8ab3c60cc2051d36c4072803a7fb6987e45ebd89dddf930b8222d8ac",
+    "physics/yc13/YC13_FRAME_FLOW_AND_RETURN.md": "0842e0d6e89a8ba5e7d566c750c30041e532eac3805bdbaccec963d5d039c4bc",
+    "physics/yc13/yc13_frame_flow.py": "925a982db3742a94edc7cb0dee4ae996fa4fdb3348ab8c34774e9553debf9ceb",
+    "physics/yc13/test_yc13.py": "274a23d5ed463f8cd3b87e188b5d43c5ba3d8fe05d0aae39ee67c5157a5bc47d"
+  }
+}

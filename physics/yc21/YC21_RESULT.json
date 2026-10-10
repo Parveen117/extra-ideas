@@ -1,0 +1,161 @@
+{
+  "stage": "YC21",
+  "base_commit": "88e40f7",
+  "checks": {
+    "block uses the inherited full charged cube floor": true,
+    "four interface faces preserve total bridge centre parity": true,
+    "distinct face source signatures are orthogonal": true,
+    "lowest nonconstant even and odd bridge energies are six and three": true,
+    "full retained face square is one quarter for unit cube quaternions": true,
+    "half-strength tube retains the full positive spectral reserve": true,
+    "quarter-strength tube has gap at least thirteen fiftieths": true,
+    "odd hidden carrier is accounted for separately": true,
+    "actual ground scalar is bounded below by minus one sixteenth": true,
+    "complete actual graph metric excess is at most one forty-ninth": true,
+    "actual graph derivative and curvature have uniform upper bounds": true,
+    "return cost increases on the entire declared coupling window": true,
+    "(8, 4, 4): each real block has 28 links, 12 cube faces and four tube faces": true,
+    "(8, 4, 4): remaining faces have complete four-factor support": true,
+    "(8, 4, 4): exact new block and bridge incidence are 48 and four": true,
+    "(8, 4, 4): rectangular bridges require both incidence profiles": true,
+    "(12, 6, 4): each real block has 28 links, 12 cube faces and four tube faces": true,
+    "(12, 6, 4): remaining faces have complete four-factor support": true,
+    "(12, 6, 4): exact new block and bridge incidence are 48 and four": true,
+    "(12, 6, 4): rectangular bridges require both incidence profiles": true,
+    "new complete boundary source cap and seed are retained": true,
+    "new block ground join contracts strictly on all cluster supports": true,
+    "the complete creator ball retains a positive reserve": true,
+    "new anisotropic full gap is at least twenty-one over 125": true,
+    "new grouping does not contract the old boundary budget": true,
+    "removed graph directions give exactly the returned curvature identity": true,
+    "graph projection is orthogonal and retains its complete frame": true,
+    "projected connection transports its nonconstant metric": true,
+    "real two-channel graph can have nonzero order-defect": true,
+    "complex rank-one graph keeps conjugation and its Berry curvature": true,
+    "dimension reduction and a varying metric do not force curvature": true,
+    "full hidden propagation produces the energy derivative metric": true,
+    "finite control full inertia agrees with the complete Schur count": true,
+    "finite hidden inverse does not close on an individual source direction": true
+  },
+  "block_half": {
+    "couplings": [
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2"
+    ],
+    "z": "1/5",
+    "hidden_even_floor": "4",
+    "odd_floor": "1",
+    "source_norm_squared": "1/4",
+    "return_upper": "5/76",
+    "metric_excess": "25/1444",
+    "spectral_reserve": "3572617/443888640",
+    "positive_gap_certified": true,
+    "ground_energy_lower": "-1/16"
+  },
+  "block_quarter": {
+    "couplings": [
+      "1/4",
+      "1/4",
+      "1/4",
+      "1/4"
+    ],
+    "z": "13/50",
+    "hidden_even_floor": "5",
+    "odd_floor": "2",
+    "source_norm_squared": "1/16",
+    "return_upper": "25/1896",
+    "metric_excess": "625/224676",
+    "spectral_reserve": "6019313/9228211200",
+    "positive_gap_certified": true,
+    "ground_energy_lower": "-1/80"
+  },
+  "metric": {
+    "couplings": [
+      "1/2",
+      "1/2",
+      "1/2",
+      "1/2"
+    ],
+    "z": "1/2",
+    "hidden_even_floor": "4",
+    "odd_floor": "1",
+    "source_norm_squared": "1/4",
+    "return_upper": "1/14",
+    "metric_excess": "1/49",
+    "spectral_reserve": "-9733471/32707584",
+    "positive_gap_certified": false,
+    "ground_energy_lower": "-1/16"
+  },
+  "lattice_join": {
+    "epsilon": "1/12800",
+    "beta": "3/800",
+    "seed": "3/2560",
+    "inverse_source_cap": "5/64",
+    "radius": "1/128",
+    "contraction": "81/100",
+    "relative_return": "4/25",
+    "mapping_reserve": "1/3200",
+    "gap_lower": "21/125",
+    "minimum_nonlinear_support": 1
+  },
+  "tiling_controls": [
+    {
+      "shape": [
+        8,
+        4,
+        4
+      ],
+      "blocks": 8,
+      "profiles": {
+        "(2, 2)": 96,
+        "(3, 1)": 64
+      }
+    },
+    {
+      "shape": [
+        12,
+        6,
+        4
+      ],
+      "blocks": 18,
+      "profiles": {
+        "(2, 2)": 216,
+        "(3, 1)": 144
+      }
+    }
+  ],
+  "source_pins": {
+    "physics/dm1/DM1_ONE_MORE_DIMENSION.md": "e8ed404a3663c784d20a0d79556c814440b0c218f1140ed86d4ea1bb8e8f2ccf",
+    "physics/yc9/YC9_SHARED_PLANE_GAP.md": "589d6cbccff494068f7b2fc606965a1f9b8462c31f4b1a5ad41671f5eff053f9",
+    "physics/yc10/YC10_CLOSED_RETURN_AND_SCALE.md": "4205457d145c42b5224cc2a3ffbcde43170972475ef15536835b9e6fedddc498",
+    "physics/yc12/YC12_CORRELATED_CUBE_GAP.md": "998f9311eba56dd86c31c95dc8107fbb7f60c54801f37d0f68704a560d82fe63",
+    "physics/yc14/YC14_OBSERVER_RESET_AND_INTERFACE.md": "73b633b8650be2923b18515553fb2731d5fc6c8985a6ba00d1e75bb26ad05f76",
+    "physics/yc15/YC15_BOUNDARY_RETURN_CHANNELS.md": "867abaaf73e599e0222efb1d4d2358d5abaa62598c6ca7523560465b46b977e7",
+    "physics/yc15/YC15_RESULT.json": "63fa1861a8a27da618cca109cbcbe57c46c4844e83e9c90e930accd543d13c31",
+    "physics/yc17/YC17_FOUR_FACE_BRIDGE_RETURN.md": "fd0df3d2c56d5560a917daf16a72af95737db5742597e5ba6e5fab78192380f1",
+    "physics/yc20/YC20_METRIC_RETAINED_RETURN.md": "ca236fcba85aeb81f9dd8fe37997395f0f5784eb1c04f5c26e79179ee086557f",
+    "physics/yc20/yc20_metric_retained_return.py": "1d6b9dd8d2f32723453e272ccc99a7940538a71a784bf5b0170a4db1589bfa58",
+    "physics/yc20/YC20_RESULT.json": "7a89e47926149afce118d07295038982be6e94b6f1ede6d9241f7706a595899f",
+    "physics/yc21/YC21_TWO_CUBE_BLOCK_AND_REMOVED_CHANNELS.md": "58acfd6ab4fb52a0b5948551eb728b2270a149acefb4df4d98fe879e2296656b",
+    "physics/yc21/yc21_two_cube_block.py": "aea17a14cb5d606f5a1b952e0fcb522f3fd03f80fba1629877f4a7a69febfa5b",
+    "physics/yc21/test_yc21.py": "c99ef5948f5ed9ab3b4d01de30a33b136666b675751cb83ea08737716210139a"
+  },
+  "claim_boundary": {
+    "actual_28_link_block_gap": true,
+    "all_boundary_charges": true,
+    "no_harmonic_truncation": true,
+    "full_hidden_metric_bound": true,
+    "actual_anisotropic_volume_uniform_gap": true,
+    "projected_parameter_curvature_identity_and_upper_bound": true,
+    "computed_nonzero_YM_block_curvature": false,
+    "spacetime_dimension_removed": false,
+    "curvature_monotonicity": false,
+    "global_quotient_metric_condition_number": false,
+    "improved_isotropic_window": false,
+    "iterated_RG_contraction": false,
+    "continuum_mass_gap": false,
+    "formal_machine_verification": false
+  }
+}

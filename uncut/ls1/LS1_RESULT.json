@@ -1,0 +1,53 @@
+{
+  "stage": "LS1",
+  "exact_check_count": 23,
+  "checks": {
+    "native quadratic classification": true,
+    "smooth constraint has no critical point on its level": true,
+    "global cylinder chart is an involution": true,
+    "depth is the signed anticommutator": true,
+    "zero cuts still do not commute with the turn": true,
+    "induced positive metric formula": true,
+    "algebra trace form has Lorentzian signature": true,
+    "metric determinant and regular zero seam": true,
+    "radial coefficient dominates cylinder metric": true,
+    "native return and positive determinant-one root": true,
+    "return inverse formula": true,
+    "entire zero circle has identity return": true,
+    "opposite labelled cuts have the same return": true,
+    "return-space metric loses zero angle": true,
+    "global native connection from full return": true,
+    "native curvature linear in signed depth": true,
+    "metric-normalized native curvature": true,
+    "Gaussian curvature differs from native transport": true,
+    "noncompact stabilizer expands a nonzero tangent": true,
+    "oriented reset needs double cover": true,
+    "actual response normalization maps into target": true,
+    "regular real depth one despite zero-series radius": true,
+    "complex branch locations set chart-series radius": true
+  },
+  "source_sha256": {
+    "uncut/up7/UP7_TURN_AND_CUT.md": "59fa1e680a96663a92ac5abbc8ce7c3d977bee096bfa093221fd07e0efaa5f87",
+    "uncut/up8/UP8_DEFORMED_COMPASS_AND_SEAM_TRANSPORT.md": "6c437609f1e8599e086c46a929298ff0175111d867d8116cac35a53fbca927b8",
+    "physics/yc14/YC14_OBSERVER_RESET_AND_INTERFACE.md": "73b633b8650be2923b18515553fb2731d5fc6c8985a6ba00d1e75bb26ad05f76",
+    "physics/yc23/YC23_PRIMITIVE_CUT_AND_AGITATION.md": "d3c43f24456650e1a4d5c037af9d019cf9985e7a559984bc1ed37d681db90365",
+    "02-relational-response/OBSERVER_METRIC_FOUNDATION_R12.md": "2da79f4ceaeb2cdace775f6f40dacd80c37460dda7b7bf69f1dff7bac29ae2dc",
+    "02-relational-response/R14_SCOPE_CORRECTION.md": "786c1f01d7521cfd9a9aa379c19a17e97314522f143a2984c0f1f6b4e90662f3"
+  },
+  "target": "all labelled nontrivial real two-mode cuts; R times S1",
+  "positive_metric": "diag((1+2r^2)/(1+r^2), 1+r^2)",
+  "native_connection": "r^2 R dphi",
+  "native_curvature": "2r R dr wedge dphi",
+  "metric_gaussian_curvature": "-1/(1+2r^2)^2",
+  "proof_scope": "topology/completeness by written proof; exact algebra controls",
+  "claims": {
+    "zero_seam_retains_circle": true,
+    "complete_positive_metric": true,
+    "global_native_connection": true,
+    "full_primitive_lambda_space_selected": false,
+    "canonical_tower_interpolation": false,
+    "spacetime_replaced": false,
+    "new_yang_mills_gap": false,
+    "continuum_mass_gap": false
+  }
+}

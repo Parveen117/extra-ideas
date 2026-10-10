@@ -1,0 +1,1851 @@
+{
+  "stage": "YC6",
+  "all_pass": true,
+  "checks": {
+    "YC5 frozen source pins unchanged": true,
+    "all 113 endpoints pass both vacuum level counts": true,
+    "all 112 complete coupling cells have vacuum gap at least one": true,
+    "past certified floors only carried forward": true,
+    "retained vacuum cut remains complete with rank 13 and floor 24": true,
+    "all seven fourfold-coupling ratios have positive rational endpoints": true,
+    "operator step control: noncommuting": true,
+    "operator step control: resolvent_step_exact": true,
+    "operator step control: return_decreases": true,
+    "operator step control: alternating_derivative_coefficients_positive": true,
+    "TC1 kinetic and potential have the same g power": true,
+    "CM2 plus a declared lattice energy unit has g power 2/3": true,
+    "normalized vanishing admits shrinking constant and growing absolute examples": true,
+    "fixed refinement is not a quadrupling of theta in the one-loop control": true,
+    "TC1 one-site rate has inverse one-third logarithmic factor": true
+  },
+  "coupling_window": "[0,14]",
+  "sector": "simultaneous gauge invariant, all three centre characters even",
+  "uniform_vacuum_gap_lower": "1",
+  "minimum_mesh_gap_lower": "2113/2000",
+  "point_gap_enclosures": {
+    "0": [
+      "8",
+      "8"
+    ],
+    "2": [
+      "70791/10000",
+      "70897/10000"
+    ],
+    "4": [
+      "649/100",
+      "4143/625"
+    ],
+    "6": [
+      "14807/2500",
+      "65259/10000"
+    ],
+    "8": [
+      "12803/2500",
+      "844/125"
+    ],
+    "10": [
+      "9967/2500",
+      "18353/2500"
+    ],
+    "12": [
+      "12913/5000",
+      "83877/10000"
+    ],
+    "14": [
+      "2113/2000",
+      "113959/10000"
+    ]
+  },
+  "coupling_cells": [
+    {
+      "left": "0",
+      "right": "1/8",
+      "gap_lower": "38603/5000"
+    },
+    {
+      "left": "1/8",
+      "right": "1/4",
+      "gap_lower": "19131/2500"
+    },
+    {
+      "left": "1/4",
+      "right": "3/8",
+      "gap_lower": "9483/1250"
+    },
+    {
+      "left": "3/8",
+      "right": "1/2",
+      "gap_lower": "75223/10000"
+    },
+    {
+      "left": "1/2",
+      "right": "5/8",
+      "gap_lower": "74603/10000"
+    },
+    {
+      "left": "5/8",
+      "right": "3/4",
+      "gap_lower": "37001/5000"
+    },
+    {
+      "left": "3/4",
+      "right": "7/8",
+      "gap_lower": "73421/10000"
+    },
+    {
+      "left": "7/8",
+      "right": "1",
+      "gap_lower": "72859/10000"
+    },
+    {
+      "left": "1",
+      "right": "9/8",
+      "gap_lower": "18079/2500"
+    },
+    {
+      "left": "9/8",
+      "right": "5/4",
+      "gap_lower": "7179/1000"
+    },
+    {
+      "left": "5/4",
+      "right": "11/8",
+      "gap_lower": "35641/5000"
+    },
+    {
+      "left": "11/8",
+      "right": "3/2",
+      "gap_lower": "70791/10000"
+    },
+    {
+      "left": "3/2",
+      "right": "13/8",
+      "gap_lower": "17579/2500"
+    },
+    {
+      "left": "13/8",
+      "right": "7/4",
+      "gap_lower": "69857/10000"
+    },
+    {
+      "left": "7/4",
+      "right": "15/8",
+      "gap_lower": "69413/10000"
+    },
+    {
+      "left": "15/8",
+      "right": "2",
+      "gap_lower": "68983/10000"
+    },
+    {
+      "left": "2",
+      "right": "17/8",
+      "gap_lower": "68567/10000"
+    },
+    {
+      "left": "17/8",
+      "right": "9/4",
+      "gap_lower": "17041/2500"
+    },
+    {
+      "left": "9/4",
+      "right": "19/8",
+      "gap_lower": "67773/10000"
+    },
+    {
+      "left": "19/8",
+      "right": "5/2",
+      "gap_lower": "67393/10000"
+    },
+    {
+      "left": "5/2",
+      "right": "21/8",
+      "gap_lower": "4189/625"
+    },
+    {
+      "left": "21/8",
+      "right": "11/4",
+      "gap_lower": "8333/1250"
+    },
+    {
+      "left": "11/4",
+      "right": "23/8",
+      "gap_lower": "33157/5000"
+    },
+    {
+      "left": "23/8",
+      "right": "3",
+      "gap_lower": "16493/2500"
+    },
+    {
+      "left": "3",
+      "right": "25/8",
+      "gap_lower": "65637/10000"
+    },
+    {
+      "left": "25/8",
+      "right": "13/4",
+      "gap_lower": "65307/10000"
+    },
+    {
+      "left": "13/4",
+      "right": "27/8",
+      "gap_lower": "12997/2000"
+    },
+    {
+      "left": "27/8",
+      "right": "7/2",
+      "gap_lower": "64667/10000"
+    },
+    {
+      "left": "7/2",
+      "right": "29/8",
+      "gap_lower": "64353/10000"
+    },
+    {
+      "left": "29/8",
+      "right": "15/4",
+      "gap_lower": "64043/10000"
+    },
+    {
+      "left": "15/4",
+      "right": "31/8",
+      "gap_lower": "31867/5000"
+    },
+    {
+      "left": "31/8",
+      "right": "4",
+      "gap_lower": "15857/2500"
+    },
+    {
+      "left": "4",
+      "right": "33/8",
+      "gap_lower": "31561/5000"
+    },
+    {
+      "left": "33/8",
+      "right": "17/4",
+      "gap_lower": "62817/10000"
+    },
+    {
+      "left": "17/4",
+      "right": "35/8",
+      "gap_lower": "6251/1000"
+    },
+    {
+      "left": "35/8",
+      "right": "9/2",
+      "gap_lower": "62203/10000"
+    },
+    {
+      "left": "9/2",
+      "right": "37/8",
+      "gap_lower": "61893/10000"
+    },
+    {
+      "left": "37/8",
+      "right": "19/4",
+      "gap_lower": "3079/500"
+    },
+    {
+      "left": "19/4",
+      "right": "39/8",
+      "gap_lower": "12253/2000"
+    },
+    {
+      "left": "39/8",
+      "right": "5",
+      "gap_lower": "3809/625"
+    },
+    {
+      "left": "5",
+      "right": "41/8",
+      "gap_lower": "60619/10000"
+    },
+    {
+      "left": "41/8",
+      "right": "21/4",
+      "gap_lower": "60287/10000"
+    },
+    {
+      "left": "21/4",
+      "right": "43/8",
+      "gap_lower": "59951/10000"
+    },
+    {
+      "left": "43/8",
+      "right": "11/2",
+      "gap_lower": "29803/5000"
+    },
+    {
+      "left": "11/2",
+      "right": "45/8",
+      "gap_lower": "11851/2000"
+    },
+    {
+      "left": "45/8",
+      "right": "23/4",
+      "gap_lower": "3681/625"
+    },
+    {
+      "left": "23/4",
+      "right": "47/8",
+      "gap_lower": "3658/625"
+    },
+    {
+      "left": "47/8",
+      "right": "6",
+      "gap_lower": "58151/10000"
+    },
+    {
+      "left": "6",
+      "right": "49/8",
+      "gap_lower": "14441/2500"
+    },
+    {
+      "left": "49/8",
+      "right": "25/4",
+      "gap_lower": "57367/10000"
+    },
+    {
+      "left": "25/4",
+      "right": "51/8",
+      "gap_lower": "712/125"
+    },
+    {
+      "left": "51/8",
+      "right": "13/2",
+      "gap_lower": "56541/10000"
+    },
+    {
+      "left": "13/2",
+      "right": "53/8",
+      "gap_lower": "56113/10000"
+    },
+    {
+      "left": "53/8",
+      "right": "27/4",
+      "gap_lower": "55671/10000"
+    },
+    {
+      "left": "27/4",
+      "right": "55/8",
+      "gap_lower": "55217/10000"
+    },
+    {
+      "left": "55/8",
+      "right": "7",
+      "gap_lower": "54751/10000"
+    },
+    {
+      "left": "7",
+      "right": "57/8",
+      "gap_lower": "3392/625"
+    },
+    {
+      "left": "57/8",
+      "right": "29/4",
+      "gap_lower": "26891/5000"
+    },
+    {
+      "left": "29/4",
+      "right": "59/8",
+      "gap_lower": "53277/10000"
+    },
+    {
+      "left": "59/8",
+      "right": "15/2",
+      "gap_lower": "52759/10000"
+    },
+    {
+      "left": "15/2",
+      "right": "61/8",
+      "gap_lower": "52227/10000"
+    },
+    {
+      "left": "61/8",
+      "right": "31/4",
+      "gap_lower": "25841/5000"
+    },
+    {
+      "left": "31/4",
+      "right": "63/8",
+      "gap_lower": "25561/5000"
+    },
+    {
+      "left": "63/8",
+      "right": "8",
+      "gap_lower": "1011/200"
+    },
+    {
+      "left": "8",
+      "right": "65/8",
+      "gap_lower": "49963/10000"
+    },
+    {
+      "left": "65/8",
+      "right": "33/4",
+      "gap_lower": "49363/10000"
+    },
+    {
+      "left": "33/4",
+      "right": "67/8",
+      "gap_lower": "48749/10000"
+    },
+    {
+      "left": "67/8",
+      "right": "17/2",
+      "gap_lower": "48121/10000"
+    },
+    {
+      "left": "17/2",
+      "right": "69/8",
+      "gap_lower": "23739/5000"
+    },
+    {
+      "left": "69/8",
+      "right": "35/4",
+      "gap_lower": "46823/10000"
+    },
+    {
+      "left": "35/4",
+      "right": "71/8",
+      "gap_lower": "9231/2000"
+    },
+    {
+      "left": "71/8",
+      "right": "9",
+      "gap_lower": "2842/625"
+    },
+    {
+      "left": "9",
+      "right": "73/8",
+      "gap_lower": "44777/10000"
+    },
+    {
+      "left": "73/8",
+      "right": "37/4",
+      "gap_lower": "44069/10000"
+    },
+    {
+      "left": "37/4",
+      "right": "75/8",
+      "gap_lower": "43347/10000"
+    },
+    {
+      "left": "75/8",
+      "right": "19/2",
+      "gap_lower": "21307/5000"
+    },
+    {
+      "left": "19/2",
+      "right": "77/8",
+      "gap_lower": "41869/10000"
+    },
+    {
+      "left": "77/8",
+      "right": "39/4",
+      "gap_lower": "41111/10000"
+    },
+    {
+      "left": "39/4",
+      "right": "79/8",
+      "gap_lower": "2017/500"
+    },
+    {
+      "left": "79/8",
+      "right": "10",
+      "gap_lower": "39559/10000"
+    },
+    {
+      "left": "10",
+      "right": "81/8",
+      "gap_lower": "2423/625"
+    },
+    {
+      "left": "81/8",
+      "right": "41/4",
+      "gap_lower": "7593/2000"
+    },
+    {
+      "left": "41/4",
+      "right": "83/8",
+      "gap_lower": "37151/10000"
+    },
+    {
+      "left": "83/8",
+      "right": "21/2",
+      "gap_lower": "36327/10000"
+    },
+    {
+      "left": "21/2",
+      "right": "85/8",
+      "gap_lower": "35493/10000"
+    },
+    {
+      "left": "85/8",
+      "right": "43/4",
+      "gap_lower": "693/200"
+    },
+    {
+      "left": "43/4",
+      "right": "87/8",
+      "gap_lower": "33797/10000"
+    },
+    {
+      "left": "87/8",
+      "right": "11",
+      "gap_lower": "4117/1250"
+    },
+    {
+      "left": "11",
+      "right": "89/8",
+      "gap_lower": "6413/2000"
+    },
+    {
+      "left": "89/8",
+      "right": "45/4",
+      "gap_lower": "31187/10000"
+    },
+    {
+      "left": "45/4",
+      "right": "91/8",
+      "gap_lower": "303/100"
+    },
+    {
+      "left": "91/8",
+      "right": "23/2",
+      "gap_lower": "5881/2000"
+    },
+    {
+      "left": "23/2",
+      "right": "93/8",
+      "gap_lower": "3563/1250"
+    },
+    {
+      "left": "93/8",
+      "right": "47/4",
+      "gap_lower": "5519/2000"
+    },
+    {
+      "left": "47/4",
+      "right": "95/8",
+      "gap_lower": "26679/10000"
+    },
+    {
+      "left": "95/8",
+      "right": "12",
+      "gap_lower": "6439/2500"
+    },
+    {
+      "left": "12",
+      "right": "97/8",
+      "gap_lower": "24827/10000"
+    },
+    {
+      "left": "97/8",
+      "right": "49/4",
+      "gap_lower": "23891/10000"
+    },
+    {
+      "left": "49/4",
+      "right": "99/8",
+      "gap_lower": "22951/10000"
+    },
+    {
+      "left": "99/8",
+      "right": "25/2",
+      "gap_lower": "5501/2500"
+    },
+    {
+      "left": "25/2",
+      "right": "101/8",
+      "gap_lower": "21053/10000"
+    },
+    {
+      "left": "101/8",
+      "right": "51/4",
+      "gap_lower": "10039/5000"
+    },
+    {
+      "left": "51/4",
+      "right": "103/8",
+      "gap_lower": "19109/10000"
+    },
+    {
+      "left": "103/8",
+      "right": "13",
+      "gap_lower": "18143/10000"
+    },
+    {
+      "left": "13",
+      "right": "105/8",
+      "gap_lower": "8591/5000"
+    },
+    {
+      "left": "105/8",
+      "right": "53/4",
+      "gap_lower": "649/400"
+    },
+    {
+      "left": "53/4",
+      "right": "107/8",
+      "gap_lower": "15273/10000"
+    },
+    {
+      "left": "107/8",
+      "right": "27/2",
+      "gap_lower": "3581/2500"
+    },
+    {
+      "left": "27/2",
+      "right": "109/8",
+      "gap_lower": "13379/10000"
+    },
+    {
+      "left": "109/8",
+      "right": "55/4",
+      "gap_lower": "12437/10000"
+    },
+    {
+      "left": "55/4",
+      "right": "111/8",
+      "gap_lower": "23/20"
+    },
+    {
+      "left": "111/8",
+      "right": "14",
+      "gap_lower": "2113/2000"
+    }
+  ],
+  "monotone_second_floors": [
+    {
+      "theta": "0",
+      "second_floor": "8",
+      "floor_source_theta": "0",
+      "gap": [
+        "8",
+        "8"
+      ]
+    },
+    {
+      "theta": "1/8",
+      "second_floor": "41037/5000",
+      "floor_source_theta": "1/8",
+      "gap": [
+        "991/125",
+        "39641/5000"
+      ]
+    },
+    {
+      "theta": "1/4",
+      "second_floor": "21033/2500",
+      "floor_source_theta": "1/4",
+      "gap": [
+        "39291/5000",
+        "9823/1250"
+      ]
+    },
+    {
+      "theta": "3/8",
+      "second_floor": "21543/2500",
+      "floor_source_theta": "3/8",
+      "gap": [
+        "4869/625",
+        "77907/10000"
+      ]
+    },
+    {
+      "theta": "1/2",
+      "second_floor": "22049/2500",
+      "floor_source_theta": "1/2",
+      "gap": [
+        "77247/10000",
+        "77249/10000"
+      ]
+    },
+    {
+      "theta": "5/8",
+      "second_floor": "45101/5000",
+      "floor_source_theta": "5/8",
+      "gap": [
+        "76609/10000",
+        "19153/2500"
+      ]
+    },
+    {
+      "theta": "3/4",
+      "second_floor": "92191/10000",
+      "floor_source_theta": "3/4",
+      "gap": [
+        "75991/10000",
+        "15199/2000"
+      ]
+    },
+    {
+      "theta": "7/8",
+      "second_floor": "47081/5000",
+      "floor_source_theta": "7/8",
+      "gap": [
+        "4712/625",
+        "75399/10000"
+      ]
+    },
+    {
+      "theta": "1",
+      "second_floor": "96117/10000",
+      "floor_source_theta": "1",
+      "gap": [
+        "37407/5000",
+        "74823/10000"
+      ]
+    },
+    {
+      "theta": "9/8",
+      "second_floor": "98053/10000",
+      "floor_source_theta": "9/8",
+      "gap": [
+        "18563/2500",
+        "14853/2000"
+      ]
+    },
+    {
+      "theta": "5/4",
+      "second_floor": "24993/2500",
+      "floor_source_theta": "5/4",
+      "gap": [
+        "73709/10000",
+        "4608/625"
+      ]
+    },
+    {
+      "theta": "11/8",
+      "second_floor": "6367/625",
+      "floor_source_theta": "11/8",
+      "gap": [
+        "36591/5000",
+        "7321/1000"
+      ]
+    },
+    {
+      "theta": "3/2",
+      "second_floor": "20751/2000",
+      "floor_source_theta": "3/2",
+      "gap": [
+        "36337/5000",
+        "7271/1000"
+      ]
+    },
+    {
+      "theta": "13/8",
+      "second_floor": "105619/10000",
+      "floor_source_theta": "13/8",
+      "gap": [
+        "3609/500",
+        "7223/1000"
+      ]
+    },
+    {
+      "theta": "7/4",
+      "second_floor": "21493/2000",
+      "floor_source_theta": "7/4",
+      "gap": [
+        "71703/10000",
+        "71767/10000"
+      ]
+    },
+    {
+      "theta": "15/8",
+      "second_floor": "27323/2500",
+      "floor_source_theta": "15/8",
+      "gap": [
+        "1781/250",
+        "17831/2500"
+      ]
+    },
+    {
+      "theta": "2",
+      "second_floor": "1111/100",
+      "floor_source_theta": "2",
+      "gap": [
+        "70791/10000",
+        "70897/10000"
+      ]
+    },
+    {
+      "theta": "17/8",
+      "second_floor": "112889/10000",
+      "floor_source_theta": "17/8",
+      "gap": [
+        "17589/2500",
+        "70489/10000"
+      ]
+    },
+    {
+      "theta": "9/4",
+      "second_floor": "114659/10000",
+      "floor_source_theta": "9/4",
+      "gap": [
+        "34967/5000",
+        "35049/5000"
+      ]
+    },
+    {
+      "theta": "19/8",
+      "second_floor": "14551/1250",
+      "floor_source_theta": "19/8",
+      "gap": [
+        "34761/5000",
+        "17431/2500"
+      ]
+    },
+    {
+      "theta": "5/2",
+      "second_floor": "59069/5000",
+      "floor_source_theta": "5/2",
+      "gap": [
+        "69123/10000",
+        "34683/5000"
+      ]
+    },
+    {
+      "theta": "21/8",
+      "second_floor": "14981/1250",
+      "floor_source_theta": "21/8",
+      "gap": [
+        "34367/5000",
+        "34513/5000"
+      ]
+    },
+    {
+      "theta": "11/4",
+      "second_floor": "60769/5000",
+      "floor_source_theta": "11/4",
+      "gap": [
+        "34177/5000",
+        "687/100"
+      ]
+    },
+    {
+      "theta": "23/8",
+      "second_floor": "123207/10000",
+      "floor_source_theta": "23/8",
+      "gap": [
+        "67983/10000",
+        "8549/1250"
+      ]
+    },
+    {
+      "theta": "3",
+      "second_floor": "24971/2000",
+      "floor_source_theta": "3",
+      "gap": [
+        "3381/500",
+        "68099/10000"
+      ]
+    },
+    {
+      "theta": "25/8",
+      "second_floor": "126481/10000",
+      "floor_source_theta": "25/8",
+      "gap": [
+        "67263/10000",
+        "67821/10000"
+      ]
+    },
+    {
+      "theta": "13/4",
+      "second_floor": "128087/10000",
+      "floor_source_theta": "13/4",
+      "gap": [
+        "66913/10000",
+        "67559/10000"
+      ]
+    },
+    {
+      "theta": "27/8",
+      "second_floor": "129671/10000",
+      "floor_source_theta": "27/8",
+      "gap": [
+        "66569/10000",
+        "67311/10000"
+      ]
+    },
+    {
+      "theta": "7/2",
+      "second_floor": "131233/10000",
+      "floor_source_theta": "7/2",
+      "gap": [
+        "66229/10000",
+        "67077/10000"
+      ]
+    },
+    {
+      "theta": "29/8",
+      "second_floor": "132773/10000",
+      "floor_source_theta": "29/8",
+      "gap": [
+        "65893/10000",
+        "66859/10000"
+      ]
+    },
+    {
+      "theta": "15/4",
+      "second_floor": "13429/1000",
+      "floor_source_theta": "15/4",
+      "gap": [
+        "1639/250",
+        "13331/2000"
+      ]
+    },
+    {
+      "theta": "31/8",
+      "second_floor": "27157/2000",
+      "floor_source_theta": "31/8",
+      "gap": [
+        "65229/10000",
+        "13293/2000"
+      ]
+    },
+    {
+      "theta": "4",
+      "second_floor": "137257/10000",
+      "floor_source_theta": "4",
+      "gap": [
+        "649/100",
+        "4143/625"
+      ]
+    },
+    {
+      "theta": "33/8",
+      "second_floor": "69353/5000",
+      "floor_source_theta": "33/8",
+      "gap": [
+        "64571/10000",
+        "33063/5000"
+      ]
+    },
+    {
+      "theta": "17/4",
+      "second_floor": "140131/10000",
+      "floor_source_theta": "17/4",
+      "gap": [
+        "32121/5000",
+        "65977/10000"
+      ]
+    },
+    {
+      "theta": "35/8",
+      "second_floor": "141533/10000",
+      "floor_source_theta": "35/8",
+      "gap": [
+        "7989/1250",
+        "32921/5000"
+      ]
+    },
+    {
+      "theta": "9/2",
+      "second_floor": "142911/10000",
+      "floor_source_theta": "9/2",
+      "gap": [
+        "63581/10000",
+        "1643/250"
+      ]
+    },
+    {
+      "theta": "37/8",
+      "second_floor": "28853/2000",
+      "floor_source_theta": "37/8",
+      "gap": [
+        "63247/10000",
+        "6561/1000"
+      ]
+    },
+    {
+      "theta": "19/4",
+      "second_floor": "29119/2000",
+      "floor_source_theta": "19/4",
+      "gap": [
+        "6291/1000",
+        "32757/5000"
+      ]
+    },
+    {
+      "theta": "39/8",
+      "second_floor": "1469/100",
+      "floor_source_theta": "39/8",
+      "gap": [
+        "6257/1000",
+        "65431/10000"
+      ]
+    },
+    {
+      "theta": "5",
+      "second_floor": "148181/10000",
+      "floor_source_theta": "5",
+      "gap": [
+        "2489/400",
+        "65361/10000"
+      ]
+    },
+    {
+      "theta": "41/8",
+      "second_floor": "37359/2500",
+      "floor_source_theta": "41/8",
+      "gap": [
+        "30937/5000",
+        "8163/1250"
+      ]
+    },
+    {
+      "theta": "21/4",
+      "second_floor": "150667/10000",
+      "floor_source_theta": "21/4",
+      "gap": [
+        "30759/5000",
+        "65259/10000"
+      ]
+    },
+    {
+      "theta": "43/8",
+      "second_floor": "9492/625",
+      "floor_source_theta": "43/8",
+      "gap": [
+        "15289/2500",
+        "16307/2500"
+      ]
+    },
+    {
+      "theta": "11/2",
+      "second_floor": "38263/2500",
+      "floor_source_theta": "11/2",
+      "gap": [
+        "30393/5000",
+        "65209/10000"
+      ]
+    },
+    {
+      "theta": "45/8",
+      "second_floor": "154207/10000",
+      "floor_source_theta": "45/8",
+      "gap": [
+        "6041/1000",
+        "32601/5000"
+      ]
+    },
+    {
+      "theta": "23/4",
+      "second_floor": "31067/2000",
+      "floor_source_theta": "23/4",
+      "gap": [
+        "7503/1250",
+        "65209/10000"
+      ]
+    },
+    {
+      "theta": "47/8",
+      "second_floor": "78219/5000",
+      "floor_source_theta": "47/8",
+      "gap": [
+        "59631/10000",
+        "65227/10000"
+      ]
+    },
+    {
+      "theta": "6",
+      "second_floor": "31503/2000",
+      "floor_source_theta": "6",
+      "gap": [
+        "14807/2500",
+        "65259/10000"
+      ]
+    },
+    {
+      "theta": "49/8",
+      "second_floor": "79283/5000",
+      "floor_source_theta": "49/8",
+      "gap": [
+        "11763/2000",
+        "65303/10000"
+      ]
+    },
+    {
+      "theta": "25/4",
+      "second_floor": "159591/10000",
+      "floor_source_theta": "25/4",
+      "gap": [
+        "7299/1250",
+        "817/125"
+      ]
+    },
+    {
+      "theta": "51/8",
+      "second_floor": "160589/10000",
+      "floor_source_theta": "51/8",
+      "gap": [
+        "28979/5000",
+        "6543/1000"
+      ]
+    },
+    {
+      "theta": "13/2",
+      "second_floor": "80781/5000",
+      "floor_source_theta": "13/2",
+      "gap": [
+        "28757/5000",
+        "65511/10000"
+      ]
+    },
+    {
+      "theta": "53/8",
+      "second_floor": "40627/2500",
+      "floor_source_theta": "53/8",
+      "gap": [
+        "57059/10000",
+        "65607/10000"
+      ]
+    },
+    {
+      "theta": "27/4",
+      "second_floor": "163427/10000",
+      "floor_source_theta": "27/4",
+      "gap": [
+        "5659/1000",
+        "13143/2000"
+      ]
+    },
+    {
+      "theta": "55/8",
+      "second_floor": "164321/10000",
+      "floor_source_theta": "55/8",
+      "gap": [
+        "56111/10000",
+        "16459/2500"
+      ]
+    },
+    {
+      "theta": "7",
+      "second_floor": "41297/2500",
+      "floor_source_theta": "7",
+      "gap": [
+        "27809/5000",
+        "6597/1000"
+      ]
+    },
+    {
+      "theta": "57/8",
+      "second_floor": "16603/1000",
+      "floor_source_theta": "57/8",
+      "gap": [
+        "27557/5000",
+        "66117/10000"
+      ]
+    },
+    {
+      "theta": "29/4",
+      "second_floor": "33369/2000",
+      "floor_source_theta": "29/4",
+      "gap": [
+        "54597/10000",
+        "66277/10000"
+      ]
+    },
+    {
+      "theta": "59/8",
+      "second_floor": "83817/5000",
+      "floor_source_theta": "59/8",
+      "gap": [
+        "27033/5000",
+        "66451/10000"
+      ]
+    },
+    {
+      "theta": "15/2",
+      "second_floor": "168397/10000",
+      "floor_source_theta": "15/2",
+      "gap": [
+        "26761/5000",
+        "66637/10000"
+      ]
+    },
+    {
+      "theta": "61/8",
+      "second_floor": "33827/2000",
+      "floor_source_theta": "61/8",
+      "gap": [
+        "10593/2000",
+        "66837/10000"
+      ]
+    },
+    {
+      "theta": "31/4",
+      "second_floor": "169847/10000",
+      "floor_source_theta": "31/4",
+      "gap": [
+        "26197/5000",
+        "16763/2500"
+      ]
+    },
+    {
+      "theta": "63/8",
+      "second_floor": "85267/5000",
+      "floor_source_theta": "63/8",
+      "gap": [
+        "51809/10000",
+        "33639/5000"
+      ]
+    },
+    {
+      "theta": "8",
+      "second_floor": "42799/2500",
+      "floor_source_theta": "8",
+      "gap": [
+        "12803/2500",
+        "844/125"
+      ]
+    },
+    {
+      "theta": "65/8",
+      "second_floor": "171833/10000",
+      "floor_source_theta": "65/8",
+      "gap": [
+        "253/50",
+        "4236/625"
+      ]
+    },
+    {
+      "theta": "33/4",
+      "second_floor": "86223/5000",
+      "floor_source_theta": "33/4",
+      "gap": [
+        "6247/1250",
+        "34023/5000"
+      ]
+    },
+    {
+      "theta": "67/8",
+      "second_floor": "86517/5000",
+      "floor_source_theta": "67/8",
+      "gap": [
+        "49337/10000",
+        "6833/1000"
+      ]
+    },
+    {
+      "theta": "17/2",
+      "second_floor": "86799/5000",
+      "floor_source_theta": "17/2",
+      "gap": [
+        "9737/2000",
+        "17157/2500"
+      ]
+    },
+    {
+      "theta": "69/8",
+      "second_floor": "174139/10000",
+      "floor_source_theta": "69/8",
+      "gap": [
+        "48019/10000",
+        "68941/10000"
+      ]
+    },
+    {
+      "theta": "35/4",
+      "second_floor": "174657/10000",
+      "floor_source_theta": "35/4",
+      "gap": [
+        "47341/10000",
+        "69269/10000"
+      ]
+    },
+    {
+      "theta": "71/8",
+      "second_floor": "175151/10000",
+      "floor_source_theta": "71/8",
+      "gap": [
+        "46649/10000",
+        "17403/2500"
+      ]
+    },
+    {
+      "theta": "9",
+      "second_floor": "21953/1250",
+      "floor_source_theta": "9",
+      "gap": [
+        "9189/2000",
+        "69971/10000"
+      ]
+    },
+    {
+      "theta": "73/8",
+      "second_floor": "88037/5000",
+      "floor_source_theta": "73/8",
+      "gap": [
+        "45227/10000",
+        "8793/1250"
+      ]
+    },
+    {
+      "theta": "37/4",
+      "second_floor": "88251/5000",
+      "floor_source_theta": "37/4",
+      "gap": [
+        "44497/10000",
+        "70733/10000"
+      ]
+    },
+    {
+      "theta": "75/8",
+      "second_floor": "17691/1000",
+      "floor_source_theta": "75/8",
+      "gap": [
+        "8751/2000",
+        "71139/10000"
+      ]
+    },
+    {
+      "theta": "19/2",
+      "second_floor": "177297/10000",
+      "floor_source_theta": "19/2",
+      "gap": [
+        "43001/10000",
+        "71559/10000"
+      ]
+    },
+    {
+      "theta": "77/8",
+      "second_floor": "177663/10000",
+      "floor_source_theta": "77/8",
+      "gap": [
+        "8447/2000",
+        "71997/10000"
+      ]
+    },
+    {
+      "theta": "39/4",
+      "second_floor": "178009/10000",
+      "floor_source_theta": "39/4",
+      "gap": [
+        "41457/10000",
+        "18113/2500"
+      ]
+    },
+    {
+      "theta": "79/8",
+      "second_floor": "11146/625",
+      "floor_source_theta": "79/8",
+      "gap": [
+        "40667/10000",
+        "72923/10000"
+      ]
+    },
+    {
+      "theta": "10",
+      "second_floor": "35729/2000",
+      "floor_source_theta": "10",
+      "gap": [
+        "9967/2500",
+        "18353/2500"
+      ]
+    },
+    {
+      "theta": "81/8",
+      "second_floor": "35787/2000",
+      "floor_source_theta": "81/8",
+      "gap": [
+        "19529/5000",
+        "73917/10000"
+      ]
+    },
+    {
+      "theta": "41/4",
+      "second_floor": "89603/5000",
+      "floor_source_theta": "41/4",
+      "gap": [
+        "9559/2500",
+        "74441/10000"
+      ]
+    },
+    {
+      "theta": "83/8",
+      "second_floor": "179461/10000",
+      "floor_source_theta": "83/8",
+      "gap": [
+        "18703/5000",
+        "37491/5000"
+      ]
+    },
+    {
+      "theta": "21/2",
+      "second_floor": "89849/5000",
+      "floor_source_theta": "21/2",
+      "gap": [
+        "9141/2500",
+        "37771/5000"
+      ]
+    },
+    {
+      "theta": "85/8",
+      "second_floor": "179919/10000",
+      "floor_source_theta": "85/8",
+      "gap": [
+        "17857/5000",
+        "76121/10000"
+      ]
+    },
+    {
+      "theta": "43/4",
+      "second_floor": "45031/2500",
+      "floor_source_theta": "43/4",
+      "gap": [
+        "6971/2000",
+        "959/125"
+      ]
+    },
+    {
+      "theta": "87/8",
+      "second_floor": "90157/5000",
+      "floor_source_theta": "87/8",
+      "gap": [
+        "33987/10000",
+        "38669/5000"
+      ]
+    },
+    {
+      "theta": "11",
+      "second_floor": "22561/1250",
+      "floor_source_theta": "11",
+      "gap": [
+        "3311/1000",
+        "9747/1250"
+      ]
+    },
+    {
+      "theta": "89/8",
+      "second_floor": "22581/1250",
+      "floor_source_theta": "89/8",
+      "gap": [
+        "1289/400",
+        "15727/2000"
+      ]
+    },
+    {
+      "theta": "45/4",
+      "second_floor": "180793/10000",
+      "floor_source_theta": "45/4",
+      "gap": [
+        "7833/2500",
+        "15863/2000"
+      ]
+    },
+    {
+      "theta": "91/8",
+      "second_floor": "7237/400",
+      "floor_source_theta": "91/8",
+      "gap": [
+        "1902/625",
+        "80017/10000"
+      ]
+    },
+    {
+      "theta": "23/2",
+      "second_floor": "45261/2500",
+      "floor_source_theta": "23/2",
+      "gap": [
+        "7381/2500",
+        "4037/500"
+      ]
+    },
+    {
+      "theta": "93/8",
+      "second_floor": "3623/200",
+      "floor_source_theta": "93/8",
+      "gap": [
+        "2861/1000",
+        "5093/625"
+      ]
+    },
+    {
+      "theta": "47/4",
+      "second_floor": "181243/10000",
+      "floor_source_theta": "47/4",
+      "gap": [
+        "3461/1250",
+        "82259/10000"
+      ]
+    },
+    {
+      "theta": "95/8",
+      "second_floor": "45331/2500",
+      "floor_source_theta": "95/8",
+      "gap": [
+        "669/250",
+        "16611/2000"
+      ]
+    },
+    {
+      "theta": "12",
+      "second_floor": "90697/5000",
+      "floor_source_theta": "12",
+      "gap": [
+        "12913/5000",
+        "83877/10000"
+      ]
+    },
+    {
+      "theta": "97/8",
+      "second_floor": "45363/2500",
+      "floor_source_theta": "97/8",
+      "gap": [
+        "4977/2000",
+        "3389/400"
+      ]
+    },
+    {
+      "theta": "49/4",
+      "second_floor": "363/20",
+      "floor_source_theta": "49/4",
+      "gap": [
+        "23939/10000",
+        "85601/10000"
+      ]
+    },
+    {
+      "theta": "99/8",
+      "second_floor": "181537/10000",
+      "floor_source_theta": "99/8",
+      "gap": [
+        "5747/2500",
+        "21627/2500"
+      ]
+    },
+    {
+      "theta": "25/2",
+      "second_floor": "45391/2500",
+      "floor_source_theta": "25/2",
+      "gap": [
+        "22031/10000",
+        "21861/2500"
+      ]
+    },
+    {
+      "theta": "101/8",
+      "second_floor": "45391/2500",
+      "floor_source_theta": "25/2",
+      "gap": [
+        "21053/10000",
+        "88413/10000"
+      ]
+    },
+    {
+      "theta": "51/4",
+      "second_floor": "45391/2500",
+      "floor_source_theta": "25/2",
+      "gap": [
+        "10039/5000",
+        "89417/10000"
+      ]
+    },
+    {
+      "theta": "103/8",
+      "second_floor": "45391/2500",
+      "floor_source_theta": "25/2",
+      "gap": [
+        "19109/10000",
+        "90459/10000"
+      ]
+    },
+    {
+      "theta": "13",
+      "second_floor": "45391/2500",
+      "floor_source_theta": "25/2",
+      "gap": [
+        "18143/10000",
+        "91539/10000"
+      ]
+    },
+    {
+      "theta": "105/8",
+      "second_floor": "45391/2500",
+      "floor_source_theta": "25/2",
+      "gap": [
+        "8591/5000",
+        "53527/5000"
+      ]
+    },
+    {
+      "theta": "53/4",
+      "second_floor": "45391/2500",
+      "floor_source_theta": "25/2",
+      "gap": [
+        "649/400",
+        "108009/10000"
+      ]
+    },
+    {
+      "theta": "107/8",
+      "second_floor": "45391/2500",
+      "floor_source_theta": "25/2",
+      "gap": [
+        "15273/10000",
+        "108973/10000"
+      ]
+    },
+    {
+      "theta": "27/2",
+      "second_floor": "45391/2500",
+      "floor_source_theta": "25/2",
+      "gap": [
+        "3581/2500",
+        "109949/10000"
+      ]
+    },
+    {
+      "theta": "109/8",
+      "second_floor": "45391/2500",
+      "floor_source_theta": "25/2",
+      "gap": [
+        "13379/10000",
+        "22187/2000"
+      ]
+    },
+    {
+      "theta": "55/4",
+      "second_floor": "45391/2500",
+      "floor_source_theta": "25/2",
+      "gap": [
+        "12437/10000",
+        "111933/10000"
+      ]
+    },
+    {
+      "theta": "111/8",
+      "second_floor": "45391/2500",
+      "floor_source_theta": "25/2",
+      "gap": [
+        "23/20",
+        "5647/500"
+      ]
+    },
+    {
+      "theta": "14",
+      "second_floor": "45391/2500",
+      "floor_source_theta": "25/2",
+      "gap": [
+        "2113/2000",
+        "113959/10000"
+      ]
+    }
+  ],
+  "fourfold_coupling_steps": [
+    {
+      "theta": "1/2",
+      "next_theta": "2",
+      "gap_ratio": [
+        "70791/77249",
+        "70897/77247"
+      ],
+      "normalized_ratio_cubed": [
+        "354759587923671/1843905202676996",
+        "356355589624273/1843761988592892"
+      ]
+    },
+    {
+      "theta": "1",
+      "next_theta": "4",
+      "gap_ratio": [
+        "64900/74823",
+        "11048/12469"
+      ],
+      "normalized_ratio_cubed": [
+        "68339862250000/418895168479767",
+        "337125035648/1938629757709"
+      ]
+    },
+    {
+      "theta": "3/2",
+      "next_theta": "6",
+      "gap_ratio": [
+        "29614/36355",
+        "65259/72674"
+      ],
+      "normalized_ratio_cubed": [
+        "6492788031886/48049895438875",
+        "277920923168979/1535313911192096"
+      ]
+    },
+    {
+      "theta": "2",
+      "next_theta": "8",
+      "gap_ratio": [
+        "1652/2287",
+        "67520/70791"
+      ],
+      "normalized_ratio_cubed": [
+        "1127119952/11961853903",
+        "76955082752000/354759587923671"
+      ]
+    },
+    {
+      "theta": "5/2",
+      "next_theta": "10",
+      "gap_ratio": [
+        "19934/34683",
+        "73412/69123"
+      ],
+      "normalized_ratio_cubed": [
+        "1980265268126/41720544489987",
+        "98910221967632/330268942563867"
+      ]
+    },
+    {
+      "theta": "3",
+      "next_theta": "12",
+      "gap_ratio": [
+        "25826/68099",
+        "27959/22540"
+      ],
+      "normalized_ratio_cubed": [
+        "4306371064994/315807328374299",
+        "21855709135079/45805932256000"
+      ]
+    },
+    {
+      "theta": "7/2",
+      "next_theta": "14",
+      "gap_ratio": [
+        "10565/67077",
+        "113959/66229"
+      ],
+      "normalized_ratio_cubed": [
+        "1179257112125/1207204604742132",
+        "1479946066833079/1161995869307956"
+      ]
+    }
+  ],
+  "step_control": {
+    "noncommuting": true,
+    "resolvent_step_exact": true,
+    "return_decreases": true,
+    "alternating_derivative_coefficients_positive": true,
+    "sigma_before": [
+      [
+        "5/14",
+        "2/7"
+      ],
+      [
+        "2/7",
+        "19/28"
+      ]
+    ],
+    "sigma_after": [
+      [
+        "41/203",
+        "31/203"
+      ],
+      [
+        "31/203",
+        "68/203"
+      ]
+    ],
+    "unsigned_taylor": [
+      [
+        [
+          "5/14",
+          "2/7"
+        ],
+        [
+          "2/7",
+          "19/28"
+        ]
+      ],
+      [
+        [
+          "9/98",
+          "33/392"
+        ],
+        [
+          "33/392",
+          "183/784"
+        ]
+      ],
+      [
+        [
+          "131/5488",
+          "281/10976"
+        ],
+        [
+          "281/10976",
+          "1781/21952"
+        ]
+      ],
+      [
+        [
+          "967/153664",
+          "2467/307328"
+        ],
+        [
+          "2467/307328",
+          "17467/614656"
+        ]
+      ],
+      [
+        [
+          "7269/4302592",
+          "22269/8605184"
+        ],
+        [
+          "22269/8605184",
+          "172269/17210368"
+        ]
+      ]
+    ]
+  },
+  "scale_controls": {
+    "core_kinetic_power": "2/3",
+    "core_quartic_power": "2/3",
+    "compact_physical_g_power": "2/3",
+    "one_site_log_power": "-1/3",
+    "normalized_gap_counterexamples": [
+      "-1",
+      "0",
+      "1/6"
+    ],
+    "refinement_example": {
+      "inverse_g2": "5",
+      "increment": "1",
+      "theta_before": "25",
+      "theta_after": "36",
+      "wrong_quadrupled_theta": "100"
+    }
+  },
+  "claim_boundary": {
+    "one_site_only": true,
+    "vacuum_sector_only": true,
+    "full_hidden_return_retained": true,
+    "ground_state_transform_analytic_identity": true,
+    "coupling_step_is_spatial_rg": false,
+    "all_sector_absolute_collapse_proved": false,
+    "information_chart_implies_volume_uniformity": false,
+    "logarithmic_running_derived_from_core": false,
+    "bare_coupling_identified_with_fixed_box_effective_coupling": false,
+    "constant_modes_excluded_from_full_theory": false,
+    "volume_uniform_or_4d_gap": false,
+    "floating_point_used_to_certify": false
+  },
+  "source_sha256": {
+    "physics/yc5/YC5_RESOLVED_RETURN.md": "24634c4d8a2581b48d49364d9d9f002080d4e90465a09e3ee0f7f3fea22b2c75",
+    "physics/yc5/yc5_resolved_return.py": "c5441eb97645aad3d9bb6535d4a6ebe2e004a59a7c638176a5939baac520fc01",
+    "physics/yc5/YC5_RESULT.json": "306acd47eebf09f49ebc1a9d738e51e8c2d3b0aa03ef5b59213889ef6e85e6a0",
+    "physics/yc4/yc4_harmonic_return.py": "1306be7f2e9cdca014fabb61cc9afcff296bbdaabf8d1a29d36f0a7bb1f4d51e",
+    "physics/yc3/yc3_sector_splitting.py": "431b9c319904ef3e1aa7a560985603eaa65f99438a06bb1ed0e3d3c22ea22d52",
+    "physics/cm2/CM2_COMPACT_CORE_MATCHING.md": "76231c09666f5f43092282fd546cf1c342c36ed38829f2e96e0138bbb2134f0b",
+    "physics/cm2/CM2_RESULT.json": "6cbe89fdc1e85ee5d326c49f8ec468238bb5150af0b3a3744e4e08f521dab654",
+    "physics/tc1/TC1_CORE_OF_TURNS.md": "e7ee96ac926ce65bbf0dffd929537e027747cd15843fa74fbbc9c37fa4c08e4a",
+    "physics/ol1/OL1_ONE_SITE_LATTICE.md": "96949b54dea7bed4d06ebc2cd03f0bcde834a461806920c3bba5d9496f6b0b69",
+    "physics/yc6/YC6_VACUUM_STEP.md": "5bff2ff715672a6f88b0cdf44bcc02c0c03095bd1031b47978b243840a71ae2d",
+    "physics/yc6/yc6_vacuum_step.py": "96c1b74699c17d8a400327059b93aa4a68a340f80024318caf4a5c53e9a3ac81",
+    "physics/yc6/test_yc6.py": "0b369eaa7517438ecb6deaebc3c8d820fb51c840f2eba7c17977a6cf9f31d98c",
+    "physics/yc6/YC6_ENDPOINTS.json": "8a6b1e38b8b7e3e9e88e9a6010f07d2ae935fa352e287a3bc9c80c01712ebaa0"
+  }
+}

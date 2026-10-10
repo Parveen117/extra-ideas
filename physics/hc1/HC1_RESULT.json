@@ -1,0 +1,146 @@
+{
+  "stage": "HC1",
+  "base_commit": "b8a4805",
+  "checks": {
+    "signed circle": true,
+    "inverse reconstructs beta": true,
+    "inverse reconstructs radius": true,
+    "mirror preserves folded reading": true,
+    "mirror reverses signed reading": true,
+    "outgoing sign multiplier is positive for beta positive": true,
+    "radial determinant stays minus one": true,
+    "time gradient has unit squared norm": true,
+    "both radial null roots": true,
+    "falling clock has unit proper-time rate": true,
+    "tower exterior fold": true,
+    "tower radius mirror": true,
+    "tower orientation reverses at horizon": true,
+    "escape deficit squares": true,
+    "clock at next tower level": true,
+    "matrix curvature preserves both transverse directions": true,
+    "fixed base squaring radial angular amplification": true,
+    "fixed base squaring angular angular amplification": true,
+    "fixed base squaring changes native ratio": true,
+    "fixed base tower fails the unchanged vacuum profile": true,
+    "response rapidity derivative includes factor two": true,
+    "native radial angular formula": true,
+    "native angular angular formula": true,
+    "native geometric observer weight": true,
+    "native fourth order horizon divergence": true,
+    "geometric horizon remains finite": true,
+    "geometric singular centre": true,
+    "native monotonicity logarithmic derivative": true,
+    "native diagnostic spatial measure primitive": true,
+    "cutoff divergence coefficient": true,
+    "outgoing travel-time primitive": true,
+    "simple outgoing horizon zero": true,
+    "falling crossing time primitive": true,
+    "folded centre has two limiting sides": true,
+    "same folded reading opposite escape signs rational witness": true,
+    "horizon has one zero and one inward null root": true,
+    "rational tower decreases escape speed and radius": true,
+    "tower native diagnostic grows while geometric square stays below horizon": true
+  },
+  "signed_mirror_control": [
+    {
+      "beta": "1/2",
+      "u": "4/5",
+      "v": "3/5",
+      "speeds": [
+        "1/2",
+        "-3/2"
+      ]
+    },
+    {
+      "beta": "1",
+      "u": "1",
+      "v": "0",
+      "speeds": [
+        "0",
+        "-2"
+      ]
+    },
+    {
+      "beta": "2",
+      "u": "4/5",
+      "v": "-3/5",
+      "speeds": [
+        "-1",
+        "-3"
+      ]
+    }
+  ],
+  "exterior_tower": [
+    {
+      "beta": "1/3",
+      "r_over_rs": "9",
+      "escape_speed": "2/3",
+      "radial_angular": "-1/331776",
+      "angular_angular": "-1/82944",
+      "native_diagnostic": "1/55296",
+      "geometric_square": "4/177147",
+      "clock_squared": "8/9"
+    },
+    {
+      "beta": "3/5",
+      "r_over_rs": "25/9",
+      "escape_speed": "2/5",
+      "radial_angular": "-531441/40960000",
+      "angular_angular": "-531441/10240000",
+      "native_diagnostic": "1594323/20480000",
+      "geometric_square": "6377292/244140625",
+      "clock_squared": "16/25"
+    },
+    {
+      "beta": "15/17",
+      "r_over_rs": "289/225",
+      "escape_speed": "2/17",
+      "radial_angular": "-129746337890625/1401249857536",
+      "angular_angular": "-129746337890625/350312464384",
+      "native_diagnostic": "389239013671875/700624928768",
+      "geometric_square": "1556956054687500/582622237229761",
+      "clock_squared": "64/289"
+    },
+    {
+      "beta": "255/257",
+      "r_over_rs": "66049/65025",
+      "escape_speed": "2/257",
+      "radial_angular": "-75593101654204447168212890625/4796586931728129458176",
+      "angular_angular": "-75593101654204447168212890625/1199146732932032364544",
+      "native_diagnostic": "226779304962613341504638671875/2398293465864064729088",
+      "geometric_square": "907117219850453366018554687500/83022819845310162051379891201",
+      "clock_squared": "1024/66049"
+    }
+  ],
+  "exact_relation": "D = K/(2*N^8), exterior spherical profile only",
+  "claim_boundary": {
+    "conditional_spherical_horizon": true,
+    "native_curvature_divergent_at_horizon": true,
+    "spacetime_curvature_divergent_at_horizon": false,
+    "infinite_physical_energy_proved": false,
+    "tower_is_infalling_time_evolution": false,
+    "positive_static_response_continued_inside": false,
+    "fixed_base_squaring_preserves_spherical_vacuum_law": false,
+    "ST_centre_identified_with_black_hole": false,
+    "new_YM_gap_or_continuum_result": false,
+    "finite_checks_are_formal_verification": false
+  },
+  "source_pins": {
+    "physics/mo1/MO1_MOTION.md": "ab09b0449bf6409e857bf4089fe9fa8572c7564bda9f46179385f66913f7ab0b",
+    "physics/ma1/MA1_MO1_ASSUMPTION_FROM_THE_LAW.md": "bf2b3de38771b5e3ffd858645b440fb96a3a2dc89b83f810a7c53df2a0029495",
+    "physics/gr1/GR1_MEMORY_DICTIONARY.md": "8c67c95f9f0074a578e2ce6b7c9173d8d7f9fb8e0fcef37f26b5fc5d0f820b71",
+    "physics/gb1/GB1_GRAVITY_IN_THE_BLOCK.md": "25bdf86dcedd41ab9f7f1348421d9e6e752d87f884c94ecb49117ad0bfc25626",
+    "physics/cv1/CV1_FRAME_CURVATURE.md": "a1e687952db261b875dda74f5c9f0bd0db79d19e1e218ccf98aa8038e75b0b7c",
+    "physics/nc1/NC1_NATIVE_CURVATURE_OF_THE_FIELD.md": "e3efafe962a8450f3f76fc5b6e8b7d8ccd8a3dcf8a4ac8af48ec973a0821eb9f",
+    "physics/nc1/nc1_native_curvature_of_the_field.py": "40c9496decd2a7ea12ce1212a9ee064095670beb653f45fe21ce675230ac3994",
+    "physics/lt1/LT1_LAMBDA_TOWER_INWARD.md": "0488f9d2bf773607d32f0d4113e8f50e186c8bb27bb4dc467e4db58d45e966b8",
+    "physics/lt1/lt1_lambda_tower_inward.py": "eaf5938482810e12a17dbaafc18bd7f375f6b1fa8c6e8f1c500de4ab2cc42d81",
+    "physics/ts1/TS1_TWO_SHEET_CLOSURE.md": "5e6b74bc196497f3e0d4d4d1ad7cb4381faf8fe78940e70414d368d68cbc96ea",
+    "physics/hm1/HM1_HORIZON_MEMORY_PRODUCT.md": "7ad1ed98fab91ef707134cb70da6bc13a717fe0aa56bf152f9ed5a283ac532f9",
+    "uncut/hx1/HX1_FALL_IS_A_TURN_OF_CUTS.md": "6e6dd25ca98c55add7180fef7a80f4dbe4b9a22460fe2bd21ad0f683869b9484",
+    "physics/yc10/YC10_CLOSED_RETURN_AND_SCALE.md": "4205457d145c42b5224cc2a3ffbcde43170972475ef15536835b9e6fedddc498",
+    "physics/hc1/HC1_SIGNED_HORIZON_AND_NATIVE_CURVATURE.md": "48947d714872c44d375ed347a041dac4f870e96af24340ee5ba1006c33f7fae0",
+    "physics/hc1/hc1_signed_horizon.py": "bd14b05b6af00d4f6586491c8c7a53b48c36383b77850f362f701b86f7f46f25",
+    "physics/hc1/test_hc1.py": "c4f9cf1fbd0d832478de2f9eda97b7f670cf80eaef4912b8332355d292c6fc98"
+  }
+}

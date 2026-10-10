@@ -247,3 +247,11 @@ the lowest rate of G4 to [5.186691, 5.186742] and [8.002732, 8.002896].
 [DR1](../dr1/DR1_CORE_BY_ROWS.md) reads the same weight by rows: four turns get a gap of 0.4425 in place of
 0.0031, five to ten turns get their first floors, and the walk of G6 ends at exactly (729/256)^(1/3).
 Nothing else above is changed.
+
+## Later note (PC1, 9 October)
+
+[PC1](../pc1/PC1_PAIR_CLUSTERS.md) takes G6 one step further. G6 used only the lowest rate of each sub-core;
+PC1 keeps its lowest reading and the floor behind it, and counts through the one-turn share of that reading.
+Two turns: lowest rate in [2.6592, 2.6594] (G6 had only ≤ 2.7445) and a gap of at least 0.5536 on all readings.
+Three turns: at most one reading under 5.6923 on all readings, so the gap is at least 0.5056 in place of
+0.3342, and without the row condition of G2. Nothing above is changed.

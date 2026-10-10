@@ -1,0 +1,194 @@
+{
+  "stage": "YC3",
+  "checks": {
+    "complete lowest gauge multiplets have dimensions 1,1,2,5": true,
+    "every retained vector is a simultaneous-conjugation singlet": true,
+    "retained vectors have precisely k odd centre links": true,
+    "free spherical generator gives energy 3k on the entire retained multiplet": true,
+    "next parity-allowed free shell is at least 8,8,8,12 above 3k": true,
+    "Haar Gram and potential compressions are diagonal in the declared bases": true,
+    "all compressed first-order branches have exact rational slopes": true,
+    "full residual Gram is diagonal with the exact rational squared norms": true,
+    "residuals are orthogonal to every retained vector, not only their own trial": true,
+    "scalar-coordinate reflections distinguish the retained branches": true,
+    "potential respects scalar-coordinate reflections and centre parities": true,
+    "scalar-product branch is the sector bottom for every 0<theta<=2": true,
+    "k=0: entire residual resolves into exact free shells with no zero-energy part": true,
+    "k=1: entire residual resolves into exact free shells with no zero-energy part": true,
+    "k=2: entire residual resolves into exact free shells with no zero-energy part": true,
+    "k=3: entire residual resolves into exact free shells with no zero-energy part": true,
+    "single-odd sectors precede k=2,k=3 and vacuum excitations throughout [0,2]": true,
+    "all-sector gap has the uniform lower 65/54 on [0,2]": true,
+    "gap curvature coefficient is exactly 77/1920": true,
+    "YC2 Haar variance becomes the vacuum residual norm with factor four": true
+  },
+  "all_pass": true,
+  "reviewed_merge_head": "4aad5a0ec0fbdac727894ad0c315ed822cc0350e",
+  "sectors": [
+    {
+      "odd_links": 0,
+      "number_of_centre_sectors": 1,
+      "free_bottom": 0,
+      "free_bottom_multiplicity_in_one_sector": 1,
+      "full_complement_free_increment": 8,
+      "compression_slopes": [
+        "9/4"
+      ],
+      "residual_norm_squares": [
+        "19/16"
+      ],
+      "a": "9/4",
+      "b2": "19/16",
+      "second_order_coefficient_c": "31/256",
+      "splitting_second_order_coefficient": "0",
+      "exact_residual_spectral_weights": {
+        "8": "3/4",
+        "16": "7/16"
+      },
+      "branch_selection_margins_at_theta_2": [],
+      "energy_enclosure_at_theta_2": [
+        "22/7",
+        "9/2"
+      ]
+    },
+    {
+      "odd_links": 1,
+      "number_of_centre_sectors": 3,
+      "free_bottom": 3,
+      "free_bottom_multiplicity_in_one_sector": 1,
+      "full_complement_free_increment": 8,
+      "compression_slopes": [
+        "7/4"
+      ],
+      "residual_norm_squares": [
+        "43/48"
+      ],
+      "a": "7/4",
+      "b2": "43/48",
+      "second_order_coefficient_c": "311/3840",
+      "splitting_second_order_coefficient": "77/1920",
+      "exact_residual_spectral_weights": {
+        "8": "25/72",
+        "12": "1/4",
+        "16": "7/48",
+        "20": "11/72"
+      },
+      "branch_selection_margins_at_theta_2": [],
+      "energy_enclosure_at_theta_2": [
+        "154/27",
+        "13/2"
+      ]
+    },
+    {
+      "odd_links": 2,
+      "number_of_centre_sectors": 3,
+      "free_bottom": 6,
+      "free_bottom_multiplicity_in_one_sector": 2,
+      "full_complement_free_increment": 8,
+      "compression_slopes": [
+        "4/3",
+        "20/9"
+      ],
+      "residual_norm_squares": [
+        "47/72",
+        "715/648"
+      ],
+      "a": "4/3",
+      "b2": "715/648",
+      "second_order_coefficient_c": "451/8640",
+      "splitting_second_order_coefficient": "2381/34560",
+      "exact_residual_spectral_weights": {
+        "8": "1/9",
+        "12": "25/72",
+        "20": "11/72",
+        "24": "1/24"
+      },
+      "branch_selection_margins_at_theta_2": [
+        "103/384"
+      ],
+      "energy_enclosure_at_theta_2": [
+        "6773/864",
+        "26/3"
+      ]
+    },
+    {
+      "odd_links": 3,
+      "number_of_centre_sectors": 1,
+      "free_bottom": 9,
+      "free_bottom_multiplicity_in_one_sector": 5,
+      "full_complement_free_increment": 12,
+      "compression_slopes": [
+        "1",
+        "5/3",
+        "5/3",
+        "5/3",
+        "10/3"
+      ],
+      "residual_norm_squares": [
+        "11/24",
+        "175/216",
+        "175/216",
+        "175/216",
+        "25/24"
+      ],
+      "a": "1",
+      "b2": "25/24",
+      "second_order_coefficient_c": "19/576",
+      "splitting_second_order_coefficient": "203/2304",
+      "exact_residual_spectral_weights": {
+        "12": "1/3",
+        "24": "1/8"
+      },
+      "branch_selection_margins_at_theta_2": [
+        "449/936",
+        "449/936",
+        "449/936",
+        "373/192"
+      ],
+      "energy_enclosure_at_theta_2": [
+        "127/12",
+        "11"
+      ]
+    }
+  ],
+  "enclosure": "max(3k,3k+a theta-b2 theta^2/(delta-a theta)) <= E_k <= 3k+a theta",
+  "second_order": "E_k=3k+a theta-c theta^2+R; |R|<=6 b_scalar^2 theta^3/[delta(delta-a theta)] on [0,2]",
+  "all_sector_gap": {
+    "window": "0 <= theta <= 2",
+    "first_excitation": "three single-centre-odd sector bottoms",
+    "exact_multiplicity": 3,
+    "uniform_lower": "65/54",
+    "gap_at_theta_1": [
+      "707/300",
+      "249/92"
+    ],
+    "gap_at_theta_2": [
+      "65/54",
+      "47/14"
+    ],
+    "expansion": "3-theta/2+(77/1920)theta^2+R_gap",
+    "remainder": "|R_gap|<=theta^3[(43/8)/(8(8-7theta/4))+(57/8)/(8(8-9theta/4))]"
+  },
+  "claim_boundary": {
+    "actual_quantum_operator": "H_theta=-sum Delta_S3+2 theta sum cross-squares; gauge invariant one-site SU2^3",
+    "static_Gibbs_compass_substituted_for_quantum_resolvent": false,
+    "complete_hidden_space_floor_used": true,
+    "weak_limit_centre_splitting_rate": false,
+    "larger_lattice_or_continuum_mass_gap": false,
+    "DR2_column_count_identified_with_volume": false,
+    "twisted_trace_is_unique_possible_sector_observer": false,
+    "status": "written analytic proof with rational replay, not formal proof-assistant verification"
+  },
+  "source_sha256": {
+    "physics/ol1/OL1_ONE_SITE_LATTICE.md": "96949b54dea7bed4d06ebc2cd03f0bcde834a461806920c3bba5d9496f6b0b69",
+    "physics/cb1/CB1_COMPACT_BRIDGE.md": "57a41587461983c8bf2c8ab44b36d964d1f11d96ac23cf46c0a797d2b4fa0b02",
+    "physics/cm2/CM2_COMPACT_CORE_MATCHING.md": "76231c09666f5f43092282fd546cf1c342c36ed38829f2e96e0138bbb2134f0b",
+    "physics/cm2/CM2_RESULT.json": "6cbe89fdc1e85ee5d326c49f8ec468238bb5150af0b3a3744e4e08f521dab654",
+    "physics/dr2/DR2_ALL_TURN_GAP.md": "23ca9d140500761cbb96f2465dea46ae02834542a9a7db2a9b7dd1f5fb971457",
+    "physics/dr2/DR2_RESULT.json": "ace5964f37f4f3c6e506e85834e6f1a82acbe8e3dc4d89e530611bd806dc49b8",
+    "physics/yc2/YC2_COMPACT_CENTRE_RESPONSE.md": "b26d0956f504c7cd13c2e01ffe8935de34591bf178db2903b2b8a00e567f123b",
+    "physics/yc3/YC3_SECTOR_SPLITTING.md": "f9ef682c16b0b46ddd8e4b942289ae6a7071d8f1cacdd9ee67de830febeb8342",
+    "physics/yc3/yc3_sector_splitting.py": "431b9c319904ef3e1aa7a560985603eaa65f99438a06bb1ed0e3d3c22ea22d52",
+    "physics/yc3/test_yc3.py": "47c5d0728bc5d2b2d299b02e630d811a653c3f1230f0bc06993c4a2b9546f91e"
+  }
+}

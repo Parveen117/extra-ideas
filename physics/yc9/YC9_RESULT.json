@@ -1,0 +1,191 @@
+{
+  "stage": "YC9",
+  "base_commit": "15ae97f",
+  "checks": {
+    "overlapping creation operators multiply to zero": true,
+    "disjoint creators commute": true,
+    "all creators commute including entangled-support overlap pattern": true,
+    "creation exponentials are mutually inverse": true,
+    "free similarity has only the first commutator": true,
+    "local dressed interaction equals exact commutator expansion": true,
+    "remote creator cannot enter through an enlarged union": true,
+    "excitation commutator covariance": true,
+    "excitation identity uses no assumed scalar ground residual": true,
+    "outside-face excitation pattern and projection count on 64 words": true,
+    "(3, 3, 3): no_self_or_parallel_edges": true,
+    "(3, 3, 3): two_faces_from_each_incident_plane": true,
+    "(3, 3, 3): elementary_faces_centre_even": true,
+    "(3, 3, 3): triangles_are_single_direction_length_three_windings": true,
+    "(3, 3, 3): all short triangles counted": true,
+    "(3, 4, 5): no_self_or_parallel_edges": true,
+    "(3, 4, 5): two_faces_from_each_incident_plane": true,
+    "(3, 4, 5): elementary_faces_centre_even": true,
+    "(3, 4, 5): triangles_are_single_direction_length_three_windings": true,
+    "(3, 4, 5): all short triangles counted": true,
+    "(4, 4, 4): no_self_or_parallel_edges": true,
+    "(4, 4, 4): two_faces_from_each_incident_plane": true,
+    "(4, 4, 4): elementary_faces_centre_even": true,
+    "(4, 4, 4): triangles_are_single_direction_length_three_windings": true,
+    "(4, 4, 4): all short triangles counted": true,
+    "rational exponential majorant": true,
+    "fixed-point ball maps to itself": true,
+    "contraction has a strict rational reserve": true,
+    "excitation relative norm at the endpoint": true,
+    "actual full-product gap endpoint": true,
+    "actual physical vacuum gap endpoint": true,
+    "three-plane join budget gives the isotropic endpoint": true,
+    "isotropic floor slope and endpoint": true,
+    "single-source return agrees with YC8 second coefficient": true,
+    "centre-odd short winding cannot lower vacuum free floor": true,
+    "three transverse planes label eight local octants": true
+  },
+  "carrier": "3D periodic spatial SU(2); every side >=3; unit S3 link metric; full untruncated local Hilbert spaces",
+  "geometry_controls": [
+    {
+      "shape": [
+        3,
+        3,
+        3
+      ],
+      "links": 81,
+      "plaquettes": 81,
+      "no_self_or_parallel_edges": true,
+      "two_faces_from_each_incident_plane": true,
+      "elementary_faces_centre_even": true,
+      "triangle_count": 27,
+      "expected_triangle_count": 27,
+      "triangles_are_single_direction_length_three_windings": true,
+      "centre_parities_of_triangles": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "shape": [
+        3,
+        4,
+        5
+      ],
+      "links": 180,
+      "plaquettes": 180,
+      "no_self_or_parallel_edges": true,
+      "two_faces_from_each_incident_plane": true,
+      "elementary_faces_centre_even": true,
+      "triangle_count": 20,
+      "expected_triangle_count": 20,
+      "triangles_are_single_direction_length_three_windings": true,
+      "centre_parities_of_triangles": [
+        [
+          1,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "shape": [
+        4,
+        4,
+        4
+      ],
+      "links": 192,
+      "plaquettes": 192,
+      "no_self_or_parallel_edges": true,
+      "two_faces_from_each_incident_plane": true,
+      "elementary_faces_centre_even": true,
+      "triangle_count": 0,
+      "expected_triangle_count": 0,
+      "triangles_are_single_direction_length_three_windings": true,
+      "centre_parities_of_triangles": []
+    }
+  ],
+  "weighted_creator_ball": "1/16",
+  "local_budget_max": "1/160",
+  "isotropic_theta_max": "1/640",
+  "contraction_upper": "11/18",
+  "relative_excitation_upper": "1/9",
+  "actual_vacuum_gap_endpoint": "32/3",
+  "actual_full_product_gap_endpoint": "8/3",
+  "isotropic_vacuum_gap_formula": "12 - (2560/3)*theta on 0 <= theta <= 1/640",
+  "join_path": [
+    {
+      "s": "0",
+      "theta_xy": "1/640",
+      "theta_yz": "0",
+      "theta_zx": "0",
+      "beta": "1/320",
+      "vacuum_gap_lower": "34/3"
+    },
+    {
+      "s": "1/2",
+      "theta_xy": "1/640",
+      "theta_yz": "1/1280",
+      "theta_zx": "1/1280",
+      "beta": "3/640",
+      "vacuum_gap_lower": "11"
+    },
+    {
+      "s": "1",
+      "theta_xy": "1/640",
+      "theta_yz": "1/640",
+      "theta_zx": "1/640",
+      "beta": "1/160",
+      "vacuum_gap_lower": "32/3"
+    }
+  ],
+  "iteration_tail_at_endpoint": [
+    {
+      "iteration": 0,
+      "local_cluster_error_upper": "3/1120"
+    },
+    {
+      "iteration": 1,
+      "local_cluster_error_upper": "11/6720"
+    },
+    {
+      "iteration": 4,
+      "local_cluster_error_upper": "14641/39191040"
+    },
+    {
+      "iteration": 8,
+      "local_cluster_error_upper": "214358881/4114118615040"
+    },
+    {
+      "iteration": 16,
+      "local_cluster_error_upper": "45949729863572161/45337424942728520663040"
+    }
+  ],
+  "claim_boundary": {
+    "actual_YM_finite_volume_gap_uniform_in_volume": true,
+    "actual_vacuum_sector_gap_uniform_in_volume": true,
+    "comparison_operator_substituted_for_actual_YM": false,
+    "all_cluster_orders_controlled_analytically": true,
+    "finite_checks_are_formal_proof": false,
+    "independent_planar_tensor_product": false,
+    "first_excitation_identified": false,
+    "infinite_volume_state_constructed_in_this_packet": false,
+    "continuum_4d_proved": false,
+    "new_general_existence_of_strong_coupling_gaps_claimed": false
+  },
+  "source_pins": {
+    "physics/yc8/YC8_LOCAL_VACUUM_DRESSING.md": "11fb883a8c9f1f1f52c8a44ee18d0346e38e809cb80d9160d23caad563659943",
+    "physics/yc8/yc8_local_vacuum_dressing.py": "a037bf2674d54e084588a96578d7c4912fada29d0cf3622c90ec3e6ea32df31f",
+    "physics/yc8/YC8_RESULT.json": "9d14b74d282b2e8c6c0187cecaa843f8473c3a648d8495a41edc2bc86ab2dc44",
+    "physics/yc9/YC9_SHARED_PLANE_GAP.md": "589d6cbccff494068f7b2fc606965a1f9b8462c31f4b1a5ad41671f5eff053f9",
+    "physics/yc9/yc9_shared_plane_gap.py": "0c78e8bda61dd1a020adee46cadc78786cba46b9a6dee043f16c429f66773381",
+    "physics/yc9/test_yc9.py": "27b0f3673147cb48f1d270467884c0272df055b79be3965fec6cabee4acae278"
+  }
+}

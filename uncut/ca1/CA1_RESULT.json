@@ -1,0 +1,82 @@
+{
+ "stage": "CA1",
+ "checks": {
+  "four C readings are two differently defined reciprocal response pairs": true,
+  "stiffness pair carries the same compass number": true,
+  "compliances and stiffnesses multiply to the PV anchor": true,
+  "thermal lambda pair carries chi": true,
+  "chi survives independent changes of the two axis units": true,
+  "chi plus coupling orientation reconstructs the positive diagonal-scaling orbit": true,
+  "one anchor recovers its partner in each dimensional family": true,
+  "four canonical charts name the same invariant": true,
+  "a turn can move chi above one": true,
+  "chi alone does not classify a noncommuting response": true,
+  "symmetric and turn shares both survive unit changes": true,
+  "equal chi matches reduced volume only after a calibration curve is supplied": true
+ },
+ "all_pass": true,
+ "commuting_compass": {
+  "chi": "det(H)/(A C) = C_V/C_P = C_S/C_T = K_T/K_S",
+  "gamma": "1/chi = C_P/C_V = C_T/C_S = K_S/K_T",
+  "memory": "1-chi = B^2/(A C)",
+  "information": "I_cut = -(1/2) Log chi"
+ },
+ "typed_definitions": {
+  "C_P": "T (dS/dT)_P",
+  "C_V": "T (dS/dT)_V",
+  "C_S": "-P (dV/dP)_S",
+  "C_T": "-P (dV/dP)_T",
+  "K_S": "-V (dP/dV)_S",
+  "K_T": "-V (dP/dV)_T"
+ },
+ "unit_orbit_witness": {
+  "H": [
+   [
+    4,
+    2
+   ],
+   [
+    2,
+    3
+   ]
+  ],
+  "rescaled_H": [
+   [
+    36,
+    30
+   ],
+   [
+    30,
+    75
+   ]
+  ],
+  "chi": "2/3"
+ },
+ "noncommuting_witness": {
+  "same_chi": "3/4",
+  "omega_squared_first": "0",
+  "omega_squared_second": "4/9",
+  "reading": "chi needs the additional turn share when B1 != B2"
+ },
+ "reduced_volume_witness": {
+  "chi": "2/3",
+  "v_at_slope_1": "1/2",
+  "v_at_slope_2": "1/4",
+  "absolute_volume_needs": "V0"
+ },
+ "claim_boundary": {
+  "absolute_scale_from_chi": false,
+  "absolute_volume_from_chi": false,
+  "arbitrary_dimensionless_number_can_be_called_Cp_over_Cv": false,
+  "YM_gap_coefficient_is_a_response_ratio": false,
+  "two_source_response_Hessian_needed_for_YM_calibration": true
+ },
+ "source_sha256": {
+  "uncut/up3/UP3_SEQUENCE_OF_DIAGRAMS.md": "d4cca37ff2466084c4463e56c3f1209f7609101d3adb8e2156680fb888cf87b2",
+  "uncut/up4/UP4_COST_OF_COMMUTING_CUTS.md": "9feebe560fd6c12846b1b65ca81f580d16757d1f926cedd8f1f840d6ad021bb2",
+  "uncut/up5/UP5_SEED_HIERARCHY_CHECKED.md": "cf8be631fd2e1a2c7df5cc624dc4c27e2342cf8225d3d1c678050b6c6f909672",
+  "uncut/up6/UP6_EIGHT_SCALE_OPERATIONS.md": "ebcaa80a7ef76d834add872bceae2656026a8aac7cd7a1d52e5175f4f4c61638",
+  "uncut/ci1/CI1_SHARED_INFORMATION.md": "e02b2e57d9e06ba1385feb8500e2c9e87673fcb278f93b2ccbc85309bdd9b6e4",
+  "physics/td1/TD1_THERMODYNAMIC_BLOCK_ON_THE_DIAGONAL.md": "6a0285a6977050bc71a7ad204cefca4a7acb86cd96da04dc316051175c3a4a28"
+ }
+}
