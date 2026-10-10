@@ -1,0 +1,109 @@
+{
+  "stage": "YC41",
+  "date": "2026-10-10",
+  "parent_commit": "c0ea33bc26bb9bf8e6452cb628e29469b0d84514",
+  "record_type": "source provenance and written-proof scope, not an executed certificate",
+  "inputs": [
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "c0ea33bc26bb9bf8e6452cb628e29469b0d84514",
+      "path": "AGENTS.md",
+      "sha256": "ac2c7428644770e3189c60e9d5870874a6c16dcd994ced4aee1d3d7b81c24ae8",
+      "role": "construction and theory-first policy"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "c0ea33bc26bb9bf8e6452cb628e29469b0d84514",
+      "path": "FRAMEWORK_WORKING_CONTEXT.md",
+      "sha256": "8e03754a2f90e2ba63588f805a8e0f6610f4f7de0f86b514761d5361eb166918",
+      "role": "current endpoint and continuity"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "c0ea33bc26bb9bf8e6452cb628e29469b0d84514",
+      "path": "physics/yc22/YC22_GAUGE_PROTECTED_CHANNELS.md",
+      "sha256": "aae5bd8981ddb9c65c177b0c187e1c8c77fc4c9a1fd977e6c847d2436c445ce4",
+      "role": "actual and reference ground-state energy form; electric normalization"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "c0ea33bc26bb9bf8e6452cb628e29469b0d84514",
+      "path": "physics/yc27/YC27_FUSED_BOUNDARY_AND_COMPLEMENTARY_BLOCKS.md",
+      "sha256": "a5cf1525c5b6aab33abc2db9c0eacaf81d39d0047356ae3204848bfa7247237b",
+      "role": "full Wilson carrier, face geometry and inherited parameter windows"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "c0ea33bc26bb9bf8e6452cb628e29469b0d84514",
+      "path": "physics/yc37/YC37_SPATIAL_BLOCK_AND_ENERGY_MEMORY.md",
+      "sha256": "0d4f2a9d494dab549d76ceda6ed070fb728cfaf76cfc78af1f62af9b2cdc93e4",
+      "role": "completed square, spatial tensor carrier and energy-memory obligations"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "c0ea33bc26bb9bf8e6452cb628e29469b0d84514",
+      "path": "physics/yc39/YC39_OPERATOR_BOUNDARY_RETURN.md",
+      "sha256": "28069391a80abe89e45ed90cc1a709b61f271a7753c734d7dfbb3b25e371dd14",
+      "role": "operator/form domains and exact orthogonal graph algebra"
+    },
+    {
+      "repository": "Parveen117/extra-ideas",
+      "revision": "c0ea33bc26bb9bf8e6452cb628e29469b0d84514",
+      "path": "physics/yc40/YC40_ENERGY_WEIGHTED_BOUNDARY_RETURN.md",
+      "sha256": "7040c13983c81608a3aa28fedae0d66d098d5ede4d420ee55c3af291b12c4880",
+      "role": "full energy projection bound, port derivative budget and complete low-energy return"
+    }
+  ],
+  "external_background": [
+    {
+      "url": "https://arxiv.org/abs/1401.1576",
+      "title": "Leopardi and Stern, The abstract Hodge-Dirac operator and its stable discretization",
+      "role": "abstract Hodge background; the present two-term decomposition is proved directly"
+    },
+    {
+      "url": "https://arxiv.org/abs/math/0006120",
+      "title": "Corach, Maestripieri and Stojanoff, Oblique projections and Schur complements",
+      "role": "bounded-operator background for energy-compatible projections and shorted forms; the present unbounded-domain argument is supplied explicitly"
+    }
+  ],
+  "claim_scope": {
+    "established_under_inherited_hypotheses": [
+      "closed hidden-gradient range and exact Schur/harmonic-lift factorization",
+      "internal Wilson gradient budget",
+      "uniform energy-norm bound Lambda <= 7/6 for the actual graph projection",
+      "transport of two-sided energy budgets to compressed operators",
+      "adjoint-stable shifted-energy Banach algebra and conditional Neumann inversion",
+      "a tensor layer controlled by the maximum projection constant independently of block count",
+      "exact hidden-source product defects",
+      "fixed-length low-energy word error O(b^-1) and a stated logarithmically growing range",
+      "preservation of YC40 smallness for doubly energy-restricted returns and derivative metrics"
+    ],
+    "open": [
+      "uniform projection/interaction constants across arbitrary compression depth",
+      "unrestricted retained-energy transitions and returned operators in the same norm",
+      "time-dependent words and connected all-history sums",
+      "comparison with the actual interacting joined energy at successive scales",
+      "continuum construction and continuum gap"
+    ]
+  },
+  "verification": {
+    "written_checks": [
+      "closed-range gradient projection",
+      "harmonic lift and returned metric",
+      "reference-ground product rule",
+      "internal derivative incidence",
+      "graph correction energy bound",
+      "rational 7/6 bound",
+      "tensor energy comparison",
+      "algebra products adjoints and completeness",
+      "product-defect telescoping and word-length condition",
+      "window-restricted return norm",
+      "exact two-channel matrix control",
+      "zero specialization",
+      "energy-unit transport"
+    ],
+    "new_executable_mathematical_certificate": false,
+    "predecessor_suites_replayed": false,
+    "numerical_crossover_computed": false
+  }
+}

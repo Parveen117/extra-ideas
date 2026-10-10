@@ -46,7 +46,47 @@ to a later validation pass. Mathematical hypotheses, derivations, domains
 and consistency remain part of the work. Do not label an unperformed
 certificate as complete. The root AGENTS.md records this updated preference.
 
-**Latest energy-weighted source stage, 10 October:** YC40 continues YC39
+**Latest energy-compression stage, 10 October:** YC41 continues YC40 at
+c0ea33bc26bb9bf8e6452cb628e29469b0d84514. Its first class-closure
+obligation now has a quantitative construction. With the actual
+ground-state gradient G, the original hidden G_Q has closed range
+because G_Q*G_Q=D>=cb. The bounded projection onto that range gives
+GW=(I-P_grad)G_P and K=G_P*(I-P_grad)G_P as forms. This is a
+two-term Hodge-type closed-range split, not a cohomology claim.
+The oblique projection E=WP is exactly energy contractive.
+To control the orthogonal P_J, use the internal mixed-potential
+derivative bound Gamma_V<=zeta b, zeta=12 ell^2 I_face, in the admitted
+3D simple-plaquette family. The reference ground form gives
+||h_ret^(1/2)Y*||<=kappa_b sqrt(cb), with
+kappa_b^2=[beta sqrt(1+beta)+sqrt(zeta)/(c^(3/2)b)]^2+beta^3.
+Then E=P_J+JY*L* and h>=cb LL* give
+||h^(1/2)P_J x||<=(1+kappa_b)||h^(1/2)x||.
+The inherited caps and b>=8 imply Lambda_b=1+kappa_b<=7/6.
+Compression transports each two-sided energy budget (m,a,b_O) to
+(m,Lambda a,Lambda b_O), including the actual adjoint and pairing.
+The resulting shifted-energy Banach star algebra is closed under
+products, sums and adjoints, and under Neumann inversion when its
+stated algebra-norm condition holds. A tensor compression layer of
+any number of blocks uses Lambda_max, not the product of Lambdas.
+The independent-block energy reference is explicit; changing to the
+interacting joined energy still needs its comparison.
+Compression is not multiplicative: (OF)_r-O_rF_r is exactly
+(L*O*J)*(L*FJ). On low-energy endpoints, each fixed-length port word
+has O(b^-1) defect with an explicit intermediate-energy recurrence.
+A sufficient growing-length condition is m_b^2(7/6)^m_b/b ->0.
+These are ordered products, not arbitrary time-dependent histories.
+YC40's doubly energy-compressed returns and derivative metrics remain
+small in this algebra, with norm factor sqrt(1+E/tau). No claim is
+made for the unrestricted return in that norm.
+At internal mixed zero the projection constant is exactly one;
+word defects vanish when the reference count cut contains every
+intermediate support. A finite matrix example verifies the harmonic
+split and shows why a hidden floor plus ||Y|| alone would not imply
+the new energy bound. Uniform control across depth, unrestricted
+retained-energy transitions and connected dynamical histories remain.
+Written proofs and exact controls; additional certification deferred.
+
+**Preceding energy-weighted source stage, 10 October:** YC40 continues YC39
 at 26ddc5ffaf9f1cbe257c91f25155e1bd3237c2aa. Its missing excited-input
 boundary estimate is supplied for the actual smooth Wilson multiplication
 ports. The completed square proves the stronger full-form inequality
@@ -2096,7 +2136,19 @@ are not independently promoted here.
    The next target is an energy-weighted interaction class stable under
    joins and retained-channel alternation. Written proof, Fourier-circle
    and zero checks only; no new numerical certificate or continuum claim.
-62. Keep meaningful discoveries and revisions with source pin, hypothesis,
+62. **[YC41](physics/yc41/YC41_HODGE_ENERGY_COMPRESSION.md)**
+   continues YC40 at c0ea33b. The hidden-gradient closed-range split
+   yields the Schur energy and its harmonic lift. The orthogonal graph
+   projection has energy-norm constant at most7/6 in the inherited
+   windows; a tensor layer uses the maximum over blocks. Generated
+   ports enter an adjoint-stable energy algebra with explicit budgets.
+   Hidden-source pairings give exact product defects and O(b^-1)
+   fixed-length word errors at low-energy endpoints. A growing-length
+   range and the algebra norm of window-restricted returns are explicit.
+   Later-layer constants, unrestricted energy transitions and dynamical
+   histories remain. Written theory and exact controls, no new numerical
+   certificate or continuum result.
+63. Keep meaningful discoveries and revisions with source pin, hypothesis,
    target and next measurable obligation. The older comparison map is pinned
    inside CM1's frozen certificate; use this context and new stage notes for
    subsequent progress unless intentionally regenerating the dependent packet.

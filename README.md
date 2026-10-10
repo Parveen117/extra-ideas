@@ -14,7 +14,24 @@ actual hidden-channel return. Includes corrected reachability claims and
 an exact target-residual projection. This is a review of the pasted discussion,
 not a new lattice-gap or continuum stage.
 
-Latest Yang–Mills theory development: **[YC40 — energy-weighted Wilson sources beyond the vacuum](physics/yc40/YC40_ENERGY_WEIGHTED_BOUNDARY_RETURN.md)**.
+Latest Yang–Mills theory development: **[YC41 — Hodge-type split and controlled energy compression](physics/yc41/YC41_HODGE_ENERGY_COMPRESSION.md)**.
+The hidden gradient has a closed range; removing that component gives
+the exact Schur energy with its returned metric. An internal Wilson
+derivative estimate proves that the actual orthogonal graph projection
+amplifies the energy norm by at most7/6 in the inherited windows.
+Any number of independent blocks compressed in one tensor layer uses
+the maximum of these constants. Generated operators keep explicit
+energy budgets and belong to an adjoint-stable algebra, even after
+leaving the scalar multiplier class. The exact product defect is a
+hidden-source pairing; fixed-length words have O(b^(-1)) error at
+low-energy endpoints, with a stated logarithmically growing range.
+Window-restricted complete returns and metrics retain their YC40
+smallness in the same energy algebra. Subsequent-layer constants,
+unrestricted energy transitions and time-dependent histories remain.
+Written theory and exact controls; no new numerical certificate or
+continuum result.
+
+Preceding Yang–Mills theory development: **[YC40 — energy-weighted Wilson sources beyond the vacuum](physics/yc40/YC40_ENERGY_WEIGHTED_BOUNDARY_RETURN.md)**.
 Combines YC22's actual ground-state energy form with YC39's graph cut
 to prove h>=cb LL*. Smooth Wilson boundary ports then satisfy the
 previously missing excited-input estimate, including entangled inputs
@@ -23,9 +40,10 @@ gives an all-retained-input relative energy bound. On regular 3D blocks
 the complete hidden return is O(b^(-2/3)) at fixed retained energy; on
 the vacuum it improves to O(b^(-4/3)), with metric O(b^(-7/3)).
 The return also vanishes on growing input windows E_b=o(sqrt(b)).
-All hidden insertions and the internal source are retained. The next
-task is closure of the energy-weighted interaction class under joins
-and retained-channel alternation. Written proofs and an exact Fourier
+All hidden insertions and the internal source are retained. YC41 advances
+the operator-class closure through one tensor compression layer;
+unrestricted iteration and retained-channel alternation remain.
+Written proofs and an exact Fourier
 circle control; no new numerical certificate or continuum claim.
 
 Preceding Yang–Mills theory development: **[YC39 — vacuum-aligned cut and complete operator boundary excursion](physics/yc39/YC39_OPERATOR_BOUNDARY_RETURN.md)**.
