@@ -14,7 +14,21 @@ actual hidden-channel return. Includes corrected reachability claims and
 an exact target-residual projection. This is a review of the pasted discussion,
 not a new lattice-gap or continuum stage.
 
-Latest Yang–Mills theory development: **[YC39 — vacuum-aligned cut and complete operator boundary excursion](physics/yc39/YC39_OPERATOR_BOUNDARY_RETURN.md)**.
+Latest Yang–Mills theory development: **[YC40 — energy-weighted Wilson sources beyond the vacuum](physics/yc40/YC40_ENERGY_WEIGHTED_BOUNDARY_RETURN.md)**.
+Combines YC22's actual ground-state energy form with YC39's graph cut
+to prove h>=cb LL*. Smooth Wilson boundary ports then satisfy the
+previously missing excited-input estimate, including entangled inputs
+and noncommuting environment coefficients. A derivative-incidence budget
+gives an all-retained-input relative energy bound. On regular 3D blocks
+the complete hidden return is O(b^(-2/3)) at fixed retained energy; on
+the vacuum it improves to O(b^(-4/3)), with metric O(b^(-7/3)).
+The return also vanishes on growing input windows E_b=o(sqrt(b)).
+All hidden insertions and the internal source are retained. The next
+task is closure of the energy-weighted interaction class under joins
+and retained-channel alternation. Written proofs and an exact Fourier
+circle control; no new numerical certificate or continuum claim.
+
+Preceding Yang–Mills theory development: **[YC39 — vacuum-aligned cut and complete operator boundary excursion](physics/yc39/YC39_OPERATOR_BOUNDARY_RETURN.md)**.
 The smooth Wilson domain justifies an orthogonal graph complement that
 excludes the actual block vacuum and keeps the hidden floor cb. YC38's
 source Gram now admits bounded noncommuting environment operators, with
@@ -22,9 +36,9 @@ no environment gap assumption. The complete hidden inverse sums every
 boundary insertion staying in that channel, with ratio O(b^(-1/3)) and
 an explicit series remainder. Its vacuum-anchored return is O(b^(-1/3))
 on regular 3D blocks; its derivative metric is O(b^(-4/3)). Internal
-low-energy retained sources obey beta E. The excited-input boundary
-estimate is stated as the next open target, with its conditional return
-bound. Full retained/hidden alternation, spatial iteration and continuum
+low-energy retained sources obey beta E. Its excited-input boundary
+target and conditional return bound are supplied for smooth Wilson
+ports by YC40. Full retained/hidden alternation, spatial iteration and continuum
 calibration remain open. Written theory; additional certification deferred.
 The preceding backlog is preserved in the
 [publication history](research-history/README.md).

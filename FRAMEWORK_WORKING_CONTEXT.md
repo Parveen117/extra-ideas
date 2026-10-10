@@ -46,7 +46,44 @@ to a later validation pass. Mathematical hypotheses, derivations, domains
 and consistency remain part of the work. Do not label an unperformed
 certificate as complete. The root AGENTS.md records this updated preference.
 
-**Latest operator boundary stage, 10 October:** YC39 continues the published
+**Latest energy-weighted source stage, 10 October:** YC40 continues YC39
+at 26ddc5ffaf9f1cbe257c91f25155e1bd3237c2aa. Its missing excited-input
+boundary estimate is supplied for the actual smooth Wilson multiplication
+ports. The completed square proves the stronger full-form inequality
+h>=cb LL*, rather than merely the hidden compression floor. Reuse YC22's
+actual positive-ground-state form h[psi F]=integral |grad F|^2 dnu.
+For V_partial=sum f_p tensor A_p, n ports, define
+gamma_p=||sum_mu |X_mu f_p|^2||_infinity and rho as the maximum number
+of ports differentiated by one link direction. Normalized fundamental
+single-plaquette ports have gamma_p<=12 in the unit-S^3 convention.
+These bounds require smooth scalar multiplier ports, not arbitrary
+bounded observables. The coefficients A_p can be noncommuting.
+Pointwise operator Cauchy--Schwarz gives V*V<=n Sigma and
+sum_mu (X_mu V)*(X_mu V)<=rho Sigma_gamma, with
+Sigma=sum A_p*A_p and Sigma_gamma=sum gamma_p A_p*A_p.
+The product rule then gives the all-retained-input relative form bound
+B*B<=[(1+t)n h_ret tensor Sigma+(1+1/t)rho I tensor Sigma_gamma]/(cb).
+On Pi_E this yields C_b(E)=(sqrt(nE)+sqrt(rho gamma_*))^2/(cb), which
+is uniformly bounded in b under bounded local port density. This proves
+YC39(22), and hence its full-source return estimate (23), for this
+Wilson class. The source retains Y h_ret Pi_E and its cross terms.
+All environment entanglement and all hidden-channel insertions remain.
+For regular 3D boundaries the complete return is O(b^-2/3) at fixed E
+and its derivative metric is O(b^-5/3). On the actual vacuum the source
+has no input-gradient term, giving O(b^-4/3) return and O(b^-7/3) metric.
+The return also vanishes for E_b=o(sqrt(b)). Constants use local
+derivative incidence instead of the quasi-local covariance constant.
+No practical crossover was certified. The exact reference source is
+zero once floor(b/8)>=floor(2E)+k_0; a Fourier-circle example attains
+the general source inequality at its cutoff. At zero boundary coupling
+the internal excited-input return remains unless its source vanishes.
+Next: transported energy-form/source budgets for generated J* f J
+and returned interactions, plus retained-energy transitions and repeated
+retained/hidden alternation. The Wilson multiplier class is not yet
+proved stable under spatial joins. Written proof and exact controls;
+additional executable certification and numerical work remain deferred.
+
+**Preceding operator boundary stage, 10 October:** YC39 continues the published
 YC38 snapshot at `4be87b04122890040720dc3acada9d71e7dae3ce`.
 The finite compact Wilson domain supplies the smoothing property
 AY*=ATD^-1 bounded for each block, which justifies the orthogonal graph
@@ -2048,7 +2085,18 @@ are not independently promoted here.
    return bound includes internal/boundary cross terms. All retained-input
    histories and spatial iteration remain. Written theory only; no new
    numerical certificate, practical crossover or continuum result.
-61. Keep meaningful discoveries and revisions with source pin, hypothesis,
+61. **[YC40](physics/yc40/YC40_ENERGY_WEIGHTED_BOUNDARY_RETURN.md)**
+   continues YC39 at 26ddc5f. Ground-state energy and the graph completed
+   square supply its excited-input boundary estimate for smooth Wilson
+   ports. The all-input relative form bound carries the retained energy,
+   derivative incidence and noncommuting coefficient column. Its complete
+   hidden return is O(b^-2/3) at fixed energy, O(b^-4/3) on the vacuum,
+   and vanishes on growing windows E_b=o(sqrt(b)). Internal/boundary
+   mixed sources, hidden series and derivative metrics remain explicit.
+   The next target is an energy-weighted interaction class stable under
+   joins and retained-channel alternation. Written proof, Fourier-circle
+   and zero checks only; no new numerical certificate or continuum claim.
+62. Keep meaningful discoveries and revisions with source pin, hypothesis,
    target and next measurable obligation. The older comparison map is pinned
    inside CM1's frozen certificate; use this context and new stage notes for
    subsequent progress unless intentionally regenerating the dependent packet.
